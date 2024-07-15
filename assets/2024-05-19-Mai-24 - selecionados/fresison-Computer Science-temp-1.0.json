@@ -1,0 +1,29 @@
+{
+  "Computer Science": {
+     "Fresison" : [
+		{
+          "major premise": "No machine learning models are computer graphics",
+          "minor premise": "Some computer graphics are algorithms",
+          "conclusion": "Some algorithms are not machine learning models",
+		  "incorrect conclusions": [
+			"All computer graphics are algorithms",
+			"All computer graphics are machine learning models",
+			"All algorithms are machine learning models",
+			"All machine learning models are computer graphics",
+			"All machine learning models are algorithms",
+			"Some computer graphics are not algorithms",
+			"Some machine learning models are algorithms",
+			"Some machine learning models are not algorithms",
+			"Some machine learning models are computer graphics",
+			"Some machine learning models are algorithms",
+			"Some algorithms are machine learning models",
+			"Some algorithms are not computer graphics",
+			"Some computer graphics are machine learning models",
+			"No computer graphics is an algorithm",
+			"No algorithm is not computer graphics",
+			"No algorithm is computer graphics"
+		  ]
+		}
+	 ]
+  }
+}

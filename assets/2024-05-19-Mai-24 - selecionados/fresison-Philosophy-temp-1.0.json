@@ -1,0 +1,28 @@
+{
+  "Philosophy": {
+    "Fresison": [
+      {
+        "major premise": "No empiricists are rationalists",
+        "minor premise": "Some philosophers are empiricists",
+        "conclusion": "Some philosophers are not rationalists",
+        "incorrect conclusions": [
+          "All empiricists are philosophers",
+          "All empiricists are rationalists",
+          "All rationalists are philosophers",
+          "All rationalists are empiricists",
+          "All philosophers are rationalists",
+          "All philosophers are empiricists",
+          "Some empiricists are not philosophers",
+          "Some philosophers are rationalists",
+          "Some rationalists are philosophers",
+          "Some rationalists are not empiricists",
+          "Some philosophers are not empiricists",
+          "Some philosophers are rationalists",
+          "No philosophers are rationalists",
+          "No rationalists are philosophers",
+          "No empiricists are not rationalists"
+        ]
+      }  
+    ]
+  }
+}

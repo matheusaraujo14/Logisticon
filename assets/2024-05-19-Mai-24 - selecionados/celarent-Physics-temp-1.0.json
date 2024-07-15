@@ -1,0 +1,54 @@
+{
+  "Physics": {
+     "Celarent" : [
+		{
+          "major premise": "No protons are photons",
+          "minor premise": "All quarks are protons",
+          "conclusion": "No quarks are photons",
+		  "incorrect conclusions": [
+			"All quarks are photons",
+			"All protons are photons",
+			"Some quarks are protons",
+			"Some quarks are photons",
+			"Some protons are quarks",
+			"Some protons are photons",
+			"Some protons are not quarks",
+			"Some photons are quarks",
+			"Some photons are protons"
+		  ]
+		},
+		{
+          "major premise": "No electrons are neutrons",
+          "minor premise": "All leptons are electrons",
+          "conclusion": "No leptons are neutrons",
+		  "incorrect conclusions": [
+			"All leptons are neutrons",
+			"All electrons are neutrons",
+			"Some leptons are electrons",
+			"Some leptons are neutrons",
+			"Some electrons are leptons",
+			"Some electrons are neutrons",
+			"Some electrons are not leptons",
+			"Some neutrons are leptons",
+			"Some neutrons are electrons"
+		  ]
+		},
+		{
+          "major premise": "No neutrinos are protons",
+          "minor premise": "All particles are neutrinos",
+          "conclusion": "No particles are protons",
+		  "incorrect conclusions": [
+			"All particles are protons",
+			"All neutrinos are protons",
+			"Some particles are neutrinos",
+			"Some particles are protons",
+			"Some neutrinos are particles",
+			"Some neutrinos are protons",
+			"Some neutrinos are not particles",
+			"Some protons are particles",
+			"Some protons are neutrinos"
+		  ]
+		}
+	 ]
+  }
+}

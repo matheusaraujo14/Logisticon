@@ -1,0 +1,54 @@
+{
+  "Astronomy": {
+    "Barbara": [
+      {
+        "major premise": "All stars are celestial bodies",
+        "minor premise": "All red dwarfs are stars",
+        "conclusion": "All red dwarfs are celestial bodies",
+        "incorrect conclusions": [
+          "All celestial bodies are stars",
+          "All celestial bodies are red dwarfs",
+          "Some red dwarfs are stars",
+          "Some red dwarfs are celestial bodies",
+          "Some red dwarfs are not celestial bodies",
+          "Some red dwarfs are not stars",
+          "Some celestial bodies are red dwarfs",
+          "Some celestial bodies are stars",
+          "Some stars are red dwarfs"
+        ]
+      },
+      {
+        "major premise": "All gas giants are planets",
+        "minor premise": "All Jupiter-like planets are gas giants",
+        "conclusion": "All Jupiter-like planets are planets",
+        "incorrect conclusions": [
+          "All planets are gas giants",
+          "All planets are Jupiter-like planets",
+          "Some Jupiter-like planets are gas giants",
+          "Some Jupiter-like planets are planets",
+          "Some Jupiter-like planets are not planets",
+          "Some Jupiter-like planets are not gas giants",
+          "Some planets are Jupiter-like planets",
+          "Some planets are gas giants",
+          "Some gas giants are Jupiter-like planets"
+        ]
+      },
+      {
+        "major premise": "All spiral galaxies are galaxies",
+        "minor premise": "All Milky Way-like galaxies are spiral galaxies",
+        "conclusion": "All Milky Way-like galaxies are galaxies",
+        "incorrect conclusions": [
+          "All galaxies are spiral galaxies",
+          "All galaxies are Milky Way-like galaxies",
+          "Some Milky Way-like galaxies are spiral galaxies",
+          "Some Milky Way-like galaxies are galaxies",
+          "Some Milky Way-like galaxies are not galaxies",
+          "Some Milky Way-like galaxies are not spiral galaxies",
+          "Some galaxies are Milky Way-like galaxies",
+          "Some galaxies are spiral galaxies",
+          "Some spiral galaxies are Milky Way-like galaxies"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Ecology": {
+    "Dimatis": [
+      {
+        "major premise": "Some herbivores are mammals",
+        "minor premise": "All mammals are animals",
+        "conclusion": "Some animals are herbivores",
+        "incorrect conclusions": [
+          "All animals are herbivores",
+          "All animals are mammals",
+          "All herbivores are animals",
+          "All herbivores are mammals",
+          "All mammals are herbivores",
+          "Some animals are not mammals",
+          "Some herbivores are not animals",
+          "Some herbivores are not mammals",
+          "Some mammals are not animals",
+          "Some mammals are not herbivores",
+          "No herbivores are animals",
+          "No herbivores are mammals",
+          "No mammals are animals",
+          "No mammals are herbivores",
+          "No animals are mammals",
+          "No animals are herbivores"
+        ]
+      },
+      {
+        "major premise": "Some amphibians are vertebrates",
+        "minor premise": "All vertebrates are organisms",
+        "conclusion": "Some organisms are amphibians",
+        "incorrect conclusions": [
+          "All organisms are amphibians",
+          "All organisms are vertebrates",
+          "All amphibians are organisms",
+          "All amphibians are vertebrates",
+          "All vertebrates are amphibians",
+          "Some organisms are not vertebrates",
+          "Some amphibians are not organisms",
+          "Some amphibians are not vertebrates",
+          "Some vertebrates are not organisms",
+          "Some vertebrates are not amphibians",
+          "No amphibians are organisms",
+          "No amphibians are vertebrates",
+          "No vertebrates are organisms",
+          "No vertebrates are amphibians",
+          "No organisms are vertebrates",
+          "No organisms are amphibians"
+        ]
+      }
+    ]
+  }
+}

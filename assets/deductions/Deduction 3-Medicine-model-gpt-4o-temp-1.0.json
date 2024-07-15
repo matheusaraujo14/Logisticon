@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Medicine": [
+      {
+        "premises": [ 
+          "If the patient does not take medication, then the symptoms worsen",
+          "If the patient takes medication, then the symptoms improve"
+        ],
+        "conclusions": [
+          "If the symptoms do not worsen, the patient takes medication",
+          "If the symptoms do not improve, the patient does not take medication",
+          "If the symptoms do not improve, then the symptoms worsen",
+          "The symptoms worsen or the symptoms improve",
+          "If the patient takes medication and the symptoms worsen, then the symptoms improve"
+        ],
+        "incorrect conclusions": [
+          "If the symptoms worsen, the patient takes medication",
+          "If the symptoms worsen, the patient does not take medication",
+          "If the symptoms do not worsen, the patient does not take medication",
+          "The symptoms worsen and the symptoms improve",
+          "If the symptoms improve, the patient takes medication",
+          "If the symptoms worsen and the symptoms improve, then the patient takes medication"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the doctor is not consulted, then the condition deteriorates",
+          "If the doctor is consulted, then the condition stabilizes"
+        ],
+        "conclusions": [
+          "If the condition does not deteriorate, the doctor is consulted",
+          "If the condition does not stabilize, the doctor is not consulted",
+          "If the condition does not stabilize, then the condition deteriorates",
+          "The condition deteriorates or the condition stabilizes",
+          "If the doctor is consulted and the condition deteriorates, then the condition stabilizes"
+        ],
+        "incorrect conclusions": [
+          "If the condition deteriorates, the doctor is consulted",
+          "If the condition deteriorates, the doctor is not consulted",
+          "If the condition does not deteriorate, the doctor is not consulted",
+          "The condition deteriorates and the condition stabilizes",
+          "If the condition stabilizes, the doctor is consulted",
+          "If the condition deteriorates and the condition stabilizes, then the doctor is consulted"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the treatment is not applied, then the disease progresses",
+          "If the treatment is applied, then the disease regresses"
+        ],
+        "conclusions": [
+          "If the disease does not progress, the treatment is applied",
+          "If the disease does not regress, the treatment is not applied",
+          "If the disease does not regress, then the disease progresses",
+          "The disease progresses or the disease regresses",
+          "If the treatment is applied and the disease progresses, then the disease regresses"
+        ],
+        "incorrect conclusions": [
+          "If the disease progresses, the treatment is applied",
+          "If the disease progresses, the treatment is not applied",
+          "If the disease does not progress, the treatment is not applied",
+          "The disease progresses and the disease regresses",
+          "If the disease regresses, the treatment is applied",
+          "If the disease progresses and the disease regresses, then the treatment is applied"
+        ]
+      }
+    ]
+  }
+}

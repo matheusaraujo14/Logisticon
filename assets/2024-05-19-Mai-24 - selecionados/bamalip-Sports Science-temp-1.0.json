@@ -1,0 +1,69 @@
+{
+  "Sports Science": {
+     "Bamalip" : [
+		{
+          "major premise": "All football players are athletes",
+          "minor premise": "All athletes are humans and some football players exist",
+          "conclusion": "Some humans are football players",
+		  "incorrect conclusions": [
+			"All humans are athletes",
+			"All athletes are football players",
+			"Some humans are not athletes",
+			"Some humans are not football players",
+			"Some athletes are not football players",
+			"Some athletes are not humans",
+			"Some football players are not athletes",
+			"Some football players are not humans",
+			"No humans are athletes",
+			"No humans are football players",
+			"No athletes are humans",
+			"No athletes are football players",
+			"No football players are athletes",
+			"No football players are humans"
+		  ]
+		},
+		{
+          "major premise": "All marathon runners are endurance athletes",
+          "minor premise": "All endurance athletes are sportsmen and some marathon runners exist",
+          "conclusion": "Some sportsmen are marathon runners",
+		  "incorrect conclusions": [
+			"All sportsmen are endurance athletes",
+			"All endurance athletes are marathon runners",
+			"Some sportsmen are not endurance athletes",
+			"Some sportsmen are not marathon runners",
+			"Some endurance athletes are not marathon runners",
+			"Some endurance athletes are not sportsmen",
+			"Some marathon runners are not endurance athletes",
+			"Some marathon runners are not sportsmen",
+			"No sportsmen are endurance athletes",
+			"No sportsmen are marathon runners",
+			"No endurance athletes are sportsmen",
+			"No endurance athletes are marathon runners",
+			"No marathon runners are endurance athletes",
+			"No marathon runners are sportsmen"
+		  ]
+		},
+		{
+          "major premise": "All tennis players are racket sports athletes",
+          "minor premise": "All racket sports athletes are competitors and some tennis players exist",
+          "conclusion": "Some competitors are tennis players",
+		  "incorrect conclusions": [
+			"All competitors are racket sports athletes",
+			"All racket sports athletes are tennis players",
+			"Some competitors are not racket sports athletes",
+			"Some competitors are not tennis players",
+			"Some racket sports athletes are not tennis players",
+			"Some racket sports athletes are not competitors",
+			"Some tennis players are not racket sports athletes",
+			"Some tennis players are not competitors",
+			"No competitors are racket sports athletes",
+			"No competitors are tennis players",
+			"No racket sports athletes are competitors",
+			"No racket sports athletes are tennis players",
+			"No tennis players are racket sports athletes",
+			"No tennis players are competitors"
+		  ]
+		}
+	 ]
+  }
+}

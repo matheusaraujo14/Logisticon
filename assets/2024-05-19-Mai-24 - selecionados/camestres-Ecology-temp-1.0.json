@@ -1,0 +1,54 @@
+{
+  "Ecology": {
+    "Camestres": [
+      {
+        "major premise": "All dolphins are mammals",
+        "minor premise": "No fish is a mammal",
+        "conclusion": "No fish is a dolphin",
+        "incorrect conclusions": [
+          "All dolphins are fish",
+          "All mammals are fish",
+          "Some dolphins are mammals",
+          "Some dolphins are fish",
+          "Some mammals are fish",
+          "Some mammals are dolphins",
+          "Some fish are mammals",
+          "Some fish are dolphins",
+          "Some mammals are not dolphins"
+        ]
+      },
+      {
+        "major premise": "All robins are birds",
+        "minor premise": "No mammals are birds",
+        "conclusion": "No mammals are robins",
+        "incorrect conclusions": [
+          "All robins are mammals",
+          "All birds are mammals",
+          "Some robins are birds",
+          "Some robins are mammals",
+          "Some birds are mammals",
+          "Some birds are robins",
+          "Some mammals are birds",
+          "Some mammals are robins",
+          "Some birds are not robins"
+        ]
+      },
+      {
+        "major premise": "All pines are trees",
+        "minor premise": "No shrubs are trees",
+        "conclusion": "No shrubs are pines",
+        "incorrect conclusions": [
+          "All pines are shrubs",
+          "All trees are shrubs",
+          "Some pines are trees",
+          "Some pines are shrubs",
+          "Some trees are shrubs",
+          "Some trees are pines",
+          "Some shrubs are trees",
+          "Some shrubs are pines",
+          "Some trees are not pines"
+        ]
+      }
+    ]
+  }
+}

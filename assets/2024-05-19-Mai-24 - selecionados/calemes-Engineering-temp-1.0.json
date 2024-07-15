@@ -1,0 +1,69 @@
+{
+  "Engineering": {
+     "Calemes" : [
+		{
+          "major premise": "All bolts are fasteners",
+          "minor premise": "No fasteners are sensors",
+          "conclusion": "No sensors are bolts",
+		  "incorrect conclusions": [
+			"All fasteners are sensors",
+			"All fasteners are bolts",
+			"All sensors are fasteners",
+			"All sensors are bolts",
+			"All bolts are sensors",
+			"Some fasteners are bolts",
+			"Some fasteners are not bolts",
+			"Some fasteners are sensors",
+			"Some bolts are sensors",
+			"Some bolts are not fasteners",
+			"Some bolts are fasteners",
+			"Some sensors are fasteners",
+			"Some sensors are bolts",
+			"No bolts are fasteners"
+		  ]
+		},
+		{
+          "major premise": "All engines are machines",
+          "minor premise": "No machines are circuits",
+          "conclusion": "No circuits are engines",
+		  "incorrect conclusions": [
+			"All machines are circuits",
+			"All machines are engines",
+			"All circuits are machines",
+			"All circuits are engines",
+			"All engines are circuits",
+			"Some machines are engines",
+			"Some machines are not engines",
+			"Some machines are circuits",
+			"Some engines are circuits",
+			"Some engines are not machines",
+			"Some engines are machines",
+			"Some circuits are machines",
+			"Some circuits are engines",
+			"No engines are machines"
+		  ]
+		},
+		{
+          "major premise": "All steel beams are building materials",
+          "minor premise": "No building materials are sensors",
+          "conclusion": "No sensors are steel beams",
+		  "incorrect conclusions": [
+			"All building materials are sensors",
+			"All building materials are steel beams",
+			"All sensors are building materials",
+			"All sensors are steel beams",
+			"All steel beams are sensors",
+			"Some building materials are steel beams",
+			"Some building materials are not steel beams",
+			"Some building materials are sensors",
+			"Some steel beams are sensors",
+			"Some steel beams are not building materials",
+			"Some steel beams are building materials",
+			"Some sensors are building materials",
+			"Some sensors are steel beams",
+			"No steel beams are building materials"
+		  ]
+		}
+	 ]
+  }
+}

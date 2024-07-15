@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Physics": [
+      {
+        "premises": [
+          "If an object is in motion, it has kinetic energy",
+          "An object is in motion"
+        ],
+        "conclusions": [
+          "The object has kinetic energy"
+        ],
+        "incorrect conclusions": [
+          "The object does not have kinetic energy",
+          "If the object has kinetic energy, then it is in motion",
+          "If the object does not have kinetic energy, then it is in motion",
+          "If the object is not in motion, then it does not have kinetic energy"
+        ]
+      },
+      {
+        "premises": [
+          "If a metal is heated, its temperature increases",
+          "A metal is heated"
+        ],
+        "conclusions": [
+          "The metal's temperature increases"
+        ],
+        "incorrect conclusions": [
+          "The metal's temperature does not increase",
+          "If the metal's temperature increases, then it is heated",
+          "If the metal's temperature does not increase, then it is heated",
+          "If the metal is not heated, then its temperature does not increase"
+        ]
+      },
+      {
+        "premises": [
+          "If light passes through a prism, it disperses into a spectrum",
+          "Light passes through a prism"
+        ],
+        "conclusions": [
+          "Light disperses into a spectrum"
+        ],
+        "incorrect conclusions": [
+          "Light does not disperse into a spectrum",
+          "If light disperses into a spectrum, then it passes through a prism",
+          "If light does not disperse into a spectrum, then it passes through a prism",
+          "If light does not pass through a prism, then it does not disperse into a spectrum"
+        ]
+      }
+    ]
+  }
+}

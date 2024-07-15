@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If a star is massive, it ends its life as a supernova",
+          "A star is massive"
+        ],
+        "conclusions": [
+          "A star ends its life as a supernova"
+        ],
+        "incorrect conclusions": [
+          "A star does not end its life as a supernova",
+          "A star ends its life as a supernova implies that a star is massive",
+          "A star does not end its life as a supernova implies that a star is massive",
+          "A star is not massive implies that a star does not end its life as a supernova"
+        ]
+      },
+      {
+        "premises": [
+          "If a planet is in the habitable zone, it can support liquid water",
+          "A planet is in the habitable zone"
+        ],
+        "conclusions": [
+          "A planet can support liquid water"
+        ],
+        "incorrect conclusions": [
+          "A planet cannot support liquid water",
+          "A planet can support liquid water implies that a planet is in the habitable zone",
+          "A planet cannot support liquid water implies that a planet is in the habitable zone",
+          "A planet is not in the habitable zone implies that a planet cannot support liquid water"
+        ]
+      },
+      {
+        "premises": [
+          "If the night sky is clear, you can see the Milky Way",
+          "The night sky is clear"
+        ],
+        "conclusions": [
+          "You can see the Milky Way"
+        ],
+        "incorrect conclusions": [
+          "You cannot see the Milky Way",
+          "You can see the Milky Way implies that the night sky is clear",
+          "You cannot see the Milky Way implies that the night sky is clear",
+          "The night sky is not clear implies that you cannot see the Milky Way"
+        ]
+      }
+    ]
+  }
+}

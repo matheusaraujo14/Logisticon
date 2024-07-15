@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Sociology": [
+      {
+        "premises": [
+          "The community promotes individual freedom or social cohesion but not both at the same time",
+          "The community does not promote individual freedom"
+        ],
+        "conclusions": [
+          "The community promotes social cohesion",
+          "If the community does not promote social cohesion, it promotes individual freedom"
+        ],
+        "incorrect conclusions": [
+          "The community does not promote social cohesion",
+          "If the community promotes social cohesion, it promotes individual freedom",
+          "If the community promotes individual freedom, it promotes social cohesion",
+          "The community promotes individual freedom"
+        ]
+      },
+      {
+        "premises": [
+          "The policy improves equality or efficiency but not both at the same time",
+          "The policy does not improve equality"
+        ],
+        "conclusions": [
+          "The policy improves efficiency",
+          "If the policy does not improve efficiency, it improves equality"
+        ],
+        "incorrect conclusions": [
+          "The policy does not improve efficiency",
+          "If the policy improves equality, it improves efficiency",
+          "If the policy improves efficiency, it improves equality",
+          "The policy improves equality"
+        ]
+      },
+      {
+        "premises": [
+          "The organization supports individual interests or collective interests but not both at the same time",
+          "The organization does not support individual interests"
+        ],
+        "conclusions": [
+          "The organization supports collective interests",
+          "If the organization does not support collective interests, it supports individual interests"
+        ],
+        "incorrect conclusions": [
+          "The organization does not support collective interests",
+          "If the organization supports collective interests, it supports individual interests",
+          "If the organization supports individual interests, it supports collective interests",
+          "The organization supports individual interests"
+        ]
+      }
+    ]
+  }
+}

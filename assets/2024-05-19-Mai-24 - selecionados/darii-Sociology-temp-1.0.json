@@ -1,0 +1,54 @@
+{
+  "Sociology": {
+    "Darii": [
+      {
+        "major premise": "All humans are social animals",
+        "minor premise": "Some students are humans",
+        "conclusion": "Some students are social animals",
+        "incorrect conclusions": [
+          "All students are humans",
+          "All students are social animals",
+          "All social animals are humans",
+          "All social animals are students",
+          "All humans are students",
+          "Some students are not social animals",
+          "Some students are not humans",
+          "Some social animals are not humans",
+          "Some social animals are not students",
+          "Some humans are not social animals",
+          "Some humans are not students",
+          "No students are social animals",
+          "No students are humans",
+          "No humans are social animals",
+          "No humans are students",
+          "No social animals are humans",
+          "No social animals are students"
+        ]
+      },
+      {
+        "major premise": "All sociologists are academics",
+        "minor premise": "Some researchers are sociologists",
+        "conclusion": "Some researchers are academics",
+        "incorrect conclusions": [
+          "All researchers are sociologists",
+          "All researchers are academics",
+          "All academics are sociologists",
+          "All academics are researchers",
+          "All sociologists are researchers",
+          "Some researchers are not academics",
+          "Some researchers are not sociologists",
+          "Some academics are not sociologists",
+          "Some academics are not researchers",
+          "Some sociologists are not academics",
+          "Some sociologists are not researchers",
+          "No researchers are academics",
+          "No researchers are sociologists",
+          "No sociologists are academics",
+          "No sociologists are researchers",
+          "No academics are sociologists",
+          "No academics are researchers"
+        ]
+      }
+    ]
+  }
+}

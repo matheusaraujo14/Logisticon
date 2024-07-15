@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has a fever, then they may have an infection",
+          "If a patient has a rash, then they may have an infection",
+          "A patient has a fever or a rash"
+        ],
+        "conclusions": [
+          "A patient may have an infection",
+          "A patient has a fever or a rash implies they may have an infection",
+          "The patient may not have an infection implies the patient does not have a fever and does not have a rash",
+          "A patient has a fever and a rash implies they may have an infection",
+          "If a patient may have an infection, then they have a fever or a rash"
+        ],
+        "incorrect conclusions": [
+          "If a patient has a fever, then they may have a rash or an infection",
+          "If a patient may have an infection, then they have a fever and a rash",
+          "If a patient may have an infection or has a fever, then they have a rash",
+          "If a patient does not have a fever, then they may have an infection",
+          "The patient may not have an infection implies the patient has a fever and a rash"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has high blood pressure, then they need medication",
+          "If a patient has high cholesterol, then they need medication",
+          "A patient has high blood pressure or high cholesterol"
+        ],
+        "conclusions": [
+          "A patient needs medication",
+          "A patient has high blood pressure or high cholesterol implies they need medication",
+          "The patient does not need medication implies the patient does not have high blood pressure and does not have high cholesterol",
+          "A patient has high blood pressure and high cholesterol implies they need medication",
+          "If a patient needs medication, then they have high blood pressure or high cholesterol"
+        ],
+        "incorrect conclusions": [
+          "If a patient has high blood pressure, then they have high cholesterol or need medication",
+          "If a patient needs medication, then they have high blood pressure and high cholesterol",
+          "If a patient needs medication or has high blood pressure, then they have high cholesterol",
+          "If a patient does not have high blood pressure, then they need medication",
+          "The patient does not need medication implies the patient has high blood pressure and high cholesterol"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has a broken bone, then they experience severe pain",
+          "If a patient has a torn ligament, then they experience severe pain",
+          "A patient has a broken bone or a torn ligament"
+        ],
+        "conclusions": [
+          "A patient experiences severe pain",
+          "A patient has a broken bone or a torn ligament implies they experience severe pain",
+          "If a patient does not experience severe pain, then the patient does not have a broken bone and does not have a torn ligament",
+          "A patient has a broken bone and a torn ligament implies they experience severe pain",
+          "If a patient experiences severe pain, then they have a broken bone or a torn ligament"
+        ],
+        "incorrect conclusions": [
+          "If a patient has a broken bone, then they have a torn ligament or experience severe pain",
+          "If a patient experiences severe pain, then they have a broken bone and a torn ligament",
+          "If a patient experiences severe pain or has a broken bone, then they have a torn ligament",
+          "If a patient does not have a broken bone, then they experience severe pain",
+          "If a patient does not experience severe pain, then they have a broken bone and a torn ligament"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Geology": {
+     "Bocardo" : [
+		{
+          "major premise": "Some gemstones are not rocks",
+          "minor premise": "All gemstones are minerals",
+          "conclusion": "Some minerals are not rocks",
+		  "incorrect conclusions": [
+			"All gemstones are rocks",
+			"All minerals are gemstones",
+			"All minerals are rocks",
+			"All rocks are not gemstones",
+			"Some minerals are not gemstones",
+			"Some minerals are rocks",
+			"Some gemstones are not minerals",
+			"Some gemstones are rocks",
+			"Some rocks are gemstones",
+			"Some rocks are minerals",
+			"Some rocks are not minerals",
+			"Some rocks are not gemstones",
+			"No gemstones is a mineral",
+			"No minerals is a gemstone"
+		  ]
+		},
+		{
+          "major premise": "Some igneous rocks are not metamorphic rocks",
+          "minor premise": "All igneous rocks are geological formations",
+          "conclusion": "Some geological formations are not metamorphic rocks",
+		  "incorrect conclusions": [
+			"All igneous rocks are metamorphic rocks",
+			"All geological formations are igneous rocks",
+			"All geological formations are metamorphic rocks",
+			"All metamorphic rocks are not igneous rocks",
+			"Some geological formations are not igneous rocks",
+			"Some geological formations are metamorphic rocks",
+			"Some igneous rocks are not geological formations",
+			"Some igneous rocks are metamorphic rocks",
+			"Some metamorphic rocks are igneous rocks",
+			"Some metamorphic rocks are geological formations",
+			"Some metamorphic rocks are not geological formations",
+			"Some metamorphic rocks are not igneous rocks",
+			"No igneous rocks is a geological formation",
+			"No geological formations is an igneous rock"
+		  ]
+		}
+	 ]
+  }
+}

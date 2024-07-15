@@ -1,0 +1,38 @@
+{
+  "Engineering": {
+    "Cesare": [
+      {
+        "major premise": "No bridges are electronics",
+        "minor premise": "All microcontrollers are electronics",
+        "conclusion": "No microcontrollers are bridges",
+        "incorrect conclusions": [
+          "All microcontrollers are bridges",
+          "All electronics are bridges",
+          "Some microcontrollers are electronics",
+          "Some microcontrollers are bridges",
+          "Some electronics are microcontrollers",
+          "Some electronics are bridges",
+          "Some electronics are not microcontrollers",
+          "Some bridges are microcontrollers",
+          "Some bridges are electronics"
+        ]
+      },
+      {
+        "major premise": "No circuits are materials",
+        "minor premise": "All wires are materials",
+        "conclusion": "No wires are circuits",
+        "incorrect conclusions": [
+          "All wires are circuits",
+          "All materials are circuits",
+          "Some wires are materials",
+          "Some wires are circuits",
+          "Some materials are wires",
+          "Some materials are circuits",
+          "Some materials are not wires",
+          "Some circuits are wires",
+          "Some circuits are materials"
+        ]
+      }
+    ]
+  }
+}

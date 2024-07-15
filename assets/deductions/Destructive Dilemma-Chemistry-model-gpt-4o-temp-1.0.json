@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a reaction is exothermic, then it releases heat",
+          "If a reaction is exothermic, then it increases temperature",
+          "The reaction does not release heat or the reaction does not increase temperature"
+        ],
+        "conclusions": [
+          "The reaction is not exothermic",
+          "The reaction does not release heat and the reaction does not increase temperature",
+          "If a reaction is exothermic, then it releases heat and it increases temperature"
+        ],
+        "incorrect conclusions": [
+          "If a reaction is exothermic, then it releases heat and does not increase temperature",
+          "If a reaction releases heat and increases temperature, then it is exothermic",
+          "If a reaction releases heat, then it is exothermic",
+          "The reaction releases heat or the reaction increases temperature but not both",
+          "If a reaction is not exothermic, then the reaction does not release heat or the reaction does not increase temperature"
+        ]
+      },
+      {
+        "premises": [
+          "If a substance is dissolved in water, then it forms ions",
+          "If a substance is dissolved in water, then it changes color",
+          "The substance does not form ions or the substance does not change color"
+        ],
+        "conclusions": [
+          "The substance is not dissolved in water",
+          "The substance does not form ions and the substance does not change color",
+          "If a substance is dissolved in water, then it forms ions and it changes color"
+        ],
+        "incorrect conclusions": [
+          "If a substance is dissolved in water, then it forms ions and does not change color",
+          "If a substance forms ions and changes color, then it is dissolved in water",
+          "If a substance forms ions, then it is dissolved in water",
+          "The substance forms ions or changes color but not both",
+          "If a substance is not dissolved in water, then the substance does not form ions or the substance does not change color"
+        ]
+      },
+      {
+        "premises": [
+          "If a metal is reactive, then it oxidizes easily",
+          "If a metal is reactive, then it displaces another metal from a compound",
+          "The metal does not oxidize easily or the metal does not displace another metal from a compound"
+        ],
+        "conclusions": [
+          "The metal is not reactive",
+          "The metal does not oxidize easily and the metal does not displace another metal from a compound",
+          "If a metal is reactive, then it oxidizes easily and it displaces another metal from a compound"
+        ],
+        "incorrect conclusions": [
+          "If a metal is reactive, then it oxidizes easily and does not displace another metal from a compound",
+          "If a metal oxidizes easily and displaces another metal from a compound, then it is reactive",
+          "If a metal oxidizes easily, then it is reactive",
+          "The metal oxidizes easily or displaces another metal from a compound but not both",
+          "If a metal is not reactive, then the metal does not oxidize easily or the metal does not displace another metal from a compound"
+        ]
+      }
+    ]
+  }
+}

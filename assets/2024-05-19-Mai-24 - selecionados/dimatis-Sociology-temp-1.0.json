@@ -1,0 +1,75 @@
+{
+  "Sociology": {
+    "Dimatis": [
+      {
+        "major premise": "Some sociologists are researchers",
+        "minor premise": "All researchers are professionals",
+        "conclusion": "Some professionals are sociologists",
+        "incorrect conclusions": [
+          "All professionals are sociologists",
+          "All professionals are researchers",
+          "All sociologists are professionals",
+          "All sociologists are researchers",
+          "All researchers are sociologists",
+          "Some professionals are not researchers",
+          "Some sociologists are not professionals",
+          "Some sociologists are not researchers",
+          "Some researchers are not professionals",
+          "Some researchers are not sociologists",
+          "No sociologist is a professional",
+          "No sociologist is a researcher",
+          "No researcher is a professional",
+          "No researcher is a sociologist",
+          "No professional is a researcher",
+          "No professional is a sociologist"
+        ]
+      },
+      {
+        "major premise": "Some students are interns",
+        "minor premise": "All interns are participants",
+        "conclusion": "Some participants are students",
+        "incorrect conclusions": [
+          "All participants are students",
+          "All participants are interns",
+          "All students are participants",
+          "All students are interns",
+          "All interns are students",
+          "Some participants are not interns",
+          "Some students are not participants",
+          "Some students are not interns",
+          "Some interns are not participants",
+          "Some interns are not students",
+          "No student is a participant",
+          "No student is an intern",
+          "No intern is a participant",
+          "No intern is a student",
+          "No participant is an intern",
+          "No participant is a student"
+        ]
+      },
+      {
+        "major premise": "Some professors are authors",
+        "minor premise": "All authors are educators",
+        "conclusion": "Some educators are professors",
+        "incorrect conclusions": [
+          "All educators are professors",
+          "All educators are authors",
+          "All professors are educators",
+          "All professors are authors",
+          "All authors are professors",
+          "Some educators are not authors",
+          "Some professors are not educators",
+          "Some professors are not authors",
+          "Some authors are not educators",
+          "Some authors are not professors",
+          "No professor is an educator",
+          "No professor is an author",
+          "No author is an educator",
+          "No author is a professor",
+          "No educator is an author",
+          "No educator is a professor"
+        ]
+      }
+    ]
+  }
+}

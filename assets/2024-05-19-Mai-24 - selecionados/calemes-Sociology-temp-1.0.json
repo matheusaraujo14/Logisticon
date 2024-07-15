@@ -1,0 +1,27 @@
+{
+  "Sociology": {
+    "Calemes": [
+      {
+        "major premise": "All researchers are scientists",
+        "minor premise": "No scientists are managers",
+        "conclusion": "No managers is researcher",
+        "incorrect conclusions": [
+          "All scientists are managers",
+          "All scientists are researchers",
+          "All managers are scientists",
+          "All managers are researchers",
+          "All researchers are managers",
+          "Some scientists are researchers",
+          "Some scientists are not researchers",
+          "Some scientists are managers",
+          "Some researchers are managers",
+          "Some researchers are not scientists",
+          "Some researchers are scientists",
+          "Some managers are scientists",
+          "Some managers are researchers",
+          "No researchers are scientists"
+        ]
+      }
+    ]
+  }
+}

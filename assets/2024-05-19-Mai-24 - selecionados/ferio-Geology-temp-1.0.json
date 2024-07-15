@@ -1,0 +1,75 @@
+{
+  "Geology": {
+     "Ferio" : [
+		{
+          "major premise": "No sedimentary rocks are igneous rocks",
+          "minor premise": "Some sandstones are sedimentary rocks",
+          "conclusion": "Some sandstones are not igneous rocks",
+		  "incorrect conclusions": [
+			"All sedimentary rocks are sandstones",
+			"All sedimentary rocks are igneous rocks",
+			"All sandstones are igneous rocks",
+			"All igneous rocks are sedimentary rocks",
+			"All igneous rocks are sandstones",
+			"Some sedimentary rocks are not sandstones",
+			"Some igneous rocks are sandstones",
+			"Some igneous rocks are not sandstones",
+			"Some igneous rocks are sedimentary rocks",
+			"Some igneous rocks are sandstones",
+			"Some sandstones are igneous rocks",
+			"Some sandstones are not sedimentary rocks",
+			"Some sedimentary rocks are igneous rocks",
+			"No sedimentary rock is sandstone",
+			"No sandstone is not sedimentary rock",
+			"No sandstone is sedimentary rock"
+		  ]
+		},
+		{
+          "major premise": "No minerals are organic compounds",
+          "minor premise": "Some quartz are minerals",
+          "conclusion": "Some quartz are not organic compounds",
+		  "incorrect conclusions": [
+			"All minerals are quartz",
+			"All minerals are organic compounds",
+			"All quartz are organic compounds",
+			"All organic compounds are minerals",
+			"All organic compounds are quartz",
+			"Some minerals are not quartz",
+			"Some organic compounds are quartz",
+			"Some organic compounds are not quartz",
+			"Some organic compounds are minerals",
+			"Some organic compounds are quartz",
+			"Some quartz are organic compounds",
+			"Some quartz are not minerals",
+			"Some minerals are organic compounds",
+			"No minerals are quartz",
+			"No quartz is not mineral",
+			"No quartz is mineral"
+		  ]
+		},
+		{
+          "major premise": "No metamorphic rocks are groundwater",
+          "minor premise": "Some schists are metamorphic rocks",
+          "conclusion": "Some schists are not groundwater",
+		  "incorrect conclusions": [
+			"All metamorphic rocks are schists",
+			"All metamorphic rocks are groundwater",
+			"All schists are groundwater",
+			"All groundwater are metamorphic rocks",
+			"All groundwater are schists",
+			"Some metamorphic rocks are not schists",
+			"Some groundwater are schists",
+			"Some groundwater are not schists",
+			"Some groundwater are metamorphic rocks",
+			"Some groundwater are schists",
+			"Some schists are groundwater",
+			"Some schists are not metamorphic rocks",
+			"Some metamorphic rocks are groundwater",
+			"No metamorphic rocks are schists",
+			"No schists are not metamorphic rocks",
+			"No schists are metamorphic rocks"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Festino": [
+      {
+        "major premise": "No fantasy novels are historical documents",
+        "minor premise": "Some books set in medieval times are historical documents",
+        "conclusion": "Some books set in medieval times are not fantasy novels",
+        "incorrect conclusions": [
+          "All historical documents are books set in medieval times",
+          "All historical documents are fantasy novels",
+          "All books set in medieval times are fantasy novels",
+          "All fantasy novels are historical documents",
+          "All fantasy novels are books set in medieval times",
+          "Some historical documents are not books set in medieval times",
+          "Some fantasy novels are books set in medieval times",
+          "Some fantasy novels are not books set in medieval times",
+          "Some fantasy novels are historical documents",
+          "Some fantasy novels are books set in medieval times",
+          "Some books set in medieval times are fantasy novels",
+          "Some books set in medieval times are not historical documents",
+          "Some historical documents are fantasy novels",
+          "No historical document is a book set in medieval times",
+          "No books set in medieval times are not historical documents",
+          "No books set in medieval times are historical documents"
+        ]
+      },
+      {
+        "major premise": "No science fiction novels are textbooks",
+        "minor premise": "Some books on advanced topics are textbooks",
+        "conclusion": "Some books on advanced topics are not science fiction novels",
+        "incorrect conclusions": [
+          "All textbooks are books on advanced topics",
+          "All textbooks are science fiction novels",
+          "All books on advanced topics are science fiction novels",
+          "All science fiction novels are textbooks",
+          "All science fiction novels are books on advanced topics",
+          "Some textbooks are not books on advanced topics",
+          "Some science fiction novels are books on advanced topics",
+          "Some science fiction novels are not books on advanced topics",
+          "Some science fiction novels are textbooks",
+          "Some science fiction novels are books on advanced topics",
+          "Some books on advanced topics are science fiction novels",
+          "Some books on advanced topics are not textbooks",
+          "Some textbooks are science fiction novels",
+          "No textbooks are books on advanced topics",
+          "No books on advanced topics are not textbooks",
+          "No books on advanced topics are textbooks"
+        ]
+      },
+      {
+        "major premise": "No plays are novels",
+        "minor premise": "Some Shakespearean works are plays",
+        "conclusion": "Some Shakespearean works are not novels",
+        "incorrect conclusions": [
+          "All novels are Shakespearean works",
+          "All novels are plays",
+          "All Shakespearean works are plays",
+          "All plays are novels",
+          "All plays are Shakespearean works",
+          "Some novels are not Shakespearean works",
+          "Some plays are Shakespearean works",
+          "Some plays are not Shakespearean works",
+          "Some plays are novels",
+          "Some plays are Shakespearean works",
+          "Some Shakespearean works are plays",
+          "Some Shakespearean works are not plays",
+          "Some novels are plays",
+          "No plays are Shakespearean works",
+          "No Shakespearean works are not plays",
+          "No Shakespearean works are plays"
+        ]
+      }
+    ]
+  }
+}

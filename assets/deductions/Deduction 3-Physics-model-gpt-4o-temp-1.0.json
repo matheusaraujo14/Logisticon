@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Physics": [
+      {
+        "premises": [
+          "The resistance increases implies the wire heats up",
+          "The resistance decreases implies the current increases"
+        ],
+        "conclusions": [
+          "If the wire does not heat up, then the resistance does not increase",
+          "If the current does not increase, then the resistance does not decrease",
+          "If the current does not increase, then the wire heats up",
+          "The wire heats up or the current increases",
+          "If the resistance increases and the wire heats up, then the current increases"
+        ],
+        "incorrect conclusions": [
+          "If the wire heats up, then the resistance increases",
+          "If the wire heats up, then the resistance decreases",
+          "If the wire does not heat up, then the resistance does not decrease",
+          "The wire heats up and the current increases",
+          "If the current increases, then the resistance decreases",
+          "If the wire heats up and the current increases, then the resistance does not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "The object accelerates implies a force acts on it",
+          "The object maintains constant velocity implies no net force acts on it"
+        ],
+        "conclusions": [
+          "If no force acts on the object, then it does not accelerate",
+          "If a net force acts on the object, then it does not maintain constant velocity",
+          "If a net force acts on the object, then it accelerates",
+          "A force acts on the object or there is no net force on it",
+          "If the object accelerates and a force acts on it, then it does not maintain constant velocity"
+        ],
+        "incorrect conclusions": [
+          "If a force acts on the object, then it accelerates",
+          "If a force acts on the object, then it maintains constant velocity",
+          "If no force acts on the object, then it does not maintain constant velocity",
+          "The object accelerates and there is no net force on it",
+          "If the object maintains constant velocity, then no net force acts on it",
+          "If the object accelerates and there is no net force on it, then a force acts on it"
+        ]
+      },
+      {
+        "premises": [
+          "The object floats implies its density is less than the fluid",
+          "The object sinks implies its density is greater than the fluid"
+        ],
+        "conclusions": [
+          "If the object does not float, then its density is not less than the fluid",
+          "If the object does not sink, then its density is not greater than the fluid",
+          "If the object does not sink, then it floats",
+          "The object floats or it sinks",
+          "If the object floats and its density is less than the fluid, then it does not sink"
+        ],
+        "incorrect conclusions": [
+          "If its density is less than the fluid, then the object floats",
+          "If its density is less than the fluid, then the object sinks",
+          "If the object does not float, then its density is not greater than the fluid",
+          "The object floats and it sinks",
+          "If the object's density is greater than the fluid, then it sinks",
+          "If its density is less than the fluid and it sinks, then the object does not float"
+        ]
+      }
+    ]
+  }
+}

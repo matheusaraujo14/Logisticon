@@ -1,0 +1,54 @@
+{
+  "Chemistry": {
+    "Barbara" : [
+      {
+        "major premise": "All molecules are matter",
+        "minor premise": "All atoms are molecules",
+        "conclusion": "All atoms are matter",
+        "incorrect conclusions": [
+          "All matter are molecules",
+          "All matter are atoms",
+          "Some atoms are molecules",
+          "Some atoms are matter",
+          "Some atoms are not matter",
+          "Some atoms are not molecules",
+          "Some matter are atoms",
+          "Some matter are molecules",
+          "Some molecules are atoms"
+        ]
+      },
+      {
+        "major premise": "All compounds are substances",
+        "minor premise": "All salts are compounds",
+        "conclusion": "All salts are substances",
+        "incorrect conclusions": [
+          "All substances are compounds",
+          "All substances are salts",
+          "Some salts are compounds",
+          "Some salts are substances",
+          "Some salts are not substances",
+          "Some salts are not compounds",
+          "Some substances are salts",
+          "Some substances are compounds",
+          "Some compounds are salts"
+        ]
+      },
+      {
+        "major premise": "All solutions are mixtures",
+        "minor premise": "All colloids are solutions",
+        "conclusion": "All colloids are mixtures",
+        "incorrect conclusions": [
+          "All mixtures are solutions",
+          "All mixtures are colloids",
+          "Some colloids are solutions",
+          "Some colloids are mixtures",
+          "Some colloids are not mixtures",
+          "Some colloids are not solutions",
+          "Some mixtures are colloids",
+          "Some mixtures are solutions",
+          "Some solutions are colloids"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Chemistry": [
+      {
+        "premises": [
+          "Either the reaction produces a gas or the reaction produces a precipitate but not both are true",
+          "The reaction produces a gas"
+        ],
+        "conclusions": [
+          "The reaction does not produce a precipitate"
+        ],
+        "incorrect conclusions": [
+          "The reaction produces a precipitate",
+          "The reaction does not produce a gas"
+        ]
+      },
+      {
+        "premises": [
+          "Either the solution turns blue or the solution turns red but not both are true",
+          "The solution turns blue"
+        ],
+        "conclusions": [
+          "The solution does not turn red"
+        ],
+        "incorrect conclusions": [
+          "The solution turns red",
+          "The solution does not turn blue"
+        ]
+      },
+      {
+        "premises": [
+          "Either the chemical is an acid or the chemical is a base but not both are true",
+          "The chemical is an acid"
+        ],
+        "conclusions": [
+          "The chemical is not a base"
+        ],
+        "incorrect conclusions": [
+          "The chemical is a base",
+          "The chemical is not an acid"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Ecology": [
+		{
+          "premises": [ 
+            "If pollution increases, then fish populations decline",
+            "If pollution increases, then water quality degrades",
+            "Fish populations do not decline or water quality does not degrade"
+          ],
+          "conclusions": [
+			"Pollution does not increase",
+			"Fish populations do not decline and water quality does not degrade",
+			"If pollution increases, then fish populations decline and water quality degrades"
+		  ],
+		  "incorrect conclusions": [
+			"If pollution increases, then fish populations decline and water quality does not degrade",
+			"If fish populations decline and water quality degrades, then pollution increases",
+			"If fish populations decline, then pollution increases",
+			"Fish populations decline or water quality degrades, but not both",
+			"If pollution does not increase, then fish populations do not decline or water quality does not degrade"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If deforestation happens, then wildlife habitats are destroyed",
+            "If deforestation happens, then erosion rates increase",
+            "Wildlife habitats are not destroyed or erosion rates do not increase"
+          ],
+          "conclusions": [
+			"Deforestation does not happen",
+			"Wildlife habitats are not destroyed and erosion rates do not increase",
+			"If deforestation happens, then wildlife habitats are destroyed and erosion rates increase"
+		  ],
+		  "incorrect conclusions": [
+			"If deforestation happens, then wildlife habitats are destroyed and erosion rates do not increase",
+			"If wildlife habitats are destroyed and erosion rates increase, then deforestation happens",
+			"If wildlife habitats are destroyed, then deforestation happens",
+			"Wildlife habitats are destroyed or erosion rates increase, but not both",
+			"If deforestation does not happen, then wildlife habitats are not destroyed or erosion rates do not increase"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If overfishing continues, then marine biodiversity decreases",
+            "If overfishing continues, then food chains are disrupted",
+            "Marine biodiversity does not decrease or food chains are not disrupted"
+          ],
+          "conclusions": [
+			"Overfishing does not continue",
+			"Marine biodiversity does not decrease and food chains are not disrupted",
+			"If overfishing continues, then marine biodiversity decreases and food chains are disrupted"
+		  ],
+		  "incorrect conclusions": [
+			"If overfishing continues, then marine biodiversity decreases and food chains are not disrupted",
+			"If marine biodiversity decreases and food chains are disrupted, then overfishing continues",
+			"If marine biodiversity decreases, then overfishing continues",
+			"Marine biodiversity decreases or food chains are disrupted, but not both",
+			"If overfishing does not continue, then marine biodiversity does not decrease or food chains are not disrupted"
+		  ]
+		}
+	 ]
+  }
+}

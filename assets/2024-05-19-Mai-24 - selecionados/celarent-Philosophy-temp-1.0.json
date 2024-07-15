@@ -1,0 +1,22 @@
+{
+  "Philosophy": {
+    "Celarent": [
+      {
+        "major premise": "No ethicists are physicists",
+        "minor premise": "All phenomenologists are ethicists",
+        "conclusion": "No phenomenologists are physicists",
+        "incorrect conclusions": [
+          "All phenomenologists are physicists",
+          "All ethicists are physicists",
+          "Some phenomenologists are ethicists",
+          "Some phenomenologists are physicists",
+          "Some ethicists are phenomenologists",
+          "Some ethicists are physicists",
+          "Some ethicists are not phenomenologists",
+          "Some physicists are phenomenologists",
+          "Some physicists are ethicists"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Sports Science": {
+     "Barbara" : [
+		{
+          "major premise": "All marathon runners are endurance athletes",
+          "minor premise": "All elite runners are marathon runners",
+          "conclusion": "All elite runners are endurance athletes",
+		  "incorrect conclusions": [
+			"All endurance athletes are marathon runners",
+			"All endurance athletes are elite runners",
+			"Some elite runners are marathon runners",
+			"Some elite runners are endurance athletes",
+			"Some elite runners are not endurance athletes",
+			"Some elite runners are not marathon runners",
+			"Some endurance athletes are elite runners",
+			"Some endurance athletes are marathon runners",
+			"Some marathon runners are elite runners"
+		  ]
+		},
+		{
+		  "major premise": "All professional players are athletes",
+          "minor premise": "All soccer players are professional players",
+          "conclusion": "All soccer players are athletes",
+		  "incorrect conclusions": [
+			"All athletes are professional players",
+			"All athletes are soccer players",
+			"Some soccer players are professional players",
+			"Some soccer players are athletes",
+			"Some soccer players are not athletes",
+			"Some soccer players are not professional players",
+			"Some athletes are soccer players",
+			"Some athletes are professional players",
+			"Some professional players are soccer players"
+		  ]
+		}
+	 ]
+  }
+}

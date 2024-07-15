@@ -1,0 +1,29 @@
+{
+  "Biology": {
+     "Fresison" : [
+		{
+          "major premise": "No birds are mammals",
+          "minor premise": "Some mammals are animals",
+          "conclusion": "Some animals are not birds",
+		  "incorrect conclusions": [
+			"All mammals are animals",
+		    "All mammals are birds",
+		    "All animals are birds",
+		    "All birds are mammals",
+		    "All birds are animals",
+		    "Some mammals are not animals",
+		    "Some birds are animals",
+		    "Some birds are not animals",
+		    "Some birds are mammals",
+		    "Some birds are animals",
+		    "Some animals are birds",
+		    "Some animals are not mammals",
+		    "Some mammals are birds",
+		    "No mammals are animals",
+		    "No animals are not mammals",
+		    "No animals are mammals"
+		  ]
+		}
+	 ]
+  }
+}

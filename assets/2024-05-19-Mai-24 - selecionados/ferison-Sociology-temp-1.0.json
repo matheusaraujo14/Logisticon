@@ -1,0 +1,52 @@
+{
+  "Sociology": {
+    "Ferison": [
+      {
+        "major premise": "No sociologists are politicians",
+        "minor premise": "Some sociologists are researchers",
+        "conclusion": "Some researchers are not politicians",
+        "incorrect conclusions": [
+          "All sociologists are researchers",
+          "All sociologists are politicians",
+          "All researchers are politicians",
+          "All politicians are sociologists",
+          "All politicians are researchers",
+          "Some sociologists are not researchers",
+          "Some politicians are researchers",
+          "Some politicians are not researchers",
+          "Some politicians are sociologists",
+          "Some politicians are researchers",
+          "Some researchers are politicians",
+          "Some researchers are not sociologists",
+          "Some sociologists are politicians",
+          "No sociologists are researchers",
+          "No researchers are not sociologists",
+          "No researchers are sociologists"
+        ]
+      },
+      {
+        "major premise": "No sociologists are lawyers",
+        "minor premise": "Some sociologists are data scientists",
+        "conclusion": "Some data scientists are not lawyers",
+        "incorrect conclusions": [
+          "All sociologists are data scientists",
+          "All sociologists are lawyers",
+          "All data scientists are lawyers",
+          "All lawyers are sociologists",
+          "All lawyers are data scientists",
+          "Some sociologists are not data scientists",
+          "Some lawyers are data scientists",
+          "Some lawyers are not data scientists",
+          "Some lawyers are sociologists",
+          "Some lawyers are data scientists",
+          "Some data scientists are lawyers",
+          "Some data scientists are not sociologists",
+          "Some sociologists are lawyers",
+          "No sociologists are data scientists",
+          "No data scientists are not sociologists",
+          "No data scientists are sociologists"
+        ]
+      }
+    ]
+  }
+}

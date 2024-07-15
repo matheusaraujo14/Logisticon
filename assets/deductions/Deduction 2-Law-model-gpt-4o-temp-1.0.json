@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Law": [
+      {
+        "premises": [ 
+          "If a contract is signed, then the parties cannot sue each other",
+          "If a contract is signed, then the agreement is legally binding"
+        ],
+        "conclusions": [
+          "If a contract is signed, then the parties cannot sue each other and the agreement is legally binding",
+          "If a contract is signed, then the parties cannot sue each other or the agreement is legally binding",
+          "If the parties can sue each other, then the contract is not signed",
+          "If the agreement is not legally binding, then the contract is not signed",
+          "If the parties can sue each other or the agreement is not legally binding, then the contract is not signed"
+        ],
+        "incorrect conclusions": [
+          "If the parties can sue each other, the agreement is not legally binding",
+          "If the agreement is not legally binding, the parties can sue each other",
+          "If the parties cannot sue each other, then the agreement is legally binding",
+          "If the agreement is legally binding, then the parties cannot sue each other",
+          "If the parties cannot sue each other and the agreement is legally binding, then the contract is signed",
+          "If the parties cannot sue each other or the agreement is legally binding, then the contract is signed",
+          "If the parties can sue each other or the contract is not signed, then the contract is signed"
+        ]
+      },
+      {
+        "premises": [ 
+          "If someone is convicted of a felony, then they cannot vote",
+          "If someone is convicted of a felony, then they go to prison"
+        ],
+        "conclusions": [
+          "If someone is convicted of a felony, then they cannot vote and they go to prison",
+          "If someone is convicted of a felony, then they cannot vote or they go to prison",
+          "If someone can vote, then they are not convicted of a felony",
+          "If someone does not go to prison, then they are not convicted of a felony",
+          "If someone can vote or does not go to prison, then they are not convicted of a felony"
+        ],
+        "incorrect conclusions": [
+          "If someone can vote, they do not go to prison",
+          "If someone does not go to prison, they can vote",
+          "If someone cannot vote, then they go to prison",
+          "If someone goes to prison, then they cannot vote",
+          "If someone cannot vote and goes to prison, then they are convicted of a felony",
+          "If someone cannot vote or goes to prison, then they are convicted of a felony",
+          "If someone can vote or is not convicted of a felony, then they are convicted of a felony"
+        ]
+      },
+      {
+        "premises": [ 
+          "If a law is enacted, then it is published in the official gazette",
+          "If a law is enacted, then it becomes effective after 30 days"
+        ],
+        "conclusions": [
+          "If a law is enacted, then it is published in the official gazette and it becomes effective after 30 days",
+          "If a law is enacted, then it is published in the official gazette or it becomes effective after 30 days",
+          "If a law is not published in the official gazette, then it is not enacted",
+          "If a law does not become effective after 30 days, then it is not enacted",
+          "If a law is not published in the official gazette or does not become effective after 30 days, then it is not enacted"
+        ],
+        "incorrect conclusions": [
+          "If a law is not published in the official gazette, it does not become effective after 30 days",
+          "If a law does not become effective after 30 days, it is published in the official gazette",
+          "If a law is published in the official gazette, then it becomes effective after 30 days",
+          "If a law becomes effective after 30 days, then it is published in the official gazette",
+          "If a law is published in the official gazette and becomes effective after 30 days, then it is enacted",
+          "If a law is published in the official gazette or becomes effective after 30 days, then it is enacted",
+          "If a law is not published in the official gazette or is not enacted, then it is enacted"
+        ]
+      }
+    ]
+  }
+}

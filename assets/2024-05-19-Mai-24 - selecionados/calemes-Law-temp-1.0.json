@@ -1,0 +1,48 @@
+{
+  "Law": {
+    "Calemes": [
+      {
+        "major premise": "All lawyers are professionals",
+        "minor premise": "No professionals are amateurs",
+        "conclusion": "No amateurs are lawyers",
+        "incorrect conclusions": [
+          "All professionals are amateurs",
+          "All professionals are lawyers",
+          "All amateurs are professionals",
+          "All amateurs are lawyers",
+          "All lawyers are amateurs",
+          "Some professionals are lawyers",
+          "Some professionals are not lawyers",
+          "Some professionals are amateurs",
+          "Some lawyers are amateurs",
+          "Some lawyers are not professionals",
+          "Some lawyers are professionals",
+          "Some amateurs are professionals",
+          "Some amateurs are lawyers",
+          "No lawyers are professionals"
+        ]
+      },
+      {
+        "major premise": "All statutes are laws",
+        "minor premise": "No laws are guidelines",
+        "conclusion": "No guidelines are statutes",
+        "incorrect conclusions": [
+          "All laws are guidelines",
+          "All laws are statutes",
+          "All guidelines are laws",
+          "All guidelines are statutes",
+          "All statutes are guidelines",
+          "Some laws are statutes",
+          "Some laws are not statutes",
+          "Some laws are guidelines",
+          "Some statutes are guidelines",
+          "Some statutes are not laws",
+          "Some statutes are laws",
+          "Some guidelines are laws",
+          "Some guidelines are statutes",
+          "No statutes are laws"
+        ]
+      }
+    ]
+  }
+}

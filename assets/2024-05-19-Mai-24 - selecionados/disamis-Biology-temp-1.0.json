@@ -1,0 +1,75 @@
+{
+  "Biology": {
+    "Disamis": [
+      {
+        "major premise": "Some birds are canaries",
+        "minor premise": "All birds are animals",
+        "conclusion": "Some animals are canaries",
+        "incorrect conclusions": [
+          "All animals are canaries",
+          "All animals are birds",
+          "All canaries are animals",
+          "All canaries are birds",
+          "All birds are canaries",
+          "Some animals are not birds",
+          "Some canaries are not animals",
+          "Some canaries are not birds",
+          "Some birds are not animals",
+          "Some birds are not canaries",
+          "No canary is an animal",
+          "No canary is a bird",
+          "No bird is an animal",
+          "No bird is a canary",
+          "No animal is a bird",
+          "No animal is a canary"
+        ]
+      },
+      {
+        "major premise": "Some insects are bees",
+        "minor premise": "All insects are arthropods",
+        "conclusion": "Some arthropods are bees",
+        "incorrect conclusions": [
+          "All arthropods are bees",
+          "All arthropods are insects",
+          "All bees are arthropods",
+          "All bees are insects",
+          "All insects are bees",
+          "Some arthropods are not insects",
+          "Some bees are not arthropods",
+          "Some bees are not insects",
+          "Some insects are not arthropods",
+          "Some insects are not bees",
+          "No bee is an arthropod",
+          "No bee is an insect",
+          "No insect is an arthropod",
+          "No insect is a bee",
+          "No arthropod is an insect",
+          "No arthropod is a bee"
+        ]
+      },
+      {
+        "major premise": "Some fish are sharks",
+        "minor premise": "All fish are vertebrates",
+        "conclusion": "Some vertebrates are sharks",
+        "incorrect conclusions": [
+          "All vertebrates are sharks",
+          "All vertebrates are fish",
+          "All sharks are vertebrates",
+          "All sharks are fish",
+          "All fish are sharks",
+          "Some vertebrates are not fish",
+          "Some sharks are not vertebrates",
+          "Some sharks are not fish",
+          "Some fish are not vertebrates",
+          "Some fish are not sharks",
+          "No shark is a vertebrate",
+          "No shark is a fish",
+          "No fish is a vertebrate",
+          "No fish is a shark",
+          "No vertebrate is a fish",
+          "No vertebrate is a shark"
+        ]
+      }
+    ]
+  }
+}

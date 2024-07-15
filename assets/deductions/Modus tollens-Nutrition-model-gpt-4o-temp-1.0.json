@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If someone consumes excess sugar, then they gain weight",
+          "Someone does not gain weight"
+        ],
+        "conclusions": [
+          "Someone does not consume excess sugar"
+        ],
+        "incorrect conclusions": [
+          "Someone consumes excess sugar",
+          "Someone consumes excess sugar and they gain weight",
+          "If someone gains weight, then they consume excess sugar",
+          "If someone does not gain weight, then they consume excess sugar",
+          "If someone does not consume excess sugar, then they do not gain weight"
+        ]
+      },
+      {
+        "premises": [
+          "If a person has a balanced diet, then they have better digestion",
+          "A person does not have better digestion"
+        ],
+        "conclusions": [
+          "A person does not have a balanced diet"
+        ],
+        "incorrect conclusions": [
+          "A person has a balanced diet",
+          "A person has a balanced diet and they have better digestion",
+          "If a person has better digestion, then they have a balanced diet",
+          "If a person does not have better digestion, then they have a balanced diet",
+          "If a person does not have a balanced diet, then they do not have better digestion"
+        ]
+      },
+      {
+        "premises": [
+          "If an individual exercises regularly, then their metabolism increases",
+          "An individual's metabolism does not increase"
+        ],
+        "conclusions": [
+          "An individual does not exercise regularly"
+        ],
+        "incorrect conclusions": [
+          "An individual exercises regularly",
+          "An individual exercises regularly and their metabolism increases",
+          "If an individual's metabolism increases, then they exercise regularly",
+          "If an individual's metabolism does not increase, then they exercise regularly",
+          "If an individual does not exercise regularly, then their metabolism does not increase"
+        ]
+      }
+    ]
+  }
+}

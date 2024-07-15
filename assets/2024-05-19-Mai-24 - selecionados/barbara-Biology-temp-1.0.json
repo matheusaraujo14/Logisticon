@@ -1,0 +1,54 @@
+{
+  "Biology": {
+    "Barbara": [
+      {
+        "major premise": "All mammals are animals",
+        "minor premise": "All dogs are mammals",
+        "conclusion": "All dogs are animals",
+        "incorrect conclusions": [
+          "All animals are mammals",
+          "All animals are dogs",
+          "Some dogs are mammals",
+          "Some dogs are animals",
+          "Some dogs are not animals",
+          "Some dogs are not mammals",
+          "Some animals are dogs",
+          "Some animals are mammals",
+          "Some mammals are dogs"
+        ]
+      },
+      {
+        "major premise": "All reptiles are vertebrates",
+        "minor premise": "All snakes are reptiles",
+        "conclusion": "All snakes are vertebrates",
+        "incorrect conclusions": [
+          "All vertebrates are reptiles",
+          "All vertebrates are snakes",
+          "Some snakes are reptiles",
+          "Some snakes are vertebrates",
+          "Some snakes are not vertebrates",
+          "Some snakes are not reptiles",
+          "Some vertebrates are snakes",
+          "Some vertebrates are reptiles",
+          "Some reptiles are snakes"
+        ]
+      },
+      {
+        "major premise": "All insects are arthropods",
+        "minor premise": "All beetles are insects",
+        "conclusion": "All beetles are arthropods",
+        "incorrect conclusions": [
+          "All arthropods are insects",
+          "All arthropods are beetles",
+          "Some beetles are insects",
+          "Some beetles are arthropods",
+          "Some beetles are not arthropods",
+          "Some beetles are not insects",
+          "Some arthropods are beetles",
+          "Some arthropods are insects",
+          "Some insects are beetles"
+        ]
+      }
+    ]
+  }
+}

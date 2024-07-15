@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "History": [
+      {
+        "premises": [ 
+          "If Archduke Franz Ferdinand is assassinated, then World War I begins",
+          "If Archduke Franz Ferdinand is assassinated, then the Austro-Hungarian Empire attacks Serbia",
+          "World War I does not begin or the Austro-Hungarian Empire does not attack Serbia"
+        ],
+        "conclusions": [
+          "Archduke Franz Ferdinand is not assassinated",
+          "World War I and the Austro-Hungarian Empire attacking Serbia are false",
+          "If Archduke Franz Ferdinand is assassinated, then World War I and the Austro-Hungarian Empire attacking Serbia"
+        ],
+        "incorrect conclusions": [
+          "If Archduke Franz Ferdinand is assassinated, then World War I and not the Austro-Hungarian Empire attacks Serbia",
+          "If World War I and the Austro-Hungarian Empire attacking Serbia, then Archduke Franz Ferdinand is assassinated",
+          "If World War I, then Archduke Franz Ferdinand is assassinated",
+          "World War I or the Austro-Hungarian Empire attacking Serbia but not both are true",
+          "If Archduke Franz Ferdinand is not assassinated, then World War I does not begin or the Austro-Hungarian Empire does not attack Serbia"
+        ]
+      },
+      {
+        "premises": [ 
+          "If Julius Caesar crosses the Rubicon, then the Roman Civil War starts",
+          "If Julius Caesar crosses the Rubicon, then the Roman Senate opposes him",
+          "The Roman Civil War does not start or the Roman Senate does not oppose Julius Caesar"
+        ],
+        "conclusions": [
+          "Julius Caesar does not cross the Rubicon",
+          "The Roman Civil War and the Roman Senate opposing Julius Caesar are false",
+          "If Julius Caesar crosses the Rubicon, then the Roman Civil War and the Roman Senate opposing him"
+        ],
+        "incorrect conclusions": [
+          "If Julius Caesar crosses the Rubicon, then the Roman Civil War and not the Roman Senate opposes him",
+          "If the Roman Civil War and the Roman Senate opposing Julius Caesar, then he crosses the Rubicon",
+          "If the Roman Civil War, then Julius Caesar crosses the Rubicon",
+          "The Roman Civil War or the Roman Senate opposing Julius Caesar but not both are true",
+          "If Julius Caesar does not cross the Rubicon, then the Roman Civil War does not start or the Roman Senate does not oppose him"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the Berlin Wall falls, then East and West Germany reunify",
+          "If the Berlin Wall falls, then the Soviet Union loses influence",
+          "East and West Germany do not reunify or the Soviet Union does not lose influence"
+        ],
+        "conclusions": [
+          "The Berlin Wall does not fall",
+          "East and West Germany reunifying and the Soviet Union losing influence are false",
+          "If the Berlin Wall falls, then East and West Germany reunifying and the Soviet Union losing influence"
+        ],
+        "incorrect conclusions": [
+          "If the Berlin Wall falls, then East and West Germany reunifying and not the Soviet Union loses influence",
+          "If East and West Germany reunifying and the Soviet Union losing influence, then the Berlin Wall falls",
+          "If East and West Germany reunify, then the Berlin Wall falls",
+          "East and West Germany reunifying or the Soviet Union losing influence but not both are true",
+          "If the Berlin Wall does not fall, then East and West Germany do not reunify or the Soviet Union does not lose influence"
+        ]
+      }
+    ]
+  }
+}

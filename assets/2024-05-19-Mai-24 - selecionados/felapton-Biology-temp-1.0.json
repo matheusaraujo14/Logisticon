@@ -1,0 +1,63 @@
+{
+  "Biology": {
+    "Felapton": [
+      {
+        "major premise": "No reptiles are mammals",
+        "minor premise": "All reptiles are vertebrates and some reptiles exist",
+        "conclusion": "Some vertebrates are not mammals",
+        "incorrect conclusions": [
+          "All vertebrates are mammals",
+          "All vertebrates are reptiles",
+          "All mammals are vertebrates",
+          "All mammals are reptiles",
+          "Some vertebrates are mammals",
+          "Some mammals are vertebrates",
+          "Some mammals are reptiles",
+          "Some mammals are not vertebrates",
+          "Some reptiles are mammals",
+          "Some reptiles are not vertebrates",
+          "No reptiles are vertebrates",
+          "No vertebrates are reptiles"
+        ]
+      },
+      {
+        "major premise": "No amphibians are birds",
+        "minor premise": "All amphibians are ectotherms and some amphibians exist",
+        "conclusion": "Some ectotherms are not birds",
+        "incorrect conclusions": [
+          "All ectotherms are birds",
+          "All ectotherms are amphibians",
+          "All birds are ectotherms",
+          "All birds are amphibians",
+          "Some ectotherms are birds",
+          "Some birds are ectotherms",
+          "Some birds are amphibians",
+          "Some birds are not ectotherms",
+          "Some amphibians are birds",
+          "Some amphibians are not ectotherms",
+          "No amphibians are ectotherms",
+          "No ectotherms are amphibians"
+        ]
+      },
+      {
+        "major premise": "No invertebrates are vertebrates",
+        "minor premise": "All invertebrates are animals and some invertebrates exist",
+        "conclusion": "Some animals are not vertebrates",
+        "incorrect conclusions": [
+          "All animals are vertebrates",
+          "All animals are invertebrates",
+          "All vertebrates are animals",
+          "All vertebrates are invertebrates",
+          "Some animals are vertebrates",
+          "Some vertebrates are animals",
+          "Some vertebrates are invertebrates",
+          "Some vertebrates are not animals",
+          "Some invertebrates are vertebrates",
+          "Some invertebrates are not animals",
+          "No invertebrates are animals",
+          "No animals are invertebrates"
+        ]
+      }
+    ]
+  }
+}

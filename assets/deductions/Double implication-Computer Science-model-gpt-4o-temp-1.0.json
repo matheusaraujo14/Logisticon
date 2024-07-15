@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a computer has a bug, then it may crash",
+          "If a computer may crash, then data may be lost"
+        ],
+        "conclusions": [
+          "If a computer has a bug, then data may be lost",
+          "If data is not lost, then a computer does not have a bug",
+          "If a computer has a bug or it may crash, then data may be lost and if a computer has a bug, then data may be lost",
+          "If a computer has a bug, then data may be lost and if a computer has a bug, then data may be lost",
+          "If a computer does not have a bug and it may crash, then data may be lost and if a computer has a bug, then data may be lost",
+          "If a computer has a bug or it may crash, then data may be lost"
+        ],
+        "incorrect conclusions": [
+          "A computer has a bug",
+          "If data may be lost, then a computer has a bug",
+          "If data may be lost, then a computer does not have a bug",
+          "Data may be lost",
+          "Data may not be lost",
+          "If data may not be lost, then a computer has a bug",
+          "If a computer may not crash, then data may be lost",
+          "If a computer has a bug or it may not crash, then data may be lost"
+        ]
+      },
+      {
+        "premises": [
+          "If a program runs too long, then it may timeout",
+          "If a program may timeout, then the server may hang"
+        ],
+        "conclusions": [
+          "If a program runs too long, then the server may hang",
+          "If the server does not hang, then a program does not run too long",
+          "If a program runs too long or it may timeout, then the server may hang and if a program runs too long, then the server may hang",
+          "If a program runs too long, then the server may hang and if a program runs too long, then the server may hang",
+          "If a program does not run too long and it may timeout, then the server may hang and if a program runs too long, then the server may hang",
+          "If a program runs too long or it may timeout, then the server may hang"
+        ],
+        "incorrect conclusions": [
+          "A program runs too long",
+          "If the server may hang, then a program runs too long",
+          "If the server may hang, then a program does not run too long",
+          "The server may hang",
+          "The server may not hang",
+          "If the server may not hang, then a program runs too long",
+          "If a program may not timeout, then the server may hang",
+          "If a program runs too long or it may not timeout, then the server may hang"
+        ]
+      },
+      {
+        "premises": [
+          "If a user forgets their password, then they cannot log in",
+          "If a user cannot log in, then they need to reset their password"
+        ],
+        "conclusions": [
+          "If a user forgets their password, then they need to reset their password",
+          "If a user does not need to reset their password, then they do not forget their password",
+          "If a user forgets their password or they cannot log in, then they need to reset their password and if a user forgets their password, then they need to reset their password",
+          "If a user forgets their password, then they need to reset their password and if a user forgets their password, then they need to reset their password",
+          "If a user does not forget their password and they cannot log in, then they need to reset their password and if a user forgets their password, then they need to reset their password",
+          "If a user forgets their password or they cannot log in, then they need to reset their password"
+        ],
+        "incorrect conclusions": [
+          "A user forgets their password",
+          "If a user needs to reset their password, then they forget their password",
+          "If a user needs to reset their password, then they do not forget their password",
+          "A user needs to reset their password",
+          "A user does not need to reset their password",
+          "If a user does not need to reset their password, then they forget their password",
+          "If a user can log in, then they need to reset their password",
+          "If a user forgets their password or they can log in, then they need to reset their password"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Sports Science": {
+     "Celarent": [
+		{
+          "major premise": "No soccer players are swimmers",
+          "minor premise": "All goalkeepers are soccer players",
+          "conclusion": "No goalkeepers are swimmers",
+		  "incorrect conclusions": [
+			"All goalkeepers are swimmers",
+			"All soccer players are swimmers",
+			"Some goalkeepers are soccer players",
+			"Some goalkeepers are swimmers",
+			"Some soccer players are goalkeepers",
+			"Some soccer players are swimmers",
+			"Some soccer players are not goalkeepers",
+			"Some swimmers are goalkeepers",
+			"Some swimmers are soccer players"
+		  ]
+		},
+		{
+          "major premise": "No runners are basketball players",
+          "minor premise": "All sprinters are runners",
+          "conclusion": "No sprinters are basketball players",
+		  "incorrect conclusions": [
+			"All sprinters are basketball players",
+			"All runners are basketball players",
+			"Some sprinters are runners",
+			"Some sprinters are basketball players",
+			"Some runners are sprinters",
+			"Some runners are basketball players",
+			"Some runners are not sprinters",
+			"Some basketball players are sprinters",
+			"Some basketball players are runners"
+		   ]
+		},
+		{
+          "major premise": "No tennis players are gymnasts",
+          "minor premise": "All doubles players are tennis players",
+          "conclusion": "No doubles players are gymnasts",
+		  "incorrect conclusions": [
+			"All doubles players are gymnasts",
+			"All tennis players are gymnasts",
+			"Some doubles players are tennis players",
+			"Some doubles players are gymnasts",
+			"Some tennis players are doubles players",
+			"Some tennis players are gymnasts",
+			"Some tennis players are not doubles players",
+			"Some gymnasts are doubles players",
+			"Some gymnasts are tennis players"
+		  ]
+		}
+	 ]
+  }
+}

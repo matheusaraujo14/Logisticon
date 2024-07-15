@@ -1,0 +1,69 @@
+{
+  "Sociology": {
+     "Bocardo" : [
+        {
+          "major premise": "Some sociologists are not economists",
+          "minor premise": "All sociologists are social scientists",
+          "conclusion": "Some social scientists are not economists",
+          "incorrect conclusions": [
+            "All sociologists are economists",
+            "All social scientists are sociologists",
+            "All social scientists are economists",
+            "All economists are not sociologists",
+            "Some social scientists are not sociologists",
+            "Some social scientists are economists",
+            "Some sociologists are not social scientists",
+            "Some sociologists are economists",
+            "Some economists are sociologists",
+            "Some economists are social scientists",
+            "Some economists are not social scientists",
+            "Some economists are not sociologists",
+            "No sociologist is a social scientist",
+            "No social scientist is a sociologist"
+          ]
+        },
+        {
+          "major premise": "Some teachers are not researchers",
+          "minor premise": "All teachers are educators",
+          "conclusion": "Some educators are not researchers",
+          "incorrect conclusions": [
+            "All teachers are researchers",
+            "All educators are teachers",
+            "All educators are researchers",
+            "All researchers are not teachers",
+            "Some educators are not teachers",
+            "Some educators are researchers",
+            "Some teachers are not educators",
+            "Some teachers are researchers",
+            "Some researchers are teachers",
+            "Some researchers are educators",
+            "Some researchers are not educators",
+            "Some researchers are not teachers",
+            "No teacher is an educator",
+            "No educator is a teacher"
+          ]
+        },
+        {
+          "major premise": "Some journalists are not scholars",
+          "minor premise": "All journalists are media professionals",
+          "conclusion": "Some media professionals are not scholars",
+          "incorrect conclusions": [
+            "All journalists are scholars",
+            "All media professionals are journalists",
+            "All media professionals are scholars",
+            "All scholars are not journalists",
+            "Some media professionals are not journalists",
+            "Some media professionals are scholars",
+            "Some journalists are not media professionals",
+            "Some journalists are scholars",
+            "Some scholars are journalists",
+            "Some scholars are media professionals",
+            "Some scholars are not media professionals",
+            "Some scholars are not journalists",
+            "No journalist is a media professional",
+            "No media professional is a journalist"
+          ]
+        }
+     ]
+  }
+}

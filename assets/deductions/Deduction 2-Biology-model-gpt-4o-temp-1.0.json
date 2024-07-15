@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Biology": [
+      {
+        "premises": [
+          "If a certain gene is active, then the protein B is not produced",
+          "If a certain gene is active, then the cell divides"
+        ],
+        "conclusions": [
+          "If a certain gene is active, then the protein B is not produced and the cell divides",
+          "If a certain gene is active, then the protein B is not produced or the cell divides",
+          "If the protein B is produced, then the certain gene is not active",
+          "If the cell does not divide, then the certain gene is not active",
+          "If the protein B is produced or the cell does not divide, then the certain gene is not active"
+        ],
+        "incorrect conclusions": [
+          "If the protein B is produced, the cell does not divide",
+          "If the cell does not divide, the protein B is produced",
+          "If the protein B is not produced, then the cell divides",
+          "If the cell divides, then the protein B is not produced",
+          "If the protein B is not produced and the cell divides, then the certain gene is active",
+          "If the protein B is not produced or the cell divides, then the certain gene is active",
+          "If the protein B is produced or the certain gene is not active, then the certain gene is active"
+        ]
+      },
+      {
+        "premises": [
+          "If a plant receives sufficient sunlight, then it does not grow tall",
+          "If a plant receives sufficient sunlight, then it produces more flowers"
+        ],
+        "conclusions": [
+          "If a plant receives sufficient sunlight, then it does not grow tall and produces more flowers",
+          "If a plant receives sufficient sunlight, then it does not grow tall or produces more flowers",
+          "If a plant grows tall, then it does not receive sufficient sunlight",
+          "If a plant does not produce more flowers, then it does not receive sufficient sunlight",
+          "If a plant grows tall or does not produce more flowers, then it does not receive sufficient sunlight"
+        ],
+        "incorrect conclusions": [
+          "If a plant grows tall, it does not produce more flowers",
+          "If a plant does not produce more flowers, it grows tall",
+          "If a plant does not grow tall, then it produces more flowers",
+          "If a plant produces more flowers, then it does not grow tall",
+          "If a plant does not grow tall and produces more flowers, then it receives sufficient sunlight",
+          "If a plant does not grow tall or produces more flowers, then it receives sufficient sunlight",
+          "If a plant grows tall or does not receive sufficient sunlight, then it receives sufficient sunlight"
+        ]
+      },
+      {
+        "premises": [
+          "If an animal hibernates, then it does not need much food",
+          "If an animal hibernates, then its metabolism slows down"
+        ],
+        "conclusions": [
+          "If an animal hibernates, then it does not need much food and its metabolism slows down",
+          "If an animal hibernates, then it does not need much food or its metabolism slows down",
+          "If an animal needs much food, then it does not hibernate",
+          "If an animal's metabolism does not slow down, then it does not hibernate",
+          "If an animal needs much food or its metabolism does not slow down, then it does not hibernate"
+        ],
+        "incorrect conclusions": [
+          "If an animal needs much food, its metabolism does not slow down",
+          "If an animal's metabolism does not slow down, it needs much food",
+          "If an animal does not need much food, then its metabolism slows down",
+          "If an animal's metabolism slows down, then it does not need much food",
+          "If an animal does not need much food and its metabolism slows down, then it hibernates",
+          "If an animal does not need much food or its metabolism slows down, then it hibernates",
+          "If an animal needs much food or does not hibernate, then it hibernates"
+        ]
+      }
+    ]
+  }
+}

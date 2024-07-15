@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Sports Science": [
+      {
+        "premises": [
+          "The athlete is either injured or exhausted but not both",
+          "The athlete is injured"
+        ],
+        "conclusions": [
+          "The athlete is not exhausted"
+        ],
+        "incorrect conclusions": [
+          "The athlete is exhausted",
+          "The athlete is not injured"
+        ]
+      },
+      {
+        "premises": [
+          "The coach is either satisfied with the performance or wants more effort but not both",
+          "The coach is satisfied with the performance"
+        ],
+        "conclusions": [
+          "The coach does not want more effort"
+        ],
+        "incorrect conclusions": [
+          "The coach wants more effort",
+          "The coach is not satisfied with the performance"
+        ]
+      },
+      {
+        "premises": [
+          "The player is either well-rested or hungry but not both",
+          "The player is well-rested"
+        ],
+        "conclusions": [
+          "The player is not hungry"
+        ],
+        "incorrect conclusions": [
+          "The player is hungry",
+          "The player is not well-rested"
+        ]
+      }
+    ]
+  }
+}

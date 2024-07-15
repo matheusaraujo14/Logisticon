@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+    "Fresison": [
+      {
+        "major premise": "No noble gases are metals",
+        "minor premise": "Some metals are elements",
+        "conclusion": "Some elements are not noble gases",
+        "incorrect conclusions": [
+          "All metals are elements",
+          "All metals are noble gases",
+          "All elements are noble gases",
+          "All noble gases are metals",
+          "All noble gases are elements",
+          "Some metals are not elements",
+          "Some noble gases are elements",
+          "Some noble gases are not elements",
+          "Some noble gases are metals",
+          "Some noble gases are elements",
+          "Some elements are noble gases",
+          "Some elements are not metals",
+          "Some metals are noble gases",
+          "No metals are elements",
+          "No elements are not metals",
+          "No elements are metals"
+        ]
+      },
+      {
+        "major premise": "No acids are bases",
+        "minor premise": "Some bases are organic compounds",
+        "conclusion": "Some organic compounds are not acids",
+        "incorrect conclusions": [
+          "All bases are organic compounds",
+          "All bases are acids",
+          "All organic compounds are acids",
+          "All acids are bases",
+          "All acids are organic compounds",
+          "Some bases are not organic compounds",
+          "Some acids are organic compounds",
+          "Some acids are not organic compounds",
+          "Some acids are bases",
+          "Some acids are organic compounds",
+          "Some organic compounds are acids",
+          "Some organic compounds are not bases",
+          "Some bases are acids",
+          "No bases are organic compounds",
+          "No organic compounds are not bases",
+          "No organic compounds are bases"
+        ]
+      },
+      {
+        "major premise": "No polymers are salts",
+        "minor premise": "Some salts are compounds",
+        "conclusion": "Some compounds are not polymers",
+        "incorrect conclusions": [
+          "All salts are compounds",
+          "All salts are polymers",
+          "All compounds are polymers",
+          "All polymers are salts",
+          "All polymers are compounds",
+          "Some salts are not compounds",
+          "Some polymers are compounds",
+          "Some polymers are not compounds",
+          "Some polymers are salts",
+          "Some polymers are compounds",
+          "Some compounds are polymers",
+          "Some compounds are not salts",
+          "Some salts are polymers",
+          "No salts are compounds",
+          "No compounds are not salts",
+          "No compounds are salts"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a number is even, then it can be divided by 2",
+          "If a number is a multiple of 4, then it is even"
+        ],
+        "conclusions": [
+          "If a number cannot be divided by 2, then it is not even",
+          "If a number is not even, then it is not a multiple of 4",
+          "If a number is not a multiple of 4, then it can be divided by 2",
+          "A number can be divided by 2 or it is a multiple of 4",
+          "If a number is even and can be divided by 2, then it is a multiple of 4"
+        ],
+        "incorrect conclusions": [
+          "If a number can be divided by 2, then it is even",
+          "If a number can be divided by 2, then it is not even",
+          "If a number cannot be divided by 2, then it is not a multiple of 4",
+          "A number can be divided by 2 and it is a multiple of 4",
+          "If a number is a multiple of 4, then it is even",
+          "If a number can be divided by 2 and it is a multiple of 4, then it is even"
+        ]
+      },
+      {
+        "premises": [
+          "If a triangle is right-angled, then it has a hypotenuse",
+          "If a triangle has a 90-degree angle, then it is right-angled"
+        ],
+        "conclusions": [
+          "If a triangle does not have a hypotenuse, then it is not right-angled",
+          "If a triangle is not right-angled, then it does not have a 90-degree angle",
+          "If a triangle does not have a 90-degree angle, then it has a hypotenuse",
+          "A triangle has a hypotenuse or it has a 90-degree angle",
+          "If a triangle is right-angled and has a hypotenuse, then it has a 90-degree angle"
+        ],
+        "incorrect conclusions": [
+          "If a triangle has a hypotenuse, then it is right-angled",
+          "If a triangle has a hypotenuse, then it is not right-angled",
+          "If a triangle does not have a hypotenuse, then it does not have a 90-degree angle",
+          "A triangle has a hypotenuse and it has a 90-degree angle",
+          "If a triangle has a 90-degree angle, then it is right-angled",
+          "If a triangle has a hypotenuse and it has a 90-degree angle, then it is right-angled"
+        ]
+      },
+      {
+        "premises": [
+          "If a function is continuous, then it can be integrated",
+          "If a function is differentiable, then it is continuous"
+        ],
+        "conclusions": [
+          "If a function cannot be integrated, then it is not continuous",
+          "If a function is not continuous, then it is not differentiable",
+          "If a function is not differentiable, then it can be integrated",
+          "A function can be integrated or it is differentiable",
+          "If a function is continuous and can be integrated, then it is differentiable"
+        ],
+        "incorrect conclusions": [
+          "If a function can be integrated, then it is continuous",
+          "If a function can be integrated, then it is not continuous",
+          "If a function cannot be integrated, then it is not differentiable",
+          "A function can be integrated and it is differentiable",
+          "If a function is differentiable, then it is continuous",
+          "If a function can be integrated and it is differentiable, then it is continuous"
+        ]
+      }
+    ]
+  }
+}

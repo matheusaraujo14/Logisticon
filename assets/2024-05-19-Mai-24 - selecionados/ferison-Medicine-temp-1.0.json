@@ -1,0 +1,52 @@
+{
+  "Medicine": {
+    "Ferison": [
+      {
+        "major premise": "No viruses are bacteria",
+        "minor premise": "Some viruses are pathogens",
+        "conclusion": "Some pathogens are not bacteria",
+        "incorrect conclusions": [
+          "All viruses are pathogens",
+          "All viruses are bacteria",
+          "All pathogens are bacteria",
+          "All bacteria are viruses",
+          "All bacteria are pathogens",
+          "Some viruses are not pathogens",
+          "Some bacteria are pathogens",
+          "Some bacteria are not pathogens",
+          "Some bacteria are viruses",
+          "Some bacteria are pathogens",
+          "Some pathogens are bacteria",
+          "Some pathogens are not viruses",
+          "Some viruses are bacteria",
+          "No viruses is pathogens",
+          "No pathogens is not viruses",
+          "No pathogens is viruses"
+        ]
+      },
+      {
+        "major premise": "No drugs are vitamins",
+        "minor premise": "Some drugs are antibiotics",
+        "conclusion": "Some antibiotics are not vitamins",
+        "incorrect conclusions": [
+          "All drugs are antibiotics",
+          "All drugs are vitamins",
+          "All antibiotics are vitamins",
+          "All vitamins are drugs",
+          "All vitamins are antibiotics",
+          "Some drugs are not antibiotics",
+          "Some vitamins are antibiotics",
+          "Some vitamins are not antibiotics",
+          "Some vitamins are drugs",
+          "Some vitamins are antibiotics",
+          "Some antibiotics are vitamins",
+          "Some antibiotics are not drugs",
+          "Some drugs are vitamins",
+          "No drugs is antibiotics",
+          "No antibiotics is not drugs",
+          "No antibiotics is drugs"
+        ]
+      }
+    ]
+  }
+}

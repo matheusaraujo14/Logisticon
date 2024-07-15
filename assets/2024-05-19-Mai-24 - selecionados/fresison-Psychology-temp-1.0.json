@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+     "Fresison" : [
+        {
+          "major premise": "No therapists are neuroscientists",
+          "minor premise": "Some neuroscientists are researchers",
+          "conclusion": "Some researchers are not therapists",
+          "incorrect conclusions": [
+            "All neuroscientists are researchers",
+            "All neuroscientists are therapists",
+            "All researchers are therapists",
+            "All therapists are neuroscientists",
+            "All therapists are researchers",
+            "Some neuroscientists are not researchers",
+            "Some therapists are researchers",
+            "Some therapists are not researchers",
+            "Some therapists are neuroscientists",
+            "Some therapists are researchers",
+            "Some researchers are therapists",
+            "Some researchers are not neuroscientists",
+            "Some neuroscientists are therapists",
+            "No neuroscientist is researcher",
+            "No researcher is not neuroscientist",
+            "No researcher is neuroscientist"
+          ]
+        },
+        {
+          "major premise": "No clinical psychologists are cognitive scientists",
+          "minor premise": "Some cognitive scientists are experimental psychologists",
+          "conclusion": "Some experimental psychologists are not clinical psychologists",
+          "incorrect conclusions": [
+            "All cognitive scientists are experimental psychologists",
+            "All cognitive scientists are clinical psychologists",
+            "All experimental psychologists are clinical psychologists",
+            "All clinical psychologists are cognitive scientists",
+            "All clinical psychologists are experimental psychologists",
+            "Some cognitive scientists are not experimental psychologists",
+            "Some clinical psychologists are experimental psychologists",
+            "Some clinical psychologists are not experimental psychologists",
+            "Some clinical psychologists are cognitive scientists",
+            "Some clinical psychologists are experimental psychologists",
+            "Some experimental psychologists are clinical psychologists",
+            "Some experimental psychologists are not cognitive scientists",
+            "Some cognitive scientists are clinical psychologists",
+            "No cognitive scientist is experimental psychologist",
+            "No experimental psychologist is not cognitive scientist",
+            "No experimental psychologist is cognitive scientist"
+          ]
+        },
+        {
+          "major premise": "No psychotherapists are social psychologists",
+          "minor premise": "Some social psychologists are educators",
+          "conclusion": "Some educators are not psychotherapists",
+          "incorrect conclusions": [
+            "All social psychologists are educators",
+            "All social psychologists are psychotherapists",
+            "All educators are psychotherapists",
+            "All psychotherapists are social psychologists",
+            "All psychotherapists are educators",
+            "Some social psychologists are not educators",
+            "Some psychotherapists are educators",
+            "Some psychotherapists are not educators",
+            "Some psychotherapists are social psychologists",
+            "Some psychotherapists are educators",
+            "Some educators are psychotherapists",
+            "Some educators are not social psychologists",
+            "Some social psychologists are psychotherapists",
+            "No social psychologist is educator",
+            "No educator is not social psychologist",
+            "No educator is social psychologist"
+          ]
+        }
+     ]
+  }
+}

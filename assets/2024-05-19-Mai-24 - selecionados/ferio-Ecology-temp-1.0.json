@@ -1,0 +1,75 @@
+{
+  "Ecology": {
+    "Ferio": [
+      {
+        "major premise": "No amphibians are birds",
+        "minor premise": "Some frogs are amphibians",
+        "conclusion": "Some frogs are not birds",
+        "incorrect conclusions": [
+          "All amphibians are frogs",
+          "All amphibians are birds",
+          "All frogs are birds",
+          "All birds are amphibians",
+          "All birds are frogs",
+          "Some amphibians are not frogs",
+          "Some birds are frogs",
+          "Some birds are not frogs",
+          "Some birds are amphibians",
+          "Some birds are frogs",
+          "Some frogs are birds",
+          "Some frogs are not amphibians",
+          "Some amphibians are birds",
+          "No amphibians are frogs",
+          "No frogs are not amphibians",
+          "No frogs are amphibians"
+        ]
+      },
+      {
+        "major premise": "No predators are herbivores",
+        "minor premise": "Some lions are predators",
+        "conclusion": "Some lions are not herbivores",
+        "incorrect conclusions": [
+          "All predators are lions",
+          "All predators are herbivores",
+          "All lions are herbivores",
+          "All herbivores are predators",
+          "All herbivores are lions",
+          "Some predators are not lions",
+          "Some herbivores are lions",
+          "Some herbivores are not lions",
+          "Some herbivores are predators",
+          "Some herbivores are lions",
+          "Some lions are herbivores",
+          "Some lions are not predators",
+          "Some predators are herbivores",
+          "No predators are lions",
+          "No lions are not predators",
+          "No lions are predators"
+        ]
+      },
+      {
+        "major premise": "No insects are mammals",
+        "minor premise": "Some ants are insects",
+        "conclusion": "Some ants are not mammals",
+        "incorrect conclusions": [
+          "All insects are ants",
+          "All insects are mammals",
+          "All ants are mammals",
+          "All mammals are insects",
+          "All mammals are ants",
+          "Some insects are not ants",
+          "Some mammals are ants",
+          "Some mammals are not ants",
+          "Some mammals are insects",
+          "Some mammals are ants",
+          "Some ants are mammals",
+          "Some ants are not insects",
+          "Some insects are mammals",
+          "No insects are ants",
+          "No ants are not insects",
+          "No ants are insects"
+        ]
+      }
+    ]
+  }
+}

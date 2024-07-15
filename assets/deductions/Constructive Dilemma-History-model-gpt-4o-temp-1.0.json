@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "History": [
+      {
+        "premises": [
+          "If World War I ends, then the Treaty of Versailles will be signed",
+          "If World War II ends, then the Treaty of Versailles will be signed",
+          "World War I ends or World War II ends"
+        ],
+        "conclusions": [
+          "The Treaty of Versailles will be signed",
+          "If World War I ends or World War II ends, then the Treaty of Versailles will be signed",
+          "If the Treaty of Versailles is not signed, then World War I does not end and World War II does not end",
+          "If World War I ends and World War II ends, then the Treaty of Versailles will be signed",
+          "If the Treaty of Versailles is signed, then World War I ends or World War II ends"
+        ],
+        "incorrect conclusions": [
+          "If World War I ends, then World War II ends or the Treaty of Versailles will be signed",
+          "If the Treaty of Versailles is signed, then World War I ends and World War II ends",
+          "If the Treaty of Versailles is signed or World War I ends, then World War II ends",
+          "If World War I does not end, then the Treaty of Versailles will be signed",
+          "If the Treaty of Versailles is not signed, then World War I ends and World War II ends"
+        ]
+      },
+      {
+        "premises": [
+          "If the Roman Republic falls, then the Roman Empire will rise",
+          "If Julius Caesar is assassinated, then the Roman Empire will rise",
+          "The Roman Republic falls or Julius Caesar is assassinated"
+        ],
+        "conclusions": [
+          "The Roman Empire will rise",
+          "If the Roman Republic falls or Julius Caesar is assassinated, then the Roman Empire will rise",
+          "If the Roman Empire does not rise, then the Roman Republic does not fall and Julius Caesar is not assassinated",
+          "If the Roman Republic falls and Julius Caesar is assassinated, then the Roman Empire will rise",
+          "If the Roman Empire rises, then the Roman Republic falls or Julius Caesar is assassinated"
+        ],
+        "incorrect conclusions": [
+          "If the Roman Republic falls, then Julius Caesar is assassinated or the Roman Empire will rise",
+          "If the Roman Empire rises, then the Roman Republic falls and Julius Caesar is assassinated",
+          "If the Roman Empire rises or the Roman Republic falls, then Julius Caesar is assassinated",
+          "If the Roman Republic does not fall, then the Roman Empire will rise",
+          "If the Roman Empire does not rise, then the Roman Republic falls and Julius Caesar is assassinated"
+        ]
+      },
+      {
+        "premises": [
+          "If Martin Luther starts the Reformation, then the Protestant Church will be established",
+          "If John Calvin starts the Reformation, then the Protestant Church will be established",
+          "Martin Luther starts the Reformation or John Calvin starts the Reformation"
+        ],
+        "conclusions": [
+          "The Protestant Church will be established",
+          "If Martin Luther starts the Reformation or John Calvin starts the Reformation, then the Protestant Church will be established",
+          "If the Protestant Church is not established, then Martin Luther does not start the Reformation and John Calvin does not start the Reformation",
+          "If Martin Luther starts the Reformation and John Calvin starts the Reformation, then the Protestant Church will be established",
+          "If the Protestant Church is established, then Martin Luther starts the Reformation or John Calvin starts the Reformation"
+        ],
+        "incorrect conclusions": [
+          "If Martin Luther starts the Reformation, then John Calvin starts the Reformation or the Protestant Church will be established",
+          "If the Protestant Church is established, then Martin Luther starts the Reformation and John Calvin starts the Reformation",
+          "If the Protestant Church is established or Martin Luther starts the Reformation, then John Calvin starts the Reformation",
+          "If Martin Luther does not start the Reformation, then the Protestant Church will be established",
+          "If the Protestant Church is not established, then Martin Luther starts the Reformation and John Calvin starts the Reformation"
+        ]
+      }
+    ]
+  }
+}

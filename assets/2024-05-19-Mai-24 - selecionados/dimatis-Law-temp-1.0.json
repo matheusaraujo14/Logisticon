@@ -1,0 +1,75 @@
+{
+  "Law": {
+    "Dimatis": [
+      {
+        "major premise": "Some judges are lawyers",
+        "minor premise": "All lawyers are legal professionals",
+        "conclusion": "Some legal professionals are judges",
+        "incorrect conclusions": [
+          "All legal professionals are judges",
+          "All legal professionals are lawyers",
+          "All judges are legal professionals",
+          "All judges are lawyers",
+          "All lawyers are judges",
+          "Some legal professionals are not lawyers",
+          "Some judges are not legal professionals",
+          "Some judges are not lawyers",
+          "Some lawyers are not legal professionals",
+          "Some lawyers are not judges",
+          "No judges are legal professionals",
+          "No judges are lawyers",
+          "No lawyers are legal professionals",
+          "No lawyers are judges",
+          "No legal professionals are lawyers",
+          "No legal professionals are judges"
+        ]
+      },
+      {
+        "major premise": "Some regulations are statutes",
+        "minor premise": "All statutes are legal documents",
+        "conclusion": "Some legal documents are regulations",
+        "incorrect conclusions": [
+          "All legal documents are regulations",
+          "All legal documents are statutes",
+          "All regulations are legal documents",
+          "All regulations are statutes",
+          "All statutes are regulations",
+          "Some legal documents are not statutes",
+          "Some regulations are not legal documents",
+          "Some regulations are not statutes",
+          "Some statutes are not legal documents",
+          "Some statutes are not regulations",
+          "No regulations are legal documents",
+          "No regulations are statutes",
+          "No statutes are legal documents",
+          "No statutes are regulations",
+          "No legal documents are statutes",
+          "No legal documents are regulations"
+        ]
+      },
+      {
+        "major premise": "Some contracts are agreements",
+        "minor premise": "All agreements are legal instruments",
+        "conclusion": "Some legal instruments are contracts",
+        "incorrect conclusions": [
+          "All legal instruments are contracts",
+          "All legal instruments are agreements",
+          "All contracts are legal instruments",
+          "All contracts are agreements",
+          "All agreements are contracts",
+          "Some legal instruments are not agreements",
+          "Some contracts are not legal instruments",
+          "Some contracts are not agreements",
+          "Some agreements are not legal instruments",
+          "Some agreements are not contracts",
+          "No contracts are legal instruments",
+          "No contracts are agreements",
+          "No agreements are legal instruments",
+          "No agreements are contracts",
+          "No legal instruments are agreements",
+          "No legal instruments are contracts"
+        ]
+      }
+    ]
+  }
+}

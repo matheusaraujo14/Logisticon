@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Literature": [
+      {
+        "premises": [
+          "If the main character has a tragic flaw, then the story ends in tragedy.",
+          "If the main character faces an insurmountable obstacle, then the story ends in tragedy.",
+          "The main character has a tragic flaw or the main character faces an insurmountable obstacle"
+        ],
+        "conclusions": [
+          "The story ends in tragedy",
+          "If the main character has a tragic flaw or the main character faces an insurmountable obstacle, then the story ends in tragedy",
+          "If the story does not end in tragedy, then the main character does not have a tragic flaw and the main character does not face an insurmountable obstacle",
+          "If the main character has a tragic flaw and the main character faces an insurmountable obstacle, then the story ends in tragedy",
+          "If the story ends in tragedy, then the main character has a tragic flaw or the main character faces an insurmountable obstacle"
+        ],
+        "incorrect conclusions": [
+          "If the main character has a tragic flaw, then the main character faces an insurmountable obstacle or the story ends in tragedy",
+          "If the story ends in tragedy, then the main character has a tragic flaw and the main character faces an insurmountable obstacle",
+          "If the story ends in tragedy or the main character has a tragic flaw, then the main character faces an insurmountable obstacle",
+          "If the main character does not have a tragic flaw, then the story ends in tragedy",
+          "If the story does not end in tragedy, then the main character has a tragic flaw and the main character faces an insurmountable obstacle"
+        ]
+      },
+      {
+        "premises": [
+          "If the author uses vivid imagery, then the reader is captivated.",
+          "If the author creates relatable characters, then the reader is captivated.",
+          "The author uses vivid imagery or the author creates relatable characters"
+        ],
+        "conclusions": [
+          "The reader is captivated",
+          "If the author uses vivid imagery or the author creates relatable characters, then the reader is captivated",
+          "If the reader is not captivated, then the author does not use vivid imagery and the author does not create relatable characters",
+          "If the author uses vivid imagery and the author creates relatable characters, then the reader is captivated",
+          "If the reader is captivated, then the author uses vivid imagery or the author creates relatable characters"
+        ],
+        "incorrect conclusions": [
+          "If the author uses vivid imagery, then the author creates relatable characters or the reader is captivated",
+          "If the reader is captivated, then the author uses vivid imagery and the author creates relatable characters",
+          "If the reader is captivated or the author uses vivid imagery, then the author creates relatable characters",
+          "If the author does not use vivid imagery, then the reader is captivated",
+          "If the reader is not captivated, then the author uses vivid imagery and the author creates relatable characters"
+        ]
+      },
+      {
+        "premises": [
+          "If the setting is dystopian, then the narrative feels oppressive.",
+          "If the protagonist is constantly surveilled, then the narrative feels oppressive.",
+          "The setting is dystopian or the protagonist is constantly surveilled"
+        ],
+        "conclusions": [
+          "The narrative feels oppressive",
+          "If the setting is dystopian or the protagonist is constantly surveilled, then the narrative feels oppressive",
+          "If the narrative does not feel oppressive, then the setting is not dystopian and the protagonist is not constantly surveilled",
+          "If the setting is dystopian and the protagonist is constantly surveilled, then the narrative feels oppressive",
+          "If the narrative feels oppressive, then the setting is dystopian or the protagonist is constantly surveilled"
+        ],
+        "incorrect conclusions": [
+          "If the setting is dystopian, then the protagonist is constantly surveilled or the narrative feels oppressive",
+          "If the narrative feels oppressive, then the setting is dystopian and the protagonist is constantly surveilled",
+          "If the narrative feels oppressive or the setting is dystopian, then the protagonist is constantly surveilled",
+          "If the setting is not dystopian, then the narrative feels oppressive",
+          "If the narrative does not feel oppressive, then the setting is dystopian and the protagonist is constantly surveilled"
+        ]
+      }
+    ]
+  }
+}

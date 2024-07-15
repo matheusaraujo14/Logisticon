@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Computer Science": [
+      {
+        "premises": [
+          "The program executes successfully or the program generates an error but not both at the same time",
+          "The program does not execute successfully"
+        ],
+        "conclusions": [
+          "The program generates an error",
+          "Not generating an error implies the program executes successfully"
+        ],
+        "incorrect conclusions": [
+          "The program does not generate an error",
+          "If the program executes successfully, then it generates an error",
+          "If the program generates an error, then it executes successfully",
+          "The program executes successfully"
+        ]
+      },
+      {
+        "premises": [
+          "The server is online or the server is under maintenance but not both at the same time",
+          "The server is not online"
+        ],
+        "conclusions": [
+          "The server is under maintenance",
+          "Not under maintenance implies the server is online"
+        ],
+        "incorrect conclusions": [
+          "The server is not under maintenance",
+          "If the server is online, then it is under maintenance",
+          "If the server is under maintenance, then it is online",
+          "The server is online"
+        ]
+      },
+      {
+        "premises": [
+          "The user is authenticated or the user is denied access but not both at the same time",
+          "The user is not authenticated"
+        ],
+        "conclusions": [
+          "The user is denied access",
+          "Not being denied access implies the user is authenticated"
+        ],
+        "incorrect conclusions": [
+          "The user is not denied access",
+          "If the user is authenticated, then they are denied access",
+          "If the user is denied access, then they are authenticated",
+          "The user is authenticated"
+        ]
+      }
+    ]
+  }
+}

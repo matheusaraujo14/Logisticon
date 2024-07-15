@@ -1,0 +1,63 @@
+{
+  "History": {
+    "Felapton": [
+      {
+        "major premise": "No medieval peasants are aristocrats",
+        "minor premise": "All medieval peasants are villagers and some medieval peasants exist",
+        "conclusion": "Some villagers are not aristocrats",
+        "incorrect conclusions": [
+          "All villagers are aristocrats",
+          "All villagers are medieval peasants",
+          "All aristocrats are villagers",
+          "All aristocrats are medieval peasants",
+          "Some villagers are aristocrats",
+          "Some aristocrats are villagers",
+          "Some aristocrats are medieval peasants",
+          "Some aristocrats are not villagers",
+          "Some medieval peasants are aristocrats",
+          "Some medieval peasants are not villagers",
+          "No medieval peasant is a villager",
+          "No villager is a medieval peasant"
+        ]
+      },
+      {
+        "major premise": "No ancient scholars are warriors",
+        "minor premise": "All ancient scholars are teachers and some ancient scholars exist",
+        "conclusion": "Some teachers are not warriors",
+        "incorrect conclusions": [
+          "All teachers are warriors",
+          "All teachers are ancient scholars",
+          "All warriors are teachers",
+          "All warriors are ancient scholars",
+          "Some teachers are warriors",
+          "Some warriors are teachers",
+          "Some warriors are ancient scholars",
+          "Some warriors are not teachers",
+          "Some ancient scholars are warriors",
+          "Some ancient scholars are not teachers",
+          "No ancient scholar is a teacher",
+          "No teacher is an ancient scholar"
+        ]
+      },
+      {
+        "major premise": "No medieval knights are merchants",
+        "minor premise": "All medieval knights are warriors and some medieval knights exist",
+        "conclusion": "Some warriors are not merchants",
+        "incorrect conclusions": [
+          "All warriors are merchants",
+          "All warriors are medieval knights",
+          "All merchants are warriors",
+          "All merchants are medieval knights",
+          "Some warriors are merchants",
+          "Some merchants are warriors",
+          "Some merchants are medieval knights",
+          "Some merchants are not warriors",
+          "Some medieval knights are merchants",
+          "Some medieval knights are not warriors",
+          "No medieval knight is a warrior",
+          "No warrior is a medieval knight"
+        ]
+      }
+    ]
+  }
+}

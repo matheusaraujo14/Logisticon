@@ -1,0 +1,57 @@
+{
+  "Law": {
+    "Baroco": [
+      {
+        "major premise": "All judges are lawyers",
+        "minor premise": "Some defendants are not lawyers",
+        "conclusion": "Some defendants are not judges",
+        "incorrect conclusions": [
+          "All defendants are not lawyers",
+          "All defendants are judges",
+          "All defendants are lawyers",
+          "Some lawyers are defendants",
+          "Some lawyers are not defendants",
+          "Some lawyers are not judges",
+          "Some defendants are lawyers",
+          "Some defendants are judges",
+          "Some lawyers are not judges",
+          "Some lawyers are defendants"
+        ]
+      },
+      {
+        "major premise": "All contracts are legal documents",
+        "minor premise": "Some agreements are not legal documents",
+        "conclusion": "Some agreements are not contracts",
+        "incorrect conclusions": [
+          "All agreements are not legal documents",
+          "All agreements are contracts",
+          "All agreements are legal documents",
+          "Some contracts are agreements",
+          "Some contracts are not agreements",
+          "Some contracts are not legal documents",
+          "Some agreements are legal documents",
+          "Some agreements are contracts",
+          "Some legal documents are not contracts",
+          "Some legal documents are agreements"
+        ]
+      },
+      {
+        "major premise": "All laws are legislations",
+        "minor premise": "Some regulations are not legislations",
+        "conclusion": "Some regulations are not laws",
+        "incorrect conclusions": [
+          "All regulations are not legislations",
+          "All regulations are laws",
+          "All regulations are legislations",
+          "Some laws are regulations",
+          "Some laws are not regulations",
+          "Some laws are not legislations",
+          "Some regulations are legislations",
+          "Some regulations are laws",
+          "Some legislations are not laws",
+          "Some legislations are regulations"
+        ]
+      }
+    ]
+  }
+}

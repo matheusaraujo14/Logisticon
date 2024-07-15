@@ -1,0 +1,75 @@
+{
+  "Nutrition": {
+     "Darapti": [
+        {
+          "major premise": "All vegetables are plants",
+          "minor premise": "All vegetables are food sources and some vegetables exist",
+          "conclusion": "Some food sources are plants",
+          "incorrect conclusions": [
+            "All food sources are plants",
+            "All plants are food sources",
+            "All vegetables are not food sources",
+            "All vegetables are not plants",
+            "Some food sources are not plants",
+            "Some food sources are not vegetables",
+            "Some plants are not vegetables",
+            "Some plants are not food sources",
+            "Some vegetables are not food sources",
+            "Some vegetables are not plants",
+            "No vegetables are food sources",
+            "No vegetables are plants",
+            "No plants are vegetables",
+            "No plants are food sources",
+            "No food sources are vegetables",
+            "No food sources are plants"
+          ]
+        },
+        {
+          "major premise": "All proteins are nutrients",
+          "minor premise": "All proteins are essential compounds and some proteins exist",
+          "conclusion": "Some essential compounds are nutrients",
+          "incorrect conclusions": [
+            "All essential compounds are nutrients",
+            "All nutrients are essential compounds",
+            "All proteins are not essential compounds",
+            "All proteins are not nutrients",
+            "Some essential compounds are not nutrients",
+            "Some essential compounds are not proteins",
+            "Some nutrients are not proteins",
+            "Some nutrients are not essential compounds",
+            "Some proteins are not essential compounds",
+            "Some proteins are not nutrients",
+            "No proteins are essential compounds",
+            "No proteins are nutrients",
+            "No nutrients are proteins",
+            "No nutrients are essential compounds",
+            "No essential compounds are proteins",
+            "No essential compounds are nutrients"
+          ]
+        },
+        {
+          "major premise": "All vitamins are organic compounds",
+          "minor premise": "All vitamins are nutrients and some vitamins exist",
+          "conclusion": "Some nutrients are organic compounds",
+          "incorrect conclusions": [
+            "All nutrients are organic compounds",
+            "All organic compounds are nutrients",
+            "All vitamins are not nutrients",
+            "All vitamins are not organic compounds",
+            "Some nutrients are not organic compounds",
+            "Some nutrients are not vitamins",
+            "Some organic compounds are not vitamins",
+            "Some organic compounds are not nutrients",
+            "Some vitamins are not nutrients",
+            "Some vitamins are not organic compounds",
+            "No vitamins are nutrients",
+            "No vitamins are organic compounds",
+            "No organic compounds are vitamins",
+            "No organic compounds are nutrients",
+            "No nutrients are vitamins",
+            "No nutrients are organic compounds"
+          ]
+        }
+     ]
+  }
+}

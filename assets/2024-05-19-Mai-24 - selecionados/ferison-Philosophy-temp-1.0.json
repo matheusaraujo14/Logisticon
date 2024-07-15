@@ -1,0 +1,52 @@
+{
+  "Philosophy": {
+    "Ferison": [
+      {
+        "major premise": "No philosophers are mathematicians",
+        "minor premise": "Some philosophers are logicians",
+        "conclusion": "Some logicians are not mathematicians",
+        "incorrect conclusions": [
+          "All philosophers are logicians",
+          "All philosophers are mathematicians",
+          "All logicians are mathematicians",
+          "All mathematicians are philosophers",
+          "All mathematicians are logicians",
+          "Some philosophers are not logicians",
+          "Some mathematicians are logicians",
+          "Some mathematicians are not logicians",
+          "Some mathematicians are philosophers",
+          "Some mathematicians are logicians",
+          "Some logicians are mathematicians",
+          "Some logicians are not philosophers",
+          "Some philosophers are mathematicians",
+          "No philosophers is logician",
+          "No logician is not philosopher",
+          "No logician is philosopher"
+        ]
+      },
+      {
+        "major premise": "No epistemologists are metaphysicians",
+        "minor premise": "Some epistemologists are phenomenologists",
+        "conclusion": "Some phenomenologists are not metaphysicians",
+        "incorrect conclusions": [
+          "All epistemologists are phenomenologists",
+          "All epistemologists are metaphysicians",
+          "All phenomenologists are metaphysicians",
+          "All metaphysicians are epistemologists",
+          "All metaphysicians are phenomenologists",
+          "Some epistemologists are not phenomenologists",
+          "Some metaphysicians are phenomenologists",
+          "Some metaphysicians are not phenomenologists",
+          "Some metaphysicians are epistemologists",
+          "Some metaphysicians are phenomenologists",
+          "Some phenomenologists are metaphysicians",
+          "Some phenomenologists are not epistemologists",
+          "Some epistemologists are metaphysicians",
+          "No epistemologist is phenomenologists",
+          "No phenomenologist is not epistemologist",
+          "No phenomenologist is epistemologist"
+        ]
+      }
+    ]
+  }
+}

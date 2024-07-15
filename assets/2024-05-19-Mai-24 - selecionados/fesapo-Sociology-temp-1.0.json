@@ -1,0 +1,63 @@
+{
+  "Sociology": {
+    "Fesapo": [
+      {
+        "major premise": "No sociologists are physicists",
+        "minor premise": "All physicists are scientists and some physicists exist",
+        "conclusion": "Some scientists are not sociologists",
+        "incorrect conclusions": [
+          "All scientists are sociologists",
+          "All scientists are physicists",
+          "All sociologists are scientists",
+          "All sociologists are physicists",
+          "Some scientists are sociologists",
+          "Some sociologists are scientists",
+          "Some sociologists are physicists",
+          "Some sociologists are not scientists",
+          "Some physicists are sociologists",
+          "Some physicists are not scientists",
+          "No physicist is scientist",
+          "No scientist is physicist"
+        ]
+      },
+      {
+        "major premise": "No psychologists are chemists",
+        "minor premise": "All chemists are researchers and some chemists exist",
+        "conclusion": "Some researchers are not psychologists",
+        "incorrect conclusions": [
+          "All researchers are psychologists",
+          "All researchers are chemists",
+          "All psychologists are researchers",
+          "All psychologists are chemists",
+          "Some researchers are psychologists",
+          "Some psychologists are researchers",
+          "Some psychologists are chemists",
+          "Some psychologists are not researchers",
+          "Some chemists are psychologists",
+          "Some chemists are not researchers",
+          "No chemist is researcher",
+          "No researcher is chemist"
+        ]
+      },
+      {
+        "major premise": "No sociologists are historians",
+        "minor premise": "All historians are academics and some historians exist",
+        "conclusion": "Some academics are not sociologists",
+        "incorrect conclusions": [
+          "All academics are sociologists",
+          "All academics are historians",
+          "All sociologists are academics",
+          "All sociologists are historians",
+          "Some academics are sociologists",
+          "Some sociologists are academics",
+          "Some sociologists are historians",
+          "Some sociologists are not academics",
+          "Some historians are sociologists",
+          "Some historians are not academics",
+          "No historian is academic",
+          "No academic is historian"
+        ]
+      }
+    ]
+  }
+}

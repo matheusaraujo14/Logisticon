@@ -1,0 +1,48 @@
+{
+  "Ecology": {
+    "Bocardo": [
+      {
+        "major premise": "Some forests are not wetlands",
+        "minor premise": "All forests are ecosystems",
+        "conclusion": "Some ecosystems are not wetlands",
+        "incorrect conclusions": [
+          "All forests are wetlands",
+          "All ecosystems are forests",
+          "All ecosystems are wetlands",
+          "All wetlands are not forests",
+          "Some ecosystems are not forests",
+          "Some ecosystems are wetlands",
+          "Some forests are not ecosystems",
+          "Some forests are wetlands",
+          "Some wetlands are forests",
+          "Some wetlands are ecosystems",
+          "Some wetlands are not ecosystems",
+          "Some wetlands are not forests",
+          "No forests are ecosystems",
+          "No ecosystems are forests"
+        ]
+      },
+      {
+        "major premise": "Some marshes are not swamps",
+        "minor premise": "All marshes are wetlands",
+        "conclusion": "Some wetlands are not swamps",
+        "incorrect conclusions": [
+          "All marshes are swamps",
+          "All wetlands are marshes",
+          "All wetlands are swamps",
+          "All swamps are not marshes",
+          "Some wetlands are not marshes",
+          "Some wetlands are swamps",
+          "Some marshes are not wetlands",
+          "Some marshes are swamps",
+          "Some swamps are marshes",
+          "Some swamps are wetlands",
+          "Some swamps are not wetlands",
+          "Some swamps are not marshes",
+          "No marshes are wetlands",
+          "No wetlands are marshes"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a number is even, then it is divisible by 2",
+          "If a number is divisible by 2, then it is an integer"
+        ],
+        "conclusions": [
+          "If a number is even, then it is an integer",
+          "If a number is not an integer, then it is not even",
+          "If a number is even or divisible by 2, then it is an integer and if a number is even, then it is an integer",
+          "If a number is even, then it is an integer and if a number is even, then it is an integer",
+          "If a number is not even and it is divisible by 2, then it is an integer and if a number is even, then it is an integer",
+          "If a number is even or divisible by 2, then it is an integer"
+        ],
+        "incorrect conclusions": [
+          "A number is even",
+          "If a number is an integer, then it is even",
+          "If a number is an integer, then it is not even",
+          "A number is an integer",
+          "A number is not an integer",
+          "If a number is not an integer, then it is even",
+          "If a number is not divisible by 2, then it is an integer",
+          "If a number is even or not divisible by 2, then it is an integer"
+        ]
+      },
+      {
+        "premises": [
+          "If a triangle is equilateral, then it has three equal sides",
+          "If a triangle has three equal sides, then it has three equal angles"
+        ],
+        "conclusions": [
+          "If a triangle is equilateral, then it has three equal angles",
+          "If a triangle does not have three equal angles, then it is not equilateral",
+          "If a triangle is equilateral or has three equal sides, then it has three equal angles and if a triangle is equilateral, then it has three equal angles",
+          "If a triangle is equilateral, then it has three equal angles and if a triangle is equilateral, then it has three equal angles",
+          "If a triangle is not equilateral and it has three equal sides, then it has three equal angles and if a triangle is equilateral, then it has three equal angles",
+          "If a triangle is equilateral or has three equal sides, then it has three equal angles"
+        ],
+        "incorrect conclusions": [
+          "A triangle is equilateral",
+          "If a triangle has three equal angles, then it is equilateral",
+          "If a triangle has three equal angles, then it is not equilateral",
+          "A triangle has three equal angles",
+          "A triangle does not have three equal angles",
+          "If a triangle does not have three equal angles, then it is equilateral",
+          "If a triangle does not have three equal sides, then it has three equal angles",
+          "If a triangle is equilateral or does not have three equal sides, then it has three equal angles"
+        ]
+      },
+      {
+        "premises": [
+          "If a function is continuous, then it does not have any discontinuities",
+          "If a function does not have any discontinuities, then it is differentiable"
+        ],
+        "conclusions": [
+          "If a function is continuous, then it is differentiable",
+          "If a function is not differentiable, then it is not continuous",
+          "If a function is continuous or does not have any discontinuities, then it is differentiable and if a function is continuous, then it is differentiable",
+          "If a function is continuous, then it is differentiable and if a function is continuous, then it is differentiable",
+          "If a function is not continuous and it does not have any discontinuities, then it is differentiable and if a function is continuous, then it is differentiable",
+          "If a function is continuous or does not have any discontinuities, then it is differentiable"
+        ],
+        "incorrect conclusions": [
+          "A function is continuous",
+          "If a function is differentiable, then it is continuous",
+          "If a function is differentiable, then it is not continuous",
+          "A function is differentiable",
+          "A function is not differentiable",
+          "If a function is not differentiable, then it is continuous",
+          "If a function has discontinuities, then it is differentiable",
+          "If a function is continuous or has discontinuities, then it is differentiable"
+        ]
+      }
+    ]
+  }
+}

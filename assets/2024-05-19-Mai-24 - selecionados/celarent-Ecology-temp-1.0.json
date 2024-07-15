@@ -1,0 +1,54 @@
+{
+  "Ecology": {
+    "Celarent": [
+      {
+        "major premise": "No carnivores are herbivores",
+        "minor premise": "All lions are carnivores",
+        "conclusion": "No lions are herbivores",
+        "incorrect conclusions": [
+          "All lions are herbivores",
+          "All carnivores are herbivores",
+          "Some lions are carnivores",
+          "Some lions are herbivores",
+          "Some carnivores are lions",
+          "Some carnivores are herbivores",
+          "Some carnivores are not lions",
+          "Some herbivores are lions",
+          "Some herbivores are carnivores"
+        ]
+      },
+      {
+        "major premise": "No fish are birds",
+        "minor premise": "All salmon are fish",
+        "conclusion": "No salmon are birds",
+        "incorrect conclusions": [
+          "All salmon are birds",
+          "All fish are birds",
+          "Some salmon are fish",
+          "Some salmon are birds",
+          "Some fish are salmon",
+          "Some fish are birds",
+          "Some fish are not salmon",
+          "Some birds are salmon",
+          "Some birds are fish"
+        ]
+      },
+      {
+        "major premise": "No insects are mammals",
+        "minor premise": "All bees are insects",
+        "conclusion": "No bees are mammals",
+        "incorrect conclusions": [
+          "All bees are mammals",
+          "All insects are mammals",
+          "Some bees are insects",
+          "Some bees are mammals",
+          "Some insects are bees",
+          "Some insects are mammals",
+          "Some insects are not bees",
+          "Some mammals are bees",
+          "Some mammals are insects"
+        ]
+      }
+    ]
+  }
+}

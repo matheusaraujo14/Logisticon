@@ -1,0 +1,75 @@
+{
+  "Mathematics": {
+     "Ferison" : [
+		{
+          "major premise": "No primes are composites",
+          "minor premise": "Some primes are integers",
+          "conclusion": "Some integers are not composites",
+		  "incorrect conclusions": [
+			"All primes are integers",
+			"All primes are composites",
+			"All integers are composites",
+			"All composites are primes",
+			"All composites are integers",
+			"Some primes are not integers",
+			"Some composites are integers",
+			"Some composites are not integers",
+			"Some composites are primes",
+			"Some composites are integers",
+			"Some integers are composites",
+			"Some integers are not primes",
+			"Some primes are composites",
+			"No primes is integers",
+			"No integers is not primes",
+			"No integers is primes"
+		  ]
+		},
+		{
+          "major premise": "No odd numbers are even numbers",
+          "minor premise": "Some odd numbers are whole numbers",
+          "conclusion": "Some whole numbers are not even numbers",
+		  "incorrect conclusions": [
+			"All odd numbers are whole numbers",
+			"All odd numbers are even numbers",
+			"All whole numbers are even numbers",
+			"All even numbers are odd numbers",
+			"All even numbers are whole numbers",
+			"Some odd numbers are not whole numbers",
+			"Some even numbers are whole numbers",
+			"Some even numbers are not whole numbers",
+			"Some even numbers are odd numbers",
+			"Some even numbers are whole numbers",
+			"Some whole numbers are even numbers",
+			"Some whole numbers are not odd numbers",
+			"Some odd numbers are even numbers",
+			"No odd numbers is whole numbers",
+			"No whole numbers is not odd numbers",
+			"No whole numbers is odd numbers"
+		  ]
+		},
+		{
+          "major premise": "No negative numbers are positive numbers",
+          "minor premise": "Some negative numbers are real numbers",
+          "conclusion": "Some real numbers are not positive numbers",
+		  "incorrect conclusions": [
+			"All negative numbers are real numbers",
+			"All negative numbers are positive numbers",
+			"All real numbers are positive numbers",
+			"All positive numbers are negative numbers",
+			"All positive numbers are real numbers",
+			"Some negative numbers are not real numbers",
+			"Some positive numbers are real numbers",
+			"Some positive numbers are not real numbers",
+			"Some positive numbers are negative numbers",
+			"Some positive numbers are real numbers",
+			"Some real numbers are positive numbers",
+			"Some real numbers are not negative numbers",
+			"Some negative numbers are positive numbers",
+			"No negative numbers is real numbers",
+			"No real numbers is not negative numbers",
+			"No real numbers is negative numbers"
+		  ]
+		}
+	 ]
+  }
+}

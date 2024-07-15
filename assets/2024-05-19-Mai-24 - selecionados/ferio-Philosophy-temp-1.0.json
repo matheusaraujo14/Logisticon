@@ -1,0 +1,28 @@
+{
+  "Philosophy": {
+    "Ferio": [
+      {
+        "major premise": "No Stoics are skeptics",
+        "minor premise": "Some philosophers are Stoics",
+        "conclusion": "Some philosophers are not skeptics",
+        "incorrect conclusions": [
+          "All Stoics are philosophers",
+          "All Stoics are skeptics",
+          "All skeptics are philosophers",
+          "All skeptics are Stoics",
+          "All philosophers are skeptics",
+          "All philosophers are Stoics",
+          "Some Stoics are not philosophers",
+          "Some philosophers are skeptics",
+          "Some skeptics are philosophers",
+          "Some skeptics are not Stoics",
+          "Some philosophers are not Stoics",
+          "Some philosophers are skeptics",
+          "No philosophers are skeptics",
+          "No skeptics are philosophers",
+          "No Stoics are not skeptics"
+        ]
+      }
+    ]
+  }
+}

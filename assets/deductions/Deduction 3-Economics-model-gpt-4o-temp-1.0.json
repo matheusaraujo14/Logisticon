@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Economics": [
+      {
+        "premises": [
+          "If consumer confidence is low, then spending decreases",
+          "If consumer confidence is high, then investment increases"
+        ],
+        "conclusions": [
+          "If spending does not decrease, then consumer confidence is low",
+          "If investment does not increase, then consumer confidence is not high",
+          "If investment does not increase, then spending decreases",
+          "Spending decreases or investment increases",
+          "If consumer confidence is high and spending decreases, then investment increases"
+        ],
+        "incorrect conclusions": [
+          "If spending decreases, then consumer confidence is low",
+          "If spending decreases, then consumer confidence is not high",
+          "If spending does not decrease, then consumer confidence is not high",
+          "Spending decreases and investment increases",
+          "If investment increases, then consumer confidence is high",
+          "If spending decreases and investment increases, then consumer confidence is high"
+        ]
+      },
+      {
+        "premises": [
+          "If the unemployment rate rises, then government spending increases",
+          "If the unemployment rate falls, then consumer spending increases"
+        ],
+        "conclusions": [
+          "If government spending does not increase, then the unemployment rate rises",
+          "If consumer spending does not increase, then the unemployment rate does not fall",
+          "If consumer spending does not increase, then government spending increases",
+          "Government spending increases or consumer spending increases",
+          "If the unemployment rate falls and government spending increases, then consumer spending increases"
+        ],
+        "incorrect conclusions": [
+          "If government spending increases, then the unemployment rate rises",
+          "If government spending increases, then the unemployment rate does not fall",
+          "If government spending does not increase, then the unemployment rate does not fall",
+          "Government spending increases and consumer spending increases",
+          "If consumer spending increases, then the unemployment rate falls",
+          "If government spending increases and consumer spending increases, then the unemployment rate falls"
+        ]
+      },
+      {
+        "premises": [
+          "If inflation rises, then interest rates increase",
+          "If inflation falls, then unemployment decreases"
+        ],
+        "conclusions": [
+          "If interest rates do not increase, then inflation rises",
+          "If unemployment does not decrease, then inflation does not fall",
+          "If unemployment does not decrease, then interest rates increase",
+          "Interest rates increase or unemployment decreases",
+          "If inflation falls and interest rates increase, then unemployment decreases"
+        ],
+        "incorrect conclusions": [
+          "If interest rates increase, then inflation rises",
+          "If interest rates increase, then inflation does not fall",
+          "If interest rates do not increase, then inflation does not fall",
+          "Interest rates increase and unemployment decreases",
+          "If unemployment decreases, then inflation falls",
+          "If interest rates increase and unemployment decreases, then inflation falls"
+        ]
+      }
+    ]
+  }
+}

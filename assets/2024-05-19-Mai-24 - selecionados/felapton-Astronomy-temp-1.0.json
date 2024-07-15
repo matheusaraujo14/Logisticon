@@ -1,0 +1,44 @@
+{
+  "Astronomy": {
+     "Felapton" : [
+        {
+          "major premise": "No dwarf planets are stars",
+          "minor premise": "All dwarf planets are celestial bodies and some dwarf planets exist",
+          "conclusion": "Some celestial bodies are not stars",
+          "incorrect conclusions": [
+            "All celestial bodies are stars",
+            "All celestial bodies are dwarf planets",
+            "All stars are celestial bodies",
+            "All stars are dwarf planets",
+            "Some celestial bodies are stars",
+            "Some stars are celestial bodies",
+            "Some stars are dwarf planets",
+            "Some stars are not celestial bodies",
+            "Some dwarf planets are stars",
+            "Some dwarf planets are not celestial bodies",
+            "No dwarf planet is a celestial body",
+            "No celestial body is a dwarf planet"
+          ]
+        },
+        {
+          "major premise": "No neutron stars are planets",
+          "minor premise": "All neutron stars are cosmic objects and some neutron stars exist",
+          "conclusion": "Some cosmic objects are not planets",
+          "incorrect conclusions": [
+            "All cosmic objects are planets",
+            "All cosmic objects are neutron stars",
+            "All planets are cosmic objects",
+            "All planets are neutron stars",
+            "Some cosmic objects are planets",
+            "Some planets are cosmic objects",
+            "Some planets are neutron stars",
+            "Some planets are not cosmic objects",
+            "Some neutron stars are planets",
+            "Some neutron stars are not cosmic objects",
+            "No neutron star is a cosmic object",
+            "No cosmic object is a neutron star"
+          ]
+        }
+     ]
+  }
+}

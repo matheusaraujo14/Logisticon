@@ -1,0 +1,54 @@
+{
+  "Mathematics": {
+    "Cesare": [
+      {
+        "major premise": "No prime numbers are composite numbers",
+        "minor premise": "All even numbers greater than 2 are composite numbers",
+        "conclusion": "No even numbers greater than 2 are prime numbers",
+        "incorrect conclusions": [
+          "All even numbers greater than 2 are prime numbers",
+          "All composite numbers are prime numbers",
+          "Some even numbers greater than 2 are composite numbers",
+          "Some even numbers greater than 2 are prime numbers",
+          "Some composite numbers are even numbers greater than 2",
+          "Some composite numbers are prime numbers",
+          "Some composite numbers are not even numbers greater than 2",
+          "Some prime numbers are even numbers greater than 2",
+          "Some prime numbers are composite numbers"
+        ]
+      },
+      {
+        "major premise": "No irrational numbers are rational numbers",
+        "minor premise": "All square roots of non-perfect squares are irrational numbers",
+        "conclusion": "No square roots of non-perfect squares are rational numbers",
+        "incorrect conclusions": [
+          "All square roots of non-perfect squares are rational numbers",
+          "All rational numbers are irrational numbers",
+          "Some square roots of non-perfect squares are irrational numbers",
+          "Some square roots of non-perfect squares are rational numbers",
+          "Some rational numbers are square roots of non-perfect squares",
+          "Some rational numbers are irrational numbers",
+          "Some rational numbers are not square roots of non-perfect squares",
+          "Some irrational numbers are square roots of non-perfect squares",
+          "Some irrational numbers are rational numbers"
+        ]
+      },
+      {
+        "major premise": "No negative numbers are positive numbers",
+        "minor premise": "All integers less than zero are negative numbers",
+        "conclusion": "No integers less than zero are positive numbers",
+        "incorrect conclusions": [
+          "All integers less than zero are positive numbers",
+          "All positive numbers are negative numbers",
+          "Some integers less than zero are negative numbers",
+          "Some integers less than zero are positive numbers",
+          "Some positive numbers are integers less than zero",
+          "Some positive numbers are negative numbers",
+          "Some positive numbers are not integers less than zero",
+          "Some negative numbers are integers less than zero",
+          "Some negative numbers are positive numbers"
+        ]
+      }
+    ]
+  }
+}

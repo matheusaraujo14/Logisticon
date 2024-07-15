@@ -1,0 +1,39 @@
+{
+  "Geography": {
+    "Barbara": [
+
+      {
+        "major premise": "All oceans are water bodies",
+        "minor premise": "All seas are oceans",
+        "conclusion": "All seas are water bodies",
+        "incorrect conclusions": [
+          "All water bodies are oceans",
+          "All water bodies are seas",
+          "Some seas are oceans",
+          "Some seas are water bodies",
+          "Some seas are not water bodies",
+          "Some seas are not oceans",
+          "Some water bodies are seas",
+          "Some water bodies are oceans",
+          "Some oceans are seas"
+        ]
+      },
+      {
+        "major premise": "All deserts are drylands",
+        "minor premise": "All sand dunes are deserts",
+        "conclusion": "All sand dunes are drylands",
+        "incorrect conclusions": [
+          "All drylands are deserts",
+          "All drylands are sand dunes",
+          "Some sand dunes are deserts",
+          "Some sand dunes are drylands",
+          "Some sand dunes are not drylands",
+          "Some sand dunes are not deserts",
+          "Some drylands are sand dunes",
+          "Some drylands are deserts",
+          "Some deserts are sand dunes"
+        ]
+      }
+    ]
+  }
+}

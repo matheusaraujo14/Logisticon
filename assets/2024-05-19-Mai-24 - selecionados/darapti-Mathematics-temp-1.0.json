@@ -1,0 +1,52 @@
+{
+  "Mathematics": {
+    "Darapti": [
+      {
+        "major premise": "All matrices are tensors",
+        "minor premise": "All matrices are linear operators and some matrices exist",
+        "conclusion": "Some linear operators are tensors",
+        "incorrect conclusions": [
+          "All linear operators are tensors",
+          "All tensors are linear operators",
+          "All matrices are not linear operators",
+          "All matrices are not tensors",
+          "Some linear operators are not tensors",
+          "Some linear operators are not matrices",
+          "Some tensors are not matrices",
+          "Some tensors are not linear operators",
+          "Some matrices are not linear operators",
+          "Some matrices are not tensors",
+          "No matrices are linear operators",
+          "No matrices are tensors",
+          "No tensors are matrices",
+          "No tensors are linear operators",
+          "No linear operators are matrices",
+          "No linear operators are tensors"
+        ]
+      },
+      {
+        "major premise": "All polynomials are functions",
+        "minor premise": "All polynomials are algebraic expressions and some polynomials exist",
+        "conclusion": "Some algebraic expressions are functions",
+        "incorrect conclusions": [
+          "All algebraic expressions are functions",
+          "All functions are algebraic expressions",
+          "All polynomials are not algebraic expressions",
+          "All polynomials are not functions",
+          "Some algebraic expressions are not functions",
+          "Some algebraic expressions are not polynomials",
+          "Some functions are not polynomials",
+          "Some functions are not algebraic expressions",
+          "Some polynomials are not algebraic expressions",
+          "Some polynomials are not functions",
+          "No polynomials are algebraic expressions",
+          "No polynomials are functions",
+          "No functions are polynomials",
+          "No functions are algebraic expressions",
+          "No algebraic expressions are polynomials",
+          "No algebraic expressions are functions"
+        ]
+      }
+    ]
+  }
+}

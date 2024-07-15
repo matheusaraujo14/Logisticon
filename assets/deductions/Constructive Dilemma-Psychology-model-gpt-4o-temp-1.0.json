@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a person experiences trauma, then they may develop anxiety",
+          "If a person experiences chronic stress, then they may develop anxiety",
+          "A person experiences trauma or chronic stress"
+        ],
+        "conclusions": [
+          "They may develop anxiety",
+          "If a person experiences trauma or chronic stress, then they may develop anxiety",
+          "If a person does not develop anxiety, then they did not experience trauma and they did not experience chronic stress",
+          "If a person experiences trauma and chronic stress, then they may develop anxiety",
+          "If a person develops anxiety, then they experienced trauma or chronic stress"
+        ],
+        "incorrect conclusions": [
+          "If a person experiences trauma, then they experience chronic stress or develop anxiety",
+          "If a person develops anxiety, then they experienced trauma and chronic stress",
+          "If a person develops anxiety or experiences trauma, then they experience chronic stress",
+          "If a person does not experience trauma, then they may develop anxiety",
+          "If a person does not develop anxiety, then they experienced trauma and chronic stress"
+        ]
+      },
+      {
+        "premises": [
+          "If a person receives positive reinforcement, then they exhibit more desired behavior",
+          "If a person receives social approval, then they exhibit more desired behavior",
+          "A person receives positive reinforcement or social approval"
+        ],
+        "conclusions": [
+          "They exhibit more desired behavior",
+          "If a person receives positive reinforcement or social approval, then they exhibit more desired behavior",
+          "If a person does not exhibit more desired behavior, then they did not receive positive reinforcement and they did not receive social approval",
+          "If a person receives positive reinforcement and social approval, then they exhibit more desired behavior",
+          "If a person exhibits more desired behavior, then they received positive reinforcement or social approval"
+        ],
+        "incorrect conclusions": [
+          "If a person receives positive reinforcement, then they receive social approval or exhibit more desired behavior",
+          "If a person exhibits more desired behavior, then they received positive reinforcement and social approval",
+          "If a person exhibits more desired behavior or receives positive reinforcement, then they receive social approval",
+          "If a person does not receive positive reinforcement, then they exhibit more desired behavior",
+          "If a person does not exhibit more desired behavior, then they received positive reinforcement and social approval"
+        ]
+      },
+      {
+        "premises": [
+          "If a person engages in regular physical exercise, then they have improved mood",
+          "If a person practices mindfulness, then they have improved mood",
+          "A person engages in regular physical exercise or practices mindfulness"
+        ],
+        "conclusions": [
+          "They have improved mood",
+          "If a person engages in regular physical exercise or practices mindfulness, then they have improved mood",
+          "If a person does not have improved mood, then they did not engage in regular physical exercise and they did not practice mindfulness",
+          "If a person engages in regular physical exercise and practices mindfulness, then they have improved mood",
+          "If a person has improved mood, then they engaged in regular physical exercise or practiced mindfulness"
+        ],
+        "incorrect conclusions": [
+          "If a person engages in regular physical exercise, then they practice mindfulness or have improved mood",
+          "If a person has improved mood, then they engaged in regular physical exercise and practiced mindfulness",
+          "If a person has improved mood or engages in regular physical exercise, then they practice mindfulness",
+          "If a person does not engage in regular physical exercise, then they have improved mood",
+          "If a person does not have improved mood, then they engaged in regular physical exercise and practiced mindfulness"
+        ]
+      }
+    ]
+  }
+}

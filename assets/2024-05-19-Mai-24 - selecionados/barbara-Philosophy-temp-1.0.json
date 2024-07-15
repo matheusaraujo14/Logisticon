@@ -1,0 +1,22 @@
+{
+  "Philosophy": {
+    "Barbara": [
+      {
+        "major premise": "All philosophers are humans",
+        "minor premise": "All Stoics are philosophers",
+        "conclusion": "All Stoics are humans",
+        "incorrect conclusions": [
+          "All humans are philosophers",
+          "All humans are Stoics",
+          "Some Stoics are philosophers",
+          "Some Stoics are humans",
+          "Some Stoics are not humans",
+          "Some Stoics are not philosophers",
+          "Some humans are Stoics",
+          "Some humans are philosophers",
+          "Some philosophers are Stoics"
+        ]
+      }
+    ]
+  }
+}

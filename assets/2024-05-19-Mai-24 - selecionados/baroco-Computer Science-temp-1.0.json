@@ -1,0 +1,23 @@
+{
+  "Computer Science": {
+     "Baroco" : [
+        {
+          "major premise": "All programming paradigms are methodologies",
+          "minor premise": "Some data structures are not methodologies",
+          "conclusion": "Some data structures are not programming paradigms",
+          "incorrect conclusions": [
+            "All data structures are not methodologies",
+            "All data structures are programming paradigms",
+            "All data structures are methodologies",
+            "Some programming paradigms are data structures",
+            "Some programming paradigms are not data structures",
+            "Some programming paradigms are not methodologies",
+            "Some data structures are methodologies",
+            "Some data structures are programming paradigms",
+            "Some methodologies are not programming paradigms",
+            "Some methodologies are data structures"
+          ]
+        }
+     ]
+  }
+}

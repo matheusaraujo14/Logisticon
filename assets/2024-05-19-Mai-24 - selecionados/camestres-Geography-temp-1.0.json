@@ -1,0 +1,54 @@
+{
+  "Geography": {
+    "Camestres": [
+      {
+        "major premise": "All mountains are landforms",
+        "minor premise": "No oceans are landforms",
+        "conclusion": "No oceans are mountains",
+        "incorrect conclusions": [
+          "All mountains are oceans",
+          "All landforms are oceans",
+          "Some mountains are landforms",
+          "Some mountains are oceans",
+          "Some landforms are oceans",
+          "Some landforms are mountains",
+          "Some oceans are landforms",
+          "Some oceans are mountains",
+          "Some landforms are not mountains"
+        ]
+      },
+      {
+        "major premise": "All islands are landmasses",
+        "minor premise": "No lakes are landmasses",
+        "conclusion": "No lakes are islands",
+        "incorrect conclusions": [
+          "All islands are lakes",
+          "All landmasses are lakes",
+          "Some islands are landmasses",
+          "Some islands are lakes",
+          "Some landmasses are lakes",
+          "Some landmasses are islands",
+          "Some lakes are landmasses",
+          "Some lakes are islands",
+          "Some landmasses are not islands"
+        ]
+      },
+      {
+        "major premise": "All rivers are water bodies",
+        "minor premise": "No deserts are water bodies",
+        "conclusion": "No deserts are rivers",
+        "incorrect conclusions": [
+          "All rivers are deserts",
+          "All water bodies are deserts",
+          "Some rivers are water bodies",
+          "Some rivers are deserts",
+          "Some water bodies are deserts",
+          "Some water bodies are rivers",
+          "Some deserts are water bodies",
+          "Some deserts are rivers",
+          "Some water bodies are not rivers"
+        ]
+      }
+    ]
+  }
+}

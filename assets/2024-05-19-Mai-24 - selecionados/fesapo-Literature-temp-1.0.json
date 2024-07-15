@@ -1,0 +1,63 @@
+{
+  "Literature": {
+    "Fesapo": [
+      {
+        "major premise": "No poets are novelists",
+        "minor premise": "All novelists are authors and some novelists exist",
+        "conclusion": "Some authors are not poets",
+        "incorrect conclusions": [
+          "All authors are poets",
+          "All authors are novelists",
+          "All poets are authors",
+          "All poets are novelists",
+          "Some authors are poets",
+          "Some poets are authors",
+          "Some poets are novelists",
+          "Some poets are not authors",
+          "Some novelists are poets",
+          "Some novelists are not authors",
+          "No novelists are authors",
+          "No authors are novelists"
+        ]
+      },
+      {
+        "major premise": "No essays are poems",
+        "minor premise": "All poems are writings and some poems exist",
+        "conclusion": "Some writings are not essays",
+        "incorrect conclusions": [
+          "All writings are essays",
+          "All writings are poems",
+          "All essays are writings",
+          "All essays are poems",
+          "Some writings are essays",
+          "Some essays are writings",
+          "Some essays are poems",
+          "Some essays are not writings",
+          "Some poems are essays",
+          "Some poems are not writings",
+          "No poems are writings",
+          "No writings are poems"
+        ]
+      },
+      {
+        "major premise": "No tragedies are dramas",
+        "minor premise": "All dramas are plays and some dramas exist",
+        "conclusion": "Some plays are not tragedies",
+        "incorrect conclusions": [
+          "All plays are tragedies",
+          "All plays are dramas",
+          "All tragedies are plays",
+          "All tragedies are dramas",
+          "Some plays are tragedies",
+          "Some tragedies are plays",
+          "Some tragedies are dramas",
+          "Some tragedies are not plays",
+          "Some dramas are tragedies",
+          "Some dramas are not plays",
+          "No dramas are plays",
+          "No plays are dramas"
+        ]
+      }
+    ]
+  }
+}

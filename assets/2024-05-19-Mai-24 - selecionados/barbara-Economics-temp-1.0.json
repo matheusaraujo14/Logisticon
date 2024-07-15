@@ -1,0 +1,54 @@
+{
+  "Economics": {
+     "Barbara" : [
+		{
+          "major premise": "All macroeconomic policies are economic policies",
+          "minor premise": "All fiscal policies are macroeconomic policies",
+          "conclusion": "All fiscal policies are economic policies",
+		  "incorrect conclusions": [
+			"All economic policies are macroeconomic policies",
+			"All economic policies are fiscal policies",
+			"Some fiscal policies are macroeconomic policies",
+			"Some fiscal policies are economic policies",
+			"Some fiscal policies are not economic policies",
+			"Some fiscal policies are not macroeconomic policies",
+			"Some economic policies are fiscal policies",
+			"Some economic policies are macroeconomic policies",
+			"Some macroeconomic policies are fiscal policies"
+		  ]
+		},
+		{
+          "major premise": "All central banks are financial institutions",
+          "minor premise": "All federal reserves are central banks",
+          "conclusion": "All federal reserves are financial institutions",
+		  "incorrect conclusions": [
+			"All financial institutions are central banks",
+			"All financial institutions are federal reserves",
+			"Some federal reserves are central banks",
+			"Some federal reserves are financial institutions",
+			"Some federal reserves are not financial institutions",
+			"Some federal reserves are not central banks",
+			"Some financial institutions are federal reserves",
+			"Some financial institutions are central banks",
+			"Some central banks are federal reserves"
+		  ]
+		},
+		{
+          "major premise": "All monetary policies are economic strategies",
+          "minor premise": "All interest rate controls are monetary policies",
+          "conclusion": "All interest rate controls are economic strategies",
+		  "incorrect conclusions": [
+			"All economic strategies are monetary policies",
+			"All economic strategies are interest rate controls",
+			"Some interest rate controls are monetary policies",
+			"Some interest rate controls are economic strategies",
+			"Some interest rate controls are not economic strategies",
+			"Some interest rate controls are not monetary policies",
+			"Some economic strategies are interest rate controls",
+			"Some economic strategies are monetary policies",
+			"Some monetary policies are interest rate controls"
+		  ]
+		}
+	 ]
+  }
+}

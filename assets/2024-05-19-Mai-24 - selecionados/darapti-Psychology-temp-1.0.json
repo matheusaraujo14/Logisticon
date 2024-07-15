@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+    "Darapti": [
+      {
+        "major premise": "All psychotherapists are mental health professionals",
+        "minor premise": "All psychotherapists are counselors and some psychotherapists exist",
+        "conclusion": "Some counselors are mental health professionals",
+        "incorrect conclusions": [
+          "All counselors are mental health professionals",
+          "All mental health professionals are counselors",
+          "All psychotherapists are not counselors",
+          "All psychotherapists are not mental health professionals",
+          "Some counselors are not mental health professionals",
+          "Some counselors are not psychotherapists",
+          "Some mental health professionals are not psychotherapists",
+          "Some mental health professionals are not counselors",
+          "Some psychotherapists are not counselors",
+          "Some psychotherapists are not mental health professionals",
+          "No psychotherapists are counselors",
+          "No psychotherapists are mental health professionals",
+          "No mental health professionals are psychotherapists",
+          "No mental health professionals are counselors",
+          "No counselors are psychotherapists",
+          "No counselors are mental health professionals"
+        ]
+      },
+      {
+        "major premise": "All clinical psychologists are healthcare providers",
+        "minor premise": "All clinical psychologists are behavioral science experts and some clinical psychologists exist",
+        "conclusion": "Some behavioral science experts are healthcare providers",
+        "incorrect conclusions": [
+          "All behavioral science experts are healthcare providers",
+          "All healthcare providers are behavioral science experts",
+          "All clinical psychologists are not behavioral science experts",
+          "All clinical psychologists are not healthcare providers",
+          "Some behavioral science experts are not healthcare providers",
+          "Some behavioral science experts are not clinical psychologists",
+          "Some healthcare providers are not clinical psychologists",
+          "Some healthcare providers are not behavioral science experts",
+          "Some clinical psychologists are not behavioral science experts",
+          "Some clinical psychologists are not healthcare providers",
+          "No clinical psychologists are behavioral science experts",
+          "No clinical psychologists are healthcare providers",
+          "No healthcare providers are clinical psychologists",
+          "No healthcare providers are behavioral science experts",
+          "No behavioral science experts are clinical psychologists",
+          "No behavioral science experts are healthcare providers"
+        ]
+      },
+      {
+        "major premise": "All psychiatrists are medical doctors",
+        "minor premise": "All psychiatrists are mental health experts and some psychiatrists exist",
+        "conclusion": "Some mental health experts are medical doctors",
+        "incorrect conclusions": [
+          "All mental health experts are medical doctors",
+          "All medical doctors are mental health experts",
+          "All psychiatrists are not mental health experts",
+          "All psychiatrists are not medical doctors",
+          "Some mental health experts are not medical doctors",
+          "Some mental health experts are not psychiatrists",
+          "Some medical doctors are not psychiatrists",
+          "Some medical doctors are not mental health experts",
+          "Some psychiatrists are not mental health experts",
+          "Some psychiatrists are not medical doctors",
+          "No psychiatrists are mental health experts",
+          "No psychiatrists are medical doctors",
+          "No medical doctors are psychiatrists",
+          "No medical doctors are mental health experts",
+          "No mental health experts are psychiatrists",
+          "No mental health experts are medical doctors"
+        ]
+      }
+    ]
+  }
+}

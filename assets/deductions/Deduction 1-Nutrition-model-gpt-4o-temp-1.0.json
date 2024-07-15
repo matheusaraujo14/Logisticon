@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a person eats a balanced diet, then they receive adequate vitamins",
+          "If a person eats a balanced diet, then they have good energy levels"
+        ],
+        "conclusions": [
+          "If a person eats a balanced diet, then they receive adequate vitamins and have good energy levels",
+          "If a person eats a balanced diet, then they receive adequate vitamins or have good energy levels",
+          "If a person does not receive adequate vitamins, then they do not eat a balanced diet",
+          "If a person does not have good energy levels, then they do not eat a balanced diet",
+          "If a person does not receive adequate vitamins or does not have good energy levels, then they do not eat a balanced diet"
+        ],
+        "incorrect conclusions": [
+          "If a person does not receive adequate vitamins, they do not have good energy levels",
+          "If a person does not have good energy levels, they do not receive adequate vitamins",
+          "Receiving adequate vitamins implies having good energy levels",
+          "Having good energy levels implies receiving adequate vitamins",
+          "Receiving adequate vitamins and having good energy levels implies eating a balanced diet",
+          "Receiving adequate vitamins or having good energy levels implies eating a balanced diet",
+          "If a person does not receive adequate vitamins or they do not eat a balanced diet, then they eat a balanced diet"
+        ]
+      },
+      {
+        "premises": [
+          "If a person drinks enough water, then their skin is hydrated",
+          "If a person drinks enough water, then they maintain proper kidney function"
+        ],
+        "conclusions": [
+          "If a person drinks enough water, then their skin is hydrated and they maintain proper kidney function",
+          "If a person drinks enough water, then their skin is hydrated or they maintain proper kidney function",
+          "If a person's skin is not hydrated, then they do not drink enough water",
+          "If a person does not maintain proper kidney function, then they do not drink enough water",
+          "If a person's skin is not hydrated or they do not maintain proper kidney function, then they do not drink enough water"
+        ],
+        "incorrect conclusions": [
+          "If a person's skin is not hydrated, then they do not maintain proper kidney function",
+          "If a person does not maintain proper kidney function, then their skin is not hydrated",
+          "Having hydrated skin implies maintaining proper kidney function",
+          "Maintaining proper kidney function implies having hydrated skin",
+          "Having hydrated skin and maintaining proper kidney function implies drinking enough water",
+          "Having hydrated skin or maintaining proper kidney function implies drinking enough water",
+          "If a person's skin is not hydrated or they do not drink enough water, then they drink enough water"
+        ]
+      },
+      {
+        "premises": [
+          "If a person consumes fiber, then they have regular bowel movements",
+          "If a person consumes fiber, then they improve their gut health"
+        ],
+        "conclusions": [
+          "If a person consumes fiber, then they have regular bowel movements and improve their gut health",
+          "If a person consumes fiber, then they have regular bowel movements or improve their gut health",
+          "If a person does not have regular bowel movements, then they do not consume fiber",
+          "If a person does not improve their gut health, then they do not consume fiber",
+          "If a person does not have regular bowel movements or does not improve their gut health, then they do not consume fiber"
+        ],
+        "incorrect conclusions": [
+          "If a person does not have regular bowel movements, they do not improve their gut health",
+          "If a person does not improve their gut health, they do not have regular bowel movements",
+          "Having regular bowel movements implies improving gut health",
+          "Improving gut health implies having regular bowel movements",
+          "Having regular bowel movements and improving gut health implies consuming fiber",
+          "Having regular bowel movements or improving gut health implies consuming fiber",
+          "If a person does not have regular bowel movements or they do not consume fiber, then they consume fiber"
+        ]
+      }
+    ]
+  }
+}

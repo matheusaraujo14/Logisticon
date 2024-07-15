@@ -1,0 +1,54 @@
+{
+  "Literature": {
+     "Celarent" : [
+		  {
+        "major premise": "No poets are novelists",
+        "minor premise": "All lyricists are poets",
+        "conclusion": "No lyricists are novelists",
+		    "incorrect conclusions": [
+			    "All lyricists are novelists",
+			    "All poets are novelists",
+          "Some lyricists are poets",
+          "Some lyricists are novelists",
+          "Some poets are lyricists",
+          "Some poets are novelists",
+          "Some poets are not lyricists",
+          "Some novelists are lyricists",
+          "Some novelists are poets"
+		    ]
+		  },
+		  {
+        "major premise": "No dramas are epics",
+        "minor premise": "All plays are dramas",
+        "conclusion": "No plays are epics",
+		    "incorrect conclusions": [
+			  "All plays are epics",
+			  "All dramas are epics",
+          "Some plays are dramas",
+          "Some plays are epics",
+          "Some dramas are plays",
+          "Some dramas are epics",
+          "Some dramas are not plays",
+          "Some epics are plays",
+          "Some epics are dramas"
+		    ]
+		  },
+		  {
+        "major premise": "No anthologies are biographies",
+        "minor premise": "All collections are anthologies",
+        "conclusion": "No collections are biographies",
+		    "incorrect conclusions": [
+			    "All collections are biographies",
+			    "All anthologies are biographies",
+          "Some collections are anthologies",
+          "Some collections are biographies",
+          "Some anthologies are collections",
+          "Some anthologies are biographies",
+          "Some anthologies are not collections",
+          "Some biographies are collections",
+          "Some biographies are anthologies"
+		    ]
+		  }
+	  ]
+  }
+}

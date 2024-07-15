@@ -1,0 +1,25 @@
+{
+  "Nutrition": {
+    "Fesapo": [
+      {
+        "major premise": "No vitamins are carbohydrates",
+        "minor premise": "All carbohydrates are macronutrients and some carbohydrates exist",
+        "conclusion": "Some macronutrients are not vitamins",
+        "incorrect conclusions": [
+          "All macronutrients are vitamins",
+          "All macronutrients are carbohydrates",
+          "All vitamins are macronutrients",
+          "All vitamins are carbohydrates",
+          "Some macronutrients are vitamins",
+          "Some vitamins are macronutrients",
+          "Some vitamins are carbohydrates",
+          "Some vitamins are not macronutrients",
+          "Some carbohydrates are vitamins",
+          "Some carbohydrates are not macronutrients",
+          "No carbohydrates are macronutrients",
+          "No macronutrients are carbohydrates"
+        ]
+      }
+    ]
+  }
+}

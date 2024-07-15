@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "History": [
+      {
+        "premises": [
+          "If the king orders an attack, then the army marches",
+          "If the king orders an attack, then the navy sets sail"
+        ],
+        "conclusions": [
+          "If the king orders an attack, then the army marches and the navy sets sail",
+          "If the king orders an attack, then the army marches or the navy sets sail",
+          "If the army does not march, then the king does not order an attack",
+          "If the navy does not set sail, then the king does not order an attack",
+          "If the army does not march or the navy does not set sail, then the king does not order an attack"
+        ],
+        "incorrect conclusions": [
+          "If the army does not march, then the navy does not set sail",
+          "If the navy does not set sail, then the army does not march",
+          "If the army marches, then the navy sets sail",
+          "If the navy sets sail, then the army marches",
+          "If the army marches and the navy sets sail, then the king orders an attack",
+          "If the army marches or the navy sets sail, then the king orders an attack",
+          "If the army does not march or the king does not order an attack, then the king orders an attack"
+        ]
+      },
+      {
+        "premises": [
+          "If the treaty is signed, then peace is restored",
+          "If the treaty is signed, then trade resumes"
+        ],
+        "conclusions": [
+          "If the treaty is signed, then peace is restored and trade resumes",
+          "If the treaty is signed, then peace is restored or trade resumes",
+          "If peace is not restored, then the treaty is not signed",
+          "If trade does not resume, then the treaty is not signed",
+          "If peace is not restored or trade does not resume, then the treaty is not signed"
+        ],
+        "incorrect conclusions": [
+          "If peace is not restored, then trade does not resume",
+          "If trade does not resume, then peace does not occur",
+          "If peace is restored, then trade resumes",
+          "If trade resumes, then peace is restored",
+          "If peace is restored and trade resumes, then the treaty is signed",
+          "If peace is restored or trade resumes, then the treaty is signed",
+          "If peace is not restored or the treaty is not signed, then the treaty is signed"
+        ]
+      },
+      {
+        "premises": [
+          "If the rebellion is defeated, then law is enforced",
+          "If the rebellion is defeated, then the economy stabilizes"
+        ],
+        "conclusions": [
+          "If the rebellion is defeated, then law is enforced and the economy stabilizes",
+          "If the rebellion is defeated, then law is enforced or the economy stabilizes",
+          "If law is not enforced, then the rebellion is not defeated",
+          "If the economy does not stabilize, then the rebellion is not defeated",
+          "If law is not enforced or the economy does not stabilize, then the rebellion is not defeated"
+        ],
+        "incorrect conclusions": [
+          "If law is not enforced, then the economy does not stabilize",
+          "If the economy does not stabilize, then the law is not enforced",
+          "If law is enforced, then the economy stabilizes",
+          "If the economy stabilizes, then the law is enforced",
+          "If law is enforced and the economy stabilizes, then the rebellion is defeated",
+          "If law is enforced or the economy stabilizes, then the rebellion is defeated",
+          "If law is not enforced or the rebellion is not defeated, then the rebellion is defeated"
+        ]
+      }
+    ]
+  }
+}

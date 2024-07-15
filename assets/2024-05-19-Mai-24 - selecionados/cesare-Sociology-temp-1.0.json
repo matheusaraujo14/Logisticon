@@ -1,0 +1,22 @@
+{
+  "Sociology": {
+    "Cesare": [
+      {
+        "major premise": "No sociologists are anthropologists",
+        "minor premise": "All demographers are anthropologists",
+        "conclusion": "No demographers are sociologists",
+        "incorrect conclusions": [
+          "All demographers are sociologists",
+          "All anthropologists are sociologists",
+          "Some demographers are anthropologists",
+          "Some demographers are sociologists",
+          "Some anthropologists are demographers",
+          "Some anthropologists are sociologists",
+          "Some anthropologists are not demographers",
+          "Some sociologists are demographers",
+          "Some sociologists are anthropologists"
+        ]
+      }
+    ]
+  }
+}

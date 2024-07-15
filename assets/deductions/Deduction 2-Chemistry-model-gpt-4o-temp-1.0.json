@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a substance is soluble in water, then it does not form a precipitate",
+          "If a substance is soluble in water, then it dissolves completely"
+        ],
+        "conclusions": [
+          "If a substance is soluble in water, then it does not form a precipitate and dissolves completely",
+          "If a substance is soluble in water, then it does not form a precipitate or dissolves completely",
+          "If a substance forms a precipitate, then it is not soluble in water",
+          "If a substance does not dissolve completely, then it is not soluble in water",
+          "If a substance forms a precipitate or does not dissolve completely, then it is not soluble in water"
+        ],
+        "incorrect conclusions": [
+          "If a substance forms a precipitate, then it does not dissolve completely",
+          "If a substance does not dissolve completely, then it forms a precipitate",
+          "If a substance does not form a precipitate, then it dissolves completely",
+          "If a substance dissolves completely, then it does not form a precipitate",
+          "If a substance does not form a precipitate and dissolves completely, then it is soluble in water",
+          "If a substance does not form a precipitate or dissolves completely, then it is soluble in water",
+          "If a substance forms a precipitate or is not soluble in water, then it is soluble in water"
+        ]
+      },
+      {
+        "premises": [
+          "If a chemical reaction is exothermic, then it releases heat",
+          "If a chemical reaction is exothermic, then it increases the temperature of the surroundings"
+        ],
+        "conclusions": [
+          "If a chemical reaction is exothermic, then it releases heat and increases the temperature of the surroundings",
+          "If a chemical reaction is exothermic, then it releases heat or increases the temperature of the surroundings",
+          "If a chemical reaction does not release heat, then it is not exothermic",
+          "If a chemical reaction does not increase the temperature of the surroundings, then it is not exothermic",
+          "If a chemical reaction does not release heat or does not increase the temperature of the surroundings, then it is not exothermic"
+        ],
+        "incorrect conclusions": [
+          "If a chemical reaction does not release heat, then it does not increase the temperature of the surroundings",
+          "If a chemical reaction does not increase the temperature of the surroundings, then it releases heat",
+          "If a chemical reaction releases heat, then it increases the temperature of the surroundings",
+          "If a chemical reaction increases the temperature of the surroundings, then it releases heat",
+          "If a chemical reaction releases heat and increases the temperature of the surroundings, then it is exothermic",
+          "If a chemical reaction releases heat or increases the temperature of the surroundings, then it is exothermic",
+          "If a chemical reaction does not release heat or it is not exothermic, then it is exothermic"
+        ]
+      },
+      {
+        "premises": [
+          "If a compound conducts electricity, then it contains free ions",
+          "If a compound conducts electricity, then it is an electrolyte"
+        ],
+        "conclusions": [
+          "If a compound conducts electricity, then it contains free ions and it is an electrolyte",
+          "If a compound conducts electricity, then it contains free ions or it is an electrolyte",
+          "If a compound does not contain free ions, then it does not conduct electricity",
+          "If a compound is not an electrolyte, then it does not conduct electricity",
+          "If a compound does not contain free ions or is not an electrolyte, then it does not conduct electricity"
+        ],
+        "incorrect conclusions": [
+          "If a compound does not contain free ions, then it is not an electrolyte",
+          "If a compound is not an electrolyte, then it contains free ions",
+          "If a compound contains free ions, then it is an electrolyte",
+          "If a compound is an electrolyte, then it contains free ions",
+          "If a compound contains free ions and it is an electrolyte, then it conducts electricity",
+          "If a compound contains free ions or it is an electrolyte, then it conducts electricity",
+          "If a compound does not contain free ions or it does not conduct electricity, then it conducts electricity"
+        ]
+      }
+    ]
+  }
+}

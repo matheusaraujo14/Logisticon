@@ -1,0 +1,69 @@
+{
+  "Computer Science": {
+    "Bocardo": [
+      {
+        "major premise": "Some databases are not relational models",
+        "minor premise": "All databases are storage systems",
+        "conclusion": "Some storage systems are not relational models",
+        "incorrect conclusions": [
+          "All databases are relational models",
+          "All storage systems are databases",
+          "All storage systems are relational models",
+          "All relational models are not databases",
+          "Some storage systems are not databases",
+          "Some storage systems are relational models",
+          "Some databases are not storage systems",
+          "Some databases are relational models",
+          "Some relational models are databases",
+          "Some relational models are storage systems",
+          "Some relational models are not storage systems",
+          "Some relational models are not databases",
+          "No databases are storage systems",
+          "No storage systems are databases"
+        ]
+      },
+      {
+        "major premise": "Some algorithms are not efficient programs",
+        "minor premise": "All algorithms are computational processes",
+        "conclusion": "Some computational processes are not efficient programs",
+        "incorrect conclusions": [
+          "All algorithms are efficient programs",
+          "All computational processes are algorithms",
+          "All computational processes are efficient programs",
+          "All efficient programs are not algorithms",
+          "Some computational processes are not algorithms",
+          "Some computational processes are efficient programs",
+          "Some algorithms are not computational processes",
+          "Some algorithms are efficient programs",
+          "Some efficient programs are algorithms",
+          "Some efficient programs are computational processes",
+          "Some efficient programs are not computational processes",
+          "Some efficient programs are not algorithms",
+          "No algorithms are computational processes",
+          "No computational processes are algorithms"
+        ]
+      },
+      {
+        "major premise": "Some software systems are not secure frameworks",
+        "minor premise": "All software systems are technological solutions",
+        "conclusion": "Some technological solutions are not secure frameworks",
+        "incorrect conclusions": [
+          "All software systems are secure frameworks",
+          "All technological solutions are software systems",
+          "All technological solutions are secure frameworks",
+          "All secure frameworks are not software systems",
+          "Some technological solutions are not software systems",
+          "Some technological solutions are secure frameworks",
+          "Some software systems are not technological solutions",
+          "Some software systems are secure frameworks",
+          "Some secure frameworks are software systems",
+          "Some secure frameworks are technological solutions",
+          "Some secure frameworks are not technological solutions",
+          "Some secure frameworks are not software systems",
+          "No software systems are technological solutions",
+          "No technological solutions are software systems"
+        ]
+      }
+    ]
+  }
+}

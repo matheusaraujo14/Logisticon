@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Biology": [
+      {
+        "premises": [
+          "If an organism has chlorophyll, then it can perform photosynthesis"
+        ],
+        "conclusions": [
+          "If an organism cannot perform photosynthesis, then it does not have chlorophyll"
+        ],
+        "incorrect conclusions": [
+          "An organism has chlorophyll",
+          "An organism does not have chlorophyll",
+          "An organism can perform photosynthesis",
+          "An organism cannot perform photosynthesis",
+          "If an organism can perform photosynthesis, then it has chlorophyll",
+          "If an organism cannot perform photosynthesis, then it has chlorophyll",
+          "If an organism does not have chlorophyll, then it cannot perform photosynthesis"
+        ]
+      },
+      {
+        "premises": [
+          "If frogs are amphibians, then they can live both in water and on land"
+        ],
+        "conclusions": [
+          "If frogs cannot live both in water and on land, then they are not amphibians"
+        ],
+        "incorrect conclusions": [
+          "Frogs are amphibians",
+          "Frogs are not amphibians",
+          "Frogs can live both in water and on land",
+          "Frogs cannot live both in water and on land",
+          "If frogs can live both in water and on land, then they are amphibians",
+          "If frogs cannot live both in water and on land, then they are amphibians",
+          "If frogs are not amphibians, then they cannot live both in water and on land"
+        ]
+      },
+      {
+        "premises": [
+          "If a plant has flowers, then it can produce seeds"
+        ],
+        "conclusions": [
+          "If a plant cannot produce seeds, then it does not have flowers"
+        ],
+        "incorrect conclusions": [
+          "A plant has flowers",
+          "A plant does not have flowers",
+          "A plant can produce seeds",
+          "A plant cannot produce seeds",
+          "If a plant can produce seeds, then it has flowers",
+          "If a plant cannot produce seeds, then it has flowers",
+          "If a plant does not have flowers, then it cannot produce seeds"
+        ]
+      }
+    ]
+  }
+}

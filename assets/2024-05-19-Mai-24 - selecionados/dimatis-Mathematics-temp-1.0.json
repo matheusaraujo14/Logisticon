@@ -1,0 +1,75 @@
+{
+  "Mathematics": {
+    "Dimatis": [
+      {
+        "major premise": "Some prime numbers are integers",
+        "minor premise": "All integers are numbers",
+        "conclusion": "Some numbers are prime numbers",
+        "incorrect conclusions": [
+          "All numbers are prime numbers",
+          "All numbers are integers",
+          "All prime numbers are numbers",
+          "All prime numbers are integers",
+          "All integers are prime numbers",
+          "Some numbers are not integers",
+          "Some prime numbers are not numbers",
+          "Some prime numbers are not integers",
+          "Some integers are not numbers",
+          "Some integers are not prime numbers",
+          "No prime numbers are numbers",
+          "No prime numbers are integers",
+          "No integers are numbers",
+          "No integers are prime numbers",
+          "No numbers are integers",
+          "No numbers are prime numbers"
+        ]
+      },
+      {
+        "major premise": "Some triangles are polygons",
+        "minor premise": "All polygons are shapes",
+        "conclusion": "Some shapes are triangles",
+        "incorrect conclusions": [
+          "All shapes are triangles",
+          "All shapes are polygons",
+          "All triangles are shapes",
+          "All triangles are polygons",
+          "All polygons are triangles",
+          "Some shapes are not polygons",
+          "Some triangles are not shapes",
+          "Some triangles are not polygons",
+          "Some polygons are not shapes",
+          "Some polygons are not triangles",
+          "No triangles are shapes",
+          "No triangles are polygons",
+          "No polygons are shapes",
+          "No polygons are triangles",
+          "No shapes are polygons",
+          "No shapes are triangles"
+        ]
+      },
+      {
+        "major premise": "Some whole numbers are rational numbers",
+        "minor premise": "All rational numbers are real numbers",
+        "conclusion": "Some real numbers are whole numbers",
+        "incorrect conclusions": [
+          "All real numbers are whole numbers",
+          "All real numbers are rational numbers",
+          "All whole numbers are real numbers",
+          "All whole numbers are rational numbers",
+          "All rational numbers are whole numbers",
+          "Some real numbers are not rational numbers",
+          "Some whole numbers are not real numbers",
+          "Some whole numbers are not rational numbers",
+          "Some rational numbers are not real numbers",
+          "Some rational numbers are not whole numbers",
+          "No whole numbers are real numbers",
+          "No whole numbers are rational numbers",
+          "No rational numbers are real numbers",
+          "No rational numbers are whole numbers",
+          "No real numbers are rational numbers",
+          "No real numbers are whole numbers"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Nutrition": [
+      {
+        "premises": [
+          "Either a person has a balanced diet or they are malnourished, but not both",
+          "A person has a balanced diet"
+        ],
+        "conclusions": [
+          "A person is not malnourished"
+        ],
+        "incorrect conclusions": [
+          "A person is malnourished",
+          "A person does not have a balanced diet"
+        ]
+      },
+      {
+        "premises": [
+          "Either a meal is high in protein or it is low in fat, but not both",
+          "A meal is high in protein"
+        ],
+        "conclusions": [
+          "A meal is not low in fat"
+        ],
+        "incorrect conclusions": [
+          "A meal is low in fat",
+          "A meal is not high in protein"
+        ]
+      },
+      {
+        "premises": [
+          "Either a food item is rich in vitamins or it is low in calories, but not both",
+          "A food item is rich in vitamins"
+        ],
+        "conclusions": [
+          "A food item is not low in calories"
+        ],
+        "incorrect conclusions": [
+          "A food item is low in calories",
+          "A food item is not rich in vitamins"
+        ]
+      }
+    ]
+  }
+}

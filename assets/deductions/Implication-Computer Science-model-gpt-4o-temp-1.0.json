@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a file is opened, it can be read"
+        ],
+        "conclusions": [
+          "If a file cannot be read, then it is not opened"
+        ],
+        "incorrect conclusions": [
+          "A file is opened",
+          "A file is not opened",
+          "A file can be read",
+          "A file cannot be read",
+          "If a file can be read, it is opened",
+          "If a file cannot be read, it is opened",
+          "If a file is not opened, it cannot be read"
+        ]
+      },
+      {
+        "premises": [
+          "If a user logs in, they can access their email"
+        ],
+        "conclusions": [
+          "If a user cannot access their email, then they are not logged in"
+        ],
+        "incorrect conclusions": [
+          "A user logs in",
+          "A user does not log in",
+          "A user can access their email",
+          "A user cannot access their email",
+          "If a user can access their email, they are logged in",
+          "If a user cannot access their email, they are logged in",
+          "If a user is not logged in, they cannot access their email"
+        ]
+      },
+      {
+        "premises": [
+          "If an algorithm is optimized, it runs faster"
+        ],
+        "conclusions": [
+          "If an algorithm does not run faster, then it is not optimized"
+        ],
+        "incorrect conclusions": [
+          "An algorithm is optimized",
+          "An algorithm is not optimized",
+          "An algorithm runs faster",
+          "An algorithm does not run faster",
+          "If an algorithm runs faster, it is optimized",
+          "If an algorithm does not run faster, it is optimized",
+          "If an algorithm is not optimized, it does not run faster"
+        ]
+      }
+    ]
+  }
+}

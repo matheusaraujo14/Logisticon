@@ -1,0 +1,78 @@
+{
+  "Psychology": {
+    "Darii": [
+      {
+        "major premise": "All psychologists are scientists",
+        "minor premise": "Some cognitive behavioral therapists are psychologists",
+        "conclusion": "Some cognitive behavioral therapists are scientists",
+        "incorrect conclusions": [
+          "All cognitive behavioral therapists are psychologists",
+          "All cognitive behavioral therapists are scientists",
+          "All scientists are psychologists",
+          "All scientists are cognitive behavioral therapists",
+          "All psychologists are cognitive behavioral therapists",
+          "Some cognitive behavioral therapists are not scientists",
+          "Some cognitive behavioral therapists are not psychologists",
+          "Some scientists are not psychologists",
+          "Some scientists are not cognitive behavioral therapists",
+          "Some psychologists are not scientists",
+          "Some psychologists are not cognitive behavioral therapists",
+          "No cognitive behavioral therapist is scientist",
+          "No cognitive behavioral therapist is psychologist",
+          "No psychologist is scientist",
+          "No psychologist is cognitive behavioral therapist",
+          "No scientist is psychologist",
+          "No scientist is cognitive behavioral therapist"
+        ]
+      },
+      {
+        "major premise": "All neuropsychologists are clinicians",
+        "minor premise": "Some child psychologists are neuropsychologists",
+        "conclusion": "Some child psychologists are clinicians",
+        "incorrect conclusions": [
+          "All child psychologists are neuropsychologists",
+          "All child psychologists are clinicians",
+          "All clinicians are neuropsychologists",
+          "All clinicians are child psychologists",
+          "All neuropsychologists are child psychologists",
+          "Some child psychologists are not clinicians",
+          "Some child psychologists are not neuropsychologists",
+          "Some clinicians are not neuropsychologists",
+          "Some clinicians are not child psychologists",
+          "Some neuropsychologists are not clinicians",
+          "Some neuropsychologists are not child psychologists",
+          "No child psychologist is clinician",
+          "No child psychologist is neuropsychologist",
+          "No neuropsychologist is clinician",
+          "No neuropsychologist is child psychologist",
+          "No clinician is neuropsychologist",
+          "No clinician is child psychologist"
+        ]
+      },
+      {
+        "major premise": "All clinical psychologists are healthcare professionals",
+        "minor premise": "Some forensic psychologists are clinical psychologists",
+        "conclusion": "Some forensic psychologists are healthcare professionals",
+        "incorrect conclusions": [
+          "All forensic psychologists are clinical psychologists",
+          "All forensic psychologists are healthcare professionals",
+          "All healthcare professionals are clinical psychologists",
+          "All healthcare professionals are forensic psychologists",
+          "All clinical psychologists are forensic psychologists",
+          "Some forensic psychologists are not healthcare professionals",
+          "Some forensic psychologists are not clinical psychologists",
+          "Some healthcare professionals are not clinical psychologists",
+          "Some healthcare professionals are not forensic psychologists",
+          "Some clinical psychologists are not healthcare professionals",
+          "Some clinical psychologists are not forensic psychologists",
+          "No forensic psychologist is healthcare professional",
+          "No forensic psychologist is clinical psychologist",
+          "No clinical psychologist is healthcare professional",
+          "No clinical psychologist is forensic psychologist",
+          "No healthcare professional is clinical psychologist",
+          "No healthcare professional is forensic psychologist"
+        ]
+      }
+    ]
+  }
+}

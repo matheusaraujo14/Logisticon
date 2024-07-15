@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a polygon is a square, then it has four right angles",
+          "If a polygon is a rectangle, then it has four right angles",
+          "A polygon is a square or a rectangle"
+        ],
+        "conclusions": [
+          "The polygon has four right angles",
+          "If a polygon is a square or a rectangle, then it has four right angles",
+          "If a polygon does not have four right angles, then it is not a square and not a rectangle",
+          "If a polygon is a square and a rectangle, then it has four right angles",
+          "If a polygon has four right angles, then it is a square or a rectangle"
+        ],
+        "incorrect conclusions": [
+          "If a polygon is a square, then it is a rectangle or it has four right angles",
+          "If a polygon has four right angles, then it is a square and a rectangle",
+          "If a polygon has four right angles or it is a square, then it is a rectangle",
+          "If a polygon is not a square, then it has four right angles",
+          "If a polygon does not have four right angles, then it is a square and a rectangle"
+        ]
+      },
+      {
+        "premises": [
+          "If an integer is even, then it is divisible by 2",
+          "If an integer is a multiple of four, then it is divisible by 2",
+          "An integer is even or a multiple of four"
+        ],
+        "conclusions": [
+          "The integer is divisible by 2",
+          "If an integer is even or a multiple of four, then it is divisible by 2",
+          "If an integer is not divisible by 2, then it is not even and not a multiple of four",
+          "If an integer is even and a multiple of four, then it is divisible by 2",
+          "If an integer is divisible by 2, then it is even or a multiple of four"
+        ],
+        "incorrect conclusions": [
+          "If an integer is even, then it is a multiple of four or it is divisible by 2",
+          "If an integer is divisible by 2, then it is even and a multiple of four",
+          "If an integer is divisible by 2 or it is even, then it is a multiple of four",
+          "If an integer is not even, then it is divisible by 2",
+          "If an integer is not divisible by 2, then it is even and a multiple of four"
+        ]
+      },
+      {
+        "premises": [
+          "If a number is an integer, then it is a rational number",
+          "If a number is rational, then it can be expressed as a fraction",
+          "A number is an integer or a rational number"
+        ],
+        "conclusions": [
+          "The number can be expressed as a fraction",
+          "If a number is an integer or a rational number, then it can be expressed as a fraction",
+          "If a number cannot be expressed as a fraction, then it is not an integer and not a rational number",
+          "If a number is an integer and a rational number, then it can be expressed as a fraction",
+          "If a number can be expressed as a fraction, then it is an integer or a rational number"
+        ],
+        "incorrect conclusions": [
+          "If a number is an integer, then it is rational or can be expressed as a fraction",
+          "If a number can be expressed as a fraction, then it is an integer and a rational number",
+          "If a number can be expressed as a fraction or it is an integer, then it is rational",
+          "If a number is not an integer, then it can be expressed as a fraction",
+          "If a number cannot be expressed as a fraction, then it is an integer and a rational number"
+        ]
+      }
+    ]
+  }
+}

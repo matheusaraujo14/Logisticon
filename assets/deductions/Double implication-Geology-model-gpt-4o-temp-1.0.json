@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Geology": [
+      {
+        "premises": [
+          "If a river erodes the land, then sediment is transported",
+          "If sediment is transported, then sediment is deposited"
+        ],
+        "conclusions": [
+          "If a river erodes the land, then sediment is deposited",
+          "If sediment is not deposited, then a river does not erode the land",
+          "If a river erodes the land or sediment is transported, sediment is deposited and a river erodes the land has sediment is deposited as a consequence",
+          "If a river erodes the land, sediment is deposited and a river erodes the land has sediment is deposited as a consequence",
+          "If a river does not erode the land and sediment is transported, sediment is deposited and a river erodes the land has sediment is deposited as a consequence",
+          "If a river erodes the land or sediment is transported, sediment is deposited"
+        ],
+        "incorrect conclusions": [
+          "A river erodes the land",
+          "If sediment is deposited, then a river erodes the land",
+          "If sediment is deposited, then a river does not erode the land",
+          "Sediment is deposited",
+          "Sediment is not deposited",
+          "If sediment is not deposited, then a river erodes the land",
+          "If sediment is not transported, then sediment is deposited",
+          "If a river erodes the land or sediment is not transported, then sediment is deposited"
+        ]
+      },
+      {
+        "premises": [
+          "If plate tectonics causes earthquakes, then stress builds up in the crust",
+          "If stress builds up in the crust, then faults appear"
+        ],
+        "conclusions": [
+          "If plate tectonics causes earthquakes, then faults appear",
+          "If faults do not appear, then plate tectonics does not cause earthquakes",
+          "If plate tectonics causes earthquakes or stress builds up in the crust, faults appear and plate tectonics causes earthquakes has faults appear as a consequence",
+          "If plate tectonics causes earthquakes, faults appear and plate tectonics causes earthquakes has faults appear as a consequence",
+          "If plate tectonics does not cause earthquakes and stress builds up in the crust, faults appear and plate tectonics causes earthquakes has faults appear as a consequence",
+          "If plate tectonics causes earthquakes or stress builds up in the crust, faults appear"
+        ],
+        "incorrect conclusions": [
+          "Plate tectonics causes earthquakes",
+          "If faults appear, then plate tectonics causes earthquakes",
+          "If faults appear, then plate tectonics does not cause earthquakes",
+          "Faults appear",
+          "Faults do not appear",
+          "If faults do not appear, then plate tectonics causes earthquakes",
+          "If stress does not build up in the crust, then faults appear",
+          "If plate tectonics causes earthquakes or stress does not build up in the crust, then faults appear"
+        ]
+      },
+      {
+        "premises": [
+          "If volcanic activity releases lava, then new land is formed",
+          "If new land is formed, then ecosystems develop"
+        ],
+        "conclusions": [
+          "If volcanic activity releases lava, then ecosystems develop",
+          "If ecosystems do not develop, then volcanic activity does not release lava",
+          "If volcanic activity releases lava or new land is formed, ecosystems develop and volcanic activity releases lava has ecosystems develop as a consequence",
+          "If volcanic activity releases lava, ecosystems develop and volcanic activity releases lava has ecosystems develop as a consequence",
+          "If volcanic activity does not release lava and new land is formed, ecosystems develop and volcanic activity releases lava has ecosystems develop as a consequence",
+          "If volcanic activity releases lava or new land is formed, ecosystems develop"
+        ],
+        "incorrect conclusions": [
+          "Volcanic activity releases lava",
+          "If ecosystems develop, then volcanic activity releases lava",
+          "If ecosystems develop, then volcanic activity does not release lava",
+          "Ecosystems develop",
+          "Ecosystems do not develop",
+          "If ecosystems do not develop, then volcanic activity releases lava",
+          "If new land is not formed, then ecosystems develop",
+          "If volcanic activity releases lava or new land is not formed, then ecosystems develop"
+        ]
+      }
+    ]
+  }
+}

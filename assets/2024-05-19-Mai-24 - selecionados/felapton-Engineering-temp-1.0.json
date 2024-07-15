@@ -1,0 +1,63 @@
+{
+  "Engineering": {
+     "Felapton" : [
+        {
+          "major premise": "No materials are algorithms",
+          "minor premise": "All materials are substances and some materials exist",
+          "conclusion": "Some substances are not algorithms",
+          "incorrect conclusions": [
+            "All substances are algorithms",
+            "All substances are materials",
+            "All algorithms are substances",
+            "All algorithms are materials",
+            "Some substances are algorithms",
+            "Some algorithms are substances",
+            "Some algorithms are materials",
+            "Some algorithms are not substances",
+            "Some materials are algorithms",
+            "Some materials are not substances",
+            "No materials is substances",
+            "No substances is materials"
+          ]
+        },
+        {
+          "major premise": "No circuits are fluids",
+          "minor premise": "All circuits are components and some circuits exist",
+          "conclusion": "Some components are not fluids",
+          "incorrect conclusions": [
+            "All components are fluids",
+            "All components are circuits",
+            "All fluids are components",
+            "All fluids are circuits",
+            "Some components are fluids",
+            "Some fluids are components",
+            "Some fluids are circuits",
+            "Some fluids are not components",
+            "Some circuits are fluids",
+            "Some circuits are not components",
+            "No circuits is components",
+            "No components is circuits"
+          ]
+        },
+        {
+          "major premise": "No software are machines",
+          "minor premise": "All software are tools and some software exist",
+          "conclusion": "Some tools are not machines",
+          "incorrect conclusions": [
+            "All tools are machines",
+            "All tools are software",
+            "All machines are tools",
+            "All machines are software",
+            "Some tools are machines",
+            "Some machines are tools",
+            "Some machines are software",
+            "Some machines are not tools",
+            "Some software are machines",
+            "Some software are not tools",
+            "No software is tools",
+            "No tools is software"
+          ]
+        }
+      ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Medicine": {
+     "Calemes": [
+        {
+          "major premise": "All antibiotics are drugs",
+          "minor premise": "No drugs are pathogens",
+          "conclusion": "No pathogens are antibiotics",
+          "incorrect conclusions": [
+            "All drugs are pathogens",
+            "All drugs are antibiotics",
+            "All pathogens are drugs",
+            "All pathogens are antibiotics",
+            "All antibiotics are pathogens",
+            "Some drugs are antibiotics",
+            "Some drugs are not antibiotics",
+            "Some drugs are pathogens",
+            "Some antibiotics are pathogens",
+            "Some antibiotics are not drugs",
+            "Some antibiotics are drugs",
+            "Some pathogens are drugs",
+            "Some pathogens are antibiotics",
+            "No antibiotics are drugs"
+          ]
+        },
+        {
+          "major premise": "All insulin are hormones",
+          "minor premise": "No hormones are viruses",
+          "conclusion": "No viruses are insulin",
+          "incorrect conclusions": [
+            "All hormones are viruses",
+            "All hormones are insulin",
+            "All viruses are hormones",
+            "All viruses are insulin",
+            "All insulin are viruses",
+            "Some hormones are insulin",
+            "Some hormones are not insulin",
+            "Some hormones are viruses",
+            "Some insulin are viruses",
+            "Some insulin are not hormones",
+            "Some insulin are hormones",
+            "Some viruses are hormones",
+            "Some viruses are insulin",
+            "No insulin are hormones"
+          ]
+        }
+     ]
+  }
+}

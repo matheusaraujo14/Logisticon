@@ -1,0 +1,78 @@
+{
+  "History": {
+    "Darii": [
+      {
+        "major premise": "All Ancient Egyptians are Polytheists",
+        "minor premise": "Some Pharaohs are Ancient Egyptians",
+        "conclusion": "Some Pharaohs are Polytheists",
+        "incorrect conclusions": [
+          "All Pharaohs are Ancient Egyptians",
+          "All Pharaohs are Polytheists",
+          "All Polytheists are Ancient Egyptians",
+          "All Polytheists are Pharaohs",
+          "All Ancient Egyptians are Pharaohs",
+          "Some Pharaohs are not Polytheists",
+          "Some Pharaohs are not Ancient Egyptians",
+          "Some Polytheists are not Ancient Egyptians",
+          "Some Polytheists are not Pharaohs",
+          "Some Ancient Egyptians are not Polytheists",
+          "Some Ancient Egyptians are not Pharaohs",
+          "No Pharaoh is Polytheists",
+          "No Pharaoh is Ancient Egyptian",
+          "No Ancient Egyptian is Polytheists",
+          "No Ancient Egyptian is Pharaoh",
+          "No Polytheists is Ancient Egyptian",
+          "No Polytheists is Pharaoh"
+        ]
+      },
+      {
+        "major premise": "All Lords are Nobles",
+        "minor premise": "Some Medieval Knights are Lords",
+        "conclusion": "Some Medieval Knights are Nobles",
+        "incorrect conclusions": [
+          "All Medieval Knights are Lords",
+          "All Medieval Knights are Nobles",
+          "All Nobles are Lords",
+          "All Nobles are Medieval Knights",
+          "All Lords are Medieval Knights",
+          "Some Medieval Knights are not Nobles",
+          "Some Medieval Knights are not Lords",
+          "Some Nobles are not Lords",
+          "Some Nobles are not Medieval Knights",
+          "Some Lords are not Nobles",
+          "Some Lords are not Medieval Knights",
+          "No Lord is Noble",
+          "No Lord is Medieval Knight",
+          "No Medieval Knight is Noble",
+          "No Medieval Knight is Lord",
+          "No Noble is Medieval Knight",
+          "No Noble is Lord"
+        ]
+      },
+      {
+        "major premise": "All Renaissance Painters are Artists",
+        "minor premise": "Some Art Workers are Renaissance Painters",
+        "conclusion": "Some Art Workers are Artists",
+        "incorrect conclusions": [
+          "All Art Workers are Renaissance Painters",
+          "All Art Workers are Artists",
+          "All Artists are Renaissance Painters",
+          "All Artists are Art Workers",
+          "All Renaissance Painters are Art Workers",
+          "Some Art Workers are not Artists",
+          "Some Art Workers are not Renaissance Painters",
+          "Some Artists are not Renaissance Painters",
+          "Some Artists are not Art Workers",
+          "Some Renaissance Painters are not Artists",
+          "Some Renaissance Painters are not Art Workers",
+          "No Art Workers is Artist",
+          "No Art Workers is Renaissance Painter",
+          "No Renaissance Painter is Artist",
+          "No Renaissance Painter is Art Workers",
+          "No Artist is Renaissance Painter",
+          "No Artist is Art Workers"
+        ]
+      }
+    ]
+  }
+}

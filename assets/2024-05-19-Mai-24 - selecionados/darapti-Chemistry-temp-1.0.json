@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+     "Darapti": [
+        {
+          "major premise": "All amino acids are organic compounds",
+          "minor premise": "All amino acids are molecules and some amino acids exist",
+          "conclusion": "Some molecules are organic compounds",
+          "incorrect conclusions": [
+            "All molecules are organic compounds",
+            "All organic compounds are molecules",
+            "All amino acids are not molecules",
+            "All amino acids are not organic compounds",
+            "Some molecules are not organic compounds",
+            "Some molecules are not amino acids",
+            "Some organic compounds are not amino acids",
+            "Some organic compounds are not molecules",
+            "Some amino acids are not molecules",
+            "Some amino acids are not organic compounds",
+            "No amino acids are molecules",
+            "No amino acids are organic compounds",
+            "No organic compounds are amino acids",
+            "No organic compounds are molecules",
+            "No molecules are amino acids",
+            "No molecules are organic compounds"
+          ]
+        },
+        {
+          "major premise": "All enzymes are proteins",
+          "minor premise": "All enzymes are biological catalysts and some enzymes exist",
+          "conclusion": "Some biological catalysts are proteins",
+          "incorrect conclusions": [
+            "All biological catalysts are proteins",
+            "All proteins are biological catalysts",
+            "All enzymes are not biological catalysts",
+            "All enzymes are not proteins",
+            "Some biological catalysts are not proteins",
+            "Some biological catalysts are not enzymes",
+            "Some proteins are not enzymes",
+            "Some proteins are not biological catalysts",
+            "Some enzymes are not biological catalysts",
+            "Some enzymes are not proteins",
+            "No enzymes are biological catalysts",
+            "No enzymes are proteins",
+            "No proteins are enzymes",
+            "No proteins are biological catalysts",
+            "No biological catalysts are enzymes",
+            "No biological catalysts are proteins"
+          ]
+        },
+        {
+          "major premise": "All salts are ionic compounds",
+          "minor premise": "All salts are solid substances and some salts exist",
+          "conclusion": "Some solid substances are ionic compounds",
+          "incorrect conclusions": [
+            "All solid substances are ionic compounds",
+            "All ionic compounds are solid substances",
+            "All salts are not solid substances",
+            "All salts are not ionic compounds",
+            "Some solid substances are not ionic compounds",
+            "Some solid substances are not salts",
+            "Some ionic compounds are not salts",
+            "Some ionic compounds are not solid substances",
+            "Some salts are not solid substances",
+            "Some salts are not ionic compounds",
+            "No salts are solid substances",
+            "No salts are ionic compounds",
+            "No ionic compounds are salts",
+            "No ionic compounds are solid substances",
+            "No solid substances are salts",
+            "No solid substances are ionic compounds"
+          ]
+        }
+     ]
+  }
+}

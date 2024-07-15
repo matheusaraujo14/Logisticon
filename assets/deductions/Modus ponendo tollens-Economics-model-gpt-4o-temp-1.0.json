@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Economics": [
+      {
+        "premises": [
+          "Inflation is rising or unemployment is falling but not both are true",
+          "Inflation is rising"
+        ],
+        "conclusions": [
+          "Unemployment is not falling"
+        ],
+        "incorrect conclusions": [
+          "Unemployment is falling",
+          "Inflation is not rising"
+        ]
+      },
+      {
+        "premises": [
+          "Interest rates are increasing or consumer spending is decreasing but not both are true",
+          "Interest rates are increasing"
+        ],
+        "conclusions": [
+          "Consumer spending is not decreasing"
+        ],
+        "incorrect conclusions": [
+          "Consumer spending is decreasing",
+          "Interest rates are not increasing"
+        ]
+      },
+      {
+        "premises": [
+          "The stock market is bullish or the bond market is bearish but not both are true",
+          "The stock market is bullish"
+        ],
+        "conclusions": [
+          "The bond market is not bearish"
+        ],
+        "incorrect conclusions": [
+          "The bond market is bearish",
+          "The stock market is not bullish"
+        ]
+      }
+    ]
+  }
+}

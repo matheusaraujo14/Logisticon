@@ -1,0 +1,69 @@
+{
+  "Literature": {
+    "Bamalip": [
+      {
+        "major premise": "All poems are written works",
+        "minor premise": "All written works are pieces of literature and some poems exist",
+        "conclusion": "Some pieces of literature are poems",
+        "incorrect conclusions": [
+          "All pieces of literature are written works",
+          "All written works are poems",
+          "Some pieces of literature are not written works",
+          "Some pieces of literature are not poems",
+          "Some written works are not poems",
+          "Some written works are not pieces of literature",
+          "Some poems are not written works",
+          "Some poems are not pieces of literature",
+          "No pieces of literature is written work",
+          "No pieces of literature is poem",
+          "No written work is piece of literature",
+          "No written work is poem",
+          "No poem is written work",
+          "No poem is piece of literature"
+        ]
+      },
+      {
+        "major premise": "All novels are narratives",
+        "minor premise": "All narratives are literary works and some novels exist",
+        "conclusion": "Some literary works are novels",
+        "incorrect conclusions": [
+          "All literary works are narratives",
+          "All narratives are novels",
+          "Some literary works are not narratives",
+          "Some literary works are not novels",
+          "Some narratives are not novels",
+          "Some narratives are not literary works",
+          "Some novels are not narratives",
+          "Some novels are not literary works",
+          "No literary work is narrative",
+          "No literary work is novel",
+          "No narrative is literary work",
+          "No narrative is novel",
+          "No novel is narrative",
+          "No novel is literary work"
+        ]
+      },
+      {
+        "major premise": "All essays are written compositions",
+        "minor premise": "All written compositions are educational texts and some essays exist",
+        "conclusion": "Some educational texts are essays",
+        "incorrect conclusions": [
+          "All educational texts are written compositions",
+          "All written compositions are essays",
+          "Some educational texts are not written compositions",
+          "Some educational texts are not essays",
+          "Some written compositions are not essays",
+          "Some written compositions are not educational texts",
+          "Some essays are not written compositions",
+          "Some essays are not educational texts",
+          "No educational text is written composition",
+          "No educational text is essay",
+          "No written composition is educational text",
+          "No written composition is essay",
+          "No essay is written composition",
+          "No essay is educational text"
+        ]
+      }
+    ]
+  }
+}

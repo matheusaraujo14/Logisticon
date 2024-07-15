@@ -1,0 +1,63 @@
+{
+  "Geology": {
+    "Felapton": [
+      {
+        "major premise": "No granite rocks are sedimentary rocks",
+        "minor premise": "All granite rocks are igneous rocks and some granite rocks exist",
+        "conclusion": "Some igneous rocks are not sedimentary rocks",
+        "incorrect conclusions": [
+          "All igneous rocks are sedimentary rocks",
+          "All igneous rocks are granite rocks",
+          "All sedimentary rocks are igneous rocks",
+          "All sedimentary rocks are granite rocks",
+          "Some igneous rocks are sedimentary rocks",
+          "Some sedimentary rocks are igneous rocks",
+          "Some sedimentary rocks are granite rocks",
+          "Some sedimentary rocks are not igneous rocks",
+          "Some granite rocks are sedimentary rocks",
+          "Some granite rocks are not igneous rocks",
+          "No granite rocks are igneous rocks",
+          "No igneous rocks are granite rocks"
+        ]
+      },
+      {
+        "major premise": "No gold deposits are fossil fuels",
+        "minor premise": "All gold deposits are mineral resources and some gold deposits exist",
+        "conclusion": "Some mineral resources are not fossil fuels",
+        "incorrect conclusions": [
+          "All mineral resources are fossil fuels",
+          "All mineral resources are gold deposits",
+          "All fossil fuels are mineral resources",
+          "All fossil fuels are gold deposits",
+          "Some mineral resources are fossil fuels",
+          "Some fossil fuels are mineral resources",
+          "Some fossil fuels are gold deposits",
+          "Some fossil fuels are not mineral resources",
+          "Some gold deposits are fossil fuels",
+          "Some gold deposits are not mineral resources",
+          "No gold deposits are mineral resources",
+          "No mineral resources are gold deposits"
+        ]
+      },
+      {
+        "major premise": "No lava flows are sedimentary deposits",
+        "minor premise": "All lava flows are volcanic features and some lava flows exist",
+        "conclusion": "Some volcanic features are not sedimentary deposits",
+        "incorrect conclusions": [
+          "All volcanic features are sedimentary deposits",
+          "All volcanic features are lava flows",
+          "All sedimentary deposits are volcanic features",
+          "All sedimentary deposits are lava flows",
+          "Some volcanic features are sedimentary deposits",
+          "Some sedimentary deposits are volcanic features",
+          "Some sedimentary deposits are lava flows",
+          "Some sedimentary deposits are not volcanic features",
+          "Some lava flows are sedimentary deposits",
+          "Some lava flows are not volcanic features",
+          "No lava flows are volcanic features",
+          "No volcanic features are lava flows"
+        ]
+      }
+    ]
+  }
+}

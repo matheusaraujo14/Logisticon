@@ -1,0 +1,25 @@
+{
+  "Physics": {
+    "Felapton": [
+      {
+        "major premise": "No stars are solid objects",
+        "minor premise": "All stars are celestial bodies and some stars exist",
+        "conclusion": "Some celestial bodies are not solid objects",
+        "incorrect conclusions": [
+          "All celestial bodies are solid objects",
+          "All celestial bodies are stars",
+          "All solid objects are celestial bodies",
+          "All solid objects are stars",
+          "Some celestial bodies are solid objects",
+          "Some solid objects are celestial bodies",
+          "Some solid objects are stars",
+          "Some solid objects are not celestial bodies",
+          "Some stars are solid objects",
+          "Some stars are not celestial bodies",
+          "No stars are celestial bodies",
+          "No celestial bodies are stars"
+        ]
+      }
+    ]
+  }
+}

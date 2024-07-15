@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+     "Disamis" : [
+        {
+          "major premise": "Some moods are cognitive functions",
+          "minor premise": "All moods are mental states",
+          "conclusion": "Some mental states are cognitive functions",
+          "incorrect conclusions": [
+            "All mental states are cognitive functions",
+            "All mental states are moods",
+            "All cognitive functions are mental states",
+            "All cognitive functions are moods",
+            "All moods are cognitive functions",
+            "Some mental states are not moods",
+            "Some cognitive functions are not mental states",
+            "Some cognitive functions are not moods",
+            "Some moods are not mental states",
+            "Some moods are not cognitive functions",
+            "No cognitive function is a mental state",
+            "No cognitive function is a mood",
+            "No mood is a mental state",
+            "No mood is a cognitive function",
+            "No mental state is a mood",
+            "No mental state is a cognitive function"
+          ]
+        },
+        {
+          "major premise": "Some thought processes are reasoning techniques",
+          "minor premise": "All thought processes are cognitive activities",
+          "conclusion": "Some cognitive activities are reasoning techniques",
+          "incorrect conclusions": [
+            "All cognitive activities are reasoning techniques",
+            "All cognitive activities are thought processes",
+            "All reasoning techniques are cognitive activities",
+            "All reasoning techniques are thought processes",
+            "All thought processes are reasoning techniques",
+            "Some cognitive activities are not thought processes",
+            "Some reasoning techniques are not cognitive activities",
+            "Some reasoning techniques are not thought processes",
+            "Some thought processes are not cognitive activities",
+            "Some thought processes are not reasoning techniques",
+            "No reasoning technique is a cognitive activity",
+            "No reasoning technique is a thought process",
+            "No thought process is a cognitive activity",
+            "No thought process is a reasoning technique",
+            "No cognitive activity is a thought process",
+            "No cognitive activity is a reasoning technique"
+         ]
+        },
+        {
+          "major premise": "Some emotions are psychological responses",
+          "minor premise": "All emotions are mental phenomena",
+          "conclusion": "Some mental phenomena are psychological responses",
+          "incorrect conclusions": [
+            "All mental phenomena are psychological responses",
+            "All mental phenomena are emotions",
+            "All psychological responses are mental phenomena",
+            "All psychological responses are emotions",
+            "All emotions are psychological responses",
+            "Some mental phenomena are not emotions",
+            "Some psychological responses are not mental phenomena",
+            "Some psychological responses are not emotions",
+            "Some emotions are not mental phenomena",
+            "Some emotions are not psychological responses",
+            "No psychological response is a mental phenomenon",
+            "No psychological response is an emotion",
+            "No emotion is a mental phenomenon",
+            "No emotion is a psychological response",
+            "No mental phenomenon is an emotion",
+            "No mental phenomenon is a psychological response"
+          ]
+        }
+     ]
+  }
+}

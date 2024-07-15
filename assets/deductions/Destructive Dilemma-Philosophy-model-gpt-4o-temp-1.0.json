@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Philosophy": [
+		{
+          "premises": [ 
+            "If a belief is justified, then it is rational",
+            "If a belief is justified, then it is true",
+            "Either the belief is not rational or the belief is not true"
+          ],
+          "conclusions": [
+            "The belief is not justified",
+            "The belief is not rational and the belief is not true",
+            "If the belief is justified, then it is rational and true"
+          ],
+          "incorrect conclusions": [
+            "If the belief is justified, then it is rational and not true",
+            "If the belief is rational and true, then it is justified",
+            "If the belief is rational, then it is justified",
+            "The belief is rational or true but not both",
+            "If the belief is not justified, then it is not rational or not true"
+          ]
+        },
+		{
+          "premises": [
+            "If a person acts morally, then they act in accordance with duty",
+            "If a person acts morally, then they act with good intention",
+            "Either the person does not act in accordance with duty or the person does not act with good intention"
+          ],
+          "conclusions": [
+            "The person does not act morally",
+            "The person does not act in accordance with duty and does not act with good intention",
+            "If the person acts morally, then they act in accordance with duty and with good intention"
+          ],
+          "incorrect conclusions": [
+            "If the person acts morally, then they act in accordance with duty and not with good intention",
+            "If the person acts in accordance with duty and with good intention, then they act morally",
+            "If the person acts with good intention, then they act morally",
+            "The person acts in accordance with duty or with good intention but not both",
+            "If the person does not act morally, then they do not act in accordance with duty or with good intention"
+          ]
+        },
+		{
+          "premises": [
+            "If an action is ethical, then it maximizes well-being",
+            "If an action is ethical, then it follows universal laws",
+            "Either the action does not maximize well-being or the action does not follow universal laws"
+          ],
+          "conclusions": [
+            "The action is not ethical",
+            "The action does not maximize well-being and does not follow universal laws",
+            "If the action is ethical, then it maximizes well-being and follows universal laws"
+          ],
+          "incorrect conclusions": [
+            "If the action is ethical, then it maximizes well-being and does not follow universal laws",
+            "If the action maximizes well-being and follows universal laws, then it is ethical",
+            "If the action maximizes well-being, then it is ethical",
+            "The action maximizes well-being or follows universal laws but not both",
+            "If the action is not ethical, then it does not maximize well-being or follow universal laws"
+          ]
+        }
+     ]
+  }
+}

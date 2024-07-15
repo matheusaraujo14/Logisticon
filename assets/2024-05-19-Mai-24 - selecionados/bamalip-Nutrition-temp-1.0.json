@@ -1,0 +1,69 @@
+{
+  "Nutrition": {
+    "Bamalip": [
+      {
+        "major premise": "All carrots are vegetables",
+        "minor premise": "All vegetables are plants and some carrots exist",
+        "conclusion": "Some plants are carrots",
+        "incorrect conclusions": [
+          "All plants are vegetables",
+          "All vegetables are carrots",
+          "Some plants are not vegetables",
+          "Some plants are not carrots",
+          "Some vegetables are not carrots",
+          "Some vegetables are not plants",
+          "Some carrots are not vegetables",
+          "Some carrots are not plants",
+          "No plants is vegetables",
+          "No plants is carrots",
+          "No vegetables is plants",
+          "No vegetables is carrots",
+          "No carrots is vegetables",
+          "No carrots is plants"
+        ]
+      },
+      {
+        "major premise": "All apples are fruits",
+        "minor premise": "All fruits are food and some apples exist",
+        "conclusion": "Some food are apples",
+        "incorrect conclusions": [
+          "All food are fruits",
+          "All fruits are apples",
+          "Some food are not fruits",
+          "Some food are not apples",
+          "Some fruits are not apples",
+          "Some fruits are not food",
+          "Some apples are not fruits",
+          "Some apples are not food",
+          "No food is fruits",
+          "No food is apples",
+          "No fruits is food",
+          "No fruits is apples",
+          "No apples is fruits",
+          "No apples is food"
+        ]
+      },
+      {
+        "major premise": "All salmon are fish",
+        "minor premise": "All fish are animals and some salmon exist",
+        "conclusion": "Some animals are salmon",
+        "incorrect conclusions": [
+          "All animals are fish",
+          "All fish are salmon",
+          "Some animals are not fish",
+          "Some animals are not salmon",
+          "Some fish are not salmon",
+          "Some fish are not animals",
+          "Some salmon are not fish",
+          "Some salmon are not animals",
+          "No animals is fish",
+          "No animals is salmon",
+          "No fish is animals",
+          "No fish is salmon",
+          "No salmon is fish",
+          "No salmon is animals"
+        ]
+      }
+    ]
+  }
+}

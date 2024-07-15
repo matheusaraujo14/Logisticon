@@ -1,0 +1,54 @@
+{
+  "Literature": {
+     "Cesare": [
+        {
+          "major premise": "No poets are novelists",
+          "minor premise": "All haiku writers are novelists",
+          "conclusion": "No haiku writers are poets",
+          "incorrect conclusions": [
+            "All haiku writers are poets",
+            "All novelists are poets",
+            "Some haiku writers are novelists",
+            "Some haiku writers are poets",
+            "Some novelists are haiku writers",
+            "Some novelists are poets",
+            "Some novelists are not haiku writers",
+            "Some poets are haiku writers",
+            "Some poets are novelists"
+          ]
+        },
+        {
+          "major premise": "No playwrights are essayists",
+          "minor premise": "All dramatists are essayists",
+          "conclusion": "No dramatists are playwrights",
+          "incorrect conclusions": [
+            "All dramatists are playwrights",
+            "All essayists are playwrights",
+            "Some dramatists are essayists",
+            "Some dramatists are playwrights",
+            "Some essayists are dramatists",
+            "Some essayists are playwrights",
+            "Some essayists are not dramatists",
+            "Some playwrights are dramatists",
+            "Some playwrights are essayists"
+          ]
+        },
+        {
+          "major premise": "No biographers are critics",
+          "minor premise": "All memoirists are critics",
+          "conclusion": "No memoirists are biographers",
+          "incorrect conclusions": [
+            "All memoirists are biographers",
+            "All critics are biographers",
+            "Some memoirists are critics",
+            "Some memoirists are biographers",
+            "Some critics are memoirists",
+            "Some critics are biographers",
+            "Some critics are not memoirists",
+            "Some biographers are memoirists",
+            "Some biographers are critics"
+          ]
+        }
+     ]
+  }
+}

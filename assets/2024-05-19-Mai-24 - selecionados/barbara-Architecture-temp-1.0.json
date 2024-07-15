@@ -1,0 +1,38 @@
+{
+  "Architecture": {
+    "Barbara": [
+      {
+        "major premise": "All skyscrapers are buildings",
+        "minor premise": "All glass towers are skyscrapers",
+        "conclusion": "All glass towers are buildings",
+        "incorrect conclusions": [
+          "All buildings are skyscrapers",
+          "All buildings are glass towers",
+          "Some glass towers are skyscrapers",
+          "Some glass towers are buildings",
+          "Some glass towers are not buildings",
+          "Some glass towers are not skyscrapers",
+          "Some buildings are glass towers",
+          "Some buildings are skyscrapers",
+          "Some skyscrapers are glass towers"
+        ]
+      },
+      {
+        "major premise": "All blueprints are architectural plans",
+        "minor premise": "All construction drawings are blueprints",
+        "conclusion": "All construction drawings are architectural plans",
+        "incorrect conclusions": [
+          "All architectural plans are blueprints",
+          "All architectural plans are construction drawings",
+          "Some construction drawings are blueprints",
+          "Some construction drawings are architectural plans",
+          "Some construction drawings are not architectural plans",
+          "Some construction drawings are not blueprints",
+          "Some architectural plans are construction drawings",
+          "Some architectural plans are blueprints",
+          "Some blueprints are construction drawings"
+        ]
+      }
+    ]
+  }
+}

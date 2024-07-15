@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Architecture": [
+      {
+        "premises": [
+          "If the building is insulated, then the heating bills are not high",
+          "If the building is insulated, then the indoor temperature stays stable"
+        ],
+        "conclusions": [
+          "If the building is insulated, then the heating bills are not high and the indoor temperature stays stable",
+          "If the building is insulated, the heating bills are not high or the indoor temperature stays stable",
+          "If the heating bills are high, then the building is not insulated",
+          "If the indoor temperature does not stay stable, then the building is not insulated",
+          "If the heating bills are high or the indoor temperature does not stay stable, then the building is not insulated"
+        ],
+        "incorrect conclusions": [
+          "If the heating bills are high, the indoor temperature does not stay stable",
+          "If the indoor temperature does not stay stable, the heating bills are high",
+          "If the heating bills are not high, the indoor temperature stays stable",
+          "If the indoor temperature stays stable, then the heating bills are not high",
+          "If the heating bills are not high and the indoor temperature stays stable, the building is insulated",
+          "If the heating bills are not high or the indoor temperature stays stable, the building is insulated",
+          "If the heating bills are high or the building is not insulated, the building is insulated"
+        ]
+      },
+      {
+        "premises": [
+          "If the foundation is solid, then the building does not collapse",
+          "If the foundation is solid, then the building stands straight"
+        ],
+        "conclusions": [
+          "If the foundation is solid, then the building does not collapse and the building stands straight",
+          "If the foundation is solid, the building does not collapse or the building stands straight",
+          "If the building collapses, then the foundation is not solid",
+          "If the building does not stand straight, then the foundation is not solid",
+          "If the building collapses or does not stand straight, then the foundation is not solid"
+        ],
+        "incorrect conclusions": [
+          "If the building collapses, the building does not stand straight",
+          "If the building does not stand straight, the building collapses",
+          "If the building does not collapse, the building stands straight",
+          "If the building stands straight, then the building does not collapse",
+          "If the building does not collapse and stands straight, then the foundation is solid",
+          "If the building does not collapse or stands straight, then the foundation is solid",
+          "If the building collapses or is not solid, then the foundation is solid"
+        ]
+      },
+      {
+        "premises": [
+          "If the roof is waterproof, then the attic does not leak",
+          "If the roof is waterproof, then the insulation stays dry"
+        ],
+        "conclusions": [
+          "If the roof is waterproof, then the attic does not leak and the insulation stays dry",
+          "If the roof is waterproof, the attic does not leak or the insulation stays dry",
+          "If the attic leaks, then the roof is not waterproof",
+          "If the insulation does not stay dry, then the roof is not waterproof",
+          "If the attic leaks or the insulation does not stay dry, then the roof is not waterproof"
+        ],
+        "incorrect conclusions": [
+          "If the attic leaks, the insulation does not stay dry",
+          "If the insulation does not stay dry, the attic leaks",
+          "If the attic does not leak, the insulation stays dry",
+          "If the insulation stays dry, then the attic does not leak",
+          "If the attic does not leak and the insulation stays dry, then the roof is waterproof",
+          "If the attic does not leak or the insulation stays dry, then the roof is waterproof",
+          "If the attic leaks or roof is not waterproof, then the roof is waterproof"
+        ]
+      }
+    ]
+  }
+}

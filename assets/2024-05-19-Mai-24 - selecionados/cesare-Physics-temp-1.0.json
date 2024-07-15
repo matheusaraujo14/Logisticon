@@ -1,0 +1,22 @@
+{
+  "Physics": {
+     "Cesare" : [
+		{
+          "major premise": "No rocks are planets",
+          "minor premise": "All sedimentary rocks are rocks",
+          "conclusion": "No sedimentary rocks are planets",
+		  "incorrect conclusions": [
+			"All sedimentary rocks are planets",
+			"All rocks are planets",
+			"Some sedimentary rocks are rocks",
+			"Some sedimentary rocks are planets",
+			"Some rocks are sedimentary rocks",
+			"Some rocks are planets",
+			"Some rocks are not sedimentary rocks",
+			"Some planets are sedimentary rocks",
+			"Some planets are rocks"
+		  ]
+		}
+	 ]
+  }
+}

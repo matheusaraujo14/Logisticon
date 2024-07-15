@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Geography": [
+        {
+          "premises": [ 
+            "If it does not rain, the drought continues",
+            "If it rains, the crops grow"
+          ],
+          "conclusions": [
+            "If the drought does not continue, then it rains",
+            "If the crops do not grow, then it does not rain",
+            "If the crops do not grow, the drought continues",
+            "The drought continues or the crops grow",
+            "If it rains and the drought continues, then the crops grow"
+          ],
+          "incorrect conclusions": [
+            "If the drought continues, then it rains",
+            "If the drought continues, then it does not rain",
+            "If the drought does not continue, then it does not rain",
+            "The drought continues and the crops grow",
+            "If the crops grow, then it rains",
+            "If the drought continues and the crops grow, then it rains"
+          ]
+        },
+        {
+          "premises": [
+            "If a volcano is not active, it does not erupt",
+            "If a volcano is active, it emits ash"
+          ],
+          "conclusions": [
+            "If a volcano erupts, then it is active",
+            "If a volcano does not emit ash, then it is not active",
+            "If a volcano does not emit ash, it does not erupt",
+            "A volcano erupts or it emits ash",
+            "If a volcano is active and erupts, then it emits ash"
+          ],
+          "incorrect conclusions": [
+            "If a volcano emits ash, then it is active",
+            "If a volcano emits ash, then it is not active",
+            "If a volcano erupts, then it is not active",
+            "A volcano emits ash and erupts",
+            "If a volcano emits ash, then it is active",
+            "If a volcano emits ash and erupts, then it is active"
+          ]
+        },
+        {
+          "premises": [
+            "If a desert is not hot, it is chilly at night",
+            "If a desert is hot, it has heatwaves"
+          ],
+          "conclusions": [
+            "If a desert is not chilly at night, it is hot",
+            "If a desert does not have heatwaves, it is not hot",
+            "If a desert does not have heatwaves, it is chilly at night",
+            "A desert is chilly at night or it has heatwaves",
+            "If a desert is hot and chilly at night, it has heatwaves"
+          ],
+          "incorrect conclusions": [
+            "If a desert has heatwaves, it is hot",
+            "If a desert has heatwaves, it is not hot",
+            "If a desert is not chilly at night, it is not hot",
+            "A desert is chilly at night and has heatwaves",
+            "If a desert is chilly at night, it is hot",
+            "If a desert has heatwaves and is chilly at night, it is hot"
+          ]
+        }
+    ]
+  }
+}

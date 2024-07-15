@@ -1,0 +1,23 @@
+{
+  "Mathematics": {
+     "Baroco" : [
+		{
+          "major premise": "All prime numbers are whole numbers",
+          "minor premise": "Some integers are not whole numbers",
+          "conclusion": "Some integers are not prime numbers",
+		  "incorrect conclusions": [
+			"All integers are not whole numbers",
+			"All integers are prime numbers",
+			"All integers are whole numbers",
+			"Some prime numbers are integers",
+			"Some prime numbers are not integers",
+			"Some prime numbers are not whole numbers",
+			"Some integers are whole numbers",
+			"Some integers are prime numbers",
+			"Some whole numbers are not prime numbers",
+			"Some whole numbers are integers"
+		  ]
+		}
+	 ]
+  }
+}

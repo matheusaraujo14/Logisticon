@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a triangle is equilateral, then its internal angles are all 60 degrees",
+          "If a triangle is equilateral, then its sides are all equal"
+        ],
+        "conclusions": [
+          "If a triangle is equilateral, then its internal angles are all 60 degrees and its sides are all equal",
+          "If a triangle is equilateral, then its internal angles are all 60 degrees or its sides are all equal",
+          "If the internal angles of a triangle are not all 60 degrees, then the triangle is not equilateral",
+          "If the sides of a triangle are not all equal, then the triangle is not equilateral",
+          "If the internal angles of a triangle are not all 60 degrees or the sides are not all equal, then the triangle is not equilateral"
+        ],
+        "incorrect conclusions": [
+          "If the internal angles of a triangle are not all 60 degrees, the sides are not all equal",
+          "If the sides of a triangle are not all equal, the internal angles are not all 60 degrees",
+          "If the internal angles of a triangle are all 60 degrees, then the sides are all equal",
+          "If the sides of a triangle are all equal, then the internal angles are all 60 degrees",
+          "If the internal angles of a triangle are all 60 degrees and the sides are all equal, then the triangle is equilateral",
+          "If the internal angles of a triangle are all 60 degrees or the sides are all equal, then the triangle is equilateral",
+          "If the internal angles of a triangle are not all 60 degrees or the triangle is not equilateral, then the triangle is equilateral"
+        ]
+      },
+      {
+        "premises": [
+          "If a polynomial is quadratic, then it has at most two real roots",
+          "If a polynomial is quadratic, then it can be factored into linear factors"
+        ],
+        "conclusions": [
+          "If a polynomial is quadratic, then it has at most two real roots and it can be factored into linear factors",
+          "If a polynomial is quadratic, then it has at most two real roots or it can be factored into linear factors",
+          "If a polynomial does not have at most two real roots, then it is not quadratic",
+          "If a polynomial cannot be factored into linear factors, then it is not quadratic",
+          "If a polynomial does not have at most two real roots or it cannot be factored into linear factors, then it is not quadratic"
+        ],
+        "incorrect conclusions": [
+          "If a polynomial does not have at most two real roots, then it cannot be factored into linear factors",
+          "If a polynomial cannot be factored into linear factors, then it does not have at most two real roots",
+          "If a polynomial has at most two real roots, then it can be factored into linear factors",
+          "If a polynomial can be factored into linear factors, then it has at most two real roots",
+          "If a polynomial has at most two real roots and it can be factored into linear factors, then it is quadratic",
+          "If a polynomial has at most two real roots or it can be factored into linear factors, then it is quadratic",
+          "If a polynomial does not have at most two real roots or it is not quadratic, then it is quadratic"
+        ]
+      },
+      {
+        "premises": [
+          "If an integer is even, then it can be divided by 2 without remainder",
+          "If an integer is even, then its square is also even"
+        ],
+        "conclusions": [
+          "If an integer is even, then it can be divided by 2 without remainder and its square is also even",
+          "If an integer is even, then it can be divided by 2 without remainder or its square is also even",
+          "If an integer cannot be divided by 2 without remainder, then it is not even",
+          "If an integer's square is not even, then the integer is not even",
+          "If an integer cannot be divided by 2 without remainder or its square is not even, then the integer is not even"
+        ],
+        "incorrect conclusions": [
+          "If an integer cannot be divided by 2 without remainder, then its square is not even",
+          "If an integer's square is not even, then it cannot be divided by 2 without remainder",
+          "If an integer can be divided by 2 without remainder, then its square is also even",
+          "If an integer's square is even, then it can be divided by 2 without remainder",
+          "If an integer can be divided by 2 without remainder and its square is also even, then the integer is even",
+          "If an integer can be divided by 2 without remainder or its square is also even, then the integer is even",
+          "If an integer cannot be divided by 2 without remainder or the integer is not even, then the integer is even"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Mathematics": {
+    "Fresison": [
+      {
+        "major premise": "No whole numbers are negative numbers",
+        "minor premise": "Some negative numbers are integers",
+        "conclusion": "Some integers are not whole numbers",
+        "incorrect conclusions": [
+          "All negative numbers are integers",
+          "All negative numbers are whole numbers",
+          "All integers are whole numbers",
+          "All whole numbers are negative numbers",
+          "All whole numbers are integers",
+          "Some negative numbers are not integers",
+          "Some whole numbers are integers",
+          "Some whole numbers are not integers",
+          "Some whole numbers are negative numbers",
+          "Some negative numbers are integers",
+          "Some integers are whole numbers",
+          "Some integers are not negative numbers",
+          "Some negative numbers are whole numbers",
+          "No negative numbers are integers",
+          "No integers are not negative numbers",
+          "No integers are negative numbers"
+        ]
+      },
+      {
+        "major premise": "No irrational numbers are rational numbers",
+        "minor premise": "Some rational numbers are recurring decimals",
+        "conclusion": "Some recurring decimals are not irrational numbers",
+        "incorrect conclusions": [
+          "All rational numbers are recurring decimals",
+          "All rational numbers are irrational numbers",
+          "All recurring decimals are irrational numbers",
+          "All irrational numbers are rational numbers",
+          "All irrational numbers are recurring decimals",
+          "Some rational numbers are not recurring decimals",
+          "Some irrational numbers are recurring decimals",
+          "Some irrational numbers are not recurring decimals",
+          "Some irrational numbers are rational numbers",
+          "Some rational numbers are recurring decimals",
+          "Some recurring decimals are irrational numbers",
+          "Some recurring decimals are not rational numbers",
+          "Some rational numbers are irrational numbers",
+          "No rational numbers are recurring decimals",
+          "No recurring decimals are not rational numbers",
+          "No recurring decimals are rational numbers"
+        ]
+      }
+    ]
+  }
+}

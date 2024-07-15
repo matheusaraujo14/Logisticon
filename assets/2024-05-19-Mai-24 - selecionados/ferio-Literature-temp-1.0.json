@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Ferio": [
+      {
+        "major premise": "No novels are poems",
+        "minor premise": "Some fiction books are novels",
+        "conclusion": "Some fiction books are not poems",
+        "incorrect conclusions": [
+          "All novels are fiction books",
+          "All novels are poems",
+          "All fiction books are poems",
+          "All poems are novels",
+          "All poems are fiction books",
+          "Some novels are not fiction books",
+          "Some poems are fiction books",
+          "Some poems are not fiction books",
+          "Some poems are novels",
+          "Some poems are fiction books",
+          "Some fiction books are poems",
+          "Some fiction books are not novels",
+          "Some novels are poems",
+          "No novels is fiction book",
+          "No fiction book is not novel",
+          "No fiction book is novel"
+        ]
+      },
+      {
+        "major premise": "No biographies are plays",
+        "minor premise": "Some history books are biographies",
+        "conclusion": "Some history books are not plays",
+        "incorrect conclusions": [
+          "All biographies are history books",
+          "All biographies are plays",
+          "All history books are plays",
+          "All plays are biographies",
+          "All plays are history books",
+          "Some biographies are not history books",
+          "Some plays are history books",
+          "Some plays are not history books",
+          "Some plays are biographies",
+          "Some plays are history books",
+          "Some history books are plays",
+          "Some history books are not biographies",
+          "Some biographies are plays",
+          "No biographies is history book",
+          "No history book is not biography",
+          "No history book is biography"
+        ]
+      },
+      {
+        "major premise": "No essays are short stories",
+        "minor premise": "Some literature assignments are essays",
+        "conclusion": "Some literature assignments are not short stories",
+        "incorrect conclusions": [
+          "All essays are literature assignments",
+          "All essays are short stories",
+          "All literature assignments are short stories",
+          "All short stories are essays",
+          "All short stories are literature assignments",
+          "Some essays are not literature assignments",
+          "Some short stories are literature assignments",
+          "Some short stories are not literature assignments",
+          "Some short stories are essays",
+          "Some short stories are literature assignments",
+          "Some literature assignments are short stories",
+          "Some literature assignments are not essays",
+          "Some essays are short stories",
+          "No essays is literature assignment",
+          "No literature assignment is not essay",
+          "No literature assignment is essay"
+        ]
+      }
+    ]
+  }
+}

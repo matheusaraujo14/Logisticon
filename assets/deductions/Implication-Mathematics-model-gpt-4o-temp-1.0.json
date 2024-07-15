@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a number is even, then it is divisible by 2"
+        ],
+        "conclusions": [
+          "If a number is not divisible by 2, then it is not even"
+        ],
+        "incorrect conclusions": [
+          "A number is even",
+          "A number is not even",
+          "A number is divisible by 2",
+          "A number is not divisible by 2",
+          "If a number is divisible by 2, then it is even",
+          "If a number is not divisible by 2, then it is even",
+          "If a number is even, then it is not divisible by 2"
+        ]
+      },
+      {
+        "premises": [
+          "If a figure is a square, then it has four equal sides"
+        ],
+        "conclusions": [
+          "If a figure does not have four equal sides, then it is not a square"
+        ],
+        "incorrect conclusions": [
+          "A figure is a square",
+          "A figure is not a square",
+          "A figure has four equal sides",
+          "A figure does not have four equal sides",
+          "If a figure has four equal sides, then it is a square",
+          "If a figure does not have four equal sides, then it is a square",
+          "If a figure is a square, then it does not have four equal sides"
+        ]
+      },
+      {
+        "premises": [
+          "If a function is continuous, then it is integrable"
+        ],
+        "conclusions": [
+          "If a function is not integrable, then it is not continuous"
+        ],
+        "incorrect conclusions": [
+          "A function is continuous",
+          "A function is not continuous",
+          "A function is integrable",
+          "A function is not integrable",
+          "If a function is integrable, then it is continuous",
+          "If a function is not integrable, then it is continuous",
+          "If a function is continuous, then it is not integrable"
+        ]
+      }
+    ]
+  }
+}

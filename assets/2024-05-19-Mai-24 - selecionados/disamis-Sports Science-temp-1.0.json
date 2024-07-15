@@ -1,0 +1,75 @@
+{
+  "Sports Science": {
+     "Disamis" : [
+        {
+          "major premise": "Some sports psychologists are nutritionists",
+          "minor premise": "All sports psychologists are scientists",
+          "conclusion": "Some scientists are nutritionists",
+          "incorrect conclusions": [
+            "All scientists are nutritionists",
+            "All scientists are sports psychologists",
+            "All nutritionists are scientists",
+            "All nutritionists are sports psychologists",
+            "All sports psychologists are nutritionists",
+            "Some scientists are not sports psychologists",
+            "Some nutritionists are not scientists",
+            "Some nutritionists are not sports psychologists",
+            "Some sports psychologists are not scientists",
+            "Some sports psychologists are not nutritionists",
+            "No nutritionist is a scientist",
+            "No nutritionist is a sports psychologist",
+            "No sports psychologist is a scientist",
+            "No sports psychologist is a nutritionist",
+            "No scientist is a sports psychologist",
+            "No scientist is a nutritionist"
+          ]
+        },
+        {
+          "major premise": "Some coaches are exercise physiologists",
+          "minor premise": "All coaches are sports professionals",
+          "conclusion": "Some sports professionals are exercise physiologists",
+          "incorrect conclusions": [
+            "All sports professionals are exercise physiologists",
+            "All sports professionals are coaches",
+            "All exercise physiologists are sports professionals",
+            "All exercise physiologists are coaches",
+            "All coaches are exercise physiologists",
+            "Some sports professionals are not coaches",
+            "Some exercise physiologists are not sports professionals",
+            "Some exercise physiologists are not coaches",
+            "Some coaches are not sports professionals",
+            "Some coaches are not exercise physiologists",
+            "No exercise physiologist is a sports professional",
+            "No exercise physiologist is a coach",
+            "No coach is a sports professional",
+            "No coach is an exercise physiologist",
+            "No sports professional is a coach",
+            "No sports professional is an exercise physiologist"
+          ]
+        },
+        {
+          "major premise": "Some athletic trainers are sports therapists",
+          "minor premise": "All athletic trainers are health experts",
+          "conclusion": "Some health experts are sports therapists",
+          "incorrect conclusions": [
+            "All health experts are sports therapists",
+            "All health experts are athletic trainers",
+            "All sports therapists are health experts",
+            "All sports therapists are athletic trainers",
+            "All athletic trainers are sports therapists",
+            "Some health experts are not athletic trainers",
+            "Some sports therapists are not health experts",
+            "Some sports therapists are not athletic trainers",
+            "Some athletic trainers are not health experts",
+            "Some athletic trainers are not sports therapists",
+            "No sports therapist is a health expert",
+            "No sports therapist is an athletic trainer",
+            "No athletic trainer is a health expert",
+            "No athletic trainer is a sports therapist",
+            "No health expert is an athletic trainer",
+            "No health expert is a sports therapist"
+          ]
+        }
+     ]
+  }
+}

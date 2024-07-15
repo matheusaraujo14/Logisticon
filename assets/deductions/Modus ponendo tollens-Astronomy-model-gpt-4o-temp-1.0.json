@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Astronomy": [
+		{
+          "premises": [
+            "The sky is clear or there is a full moon but not both",
+            "The sky is clear"
+          ],
+          "conclusions": [
+            "There is not a full moon"
+          ],
+          "incorrect conclusions": [
+            "There is a full moon",
+            "The sky is not clear"
+          ]
+		},
+		{
+          "premises": [
+            "The telescope is operational or the observatory is closed but not both",
+            "The telescope is operational"
+          ],
+          "conclusions": [
+            "The observatory is not closed"
+          ],
+          "incorrect conclusions": [
+            "The observatory is closed",
+            "The telescope is not operational"
+          ]
+		},
+		{
+          "premises": [
+            "The star is visible or it is daytime but not both",
+            "The star is visible"
+          ],
+          "conclusions": [
+            "It is not daytime"
+          ],
+          "incorrect conclusions": [
+            "It is daytime",
+            "The star is not visible"
+          ]
+		}
+	]
+  }
+}

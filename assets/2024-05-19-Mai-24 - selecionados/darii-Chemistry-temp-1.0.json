@@ -1,0 +1,54 @@
+{
+  "Chemistry": {
+    "Darii": [
+      {
+        "major premise": "All acids are compounds",
+        "minor premise": "Some liquids are acids",
+        "conclusion": "Some liquids are compounds",
+        "incorrect conclusions": [
+          "All liquids are acids",
+          "All liquids are compounds",
+          "All compounds are acids",
+          "All compounds are liquids",
+          "All acids are liquids",
+          "Some liquids are not compounds",
+          "Some liquids are not acids",
+          "Some compounds are not acids",
+          "Some compounds are not liquids",
+          "Some acids are not compounds",
+          "Some acids are not liquids",
+          "No liquids is compound",
+          "No liquids is acid",
+          "No acids are compounds",
+          "No acids are liquids",
+          "No compounds are acids",
+          "No compounds are liquids"
+        ]
+      },
+      {
+        "major premise": "All salts are compounds",
+        "minor premise": "Some crystals are salts",
+        "conclusion": "Some crystals are compounds",
+        "incorrect conclusions": [
+          "All crystals are salts",
+          "All crystals are compounds",
+          "All compounds are salts",
+          "All compounds are crystals",
+          "All salts are crystals",
+          "Some crystals are not compounds",
+          "Some crystals are not salts",
+          "Some compounds are not salts",
+          "Some compounds are not crystals",
+          "Some salts are not compounds",
+          "Some salts are not crystals",
+          "No crystals is compound",
+          "No crystals is salt",
+          "No salts are compounds",
+          "No salts are crystals",
+          "No compounds are salts",
+          "No compounds are crystals"
+        ]
+      }
+    ]
+  }
+}

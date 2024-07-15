@@ -1,0 +1,52 @@
+{
+  "Economics": {
+    "Festino": [
+      {
+        "major premise": "No unemployed people are company shareholders",
+        "minor premise": "Some economics students are company shareholders",
+        "conclusion": "Some economics students are not unemployed people",
+        "incorrect conclusions": [
+          "All company shareholders are economics students",
+          "All company shareholders are unemployed people",
+          "All economics students are unemployed people",
+          "All unemployed people are company shareholders",
+          "All unemployed people are economics students",
+          "Some company shareholders are not economics students",
+          "Some unemployed people are economics students",
+          "Some unemployed people are not economics students",
+          "Some unemployed people are company shareholders",
+          "Some unemployed people are economics students",
+          "Some economics students are unemployed people",
+          "Some economics students are not company shareholders",
+          "Some company shareholders are unemployed people",
+          "No company shareholder is economics students",
+          "No economics student is not company shareholder",
+          "No economics student is company shareholder"
+        ]
+      },
+      {
+        "major premise": "No commercial banks are cryptocurrency exchanges",
+        "minor premise": "Some investment firms are cryptocurrency exchanges",
+        "conclusion": "Some investment firms are not commercial banks",
+        "incorrect conclusions": [
+          "All cryptocurrency exchanges are investment firms",
+          "All cryptocurrency exchanges are commercial banks",
+          "All investment firms are commercial banks",
+          "All commercial banks are cryptocurrency exchanges",
+          "All commercial banks are investment firms",
+          "Some cryptocurrency exchanges are not investment firms",
+          "Some commercial banks are investment firms",
+          "Some commercial banks are not investment firms",
+          "Some commercial banks are cryptocurrency exchanges",
+          "Some commercial banks are investment firms",
+          "Some investment firms are commercial banks",
+          "Some investment firms are not cryptocurrency exchanges",
+          "Some cryptocurrency exchanges are commercial banks",
+          "No cryptocurrency exchange is investment firms",
+          "No investment firm is not cryptocurrency exchange",
+          "No investment firm is cryptocurrency exchange"
+        ]
+      }
+    ]
+  }
+}

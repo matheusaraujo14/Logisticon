@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Medicine": [
+      {
+        "premises": [
+          "If the patient has a bacterial infection, then they need antibiotics",
+          "The patient has a bacterial infection"
+        ],
+        "conclusions": [
+          "They need antibiotics"
+        ],
+        "incorrect conclusions": [
+          "They do not need antibiotics",
+          "They need antibiotics implies that the patient has a bacterial infection",
+          "Not needing antibiotics implies the patient has a bacterial infection",
+          "Not having a bacterial infection implies not needing antibiotics"
+        ]
+      },
+      {
+        "premises": [
+          "If a person has high blood pressure, then they should reduce their salt intake",
+          "A person has high blood pressure"
+        ],
+        "conclusions": [
+          "They should reduce their salt intake"
+        ],
+        "incorrect conclusions": [
+          "They should not reduce their salt intake",
+          "They should reduce their salt intake implies the person has high blood pressure",
+          "Not reducing their salt intake implies the person has high blood pressure",
+          "Not having high blood pressure implies not needing to reduce their salt intake"
+        ]
+      },
+      {
+        "premises": [
+          "If a vaccine is effective, then it prevents disease",
+          "The vaccine is effective"
+        ],
+        "conclusions": [
+          "It prevents disease"
+        ],
+        "incorrect conclusions": [
+          "It does not prevent disease",
+          "It preventing disease implies that the vaccine is effective",
+          "Not preventing disease implies the vaccine is effective",
+          "Not being effective implies not preventing disease"
+        ]
+      }
+    ]
+  }
+}

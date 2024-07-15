@@ -1,0 +1,75 @@
+{
+  "Law": {
+    "Ferison": [
+      {
+        "major premise": "No judges are prosecutors",
+        "minor premise": "Some judges are lawyers",
+        "conclusion": "Some lawyers are not prosecutors",
+        "incorrect conclusions": [
+          "All judges are lawyers",
+          "All judges are prosecutors",
+          "All lawyers are prosecutors",
+          "All prosecutors are judges",
+          "All prosecutors are lawyers",
+          "Some judges are not lawyers",
+          "Some prosecutors are lawyers",
+          "Some prosecutors are not lawyers",
+          "Some prosecutors are judges",
+          "Some prosecutors are lawyers",
+          "Some lawyers are prosecutors",
+          "Some lawyers are not judges",
+          "Some judges are prosecutors",
+          "No judges are lawyers",
+          "No lawyers are not judges",
+          "No lawyers are judges"
+        ]
+      },
+      {
+        "major premise": "No juries are plaintiffs",
+        "minor premise": "Some juries are legal_entities",
+        "conclusion": "Some legal_entities are not plaintiffs",
+        "incorrect conclusions": [
+          "All juries are legal_entities",
+          "All juries are plaintiffs",
+          "All legal_entities are plaintiffs",
+          "All plaintiffs are juries",
+          "All plaintiffs are legal_entities",
+          "Some juries are not legal_entities",
+          "Some plaintiffs are legal_entities",
+          "Some plaintiffs are not legal_entities",
+          "Some plaintiffs are juries",
+          "Some plaintiffs are legal_entities",
+          "Some legal_entities are plaintiffs",
+          "Some legal_entities are not juries",
+          "Some juries are plaintiffs",
+          "No juries are legal_entities",
+          "No legal_entities are not juries",
+          "No legal_entities are juries"
+        ]
+      },
+      {
+        "major premise": "No attorneys are defendants",
+        "minor premise": "Some attorneys are advocates",
+        "conclusion": "Some advocates are not defendants",
+        "incorrect conclusions": [
+          "All attorneys are advocates",
+          "All attorneys are defendants",
+          "All advocates are defendants",
+          "All defendants are attorneys",
+          "All defendants are advocates",
+          "Some attorneys are not advocates",
+          "Some defendants are advocates",
+          "Some defendants are not advocates",
+          "Some defendants are attorneys",
+          "Some defendants are advocates",
+          "Some advocates are defendants",
+          "Some advocates are not attorneys",
+          "Some attorneys are defendants",
+          "No attorneys are advocates",
+          "No advocates are not attorneys",
+          "No advocates are attorneys"
+        ]
+      }
+    ]
+  }
+}

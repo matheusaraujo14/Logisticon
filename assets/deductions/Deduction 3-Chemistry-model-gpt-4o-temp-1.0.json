@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a substance loses electrons, it is oxidized",
+          "If a substance gains electrons, it is reduced"
+        ],
+        "conclusions": [
+          "If a substance is not oxidized, then it does not lose electrons",
+          "If a substance is not reduced, then it does not gain electrons",
+          "If a substance is not reduced, then it is oxidized",
+          "A substance is either oxidized or reduced",
+          "If a substance gains electrons and loses electrons, then it is reduced"
+        ],
+        "incorrect conclusions": [
+          "If a substance is oxidized, then it loses electrons",
+          "If a substance is oxidized, then it does not lose electrons",
+          "If a substance is not oxidized, then it does not gain electrons",
+          "A substance is both oxidized and reduced",
+          "If a substance is reduced, then it gains electrons",
+          "If a substance is reduced and oxidized, then it gains electrons"
+        ]
+      },
+      {
+        "premises": [
+          "If a compound is ionic, it conducts electricity in solution",
+          "If a compound is covalent, it does not conduct electricity in solution"
+        ],
+        "conclusions": [
+          "If a compound does not conduct electricity in solution, then it is not ionic",
+          "If a compound conducts electricity in solution, then it is not covalent",
+          "If a compound conducts electricity in solution, then it is ionic",
+          "A compound is either ionic or covalent",
+          "If a compound conducts electricity in solution and is ionic, then it conducts electricity in solution"
+        ],
+        "incorrect conclusions": [
+          "If a compound conducts electricity in solution, then it is ionic",
+          "If a compound conducts electricity in solution, then it is not ionic",
+          "If a compound does not conduct electricity in solution, then it is not covalent",
+          "A compound is both ionic and covalent",
+          "If a compound does not conduct electricity in solution, then it does not conduct electricity in solution",
+          "If a compound is ionic and covalent, then it does not conduct electricity in solution"
+        ]
+      },
+      {
+        "premises": [
+          "If a reaction is exothermic, it releases heat",
+          "If a reaction is endothermic, it absorbs heat"
+        ],
+        "conclusions": [
+          "If a reaction does not release heat, then it is not exothermic",
+          "If a reaction does not absorb heat, then it is not endothermic",
+          "If a reaction does not absorb heat, then it releases heat",
+          "A reaction is either exothermic or endothermic",
+          "If a reaction releases heat and is exothermic, then it absorbs heat"
+        ],
+        "incorrect conclusions": [
+          "If a reaction releases heat, then it is exothermic",
+          "If a reaction releases heat, then it is not exothermic",
+          "If a reaction does not release heat, then it does not absorb heat",
+          "A reaction is both exothermic and endothermic",
+          "If a reaction absorbs heat, then it absorbs heat",
+          "If a reaction is exothermic and endothermic, then it absorbs heat"
+        ]
+      }
+    ]
+  }
+}

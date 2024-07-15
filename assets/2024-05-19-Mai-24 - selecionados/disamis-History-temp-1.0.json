@@ -1,0 +1,75 @@
+{
+  "History": {
+    "Disamis": [
+      {
+        "major premise": "Some historians are authors",
+        "minor premise": "All historians are researchers",
+        "conclusion": "Some researchers are authors",
+        "incorrect conclusions": [
+          "All researchers are authors",
+          "All researchers are historians",
+          "All authors are researchers",
+          "All authors are historians",
+          "All historians are authors",
+          "Some researchers are not historians",
+          "Some authors are not researchers",
+          "Some authors are not historians",
+          "Some historians are not researchers",
+          "Some historians are not authors",
+          "No authors is a researcher",
+          "No authors is an historian",
+          "No historians is a researcher",
+          "No historians is an author",
+          "No researchers is a historian",
+          "No researchers is an author"
+        ]
+      },
+      {
+        "major premise": "Some kings are warriors",
+        "minor premise": "All kings are leaders",
+        "conclusion": "Some leaders are warriors",
+        "incorrect conclusions": [
+          "All leaders are warriors",
+          "All leaders are kings",
+          "All warriors are leaders",
+          "All warriors are kings",
+          "All kings are warriors",
+          "Some leaders are not kings",
+          "Some warriors are not leaders",
+          "Some warriors are not kings",
+          "Some kings are not leaders",
+          "Some kings are not warriors",
+          "No warriors is a leader",
+          "No warriors is a king",
+          "No kings is a leader",
+          "No kings is a warrior",
+          "No leaders is a king",
+          "No leaders is a warrior"
+        ]
+      },
+      {
+        "major premise": "Some artifacts are tools",
+        "minor premise": "All artifacts are creations",
+        "conclusion": "Some creations are tools",
+        "incorrect conclusions": [
+          "All creations are tools",
+          "All creations are artifacts",
+          "All tools are creations",
+          "All tools are artifacts",
+          "All artifacts are tools",
+          "Some creations are not artifacts",
+          "Some tools are not creations",
+          "Some tools are not artifacts",
+          "Some artifacts are not creations",
+          "Some artifacts are not tools",
+          "No tools is a creation",
+          "No tools is an artifact",
+          "No artifacts is a creation",
+          "No artifacts is a tool",
+          "No creations is an artifact",
+          "No creations is a tool"
+        ]
+      }
+    ]
+  }
+}

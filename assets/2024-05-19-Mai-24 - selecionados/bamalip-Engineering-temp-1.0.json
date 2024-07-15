@@ -1,0 +1,69 @@
+{
+  "Engineering": {
+     "Bamalip" : [
+		{
+          "major premise": "All circuit boards are electronic components",
+          "minor premise": "All electronic components are devices and some circuit boards exist",
+          "conclusion": "Some devices are circuit boards",
+		  "incorrect conclusions": [
+            "All devices are electronic components",
+            "All electronic components are circuit boards",
+            "Some devices are not electronic components",
+            "Some devices are not circuit boards",
+            "Some electronic components are not circuit boards",
+            "Some electronic components are not devices",
+            "Some circuit boards are not electronic components",
+            "Some circuit boards are not devices",
+            "No devices is electronic component",
+            "No devices is circuit board",
+            "No electronic components is devices",
+            "No electronic components is circuit board",
+            "No circuit boards is electronic component",
+            "No circuit boards is devices"
+          ]
+		},
+		{
+          "major premise": "All bridges are structures",
+          "minor premise": "All structures are constructions and some bridges exist",
+          "conclusion": "Some constructions are bridges",
+		  "incorrect conclusions": [
+            "All constructions are structures",
+            "All structures are bridges",
+            "Some constructions are not structures",
+            "Some constructions are not bridges",
+            "Some structures are not bridges",
+            "Some structures are not constructions",
+            "Some bridges are not structures",
+            "Some bridges are not constructions",
+            "No constructions is structure",
+            "No constructions is bridge",
+            "No structures is constructions",
+            "No structures is bridge",
+            "No bridges is structure",
+            "No bridges is constructions"
+          ]
+		},
+		{
+          "major premise": "All blueprints are design documents",
+          "minor premise": "All design documents are technical documents and some blueprints exist",
+          "conclusion": "Some technical documents are blueprints",
+		  "incorrect conclusions": [
+            "All technical documents are design documents",
+            "All design documents are blueprints",
+            "Some technical documents are not design documents",
+            "Some technical documents are not blueprints",
+            "Some design documents are not blueprints",
+            "Some design documents are not technical documents",
+            "Some blueprints are not design documents",
+            "Some blueprints are not technical documents",
+            "No technical documents is design document",
+            "No technical documents is blueprint",
+            "No design documents is technical document",
+            "No design documents is blueprint",
+            "No blueprints is design document",
+            "No blueprints is technical document"
+          ]
+		}
+	 ]
+  }
+}

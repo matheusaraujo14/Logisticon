@@ -1,0 +1,78 @@
+{
+  "Nutrition": {
+    "Darii": [
+      {
+        "major premise": "All fruits are plant_based",
+        "minor premise": "Some apples are fruits",
+        "conclusion": "Some apples are plant_based",
+        "incorrect conclusions": [
+          "All apples are fruits",
+          "All apples are plant_based",
+          "All plant_based are fruits",
+          "All plant_based are apples",
+          "All fruits are apples",
+          "Some apples are not plant_based",
+          "Some apples are not fruits",
+          "Some plant_based are not fruits",
+          "Some plant_based are not apples",
+          "Some fruits are not plant_based",
+          "Some fruits are not apples",
+          "No apples is plant_based",
+          "No apples is fruits",
+          "No fruits is plant_based",
+          "No fruits is apples",
+          "No plant_based is fruits",
+          "No plant_based is apples"
+        ]
+      },
+      {
+        "major premise": "All whole_grains are cereals",
+        "minor premise": "Some oats are whole_grains",
+        "conclusion": "Some oats are cereals",
+        "incorrect conclusions": [
+          "All oats are whole_grains",
+          "All oats are cereals",
+          "All cereals are whole_grains",
+          "All cereals are oats",
+          "All whole_grains are oats",
+          "Some oats are not cereals",
+          "Some oats are not whole_grains",
+          "Some cereals are not whole_grains",
+          "Some cereals are not oats",
+          "Some whole_grains are not cereals",
+          "Some whole_grains are not oats",
+          "No oats is cereals",
+          "No oats is whole_grains",
+          "No whole_grains is cereals",
+          "No whole_grains is oats",
+          "No cereals is whole_grains",
+          "No cereals is oats"
+        ]
+      },
+      {
+        "major premise": "All legumes are protein_sources",
+        "minor premise": "Some lentils are legumes",
+        "conclusion": "Some lentils are protein_sources",
+        "incorrect conclusions": [
+          "All lentils are legumes",
+          "All lentils are protein_sources",
+          "All protein_sources are legumes",
+          "All protein_sources are lentils",
+          "All legumes are lentils",
+          "Some lentils are not protein_sources",
+          "Some lentils are not legumes",
+          "Some protein_sources are not legumes",
+          "Some protein_sources are not lentils",
+          "Some legumes are not protein_sources",
+          "Some legumes are not lentils",
+          "No lentils is protein_sources",
+          "No lentils is legumes",
+          "No legumes is protein_sources",
+          "No legumes is lentils",
+          "No protein_sources is legumes",
+          "No protein_sources is lentils"
+        ]
+      }
+    ]
+  }
+}

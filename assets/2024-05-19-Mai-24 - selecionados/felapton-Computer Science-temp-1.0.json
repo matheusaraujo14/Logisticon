@@ -1,0 +1,44 @@
+{
+  "Computer Science": {
+     "Felapton" : [
+        {
+          "major premise": "No algorithms are hardware",
+          "minor premise": "All algorithms are programs and some algorithms exist",
+          "conclusion": "Some programs are not hardware",
+          "incorrect conclusions": [
+            "All programs are hardware",
+            "All programs are algorithms",
+            "All hardware are programs",
+            "All hardware are algorithms",
+            "Some programs are hardware",
+            "Some hardware are programs",
+            "Some hardware are algorithms",
+            "Some hardware are not programs",
+            "Some algorithms are hardware",
+            "Some algorithms are not programs",
+            "No algorithms is programs",
+            "No programs is algorithms"
+          ]
+        },
+        {
+          "major premise": "No operating systems are programming languages",
+          "minor premise": "All operating systems are software and some operating systems exist",
+          "conclusion": "Some software are not programming languages",
+          "incorrect conclusions": [
+            "All software are programming languages",
+            "All software are operating systems",
+            "All programming languages are software",
+            "All programming languages are operating systems",
+            "Some software are programming languages",
+            "Some programming languages are software",
+            "Some programming languages are operating systems",
+            "Some programming languages are not software",
+            "Some operating systems are programming languages",
+            "Some operating systems are not software",
+            "No operating systems is software",
+            "No software is operating systems"
+          ]
+        }
+     ]
+  }
+}

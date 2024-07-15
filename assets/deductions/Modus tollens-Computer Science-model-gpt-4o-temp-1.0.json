@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a file is corrupted, then it cannot be opened",
+          "The file can be opened"
+        ],
+        "conclusions": [
+          "The file is not corrupted"
+        ],
+        "incorrect conclusions": [
+          "The file is corrupted",
+          "The file is corrupted and it cannot be opened",
+          "If the file can be opened, then it is not corrupted",
+          "If the file cannot be opened, then it is corrupted",
+          "If the file is not corrupted, then it can be opened"
+        ]
+      },
+      {
+        "premises": [
+          "If a program has a syntax error, then it will not compile",
+          "The program compiles"
+        ],
+        "conclusions": [
+          "The program does not have a syntax error"
+        ],
+        "incorrect conclusions": [
+          "The program has a syntax error",
+          "The program has a syntax error and it will not compile",
+          "If the program compiles, then it has no syntax error",
+          "If the program does not compile, then it has a syntax error",
+          "If the program has no syntax error, then it will compile"
+        ]
+      },
+      {
+        "premises": [
+          "If the database is down, then the application cannot connect",
+          "The application can connect"
+        ],
+        "conclusions": [
+          "The database is not down"
+        ],
+        "incorrect conclusions": [
+          "The database is down",
+          "The database is down and the application cannot connect",
+          "If the application can connect, then the database is not down",
+          "If the application cannot connect, then the database is down",
+          "If the database is not down, then the application can connect"
+        ]
+      }
+    ]
+  }
+}

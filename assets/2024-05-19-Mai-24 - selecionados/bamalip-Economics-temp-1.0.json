@@ -1,0 +1,69 @@
+{
+  "Economics": {
+    "Bamalip": [
+      {
+        "major premise": "All consumers are economic agents",
+        "minor premise": "All economic agents are decision-makers and some consumers exist",
+        "conclusion": "Some decision-makers are consumers",
+        "incorrect conclusions": [
+          "All decision-makers are economic agents",
+          "All economic agents are consumers",
+          "Some decision-makers are not economic agents",
+          "Some decision-makers are not consumers",
+          "Some economic agents are not consumers",
+          "Some economic agents are not decision-makers",
+          "Some consumers are not economic agents",
+          "Some consumers are not decision-makers",
+          "No decision-maker is economic agent",
+          "No decision-maker is consumer",
+          "No economic agent is decision-maker",
+          "No economic agent is consumer",
+          "No consumer is economic agent",
+          "No consumer is decision-maker"
+        ]
+      },
+      {
+        "major premise": "All entrepreneurs are market participants",
+        "minor premise": "All market participants are resource allocators and some entrepreneurs exist",
+        "conclusion": "Some resource allocators are entrepreneurs",
+        "incorrect conclusions": [
+          "All resource allocators are market participants",
+          "All market participants are entrepreneurs",
+          "Some resource allocators are not market participants",
+          "Some resource allocators are not entrepreneurs",
+          "Some market participants are not entrepreneurs",
+          "Some market participants are not resource allocators",
+          "Some entrepreneurs are not market participants",
+          "Some entrepreneurs are not resource allocators",
+          "No resource allocator is market participant",
+          "No resource allocator is entrepreneur",
+          "No market participant is resource allocator",
+          "No market participant is entrepreneur",
+          "No entrepreneur is market participant",
+          "No entrepreneur is resource allocator"
+        ]
+      },
+      {
+        "major premise": "All firms are competitive entities",
+        "minor premise": "All competitive entities are profit-maximizers and some firms exist",
+        "conclusion": "Some profit-maximizers are firms",
+        "incorrect conclusions": [
+          "All profit-maximizers are competitive entities",
+          "All competitive entities are firms",
+          "Some profit-maximizers are not competitive entities",
+          "Some profit-maximizers are not firms",
+          "Some competitive entities are not firms",
+          "Some competitive entities are not profit-maximizers",
+          "Some firms are not competitive entities",
+          "Some firms are not profit-maximizers",
+          "No profit-maximizer is competitive entity",
+          "No profit-maximizer is firm",
+          "No competitive entity is profit-maximizer",
+          "No competitive entity is firm",
+          "No firm is competitive entity",
+          "No firm is profit-maximizer"
+        ]
+      }
+    ]
+  }
+}

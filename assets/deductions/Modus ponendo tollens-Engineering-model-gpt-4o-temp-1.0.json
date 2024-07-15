@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Engineering": [
+		{
+          "premises": [ 
+            "The system is stable or it overheats but not both",
+            "The system is stable"
+          ],
+          "conclusions": [
+            "The system does not overheat"
+          ],
+		  "incorrect conclusions": [
+            "The system overheats",
+            "The system is not stable"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The bridge is safe or it has structural damage but not both",
+            "The bridge is safe"
+          ],
+          "conclusions": [
+            "The bridge does not have structural damage"
+          ],
+		  "incorrect conclusions": [
+            "The bridge has structural damage",
+            "The bridge is not safe"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The circuit is complete or it has an open circuit but not both",
+            "The circuit is complete"
+          ],
+          "conclusions": [
+            "The circuit does not have an open circuit"
+          ],
+		  "incorrect conclusions": [
+            "The circuit has an open circuit",
+            "The circuit is not complete"
+		  ]
+		}
+	]
+  }
+}

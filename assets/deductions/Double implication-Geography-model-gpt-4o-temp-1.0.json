@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Geography": [
+      {
+        "premises": [
+          "If it is raining, then the ground is wet",
+          "If the ground is wet, then there is water on the street"
+        ],
+        "conclusions": [
+          "If it is raining, then there is water on the street",
+          "If there is no water on the street, then it is not raining",
+          "If it is raining or the ground is wet, then there is water on the street and if it is raining, then there is water on the street",
+          "If it is raining, then there is water on the street and if it is raining, then there is water on the street",
+          "If it is not raining and the ground is wet, then there is water on the street and if it is raining, then there is water on the street",
+          "If it is raining or the ground is wet, then there is water on the street"
+        ],
+        "incorrect conclusions": [
+          "It is raining",
+          "If there is water on the street, then it is raining",
+          "If there is water on the street, then it is not raining",
+          "There is water on the street",
+          "There is no water on the street",
+          "If there is no water on the street, then it is raining",
+          "If the ground is not wet, then there is water on the street",
+          "If it is raining or the ground is not wet, then there is water on the street"
+        ]
+      },
+      {
+        "premises": [
+          "If the sun is shining, then it is warm",
+          "If it is warm, then people go to the beach"
+        ],
+        "conclusions": [
+          "If the sun is shining, then people go to the beach",
+          "If people do not go to the beach, then the sun is not shining",
+          "If the sun is shining or it is warm, then people go to the beach and if the sun is shining, then people go to the beach",
+          "If the sun is shining, then people go to the beach and if the sun is shining, then people go to the beach",
+          "If the sun is not shining and it is warm, then people go to the beach and if the sun is shining, then people go to the beach",
+          "If the sun is shining or it is warm, then people go to the beach"
+        ],
+        "incorrect conclusions": [
+          "The sun is shining",
+          "If people go to the beach, then the sun is shining",
+          "If people go to the beach, then the sun is not shining",
+          "People go to the beach",
+          "People do not go to the beach",
+          "If people do not go to the beach, then the sun is shining",
+          "If it is not warm, then people go to the beach",
+          "If the sun is shining or it is not warm, then people go to the beach"
+        ]
+      },
+      {
+        "premises": [
+          "If it is winter, then it is cold",
+          "If it is cold, then lakes freeze"
+        ],
+        "conclusions": [
+          "If it is winter, then lakes freeze",
+          "If lakes do not freeze, then it is not winter",
+          "If it is winter or it is cold, then lakes freeze and if it is winter, then lakes freeze",
+          "If it is winter, then lakes freeze and if it is winter, then lakes freeze",
+          "If it is not winter and it is cold, then lakes freeze and if it is winter, then lakes freeze",
+          "If it is winter or it is cold, then lakes freeze"
+        ],
+        "incorrect conclusions": [
+          "It is winter",
+          "If lakes freeze, then it is winter",
+          "If lakes freeze, then it is not winter",
+          "Lakes freeze",
+          "Lakes do not freeze",
+          "If lakes do not freeze, then it is winter",
+          "If it is not cold, then lakes freeze",
+          "If it is winter or it is not cold, then lakes freeze"
+        ]
+      }
+    ]
+  }
+}

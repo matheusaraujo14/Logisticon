@@ -1,0 +1,75 @@
+{
+  "Philosophy": {
+    "Darapti": [
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "All philosophers are humans and some philosophers exist",
+        "conclusion": "Some humans are thinkers",
+        "incorrect conclusions": [
+          "All humans are thinkers",
+          "All thinkers are humans",
+          "All philosophers are not humans",
+          "All philosophers are not thinkers",
+          "Some humans are not thinkers",
+          "Some humans are not philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are not humans",
+          "Some philosophers are not humans",
+          "Some philosophers are not thinkers",
+          "No philosophers are humans",
+          "No philosophers are thinkers",
+          "No thinkers are philosophers",
+          "No thinkers are humans",
+          "No humans are philosophers",
+          "No humans are thinkers"
+        ]
+      },
+      {
+        "major premise": "All logicians are philosophers",
+        "minor premise": "All logicians are academics and some logicians exist",
+        "conclusion": "Some academics are philosophers",
+        "incorrect conclusions": [
+          "All academics are philosophers",
+          "All philosophers are academics",
+          "All logicians are not academics",
+          "All logicians are not philosophers",
+          "Some academics are not philosophers",
+          "Some academics are not logicians",
+          "Some philosophers are not logicians",
+          "Some philosophers are not academics",
+          "Some logicians are not academics",
+          "Some logicians are not philosophers",
+          "No logicians are academics",
+          "No logicians are philosophers",
+          "No philosophers are logicians",
+          "No philosophers are academics",
+          "No academics are logicians",
+          "No academics are philosophers"
+        ]
+      },
+      {
+        "major premise": "All idealists are metaphysicians",
+        "minor premise": "All idealists are philosophers and some idealists exist",
+        "conclusion": "Some philosophers are metaphysicians",
+        "incorrect conclusions": [
+          "All philosophers are metaphysicians",
+          "All metaphysicians are philosophers",
+          "All idealists are not philosophers",
+          "All idealists are not metaphysicians",
+          "Some philosophers are not metaphysicians",
+          "Some philosophers are not idealists",
+          "Some metaphysicians are not idealists",
+          "Some metaphysicians are not philosophers",
+          "Some idealists are not philosophers",
+          "Some idealists are not metaphysicians",
+          "No idealists are philosophers",
+          "No idealists are metaphysicians",
+          "No metaphysicians are idealists",
+          "No metaphysicians are philosophers",
+          "No philosophers are idealists",
+          "No philosophers are metaphysicians"
+        ]
+      }
+    ]
+  }
+}

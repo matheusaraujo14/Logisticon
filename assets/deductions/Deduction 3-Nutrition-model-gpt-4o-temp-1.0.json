@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a person does not drink water, they feel thirsty",
+          "If a person drinks water, they stay hydrated"
+        ],
+        "conclusions": [
+          "If a person feels thirsty, then the person does not drink water",
+          "If a person does not stay hydrated, then the person does not drink water",
+          "If a person does not stay hydrated, then the person feels thirsty",
+          "A person either feels thirsty or stays hydrated",
+          "If a person drinks water and feels thirsty, then the person stays hydrated"
+        ],
+        "incorrect conclusions": [
+          "If a person feels thirsty, then the person drinks water",
+          "If a person feels thirsty, then the person does not drink water",
+          "If a person does not feel thirsty, then a person does not drink water",
+          "A person feels thirsty and stays hydrated",
+          "If a person stays hydrated, then the person drinks water",
+          "If a person feels thirsty and stays hydrated, then the person drinks water"
+        ]
+      },
+      {
+        "premises": [
+          "If a person does not eat vegetables, they lack vitamins",
+          "If a person eats vegetables, they have good digestion"
+        ],
+        "conclusions": [
+          "If a person does not lack vitamins, then the person eats vegetables",
+          "If a person does not have good digestion, then the person does not eat vegetables",
+          "If a person does not have good digestion, then the person lacks vitamins",
+          "A person either lacks vitamins or has good digestion",
+          "If a person eats vegetables and lacks vitamins, then the person has good digestion"
+        ],
+        "incorrect conclusions": [
+          "If a person lacks vitamins, then the person eats vegetables",
+          "If a person lacks vitamins, then the person does not eat vegetables",
+          "If a person does not lack vitamins, then the person does not eat vegetables",
+          "A person lacks vitamins and has good digestion",
+          "If a person has good digestion, then the person eats vegetables",
+          "If a person lacks vitamins and has good digestion, then the person eats vegetables"
+        ]
+      },
+      {
+        "premises": [
+          "If a person does not eat breakfast, they feel tired",
+          "If a person eats breakfast, they have energy all day"
+        ],
+        "conclusions": [
+          "If a person does not feel tired, then the person eats breakfast",
+          "If a person does not have energy all day, then the person does not eat breakfast",
+          "If a person does not have energy all day, then the person feels tired",
+          "A person either feels tired or has energy all day",
+          "If a person eats breakfast and feels tired, then the person has energy all day"
+        ],
+        "incorrect conclusions": [
+          "If a person feels tired, then the person eats breakfast",
+          "If a person feels tired, then the person does not eat breakfast",
+          "If a person does not feel tired, then the person does not eat breakfast",
+          "A person feels tired and has energy all day",
+          "If a person has energy all day, then the person eats breakfast",
+          "If a person feels tired and has energy all day, then the person eats breakfast"
+        ]
+      }
+    ]
+  }
+}

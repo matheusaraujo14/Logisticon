@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Economics": [
+      {
+        "premises": [
+          "If the interest rate increases, then the cost of borrowing increases",
+          "If the interest rate increases, then investment decreases"
+        ],
+        "conclusions": [
+          "If the interest rate increases, then the cost of borrowing increases and investment decreases",
+          "If the interest rate increases, the cost of borrowing increases or investment decreases",
+          "If the cost of borrowing does not increase, then the interest rate does not increase",
+          "If investment does not decrease, then the interest rate does not increase",
+          "If the cost of borrowing does not increase or investment does not decrease, then the interest rate does not increase"
+        ],
+        "incorrect conclusions": [
+          "If the cost of borrowing does not increase, then investment does not decrease",
+          "If investment does not decrease, then the cost of borrowing does not increase",
+          "If the cost of borrowing increases, then investment decreases",
+          "If investment decreases, then the cost of borrowing increases",
+          "If the cost of borrowing increases and investment decreases, then the interest rate increases",
+          "If the cost of borrowing increases or investment decreases, then the interest rate increases",
+          "If the cost of borrowing does not increase or the interest rate does not increase, then the interest rate increases"
+        ]
+      },
+      {
+        "premises": [
+          "If consumer confidence improves, then spending increases",
+          "If consumer confidence improves, then savings decrease"
+        ],
+        "conclusions": [
+          "If consumer confidence improves, then spending increases and savings decrease",
+          "If consumer confidence improves, spending increases or savings decrease",
+          "If spending does not increase, then consumer confidence does not improve",
+          "If savings do not decrease, then consumer confidence does not improve",
+          "If spending does not increase or savings do not decrease, then consumer confidence does not improve"
+        ],
+        "incorrect conclusions": [
+          "If spending does not increase, then savings do not decrease",
+          "If savings do not decrease, then spending does not increase",
+          "If spending increases, then savings decrease",
+          "If savings decrease, then spending increases",
+          "If spending increases and savings decrease, then consumer confidence improves",
+          "If spending increases or savings decrease, then consumer confidence improves",
+          "If spending does not increase or consumer confidence does not improve, then consumer confidence improves"
+        ]
+      },
+      {
+        "premises": [
+          "If government spending increases, then demand in the economy increases",
+          "If government spending increases, then inflation rises"
+        ],
+        "conclusions": [
+          "If government spending increases, then demand in the economy increases and inflation rises",
+          "If government spending increases, demand in the economy increases or inflation rises",
+          "If demand in the economy does not increase, then government spending does not increase",
+          "If inflation does not rise, then government spending does not increase",
+          "If demand in the economy does not increase or inflation does not rise, then government spending does not increase"
+        ],
+        "incorrect conclusions": [
+          "If demand in the economy does not increase, then inflation does not rise",
+          "If inflation does not rise, then demand in the economy does not increase",
+          "If demand in the economy increases, then inflation rises",
+          "If inflation rises, then demand in the economy increases",
+          "If demand in the economy increases and inflation rises, then government spending increases",
+          "If demand in the economy increases or inflation rises, then government spending increases",
+          "If demand in the economy does not increase or government spending does not increase, then government spending increases"
+        ]
+      }
+    ]
+  }
+}

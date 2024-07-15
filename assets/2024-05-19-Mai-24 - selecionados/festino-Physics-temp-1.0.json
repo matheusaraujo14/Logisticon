@@ -1,0 +1,29 @@
+{
+  "Physics": {
+     "Festino" : [
+		{
+          "major premise": "No minerals are atoms",
+          "minor premise": "Some molecules are atoms",
+          "conclusion": "Some molecules are not minerals",
+		  "incorrect conclusions": [
+			"All atoms are molecules",
+			"All atoms are minerals",
+			"All molecules are minerals",
+			"All minerals are atoms",
+			"All minerals are molecules",
+			"Some atoms are not molecules",
+			"Some minerals are molecules",
+			"Some minerals are not molecules",
+			"Some minerals are atoms",
+			"Some minerals are molecules",
+			"Some molecules are minerals",
+			"Some molecules are not atoms",
+			"Some atoms are minerals",
+			"No atoms are molecules",
+			"No molecules are not atoms",
+			"No molecules are atoms"
+		  ]
+		}
+	 ]
+  }
+}

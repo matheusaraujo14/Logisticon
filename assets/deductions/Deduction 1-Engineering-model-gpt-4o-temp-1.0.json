@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Engineering": [
+      {
+        "premises": [
+          "If the machine is turned on, then the conveyor belt moves",
+          "If the machine is turned on, then the lights turn on"
+        ],
+        "conclusions": [
+          "If the machine is turned on, then the conveyor belt moves and the lights turn on",
+          "If the machine is turned on, then the conveyor belt moves or the lights turn on",
+          "If the conveyor belt does not move, then the machine is not turned on",
+          "If the lights do not turn on, then the machine is not turned on",
+          "If the conveyor belt does not move or the lights do not turn on, then the machine is not turned on"
+        ],
+        "incorrect conclusions": [
+          "If the conveyor belt does not move, the lights do not turn on",
+          "If the lights do not turn on, the conveyor belt does not move",
+          "The conveyor belt moving implies the lights turn on",
+          "The lights turning on implies the conveyor belt moves",
+          "If the conveyor belt moves and the lights turn on, then the machine is turned on",
+          "If the conveyor belt moves or the lights turn on, then the machine is turned on",
+          "If the conveyor belt does not move or the machine is not turned on, then the machine is turned on"
+        ]
+      },
+      {
+        "premises": [
+          "If the solar panel receives sunlight, then it generates electricity",
+          "If the solar panel receives sunlight, then it warms up"
+        ],
+        "conclusions": [
+          "If the solar panel receives sunlight, then it generates electricity and it warms up",
+          "If the solar panel receives sunlight, then it generates electricity or it warms up",
+          "If the solar panel does not generate electricity, then it does not receive sunlight",
+          "If the solar panel does not warm up, then it does not receive sunlight",
+          "If the solar panel does not generate electricity or it does not warm up, then it does not receive sunlight"
+        ],
+        "incorrect conclusions": [
+          "If the solar panel does not generate electricity, it does not warm up",
+          "If the solar panel does not warm up, it does not generate electricity",
+          "If the solar panel generates electricity, it warms up",
+          "If the solar panel warms up, it generates electricity",
+          "If the solar panel generates electricity and it warms up, then it receives sunlight",
+          "If the solar panel generates electricity or it warms up, then it receives sunlight",
+          "If the solar panel does not generate electricity or it does not receive sunlight, then it receives sunlight"
+        ]
+      },
+      {
+        "premises": [
+          "If the bridge is under heavy load, then it bends",
+          "If the bridge is under heavy load, then it vibrates"
+        ],
+        "conclusions": [
+          "If the bridge is under heavy load, then it bends and it vibrates",
+          "If the bridge is under heavy load, then it bends or it vibrates",
+          "If the bridge does not bend, then it is not under heavy load",
+          "If the bridge does not vibrate, then it is not under heavy load",
+          "If the bridge does not bend or it does not vibrate, then it is not under heavy load"
+        ],
+        "incorrect conclusions": [
+          "If the bridge does not bend, it does not vibrate",
+          "If the bridge does not vibrate, it does not bend",
+          "If the bridge bends, it vibrates",
+          "If the bridge vibrates, it bends",
+          "If the bridge bends and it vibrates, then it is under heavy load",
+          "If the bridge bends or it vibrates, then it is under heavy load",
+          "If the bridge does not bend or it is not under heavy load, then it is under heavy load"
+        ]
+      }
+    ]
+  }
+}

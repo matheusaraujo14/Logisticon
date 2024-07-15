@@ -1,0 +1,38 @@
+{
+  "Medicine": {
+    "Cesare": [
+      {
+        "major premise": "No bacteria are plants",
+        "minor premise": "All E. coli are bacteria",
+        "conclusion": "No E. coli are plants",
+        "incorrect conclusions": [
+          "All E. coli are plants",
+          "All bacteria are plants",
+          "Some E. coli are bacteria",
+          "Some E. coli are plants",
+          "Some bacteria are E. coli",
+          "Some bacteria are plants",
+          "Some bacteria are not E. coli",
+          "Some plants are E. coli",
+          "Some plants are bacteria"
+        ]
+      },
+      {
+        "major premise": "No fungi are animals",
+        "minor premise": "All molds are fungi",
+        "conclusion": "No molds are animals",
+        "incorrect conclusions": [
+          "All molds are animals",
+          "All fungi are animals",
+          "Some molds are fungi",
+          "Some molds are animals",
+          "Some fungi are molds",
+          "Some fungi are animals",
+          "Some fungi are not molds",
+          "Some animals are molds",
+          "Some animals are fungi"
+        ]
+      }
+    ]
+  }
+}

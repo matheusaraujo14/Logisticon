@@ -1,0 +1,75 @@
+{
+  "Philosophy": {
+    "Dimatis": [
+      {
+        "major premise": "Some philosophers are logicians",
+        "minor premise": "All logicians are academics",
+        "conclusion": "Some academics are philosophers",
+        "incorrect conclusions": [
+          "All academics are philosophers",
+          "All academics are logicians",
+          "All philosophers are academics",
+          "All philosophers are logicians",
+          "All logicians are philosophers",
+          "Some academics are not logicians",
+          "Some philosophers are not academics",
+          "Some philosophers are not logicians",
+          "Some logicians are not academics",
+          "Some logicians are not philosophers",
+          "No philosophers is an academic",
+          "No philosophers is a logician",
+          "No logicians is an academic",
+          "No logicians is a philosopher",
+          "No academics is a logician",
+          "No academics is a philosopher"
+        ]
+      },
+      {
+        "major premise": "Some rationalists are metaphysicians",
+        "minor premise": "All metaphysicians are philosophers",
+        "conclusion": "Some philosophers are rationalists",
+        "incorrect conclusions": [
+          "All philosophers are rationalists",
+          "All philosophers are metaphysicians",
+          "All rationalists are philosophers",
+          "All rationalists are metaphysicians",
+          "All metaphysicians are rationalists",
+          "Some philosophers are not metaphysicians",
+          "Some rationalists are not philosophers",
+          "Some rationalists are not metaphysicians",
+          "Some metaphysicians are not philosophers",
+          "Some metaphysicians are not rationalists",
+          "No rationalists is a philosopher",
+          "No rationalists is a metaphysician",
+          "No metaphysicians is a philosopher",
+          "No metaphysicians is a rationalist",
+          "No philosophers is a metaphysician",
+          "No philosophers is a rationalist"
+        ]
+      },
+      {
+        "major premise": "Some existentialists are ethicists",
+        "minor premise": "All ethicists are philosophers",
+        "conclusion": "Some philosophers are existentialists",
+        "incorrect conclusions": [
+          "All philosophers are existentialists",
+          "All philosophers are ethicists",
+          "All existentialists are philosophers",
+          "All existentialists are ethicists",
+          "All ethicists are existentialists",
+          "Some philosophers are not ethicists",
+          "Some existentialists are not philosophers",
+          "Some existentialists are not ethicists",
+          "Some ethicists are not philosophers",
+          "Some ethicists are not existentialists",
+          "No existentialists is a philosopher",
+          "No existentialists is an ethicist",
+          "No ethicists is a philosopher",
+          "No ethicists is an existentialist",
+          "No philosophers is an ethicist",
+          "No philosophers is an existentialist"
+        ]
+      }
+    ]
+  }
+}

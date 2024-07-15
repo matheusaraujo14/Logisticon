@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Engineering": [
+      {
+        "premises": [
+          "If a component is defective, it fails the quality test",
+          "If a component fails the quality test, it is not assembled"
+        ],
+        "conclusions": [
+          "If a component is defective, it is not assembled",
+          "If a component is assembled, it is not defective",
+          "If a component is defective or it fails the quality test, then it is not assembled and if a component is defective, it is not assembled",
+          "If a component is defective, then it is not assembled and if a component is defective, it is not assembled",
+          "If a component is not defective and it fails the quality test, then it is not assembled and if a component is defective, it is not assembled",
+          "If a component is defective or it fails the quality test, then it is not assembled"
+        ],
+        "incorrect conclusions": [
+          "A component is defective",
+          "If a component is not assembled, then it is defective",
+          "If a component is not assembled, then it is not defective",
+          "A component is not assembled",
+          "A component is assembled",
+          "If a component is not assembled, then it is defective",
+          "If a component does not fail the quality test, then it is not assembled",
+          "If a component is defective or it does not fail the quality test, then it is not assembled"
+        ]
+      },
+      {
+        "premises": [
+          "If a circuit is overloaded, it trips the breaker",
+          "If a circuit trips the breaker, power is disconnected"
+        ],
+        "conclusions": [
+          "If a circuit is overloaded, power is disconnected",
+          "If power is connected, the circuit is not overloaded",
+          "If a circuit is overloaded or it trips the breaker, then power is disconnected and if a circuit is overloaded, power is disconnected",
+          "If a circuit is overloaded, then power is disconnected and if a circuit is overloaded, power is disconnected",
+          "If a circuit is not overloaded and it trips the breaker, then power is disconnected and if a circuit is overloaded, power is disconnected",
+          "If a circuit is overloaded or it trips the breaker, then power is disconnected"
+        ],
+        "incorrect conclusions": [
+          "A circuit is overloaded",
+          "If power is disconnected, then the circuit is overloaded",
+          "If power is disconnected, then the circuit is not overloaded",
+          "Power is disconnected",
+          "Power is connected",
+          "If power is disconnected, then the circuit is overloaded",
+          "If the circuit does not trip the breaker, then power is disconnected",
+          "If the circuit is overloaded or it does not trip the breaker, then power is disconnected"
+        ]
+      },
+      {
+        "premises": [
+          "If a machine is not lubricated, it breaks down",
+          "If a machine breaks down, production stops"
+        ],
+        "conclusions": [
+          "If a machine is not lubricated, production stops",
+          "If production does not stop, the machine is lubricated",
+          "If a machine is not lubricated or it breaks down, then production stops and if a machine is not lubricated, production stops",
+          "If a machine is not lubricated, then production stops and if a machine is not lubricated, production stops",
+          "If a machine is lubricated and it breaks down, then production stops and if a machine is not lubricated, production stops",
+          "If a machine is not lubricated or it breaks down, then production stops"
+        ],
+        "incorrect conclusions": [
+          "A machine is not lubricated",
+          "If production stops, then the machine is not lubricated",
+          "If production stops, then the machine is lubricated",
+          "Production stops",
+          "Production does not stop",
+          "If production stops, then the machine is not lubricated",
+          "If the machine does not break down, then production stops",
+          "If the machine is not lubricated or it does not break down, then production stops"
+        ]
+      }
+    ]
+  }
+}

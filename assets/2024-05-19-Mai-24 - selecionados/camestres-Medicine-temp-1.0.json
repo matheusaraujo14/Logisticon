@@ -1,0 +1,38 @@
+{
+  "Medicine": {
+    "Camestres": [
+      {
+        "major premise": "All antibiotics are medications",
+        "minor premise": "No vitamins are medications",
+        "conclusion": "No vitamins are antibiotics",
+        "incorrect conclusions": [
+          "All antibiotics are vitamins",
+          "All medications are vitamins",
+          "Some antibiotics are medications",
+          "Some antibiotics are vitamins",
+          "Some medications are vitamins",
+          "Some medications are antibiotics",
+          "Some vitamins are medications",
+          "Some vitamins are antibiotics",
+          "Some medications are not antibiotics"
+        ]
+      },
+      {
+        "major premise": "All surgeons are specialists",
+        "minor premise": "No general practitioners are specialists",
+        "conclusion": "No general practitioners are surgeons",
+        "incorrect conclusions": [
+          "All surgeons are general practitioners",
+          "All specialists are general practitioners",
+          "Some surgeons are specialists",
+          "Some surgeons are general practitioners",
+          "Some specialists are general practitioners",
+          "Some specialists are surgeons",
+          "Some general practitioners are specialists",
+          "Some general practitioners are surgeons",
+          "Some specialists are not surgeons"
+        ]
+      }
+    ]
+  }
+}

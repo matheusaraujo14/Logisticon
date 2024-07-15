@@ -1,0 +1,44 @@
+{
+  "Architecture": {
+    "Fesapo": [
+      {
+        "major premise": "No skyscrapers are temples",
+        "minor premise": "All temples are buildings and some temples exist",
+        "conclusion": "Some buildings are not skyscrapers",
+        "incorrect conclusions": [
+          "All buildings are skyscrapers",
+          "All buildings are temples",
+          "All skyscrapers are buildings",
+          "All skyscrapers are temples",
+          "Some buildings are skyscrapers",
+          "Some skyscrapers are buildings",
+          "Some skyscrapers are temples",
+          "Some skyscrapers are not buildings",
+          "Some temples are skyscrapers",
+          "Some temples are not buildings",
+          "No temples are buildings",
+          "No buildings are temples"
+        ]
+      },
+      {
+        "major premise": "No bridges are apartments",
+        "minor premise": "All apartments are structures and some apartments exist",
+        "conclusion": "Some structures are not bridges",
+        "incorrect conclusions": [
+          "All structures are bridges",
+          "All structures are apartments",
+          "All bridges are structures",
+          "All bridges are apartments",
+          "Some structures are bridges",
+          "Some bridges are structures",
+          "Some bridges are apartments",
+          "Some bridges are not structures",
+          "Some apartments are bridges",
+          "Some apartments are not structures",
+          "No apartments are structures",
+          "No structures are apartments"
+        ]
+      }
+    ]
+  }
+}

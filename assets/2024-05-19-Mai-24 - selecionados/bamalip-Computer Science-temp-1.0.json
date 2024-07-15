@@ -1,0 +1,27 @@
+{
+  "Computer Science": {
+    "Bamalip": [
+      {
+        "major premise": "All data structures are models",
+        "minor premise": "All models are abstractions and some data structures exist",
+        "conclusion": "Some abstractions are data structures",
+        "incorrect conclusions": [
+          "All abstractions are models",
+          "All models are data structures",
+          "Some abstractions are not models",
+          "Some abstractions are not data structures",
+          "Some models are not data structures",
+          "Some models are not abstractions",
+          "Some data structures are not models",
+          "Some data structures are not abstractions",
+          "No abstractions is models",
+          "No abstractions is data structures",
+          "No models is abstractions",
+          "No models is data structures",
+          "No data structures is models",
+          "No data structures is abstractions"
+        ]
+      }
+    ]
+  }
+}

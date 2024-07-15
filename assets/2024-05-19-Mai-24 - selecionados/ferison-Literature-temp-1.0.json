@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Ferison": [
+      {
+        "major premise": "No poetry are novels",
+        "minor premise": "Some poetry are sonnets",
+        "conclusion": "Some sonnets are not novels",
+        "incorrect conclusions": [
+          "All poetry are sonnets",
+          "All poetry are novels",
+          "All sonnets are novels",
+          "All novels are poetry",
+          "All novels are sonnets",
+          "Some poetry are not sonnets",
+          "Some novels are sonnets",
+          "Some novels are not sonnets",
+          "Some novels are poetry",
+          "Some novels are sonnets",
+          "Some sonnets are novels",
+          "Some sonnets are not poetry",
+          "Some poetry are novels",
+          "No poetry is sonnets",
+          "No sonnets is not poetry",
+          "No sonnets is poetry"
+        ]
+      },
+      {
+        "major premise": "No biographies are fiction",
+        "minor premise": "Some biographies are memoirs",
+        "conclusion": "Some memoirs are not fiction",
+        "incorrect conclusions": [
+          "All biographies are memoirs",
+          "All biographies are fiction",
+          "All memoirs are fiction",
+          "All fiction are biographies",
+          "All fiction are memoirs",
+          "Some biographies are not memoirs",
+          "Some fiction are memoirs",
+          "Some fiction are not memoirs",
+          "Some fiction are biographies",
+          "Some fiction are memoirs",
+          "Some memoirs are fiction",
+          "Some memoirs are not biographies",
+          "Some biographies are fiction",
+          "No biographies is memoirs",
+          "No memoirs is not biographies",
+          "No memoirs is biographies"
+        ]
+      },
+      {
+        "major premise": "No drama are essays",
+        "minor premise": "Some drama are tragedies",
+        "conclusion": "Some tragedies are not essays",
+        "incorrect conclusions": [
+          "All drama are tragedies",
+          "All drama are essays",
+          "All tragedies are essays",
+          "All essays are drama",
+          "All essays are tragedies",
+          "Some drama are not tragedies",
+          "Some essays are tragedies",
+          "Some essays are not tragedies",
+          "Some essays are drama",
+          "Some essays are tragedies",
+          "Some tragedies are essays",
+          "Some tragedies are not drama",
+          "Some drama are essays",
+          "No drama is tragedies",
+          "No tragedies is not drama",
+          "No tragedies is drama"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Ecology": {
+     "Datisi": [
+		{
+          "major premise": "All mammals are animals",
+          "minor premise": "Some mammals are herbivores",
+          "conclusion": "Some herbivores are animals",
+		  "incorrect conclusions": [
+			"All herbivores are mammals",
+			"All herbivores are animals",
+			"All animals are mammals",
+			"All animals are herbivores",
+			"All mammals are herbivores",
+			"Some herbivores are not animals",
+			"Some herbivores are not mammals",
+			"Some animals are not mammals",
+			"Some animals are not herbivores",
+			"Some mammals are not animals",
+			"Some mammals are not herbivores",
+			"No herbivores is animals",
+			"No herbivores is mammals",
+			"No mammals is animals",
+			"No mammals is herbivores",
+			"No animals is mammals",
+			"No animals is herbivores"
+		  ]
+		},
+		{
+          "major premise": "All insects are arthropods",
+          "minor premise": "Some insects are pollinators",
+          "conclusion": "Some pollinators are arthropods",
+		  "incorrect conclusions": [
+			"All pollinators are insects",
+			"All pollinators are arthropods",
+			"All arthropods are insects",
+			"All arthropods are pollinators",
+			"All insects are pollinators",
+			"Some pollinators are not arthropods",
+			"Some pollinators are not insects",
+			"Some arthropods are not insects",
+			"Some arthropods are not pollinators",
+			"Some insects are not arthropods",
+			"Some insects are not pollinators",
+			"No pollinators is arthropods",
+			"No pollinators is insects",
+			"No insects is arthropods",
+			"No insects is pollinators",
+			"No arthropods is insects",
+			"No arthropods is pollinators"
+		  ]
+		}
+	 ]
+  }
+}

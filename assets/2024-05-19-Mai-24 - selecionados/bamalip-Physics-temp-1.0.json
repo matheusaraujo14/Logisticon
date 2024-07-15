@@ -1,0 +1,69 @@
+{
+  "Physics": {
+    "Bamalip": [
+      {
+        "major premise": "All hydrogen atoms are atoms",
+        "minor premise": "All atoms are elements and some hydrogen atoms exist",
+        "conclusion": "Some elements are hydrogen atoms",
+        "incorrect conclusions": [
+          "All elements are atoms",
+          "All atoms are hydrogen atoms",
+          "Some elements are not atoms",
+          "Some elements are not hydrogen atoms",
+          "Some atoms are not hydrogen atoms",
+          "Some atoms are not elements",
+          "Some hydrogen atoms are not atoms",
+          "Some hydrogen atoms are not elements",
+          "No elements are atoms",
+          "No elements are hydrogen atoms",
+          "No atoms are elements",
+          "No atoms are hydrogen atoms",
+          "No hydrogen atoms are atoms",
+          "No hydrogen atoms are elements"
+        ]
+      },
+      {
+        "major premise": "All protons are particles",
+        "minor premise": "All particles are subatomic entities and some protons exist",
+        "conclusion": "Some subatomic entities are protons",
+        "incorrect conclusions": [
+          "All subatomic entities are particles",
+          "All particles are protons",
+          "Some subatomic entities are not particles",
+          "Some subatomic entities are not protons",
+          "Some particles are not protons",
+          "Some particles are not subatomic entities",
+          "Some protons are not particles",
+          "Some protons are not subatomic entities",
+          "No subatomic entities are particles",
+          "No subatomic entities are protons",
+          "No particles are subatomic entities",
+          "No particles are protons",
+          "No protons are particles",
+          "No protons are subatomic entities"
+        ]
+      },
+      {
+        "major premise": "All neutron stars are stars",
+        "minor premise": "All stars are celestial objects and some neutron stars exist",
+        "conclusion": "Some celestial objects are neutron stars",
+        "incorrect conclusions": [
+          "All celestial objects are stars",
+          "All stars are neutron stars",
+          "Some celestial objects are not stars",
+          "Some celestial objects are not neutron stars",
+          "Some stars are not neutron stars",
+          "Some stars are not celestial objects",
+          "Some neutron stars are not stars",
+          "Some neutron stars are not celestial objects",
+          "No celestial objects are stars",
+          "No celestial objects are neutron stars",
+          "No stars are celestial objects",
+          "No stars are neutron stars",
+          "No neutron stars are stars",
+          "No neutron stars are celestial objects"
+        ]
+      }
+    ]
+  }
+}

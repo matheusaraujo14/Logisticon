@@ -1,0 +1,52 @@
+{
+  "Sociology": {
+    "Fresison" : [
+      {
+        "major premise": "No social workers are doctors",
+        "minor premise": "Some doctors are educators",
+        "conclusion": "Some educators are not social workers",
+        "incorrect conclusions": [
+          "All doctors are educators",
+          "All doctors are social workers",
+          "All educators are social workers",
+          "All social workers are doctors",
+          "All social workers are educators",
+          "Some doctors are not educators",
+          "Some social workers are educators",
+          "Some social workers are not educators",
+          "Some social workers are doctors",
+          "Some social workers are educators",
+          "Some educators are social workers",
+          "Some educators are not doctors",
+          "Some doctors are social workers",
+          "No doctors are educators",
+          "No educators are not doctors",
+          "No educators are doctors"
+        ]
+      },
+      {
+        "major premise": "No psychologists are statisticians",
+        "minor premise": "Some statisticians are analysts",
+        "conclusion": "Some analysts are not psychologists",
+        "incorrect conclusions": [
+          "All statisticians are analysts",
+          "All statisticians are psychologists",
+          "All analysts are psychologists",
+          "All psychologists are statisticians",
+          "All psychologists are analysts",
+          "Some statisticians are not analysts",
+          "Some psychologists are analysts",
+          "Some psychologists are not analysts",
+          "Some psychologists are statisticians",
+          "Some psychologists are analysts",
+          "Some analysts are psychologists",
+          "Some analysts are not statisticians",
+          "Some statisticians are psychologists",
+          "No statisticians are analysts",
+          "No analysts are not statisticians",
+          "No analysts are statisticians"
+        ]
+      }
+    ]
+  }
+}

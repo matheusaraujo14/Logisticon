@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If a planet has life, it has an atmosphere",
+          "The planet does not have an atmosphere"
+        ],
+        "conclusions": [
+          "The planet does not have life"
+        ],
+        "incorrect conclusions": [
+          "The planet has life",
+          "The planet has life and it has an atmosphere",
+          "The planet having an atmosphere means it has life",
+          "The planet not having an atmosphere means it has life",
+          "The planet not having life means it does not have an atmosphere"
+        ]
+      },
+      {
+        "premises": [
+          "If a star is in the main sequence stage, it is burning hydrogen",
+          "The star is not burning hydrogen"
+        ],
+        "conclusions": [
+          "The star is not in the main sequence stage"
+        ],
+        "incorrect conclusions": [
+          "The star is in the main sequence stage",
+          "The star is in the main sequence stage and it is burning hydrogen",
+          "The star burning hydrogen means it is in the main sequence stage",
+          "The star not burning hydrogen means it is in the main sequence stage",
+          "The star not being in the main sequence stage means it is not burning hydrogen"
+        ]
+      },
+      {
+        "premises": [
+          "If a comet approaches the Sun, its tail becomes visible",
+          "The comet's tail is not visible"
+        ],
+        "conclusions": [
+          "The comet does not approach the Sun"
+        ],
+        "incorrect conclusions": [
+          "The comet approaches the Sun",
+          "The comet approaches the Sun and its tail becomes visible",
+          "The comet's tail becoming visible means it approaches the Sun",
+          "The comet's tail not becoming visible means it approaches the Sun",
+          "The comet not approaching the Sun means its tail does not become visible"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+    "Disamis": [
+      {
+        "major premise": "Some molecules are acids",
+        "minor premise": "All molecules are compounds",
+        "conclusion": "Some compounds are acids",
+        "incorrect conclusions": [
+          "All compounds are acids",
+          "All compounds are molecules",
+          "All acids are compounds",
+          "All acids are molecules",
+          "All molecules are acids",
+          "Some compounds are not molecules",
+          "Some acids are not compounds",
+          "Some acids are not molecules",
+          "Some molecules are not compounds",
+          "Some molecules are not acids",
+          "No acids are compounds",
+          "No acids are molecules",
+          "No molecules are compounds",
+          "No molecules are acids",
+          "No compounds are molecules",
+          "No compounds are acids"
+        ]
+      },
+      {
+        "major premise": "Some atoms are ions",
+        "minor premise": "All atoms are particles",
+        "conclusion": "Some particles are ions",
+        "incorrect conclusions": [
+          "All particles are ions",
+          "All particles are atoms",
+          "All ions are particles",
+          "All ions are atoms",
+          "All atoms are ions",
+          "Some particles are not atoms",
+          "Some ions are not particles",
+          "Some ions are not atoms",
+          "Some atoms are not particles",
+          "Some atoms are not ions",
+          "No ions are particles",
+          "No ions are atoms",
+          "No atoms are particles",
+          "No atoms are ions",
+          "No particles are atoms",
+          "No particles are ions"
+        ]
+      },
+      {
+        "major premise": "Some molecules are solvents",
+        "minor premise": "All molecules are substances",
+        "conclusion": "Some substances are solvents",
+        "incorrect conclusions": [
+          "All substances are solvents",
+          "All substances are molecules",
+          "All solvents are substances",
+          "All solvents are molecules",
+          "All molecules are solvents",
+          "Some substances are not molecules",
+          "Some solvents are not substances",
+          "Some solvents are not molecules",
+          "Some molecules are not substances",
+          "Some molecules are not solvents",
+          "No solvents are substances",
+          "No solvents are molecules",
+          "No molecules are substances",
+          "No molecules are solvents",
+          "No substances are molecules",
+          "No substances are solvents"
+        ]
+      }
+    ]
+  }
+}

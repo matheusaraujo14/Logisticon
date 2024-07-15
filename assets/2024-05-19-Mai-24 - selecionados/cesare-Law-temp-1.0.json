@@ -1,0 +1,38 @@
+{
+  "Law": {
+    "Cesare": [
+      {
+        "major premise": "No criminals are law-makers",
+        "minor premise": "All judges are law-makers",
+        "conclusion": "No judges are criminals",
+        "incorrect conclusions": [
+          "All judges are criminals",
+          "All law-makers are criminals",
+          "Some judges are law-makers",
+          "Some judges are criminals",
+          "Some law-makers are judges",
+          "Some law-makers are criminals",
+          "Some law-makers are not judges",
+          "Some criminals are judges",
+          "Some criminals are law-makers"
+        ]
+      },
+      {
+        "major premise": "No felons are lawyers",
+        "minor premise": "All public defenders are lawyers",
+        "conclusion": "No public defenders are felons",
+        "incorrect conclusions": [
+          "All public defenders are felons",
+          "All lawyers are felons",
+          "Some public defenders are lawyers",
+          "Some public defenders are felons",
+          "Some lawyers are public defenders",
+          "Some lawyers are felons",
+          "Some lawyers are not public defenders",
+          "Some felons are public defenders",
+          "Some felons are lawyers"
+        ]
+      }
+    ]
+  }
+}

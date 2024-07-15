@@ -1,0 +1,29 @@
+{
+  "Economics": {
+     "Ferio" : [
+		{
+          "major premise": "No startups are monopolies",
+          "minor premise": "Some innovative companies are startups",
+          "conclusion": "Some innovative companies are not monopolies",
+		  "incorrect conclusions": [
+			"All startups are innovative companies",
+			"All startups are monopolies",
+			"All innovative companies are monopolies",
+			"All monopolies are startups",
+			"All monopolies are innovative companies",
+			"Some startups are not innovative companies",
+			"Some monopolies are innovative companies",
+			"Some monopolies are not innovative companies",
+			"Some monopolies are startups",
+			"Some monopolies are innovative companies",
+			"Some innovative companies are monopolies",
+			"Some innovative companies are not startups",
+			"Some startups are monopolies",
+			"No startups are innovative companies",
+			"No innovative companies are not startups",
+			"No innovative companies are startups"
+		  ]
+		}
+	 ]
+  }
+}

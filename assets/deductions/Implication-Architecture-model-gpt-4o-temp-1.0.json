@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Architecture": [
+		{
+          "premises": [ 
+            "If a building has good insulation, then it reduces energy consumption"
+          ],
+          "conclusions": [
+            "If energy consumption is not reduced, then the building does not have good insulation"
+          ],
+          "incorrect conclusions": [
+            "A building has good insulation",
+            "A building does not have good insulation",
+            "Energy consumption is reduced",
+            "Energy consumption is not reduced",
+            "If energy consumption is reduced, then the building has good insulation",
+            "If energy consumption is not reduced, then the building has good insulation",
+            "If a building does not have good insulation, then it does not reduce energy consumption"
+          ]
+        },
+        {
+          "premises": [ 
+            "If the roof is leaking, then the interior is damaged"
+          ],
+          "conclusions": [
+            "If the interior is not damaged, then the roof is not leaking"
+          ],
+          "incorrect conclusions": [
+            "The roof is leaking",
+            "The roof is not leaking",
+            "The interior is damaged",
+            "The interior is not damaged",
+            "If the interior is damaged, then the roof is leaking",
+            "If the interior is not damaged, then the roof is leaking",
+            "If the roof is not leaking, then the interior is not damaged"
+          ]
+        },
+        {
+          "premises": [ 
+            "If the walls are painted white, then the room looks larger"
+          ],
+          "conclusions": [
+            "If the room does not look larger, then the walls are not painted white"
+          ],
+          "incorrect conclusions": [
+            "The walls are painted white",
+            "The walls are not painted white",
+            "The room looks larger",
+            "The room does not look larger",
+            "If the room looks larger, then the walls are painted white",
+            "If the room does not look larger, then the walls are painted white",
+            "If the walls are not painted white, then the room does not look larger"
+          ]
+        }
+     ]
+  }
+}
