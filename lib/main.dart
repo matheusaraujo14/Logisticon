@@ -4,30 +4,30 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:new_test/animated_card.dart';
-import 'package:new_test/color_test.dart';
 import 'package:new_test/data.dart';
-import 'package:new_test/riverpod_example.dart';
 import 'package:new_test/show_questions.dart';
 import 'package:new_test/start_page.dart';
-import 'package:new_test/timer.dart';
+import 'package:new_test/show_history.dart';
+import 'package:new_test/show_explanation.dart';
+// import 'package:new_test/timer.dart';
 
-late Map<String,dynamic> mapFileToContents;
+late Map<String, dynamic> mapFileToContents;
+final List<Question> questions = [];
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  Future<Map<String,dynamic>> tempLib = readJson();
+  Future<Map<String, dynamic>> tempLib = readJson();
   mapFileToContents = await tempLib;
 
   // mainRiverpod();
-  runApp(const StartPage());
+  runApp(const MaterialApp(home: StartPage()));
 
   // runApp(const TestApp());
 
   //runApp(const PopUpMenuTest());
 
-  //runApp(const LogicalApp());
+  // runApp(const LogicalApp());
 
   //runApp(const MyAppColorTest());
   //runApp(const AnimatedTest());
@@ -35,27 +35,82 @@ void main() async{
   //showExampleBook();
 }
 
-
-
 Future<Map<String, dynamic>> readJson() async {
   final dir = Directory('assets/2024-05-19-Mai-24 - selecionados/');
   final dir2 = Directory('assets/deductions/');
   final List<FileSystemEntity> entities = await dir.list().toList();
   final List<FileSystemEntity> entitiesDeduc = await dir2.list().toList();
-  dynamic data;
-  String response;
-  for (var i = 0; i < entities.length; i++){
+  dynamic data = {};
+  String response = '', fileName = '', context = '';
+  Map<String, dynamic> decodedData = {};
+  List<String> fileNameList = [];
+  List<String> contextList = [];
+
+  String getFileName(String path) {
+    String fileName = path.split('/').last.split('-').first;
+    fileName = fileName[0].toUpperCase() + fileName.substring(1).toLowerCase();
+    return fileName;
+  }
+
+  String getContext(String path) {
+    String context = path.split('/').last.split('-')[1];
+    return context;
+  }
+
+  // data está no formato: {fileName: {context: {index: item}}}
+  // decodedData está no formato: {context: {fileName: [item]}} para silogismos
+  // decodedData está no formato: {fileName: {context: [item]}} para deduções
+  for (var i = 0; i < entities.length; i++) {
     response = await rootBundle.loadString(entities[i].path);
-    data ??= await json.decode(response);
-    //print(entities[i].path);
-    data.addAll(await json.decode(response));
+    decodedData = json.decode(response);
+    fileName = getFileName(entities[i].path);
+    if (!data.containsKey(fileName)) data[fileName] = {};
+    context = getContext(entities[i].path);
+    if (!data[fileName].containsKey(context)) data[fileName][context] = {};
+    if (!fileNameList.contains(fileName)) fileNameList.add(fileName);
+    if (!contextList.contains(context)) contextList.add(context);
+
+    int j = 0;
+    for (var item in decodedData[context][fileName]) {
+      if (!data[fileName][context].containsKey(j)) {
+        data[fileName][context][j] = {};
+      }
+      data[fileName][context][j] = item;
+      j++;
+    }
   }
-  for (var i = 0; i < entitiesDeduc.length; i++){
+
+  for (var i = 0; i < entitiesDeduc.length; i++) {
     response = await rootBundle.loadString(entitiesDeduc[i].path);
-    data ??= await json.decode(response);
-    //print(entitiesDeduc[i].path);
-    data.addAll(await json.decode(response));
+    decodedData = json.decode(response);
+    fileName = getFileName(entitiesDeduc[i].path);
+    if (fileName == 'Destructive dilemma') {
+      fileName = 'Destructive Dilemma';
+    } else if (fileName == 'Constructive dilemma') {
+      fileName = 'Constructive Dilemma';
+    }
+    if (!data.containsKey(fileName)) data[fileName] = {};
+    context = getContext(entitiesDeduc[i].path);
+    if (!data[fileName].containsKey(context)) data[fileName][context] = {};
+    if (!fileNameList.contains(fileName)) fileNameList.add(fileName);
+    if (!contextList.contains(context)) contextList.add(context);
+
+    int j = 0;
+    for (var item in decodedData[fileName][context]) {
+      if (!data[fileName][context].containsKey(j)) {
+        data[fileName][context][j] = {};
+      }
+      data[fileName][context][j] = item;
+      j++;
+    }
   }
+
+  data = Map<String, dynamic>.from(data);
+
+  // imprima a lista de arquivos e contextos
+  // print("Lista de arquivos de silogismos: $fileNameList");
+  // print("Lista de contextos dos silogismos: $contextList");
+
   return data;
 }
 
@@ -72,7 +127,6 @@ class LogicalApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color.fromARGB(199, 0, 255, 255),
         ),
-        // seedColor: const Color.fromARGB(255, 64, 255, 179)),
         useMaterial3: true,
       ),
       home: const MyLogicalApp(),
@@ -92,9 +146,33 @@ class MyLogicalAppState extends State<MyLogicalApp> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.transparent,
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-          title: const Text('Syllogisms'),
+          forceMaterialTransparency: true,
+          title: const Text(
+            'Syllogisms',
+            style: TextStyle(fontSize: 32, color: Colors.white),
+          ),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          // adicionar botao para voltar para a home
+          leading: IconButton(
+            icon: const Icon(Icons.arrow_back),
+            onPressed: () {
+              questions.clear();
+              Navigator.pushAndRemoveUntil(
+                context,
+                MaterialPageRoute(builder: (context) => const StartPage()),
+                (Route<dynamic> route) => false,
+              );
+            },
+            tooltip: 'Back',
+          ),
+          iconTheme: const IconThemeData(
+            color: Colors.white,
+            size: 35,
+          ),
         ),
         body: const ShowQuestionList(),
       ),
@@ -114,147 +192,395 @@ enum AnswerQuestion { correct, incorrect, notAnswered }
 
 class ShowQuestionListState extends State<ShowQuestionList> {
   ValueNotifier<String> chosedOption = ValueNotifier<String>('none');
-
-  var answer = ValueNotifier<AnswerQuestion>(AnswerQuestion.notAnswered);
+  ValueNotifier<List<String>> otherOptions = ValueNotifier<List<String>>(['']);
+  ValueNotifier<String> syllogismType = ValueNotifier<String>('none');
+  ValueNotifier<AnswerQuestion> answer =
+      ValueNotifier<AnswerQuestion>(AnswerQuestion.notAnswered);
+  ValueNotifier<String> majorPremise = ValueNotifier<String>('none');
+  ValueNotifier<String> minorPremise = ValueNotifier<String>('none');
+  ValueNotifier<String> conclusion = ValueNotifier<String>('none');
+  ValueNotifier<List<dynamic>> premises =
+      ValueNotifier<List<dynamic>>(['none']);
+  //var answer = ValueNotifier<AnswerQuestion>(AnswerQuestion.notAnswered);
   double percentCorrectAnswers = 0;
   int numberOfCorrectAnswers = 0;
   int numberOfQuestions = 0;
 
   @override
   Widget build(BuildContext context) {
-    // chosedOption.addListener(() {
-    //   setState(() {});
-    // });
-
-    return AnimatedSwitcher(
-      duration: const Duration(milliseconds: 700),
-      child: Column(
-        key: ValueKey<int>(numberOfQuestions),
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          ShowQuestion(
-            syllogism: _randomQuestion(),
-            chosedOption: chosedOption,
-            answer: answer,
-          ),
-          const SizedBox(height: 20),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  // Text Button that, on pressed, call setState
-                  // and change the syllogism
-                  TextButton(
-                    onPressed: () {
-                      Widget msg;
-                      if (answer.value == AnswerQuestion.correct) {
-                        msg = const Text('Correct answer');
-                      } else if (answer.value == AnswerQuestion.incorrect) {
-                        msg = const Text('Incorrect answer',
-                            style: TextStyle(color: Colors.red));
-                      } else {
-                        msg = const Text('Not answered');
-                      }
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: msg,
-                          duration: const Duration(milliseconds: 800),
+    return Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/background5.png'),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 500),
+        child: Column(
+          key: ValueKey<int>(numberOfQuestions),
+          //crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            ShowQuestion(
+              syllogism: _randomQuestion(),
+              chosedOption: chosedOption,
+              answer: answer,
+              syllogismType: syllogismType,
+              majorPremise: majorPremise,
+              minorPremise: minorPremise,
+              conclusion: conclusion,
+              premises: premises,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 15),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 15, vertical: 10),
+                        decoration: BoxDecoration(
+                          color: Colors.grey.shade100,
+                          borderRadius: BorderRadius.circular(15),
+                          border: Border.all(
+                            color: numberOfCorrectAnswers >=
+                                        numberOfQuestions / 2 &&
+                                    numberOfQuestions > 0
+                                ? Colors.green
+                                : numberOfQuestions == 0
+                                    ? Colors.grey
+                                    : Colors.redAccent,
+                            width: 5,
+                          ),
                         ),
-                      );
-                      if (answer.value == AnswerQuestion.correct) {
-                        ++numberOfCorrectAnswers;
-                      }
-                      ++numberOfQuestions;
-                      percentCorrectAnswers =
-                          numberOfCorrectAnswers / numberOfQuestions;
-                      chosedOption.value = 'none';
-                      answer.value = AnswerQuestion.notAnswered;
+                        child: Row(
+                          children: [
+                            Text(
+                              '$numberOfCorrectAnswers/$numberOfQuestions',
+                              style: TextStyle(
+                                fontSize: 32,
+                                color: numberOfCorrectAnswers >=
+                                            numberOfQuestions / 2 &&
+                                        numberOfQuestions > 0
+                                    ? Colors.green
+                                    : numberOfQuestions == 0
+                                        ? Colors.grey.shade700
+                                        : Colors.redAccent,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(width: 10),
+                            if (numberOfQuestions > 0)
+                              Text(
+                                '${(100 * percentCorrectAnswers).truncate()}% Correct',
+                                style: TextStyle(
+                                  fontSize: 32,
+                                  color: numberOfCorrectAnswers >=
+                                          numberOfQuestions / 2
+                                      ? Colors.green
+                                      : numberOfQuestions == 0
+                                          ? Colors.grey.shade700
+                                          : Colors.redAccent,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            if (numberOfQuestions == 0)
+                              Text(
+                                '-% Correct',
+                                style: TextStyle(
+                                  fontSize: 32,
+                                  color: Colors.grey.shade700,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 300),
+                      TextButton(
+                        style: TextButton.styleFrom(
+                          backgroundColor: Colors.lightBlue.shade200,
+                          foregroundColor: Colors.brown.shade800,
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 150, vertical: 40),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(35),
+                          ),
+                          elevation: 10,
+                        ),
+                        onPressed: () {
+                          Widget msg;
+                          if (answer.value == AnswerQuestion.correct) {
+                            msg = const Text('Correct answer',
+                                style: TextStyle(fontSize: 20));
+                          } else if (answer.value == AnswerQuestion.incorrect) {
+                            msg = const Text('Incorrect answer',
+                                style: TextStyle(fontSize: 20));
+                          } else {
+                            msg = const Text('Not answered',
+                                style: TextStyle(fontSize: 20));
+                          }
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                                content: msg,
+                                duration: const Duration(milliseconds: 800),
+                                backgroundColor: answer.value ==
+                                        AnswerQuestion.correct
+                                    ? Colors.green
+                                    : answer.value == AnswerQuestion.notAnswered
+                                        ? Colors.grey
+                                        : Colors.red),
+                          );
+                          if (answer.value == AnswerQuestion.correct) {
+                            ++numberOfCorrectAnswers;
+                          }
+                          ++numberOfQuestions;
+                          percentCorrectAnswers =
+                              numberOfCorrectAnswers / numberOfQuestions;
+                          questions.add(Question(
+                            syllogismType: syllogismType.value,
+                            majorPremise: majorPremise.value,
+                            minorPremise: minorPremise.value,
+                            rightChoice: conclusion.value,
+                            userChoice: chosedOption.value,
+                            premises: premises.value,
+                            isCorrect: answer.value,
+                          ));
 
-                      setState(() {});
-                    },
-                    child: const Text(
-                      'Verify',
-                      style: TextStyle(fontSize: 20),
-                    ),
+                          answer.value = AnswerQuestion.notAnswered;
+                          setState(() {});
+                        },
+                        child: Text(
+                          'Verify',
+                          style: TextStyle(
+                            fontSize: 40,
+                            color: Colors.brown.shade800,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 300),
+                      Row(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.grey.shade300,
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: Colors.lightBlue,
+                                width: 5,
+                              ),
+                            ),
+                            child: IconButton(
+                              hoverColor: Colors.white,
+                              iconSize: 100,
+                              focusColor: Colors.lightBlue,
+                              icon: const Icon(Icons.help,
+                                  color: Colors.lightBlue),
+                              onPressed: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      backgroundColor: Colors.grey.shade200,
+                                      title: const Text(
+                                        'Do you want an explanation of this syllogism?',
+                                        style: TextStyle(fontSize: 24),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                      actions: [
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceEvenly,
+                                          children: [
+                                            // Botão NO
+                                            TextButton(
+                                              style: TextButton.styleFrom(
+                                                backgroundColor:
+                                                    Colors.redAccent,
+                                                foregroundColor: Colors.white,
+                                                minimumSize:
+                                                    const Size(100, 50),
+                                                shape: RoundedRectangleBorder(
+                                                  borderRadius:
+                                                      BorderRadius.circular(30),
+                                                ),
+                                              ),
+                                              onPressed: () {
+                                                Navigator.of(context).pop();
+                                              },
+                                              child: const Text('NO',
+                                                  style:
+                                                      TextStyle(fontSize: 20)),
+                                            ),
+                                            // Botão YES
+                                            TextButton(
+                                              style: TextButton.styleFrom(
+                                                backgroundColor:
+                                                    Colors.lightBlue,
+                                                foregroundColor: Colors.white,
+                                                minimumSize:
+                                                    const Size(100, 50),
+                                                shape: RoundedRectangleBorder(
+                                                  borderRadius:
+                                                      BorderRadius.circular(30),
+                                                ),
+                                              ),
+                                              onPressed: () {
+                                                Navigator.of(context).pop();
+                                                showExplanation(context,
+                                                    syllogismType.value);
+                                              },
+                                              child: const Text('YES',
+                                                  style:
+                                                      TextStyle(fontSize: 20)),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                              },
+                            ),
+                          ),
+                          const SizedBox(width: 54.5),
+                          Container(
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: Colors.grey.shade300,
+                              border: Border.all(
+                                color: Colors.teal,
+                                width: 5,
+                              ),
+                            ),
+                            alignment: Alignment.center,
+                            child: IconButton(
+                              hoverColor: Colors.white,
+                              alignment: Alignment.center,
+                              icon:
+                                  const Icon(Icons.history, color: Colors.teal),
+                              onPressed: () {
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      backgroundColor: Colors.grey.shade200,
+                                      title: const Text(
+                                        'History',
+                                        style: TextStyle(
+                                            fontSize: 28,
+                                            fontWeight: FontWeight.bold),
+                                        textAlign: TextAlign.center,
+                                      ),
+                                      content: questions.isNotEmpty
+                                          ? SizedBox(
+                                              height: 1000,
+                                              width: 750,
+                                              child: ShowHistory(
+                                                  questions: questions))
+                                          : const Text(
+                                              'No questions answered yet.',
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(fontSize: 28),
+                                            ),
+                                      actions: [
+                                        TextButton(
+                                          style: TextButton.styleFrom(
+                                            backgroundColor: Colors.lightBlue,
+                                            foregroundColor: Colors.white,
+                                            minimumSize: const Size(100, 50),
+                                            shape: RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(30),
+                                            ),
+                                          ),
+                                          onPressed: () {
+                                            Navigator.of(context).pop();
+                                          },
+                                          child: Container(
+                                            width: double.infinity,
+                                            alignment: Alignment.center,
+                                            child: const Text('OK',
+                                                style: TextStyle(
+                                                  fontSize: 28,
+                                                )),
+                                          ),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                              },
+                              iconSize: 100,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                  const SizedBox(width: 20),
-                  Text(
-                    '$numberOfCorrectAnswers/$numberOfQuestions',
-                    style: const TextStyle(fontSize: 20),
-                  ),
-                  const SizedBox(width: 20),
-                  // a Text widget with the percentage of correct answers
-                  // shown with two decimals
-                  if (numberOfQuestions > 0)
-                    Text(
-                      '${(100 * percentCorrectAnswers).truncate()}% correct',
-                      style: const TextStyle(fontSize: 12),
-                    ),
-                  const SizedBox(width: 20),
-                  const TimerText(),
-                ],
-              ),
-              IconButton(
-                  icon: const Icon(Icons.home),
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  }),
-            ],
-            // put an icon with 'home' that returns to the home page, poping
-            // to the previous route
-          ),
-        ],
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
 
-
   Map<String, dynamic> _randomQuestion() {
     final random = Random();
-    final max = random.nextInt(mapFileToContents.length);
-    final value = mapFileToContents.values.elementAt(max);
-    //var dataFromJson = jsonDecode(value);
-    // get first key from dataFromJson
-    var barbara = value[value.keys.first];
-    //List<dynamic> barbara = data[data.keys.first];
-    var barbaraSyllogism = barbara[random.nextInt(barbara.length)];
 
-    if (barbaraSyllogism.keys.first == 'major premise'){
-      for (var i = barbaraSyllogism.values.elementAt(3).length; i > 4; i--){
-        barbaraSyllogism.values.elementAt(3).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(3).length));
-      }
-      if (barbaraSyllogism.values.elementAt(2) is List){
-        for (var i = barbaraSyllogism.values.elementAt(2).length; i > 1; i--){
-          barbaraSyllogism.values.elementAt(2).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(2).length));
-        }
-      }
-    }else{
-      for (var i = barbaraSyllogism.values.elementAt(2).length; i > 4; i--){
-        barbaraSyllogism.values.elementAt(2).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(2).length));
-      }
-      if (barbaraSyllogism.values.elementAt(1) is List){
-        //print(barbaraSyllogism.keys.elementAt(1));
+    // 1. Seleciona aleatoriamente um tipo de silogismo do mapa
+    List<String> tiposDeSilogismos = mapFileToContents.keys.toList();
+    String silogismoTipo =
+        tiposDeSilogismos[random.nextInt(tiposDeSilogismos.length)];
 
-        var newMap = {
-          for (var e in barbaraSyllogism.entries)
-            if (e.key != 'conclusions')
-              e.key: e.value
-            else
-              "conclusion" : e.value
-        };
-        barbaraSyllogism = Map<String, dynamic>.from(newMap);
+    // 2. Seleciona aleatoriamente um contexto associado ao tipo de silogismo
+    Map<String, dynamic> contexts =
+        Map<String, dynamic>.from(mapFileToContents[silogismoTipo]);
+    List<String> contextKeys = contexts.keys.toList();
+    String selectedContext = contextKeys[random.nextInt(contextKeys.length)];
 
-        for (var i = barbaraSyllogism.values.elementAt(1).length; i > 1; i--){
-          barbaraSyllogism.values.elementAt(1).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(1).length));
+    // 3. Verifica se o contexto selecionado tem silogismos
+    if (contexts[selectedContext].isEmpty) {
+      print(
+          "Nenhum silogismo $silogismoTipo encontrado no contexto $selectedContext, selecionando outro...");
+      return _randomQuestion(); // Chama a função novamente para tentar outro silogismo
+    }
+
+    syllogismType.value = silogismoTipo;
+
+    // 4. Seleciona aleatoriamente um silogismo do contexto selecionado
+    List<dynamic> silogismoList = contexts[selectedContext].values.toList();
+    Map<String, dynamic> selectedSyllogism = Map<String, dynamic>.from(
+        silogismoList[random.nextInt(silogismoList.length)]);
+
+    // 5. Modifica o silogismo selecionado (remove elementos aleatórios de certas listas)
+    if (!selectedSyllogism.containsKey('major premise')) {
+      // Reduz o número de conclusões, se for uma lista
+      if (selectedSyllogism['conclusion'] is List) {
+        List conclusions = selectedSyllogism['conclusion'];
+        while (conclusions.length > 1) {
+          conclusions.removeAt(random.nextInt(conclusions.length));
         }
       }
     }
+    // Reduz o número de conclusões incorretas
+    if (selectedSyllogism['incorrect conclusions'].isNotEmpty) {
+      List incorrectConclusions = selectedSyllogism['incorrect conclusions'];
+      while (incorrectConclusions.length > 4) {
+        incorrectConclusions
+            .removeAt(random.nextInt(incorrectConclusions.length));
+      }
+    }
 
-    //print(barbaraSyllogism);
-    Map<String, dynamic> barbaraSyllogismMap =
-        Map<String, dynamic>.from(barbaraSyllogism);
-    return barbaraSyllogismMap;
+    // 6. Retorna o silogismo modificado
+    return selectedSyllogism;
   }
 }
 
@@ -329,7 +655,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.transparent,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
