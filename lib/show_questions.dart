@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'dart:math';
+
+import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:new_test/main.dart';
@@ -10,10 +11,20 @@ class ShowQuestion extends StatefulWidget {
     required this.syllogism,
     required this.chosedOption,
     required this.answer,
+    required this.syllogismType,
+    required this.majorPremise,
+    required this.minorPremise,
+    required this.conclusion,
+    required this.premises,
   }) : super(key: key);
   final Map<String, dynamic> syllogism;
   final ValueNotifier<String> chosedOption;
   final ValueNotifier<AnswerQuestion> answer;
+  final ValueNotifier<String> syllogismType;
+  final ValueNotifier<String> majorPremise;
+  final ValueNotifier<String> minorPremise;
+  final ValueNotifier<String> conclusion;
+  final ValueNotifier<List<dynamic>> premises;
 
   @override
   ShowQuestionState createState() => ShowQuestionState();
@@ -26,41 +37,59 @@ class ShowQuestionState extends State<ShowQuestion> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(10, 0, 0, 0),
+      padding: const EdgeInsets.fromLTRB(100, 125, 100, 50),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text(
-                'Choose the correct conclusion for the following syllogism:',
-                style: TextStyle(fontSize: 16)),
-            const SizedBox(height: 10),
+            Container(
+              height: 60,
+              width: double.infinity,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.primaryContainer,
+                borderRadius: const BorderRadius.all(Radius.circular(15)),
+              ),
+              child: Text(
+                'Choose the correct conclusion for the following syllogism (${widget.syllogismType.value}):',
+                style: const TextStyle(
+                    fontSize: 36,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black),
+              ),
+            ),
+            const SizedBox(height: 25),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 2),
               child: Container(
                   // rounded corners for this container
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.tertiaryContainer,
-                    borderRadius: const BorderRadius.all(Radius.circular(10)),
+                    color: Theme.of(context).colorScheme.secondaryContainer,
+                    borderRadius: const BorderRadius.all(Radius.circular(15)),
                   ),
                   padding: const EdgeInsets.all(8),
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      if (widget.syllogism.keys.first == 'major premise')...[
-                      // text with size 16
-                        Text("Major premise: " + widget.syllogism['major premise']!,
-                            style: const TextStyle(fontSize: 16)),
+                      if (widget.syllogism.keys.first == 'major premise') ...[
+                        Text(
+                            "Major premise: " +
+                                widget.syllogism['major premise']!,
+                            style: const TextStyle(fontSize: 32)),
                         const SizedBox(height: 10),
-                        Text("Minor premise: " + widget.syllogism['minor premise']!,
-                            style: const TextStyle(fontSize: 16)),
-                      ]else...[
+                        Text(
+                            "Minor premise: " +
+                                widget.syllogism['minor premise']!,
+                            style: const TextStyle(fontSize: 32)),
+                      ] else ...[
                         // text with size 16
-                        for (int i = 0; i < widget.syllogism['premises'].length; i++)...[
+                        for (int i = 0;
+                            i < widget.syllogism['premises'].length;
+                            i++) ...[
                           Text(widget.syllogism['premises'].elementAt(i)!,
-                              style: const TextStyle(fontSize: 16)),
+                              style: const TextStyle(fontSize: 28)),
                           const SizedBox(height: 10),
                         ]
                       ]
@@ -68,8 +97,15 @@ class ShowQuestionState extends State<ShowQuestion> {
                   )),
             ),
             const SizedBox(height: 10),
-            _options(widget.syllogism, widget.chosedOption, widget.answer),
-            // Text(syllogism['conclusion']!),
+            _options(
+                widget.syllogism,
+                widget.chosedOption,
+                widget.answer,
+                widget.syllogismType,
+                widget.majorPremise,
+                widget.minorPremise,
+                widget.conclusion,
+                widget.premises),
           ],
         ),
       ),
@@ -79,45 +115,51 @@ class ShowQuestionState extends State<ShowQuestion> {
   Widget _options(
       Map<String, dynamic> syllogism,
       ValueNotifier<String> chosedOption,
-      ValueNotifier<AnswerQuestion> answer) {
+      ValueNotifier<AnswerQuestion> answer,
+      ValueNotifier<String> syllogismType,
+      ValueNotifier<String> majorPremise,
+      ValueNotifier<String> minorPremise,
+      ValueNotifier<String> rightConclusion,
+      ValueNotifier<List<dynamic>> premises) {
     var options = <String>[];
     String conclusion;
-    if  (syllogism['conclusion'] is List) {
-      conclusion = widget.syllogism['conclusion'][0]!;
-    }else{
-      conclusion = widget.syllogism['conclusion']!;
+    if (syllogism.containsKey('conclusions')) {
+      conclusion = widget.syllogism['conclusions'][0]!;
+    } else {
+      // print(widget.syllogism);
+      conclusion = widget.syllogism['conclusion'];
     }
 
     options.add(conclusion);
-    /*
-    syllogism has a key-value pair in the format
-    	"incorrect conclusions": [
-            "All animals are swans",
-            "Some animals are not birds",
-            "There are birds that are not animals",
-            "Some swans are not animals"
-			]
-    Add to options all the incorrect conclusions
-    */
+
     // List<dynamic>
     List<dynamic> incorrectConclusions =
         syllogism['incorrect conclusions']! as List<dynamic>;
     List<String> incorrectConclusionsList =
         List<String>.from(incorrectConclusions);
-    /*  List<String> ls = [];
-    for (var i = 0; i < incorrectConclusions.length; i++) {
-      ls.add(incorrectConclusions[i] as String);
-    }
-    */
+
     options.addAll(incorrectConclusionsList);
+    if (widget.syllogism['premises'] != null) {
+      majorPremise.value = 'none';
+      minorPremise.value = 'none';
+      premises.value = widget.syllogism['premises'] ?? 'none';
+    } else {
+      majorPremise.value = widget.syllogism['major premise'] ?? 'none';
+      minorPremise.value = widget.syllogism['minor premise'] ?? 'none';
+      premises.value = [];
+    }
+
+    rightConclusion.value = conclusion;
 
     var randomOptions = options.toList()..shuffle();
-
     return ShowSyllogismOptions(
         randomOptions: randomOptions,
         chosenOption: chosedOption,
         answer: answer,
-        conclusion: conclusion);
+        majorPremise: majorPremise,
+        minorPremise: minorPremise,
+        conclusion: conclusion,
+        premises: premises);
   }
 }
 
@@ -127,12 +169,18 @@ class ShowSyllogismOptions extends StatefulWidget {
     required this.randomOptions,
     required this.chosenOption,
     required this.answer,
+    required this.majorPremise,
+    required this.minorPremise,
     required this.conclusion,
+    required this.premises,
   }) : super(key: key);
 
   final List<String> randomOptions;
   final ValueNotifier<String> chosenOption;
   final ValueNotifier<AnswerQuestion> answer;
+  final ValueNotifier<String> majorPremise;
+  final ValueNotifier<String> minorPremise;
+  final ValueNotifier<List<dynamic>> premises;
   final String conclusion;
 
   @override
@@ -153,16 +201,19 @@ class ShowSyllogismOptionsState extends State<ShowSyllogismOptions> {
               children: [
                 AnimatedContainer(
                   duration: const Duration(milliseconds: 500),
-                  width: double.infinity,
-                  height: 35,
-                  alignment: Alignment.centerLeft,
-                  color: widget.chosenOption.value == widget.randomOptions[i]
-                      ? Theme.of(context).colorScheme.tertiaryContainer
-                      : Theme.of(context)
-                          .colorScheme
-                          .secondaryContainer, // backgroundApp,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(35),
+                    color: widget.chosenOption.value == widget.randomOptions[i]
+                        ? Theme.of(context).colorScheme.primaryContainer
+                        : Theme.of(context)
+                            .colorScheme
+                            .tertiaryContainer, // backgroundApp,
+                  ),
+                  height: 70,
+                  alignment: Alignment.center,
                   child: TextButton(
                     onPressed: () {
+                      widget.chosenOption.value == widget.randomOptions[i];
                       if (widget.chosenOption.value !=
                           widget.randomOptions[i]) {
                         widget.chosenOption.value = widget.randomOptions[i];
@@ -175,28 +226,50 @@ class ShowSyllogismOptionsState extends State<ShowSyllogismOptions> {
                         widget.chosenOption.value = 'none';
                         widget.answer.value = AnswerQuestion.notAnswered;
                       }
+
                       setState(() {});
                       // onChosenOption(chosenOption)
                     },
-                    child: Text(
-                      ' (${String.fromCharCode(i + 97)}) ${widget.randomOptions[i]}',
-                      style: const TextStyle(
-                        height: 1.5,
-                        fontSize: 14,
-                        //   backgroundColor:
-                        //       widget.chosenOption.value == widget.randomOptions[i]
-                        //           ? Colors.green
-                        //           : backgroundApp,
-                        // ),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      width: double.infinity,
+                      alignment: Alignment.center,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            '${String.fromCharCode(i + 97)})',
+                            style: const TextStyle(
+                              fontSize: 28,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(
+                            width: 5,
+                          ),
+                          Text(
+                            ' ${widget.randomOptions[i]}',
+                            style: TextStyle(
+                              fontSize: widget.randomOptions[i].length > 160
+                                  ? 18
+                                  : widget.randomOptions[i].length > 140
+                                      ? 20
+                                      : widget.randomOptions[i].length > 120
+                                          ? 22
+                                          : 28,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
                 ),
-                // put an horizontal line here using a widget
+                // put an space between the options
                 if (i < numberOfOptions - 1)
-                  const Divider(
-                    height: 5,
-                    thickness: 1,
+                  const SizedBox(
+                    height: 8,
                   ),
               ],
             ));
@@ -330,7 +403,6 @@ class _ShowDismissibleContainerState extends State<ShowDismissibleContainer> {
     );
   }
 }
-
 
 String removeMultiple(String input) {
   // replace \r\n by \n in input, put the result in input
