@@ -48,9 +48,7 @@ class ShowHistory extends StatelessWidget {
                   : Colors.red,
             ),
             title: Text(
-              question.majorPremise != 'none'
-                  ? '${question.syllogismType} Syllogism'
-                  : 'Modus Ponens',
+              '${question.syllogismType} Syllogism',
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20.0,
@@ -70,7 +68,7 @@ class ShowHistory extends StatelessWidget {
                   ),
                   for (var premise in question.premises) ...[
                     Text(
-                      '${'- ' + premise}.',
+                      '${'• ' + premise}.',
                       style: const TextStyle(
                         fontSize: 18.0,
                         color: Colors.black,
@@ -131,7 +129,9 @@ class ShowHistory extends StatelessWidget {
                         fontSize: 18.0,
                         color: question.isCorrect == AnswerQuestion.correct
                             ? Colors.green
-                            : Colors.red),
+                            : question.isCorrect == AnswerQuestion.notAnswered
+                                ? Colors.grey.shade700
+                                : Colors.red),
                     children: <TextSpan>[
                       const TextSpan(
                         text: 'Selected: ',
