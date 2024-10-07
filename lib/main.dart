@@ -46,26 +46,25 @@ Future<Map<String, dynamic>> readJson() async {
   List<String> fileNameList = [];
   List<String> contextList = [];
 
-  String getFileName(String path) {
-    String fileName = path.split('/').last.split('-').first;
-    fileName = fileName[0].toUpperCase() + fileName.substring(1).toLowerCase();
-    return fileName;
+  String getFirstKey(Map<String, dynamic> file) {
+    String first = file.keys.first;
+    return first;
   }
 
-  String getContext(String path) {
-    String context = path.split('/').last.split('-')[1];
-    return context;
+  String getKeyFromFirstObject(Map<String, dynamic> file) {
+    String object = file.keys.first;
+    String firstKey = file[object].keys.first;
+    return firstKey;
   }
 
   // data está no formato: {fileName: {context: {index: item}}}
   // decodedData está no formato: {context: {fileName: [item]}} para silogismos
-  // decodedData está no formato: {fileName: {context: [item]}} para deduções
   for (var i = 0; i < entities.length; i++) {
     response = await rootBundle.loadString(entities[i].path);
     decodedData = json.decode(response);
-    fileName = getFileName(entities[i].path);
+    fileName = getKeyFromFirstObject(decodedData);
     if (!data.containsKey(fileName)) data[fileName] = {};
-    context = getContext(entities[i].path);
+    context = getFirstKey(decodedData);
     if (!data[fileName].containsKey(context)) data[fileName][context] = {};
     if (!fileNameList.contains(fileName)) fileNameList.add(fileName);
     if (!contextList.contains(context)) contextList.add(context);
@@ -80,17 +79,14 @@ Future<Map<String, dynamic>> readJson() async {
     }
   }
 
+  // data está no formato: {fileName: {context: {index: item}}}
+  // decodedData está no formato: {fileName: {context: [item]}} para deduções
   for (var i = 0; i < entitiesDeduc.length; i++) {
     response = await rootBundle.loadString(entitiesDeduc[i].path);
     decodedData = json.decode(response);
-    fileName = getFileName(entitiesDeduc[i].path);
-    if (fileName == 'Destructive dilemma') {
-      fileName = 'Destructive Dilemma';
-    } else if (fileName == 'Constructive dilemma') {
-      fileName = 'Constructive Dilemma';
-    }
+    fileName = getFirstKey(decodedData);
     if (!data.containsKey(fileName)) data[fileName] = {};
-    context = getContext(entitiesDeduc[i].path);
+    context = getKeyFromFirstObject(decodedData);
     if (!data[fileName].containsKey(context)) data[fileName][context] = {};
     if (!fileNameList.contains(fileName)) fileNameList.add(fileName);
     if (!contextList.contains(context)) contextList.add(context);
@@ -359,7 +355,9 @@ class ShowQuestionListState extends State<ShowQuestionList> {
                           'Verify',
                           style: TextStyle(
                             fontSize: 40,
-                            color: Colors.brown.shade800,
+                            color: Theme.of(context)
+                                .colorScheme
+                                .onPrimaryContainer,
                           ),
                         ),
                       ),
@@ -389,7 +387,7 @@ class ShowQuestionListState extends State<ShowQuestionList> {
                                       backgroundColor: Colors.grey.shade200,
                                       title: const Text(
                                         'Do you want an explanation of this syllogism?',
-                                        style: TextStyle(fontSize: 24),
+                                        style: TextStyle(fontSize: 28),
                                         textAlign: TextAlign.center,
                                       ),
                                       actions: [
@@ -570,7 +568,14 @@ class ShowQuestionListState extends State<ShowQuestionList> {
         }
       }
     }
+    // Alguns arquivos estão com keys com nome errado: Bocardo History,
+    if (selectedSyllogism.containsKey('incorrect_conclusions')) {
+      print(
+          "$silogismoTipo $selectedContext possui campo com nome errado, selecionando outro...");
+      return _randomQuestion();
+    }
     // Reduz o número de conclusões incorretas
+    print("$silogismoTipo $selectedContext");
     if (selectedSyllogism['incorrect conclusions'].isNotEmpty) {
       List incorrectConclusions = selectedSyllogism['incorrect conclusions'];
       while (incorrectConclusions.length > 4) {
