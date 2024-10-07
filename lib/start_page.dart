@@ -119,7 +119,7 @@ class StartPageState extends State<StartPage> {
                               SizedBox(width: 15),
                               Text('Rules',
                                   style: TextStyle(
-                                      fontSize: 28, color: Colors.white)),
+                                      fontSize: 30, color: Colors.white)),
                             ],
                           ),
                         ),
