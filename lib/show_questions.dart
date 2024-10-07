@@ -53,10 +53,10 @@ class ShowQuestionState extends State<ShowQuestion> {
               ),
               child: Text(
                 'Choose the correct conclusion for the following syllogism (${widget.syllogismType.value}):',
-                style: const TextStyle(
+                style: TextStyle(
                     fontSize: 36,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black),
+                    color: Theme.of(context).colorScheme.onPrimaryContainer),
               ),
             ),
             const SizedBox(height: 25),
@@ -77,19 +77,31 @@ class ShowQuestionState extends State<ShowQuestion> {
                         Text(
                             "Major premise: " +
                                 widget.syllogism['major premise']!,
-                            style: const TextStyle(fontSize: 32)),
+                            style: TextStyle(
+                                fontSize: 32,
+                                color: Theme.of(context)
+                                    .colorScheme
+                                    .onSecondaryContainer)),
                         const SizedBox(height: 10),
                         Text(
                             "Minor premise: " +
                                 widget.syllogism['minor premise']!,
-                            style: const TextStyle(fontSize: 32)),
+                            style: TextStyle(
+                                fontSize: 32,
+                                color: Theme.of(context)
+                                    .colorScheme
+                                    .onSecondaryContainer)),
+                        const SizedBox(height: 10)
                       ] else ...[
-                        // text with size 16
                         for (int i = 0;
                             i < widget.syllogism['premises'].length;
                             i++) ...[
                           Text(widget.syllogism['premises'].elementAt(i)!,
-                              style: const TextStyle(fontSize: 28)),
+                              style: TextStyle(
+                                  fontSize:
+                                      widget.syllogism['premises'].length > 2
+                                          ? 28
+                                          : 32)),
                           const SizedBox(height: 10),
                         ]
                       ]
@@ -205,9 +217,7 @@ class ShowSyllogismOptionsState extends State<ShowSyllogismOptions> {
                     borderRadius: BorderRadius.circular(35),
                     color: widget.chosenOption.value == widget.randomOptions[i]
                         ? Theme.of(context).colorScheme.primaryContainer
-                        : Theme.of(context)
-                            .colorScheme
-                            .tertiaryContainer, // backgroundApp,
+                        : Theme.of(context).colorScheme.tertiaryContainer,
                   ),
                   height: 70,
                   alignment: Alignment.center,
