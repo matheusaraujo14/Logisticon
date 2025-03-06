@@ -1,0 +1,63 @@
+{
+  "Psychology": {
+     "Fesapo": [
+		{
+          "major premise": "No clinical psychologists are psychiatrists",
+          "minor premise": "All psychiatrists are medical professionals and some psychiatrists exist",
+          "conclusion": "Some medical professionals are not clinical psychologists",
+		  "incorrect conclusions": [
+			"All medical professionals are clinical psychologists",
+			"All medical professionals are psychiatrists",
+			"All clinical psychologists are medical professionals",
+			"All clinical psychologists are psychiatrists",
+			"Some medical professionals are clinical psychologists",
+			"Some clinical psychologists are medical professionals",
+			"Some clinical psychologists are psychiatrists",
+			"Some clinical psychologists are not medical professionals",
+			"Some psychiatrists are clinical psychologists",
+			"Some psychiatrists are not medical professionals",
+			"No psychiatrists are medical professionals",
+			"No medical professionals are psychiatrists"
+		  ]
+		},
+		{
+          "major premise": "No experimental psychologists are therapists",
+          "minor premise": "All therapists are licensed professionals and some therapists exist",
+          "conclusion": "Some licensed professionals are not experimental psychologists",
+		  "incorrect conclusions": [
+			"All licensed professionals are experimental psychologists",
+			"All licensed professionals are therapists",
+			"All experimental psychologists are licensed professionals",
+			"All experimental psychologists are therapists",
+			"Some licensed professionals are experimental psychologists",
+			"Some experimental psychologists are licensed professionals",
+			"Some experimental psychologists are therapists",
+			"Some experimental psychologists are not licensed professionals",
+			"Some therapists are experimental psychologists",
+			"Some therapists are not licensed professionals",
+			"No therapists are licensed professionals",
+			"No licensed professionals are therapists"
+		  ]
+		},
+		{
+          "major premise": "No cognitive psychologists are counselors",
+          "minor premise": "All counselors are mental health professionals and some counselors exist",
+          "conclusion": "Some mental health professionals are not cognitive psychologists",
+		  "incorrect conclusions": [
+			"All mental health professionals are cognitive psychologists",
+			"All mental health professionals are counselors",
+			"All cognitive psychologists are mental health professionals",
+			"All cognitive psychologists are counselors",
+			"Some mental health professionals are cognitive psychologists",
+			"Some cognitive psychologists are mental health professionals",
+			"Some cognitive psychologists are counselors",
+			"Some cognitive psychologists are not mental health professionals",
+			"Some counselors are cognitive psychologists",
+			"Some counselors are not mental health professionals",
+			"No counselors are mental health professionals",
+			"No mental health professionals are counselors"
+		  ]
+		}
+	 ]
+  }
+}

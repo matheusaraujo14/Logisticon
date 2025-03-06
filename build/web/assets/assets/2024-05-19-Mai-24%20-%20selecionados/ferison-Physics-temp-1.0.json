@@ -1,0 +1,29 @@
+{
+  "Physics": {
+    "Ferison": [
+      {
+        "major premise": "No planets are minerals",
+        "minor premise": "Some planets are rocks",
+        "conclusion": "Some rocks are not minerals",
+        "incorrect conclusions": [
+          "All planets are rocks",
+          "All planets are minerals",
+          "All rocks are minerals",
+          "All minerals are planets",
+          "All minerals are rocks",
+          "Some planets are not rocks",
+          "Some minerals are rocks",
+          "Some minerals are not rocks",
+          "Some minerals are planets",
+          "Some minerals are rocks",
+          "Some rocks are minerals",
+          "Some rocks are not planets",
+          "Some planets are minerals",
+          "No planets are rocks",
+          "No rocks are not planets",
+          "No rocks are planets"
+        ]
+      }
+    ]
+  }
+}

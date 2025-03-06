@@ -1,0 +1,75 @@
+{
+  "Physics": {
+    "Disamis": [
+      {
+        "major premise": "Some stars are hot",
+        "minor premise": "All stars are celestial bodies",
+        "conclusion": "Some celestial bodies are hot",
+        "incorrect conclusions": [
+          "All celestial bodies are hot",
+          "All celestial bodies are stars",
+          "All hot things are celestial bodies",
+          "All hot things are stars",
+          "All stars are hot",
+          "Some celestial bodies are not stars",
+          "Some hot things are not celestial bodies",
+          "Some hot things are not stars",
+          "Some stars are not celestial bodies",
+          "Some stars are not hot",
+          "No hot thing is a celestial body",
+          "No hot thing is a star",
+          "No star is a celestial body",
+          "No star is hot",
+          "No celestial body is a star",
+          "No celestial body is hot"
+        ]
+      },
+      {
+        "major premise": "Some minerals are radioactive",
+        "minor premise": "All minerals are solids",
+        "conclusion": "Some solids are radioactive",
+        "incorrect conclusions": [
+          "All solids are radioactive",
+          "All solids are minerals",
+          "All radioactive things are solids",
+          "All radioactive things are minerals",
+          "All minerals are radioactive",
+          "Some solids are not minerals",
+          "Some radioactive things are not solids",
+          "Some radioactive things are not minerals",
+          "Some minerals are not solids",
+          "Some minerals are not radioactive",
+          "No radioactive thing is a solid",
+          "No radioactive thing is a mineral",
+          "No mineral is a solid",
+          "No mineral is radioactive",
+          "No solid is a mineral",
+          "No solid is radioactive"
+        ]
+      },
+      {
+        "major premise": "Some atoms are ionized",
+        "minor premise": "All atoms are particles",
+        "conclusion": "Some particles are ionized",
+        "incorrect conclusions": [
+          "All particles are ionized",
+          "All particles are atoms",
+          "All ionized things are particles",
+          "All ionized things are atoms",
+          "All atoms are ionized",
+          "Some particles are not atoms",
+          "Some ionized things are not particles",
+          "Some ionized things are not atoms",
+          "Some atoms are not particles",
+          "Some atoms are not ionized",
+          "No ionized thing is a particle",
+          "No ionized thing is an atom",
+          "No atom is a particle",
+          "No atom is ionized",
+          "No particle is an atom",
+          "No particle is ionized"
+        ]
+      }
+    ]
+  }
+}

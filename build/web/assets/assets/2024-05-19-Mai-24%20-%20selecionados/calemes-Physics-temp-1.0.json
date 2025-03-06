@@ -1,0 +1,48 @@
+{
+  "Physics": {
+    "Calemes": [
+      {
+        "major premise": "All electromagnetic waves are energy forms",
+        "minor premise": "No energy forms are classical particles",
+        "conclusion": "No classical particles are electromagnetic waves",
+        "incorrect conclusions": [
+          "All energy forms are classical particles",
+          "All energy forms are electromagnetic waves",
+          "All classical particles are energy forms",
+          "All classical particles are electromagnetic waves",
+          "All electromagnetic waves are classical particles",
+          "Some energy forms are electromagnetic waves",
+          "Some energy forms are not electromagnetic waves",
+          "Some energy forms are classical particles",
+          "Some electromagnetic waves are classical particles",
+          "Some electromagnetic waves are not energy forms",
+          "Some electromagnetic waves are energy forms",
+          "Some classical particles are energy forms",
+          "Some classical particles are electromagnetic waves",
+          "No electromagnetic waves are energy forms"
+        ]
+      },
+      {
+        "major premise": "All stars are celestial bodies",
+        "minor premise": "No celestial bodies are subatomic particles",
+        "conclusion": "No subatomic particles are stars",
+        "incorrect conclusions": [
+          "All celestial bodies are subatomic particles",
+          "All celestial bodies are stars",
+          "All subatomic particles are celestial bodies",
+          "All subatomic particles are stars",
+          "All stars are subatomic particles",
+          "Some celestial bodies are stars",
+          "Some celestial bodies are not stars",
+          "Some celestial bodies are subatomic particles",
+          "Some stars are subatomic particles",
+          "Some stars are not celestial bodies",
+          "Some stars are celestial bodies",
+          "Some subatomic particles are celestial bodies",
+          "Some subatomic particles are stars",
+          "No stars are celestial bodies"
+        ]
+      }
+    ]
+  }
+}

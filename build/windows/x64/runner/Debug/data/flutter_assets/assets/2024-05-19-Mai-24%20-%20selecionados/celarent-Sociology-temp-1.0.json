@@ -1,0 +1,22 @@
+{
+  "Sociology": {
+     "Celarent": [
+      {
+        "major premise": "No cultures are economies",
+        "minor premise": "All traditions are cultures",
+        "conclusion": "No traditions are economies",
+        "incorrect conclusions": [
+          "All traditions are economies",
+          "All cultures are economies",
+          "Some traditions are cultures",
+          "Some traditions are economies",
+          "Some cultures are traditions",
+          "Some cultures are economies",
+          "Some cultures are not traditions",
+          "Some economies are traditions",
+          "Some economies are cultures"
+        ]
+      }
+     ]
+  }
+}

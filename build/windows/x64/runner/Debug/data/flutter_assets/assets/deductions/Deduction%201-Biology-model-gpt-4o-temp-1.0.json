@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Biology": [
+      {
+        "premises": [
+          "If the organism has gills, then it can breathe underwater",
+          "If the organism has gills, then it is a fish"
+        ],
+        "conclusions": [
+          "If the organism has gills, then it can breathe underwater and it is a fish",
+          "If the organism has gills, then it can breathe underwater or it is a fish",
+          "If it cannot breathe underwater, then the organism does not have gills",
+          "If it is not a fish, then the organism does not have gills",
+          "If it cannot breathe underwater or it is not a fish, then the organism does not have gills"
+        ],
+        "incorrect conclusions": [
+          "If it cannot breathe underwater, then it is not a fish",
+          "If it is not a fish, then it cannot breathe underwater",
+          "If it can breathe underwater, then it is a fish",
+          "If it is a fish, then it can breathe underwater",
+          "If it can breathe underwater and it is a fish, then the organism has gills",
+          "If it can breathe underwater or it is a fish, then the organism has gills",
+          "If it cannot breathe underwater or it does not have gills, then the organism has gills"
+        ]
+      },
+      {
+        "premises": [
+          "If the plant has chlorophyll, then it performs photosynthesis",
+          "If the plant has chlorophyll, then it is green"
+        ],
+        "conclusions": [
+          "If the plant has chlorophyll, then it performs photosynthesis and it is green",
+          "If the plant has chlorophyll, then it performs photosynthesis or it is green",
+          "If it does not perform photosynthesis, then the plant does not have chlorophyll",
+          "If it is not green, then the plant does not have chlorophyll",
+          "If it does not perform photosynthesis or it is not green, then the plant does not have chlorophyll"
+        ],
+        "incorrect conclusions": [
+          "If it does not perform photosynthesis, then it is not green",
+          "If it is not green, then it does not perform photosynthesis",
+          "If it performs photosynthesis, then it is green",
+          "If it is green, then it performs photosynthesis",
+          "If it performs photosynthesis and it is green, then the plant has chlorophyll",
+          "If it performs photosynthesis or it is green, then the plant has chlorophyll",
+          "If it does not perform photosynthesis or it does not have chlorophyll, then the plant has chlorophyll"
+        ]
+      },
+      {
+        "premises": [
+          "If the cell has a nucleus, then it is a eukaryote",
+          "If the cell has a nucleus, then it can undergo mitosis"
+        ],
+        "conclusions": [
+          "If the cell has a nucleus, then it is a eukaryote and it can undergo mitosis",
+          "If the cell has a nucleus, then it is a eukaryote or it can undergo mitosis",
+          "If it is not a eukaryote, then the cell does not have a nucleus",
+          "If it cannot undergo mitosis, then the cell does not have a nucleus",
+          "If it is not a eukaryote or it cannot undergo mitosis, then the cell does not have a nucleus"
+        ],
+        "incorrect conclusions": [
+          "If it is not a eukaryote, then it cannot undergo mitosis",
+          "If it cannot undergo mitosis, then it is not a eukaryote",
+          "If it is a eukaryote, then it can undergo mitosis",
+          "If it can undergo mitosis, then it is a eukaryote",
+          "If it is a eukaryote and it can undergo mitosis, then the cell has a nucleus",
+          "If it is a eukaryote or it can undergo mitosis, then the cell has a nucleus",
+          "If it is not a eukaryote or it does not have a nucleus, then the cell has a nucleus"
+        ]
+      }
+    ]
+  }
+}

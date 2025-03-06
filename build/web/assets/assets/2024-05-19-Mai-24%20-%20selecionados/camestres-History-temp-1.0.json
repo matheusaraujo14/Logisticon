@@ -1,0 +1,54 @@
+{
+  "History": {
+    "Camestres": [
+      {
+        "major premise": "All kings are rulers",
+        "minor premise": "No slaves are rulers",
+        "conclusion": "No slaves are kings",
+        "incorrect conclusions": [
+          "All kings are slaves",
+          "All rulers are slaves",
+          "Some kings are rulers",
+          "Some kings are slaves",
+          "Some rulers are slaves",
+          "Some rulers are kings",
+          "Some slaves are rulers",
+          "Some slaves are kings",
+          "Some rulers are not kings"
+        ]
+      },
+      {
+        "major premise": "All empires are civilizations",
+        "minor premise": "No medieval periods are civilizations",
+        "conclusion": "No medieval periods are empires",
+        "incorrect conclusions": [
+          "All empires are medieval periods",
+          "All civilizations are medieval periods",
+          "Some empires are civilizations",
+          "Some empires are medieval periods",
+          "Some civilizations are medieval periods",
+          "Some civilizations are empires",
+          "Some medieval periods are civilizations",
+          "Some medieval periods are empires",
+          "Some civilizations are not empires"
+        ]
+      },
+      {
+        "major premise": "All pharaohs are leaders",
+        "minor premise": "No peasants are leaders",
+        "conclusion": "No peasants are pharaohs",
+        "incorrect conclusions": [
+          "All pharaohs are peasants",
+          "All leaders are peasants",
+          "Some pharaohs are leaders",
+          "Some pharaohs are peasants",
+          "Some leaders are peasants",
+          "Some leaders are pharaohs",
+          "Some peasants are leaders",
+          "Some peasants are pharaohs",
+          "Some leaders are not pharaohs"
+        ]
+      }
+    ]
+  }
+}

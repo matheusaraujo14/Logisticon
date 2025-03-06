@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Geology": [
+      {
+        "premises": [
+          "If rainwater infiltrates the soil, then erosion increases",
+          "If rainwater infiltrates the soil, then groundwater levels rise"
+        ],
+        "conclusions": [
+          "If rainwater infiltrates the soil, then erosion increases and groundwater levels rise",
+          "If rainwater infiltrates the soil, then erosion increases or groundwater levels rise",
+          "If erosion does not increase, then rainwater does not infiltrate the soil",
+          "If groundwater levels do not rise, then rainwater does not infiltrate the soil",
+          "If erosion does not increase or groundwater levels do not rise, then rainwater does not infiltrate the soil"
+        ],
+        "incorrect conclusions": [
+          "If erosion does not increase, groundwater levels do not rise",
+          "If groundwater levels do not rise, erosion does not increase",
+          "If erosion increases, then groundwater levels rise",
+          "If groundwater levels rise, then erosion increases",
+          "If erosion increases and groundwater levels rise, then rainwater infiltrates the soil",
+          "If erosion increases or groundwater levels rise, then rainwater infiltrates the soil",
+          "If erosion does not increase or rainwater does not infiltrate the soil, then rainwater infiltrates the soil"
+        ]
+      },
+      {
+        "premises": [
+          "If a volcano erupts, then ash is released into the atmosphere",
+          "If a volcano erupts, then lava flows"
+        ],
+        "conclusions": [
+          "If a volcano erupts, then ash is released into the atmosphere and lava flows",
+          "If a volcano erupts, then ash is released into the atmosphere or lava flows",
+          "If ash is not released into the atmosphere, then a volcano does not erupt",
+          "If lava does not flow, then a volcano does not erupt",
+          "If ash is not released into the atmosphere or lava does not flow, then a volcano does not erupt"
+        ],
+        "incorrect conclusions": [
+          "If ash is not released into the atmosphere, lava does not flow",
+          "If lava does not flow, ash is not released into the atmosphere",
+          "If ash is released into the atmosphere, then lava flows",
+          "If lava flows, then ash is released into the atmosphere",
+          "If ash is released into the atmosphere and lava flows, then a volcano erupts",
+          "If ash is released into the atmosphere or lava flows, then a volcano erupts",
+          "If ash is not released into the atmosphere or a volcano does not erupt, then a volcano erupts"
+        ]
+      },
+      {
+        "premises": [
+          "If glaciers retreat, then sea levels rise",
+          "If glaciers retreat, then freshwater availability decreases"
+        ],
+        "conclusions": [
+          "If glaciers retreat, then sea levels rise and freshwater availability decreases",
+          "If glaciers retreat, then sea levels rise or freshwater availability decreases",
+          "If sea levels do not rise, then glaciers do not retreat",
+          "If freshwater availability does not decrease, then glaciers do not retreat",
+          "If sea levels do not rise or freshwater availability does not decrease, then glaciers do not retreat"
+        ],
+        "incorrect conclusions": [
+          "If sea levels do not rise, freshwater availability does not decrease",
+          "If freshwater availability does not decrease, sea levels do not rise",
+          "If sea levels rise, then freshwater availability decreases",
+          "If freshwater availability decreases, then sea levels rise",
+          "If sea levels rise and freshwater availability decreases, then glaciers retreat",
+          "If sea levels rise or freshwater availability decreases, then glaciers retreat",
+          "If sea levels do not rise or glaciers do not retreat, then glaciers retreat"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Physics": {
+    "Fesapo": [
+      {
+        "major premise": "No black holes are neutrons",
+        "minor premise": "All neutrons are particles and some neutrons exist",
+        "conclusion": "Some particles are not black holes",
+        "incorrect conclusions": [
+          "All particles are black holes",
+          "All particles are neutrons",
+          "All black holes are particles",
+          "All black holes are neutrons",
+          "Some particles are black holes",
+          "Some black holes are particles",
+          "Some black holes are neutrons",
+          "Some black holes are not particles",
+          "Some neutrons are black holes",
+          "Some neutrons are not particles",
+          "No neutrons is particles",
+          "No particles is neutrons"
+        ]
+      },
+      {
+        "major premise": "No electrons are protons",
+        "minor premise": "All protons are particles and some protons exist",
+        "conclusion": "Some particles are not electrons",
+        "incorrect conclusions": [
+          "All particles are electrons",
+          "All particles are protons",
+          "All electrons are particles",
+          "All electrons are protons",
+          "Some particles are electrons",
+          "Some electrons are particles",
+          "Some electrons are protons",
+          "Some electrons are not particles",
+          "Some protons are electrons",
+          "Some protons are not particles",
+          "No protons is particles",
+          "No particles is protons"
+        ]
+      },
+      {
+        "major premise": "No planets are stars",
+        "minor premise": "All stars are celestial bodies and some stars exist",
+        "conclusion": "Some celestial bodies are not planets",
+        "incorrect conclusions": [
+          "All celestial bodies are planets",
+          "All celestial bodies are stars",
+          "All planets are celestial bodies",
+          "All planets are stars",
+          "Some celestial bodies are planets",
+          "Some planets are celestial bodies",
+          "Some planets are stars",
+          "Some planets are not celestial bodies",
+          "Some stars are planets",
+          "Some stars are not celestial bodies",
+          "No stars is celestial bodies",
+          "No celestial bodies is stars"
+        ]
+      }
+    ]
+  }
+}

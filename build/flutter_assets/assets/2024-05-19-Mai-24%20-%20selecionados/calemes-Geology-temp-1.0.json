@@ -1,0 +1,69 @@
+{
+  "Geology": {
+    "Calemes": [
+      {
+        "major premise": "All Sandstones are Sedimentary rocks",
+        "minor premise": "No Sedimentary rocks are Igneous rocks",
+        "conclusion": "No Igneous rocks is Sandstones",
+        "incorrect conclusions": [
+          "All Sedimentary rocks are Igneous rocks",
+          "All Sedimentary rocks are Sandstones",
+          "All Igneous rocks are Sedimentary rocks",
+          "All Igneous rocks are Sandstones",
+          "All Sandstones are Igneous rocks",
+          "Some Sedimentary rocks are Sandstones",
+          "Some Sedimentary rocks are not Sandstones",
+          "Some Sedimentary rocks are Igneous rocks",
+          "Some Sandstones are Igneous rocks",
+          "Some Sandstones are not Sedimentary rocks",
+          "Some Sandstones are Sedimentary rocks",
+          "Some Igneous rocks are Sedimentary rocks",
+          "Some Igneous rocks are Sandstones",
+          "No Sandstones are Sedimentary rocks"
+        ]
+      },
+      {
+        "major premise": "All Granites are Igneous rocks",
+        "minor premise": "No Igneous rocks are Sedimentary rocks",
+        "conclusion": "No Sedimentary rocks is Granites",
+        "incorrect conclusions": [
+          "All Igneous rocks are Sedimentary rocks",
+          "All Igneous rocks are Granites",
+          "All Sedimentary rocks are Igneous rocks",
+          "All Sedimentary rocks are Granites",
+          "All Granites are Sedimentary rocks",
+          "Some Igneous rocks are Granites",
+          "Some Igneous rocks are not Granites",
+          "Some Igneous rocks are Sedimentary rocks",
+          "Some Granites are Sedimentary rocks",
+          "Some Granites are not Igneous rocks",
+          "Some Granites are Igneous rocks",
+          "Some Sedimentary rocks are Igneous rocks",
+          "Some Sedimentary rocks are Granites",
+          "No Granites are Igneous rocks"
+        ]
+      },
+      {
+        "major premise": "All Metamorphic rocks are Rocks",
+        "minor premise": "No Rocks are Fossils",
+        "conclusion": "No Fossils is Metamorphic rocks",
+        "incorrect conclusions": [
+          "All Rocks are Fossils",
+          "All Rocks are Metamorphic rocks",
+          "All Fossils are Rocks",
+          "All Fossils are Metamorphic rocks",
+          "All Metamorphic rocks are Fossils",
+          "Some Rocks are Metamorphic rocks",
+          "Some Rocks are not Metamorphic rocks",
+          "Some Rocks are Fossils",
+          "Some Metamorphic rocks are Fossils",
+          "Some Metamorphic rocks are not Rocks",
+          "Some Metamorphic rocks are Rocks",
+          "Some Fossils are Rocks",
+          "Some Fossils are Metamorphic rocks",
+          "No Metamorphic rocks are Rocks"
+        ]
+      }
+    ]
+  }
+}

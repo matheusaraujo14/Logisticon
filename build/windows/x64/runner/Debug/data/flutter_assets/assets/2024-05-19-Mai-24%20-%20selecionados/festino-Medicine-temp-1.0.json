@@ -1,0 +1,29 @@
+{
+  "Medicine": {
+    "Festino": [
+      {
+        "major premise": "No germs are animals",
+        "minor premise": "Some antibiotics are germs",
+        "conclusion": "Some antibiotics are not animals",
+        "incorrect conclusions": [
+          "All animals are antibiotics",
+          "All animals are germs",
+          "All antibiotics are germs",
+          "All germs are animals",
+          "All germs are antibiotics",
+          "Some animals are not antibiotics",
+          "Some germs are antibiotics",
+          "Some germs are not antibiotics",
+          "Some germs are animals",
+          "Some germs are antibiotics",
+          "Some antibiotics are germs",
+          "Some antibiotics are not animals",
+          "Some animals are germs",
+          "No animals are antibiotics",
+          "No antibiotics are animals",
+          "No antibiotics are animals"
+        ]
+      }
+    ]
+  }
+}

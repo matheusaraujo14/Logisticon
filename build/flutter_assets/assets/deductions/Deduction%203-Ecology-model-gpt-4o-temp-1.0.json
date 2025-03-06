@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Ecology": [
+      {
+        "premises": [
+          "If the forest is not conserved, then the biodiversity diminishes",
+          "If the forest is conserved, then carbon levels drop"
+        ],
+        "conclusions": [
+          "If biodiversity does not diminish, then the forest is conserved",
+          "If carbon levels do not drop, then the forest is not conserved",
+          "If carbon levels do not drop, then biodiversity diminishes",
+          "Biodiversity diminishes or carbon levels drop",
+          "If the forest is conserved and biodiversity diminishes, then carbon levels drop"
+        ],
+        "incorrect conclusions": [
+          "If biodiversity diminishes, then the forest is conserved",
+          "If biodiversity diminishes, then the forest is not conserved",
+          "If biodiversity does not diminish, then the forest is not conserved",
+          "Biodiversity diminishes and carbon levels drop",
+          "If carbon levels drop, then the forest is conserved",
+          "If biodiversity diminishes and carbon levels drop, then the forest is conserved"
+        ]
+      },
+      {
+        "premises": [
+          "If the river is polluted, then fish populations decline",
+          "If the river is clean, then water quality improves"
+        ],
+        "conclusions": [
+          "If fish populations do not decline, then the river is clean",
+          "If water quality does not improve, then the river is not clean",
+          "If water quality does not improve, then fish populations decline",
+          "Fish populations decline or water quality improves",
+          "If the river is clean and fish populations decline, then water quality improves"
+        ],
+        "incorrect conclusions": [
+          "If fish populations decline, then the river is clean",
+          "If fish populations decline, then the river is not clean",
+          "If fish populations do not decline, then the river is not clean",
+          "Fish populations decline and water quality improves",
+          "If water quality improves, then the river is clean",
+          "If fish populations decline and water quality improves, then the river is clean"
+        ]
+      },
+      {
+        "premises": [
+          "If the trees are not planted, then the soil erodes",
+          "If the trees are planted, then the habitat restores"
+        ],
+        "conclusions": [
+          "If the soil does not erode, then the trees are planted",
+          "If the habitat does not restore, then the trees are not planted",
+          "If the habitat does not restore, then the soil erodes",
+          "The soil erodes or the habitat restores",
+          "If the trees are planted and the soil erodes, then the habitat restores"
+        ],
+        "incorrect conclusions": [
+          "If the soil erodes, then the trees are planted",
+          "If the soil erodes, then the trees are not planted",
+          "If the soil does not erode, then the trees are not planted",
+          "The soil erodes and the habitat restores",
+          "If the habitat restores, then the trees are planted",
+          "If the soil erodes and the habitat restores, then the trees are planted"
+        ]
+      }
+    ]
+  }
+}

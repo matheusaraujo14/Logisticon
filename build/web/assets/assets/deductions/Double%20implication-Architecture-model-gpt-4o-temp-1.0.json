@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Architecture": [
+      {
+        "premises": [
+          "If the blueprint is accurate, then the structure will be sound",
+          "If the structure is sound, then it will pass inspection"
+        ],
+        "conclusions": [
+          "If the blueprint is accurate, then it will pass inspection",
+          "If the structure does not pass inspection, then the blueprint is not accurate",
+          "If the blueprint is accurate or the structure is sound, then it will pass inspection and If the blueprint is accurate, then it will pass inspection",
+          "If the blueprint is accurate, then it will pass inspection and If the blueprint is accurate, then it will pass inspection",
+          "If the blueprint is not accurate and the structure is sound, then it will pass inspection and If the blueprint is accurate, then it will pass inspection",
+          "If the blueprint is accurate or the structure is sound, then it will pass inspection"
+        ],
+        "incorrect conclusions": [
+          "The blueprint is accurate",
+          "If the structure passes inspection, then the blueprint is accurate",
+          "If the structure passes inspection, then the blueprint is not accurate",
+          "The structure passes inspection",
+          "The structure does not pass inspection",
+          "If the structure does not pass inspection, then the blueprint is accurate",
+          "If the structure is not sound, then it will pass inspection",
+          "If the blueprint is accurate or the structure is not sound, then the structure will pass inspection"
+        ]
+      },
+      {
+        "premises": [
+          "If the design is approved, then the project will be funded",
+          "If the project is funded, then the construction will start"
+        ],
+        "conclusions": [
+          "If the design is approved, then the construction will start",
+          "If the construction does not start, then the design is not approved",
+          "If the design is approved or the project is funded, then the construction will start and If the design is approved, then the construction will start",
+          "If the design is approved, then the construction will start and If the design is approved, then the construction will start",
+          "If the design is not approved and the project is funded, then the construction will start and If the design is approved, then the construction will start",
+          "If the design is approved or the project is funded, then the construction will start"
+        ],
+        "incorrect conclusions": [
+          "The design is approved",
+          "If the construction starts, then the design is approved",
+          "If the construction starts, then the design is not approved",
+          "The construction starts",
+          "The construction does not start",
+          "If the construction does not start, then the design is approved",
+          "If the project is not funded, then the construction will start",
+          "If the design is approved or the project is not funded, then the construction will start"
+        ]
+      },
+      {
+        "premises": [
+          "If the materials are high-quality, then the building will be durable",
+          "If the building is durable, then it will be cost-effective"
+        ],
+        "conclusions": [
+          "If the materials are high-quality, then the building will be cost-effective",
+          "If the building is not cost-effective, then the materials are not high-quality",
+          "If the materials are high-quality or the building is durable, then it will be cost-effective and If the materials are high-quality, then the building will be cost-effective",
+          "If the materials are high-quality, then the building will be cost-effective and If the materials are high-quality, then the building will be cost-effective",
+          "If the materials are not high-quality and the building is durable, then the building will be cost-effective and If the materials are high-quality, then the building will be cost-effective",
+          "If the materials are high-quality or the building is durable, then the building will be cost-effective"
+        ],
+        "incorrect conclusions": [
+          "The materials are high-quality",
+          "If the building is cost-effective, then the materials are high-quality",
+          "If the building is cost-effective, then the materials are not high-quality",
+          "The building is cost-effective",
+          "The building is not cost-effective",
+          "If the building is not cost-effective, then the materials are high-quality",
+          "If the building is not durable, then the building will be cost-effective",
+          "If the materials are high-quality or the building is not durable, then the building will be cost-effective"
+        ]
+      }
+    ]
+  }
+}

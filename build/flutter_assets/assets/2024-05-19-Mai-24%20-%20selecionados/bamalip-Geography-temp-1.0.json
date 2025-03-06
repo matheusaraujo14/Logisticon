@@ -1,0 +1,69 @@
+{
+  "Geography": {
+    "Bamalip": [
+      {
+        "major premise": "All sedimentary rocks are rocks",
+        "minor premise": "All rocks are Earth's materials and some sedimentary rocks exist",
+        "conclusion": "Some Earth's materials are sedimentary rocks",
+        "incorrect conclusions": [
+          "All Earth's materials are rocks",
+          "All rocks are sedimentary rocks",
+          "Some Earth's materials are not rocks",
+          "Some Earth's materials are not sedimentary rocks",
+          "Some rocks are not sedimentary rocks",
+          "Some rocks are not Earth's materials",
+          "Some sedimentary rocks are not rocks",
+          "Some sedimentary rocks are not Earth's materials",
+          "No Earth's materials is rocks",
+          "No Earth's materials is sedimentary rocks",
+          "No rocks is Earth's materials",
+          "No rocks is sedimentary rocks",
+          "No sedimentary rocks is rocks",
+          "No sedimentary rocks is Earth's materials"
+        ]
+      },
+      {
+        "major premise": "All rivers are bodies of water",
+        "minor premise": "All bodies of water are geographical features and some rivers exist",
+        "conclusion": "Some geographical features are rivers",
+        "incorrect conclusions": [
+          "All geographical features are bodies of water",
+          "All bodies of water are rivers",
+          "Some geographical features are not bodies of water",
+          "Some geographical features are not rivers",
+          "Some bodies of water are not rivers",
+          "Some bodies of water are not geographical features",
+          "Some rivers are not bodies of water",
+          "Some rivers are not geographical features",
+          "No geographical features is bodies of water",
+          "No geographical features is rivers",
+          "No bodies of water is geographical features",
+          "No bodies of water is rivers",
+          "No rivers is bodies of water",
+          "No rivers is geographical features"
+        ]
+      },
+      {
+        "major premise": "All continents are landmasses",
+        "minor premise": "All landmasses are geographical entities and some continents exist",
+        "conclusion": "Some geographical entities are continents",
+        "incorrect conclusions": [
+          "All geographical entities are landmasses",
+          "All landmasses are continents",
+          "Some geographical entities are not landmasses",
+          "Some geographical entities are not continents",
+          "Some landmasses are not continents",
+          "Some landmasses are not geographical entities",
+          "Some continents are not landmasses",
+          "Some continents are not geographical entities",
+          "No geographical entities is landmasses",
+          "No geographical entities is continents",
+          "No landmasses is geographical entities",
+          "No landmasses is continents",
+          "No continents is landmasses",
+          "No continents is geographical entities"
+        ]
+      }
+    ]
+  }
+}

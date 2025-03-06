@@ -1,0 +1,52 @@
+{
+  "Sports Science": {
+    "Fresison": [
+      {
+        "major premise": "No basketball players are marathon runners",
+        "minor premise": "Some marathon runners are athletes",
+        "conclusion": "Some athletes are not basketball players",
+        "incorrect conclusions": [
+          "All marathon runners are athletes",
+          "All marathon runners are basketball players",
+          "All athletes are basketball players",
+          "All basketball players are marathon runners",
+          "All basketball players are athletes",
+          "Some marathon runners are not athletes",
+          "Some basketball players are athletes",
+          "Some basketball players are not athletes",
+          "Some basketball players are marathon runners",
+          "Some basketball players are athletes",
+          "Some athletes are basketball players",
+          "Some athletes are not marathon runners",
+          "Some marathon runners are basketball players",
+          "No marathon runners are athletes",
+          "No athletes are not marathon runners",
+          "No athletes are marathon runners"
+        ]
+      },
+      {
+        "major premise": "No swimmers are rock climbers",
+        "minor premise": "Some rock climbers are fitness enthusiasts",
+        "conclusion": "Some fitness enthusiasts are not swimmers",
+        "incorrect conclusions": [
+          "All rock climbers are fitness enthusiasts",
+          "All rock climbers are swimmers",
+          "All fitness enthusiasts are swimmers",
+          "All swimmers are rock climbers",
+          "All swimmers are fitness enthusiasts",
+          "Some rock climbers are not fitness enthusiasts",
+          "Some swimmers are fitness enthusiasts",
+          "Some swimmers are not fitness enthusiasts",
+          "Some swimmers are rock climbers",
+          "Some swimmers are fitness enthusiasts",
+          "Some fitness enthusiasts are swimmers",
+          "Some fitness enthusiasts are not rock climbers",
+          "Some rock climbers are swimmers",
+          "No rock climbers are fitness enthusiasts",
+          "No fitness enthusiasts are not rock climbers",
+          "No fitness enthusiasts are rock climbers"
+        ]
+      }
+    ]
+  }
+}

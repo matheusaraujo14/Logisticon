@@ -1,0 +1,22 @@
+{
+  "Architecture": {
+     "Camestres": [
+		{
+		  "major premise": "All skyscrapers are buildings",
+		  "minor premise": "No bridges are buildings",
+		  "conclusion": "No bridges are skyscrapers",
+		  "incorrect conclusions": [
+			"All skyscrapers are bridges",
+			"All buildings are bridges",
+			"Some skyscrapers are buildings",
+			"Some skyscrapers are bridges",
+			"Some buildings are bridges",
+			"Some buildings are skyscrapers",
+			"Some bridges are buildings",
+			"Some bridges are skyscrapers",
+			"Some buildings are not skyscrapers"
+		  ]
+		}
+	 ]
+  }
+}

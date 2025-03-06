@@ -1,0 +1,75 @@
+{
+  "Computer Science": {
+    "Ferison": [
+      {
+        "major premise": "No algorithms are data_structures",
+        "minor premise": "Some algorithms are sorting_algorithms",
+        "conclusion": "Some sorting_algorithms are not data_structures",
+        "incorrect conclusions": [
+          "All algorithms are sorting_algorithms",
+          "All algorithms are data_structures",
+          "All sorting_algorithms are data_structures",
+          "All data_structures are algorithms",
+          "All data_structures are sorting_algorithms",
+          "Some algorithms are not sorting_algorithms",
+          "Some data_structures are sorting_algorithms",
+          "Some data_structures are not sorting_algorithms",
+          "Some data_structures are algorithms",
+          "Some data_structures are sorting_algorithms",
+          "Some sorting_algorithms are data_structures",
+          "Some sorting_algorithms are not algorithms",
+          "Some algorithms are data_structures",
+          "No algorithms is sorting_algorithms",
+          "No sorting_algorithms is not algorithms",
+          "No sorting_algorithms is algorithms"
+        ]
+      },
+      {
+        "major premise": "No programming_languages are operating_systems",
+        "minor premise": "Some programming_languages are object_oriented_languages",
+        "conclusion": "Some object_oriented_languages are not operating_systems",
+        "incorrect conclusions": [
+          "All programming_languages are object_oriented_languages",
+          "All programming_languages are operating_systems",
+          "All object_oriented_languages are operating_systems",
+          "All operating_systems are programming_languages",
+          "All operating_systems are object_oriented_languages",
+          "Some programming_languages are not object_oriented_languages",
+          "Some operating_systems are object_oriented_languages",
+          "Some operating_systems are not object_oriented_languages",
+          "Some operating_systems are programming_languages",
+          "Some operating_systems are object_oriented_languages",
+          "Some object_oriented_languages are operating_systems",
+          "Some object_oriented_languages are not programming_languages",
+          "Some programming_languages are operating_systems",
+          "No programming_languages is object_oriented_languages",
+          "No object_oriented_languages is not programming_languages",
+          "No object_oriented_languages is programming_languages"
+        ]
+      },
+      {
+        "major premise": "No databases are programming_languages",
+        "minor premise": "Some databases are relational_databases",
+        "conclusion": "Some relational_databases are not programming_languages",
+        "incorrect conclusions": [
+          "All databases are relational_databases",
+          "All databases are programming_languages",
+          "All relational_databases are programming_languages",
+          "All programming_languages are databases",
+          "All programming_languages are relational_databases",
+          "Some databases are not relational_databases",
+          "Some programming_languages are relational_databases",
+          "Some programming_languages are not relational_databases",
+          "Some programming_languages are databases",
+          "Some programming_languages are relational_databases",
+          "Some relational_databases are programming_languages",
+          "Some relational_databases are not databases",
+          "Some databases are programming_languages",
+          "No databases is relational_databases",
+          "No relational_databases is not databases",
+          "No relational_databases is databases"
+        ]
+      }
+    ]
+  }
+}

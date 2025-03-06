@@ -1,0 +1,22 @@
+{
+  "Economics": {
+     "Cesare": [
+        {
+          "major premise": "No financial institutions are agricultural businesses",
+          "minor premise": "All credit unions are agricultural businesses",
+          "conclusion": "No credit unions are financial institutions",
+          "incorrect conclusions": [
+            "All credit unions are financial institutions",
+            "All agricultural businesses are financial institutions",
+            "Some credit unions are agricultural businesses",
+            "Some credit unions are financial institutions",
+            "Some agricultural businesses are credit unions",
+            "Some agricultural businesses are financial institutions",
+            "Some agricultural businesses are not credit unions",
+            "Some financial institutions are credit unions",
+            "Some financial institutions are agricultural businesses"
+          ]
+        }
+     ]
+  }
+}

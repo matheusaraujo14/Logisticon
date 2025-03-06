@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Sociology": [
+      {
+        "premises": [
+          "If an individual has a high level of education, then they are likely to have a higher income",
+          "An individual does not have a higher income"
+        ],
+        "conclusions": [
+          "An individual does not have a high level of education"
+        ],
+        "incorrect conclusions": [
+          "An individual has a high level of education",
+          "An individual has a high level of education and a higher income",
+          "If an individual has a higher income, then they have a high level of education",
+          "If an individual does not have a higher income, then they have a high level of education",
+          "If an individual does not have a high level of education, then they do not have a higher income"
+        ]
+      },
+      {
+        "premises": [
+          "If a society has a high level of trust among its members, then it is politically stable",
+          "A society is not politically stable"
+        ],
+        "conclusions": [
+          "A society does not have a high level of trust among its members"
+        ],
+        "incorrect conclusions": [
+          "A society has a high level of trust among its members",
+          "A society has a high level of trust among its members and is politically stable",
+          "If a society is politically stable, then it has a high level of trust among its members",
+          "If a society is not politically stable, then it has a high level of trust among its members",
+          "If a society does not have a high level of trust among its members, then it is not politically stable"
+        ]
+      },
+      {
+        "premises": [
+          "If a person regularly participates in community activities, then they have strong social ties",
+          "A person does not have strong social ties"
+        ],
+        "conclusions": [
+          "A person does not regularly participate in community activities"
+        ],
+        "incorrect conclusions": [
+          "A person regularly participates in community activities",
+          "A person regularly participates in community activities and has strong social ties",
+          "If a person has strong social ties, then they regularly participate in community activities",
+          "If a person does not have strong social ties, then they regularly participate in community activities",
+          "If a person does not regularly participate in community activities, then they do not have strong social ties"
+        ]
+      }
+    ]
+  }
+}

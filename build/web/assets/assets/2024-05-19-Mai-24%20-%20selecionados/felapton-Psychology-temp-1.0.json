@@ -1,0 +1,63 @@
+{
+  "Psychology": {
+    "Felapton": [
+      {
+        "major premise": "No Clinical_Psychologists are Neurologists",
+        "minor premise": "All Clinical_Psychologists are Therapists and some Clinical_Psychologists exist",
+        "conclusion": "Some Therapists are not Neurologists",
+        "incorrect conclusions": [
+          "All Therapists are Neurologists",
+          "All Therapists are Clinical_Psychologists",
+          "All Neurologists are Therapists",
+          "All Neurologists are Clinical_Psychologists",
+          "Some Therapists are Neurologists",
+          "Some Neurologists are Therapists",
+          "Some Neurologists are Clinical_Psychologists",
+          "Some Neurologists are not Therapists",
+          "Some Clinical_Psychologists are Neurologists",
+          "Some Clinical_Psychologists are not Therapists",
+          "No Clinical_Psychologists is Therapists",
+          "No Therapists is Clinical_Psychologists"
+        ]
+      },
+      {
+        "major premise": "No Cognitive_Psychologists are Psychiatrists",
+        "minor premise": "All Cognitive_Psychologists are Researchers and some Cognitive_Psychologists exist",
+        "conclusion": "Some Researchers are not Psychiatrists",
+        "incorrect conclusions": [
+          "All Researchers are Psychiatrists",
+          "All Researchers are Cognitive_Psychologists",
+          "All Psychiatrists are Researchers",
+          "All Psychiatrists are Cognitive_Psychologists",
+          "Some Researchers are Psychiatrists",
+          "Some Psychiatrists are Researchers",
+          "Some Psychiatrists are Cognitive_Psychologists",
+          "Some Psychiatrists are not Researchers",
+          "Some Cognitive_Psychologists are Psychiatrists",
+          "Some Cognitive_Psychologists are not Researchers",
+          "No Cognitive_Psychologists is Researchers",
+          "No Researchers is Cognitive_Psychologists"
+        ]
+      },
+      {
+        "major premise": "No Developmental_Psychologists are Behavioral_Economists",
+        "minor premise": "All Developmental_Psychologists are Academics and some Developmental_Psychologists exist",
+        "conclusion": "Some Academics are not Behavioral_Economists",
+        "incorrect conclusions": [
+          "All Academics are Behavioral_Economists",
+          "All Academics are Developmental_Psychologists",
+          "All Behavioral_Economists are Academics",
+          "All Behavioral_Economists are Developmental_Psychologists",
+          "Some Academics are Behavioral_Economists",
+          "Some Behavioral_Economists are Academics",
+          "Some Behavioral_Economists are Developmental_Psychologists",
+          "Some Behavioral_Economists are not Academics",
+          "Some Developmental_Psychologists are Behavioral_Economists",
+          "Some Developmental_Psychologists are not Academics",
+          "No Developmental_Psychologists is Academics",
+          "No Academics is Developmental_Psychologists"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Economics": [
+      {
+        "premises": [
+          "If the government increases spending, then economic growth will rise",
+          "If consumer confidence improves, then economic growth will rise",
+          "The government increases spending or consumer confidence improves"
+        ],
+        "conclusions": [
+          "Economic growth will rise",
+          "If the government increases spending or consumer confidence improves, then economic growth will rise",
+          "If economic growth does not rise, then the government does not increase spending and consumer confidence does not improve",
+          "If the government increases spending and consumer confidence improves, then economic growth will rise",
+          "If economic growth rises, then the government increases spending or consumer confidence improves"
+        ],
+        "incorrect conclusions": [
+          "If the government increases spending, then consumer confidence improves or economic growth will rise",
+          "If economic growth rises, then the government increases spending and consumer confidence improves",
+          "If economic growth rises or the government increases spending, then consumer confidence improves",
+          "If the government does not increase spending, then economic growth will rise",
+          "If economic growth does not rise, then the government increases spending and consumer confidence improves"
+        ]
+      },
+      {
+        "premises": [
+          "If the exchange rate depreciates, then exports will increase",
+          "If foreign demand rises, then exports will increase",
+          "The exchange rate depreciates or foreign demand rises"
+        ],
+        "conclusions": [
+          "Exports will increase",
+          "If the exchange rate depreciates or foreign demand rises, then exports will increase",
+          "If exports do not increase, then the exchange rate does not depreciate and foreign demand does not rise",
+          "If the exchange rate depreciates and foreign demand rises, then exports will increase",
+          "If exports increase, then the exchange rate depreciates or foreign demand rises"
+        ],
+        "incorrect conclusions": [
+          "If the exchange rate depreciates, then foreign demand rises or exports will increase",
+          "If exports increase, then the exchange rate depreciates and foreign demand rises",
+          "If exports increase or the exchange rate depreciates, then foreign demand rises",
+          "If the exchange rate does not depreciate, then exports will increase",
+          "If exports do not increase, then the exchange rate depreciates and foreign demand rises"
+        ]
+      },
+      {
+        "premises": [
+          "If a new technology reduces production costs, then inflation will fall",
+          "If the central bank raises interest rates, then inflation will fall",
+          "A new technology reduces production costs or the central bank raises interest rates"
+        ],
+        "conclusions": [
+          "Inflation will fall",
+          "If a new technology reduces production costs or the central bank raises interest rates, then inflation will fall",
+          "If inflation does not fall, then a new technology does not reduce production costs and the central bank does not raise interest rates",
+          "If a new technology reduces production costs and the central bank raises interest rates, then inflation will fall",
+          "If inflation falls, then a new technology reduces production costs or the central bank raises interest rates"
+        ],
+        "incorrect conclusions": [
+          "If a new technology reduces production costs, then the central bank raises interest rates or inflation will fall",
+          "If inflation falls, then a new technology reduces production costs and the central bank raises interest rates",
+          "If inflation falls or a new technology reduces production costs, then the central bank raises interest rates",
+          "If a new technology does not reduce production costs, then inflation will fall",
+          "If inflation does not fall, then a new technology reduces production costs and the central bank raises interest rates"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Psychology": {
+    "Datisi": [
+      {
+        "major premise": "All cognitive functions are mental processes",
+        "minor premise": "Some cognitive functions are problem-solving skills",
+        "conclusion": "Some problem-solving skills are mental processes",
+        "incorrect conclusions": [
+          "All problem-solving skills are cognitive functions",
+          "All problem-solving skills are mental processes",
+          "All mental processes are cognitive functions",
+          "All mental processes are problem-solving skills",
+          "All cognitive functions are problem-solving skills",
+          "Some problem-solving skills are not mental processes",
+          "Some problem-solving skills are not cognitive functions",
+          "Some mental processes are not cognitive functions",
+          "Some mental processes are not problem-solving skills",
+          "Some cognitive functions are not mental processes",
+          "Some cognitive functions are not problem-solving skills",
+          "No problem-solving skills is a mental processes",
+          "No problem-solving skills is a cognitive functions",
+          "No cognitive functions is a mental processes",
+          "No cognitive functions is a problem-solving skills",
+          "No mental processes is a cognitive functions",
+          "No mental processes is a problem-solving skills"
+        ]
+      },
+      {
+        "major premise": "All emotions are psychological phenomena",
+        "minor premise": "Some emotions are happiness",
+        "conclusion": "Some happiness is a psychological phenomenon",
+        "incorrect conclusions": [
+          "All happiness is emotions",
+          "All happiness is psychological phenomena",
+          "All psychological phenomena are emotions",
+          "All psychological phenomena are happiness",
+          "All emotions are happiness",
+          "Some happiness is not psychological phenomena",
+          "Some happiness is not emotions",
+          "Some psychological phenomena are not emotions",
+          "Some psychological phenomena are not happiness",
+          "Some emotions are not psychological phenomena",
+          "Some emotions are not happiness",
+          "No happiness is psychological phenomena",
+          "No happiness is emotions",
+          "No emotions is psychological phenomena",
+          "No emotions is happiness",
+          "No psychological phenomena is emotions",
+          "No psychological phenomena is happiness"
+        ]
+      },
+      {
+        "major premise": "All motivation factors are psychological variables",
+        "minor premise": "Some motivation factors are intrinsic drives",
+        "conclusion": "Some intrinsic drives are psychological variables",
+        "incorrect conclusions": [
+          "All intrinsic drives are motivation factors",
+          "All intrinsic drives are psychological variables",
+          "All psychological variables are motivation factors",
+          "All psychological variables are intrinsic drives",
+          "All motivation factors are intrinsic drives",
+          "Some intrinsic drives are not psychological variables",
+          "Some intrinsic drives are not motivation factors",
+          "Some psychological variables are not motivation factors",
+          "Some psychological variables are not intrinsic drives",
+          "Some motivation factors are not psychological variables",
+          "Some motivation factors are not intrinsic drives",
+          "No intrinsic drives is psychological variables",
+          "No intrinsic drives is motivation factors",
+          "No motivation factors is psychological variables",
+          "No motivation factors is intrinsic drives",
+          "No psychological variables is motivation factors",
+          "No psychological variables is intrinsic drives"
+        ]
+      }
+    ]
+  }
+}

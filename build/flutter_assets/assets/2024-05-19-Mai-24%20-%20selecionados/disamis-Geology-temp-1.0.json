@@ -1,0 +1,75 @@
+{
+  "Geology": {
+    "Disamis": [
+      {
+        "major premise": "Some minerals are rocks",
+        "minor premise": "All minerals are substances",
+        "conclusion": "Some substances are rocks",
+        "incorrect conclusions": [
+          "All substances are rocks",
+          "All substances are minerals",
+          "All rocks are substances",
+          "All rocks are minerals",
+          "All minerals are rocks",
+          "Some substances are not minerals",
+          "Some rocks are not substances",
+          "Some rocks are not minerals",
+          "Some minerals are not substances",
+          "Some minerals are not rocks",
+          "No rocks is a substances",
+          "No rocks is a minerals",
+          "No minerals is a substances",
+          "No minerals is a rocks",
+          "No substances is a minerals",
+          "No substances is a rocks"
+        ]
+      },
+      {
+        "major premise": "Some rocks are minerals",
+        "minor premise": "All rocks are geological formations",
+        "conclusion": "Some geological formations are minerals",
+        "incorrect conclusions": [
+          "All geological formations are minerals",
+          "All geological formations are rocks",
+          "All minerals are geological formations",
+          "All minerals are rocks",
+          "All rocks are minerals",
+          "Some geological formations are not rocks",
+          "Some minerals are not geological formations",
+          "Some minerals are not rocks",
+          "Some rocks are not geological formations",
+          "Some rocks are not minerals",
+          "No minerals is a geological formations",
+          "No minerals is a rocks",
+          "No rocks is a geological formations",
+          "No rocks is a minerals",
+          "No geological formations is a rocks",
+          "No geological formations is a minerals"
+        ]
+      },
+      {
+        "major premise": "Some ore deposits are minerals",
+        "minor premise": "All ore deposits are geological formations",
+        "conclusion": "Some geological formations are minerals",
+        "incorrect conclusions": [
+          "All geological formations are minerals",
+          "All geological formations are ore deposits",
+          "All minerals are geological formations",
+          "All minerals are ore deposits",
+          "All ore deposits are minerals",
+          "Some geological formations are not ore deposits",
+          "Some minerals are not geological formations",
+          "Some minerals are not ore deposits",
+          "Some ore deposits are not geological formations",
+          "Some ore deposits are not minerals",
+          "No minerals is a geological formations",
+          "No minerals is a ore deposits",
+          "No ore deposits is a geological formations",
+          "No ore deposits is a minerals",
+          "No geological formations is a ore deposits",
+          "No geological formations is a minerals"
+        ]
+      }
+    ]
+  }
+}

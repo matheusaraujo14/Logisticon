@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Law": [
+        {
+          "premises": [ 
+            "If the defendant is not guilty, then they will be acquitted",
+            "If the defendant is guilty, then they will be sentenced"
+          ],
+          "conclusions": [
+            "If they will not be acquitted, then the defendant is guilty",
+            "If they will not be sentenced, then the defendant is not guilty",
+            "If they will not be sentenced, then they will be acquitted",
+            "They will be acquitted or they will be sentenced",
+            "If the defendant is guilty and they will be acquitted, then they will be sentenced"
+          ],
+          "incorrect conclusions": [
+            "If they will be acquitted, then the defendant is guilty",
+            "If they will be acquitted, then the defendant is not guilty",
+            "If they will not be acquitted, then the defendant is not guilty",
+            "They will be acquitted and they will be sentenced",
+            "If they will be sentenced, then the defendant is guilty",
+            "If they will be acquitted and they will be sentenced, then the defendant is guilty"
+          ]
+        },
+        {
+          "premises": [ 
+            "If the law is not passed, then the proposal is rejected",
+            "If the law is passed, then it is enforced"
+          ],
+          "conclusions": [
+            "If the proposal is not rejected, then the law is passed",
+            "If it is not enforced, then the law is not passed",
+            "If it is not enforced, then the proposal is rejected",
+            "The proposal is rejected or it is enforced",
+            "If the law is passed and the proposal is rejected, then it is enforced"
+          ],
+          "incorrect conclusions": [
+            "If the proposal is rejected, then the law is passed",
+            "If the proposal is rejected, then the law is not passed",
+            "If the proposal is not rejected, then the law is not passed",
+            "The proposal is rejected and it is enforced",
+            "If it is enforced, then the law is passed",
+            "If the proposal is rejected and it is enforced, then the law is passed"
+          ]
+        },
+        {
+          "premises": [ 
+            "If the testimony is not credible, then the jury will doubt it",
+            "If the testimony is credible, then the jury will believe it"
+          ],
+          "conclusions": [
+            "If the jury will not doubt it, then the testimony is credible",
+            "If the jury will not believe it, then the testimony is not credible",
+            "If the jury will not believe it, then the jury will doubt it",
+            "The jury will doubt it or the jury will believe it",
+            "If the testimony is credible and the jury will doubt it, then the jury will believe it"
+          ],
+          "incorrect conclusions": [
+            "If the jury will doubt it, then the testimony is credible",
+            "If the jury will doubt it, then the testimony is not credible",
+            "If the jury will not doubt it, then the testimony is not credible",
+            "The jury will doubt it and the jury will believe it",
+            "If the jury will believe it, then the testimony is credible",
+            "If the jury will doubt it and the jury will believe it, then the testimony is credible"
+          ]
+        }
+	]
+  }
+}

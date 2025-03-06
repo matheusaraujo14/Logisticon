@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Engineering": [
+      {
+        "premises": [
+          "If a component is overheated, then it can fail"
+        ],
+        "conclusions": [
+          "If a component cannot fail, then it is not overheated"
+        ],
+        "incorrect conclusions": [
+          "A component is overheated",
+          "A component is not overheated",
+          "A component can fail",
+          "A component cannot fail",
+          "If a component can fail, then it is overheated",
+          "If a component cannot fail, then it is overheated",
+          "If a component is not overheated, then it cannot fail"
+        ]
+      },
+      {
+        "premises": [
+          "If a circuit is closed, then electricity flows"
+        ],
+        "conclusions": [
+          "If electricity does not flow, then the circuit is not closed"
+        ],
+        "incorrect conclusions": [
+          "A circuit is closed",
+          "A circuit is not closed",
+          "Electricity flows",
+          "Electricity does not flow",
+          "If electricity flows, then the circuit is closed",
+          "If electricity does not flow, then the circuit is closed",
+          "If a circuit is not closed, then electricity does not flow"
+        ]
+      },
+      {
+        "premises": [
+          "If a structure is under-designed, then it is unsafe"
+        ],
+        "conclusions": [
+          "If a structure is not unsafe, then it is not under-designed"
+        ],
+        "incorrect conclusions": [
+          "A structure is under-designed",
+          "A structure is not under-designed",
+          "A structure is unsafe",
+          "A structure is not unsafe",
+          "If a structure is unsafe, then it is under-designed",
+          "If a structure is not unsafe, then it is under-designed",
+          "If a structure is not under-designed, then it is not unsafe"
+        ]
+      }
+    ]
+  }
+}

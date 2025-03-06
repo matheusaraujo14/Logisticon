@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a food contains vitamin C, then it boosts the immune system",
+          "If a food contains zinc, then it boosts the immune system",
+          "A food contains vitamin C or a food contains zinc"
+        ],
+        "conclusions": [
+          "It boosts the immune system",
+          "If a food contains vitamin C or a food contains zinc, then it boosts the immune system",
+          "If it does not boost the immune system, then the food does not contain vitamin C and the food does not contain zinc",
+          "If a food contains vitamin C and a food contains zinc, then it boosts the immune system",
+          "If it boosts the immune system, then a food contains vitamin C or a food contains zinc"
+        ],
+        "incorrect conclusions": [
+          "If a food contains vitamin C, then it contains zinc or it boosts the immune system",
+          "If it boosts the immune system, then a food contains vitamin C and a food contains zinc",
+          "If it boosts the immune system or a food contains vitamin C, then it contains zinc",
+          "If a food does not contain vitamin C, then it boosts the immune system",
+          "If it does not boost the immune system, then a food contains vitamin C and a food contains zinc"
+        ]
+      },
+      {
+        "premises": [
+          "If eating leafy greens provides fiber, then it helps with digestion",
+          "If eating whole grains provides fiber, then it helps with digestion",
+          "Eating leafy greens provides fiber or eating whole grains provides fiber"
+        ],
+        "conclusions": [
+          "It helps with digestion",
+          "If eating leafy greens provides fiber or eating whole grains provides fiber, then it helps with digestion",
+          "If it does not help with digestion, then eating leafy greens does not provide fiber and eating whole grains does not provide fiber",
+          "If eating leafy greens provides fiber and eating whole grains provides fiber, then it helps with digestion",
+          "If it helps with digestion, then eating leafy greens provide fiber or eating whole grains provide fiber"
+        ],
+        "incorrect conclusions": [
+          "If eating leafy greens provides fiber, then eating whole grains provides fiber or it helps with digestion",
+          "If it helps with digestion, then eating leafy greens provide fiber and eating whole grains provide fiber",
+          "If it helps with digestion or eating leafy greens provide fiber, then eating whole grains provide fiber",
+          "If eating leafy greens does not provide fiber, then it helps with digestion",
+          "If it does not help with digestion, then eating leafy greens provide fiber and eating whole grains provide fiber"
+        ]
+      },
+      {
+        "premises": [
+          "If eating fish provides omega-3 fatty acids, then it reduces inflammation",
+          "If eating flaxseeds provides omega-3 fatty acids, then it reduces inflammation",
+          "Eating fish provides omega-3 fatty acids or eating flaxseeds provides omega-3 fatty acids"
+        ],
+        "conclusions": [
+          "It reduces inflammation",
+          "If eating fish provides omega-3 fatty acids or eating flaxseeds provides omega-3 fatty acids, then it reduces inflammation",
+          "If it does not reduce inflammation, then eating fish does not provide omega-3 fatty acids and eating flaxseeds does not provide omega-3 fatty acids",
+          "If eating fish provides omega-3 fatty acids and eating flaxseeds provides omega-3 fatty acids, then it reduces inflammation",
+          "If it reduces inflammation, then eating fish provides omega-3 fatty acids or eating flaxseeds provides omega-3 fatty acids"
+        ],
+        "incorrect conclusions": [
+          "If eating fish provides omega-3 fatty acids, then eating flaxseeds provide omega-3 fatty acids or it reduces inflammation",
+          "If it reduces inflammation, then eating fish provides omega-3 fatty acids and eating flaxseeds provides omega-3 fatty acids",
+          "If it reduces inflammation or eating fish provides omega-3 fatty acids, then eating flaxseeds provide omega-3 fatty acids",
+          "If eating fish does not provide omega-3 fatty acids, then it reduces inflammation",
+          "If it does not reduce inflammation, then eating fish provides omega-3 fatty acids and eating flaxseeds provides omega-3 fatty acids"
+        ]
+      }
+    ]
+  }
+}

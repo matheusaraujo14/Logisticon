@@ -1,0 +1,29 @@
+{
+  "Nutrition": {
+    "Fresison": [
+      {
+        "major premise": "No vitamins are proteins",
+        "minor premise": "Some proteins are supplements",
+        "conclusion": "Some supplements are not vitamins",
+        "incorrect conclusions": [
+          "All proteins are supplements",
+          "All proteins are vitamins",
+          "All supplements are vitamins",
+          "All vitamins are proteins",
+          "All vitamins are supplements",
+          "Some proteins are not supplements",
+          "Some vitamins are supplements",
+          "Some vitamins are not supplements",
+          "Some vitamins are proteins",
+          "Some vitamins are supplements",
+          "Some supplements are vitamins",
+          "Some supplements are not proteins",
+          "Some proteins are vitamins",
+          "No proteins are supplements",
+          "No supplements are not proteins",
+          "No supplements are proteins"
+        ]
+      }
+    ]
+  }
+}

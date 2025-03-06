@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If the star has a low temperature, the star is red",
+          "If the star has a low temperature, the star is large"
+        ],
+        "conclusions": [
+          "If the star has a low temperature, the star is red and large",
+          "If the star has a low temperature, the star is red or large",
+          "If the star is not red, the star does not have a low temperature",
+          "If the star is not large, the star does not have a low temperature",
+          "If the star is not red or not large, the star does not have a low temperature"
+        ],
+        "incorrect conclusions": [
+          "If the star is not red, the star is not large",
+          "If the star is not large, the star is not red",
+          "If the star is red, the star is large",
+          "If the star is large, the star is red",
+          "If the star is red and large, the star has a low temperature",
+          "If the star is red or large, the star has a low temperature",
+          "If the star is not red or the star does not have a low temperature, the star has a low temperature"
+        ]
+      },
+      {
+        "premises": [
+          "If the galaxy is rotating, the galaxy has a bulge",
+          "If the galaxy is rotating, the galaxy has spiral arms"
+        ],
+        "conclusions": [
+          "If the galaxy is rotating, the galaxy has a bulge and spiral arms",
+          "If the galaxy is rotating, the galaxy has a bulge or spiral arms",
+          "If the galaxy does not have a bulge, the galaxy is not rotating",
+          "If the galaxy does not have spiral arms, the galaxy is not rotating",
+          "If the galaxy does not have a bulge or does not have spiral arms, the galaxy is not rotating"
+        ],
+        "incorrect conclusions": [
+          "If the galaxy does not have a bulge, the galaxy does not have spiral arms",
+          "If the galaxy does not have spiral arms, the galaxy does not have a bulge",
+          "If the galaxy has a bulge, the galaxy has spiral arms",
+          "If the galaxy has spiral arms, the galaxy has a bulge",
+          "If the galaxy has a bulge and spiral arms, the galaxy is rotating",
+          "If the galaxy has a bulge or spiral arms, the galaxy is rotating",
+          "If the galaxy does not have a bulge or the galaxy is not rotating, the galaxy is rotating"
+        ]
+      },
+      {
+        "premises": [
+          "If the planet is close to the sun, the planet has a high temperature",
+          "If the planet is close to the sun, the planet has a short orbit period"
+        ],
+        "conclusions": [
+          "If the planet is close to the sun, the planet has a high temperature and a short orbit period",
+          "If the planet is close to the sun, the planet has a high temperature or a short orbit period",
+          "If the planet does not have a high temperature, the planet is not close to the sun",
+          "If the planet does not have a short orbit period, the planet is not close to the sun",
+          "If the planet does not have a high temperature or does not have a short orbit period, the planet is not close to the sun"
+        ],
+        "incorrect conclusions": [
+          "If the planet does not have a high temperature, the planet does not have a short orbit period",
+          "If the planet does not have a short orbit period, the planet does not have a high temperature",
+          "If the planet has a high temperature, the planet has a short orbit period",
+          "If the planet has a short orbit period, the planet has a high temperature",
+          "If the planet has a high temperature and a short orbit period, the planet is close to the sun",
+          "If the planet has a high temperature or a short orbit period, the planet is close to the sun",
+          "If the planet does not have a high temperature or the planet is not close to the sun, the planet is close to the sun"
+        ]
+      }
+    ]
+  }
+}

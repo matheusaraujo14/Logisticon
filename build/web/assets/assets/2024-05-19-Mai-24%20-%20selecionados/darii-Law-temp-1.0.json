@@ -1,0 +1,54 @@
+{
+  "Law": {
+    "Darii": [
+      {
+        "major premise": "All criminal cases are legal cases",
+        "minor premise": "Some disputes are criminal cases",
+        "conclusion": "Some disputes are legal cases",
+        "incorrect conclusions": [
+          "All disputes are criminal cases",
+          "All disputes are legal cases",
+          "All legal cases are criminal cases",
+          "All legal cases are disputes",
+          "All criminal cases are disputes",
+          "Some disputes are not legal cases",
+          "Some disputes are not criminal cases",
+          "Some legal cases are not criminal cases",
+          "Some legal cases are not disputes",
+          "Some criminal cases are not legal cases",
+          "Some criminal cases are not disputes",
+          "No disputes is legal case",
+          "No disputes is criminal case",
+          "No criminal case is legal case",
+          "No criminal case is dispute",
+          "No legal case is criminal case",
+          "No legal case is dispute"
+        ]
+      },
+      {
+        "major premise": "All contracts are legal agreements",
+        "minor premise": "Some negotiations are contracts",
+        "conclusion": "Some negotiations are legal agreements",
+        "incorrect conclusions": [
+          "All negotiations are contracts",
+          "All negotiations are legal agreements",
+          "All legal agreements are contracts",
+          "All legal agreements are negotiations",
+          "All contracts are negotiations",
+          "Some negotiations are not legal agreements",
+          "Some negotiations are not contracts",
+          "Some legal agreements are not contracts",
+          "Some legal agreements are not negotiations",
+          "Some contracts are not legal agreements",
+          "Some contracts are not negotiations",
+          "No negotiations is legal agreement",
+          "No negotiations is contract",
+          "No contract is legal agreement",
+          "No contract is negotiation",
+          "No legal agreement is contract",
+          "No legal agreement is negotiation"
+        ]
+      }
+    ]
+  }
+}

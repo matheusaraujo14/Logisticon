@@ -1,0 +1,75 @@
+{
+  "Physics": {
+    "Darapti": [
+      {
+        "major premise": "All stars are massive objects",
+        "minor premise": "All stars are luminous objects and some stars exist",
+        "conclusion": "Some luminous objects are massive objects",
+        "incorrect conclusions": [
+          "All luminous objects are massive objects",
+          "All massive objects are luminous objects",
+          "All stars are not luminous objects",
+          "All stars are not massive objects",
+          "Some luminous objects are not massive objects",
+          "Some luminous objects are not stars",
+          "Some massive objects are not stars",
+          "Some massive objects are not luminous objects",
+          "Some stars are not luminous objects",
+          "Some stars are not massive objects",
+          "No stars are luminous objects",
+          "No stars are massive objects",
+          "No massive objects are stars",
+          "No massive objects are luminous objects",
+          "No luminous objects are stars",
+          "No luminous objects are massive objects"
+        ]
+      },
+      {
+        "major premise": "All minerals are solid substances",
+        "minor premise": "All minerals are natural substances and some minerals exist",
+        "conclusion": "Some natural substances are solid substances",
+        "incorrect conclusions": [
+          "All natural substances are solid substances",
+          "All solid substances are natural substances",
+          "All minerals are not natural substances",
+          "All minerals are not solid substances",
+          "Some natural substances are not solid substances",
+          "Some natural substances are not minerals",
+          "Some solid substances are not minerals",
+          "Some solid substances are not natural substances",
+          "Some minerals are not natural substances",
+          "Some minerals are not solid substances",
+          "No minerals are natural substances",
+          "No minerals are solid substances",
+          "No solid substances are minerals",
+          "No solid substances are natural substances",
+          "No natural substances are minerals",
+          "No natural substances are solid substances"
+        ]
+      },
+      {
+        "major premise": "All atoms are building blocks of matter",
+        "minor premise": "All atoms are elements and some atoms exist",
+        "conclusion": "Some elements are building blocks of matter",
+        "incorrect conclusions": [
+          "All elements are building blocks of matter",
+          "All building blocks of matter are elements",
+          "All atoms are not elements",
+          "All atoms are not building blocks of matter",
+          "Some elements are not building blocks of matter",
+          "Some elements are not atoms",
+          "Some building blocks of matter are not atoms",
+          "Some building blocks of matter are not elements",
+          "Some atoms are not elements",
+          "Some atoms are not building blocks of matter",
+          "No atoms are elements",
+          "No atoms are building blocks of matter",
+          "No building blocks of matter are atoms",
+          "No building blocks of matter are elements",
+          "No elements are atoms",
+          "No elements are building blocks of matter"
+        ]
+      }
+    ]
+  }
+}

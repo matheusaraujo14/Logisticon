@@ -1,0 +1,57 @@
+{
+  "Nutrition": {
+     "Baroco": [
+		{
+          "major premise": "All fruits are foods",
+          "minor premise": "Some snacks are not foods",
+          "conclusion": "Some snacks are not fruits",
+		  "incorrect conclusions": [
+			"All snacks are not foods",
+			"All snacks are fruits",
+			"All snacks are foods",
+			"Some fruits are snacks",
+			"Some fruits are not snacks",
+			"Some fruits are not foods",
+			"Some snacks are foods",
+			"Some snacks are fruits",
+			"Some foods are not fruits",
+			"Some foods are snacks"
+		  ]
+		},
+		{
+          "major premise": "All vitamins are nutrients",
+          "minor premise": "Some supplements are not nutrients",
+          "conclusion": "Some supplements are not vitamins",
+		  "incorrect conclusions": [
+			"All supplements are not nutrients",
+			"All supplements are vitamins",
+			"All supplements are nutrients",
+			"Some vitamins are supplements",
+			"Some vitamins are not supplements",
+			"Some vitamins are not nutrients",
+			"Some supplements are nutrients",
+			"Some supplements are vitamins",
+			"Some nutrients are not vitamins",
+			"Some nutrients are supplements"
+		  ]
+		},
+		{
+          "major premise": "All proteins are macronutrients",
+          "minor premise": "Some fibers are not macronutrients",
+          "conclusion": "Some fibers are not proteins",
+		  "incorrect conclusions": [
+			"All fibers are not macronutrients",
+			"All fibers are proteins",
+			"All fibers are macronutrients",
+			"Some proteins are fibers",
+			"Some proteins are not fibers",
+			"Some proteins are not macronutrients",
+			"Some fibers are macronutrients",
+			"Some fibers are proteins",
+			"Some macronutrients are not proteins",
+			"Some macronutrients are fibers"
+		  ]
+		}
+	 ]
+  }
+}

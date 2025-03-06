@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains consistently, then their performance improves",
+          "If an athlete trains consistently, then their endurance increases"
+        ],
+        "conclusions": [
+          "If an athlete trains consistently, then their performance improves and their endurance increases",
+          "If an athlete trains consistently, then their performance improves or their endurance increases",
+          "If an athlete's performance does not improve, then the athlete does not train consistently",
+          "If an athlete's endurance does not increase, then the athlete does not train consistently",
+          "If an athlete's performance does not improve or their endurance does not increase, then the athlete does not train consistently"
+        ],
+        "incorrect conclusions": [
+          "If an athlete's performance does not improve, then their endurance does not increase",
+          "If an athlete's endurance does not increase, then their performance does not improve",
+          "If an athlete's performance improves, then their endurance increases",
+          "If an athlete's endurance increases, then their performance improves",
+          "If an athlete's performance improves and their endurance increases, then the athlete trains consistently",
+          "If an athlete's performance improves or their endurance increases, then the athlete trains consistently",
+          "If an athlete's performance does not improve or the athlete does not train consistently, then the athlete trains consistently"
+        ]
+      },
+      {
+        "premises": [
+          "If a football player follows a nutrition plan, then their energy levels remain high",
+          "If a football player follows a nutrition plan, then their injury risk decreases"
+        ],
+        "conclusions": [
+          "If a football player follows a nutrition plan, then their energy levels remain high and their injury risk decreases",
+          "If a football player follows a nutrition plan, then their energy levels remain high or their injury risk decreases",
+          "If a football player's energy levels do not remain high, then the football player does not follow a nutrition plan",
+          "If a football player's injury risk does not decrease, then the football player does not follow a nutrition plan",
+          "If a football player's energy levels do not remain high or their injury risk does not decrease, then the football player does not follow a nutrition plan"
+        ],
+        "incorrect conclusions": [
+          "If a football player's energy levels do not remain high, then their injury risk does not decrease",
+          "If a football player's injury risk does not decrease, then their energy levels do not remain high",
+          "If a football player's energy levels remain high, then their injury risk decreases",
+          "If a football player's injury risk decreases, then their energy levels remain high",
+          "If a football player's energy levels remain high and their injury risk decreases, then the football player follows a nutrition plan",
+          "If a football player's energy levels remain high or their injury risk decreases, then the football player follows a nutrition plan",
+          "If a football player's energy levels do not remain high or the football player does not follow a nutrition plan, then the football player follows a nutrition plan"
+        ]
+      },
+      {
+        "premises": [
+          "If a basketball player practices free throws daily, then their shooting accuracy improves",
+          "If a basketball player practices free throws daily, then their confidence increases"
+        ],
+        "conclusions": [
+          "If a basketball player practices free throws daily, then their shooting accuracy improves and their confidence increases",
+          "If a basketball player practices free throws daily, then their shooting accuracy improves or their confidence increases",
+          "If a basketball player's shooting accuracy does not improve, then the basketball player does not practice free throws daily",
+          "If a basketball player's confidence does not increase, then the basketball player does not practice free throws daily",
+          "If a basketball player's shooting accuracy does not improve or their confidence does not increase, then the basketball player does not practice free throws daily"
+        ],
+        "incorrect conclusions": [
+          "If a basketball player's shooting accuracy does not improve, then their confidence does not increase",
+          "If a basketball player's confidence does not increase, then their shooting accuracy does not improve",
+          "If a basketball player's shooting accuracy improves, then their confidence increases",
+          "If a basketball player's confidence increases, then their shooting accuracy improves",
+          "If a basketball player's shooting accuracy improves and their confidence increases, then the basketball player practices free throws daily",
+          "If a basketball player's shooting accuracy improves or their confidence increases, then the basketball player practices free throws daily",
+          "If a basketball player's shooting accuracy does not improve or the basketball player does not practice free throws daily, then the basketball player practices free throws daily"
+        ]
+      }
+    ]
+  }
+}

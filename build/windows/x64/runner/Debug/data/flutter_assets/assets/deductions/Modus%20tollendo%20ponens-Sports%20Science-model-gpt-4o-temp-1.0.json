@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Sports Science": [
+      {
+        "premises": [
+          "A player can either be on offense or defense but not both at the same time",
+          "The player is not on offense"
+        ],
+        "conclusions": [
+          "The player is on defense",
+          "If the player is not on defense, then the player is on offense"
+        ],
+        "incorrect conclusions": [
+          "The player is not on defense",
+          "If the player is on offense, then the player is on defense",
+          "If the player is on defense, then the player is on offense",
+          "The player is on offense"
+        ]
+      },
+      {
+        "premises": [
+          "An athlete can either be a sprinter or a marathon runner but not both at the same time",
+          "The athlete is not a sprinter"
+        ],
+        "conclusions": [
+          "The athlete is a marathon runner",
+          "If the athlete is not a marathon runner, then the athlete is a sprinter"
+        ],
+        "incorrect conclusions": [
+          "The athlete is not a marathon runner",
+          "If the athlete is a sprinter, then the athlete is a marathon runner",
+          "If the athlete is a marathon runner, then the athlete is a sprinter",
+          "The athlete is a sprinter"
+        ]
+      },
+      {
+        "premises": [
+          "A team can either win or lose but not both at the same time",
+          "The team did not win"
+        ],
+        "conclusions": [
+          "The team lost",
+          "If the team did not lose, then the team won"
+        ],
+        "incorrect conclusions": [
+          "The team did not lose",
+          "If the team won, then the team lost",
+          "If the team lost, then the team won",
+          "The team won"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Literature": [
+      {
+        "premises": [
+          "If the antagonist is revealed, the plot thickens",
+          "If the antagonist is revealed, tension increases",
+          "The plot does not thicken or tension does not increase"
+        ],
+        "conclusions": [
+          "The antagonist is not revealed",
+          "The plot does not thicken and tension does not increase",
+          "If the antagonist is revealed, the plot thickens and tension increases"
+        ],
+        "incorrect conclusions": [
+          "If the antagonist is revealed, the plot thickens and tension does not increase",
+          "If the plot thickens and tension increases, the antagonist is revealed",
+          "If the plot thickens, the antagonist is revealed",
+          "The plot thickens or tension increases but not both",
+          "If the antagonist is not revealed, the plot does not thicken or tension does not increase"
+        ]
+      },
+      {
+        "premises": [
+          "If the protagonist finds the hidden clue, the mystery is solved",
+          "If the protagonist finds the hidden clue, the villain is apprehended",
+          "The mystery is not solved or the villain is not apprehended"
+        ],
+        "conclusions": [
+          "The protagonist does not find the hidden clue",
+          "The mystery is not solved and the villain is not apprehended",
+          "If the protagonist finds the hidden clue, the mystery is solved and the villain is apprehended"
+        ],
+        "incorrect conclusions": [
+          "If the protagonist finds the hidden clue, the mystery is solved and the villain is not apprehended",
+          "If the mystery is solved and the villain is apprehended, the protagonist finds the hidden clue",
+          "If the mystery is solved, the protagonist finds the hidden clue",
+          "The mystery is solved or the villain is apprehended but not both",
+          "If the protagonist does not find the hidden clue, the mystery is not solved or the villain is not apprehended"
+        ]
+      },
+      {
+        "premises": [
+          "If the hero accepts the challenge, the kingdom is saved",
+          "If the hero accepts the challenge, the people rejoice",
+          "The kingdom is not saved or the people do not rejoice"
+        ],
+        "conclusions": [
+          "The hero does not accept the challenge",
+          "The kingdom is not saved and the people do not rejoice",
+          "If the hero accepts the challenge, the kingdom is saved and the people rejoice"
+        ],
+        "incorrect conclusions": [
+          "If the hero accepts the challenge, the kingdom is saved and the people do not rejoice",
+          "If the kingdom is saved and the people rejoice, the hero accepts the challenge",
+          "If the kingdom is saved, the hero accepts the challenge",
+          "The kingdom is saved or the people rejoice but not both",
+          "If the hero does not accept the challenge, the kingdom is not saved or the people do not rejoice"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Engineering": {
+    "Ferison": [
+      {
+        "major premise": "No mechanical engineers are civil engineers",
+        "minor premise": "Some mechanical engineers are project managers",
+        "conclusion": "Some project managers are not civil engineers",
+        "incorrect conclusions": [
+          "All mechanical engineers are project managers",
+          "All mechanical engineers are civil engineers",
+          "All project managers are civil engineers",
+          "All civil engineers are mechanical engineers",
+          "All civil engineers are project managers",
+          "Some mechanical engineers are not project managers",
+          "Some civil engineers are project managers",
+          "Some civil engineers are not project managers",
+          "Some civil engineers are mechanical engineers",
+          "Some civil engineers are project managers",
+          "Some project managers are civil engineers",
+          "Some project managers are not mechanical engineers",
+          "Some mechanical engineers are civil engineers",
+          "No mechanical engineer is a project manager",
+          "No project manager is not a mechanical engineer",
+          "No project manager is a mechanical engineer"
+        ]
+      },
+      {
+        "major premise": "No software engineers are electrical engineers",
+        "minor premise": "Some software engineers are data scientists",
+        "conclusion": "Some data scientists are not electrical engineers",
+        "incorrect conclusions": [
+          "All software engineers are data scientists",
+          "All software engineers are electrical engineers",
+          "All data scientists are electrical engineers",
+          "All electrical engineers are software engineers",
+          "All electrical engineers are data scientists",
+          "Some software engineers are not data scientists",
+          "Some electrical engineers are data scientists",
+          "Some electrical engineers are not data scientists",
+          "Some electrical engineers are software engineers",
+          "Some electrical engineers are data scientists",
+          "Some data scientists are electrical engineers",
+          "Some data scientists are not software engineers",
+          "Some software engineers are electrical engineers",
+          "No software engineer is a data scientist",
+          "No data scientist is not a software engineer",
+          "No data scientist is a software engineer"
+        ]
+      },
+      {
+        "major premise": "No chemical engineers are aerospace engineers",
+        "minor premise": "Some chemical engineers are materials scientists",
+        "conclusion": "Some materials scientists are not aerospace engineers",
+        "incorrect conclusions": [
+          "All chemical engineers are materials scientists",
+          "All chemical engineers are aerospace engineers",
+          "All materials scientists are aerospace engineers",
+          "All aerospace engineers are chemical engineers",
+          "All aerospace engineers are materials scientists",
+          "Some chemical engineers are not materials scientists",
+          "Some aerospace engineers are materials scientists",
+          "Some aerospace engineers are not materials scientists",
+          "Some aerospace engineers are chemical engineers",
+          "Some aerospace engineers are materials scientists",
+          "Some materials scientists are aerospace engineers",
+          "Some materials scientists are not chemical engineers",
+          "Some chemical engineers are aerospace engineers",
+          "No chemical engineer is a materials scientist",
+          "No materials scientist is not a chemical engineer",
+          "No materials scientist is a chemical engineer"
+        ]
+      }
+    ]
+  }
+}

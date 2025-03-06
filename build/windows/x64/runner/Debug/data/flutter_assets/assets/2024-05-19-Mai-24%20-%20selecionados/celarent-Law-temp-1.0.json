@@ -1,0 +1,54 @@
+{
+  "Law": {
+    "Celarent": [
+      {
+        "major premise": "No criminals are judges",
+        "minor premise": "All suspects are criminals",
+        "conclusion": "No suspects are judges",
+        "incorrect conclusions": [
+          "All suspects are judges",
+          "All criminals are judges",
+          "Some suspects are criminals",
+          "Some suspects are judges",
+          "Some criminals are suspects",
+          "Some criminals are judges",
+          "Some criminals are not suspects",
+          "Some judges are suspects",
+          "Some judges are criminals"
+        ]
+      },
+      {
+        "major premise": "No felonies are misdemeanors",
+        "minor premise": "All assaults are felonies",
+        "conclusion": "No assaults are misdemeanors",
+        "incorrect conclusions": [
+          "All assaults are misdemeanors",
+          "All felonies are misdemeanors",
+          "Some assaults are felonies",
+          "Some assaults are misdemeanors",
+          "Some felonies are assaults",
+          "Some felonies are misdemeanors",
+          "Some felonies are not assaults",
+          "Some misdemeanors are assaults",
+          "Some misdemeanors are felonies"
+        ]
+      },
+      {
+        "major premise": "No illegal acts are protected by law",
+        "minor premise": "All tax evasions are illegal acts",
+        "conclusion": "No tax evasions are protected by law",
+        "incorrect conclusions": [
+          "All tax evasions are protected by law",
+          "All illegal acts are protected by law",
+          "Some tax evasions are illegal acts",
+          "Some tax evasions are protected by law",
+          "Some illegal acts are tax evasions",
+          "Some illegal acts are protected by law",
+          "Some illegal acts are not tax evasions",
+          "Some protections by law are tax evasions",
+          "Some protections by law are illegal acts"
+        ]
+      }
+    ]
+  }
+}

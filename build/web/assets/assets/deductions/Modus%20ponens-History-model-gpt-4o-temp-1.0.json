@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "History": [
+      {
+        "premises": [
+          "If the Treaty of Versailles was signed, then World War I ended",
+          "The Treaty of Versailles was signed"
+        ],
+        "conclusions": [
+          "World War I ended"
+        ],
+        "incorrect conclusions": [
+          "World War I did not end",
+          "World War I ending implies that the Treaty of Versailles was signed",
+          "World War I not ending implies that the Treaty of Versailles was signed",
+          "The Treaty of Versailles not being signed implies that World War I did not end"
+        ]
+      },
+      {
+        "premises": [
+          "If Julius Caesar was assassinated, then the Roman Republic faced political turmoil",
+          "Julius Caesar was assassinated"
+        ],
+        "conclusions": [
+          "The Roman Republic faced political turmoil"
+        ],
+        "incorrect conclusions": [
+          "The Roman Republic did not face political turmoil",
+          "The Roman Republic facing political turmoil implies that Julius Caesar was assassinated",
+          "The Roman Republic not facing political turmoil implies that Julius Caesar was assassinated",
+          "Julius Caesar not being assassinated implies that the Roman Republic did not face political turmoil"
+        ]
+      },
+      {
+        "premises": [
+          "If the United States declared independence, then the Revolutionary War occurred",
+          "The United States declared independence"
+        ],
+        "conclusions": [
+          "The Revolutionary War occurred"
+        ],
+        "incorrect conclusions": [
+          "The Revolutionary War did not occur",
+          "The Revolutionary War occurring implies that the United States declared independence",
+          "The Revolutionary War not occurring implies that the United States declared independence",
+          "The United States not declaring independence implies that the Revolutionary War did not occur"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Engineering": {
+     "Fesapo": [
+        {
+          "major premise": "No bridges are minerals",
+          "minor premise": "All minerals are materials and some minerals exist",
+          "conclusion": "Some materials are not bridges",
+          "incorrect conclusions": [
+            "All materials are bridges",
+            "All materials are minerals",
+            "All bridges are materials",
+            "All bridges are minerals",
+            "Some materials are bridges",
+            "Some bridges are materials",
+            "Some bridges are minerals",
+            "Some bridges are not materials",
+            "Some minerals are bridges",
+            "Some minerals are not materials",
+            "No minerals are materials",
+            "No materials are minerals"
+          ]
+        },
+        {
+          "major premise": "No robots are plants",
+          "minor premise": "All plants are organisms and some plants exist",
+          "conclusion": "Some organisms are not robots",
+          "incorrect conclusions": [
+            "All organisms are robots",
+            "All organisms are plants",
+            "All robots are organisms",
+            "All robots are plants",
+            "Some organisms are robots",
+            "Some robots are organisms",
+            "Some robots are plants",
+            "Some robots are not organisms",
+            "Some plants are robots",
+            "Some plants are not organisms",
+            "No plants are organisms",
+            "No organisms are plants"
+          ]
+        },
+        {
+          "major premise": "No engines are stars",
+          "minor premise": "All stars are celestial bodies and some stars exist",
+          "conclusion": "Some celestial bodies are not engines",
+          "incorrect conclusions": [
+            "All celestial bodies are engines",
+            "All celestial bodies are stars",
+            "All engines are celestial bodies",
+            "All engines are stars",
+            "Some celestial bodies are engines",
+            "Some engines are celestial bodies",
+            "Some engines are stars",
+            "Some engines are not celestial bodies",
+            "Some stars are engines",
+            "Some stars are not celestial bodies",
+            "No stars are celestial bodies",
+            "No celestial bodies are stars"
+          ]
+        }
+     ]
+  }
+}

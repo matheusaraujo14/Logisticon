@@ -1,0 +1,54 @@
+{
+  "Mathematics": {
+    "Datisi": [
+      {
+        "major premise": "All numbers are entities",
+        "minor premise": "Some numbers are prime numbers",
+        "conclusion": "Some prime numbers are entities",
+        "incorrect conclusions": [
+          "All prime numbers are numbers",
+          "All prime numbers are entities",
+          "All entities are numbers",
+          "All entities are prime numbers",
+          "All numbers are prime numbers",
+          "Some prime numbers are not entities",
+          "Some prime numbers are not numbers",
+          "Some entities are not numbers",
+          "Some entities are not prime numbers",
+          "Some numbers are not entities",
+          "Some numbers are not prime numbers",
+          "No prime number is an entity",
+          "No prime number is a number",
+          "No number is an entity",
+          "No number is a prime number",
+          "No entity is a number",
+          "No entity is a prime number"
+        ]
+      },
+      {
+        "major premise": "All polygons are shapes",
+        "minor premise": "Some polygons are triangles",
+        "conclusion": "Some triangles are shapes",
+        "incorrect conclusions": [
+          "All triangles are polygons",
+          "All triangles are shapes",
+          "All shapes are polygons",
+          "All shapes are triangles",
+          "All polygons are triangles",
+          "Some triangles are not shapes",
+          "Some triangles are not polygons",
+          "Some shapes are not polygons",
+          "Some shapes are not triangles",
+          "Some polygons are not shapes",
+          "Some polygons are not triangles",
+          "No triangle is a shape",
+          "No triangle is a polygon",
+          "No polygon is a shape",
+          "No polygon is a triangle",
+          "No shape is a polygon",
+          "No shape is a triangle"
+        ]
+      }
+    ]
+  }
+}

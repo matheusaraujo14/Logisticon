@@ -1,0 +1,69 @@
+{
+  "Psychology": {
+    "Calemes": [
+      {
+        "major premise": "All psychologists are scientists",
+        "minor premise": "No scientists are artists",
+        "conclusion": "No artists are psychologists",
+        "incorrect conclusions": [
+          "All scientists are artists",
+          "All scientists are psychologists",
+          "All artists are scientists",
+          "All artists are psychologists",
+          "All psychologists are artists",
+          "Some scientists are psychologists",
+          "Some scientists are not psychologists",
+          "Some scientists are artists",
+          "Some psychologists are artists",
+          "Some psychologists are not scientists",
+          "Some psychologists are scientists",
+          "Some artists are scientists",
+          "Some artists are psychologists",
+          "No psychologists are scientists"
+        ]
+      },
+      {
+        "major premise": "All clinical psychologists are mental health professionals",
+        "minor premise": "No mental health professionals are computer engineers",
+        "conclusion": "No computer engineers are clinical psychologists",
+        "incorrect conclusions": [
+          "All mental health professionals are computer engineers",
+          "All mental health professionals are clinical psychologists",
+          "All computer engineers are mental health professionals",
+          "All computer engineers are clinical psychologists",
+          "All clinical psychologists are computer engineers",
+          "Some mental health professionals are clinical psychologists",
+          "Some mental health professionals are not clinical psychologists",
+          "Some mental health professionals are computer engineers",
+          "Some clinical psychologists are computer engineers",
+          "Some clinical psychologists are not mental health professionals",
+          "Some clinical psychologists are mental health professionals",
+          "Some computer engineers are mental health professionals",
+          "Some computer engineers are clinical psychologists",
+          "No clinical psychologists are mental health professionals"
+        ]
+      },
+      {
+        "major premise": "All behavior analysts are psychologists",
+        "minor premise": "No psychologists are medical doctors",
+        "conclusion": "No medical doctors are behavior analysts",
+        "incorrect conclusions": [
+          "All psychologists are medical doctors",
+          "All psychologists are behavior analysts",
+          "All medical doctors are psychologists",
+          "All medical doctors are behavior analysts",
+          "All behavior analysts are medical doctors",
+          "Some psychologists are behavior analysts",
+          "Some psychologists are not behavior analysts",
+          "Some psychologists are medical doctors",
+          "Some behavior analysts are medical doctors",
+          "Some behavior analysts are not psychologists",
+          "Some behavior analysts are psychologists",
+          "Some medical doctors are psychologists",
+          "Some medical doctors are behavior analysts",
+          "No behavior analysts are psychologists"
+        ]
+      }
+    ]
+  }
+}

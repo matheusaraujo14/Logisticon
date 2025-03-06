@@ -1,0 +1,38 @@
+{
+  "Nutrition": {
+    "Camestres": [
+      {
+        "major premise": "All citrus fruits are fruits",
+        "minor premise": "No dairy products are fruits",
+        "conclusion": "No dairy products are citrus fruits",
+        "incorrect conclusions": [
+          "All citrus fruits are dairy products",
+          "All fruits are dairy products",
+          "Some citrus fruits are fruits",
+          "Some citrus fruits are dairy products",
+          "Some fruits are dairy products",
+          "Some fruits are citrus fruits",
+          "Some dairy products are fruits",
+          "Some dairy products are citrus fruits",
+          "Some fruits are not citrus fruits"
+        ]
+      },
+      {
+        "major premise": "All vegetables are plants",
+        "minor premise": "No fish are plants",
+        "conclusion": "No fish are vegetables",
+        "incorrect conclusions": [
+          "All vegetables are fish",
+          "All plants are fish",
+          "Some vegetables are plants",
+          "Some vegetables are fish",
+          "Some plants are fish",
+          "Some plants are vegetables",
+          "Some fish are plants",
+          "Some fish are vegetables",
+          "Some plants are not vegetables"
+        ]
+      }
+    ]
+  }
+}

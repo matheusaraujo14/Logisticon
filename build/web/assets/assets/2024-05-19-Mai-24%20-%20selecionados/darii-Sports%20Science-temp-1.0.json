@@ -1,0 +1,78 @@
+{
+  "Sports Science": {
+     "Darii": [
+        {
+          "major premise": "All athletes are humans",
+          "minor premise": "Some football players are athletes",
+          "conclusion": "Some football players are humans",
+          "incorrect conclusions": [
+            "All football players are athletes",
+            "All football players are humans",
+            "All humans are athletes",
+            "All humans are football players",
+            "All athletes are football players",
+            "Some football players are not humans",
+            "Some football players are not athletes",
+            "Some humans are not athletes",
+            "Some humans are not football players",
+            "Some athletes are not humans",
+            "Some athletes are not football players",
+            "No football player is human",
+            "No football player is athlete",
+            "No athlete is human",
+            "No athlete is football player",
+            "No human is athlete",
+            "No human is football player"
+          ]
+        },
+        {
+          "major premise": "All coaches are professionals",
+          "minor premise": "Some tennis instructors are coaches",
+          "conclusion": "Some tennis instructors are professionals",
+          "incorrect conclusions": [
+            "All tennis instructors are coaches",
+            "All tennis instructors are professionals",
+            "All professionals are coaches",
+            "All professionals are tennis instructors",
+            "All coaches are tennis instructors",
+            "Some tennis instructors are not professionals",
+            "Some tennis instructors are not coaches",
+            "Some professionals are not coaches",
+            "Some professionals are not tennis instructors",
+            "Some coaches are not professionals",
+            "Some coaches are not tennis instructors",
+            "No tennis instructor is professional",
+            "No tennis instructor is coach",
+            "No coach is professional",
+            "No coach is tennis instructor",
+            "No professional is coach",
+            "No professional is tennis instructor"
+          ]
+        },
+        {
+          "major premise": "All marathon runners are athletes",
+          "minor premise": "Some high school students are marathon runners",
+          "conclusion": "Some high school students are athletes",
+          "incorrect conclusions": [
+            "All high school students are marathon runners",
+            "All high school students are athletes",
+            "All athletes are marathon runners",
+            "All athletes are high school students",
+            "All marathon runners are high school students",
+            "Some high school students are not athletes",
+            "Some high school students are not marathon runners",
+            "Some athletes are not marathon runners",
+            "Some athletes are not high school students",
+            "Some marathon runners are not athletes",
+            "Some marathon runners are not high school students",
+            "No high school student is athlete",
+            "No high school student is marathon runner",
+            "No marathon runner is athlete",
+            "No marathon runner is high school student",
+            "No athlete is marathon runner",
+            "No athlete is high school student"
+          ]
+        }
+     ]
+  }
+}

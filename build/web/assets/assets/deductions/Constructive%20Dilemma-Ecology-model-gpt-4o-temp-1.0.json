@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Ecology": [
+      {
+        "premises": [
+          "If soil is fertile, then plants will grow well",
+          "If there is sufficient sunlight, then plants will grow well",
+          "Soil is fertile or there is sufficient sunlight"
+        ],
+        "conclusions": [
+          "Plants will grow well",
+          "If soil is fertile or there is sufficient sunlight, then plants will grow well",
+          "If plants do not grow well, then soil is not fertile and there is not sufficient sunlight",
+          "If soil is fertile and there is sufficient sunlight, then plants will grow well",
+          "If plants will grow well, then soil is fertile or there is sufficient sunlight"
+        ],
+        "incorrect conclusions": [
+          "If soil is fertile, then there is sufficient sunlight or plants will grow well",
+          "If plants will grow well, then soil is fertile and there is sufficient sunlight",
+          "If plants will grow well or soil is fertile, then there is sufficient sunlight",
+          "If soil is not fertile, then plants will grow well",
+          "If plants do not grow well, then soil is fertile and there is sufficient sunlight"
+        ]
+      },
+      {
+        "premises": [
+          "If water is clean, then fish populations increase",
+          "If there are no predators, then fish populations increase",
+          "Water is clean or there are no predators"
+        ],
+        "conclusions": [
+          "Fish populations increase",
+          "If water is clean or there are no predators, then fish populations increase",
+          "If fish populations do not increase, then water is not clean and there are predators",
+          "If water is clean and there are no predators, then fish populations increase",
+          "If fish populations increase, then water is clean or there are no predators"
+        ],
+        "incorrect conclusions": [
+          "If water is clean, then there are no predators or fish populations increase",
+          "If fish populations increase, then water is clean and there are no predators",
+          "If fish populations increase or water is clean, then there are no predators",
+          "If water is not clean, then fish populations increase",
+          "If fish populations do not increase, then water is clean and there are predators"
+        ]
+      },
+      {
+        "premises": [
+          "If temperatures rise, then ice melts",
+          "If there is volcanic activity, then ice melts",
+          "Temperatures rise or there is volcanic activity"
+        ],
+        "conclusions": [
+          "Ice melts",
+          "If temperatures rise or there is volcanic activity, then ice melts",
+          "If ice does not melt, then temperatures do not rise and there is no volcanic activity",
+          "If temperatures rise and there is volcanic activity, then ice melts",
+          "If ice melts, then temperatures rise or there is volcanic activity"
+        ],
+        "incorrect conclusions": [
+          "If temperatures rise, then there is volcanic activity or ice melts",
+          "If ice melts, then temperatures rise and there is volcanic activity",
+          "If ice melts or temperatures rise, then there is volcanic activity",
+          "If temperatures do not rise, then ice melts",
+          "If ice does not melt, then temperatures rise and there is volcanic activity"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Sociology": [
+      {
+        "premises": [
+          "If people feel socially isolated, then they may experience depression"
+        ],
+        "conclusions": [
+          "If people do not experience depression, then they do not feel socially isolated"
+        ],
+        "incorrect conclusions": [
+          "People feel socially isolated",
+          "People do not feel socially isolated",
+          "People experience depression",
+          "People do not experience depression",
+          "If people experience depression, then they feel socially isolated",
+          "If people do not experience depression, then they feel socially isolated",
+          "If people do not feel socially isolated, then they do not experience depression"
+        ]
+      },
+      {
+        "premises": [
+          "If a community fosters strong social connections, then it reduces crime rates"
+        ],
+        "conclusions": [
+          "If a community does not reduce crime rates, then it does not foster strong social connections"
+        ],
+        "incorrect conclusions": [
+          "A community fosters strong social connections",
+          "A community does not foster strong social connections",
+          "A community reduces crime rates",
+          "A community does not reduce crime rates",
+          "If a community reduces crime rates, then it fosters strong social connections",
+          "If a community does not reduce crime rates, then it fosters strong social connections",
+          "If a community does not foster strong social connections, then it does not reduce crime rates"
+        ]
+      },
+      {
+        "premises": [
+          "If there is economic inequality, then there is social stratification"
+        ],
+        "conclusions": [
+          "If there is no social stratification, then there is no economic inequality"
+        ],
+        "incorrect conclusions": [
+          "There is economic inequality",
+          "There is no economic inequality",
+          "There is social stratification",
+          "There is no social stratification",
+          "If there is social stratification, then there is economic inequality",
+          "If there is no social stratification, then there is economic inequality",
+          "If there is no economic inequality, then there is no social stratification"
+        ]
+      }
+    ]
+  }
+}

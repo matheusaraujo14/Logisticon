@@ -1,0 +1,30 @@
+{
+  "Law": {
+    "Datisi": [
+      {
+        "major premise": "All judges are legal professionals",
+        "minor premise": "Some judges are lawyers",
+        "conclusion": "Some lawyers are legal professionals",
+        "incorrect conclusions": [
+          "All lawyers are judges",
+          "All lawyers are legal professionals",
+          "All legal professionals are judges",
+          "All legal professionals are lawyers",
+          "All judges are lawyers",
+          "Some lawyers are not legal professionals",
+          "Some lawyers are not judges",
+          "Some legal professionals are not judges",
+          "Some legal professionals are not lawyers",
+          "Some judges are not legal professionals",
+          "Some judges are not lawyers",
+          "No lawyers are legal professionals",
+          "No lawyers are judges",
+          "No judges are legal professionals",
+          "No judges are lawyers",
+          "No legal professionals are judges",
+          "No legal professionals are lawyers"
+        ]
+      }
+    ]
+  }
+}

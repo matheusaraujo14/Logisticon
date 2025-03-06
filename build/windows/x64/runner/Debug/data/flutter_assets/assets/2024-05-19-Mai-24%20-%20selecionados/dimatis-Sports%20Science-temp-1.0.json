@@ -1,0 +1,75 @@
+{
+  "Sports Science": {
+    "Dimatis": [
+      {
+        "major premise": "Some sports physiotherapists are sports scientists",
+        "minor premise": "All sports scientists are human beings",
+        "conclusion": "Some human beings are sports physiotherapists",
+        "incorrect conclusions": [
+          "All human beings are sports physiotherapists",
+          "All human beings are sports scientists",
+          "All sports physiotherapists are human beings",
+          "All sports physiotherapists are sports scientists",
+          "All sports scientists are sports physiotherapists",
+          "Some human beings are not sports scientists",
+          "Some sports physiotherapists are not human beings",
+          "Some sports physiotherapists are not sports scientists",
+          "Some sports scientists are not human beings",
+          "Some sports scientists are not sports physiotherapists",
+          "No sports physiotherapist is a human being",
+          "No sports physiotherapist is a sports scientist",
+          "No sports scientist is a human being",
+          "No sports scientist is a sports physiotherapist",
+          "No human being is a sports scientist",
+          "No human being is a sports physiotherapist"
+        ]
+      },
+      {
+        "major premise": "Some sports psychologists are sports coaches",
+        "minor premise": "All sports coaches are professionals",
+        "conclusion": "Some professionals are sports psychologists",
+        "incorrect conclusions": [
+          "All professionals are sports psychologists",
+          "All professionals are sports coaches",
+          "All sports psychologists are professionals",
+          "All sports psychologists are sports coaches",
+          "All sports coaches are sports psychologists",
+          "Some professionals are not sports coaches",
+          "Some sports psychologists are not professionals",
+          "Some sports psychologists are not sports coaches",
+          "Some sports coaches are not professionals",
+          "Some sports coaches are not sports psychologists",
+          "No sports psychologist is a professional",
+          "No sports psychologist is a sports coach",
+          "No sports coach is a professional",
+          "No sports coach is a sports psychologist",
+          "No professional is a sports coach",
+          "No professional is a sports psychologist"
+        ]
+      },
+      {
+        "major premise": "Some sports nutritionists are athletes",
+        "minor premise": "All athletes are competitors",
+        "conclusion": "Some competitors are sports nutritionists",
+        "incorrect conclusions": [
+          "All competitors are sports nutritionists",
+          "All competitors are athletes",
+          "All sports nutritionists are competitors",
+          "All sports nutritionists are athletes",
+          "All athletes are sports nutritionists",
+          "Some competitors are not athletes",
+          "Some sports nutritionists are not competitors",
+          "Some sports nutritionists are not athletes",
+          "Some athletes are not competitors",
+          "Some athletes are not sports nutritionists",
+          "No sports nutritionist is a competitor",
+          "No sports nutritionist is an athlete",
+          "No athlete is a competitor",
+          "No athlete is a sports nutritionist",
+          "No competitor is an athlete",
+          "No competitor is a sports nutritionist"
+        ]
+      }
+    ]
+  }
+}

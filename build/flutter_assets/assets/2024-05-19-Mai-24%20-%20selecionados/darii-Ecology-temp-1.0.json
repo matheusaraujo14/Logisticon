@@ -1,0 +1,78 @@
+{
+  "Ecology": {
+    "Darii" : [
+      {
+        "major premise": "All forest mammals are mammals",
+        "minor premise": "Some deer are forest mammals",
+        "conclusion": "Some deer are mammals",
+        "incorrect conclusions": [
+          "All deer are forest mammals",
+          "All deer are mammals",
+          "All mammals are forest mammals",
+          "All mammals are deer",
+          "All forest mammals are deer",
+          "Some deer are not mammals",
+          "Some deer are not forest mammals",
+          "Some mammals are not forest mammals",
+          "Some mammals are not deer",
+          "Some forest mammals are not mammals",
+          "Some forest mammals are not deer",
+          "No deer is mammal",
+          "No deer is forest mammal",
+          "No forest mammal is mammal",
+          "No forest mammal is deer",
+          "No mammal is forest mammal",
+          "No mammal is deer"
+        ]
+      },
+      {
+        "major premise": "All tropical birds are birds",
+        "minor premise": "Some parrots are tropical birds",
+        "conclusion": "Some parrots are birds",
+        "incorrect conclusions": [
+          "All parrots are tropical birds",
+          "All parrots are birds",
+          "All birds are tropical birds",
+          "All birds are parrots",
+          "All tropical birds are parrots",
+          "Some parrots are not birds",
+          "Some parrots are not tropical birds",
+          "Some birds are not tropical birds",
+          "Some birds are not parrots",
+          "Some tropical birds are not birds",
+          "Some tropical birds are not parrots",
+          "No parrot is bird",
+          "No parrot is tropical bird",
+          "No tropical bird is bird",
+          "No tropical bird is parrot",
+          "No bird is tropical bird",
+          "No bird is parrot"
+        ]
+      },
+      {
+        "major premise": "All sea algae are algae",
+        "minor premise": "Some kelp are sea algae",
+        "conclusion": "Some kelp are algae",
+        "incorrect conclusions": [
+          "All kelp are sea algae",
+          "All kelp are algae",
+          "All algae are sea algae",
+          "All algae are kelp",
+          "All sea algae are kelp",
+          "Some kelp are not algae",
+          "Some kelp are not sea algae",
+          "Some algae are not sea algae",
+          "Some algae are not kelp",
+          "Some sea algae are not algae",
+          "Some sea algae are not kelp",
+          "No kelp is algae",
+          "No kelp is sea algae",
+          "No sea algae is algae",
+          "No sea algae is kelp",
+          "No algae is sea algae",
+          "No algae is kelp"
+        ]
+      }
+    ]
+  }
+}

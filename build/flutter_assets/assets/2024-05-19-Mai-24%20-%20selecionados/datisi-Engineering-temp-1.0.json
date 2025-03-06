@@ -1,0 +1,30 @@
+{
+  "Engineering": {
+    "Datisi": [
+      {
+        "major premise": "All circuits are devices",
+        "minor premise": "Some devices are tools",
+        "conclusion": "Some tools are devices",
+        "incorrect conclusions": [
+          "All tools are circuits",
+          "All tools are devices",
+          "All devices are circuits",
+          "All devices are tools",
+          "All circuits are tools",
+          "Some tools are not devices",
+          "Some tools are not circuits",
+          "Some devices are not circuits",
+          "Some devices are not tools",
+          "Some circuits are not devices",
+          "Some circuits are not tools",
+          "No tools is devices",
+          "No tools is circuits",
+          "No circuits is devices",
+          "No circuits is tools",
+          "No devices is circuits",
+          "No devices is tools"
+        ]
+      }
+    ]
+  }
+}

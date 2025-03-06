@@ -1,0 +1,52 @@
+{
+  "Sociology": {
+    "Ferio": [
+      {
+        "major premise": "No teenagers are sociologists",
+        "minor premise": "Some students are teenagers",
+        "conclusion": "Some students are not sociologists",
+        "incorrect conclusions": [
+          "All teenagers are students",
+          "All teenagers are sociologists",
+          "All students are sociologists",
+          "All sociologists are teenagers",
+          "All sociologists are students",
+          "Some teenagers are not students",
+          "Some sociologists are students",
+          "Some sociologists are not students",
+          "Some sociologists are teenagers",
+          "Some sociologists are students",
+          "Some students are sociologists",
+          "Some students are not teenagers",
+          "Some teenagers are sociologists",
+          "No teenagers are students",
+          "No students are not teenagers",
+          "No students are teenagers"
+        ]
+      },
+      {
+        "major premise": "No sociologists are economists",
+        "minor premise": "Some researchers are sociologists",
+        "conclusion": "Some researchers are not economists",
+        "incorrect conclusions": [
+          "All sociologists are researchers",
+          "All sociologists are economists",
+          "All researchers are economists",
+          "All economists are sociologists",
+          "All economists are researchers",
+          "Some sociologists are not researchers",
+          "Some economists are researchers",
+          "Some economists are not researchers",
+          "Some economists are sociologists",
+          "Some economists are researchers",
+          "Some researchers are economists",
+          "Some researchers are not sociologists",
+          "Some sociologists are economists",
+          "No sociologists are researchers",
+          "No researchers are not sociologists",
+          "No researchers are sociologists"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Computer Science": {
+    "Datisi": [
+      {
+        "major premise": "All algorithms are processes",
+        "minor premise": "Some algorithms are sorts",
+        "conclusion": "Some sorts are processes",
+        "incorrect conclusions": [
+          "All sorts are algorithms",
+          "All sorts are processes",
+          "All processes are algorithms",
+          "All processes are sorts",
+          "All algorithms are sorts",
+          "Some sorts are not processes",
+          "Some sorts are not algorithms",
+          "Some processes are not algorithms",
+          "Some processes are not sorts",
+          "Some algorithms are not processes",
+          "Some algorithms are not sorts",
+          "No sorts is processes",
+          "No sorts is algorithms",
+          "No algorithms is processes",
+          "No algorithms is sorts",
+          "No processes is algorithms",
+          "No processes is sorts"
+        ]
+      },
+      {
+        "major premise": "All programming languages are formal systems",
+        "minor premise": "Some programming languages are scripting languages",
+        "conclusion": "Some scripting languages are formal systems",
+        "incorrect conclusions": [
+          "All scripting languages are programming languages",
+          "All scripting languages are formal systems",
+          "All formal systems are programming languages",
+          "All formal systems are scripting languages",
+          "All programming languages are scripting languages",
+          "Some scripting languages are not formal systems",
+          "Some scripting languages are not programming languages",
+          "Some formal systems are not programming languages",
+          "Some formal systems are not scripting languages",
+          "Some programming languages are not formal systems",
+          "Some programming languages are not scripting languages",
+          "No scripting languages is formal systems",
+          "No scripting languages is programming languages",
+          "No programming languages is formal systems",
+          "No programming languages is scripting languages",
+          "No formal systems is programming languages",
+          "No formal systems is scripting languages"
+        ]
+      }
+    ]
+  }
+}

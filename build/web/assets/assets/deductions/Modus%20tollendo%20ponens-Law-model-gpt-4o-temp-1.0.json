@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Law": [
+      {
+          "premises": [ 
+            "The suspect was at the crime scene or has a valid alibi but not both at the same time",
+            "The suspect does not have a valid alibi"
+          ],
+          "conclusions": [
+            "The suspect was at the crime scene",
+            "If the suspect was not at the crime scene, then they have a valid alibi"
+          ],
+          "incorrect conclusions": [
+            "The suspect was not at the crime scene",
+            "If the suspect was at the crime scene, then they have a valid alibi",
+            "If the suspect has a valid alibi, then they were at the crime scene",
+            "The suspect has a valid alibi"
+          ]
+      },
+      {
+          "premises": [ 
+            "The defendant committed the crime or has an ironclad defense but not both at the same time",
+            "The defendant does not have an ironclad defense"
+          ],
+          "conclusions": [
+            "The defendant committed the crime",
+            "If the defendant did not commit the crime, then they have an ironclad defense"
+          ],
+          "incorrect conclusions": [
+            "The defendant did not commit the crime",
+            "If the defendant committed the crime, then they have an ironclad defense",
+            "If the defendant has an ironclad defense, then they committed the crime",
+            "The defendant has an ironclad defense"
+          ]
+      },
+      {
+          "premises": [ 
+            "The witness is telling the truth or the evidence is forged but not both at the same time",
+            "The evidence is not forged"
+          ],
+          "conclusions": [
+            "The witness is telling the truth",
+            "If the witness is not telling the truth, then the evidence is forged"
+          ],
+          "incorrect conclusions": [
+            "The witness is not telling the truth",
+            "If the witness is telling the truth, then the evidence is forged",
+            "If the evidence is forged, then the witness is telling the truth",
+            "The evidence is forged"
+          ]
+      }
+    ]
+  }
+}

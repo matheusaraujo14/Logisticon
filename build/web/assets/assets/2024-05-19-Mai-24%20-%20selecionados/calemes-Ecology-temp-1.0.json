@@ -1,0 +1,69 @@
+{
+  "Ecology": {
+     "Calemes" : [
+		{
+          "major premise": "All trees are plants",
+          "minor premise": "No plants are animals",
+          "conclusion": "No animals is a tree",
+		  "incorrect conclusions": [
+			"All plants are animals",
+			"All plants are trees",
+			"All animals are plants",
+			"All animals are trees",
+			"All trees are animals",
+			"Some plants are trees",
+			"Some plants are not trees",
+			"Some plants are animals",
+			"Some trees are animals",
+			"Some trees are not plants",
+			"Some trees are plants",
+			"Some animals are plants",
+			"Some animals are trees",
+			"No trees are plants"
+		  ]
+		},
+		{
+          "major premise": "All insects are arthropods",
+          "minor premise": "No arthropods are mammals",
+          "conclusion": "No mammals is an insect",
+		  "incorrect conclusions": [
+			"All arthropods are mammals",
+			"All arthropods are insects",
+			"All mammals are arthropods",
+			"All mammals are insects",
+			"All insects are mammals",
+			"Some arthropods are insects",
+			"Some arthropods are not insects",
+			"Some arthropods are mammals",
+			"Some insects are mammals",
+			"Some insects are not arthropods",
+			"Some insects are arthropods",
+			"Some mammals are arthropods",
+			"Some mammals are insects",
+			"No insects are arthropods"
+		  ]
+		},
+		{
+          "major premise": "All predators are animals",
+          "minor premise": "No animals are minerals",
+          "conclusion": "No minerals is a predator",
+		  "incorrect conclusions": [
+			"All animals are minerals",
+			"All animals are predators",
+			"All minerals are animals",
+			"All minerals are predators",
+			"All predators are minerals",
+			"Some animals are predators",
+			"Some animals are not predators",
+			"Some animals are minerals",
+			"Some predators are minerals",
+			"Some predators are not animals",
+			"Some predators are animals",
+			"Some minerals are animals",
+			"Some minerals are predators",
+			"No predators are animals"
+		  ]
+		}
+	 ]
+  }
+}

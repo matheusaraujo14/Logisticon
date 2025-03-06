@@ -1,0 +1,75 @@
+{
+  "Physics": {
+     "Dimatis": [
+		{
+          "major premise": "Some electrons are fermions",
+          "minor premise": "All fermions are particles",
+          "conclusion": "Some particles are electrons",
+		  "incorrect conclusions": [
+			"All particles are electrons",
+			"All particles are fermions",
+			"All electrons are particles",
+			"All electrons are fermions",
+			"All fermions are electrons",
+			"Some particles are not fermions",
+			"Some electrons are not particles",
+			"Some electrons are not fermions",
+			"Some fermions are not particles",
+			"Some fermions are not electrons",
+			"No electrons is a particle",
+			"No electrons is a fermion",
+			"No fermions is a particle",
+			"No fermions is an electron",
+			"No particles is a fermion",
+			"No particles is an electron"
+		  ]
+		},
+		{
+          "major premise": "Some gamma rays are electromagnetic waves",
+          "minor premise": "All electromagnetic waves are radiation",
+          "conclusion": "Some radiation are gamma rays",
+		  "incorrect conclusions": [
+			"All radiation are gamma rays",
+			"All radiation are electromagnetic waves",
+			"All gamma rays are radiation",
+			"All gamma rays are electromagnetic waves",
+			"All electromagnetic waves are gamma rays",
+			"Some radiation are not electromagnetic waves",
+			"Some gamma rays are not radiation",
+			"Some gamma rays are not electromagnetic waves",
+			"Some electromagnetic waves are not radiation",
+			"Some electromagnetic waves are not gamma rays",
+			"No gamma rays is a radiation",
+			"No gamma rays is an electromagnetic wave",
+			"No electromagnetic waves is a radiation",
+			"No electromagnetic waves is a gamma ray",
+			"No radiation is an electromagnetic wave",
+			"No radiation is a gamma ray"
+		  ]
+		},
+		{
+          "major premise": "Some quarks are matter particles",
+          "minor premise": "All matter particles are subatomic particles",
+          "conclusion": "Some subatomic particles are quarks",
+		  "incorrect conclusions": [
+			"All subatomic particles are quarks",
+			"All subatomic particles are matter particles",
+			"All quarks are subatomic particles",
+			"All quarks are matter particles",
+			"All matter particles are quarks",
+			"Some subatomic particles are not matter particles",
+			"Some quarks are not subatomic particles",
+			"Some quarks are not matter particles",
+			"Some matter particles are not subatomic particles",
+			"Some matter particles are not quarks",
+			"No quarks is a subatomic particles",
+			"No quarks is a matter particles",
+			"No matter particles is a subatomic particles",
+			"No matter particles is a quark",
+			"No subatomic particles is a matter particles",
+			"No subatomic particles is a quark"
+		  ]
+		}
+     ]
+  }
+}

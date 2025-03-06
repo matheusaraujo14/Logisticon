@@ -1,0 +1,78 @@
+{
+  "Literature": {
+     "Darii" : [
+        {
+          "major premise": "All novels are literary works",
+          "minor premise": "Some fiction are novels",
+          "conclusion": "Some fiction are literary works",
+          "incorrect conclusions": [
+            "All fiction are novels",
+            "All fiction are literary works",
+            "All literary works are novels",
+            "All literary works are fiction",
+            "All novels are fiction",
+            "Some fiction are not literary works",
+            "Some fiction are not novels",
+            "Some literary works are not novels",
+            "Some literary works are not fiction",
+            "Some novels are not literary works",
+            "Some novels are not fiction",
+            "No fiction is literary works",
+            "No fiction is novel",
+            "No novel is literary works",
+            "No novel is fiction",
+            "No literary works is novels",
+            "No literary works is fiction"
+          ]
+        },
+        {
+          "major premise": "All poets are authors",
+          "minor premise": "Some novelists are poets",
+          "conclusion": "Some novelists are authors",
+          "incorrect conclusions": [
+            "All novelists are poets",
+            "All novelists are authors",
+            "All authors are poets",
+            "All authors are novelists",
+            "All poets are novelists",
+            "Some novelists are not authors",
+            "Some novelists are not poets",
+            "Some authors are not poets",
+            "Some authors are not novelists",
+            "Some poets are not authors",
+            "Some poets are not novelists",
+            "No novelists is authors",
+            "No novelists is poets",
+            "No poets is authors",
+            "No poets is novelists",
+            "No authors is poets",
+            "No authors is novelists"
+          ]
+        },
+        {
+          "major premise": "All genres are categories",
+          "minor premise": "Some themes are genres",
+          "conclusion": "Some themes are categories",
+          "incorrect conclusions": [
+            "All themes are genres",
+            "All themes are categories",
+            "All categories are genres",
+            "All categories are themes",
+            "All genres are themes",
+            "Some themes are not categories",
+            "Some themes are not genres",
+            "Some categories are not genres",
+            "Some categories are not themes",
+            "Some genres are not categories",
+            "Some genres are not themes",
+            "No themes is categories",
+            "No themes is genres",
+            "No genres is categories",
+            "No genres is themes",
+            "No categories is genres",
+            "No categories is themes"
+          ]
+        }
+      ]
+  }
+}

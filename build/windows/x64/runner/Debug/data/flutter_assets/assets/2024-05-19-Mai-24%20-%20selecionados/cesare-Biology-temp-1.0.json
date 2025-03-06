@@ -1,0 +1,38 @@
+{
+  "Biology": {
+    "Cesare": [
+      {
+        "major premise": "No reptiles are birds",
+        "minor premise": "All lizards are reptiles",
+        "conclusion": "No lizards are birds",
+        "incorrect conclusions": [
+          "All lizards are birds",
+          "All reptiles are birds",
+          "Some lizards are reptiles",
+          "Some lizards are birds",
+          "Some reptiles are lizards",
+          "Some reptiles are birds",
+          "Some reptiles are not lizards",
+          "Some birds are lizards",
+          "Some birds are reptiles"
+        ]
+      },
+      {
+        "major premise": "No amphibians are mammals",
+        "minor premise": "All frogs are amphibians",
+        "conclusion": "No frogs are mammals",
+        "incorrect conclusions": [
+          "All frogs are mammals",
+          "All amphibians are mammals",
+          "Some frogs are amphibians",
+          "Some frogs are mammals",
+          "Some amphibians are frogs",
+          "Some amphibians are mammals",
+          "Some amphibians are not frogs",
+          "Some mammals are frogs",
+          "Some mammals are amphibians"
+        ]
+      }
+    ]
+  }
+}

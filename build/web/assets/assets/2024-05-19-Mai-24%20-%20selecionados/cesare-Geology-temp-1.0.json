@@ -1,0 +1,22 @@
+{
+  "Geology": {
+     "Cesare": [
+		{
+          "major premise": "No igneous rocks are metamorphic rocks",
+          "minor premise": "All basalt are metamorphic rocks",
+          "conclusion": "No basalt are igneous rocks",
+		  "incorrect conclusions": [
+            "All basalt are igneous rocks",
+            "All metamorphic rocks are igneous rocks",
+            "Some basalt are metamorphic rocks",
+            "Some basalt are igneous rocks",
+            "Some metamorphic rocks are basalt",
+            "Some metamorphic rocks are igneous rocks",
+            "Some metamorphic rocks are not basalt",
+            "Some igneous rocks are basalt",
+            "Some igneous rocks are metamorphic rocks"
+          ]
+		}
+	 ]
+  }
+}

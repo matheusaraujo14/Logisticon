@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Economics": [
+      {
+        "premises": [
+          "If the government increases spending, then it does not decrease taxes",
+          "If the government increases spending, then it boosts economic growth"
+        ],
+        "conclusions": [
+          "If the government increases spending, then it does not decrease taxes and boosts economic growth",
+          "If the government increases spending, then it does not decrease taxes or boosts economic growth",
+          "If the government decreases taxes, then it does not increase spending",
+          "If the government does not boost economic growth, then it does not increase spending",
+          "If the government decreases taxes or does not boost economic growth, then it does not increase spending"
+        ],
+        "incorrect conclusions": [
+          "If the government decreases taxes, economic growth is not boosted",
+          "If economic growth is not boosted, taxes are decreased",
+          "If the government does not decrease taxes, then it boosts economic growth",
+          "If the government boosts economic growth, then it does not decrease taxes",
+          "If the government does not decrease taxes and boosts economic growth, then it increases spending",
+          "If the government does not decrease taxes or boosts economic growth, then it increases spending",
+          "If the government decreases taxes or does not increase spending, then it increases spending"
+        ]
+      },
+      {
+        "premises": [
+          "If unemployment rises, then consumption falls",
+          "If unemployment rises, then inflation falls"
+        ],
+        "conclusions": [
+          "If unemployment rises, then consumption falls and inflation falls",
+          "If unemployment rises, then consumption falls or inflation falls",
+          "If consumption does not fall, then unemployment does not rise",
+          "If inflation does not fall, then unemployment does not rise",
+          "If consumption does not fall or inflation does not fall, then unemployment does not rise"
+        ],
+        "incorrect conclusions": [
+          "If consumption does not fall, inflation does not fall",
+          "If inflation does not fall, consumption does not fall",
+          "If consumption does not fall, then inflation falls",
+          "If inflation falls, then consumption falls",
+          "If consumption does not fall and inflation falls, then unemployment rises",
+          "If consumption does not fall or inflation falls, then unemployment rises",
+          "If consumption does not fall or unemployment does not rise, then unemployment rises"
+        ]
+      },
+      {
+        "premises": [
+          "If interest rates go up, then borrowing decreases",
+          "If interest rates go up, then savings increase"
+        ],
+        "conclusions": [
+          "If interest rates go up, then borrowing decreases and savings increase",
+          "If interest rates go up, then borrowing decreases or savings increase",
+          "If borrowing does not decrease, then interest rates do not go up",
+          "If savings do not increase, then interest rates do not go up",
+          "If borrowing does not decrease or savings do not increase, then interest rates do not go up"
+        ],
+        "incorrect conclusions": [
+          "If borrowing does not decrease, savings do not increase",
+          "If savings do not increase, borrowing decreases",
+          "If borrowing does not decrease, then savings increase",
+          "If savings increase, then borrowing decreases",
+          "If borrowing does not decrease and savings increase, then interest rates go up",
+          "If borrowing does not decrease or savings increase, then interest rates go up",
+          "If borrowing does not decrease or interest rates do not go up, then interest rates go up"
+        ]
+      }
+    ]
+  }
+}

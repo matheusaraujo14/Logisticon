@@ -1,0 +1,57 @@
+{
+  "Economics": {
+    "Baroco": [
+      {
+        "major premise": "All GDP calculations are economic indicators",
+        "minor premise": "Some consumption patterns are not economic indicators",
+        "conclusion": "Some consumption patterns are not GDP calculations",
+        "incorrect conclusions": [
+          "All consumption patterns are not economic indicators",
+          "All consumption patterns are GDP calculations",
+          "All consumption patterns are economic indicators",
+          "Some GDP calculations are consumption patterns",
+          "Some GDP calculations are not consumption patterns",
+          "Some GDP calculations are not economic indicators",
+          "Some consumption patterns are economic indicators",
+          "Some consumption patterns are GDP calculations",
+          "Some economic indicators are not GDP calculations",
+          "Some economic indicators are consumption patterns"
+        ]
+      },
+      {
+        "major premise": "All tax policies are government interventions",
+        "minor premise": "Some financial crises are not government interventions",
+        "conclusion": "Some financial crises are not tax policies",
+        "incorrect conclusions": [
+          "All financial crises are not government interventions",
+          "All financial crises are tax policies",
+          "All financial crises are government interventions",
+          "Some tax policies are financial crises",
+          "Some tax policies are not financial crises",
+          "Some tax policies are not government interventions",
+          "Some financial crises are government interventions",
+          "Some financial crises are tax policies",
+          "Some government interventions are not tax policies",
+          "Some government interventions are financial crises"
+        ]
+      },
+      {
+        "major premise": "All unemployment rates are macroeconomic indicators",
+        "minor premise": "Some fiscal policies are not macroeconomic indicators",
+        "conclusion": "Some fiscal policies are not unemployment rates",
+        "incorrect conclusions": [
+          "All fiscal policies are not macroeconomic indicators",
+          "All fiscal policies are unemployment rates",
+          "All fiscal policies are macroeconomic indicators",
+          "Some unemployment rates are fiscal policies",
+          "Some unemployment rates are not fiscal policies",
+          "Some unemployment rates are not macroeconomic indicators",
+          "Some fiscal policies are macroeconomic indicators",
+          "Some fiscal policies are unemployment rates",
+          "Some macroeconomic indicators are not unemployment rates",
+          "Some macroeconomic indicators are fiscal policies"
+        ]
+      }
+    ]
+  }
+}

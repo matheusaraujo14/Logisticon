@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Sociology": [
+        {
+          "premises": [
+            "If unemployment rises, then social unrest increases",
+            "If inflation rises, then social unrest increases",
+            "Unemployment rises or inflation rises"
+          ],
+          "conclusions": [
+            "Social unrest increases",
+            "If unemployment rises or inflation rises, then social unrest increases",
+            "If social unrest does not increase, then unemployment does not rise and inflation does not rise",
+            "If unemployment rises and inflation rises, then social unrest increases",
+            "If social unrest increases, then unemployment rises or inflation rises"
+          ],
+          "incorrect conclusions": [
+            "If unemployment rises, then inflation rises or social unrest increases",
+            "If social unrest increases, then unemployment rises and inflation rises",
+            "If social unrest increases or unemployment rises, then inflation rises",
+            "If unemployment does not rise, then social unrest increases",
+            "If social unrest does not increase, then unemployment rises and inflation rises"
+          ]
+        },
+        {
+          "premises": [
+            "If social media usage increases, then social isolation increases",
+            "If work from home increases, then social isolation increases",
+            "Social media usage increases or work from home increases"
+          ],
+          "conclusions": [
+            "Social isolation increases",
+            "If social media usage increases or work from home increases, then social isolation increases",
+            "If social isolation does not increase, then social media usage does not increase and work from home does not increase",
+            "If social media usage increases and work from home increases, then social isolation increases",
+            "If social isolation increases, then social media usage increases or work from home increases"
+          ],
+          "incorrect conclusions": [
+            "If social media usage increases, then work from home increases or social isolation increases",
+            "If social isolation increases, then social media usage increases and work from home increases",
+            "If social isolation increases or social media usage increases, then work from home increases",
+            "If social media usage does not increase, then social isolation increases",
+            "If social isolation does not increase, then social media usage increases and work from home increases"
+          ]
+        },
+        {
+          "premises": [
+            "If community programs are funded, then crime rates decrease",
+            "If afterschool activities are provided, then crime rates decrease",
+            "Community programs are funded or afterschool activities are provided"
+          ],
+          "conclusions": [
+            "Crime rates decrease",
+            "If community programs are funded or afterschool activities are provided, then crime rates decrease",
+            "If crime rates do not decrease, then community programs are not funded and afterschool activities are not provided",
+            "If community programs are funded and afterschool activities are provided, then crime rates decrease",
+            "If crime rates decrease, then community programs are funded or afterschool activities are provided"
+          ],
+          "incorrect conclusions": [
+            "If community programs are funded, then afterschool activities are provided or crime rates decrease",
+            "If crime rates decrease, then community programs are funded and afterschool activities are provided",
+            "If crime rates decrease or community programs are funded, then afterschool activities are provided",
+            "If community programs are not funded, then crime rates decrease",
+            "If crime rates do not decrease, then community programs are funded and afterschool activities are provided"
+          ]
+        }
+     ]
+  }
+}

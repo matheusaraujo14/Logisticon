@@ -1,0 +1,44 @@
+{
+  "Law": {
+    "Fesapo": [
+      {
+        "major premise": "No criminals are landlords",
+        "minor premise": "All landlords are citizens and some landlords exist",
+        "conclusion": "Some citizens are not criminals",
+        "incorrect conclusions": [
+          "All citizens are criminals",
+          "All citizens are landlords",
+          "All criminals are citizens",
+          "All criminals are landlords",
+          "Some citizens are criminals",
+          "Some criminals are citizens",
+          "Some criminals are landlords",
+          "Some criminals are not citizens",
+          "Some landlords are criminals",
+          "Some landlords are not citizens",
+          "No landlords are citizens",
+          "No citizens are landlords"
+        ]
+      },
+      {
+        "major premise": "No felons are attorneys",
+        "minor premise": "All attorneys are residents and some attorneys exist",
+        "conclusion": "Some residents are not felons",
+        "incorrect conclusions": [
+          "All residents are felons",
+          "All residents are attorneys",
+          "All felons are residents",
+          "All felons are attorneys",
+          "Some residents are felons",
+          "Some felons are residents",
+          "Some felons are attorneys",
+          "Some felons are not residents",
+          "Some attorneys are felons",
+          "Some attorneys are not residents",
+          "No attorneys are residents",
+          "No residents are attorneys"
+        ]
+      }
+    ]
+  }
+}

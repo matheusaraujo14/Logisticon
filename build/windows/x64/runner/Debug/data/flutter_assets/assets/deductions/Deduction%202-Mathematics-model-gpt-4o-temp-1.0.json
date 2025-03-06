@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Mathematics": [
+      {
+        "premises": [ 
+          "If a number is divisible by 4, then it is not prime",
+          "If a number is divisible by 4, then it is even"
+        ],
+        "conclusions": [
+          "If a number is divisible by 4, then it is not prime and even",
+          "If a number is divisible by 4, then it is not prime or even",
+          "If a number is prime, then it is not divisible by 4",
+          "If a number is not even, then it is not divisible by 4",
+          "If a number is prime or not even, then it is not divisible by 4"
+        ],
+        "incorrect conclusions": [
+          "If a number is prime, then it is not even",
+          "If a number is not even, then it is prime",
+          "If a number is not prime, then it is even",
+          "If a number is even, then it is not prime",
+          "If a number is not prime and even, then it is divisible by 4",
+          "If a number is not prime or even, then it is divisible by 4",
+          "If a number is prime or not divisible by 4, then it is divisible by 4"
+        ]
+      },
+      {
+        "premises": [
+          "If a shape is a square, then it does not have three sides",
+          "If a shape is a square, then it has four sides"
+        ],
+        "conclusions": [
+          "If a shape is a square, then it does not have three sides and has four sides",
+          "If a shape is a square, then it does not have three sides or has four sides",
+          "If a shape has three sides, then it is not a square",
+          "If a shape does not have four sides, then it is not a square",
+          "If a shape has three sides or does not have four sides, then it is not a square"
+        ],
+        "incorrect conclusions": [
+          "If a shape has three sides, then it does not have four sides",
+          "If a shape does not have four sides, then it has three sides",
+          "If a shape does not have three sides, then it has four sides",
+          "If a shape has four sides, then it does not have three sides",
+          "If a shape does not have three sides and has four sides, then it is a square",
+          "If a shape does not have three sides or has four sides, then it is a square",
+          "If a shape has three sides or is not a square, then it is a square"
+        ]
+      },
+      {
+        "premises": [
+          "If a function is linear, then it is not quadratic",
+          "If a function is linear, then it has a constant rate of change"
+        ],
+        "conclusions": [
+          "If a function is linear, then it is not quadratic and has a constant rate of change",
+          "If a function is linear, then it is not quadratic or has a constant rate of change",
+          "If a function is quadratic, then it is not linear",
+          "If a function does not have a constant rate of change, then it is not linear",
+          "If a function is quadratic or does not have a constant rate of change, then it is not linear"
+        ],
+        "incorrect conclusions": [
+          "If a function is quadratic, then it does not have a constant rate of change",
+          "If a function does not have a constant rate of change, then it is quadratic",
+          "If a function is not quadratic, then it has a constant rate of change",
+          "If a function has a constant rate of change, then it is not quadratic",
+          "If a function is not quadratic and has a constant rate of change, then it is linear",
+          "If a function is not quadratic or has a constant rate of change, then it is linear",
+          "If a function is quadratic or not linear, then it is linear"
+        ]
+      }
+    ]
+  }
+}

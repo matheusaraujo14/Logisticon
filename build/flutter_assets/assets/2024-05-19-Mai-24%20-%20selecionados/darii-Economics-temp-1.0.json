@@ -1,0 +1,54 @@
+{
+  "Economics": {
+     "Darii" : [
+		{
+          "major premise": "All economists are social scientists",
+          "minor premise": "Some university professors are economists",
+          "conclusion": "Some university professors are social scientists",
+		  "incorrect conclusions": [
+			"All university professors are economists",
+			"All university professors are social scientists",
+			"All social scientists are economists",
+			"All social scientists are university professors",
+			"All economists are university professors",
+			"Some university professors are not social scientists",
+			"Some university professors are not economists",
+			"Some social scientists are not economists",
+			"Some social scientists are not university professors",
+			"Some economists are not social scientists",
+			"Some economists are not university professors",
+			"No university professor is social scientist",
+			"No university professor is economist",
+			"No economist is social scientist",
+			"No economist is university professor",
+			"No social scientist is economist",
+			"No social scientist is university professor"
+		  ]
+		},
+		{
+          "major premise": "All market analysts are economists",
+          "minor premise": "Some financial advisors are market analysts",
+          "conclusion": "Some financial advisors are economists",
+		  "incorrect conclusions": [
+			"All financial advisors are market analysts",
+			"All financial advisors are economists",
+			"All economists are market analysts",
+			"All economists are financial advisors",
+			"All market analysts are financial advisors",
+			"Some financial advisors are not economists",
+			"Some financial advisors are not market analysts",
+			"Some economists are not market analysts",
+			"Some economists are not financial advisors",
+			"Some market analysts are not economists",
+			"Some market analysts are not financial advisors",
+			"No financial advisor is economist",
+			"No financial advisor is market analyst",
+			"No market analyst is economist",
+			"No market analyst is financial advisor",
+			"No economist is market analyst",
+			"No economist is financial advisor"
+		  ]
+		}
+	 ]
+  }
+}

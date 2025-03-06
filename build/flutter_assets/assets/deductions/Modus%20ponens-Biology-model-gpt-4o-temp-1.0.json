@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Biology": [
+      {
+        "premises": [
+          "If a plant receives sunlight, then it performs photosynthesis",
+          "The plant receives sunlight"
+        ],
+        "conclusions": [
+          "The plant performs photosynthesis"
+        ],
+        "incorrect conclusions": [
+          "The plant does not perform photosynthesis",
+          "If the plant performs photosynthesis, then it receives sunlight",
+          "If the plant does not perform photosynthesis, then it receives sunlight",
+          "If the plant does not receive sunlight, then it does not perform photosynthesis"
+        ]
+      },
+      {
+        "premises": [
+          "If an animal eats, then it gains energy",
+          "The animal eats"
+        ],
+        "conclusions": [
+          "The animal gains energy"
+        ],
+        "incorrect conclusions": [
+          "The animal does not gain energy",
+          "If the animal gains energy, then it eats",
+          "If the animal does not gain energy, then it eats",
+          "If the animal does not eat, then it does not gain energy"
+        ]
+      },
+      {
+        "premises": [
+          "If a cell undergoes mitosis, then it divides",
+          "The cell undergoes mitosis"
+        ],
+        "conclusions": [
+          "The cell divides"
+        ],
+        "incorrect conclusions": [
+          "The cell does not divide",
+          "If the cell divides, then it undergoes mitosis",
+          "If the cell does not divide, then it undergoes mitosis",
+          "If the cell does not undergo mitosis, then it does not divide"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains consistently, then their fitness level improves",
+          "If an athlete's fitness level improves, then their performance in competitions enhances"
+        ],
+        "conclusions": [
+          "If an athlete trains consistently, then their performance in competitions enhances",
+          "If an athlete's performance in competitions does not enhance, then the athlete does not train consistently",
+          "If an athlete trains consistently or if their fitness level improves, then their performance in competitions enhances and if an athlete trains consistently, then their performance in competitions enhances",
+          "If an athlete trains consistently, then their performance in competitions enhances and if an athlete trains consistently, then their performance in competitions enhances",
+          "If an athlete does not train consistently and their fitness level improves, then their performance in competitions enhances and if an athlete trains consistently, then their performance in competitions enhances",
+          "If an athlete trains consistently or if their fitness level improves, then their performance in competitions enhances"
+        ],
+        "incorrect conclusions": [
+          "An athlete trains consistently",
+          "If their performance in competitions enhances, then an athlete trains consistently",
+          "If their performance in competitions enhances, then an athlete does not train consistently",
+          "An athlete's performance in competitions enhances",
+          "An athlete's performance in competitions does not enhance",
+          "If an athlete's performance in competitions does not enhance, then an athlete trains consistently",
+          "If their fitness level does not improve, then their performance in competitions enhances",
+          "If an athlete trains consistently or their fitness level does not improve, then their performance in competitions enhances"
+        ]
+      },
+      {
+        "premises": [
+          "If a coach analyzes player's weaknesses, then targeted training programs are implemented",
+          "If targeted training programs are implemented, then overall team performance improves"
+        ],
+        "conclusions": [
+          "If a coach analyzes player's weaknesses, then overall team performance improves",
+          "If overall team performance does not improve, then the coach does not analyze player's weaknesses",
+          "If a coach analyzes player's weaknesses or if targeted training programs are implemented, then overall team performance improves and if a coach analyzes player's weaknesses, then overall team performance improves",
+          "If a coach analyzes player's weaknesses, then overall team performance improves and if a coach analyzes player's weaknesses, then overall team performance improves",
+          "If a coach does not analyze player's weaknesses and targeted training programs are implemented, then overall team performance improves and if a coach analyzes player's weaknesses, then overall team performance improves",
+          "If a coach analyzes player's weaknesses or if targeted training programs are implemented, then overall team performance improves"
+        ],
+        "incorrect conclusions": [
+          "A coach analyzes player's weaknesses",
+          "If overall team performance improves, then a coach analyzes player's weaknesses",
+          "If overall team performance improves, then a coach does not analyze player's weaknesses",
+          "Overall team performance improves",
+          "Overall team performance does not improve",
+          "If overall team performance does not improve, then a coach analyzes player's weaknesses",
+          "If targeted training programs are not implemented, then overall team performance improves",
+          "If a coach analyzes player's weaknesses or targeted training programs are not implemented, then overall team performance improves"
+        ]
+      },
+      {
+        "premises": [
+          "If a team follows a strict fitness regime, then players avoid injuries",
+          "If players avoid injuries, then they can participate in more matches"
+        ],
+        "conclusions": [
+          "If a team follows a strict fitness regime, then players can participate in more matches",
+          "If players cannot participate in more matches, then the team does not follow a strict fitness regime",
+          "If a team follows a strict fitness regime or if players avoid injuries, then players can participate in more matches and if a team follows a strict fitness regime, then players can participate in more matches",
+          "If a team follows a strict fitness regime, then players can participate in more matches and if a team follows a strict fitness regime, then players can participate in more matches",
+          "If a team does not follow a strict fitness regime and players avoid injuries, then they can participate in more matches and if a team follows a strict fitness regime, then players can participate in more matches",
+          "If a team follows a strict fitness regime or if players avoid injuries, then they can participate in more matches"
+        ],
+        "incorrect conclusions": [
+          "A team follows a strict fitness regime",
+          "If players can participate in more matches, then a team follows a strict fitness regime",
+          "If players can participate in more matches, then a team does not follow a strict fitness regime",
+          "Players can participate in more matches",
+          "Players cannot participate in more matches",
+          "If players cannot participate in more matches, then a team follows a strict fitness regime",
+          "If players do not avoid injuries, then they can participate in more matches",
+          "If a team follows a strict fitness regime or players do not avoid injuries, then they can participate in more matches"
+        ]
+      }
+    ]
+  }
+}

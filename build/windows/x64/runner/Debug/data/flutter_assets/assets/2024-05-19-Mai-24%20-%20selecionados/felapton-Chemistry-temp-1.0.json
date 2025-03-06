@@ -1,0 +1,44 @@
+{
+  "Chemistry": {
+    "Felapton": [
+      {
+        "major premise": "No metal atoms are non-metal atoms",
+        "minor premise": "All metal atoms are elements and some metal atoms exist",
+        "conclusion": "Some elements are not non-metal atoms",
+        "incorrect conclusions": [
+          "All elements are non-metal atoms",
+          "All elements are metal atoms",
+          "All non-metal atoms are elements",
+          "All non-metal atoms are metal atoms",
+          "Some elements are non-metal atoms",
+          "Some non-metal atoms are elements",
+          "Some non-metal atoms are metal atoms",
+          "Some non-metal atoms are not elements",
+          "Some metal atoms are non-metal atoms",
+          "Some metal atoms are not elements",
+          "No metal atoms are elements",
+          "No elements are metal atoms"
+        ]
+      },
+      {
+        "major premise": "No salts are metals",
+        "minor premise": "All salts are compounds and some salts exist",
+        "conclusion": "Some compounds are not metals",
+        "incorrect conclusions": [
+          "All compounds are metals",
+          "All compounds are salts",
+          "All metals are compounds",
+          "All metals are salts",
+          "Some compounds are metals",
+          "Some metals are compounds",
+          "Some metals are salts",
+          "Some metals are not compounds",
+          "Some salts are metals",
+          "Some salts are not compounds",
+          "No salts are compounds",
+          "No compounds are salts"
+        ]
+      }
+    ]
+  }
+}

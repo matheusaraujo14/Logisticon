@@ -1,0 +1,75 @@
+{
+  "Law": {
+    "Darapti": [
+      {
+        "major premise": "All judges are legal professionals",
+        "minor premise": "All judges are university graduates and some judges exist",
+        "conclusion": "Some university graduates are legal professionals",
+        "incorrect conclusions": [
+          "All university graduates are legal professionals",
+          "All legal professionals are university graduates",
+          "All judges are not university graduates",
+          "All judges are not legal professionals",
+          "Some university graduates are not legal professionals",
+          "Some university graduates are not judges",
+          "Some legal professionals are not judges",
+          "Some legal professionals are not university graduates",
+          "Some judges are not university graduates",
+          "Some judges are not legal professionals",
+          "No judges are university graduates",
+          "No judges are legal professionals",
+          "No legal professionals are judges",
+          "No legal professionals are university graduates",
+          "No university graduates are judges",
+          "No university graduates are legal professionals"
+        ]
+      },
+      {
+        "major premise": "All lawyers are licensed practitioners",
+        "minor premise": "All lawyers are law graduates and some lawyers exist",
+        "conclusion": "Some law graduates are licensed practitioners",
+        "incorrect conclusions": [
+          "All law graduates are licensed practitioners",
+          "All licensed practitioners are law graduates",
+          "All lawyers are not law graduates",
+          "All lawyers are not licensed practitioners",
+          "Some law graduates are not licensed practitioners",
+          "Some law graduates are not lawyers",
+          "Some licensed practitioners are not lawyers",
+          "Some licensed practitioners are not law graduates",
+          "Some lawyers are not law graduates",
+          "Some lawyers are not licensed practitioners",
+          "No lawyers are law graduates",
+          "No lawyers are licensed practitioners",
+          "No licensed practitioners are lawyers",
+          "No licensed practitioners are law graduates",
+          "No law graduates are lawyers",
+          "No law graduates are licensed practitioners"
+        ]
+      },
+      {
+        "major premise": "All contracts are legal agreements",
+        "minor premise": "All contracts are written documents and some contracts exist",
+        "conclusion": "Some written documents are legal agreements",
+        "incorrect conclusions": [
+          "All written documents are legal agreements",
+          "All legal agreements are written documents",
+          "All contracts are not written documents",
+          "All contracts are not legal agreements",
+          "Some written documents are not legal agreements",
+          "Some written documents are not contracts",
+          "Some legal agreements are not contracts",
+          "Some legal agreements are not written documents",
+          "Some contracts are not written documents",
+          "Some contracts are not legal agreements",
+          "No contracts are written documents",
+          "No contracts are legal agreements",
+          "No legal agreements are contracts",
+          "No legal agreements are written documents",
+          "No written documents are contracts",
+          "No written documents are legal agreements"
+        ]
+      }
+    ]
+  }
+}

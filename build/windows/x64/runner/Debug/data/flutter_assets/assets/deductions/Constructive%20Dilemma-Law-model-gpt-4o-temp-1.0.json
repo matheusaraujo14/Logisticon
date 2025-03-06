@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Law": [
+		{
+          "premises": [ 
+            "If a person commits theft, then they can be prosecuted",
+            "If a person commits fraud, then they can be prosecuted",
+            "A person commits theft or a person commits fraud"
+          ],
+          "conclusions": [
+			"They can be prosecuted",
+			"If a person commits theft or a person commits fraud, then they can be prosecuted",
+			"If they cannot be prosecuted, then they did not commit theft and they did not commit fraud",
+			"If a person commits theft and a person commits fraud, then they can be prosecuted",
+			"If they can be prosecuted, then a person commits theft or a person commits fraud"
+		  ],
+		  "incorrect conclusions": [
+			"If a person commits theft, then they commit fraud or they can be prosecuted",
+			"If they can be prosecuted, then a person commits theft and a person commits fraud",
+			"If they can be prosecuted or a person commits theft, then a person commits fraud",
+			"If a person does not commit theft, then they can be prosecuted",
+			"If they cannot be prosecuted, then a person commits theft and a person commits fraud"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If a contract is signed, then the agreement is binding",
+            "If a verbal agreement is made, then the agreement is binding",
+            "A contract is signed or a verbal agreement is made"
+          ],
+          "conclusions": [
+			"The agreement is binding",
+			"If a contract is signed or a verbal agreement is made, then the agreement is binding",
+			"If the agreement is not binding, then a contract is not signed and a verbal agreement is not made",
+			"If a contract is signed and a verbal agreement is made, then the agreement is binding",
+			"If the agreement is binding, then a contract is signed or a verbal agreement is made"
+		  ],
+		  "incorrect conclusions": [
+			"If a contract is signed, then a verbal agreement is made or the agreement is binding",
+			"If the agreement is binding, then a contract is signed and a verbal agreement is made",
+			"If the agreement is binding or a contract is signed, then a verbal agreement is made",
+			"If a contract is not signed, then the agreement is binding",
+			"If the agreement is not binding, then a contract is signed and a verbal agreement is made"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If evidence is presented, then the case can proceed",
+            "If witnesses testify, then the case can proceed",
+            "Evidence is presented or witnesses testify"
+          ],
+          "conclusions": [
+			"The case can proceed",
+			"If evidence is presented or witnesses testify, then the case can proceed",
+			"If the case cannot proceed, then evidence is not presented and witnesses do not testify",
+			"If evidence is presented and witnesses testify, then the case can proceed",
+			"If the case can proceed, then evidence is presented or witnesses testify"
+		  ],
+		  "incorrect conclusions": [
+			"If evidence is presented, then witnesses testify or the case can proceed",
+			"If the case can proceed, then evidence is presented and witnesses testify",
+			"If the case can proceed or evidence is presented, then witnesses testify",
+			"If evidence is not presented, then the case can proceed",
+			"If the case cannot proceed, then evidence is presented and witnesses testify"
+		  ]
+		}
+	 ]
+  }
+}

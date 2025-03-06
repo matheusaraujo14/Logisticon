@@ -1,0 +1,22 @@
+{
+  "Philosophy": {
+    "Cesare": [
+      {
+        "major premise": "No logicians are ethicists",
+        "minor premise": "All analytic philosophers are ethicists",
+        "conclusion": "No analytic philosophers are logicians",
+        "incorrect conclusions": [
+          "All analytic philosophers are logicians",
+          "All ethicists are logicians",
+          "Some analytic philosophers are ethicists",
+          "Some analytic philosophers are logicians",
+          "Some ethicists are analytic philosophers",
+          "Some ethicists are logicians",
+          "Some ethicists are not analytic philosophers",
+          "Some logicians are analytic philosophers",
+          "Some logicians are ethicists"
+        ]
+      }
+    ]
+  }
+}

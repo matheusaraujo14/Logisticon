@@ -1,0 +1,48 @@
+{
+  "Mathematics": {
+    "Calemes": [
+      {
+        "major premise": "All rational numbers are numbers",
+        "minor premise": "No numbers are letters",
+        "conclusion": "No letter is a rational number",
+        "incorrect conclusions": [
+          "All numbers are letters",
+          "All numbers are rational numbers",
+          "All letters are numbers",
+          "All letters are rational numbers",
+          "All rational numbers are letters",
+          "Some numbers are rational numbers",
+          "Some numbers are not rational numbers",
+          "Some numbers are letters",
+          "Some rational numbers are letters",
+          "Some rational numbers are not numbers",
+          "Some rational numbers are numbers",
+          "Some letters are numbers",
+          "Some letters are rational numbers",
+          "No rational numbers are numbers"
+        ]
+      },
+      {
+        "major premise": "All quadratic equations are equations",
+        "minor premise": "No equations are constants",
+        "conclusion": "No constants is a quadratic equation",
+        "incorrect conclusions": [
+          "All equations are constants",
+          "All equations are quadratic equations",
+          "All constants are equations",
+          "All constants are quadratic equations",
+          "All quadratic equations are constants",
+          "Some equations are quadratic equations",
+          "Some equations are not quadratic equations",
+          "Some equations are constants",
+          "Some quadratic equations are constants",
+          "Some quadratic equations are not equations",
+          "Some quadratic equations are equations",
+          "Some constants are equations",
+          "Some constants are quadratic equations",
+          "No quadratic equations are equations"
+        ]
+      }
+    ]
+  }
+}

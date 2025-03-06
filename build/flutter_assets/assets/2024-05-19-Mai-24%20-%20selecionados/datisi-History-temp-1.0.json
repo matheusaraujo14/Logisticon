@@ -1,0 +1,78 @@
+{
+  "History": {
+    "Datisi": [
+      {
+        "major premise": "All Renaissance artists are Europeans",
+        "minor premise": "Some Renaissance artists are painters",
+        "conclusion": "Some painters are Europeans",
+        "incorrect conclusions": [
+          "All painters are Renaissance artists",
+          "All painters are Europeans",
+          "All Europeans are Renaissance artists",
+          "All Europeans are painters",
+          "All Renaissance artists are painters",
+          "Some painters are not Europeans",
+          "Some painters are not Renaissance artists",
+          "Some Europeans are not Renaissance artists",
+          "Some Europeans are not painters",
+          "Some Renaissance artists are not Europeans",
+          "Some Renaissance artists are not painters",
+          "No painters is Europeans",
+          "No painters is Renaissance artists",
+          "No Renaissance artists is Europeans",
+          "No Renaissance artists is painters",
+          "No Europeans is Renaissance artists",
+          "No Europeans is painters"
+        ]
+      },
+      {
+        "major premise": "All historians are academics",
+        "minor premise": "Some historians are researchers",
+        "conclusion": "Some researchers are academics",
+        "incorrect conclusions": [
+          "All researchers are historians",
+          "All researchers are academics",
+          "All academics are historians",
+          "All academics are researchers",
+          "All historians are researchers",
+          "Some researchers are not academics",
+          "Some researchers are not historians",
+          "Some academics are not historians",
+          "Some academics are not researchers",
+          "Some historians are not academics",
+          "Some historians are not researchers",
+          "No researchers is academics",
+          "No researchers is historians",
+          "No historians is academics",
+          "No historians is researchers",
+          "No academics is historians",
+          "No academics is researchers"
+        ]
+      },
+      {
+        "major premise": "All primary sources are historical documents",
+        "minor premise": "Some primary sources are letters",
+        "conclusion": "Some letters are historical documents",
+        "incorrect conclusions": [
+          "All letters are primary sources",
+          "All letters are historical documents",
+          "All historical documents are primary sources",
+          "All historical documents are letters",
+          "All primary sources are letters",
+          "Some letters are not historical documents",
+          "Some letters are not primary sources",
+          "Some historical documents are not primary sources",
+          "Some historical documents are not letters",
+          "Some primary sources are not historical documents",
+          "Some primary sources are not letters",
+          "No letters is historical documents",
+          "No letters is primary sources",
+          "No primary sources is historical documents",
+          "No primary sources is letters",
+          "No historical documents is primary sources",
+          "No historical documents is letters"
+        ]
+      }
+    ]
+  }
+}

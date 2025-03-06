@@ -1,0 +1,63 @@
+{
+  "Literature": {
+     "Felapton" : [
+		{
+          "major premise": "No novels are poetry",
+          "minor premise": "All novels are literature and some novels exist",
+          "conclusion": "Some literature are not poetry",
+		  "incorrect conclusions": [
+			"All literature are poetry",
+			"All literature are novels",
+			"All poetry are literature",
+			"All poetry are novels",
+			"Some literature are poetry",
+			"Some poetry are literature",
+			"Some poetry are novels",
+			"Some poetry are not literature",
+			"Some novels are poetry",
+			"Some novels are not literature",
+			"No novels is literature",
+			"No literature is novels"
+		  ]
+		},
+		{
+          "major premise": "No short stories are plays",
+          "minor premise": "All short stories are fiction and some short stories exist",
+          "conclusion": "Some fiction are not plays",
+		  "incorrect conclusions": [
+			"All fiction are plays",
+			"All fiction are short stories",
+			"All plays are fiction",
+			"All plays are short stories",
+			"Some fiction are plays",
+			"Some plays are fiction",
+			"Some plays are short stories",
+			"Some plays are not fiction",
+			"Some short stories are plays",
+			"Some short stories are not fiction",
+			"No short stories is fiction",
+			"No fiction is short stories"
+		  ]
+		},
+		{
+          "major premise": "No essays are operas",
+          "minor premise": "All essays are prose and some essays exist",
+          "conclusion": "Some prose are not operas",
+		  "incorrect conclusions": [
+			"All prose are operas",
+			"All prose are essays",
+			"All operas are prose",
+			"All operas are essays",
+			"Some prose are operas",
+			"Some operas are prose",
+			"Some operas are essays",
+			"Some operas are not prose",
+			"Some essays are operas",
+			"Some essays are not prose",
+			"No essays is prose",
+			"No prose is essays"
+		  ]
+		}
+	 ]
+  }
+}

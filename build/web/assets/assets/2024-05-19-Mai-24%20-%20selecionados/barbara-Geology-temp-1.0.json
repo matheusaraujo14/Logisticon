@@ -1,0 +1,54 @@
+{
+  "Geology": {
+    "Barbara": [
+      {
+        "major premise": "All igneous rocks are rocks",
+        "minor premise": "All basalts are igneous rocks",
+        "conclusion": "All basalts are rocks",
+        "incorrect conclusions": [
+          "All rocks are igneous rocks",
+          "All rocks are basalts",
+          "Some basalts are igneous rocks",
+          "Some basalts are rocks",
+          "Some basalts are not rocks",
+          "Some basalts are not igneous rocks",
+          "Some rocks are basalts",
+          "Some rocks are igneous rocks",
+          "Some igneous rocks are basalts"
+        ]
+      },
+      {
+        "major premise": "All minerals are substances",
+        "minor premise": "All quartz are minerals",
+        "conclusion": "All quartz are substances",
+        "incorrect conclusions": [
+          "All substances are minerals",
+          "All substances are quartz",
+          "Some quartz are minerals",
+          "Some quartz are substances",
+          "Some quartz are not substances",
+          "Some quartz are not minerals",
+          "Some substances are quartz",
+          "Some substances are minerals",
+          "Some minerals are quartz"
+        ]
+      },
+      {
+        "major premise": "All sedimentary rocks are rocks",
+        "minor premise": "All limestones are sedimentary rocks",
+        "conclusion": "All limestones are rocks",
+        "incorrect conclusions": [
+          "All rocks are sedimentary rocks",
+          "All rocks are limestones",
+          "Some limestones are sedimentary rocks",
+          "Some limestones are rocks",
+          "Some limestones are not rocks",
+          "Some limestones are not sedimentary rocks",
+          "Some rocks are limestones",
+          "Some rocks are sedimentary rocks",
+          "Some sedimentary rocks are limestones"
+        ]
+      }
+    ]
+  }
+}

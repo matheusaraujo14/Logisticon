@@ -1,0 +1,63 @@
+{
+  "Biology": {
+    "Fesapo": [
+      {
+        "major premise": "No mammals are reptiles",
+        "minor premise": "All reptiles are vertebrates and some reptiles exist",
+        "conclusion": "Some vertebrates are not mammals",
+        "incorrect conclusions": [
+          "All vertebrates are mammals",
+          "All vertebrates are reptiles",
+          "All mammals are vertebrates",
+          "All mammals are reptiles",
+          "Some vertebrates are mammals",
+          "Some mammals are vertebrates",
+          "Some mammals are reptiles",
+          "Some mammals are not vertebrates",
+          "Some reptiles are mammals",
+          "Some reptiles are not vertebrates",
+          "No reptiles is vertebrates",
+          "No vertebrates is reptiles"
+        ]
+      },
+      {
+        "major premise": "No birds are mammals",
+        "minor premise": "All mammals are animals and some mammals exist",
+        "conclusion": "Some animals are not birds",
+        "incorrect conclusions": [
+          "All animals are birds",
+          "All animals are mammals",
+          "All birds are animals",
+          "All birds are mammals",
+          "Some animals are birds",
+          "Some birds are animals",
+          "Some birds are mammals",
+          "Some birds are not animals",
+          "Some mammals are birds",
+          "Some mammals are not animals",
+          "No mammals is animals",
+          "No animals is mammals"
+        ]
+      },
+      {
+        "major premise": "No insects are birds",
+        "minor premise": "All birds are animals and some birds exist",
+        "conclusion": "Some animals are not insects",
+        "incorrect conclusions": [
+          "All animals are insects",
+          "All animals are birds",
+          "All insects are animals",
+          "All insects are birds",
+          "Some animals are insects",
+          "Some insects are animals",
+          "Some insects are birds",
+          "Some insects are not animals",
+          "Some birds are insects",
+          "Some birds are not animals",
+          "No birds is animals",
+          "No animals is birds"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Geography": {
+     "Disamis": [
+        {
+          "major premise": "Some rocks are minerals",
+          "minor premise": "All rocks are natural substances",
+          "conclusion": "Some natural substances are minerals",
+          "incorrect conclusions": [
+            "All natural substances are minerals",
+            "All natural substances are rocks",
+            "All minerals are natural substances",
+            "All minerals are rocks",
+            "All rocks are minerals",
+            "Some natural substances are not rocks",
+            "Some minerals are not natural substances",
+            "Some minerals are not rocks",
+            "Some rocks are not natural substances",
+            "Some rocks are not minerals",
+            "No minerals is a natural substances",
+            "No minerals is a rock",
+            "No rocks is a natural substances",
+            "No rocks is a minerals",
+            "No natural substances is a rocks",
+            "No natural substances is a minerals"
+          ]
+        },
+        {
+          "major premise": "Some mountains are rocks",
+          "minor premise": "All mountains are geographical features",
+          "conclusion": "Some geographical features are rocks",
+          "incorrect conclusions": [
+            "All geographical features are rocks",
+            "All geographical features are mountains",
+            "All rocks are geographical features",
+            "All rocks are mountains",
+            "All mountains are rocks",
+            "Some geographical features are not mountains",
+            "Some rocks are not geographical features",
+            "Some rocks are not mountains",
+            "Some mountains are not geographical features",
+            "Some mountains are not rocks",
+            "No rocks is a geographical features",
+            "No rocks is a mountains",
+            "No mountains is a geographical features",
+            "No mountains is a rocks",
+            "No geographical features is a mountains",
+            "No geographical features is a rocks"
+          ]
+        },
+        {
+          "major premise": "Some rivers are water bodies",
+          "minor premise": "All rivers are geographical features",
+          "conclusion": "Some geographical features are water bodies",
+          "incorrect conclusions": [
+            "All geographical features are water bodies",
+            "All geographical features are rivers",
+            "All water bodies are geographical features",
+            "All water bodies are rivers",
+            "All rivers are water bodies",
+            "Some geographical features are not rivers",
+            "Some water bodies are not geographical features",
+            "Some water bodies are not rivers",
+            "Some rivers are not geographical features",
+            "Some rivers are not water bodies",
+            "No water bodies is a geographical features",
+            "No water bodies is a rivers",
+            "No rivers is a geographical features",
+            "No rivers is a water bodies",
+            "No geographical features is a rivers",
+            "No geographical features is a water bodies"
+          ]
+        }
+     ]
+  }
+}

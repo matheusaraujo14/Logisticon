@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Engineering": [
+      {
+        "premises": [
+          "If a machine overheats, then it stops working",
+          "If a machine overheats, then it triggers an alarm"
+        ],
+        "conclusions": [
+          "If a machine overheats, it stops working and triggers an alarm",
+          "If a machine overheats, it stops working or triggers an alarm",
+          "If a machine stops working, then it does not overheat",
+          "If the alarm is not triggered, then the machine does not overheat",
+          "If a machine stops working or the alarm is not triggered, then it does not overheat"
+        ],
+        "incorrect conclusions": [
+          "If a machine stops working, the alarm is not triggered",
+          "If the alarm is not triggered, then the machine stops working",
+          "If a machine does not stop working, then the alarm is triggered",
+          "If the alarm is triggered, then the machine stops working",
+          "If the machine does not stop working and the alarm is triggered, then the machine overheats",
+          "If the machine does not stop working or the alarm is triggered, then the machine overheats",
+          "If a machine stops working or does not overheat, then it overheats"
+        ]
+      },
+      {
+        "premises": [
+          "If the circuit is closed, then the current flows",
+          "If the circuit is closed, then the light turns on"
+        ],
+        "conclusions": [
+          "If the circuit is closed, then the current flows and the light turns on",
+          "If the circuit is closed, then the current flows or the light turns on",
+          "If the current flows, then the circuit is not open",
+          "If the light does not turn on, then the circuit is not closed",
+          "If the current flows or the light does not turn on, then the circuit is not closed"
+        ],
+        "incorrect conclusions": [
+          "If the current flows, the light does not turn on",
+          "If the light does not turn on, then the current flows",
+          "If the current does not flow, then the light turns on",
+          "If the light turns on, then the current flows",
+          "If the current does not flow and the light turns on, then the circuit is closed",
+          "If the current does not flow or the light turns on, then the circuit is closed",
+          "If the current flows or the circuit is not closed, then the circuit is closed"
+        ]
+      },
+      {
+        "premises": [
+          "If the software fails, then the system crashes",
+          "If the software fails, then the error message is displayed"
+        ],
+        "conclusions": [
+          "If the software fails, then the system crashes and the error message is displayed",
+          "If the software fails, then the system crashes or the error message is displayed",
+          "If the system crashes, then the software does not work",
+          "If the error message is not displayed, then the software does not fail",
+          "If the system crashes or the error message is not displayed, then the software does not fail"
+        ],
+        "incorrect conclusions": [
+          "If the system crashes, then the error message is not displayed",
+          "If the error message is not displayed, then the system crashes",
+          "If the system does not crash, then the error message is displayed",
+          "If the error message is displayed, then the system crashes",
+          "If the system does not crash and the error message is displayed, then the software fails",
+          "If the system does not crash or the error message is displayed, then the software fails",
+          "If the system crashes or the software does not fail, then the software fails"
+        ]
+      }
+    ]
+  }
+}

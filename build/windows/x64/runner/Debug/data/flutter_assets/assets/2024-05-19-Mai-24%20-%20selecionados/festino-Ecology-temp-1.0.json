@@ -1,0 +1,75 @@
+{
+  "Ecology": {
+     "Festino" : [
+		{
+          "major premise": "No fish are mammals",
+          "minor premise": "Some dolphins are mammals",
+          "conclusion": "Some dolphins are not fish",
+		  "incorrect conclusions": [
+			  "All mammals are dolphins",
+			  "All mammals are fish",
+			  "All dolphins are fish",
+			  "All fish are mammals",
+			  "All fish are dolphins",
+			  "Some mammals are not dolphins",
+			  "Some fish are dolphins",
+			  "Some fish are not dolphins",
+			  "Some fish are mammals",
+			  "Some fish are dolphins",
+			  "Some dolphins are fish",
+			  "Some dolphins are not mammals",
+			  "Some mammals are fish",
+			  "No mammals are dolphins",
+			  "No dolphins are not mammals",
+			  "No dolphins are mammals"
+		  ]
+		},
+        {
+          "major premise": "No insects are mammals",
+          "minor premise": "Some bats are mammals",
+          "conclusion": "Some bats are not insects",
+		  "incorrect conclusions": [
+			  "All mammals are bats",
+			  "All mammals are insects",
+			  "All bats are insects",
+			  "All insects are mammals",
+			  "All insects are bats",
+			  "Some mammals are not bats",
+			  "Some insects are bats",
+			  "Some insects are not bats",
+			  "Some insects are mammals",
+			  "Some insects are bats",
+			  "Some bats are insects",
+			  "Some bats are not mammals",
+			  "Some mammals are insects",
+			  "No mammals are bats",
+			  "No bats are not mammals",
+			  "No bats are mammals"
+		  ]
+		},
+		{
+          "major premise": "No reptiles are birds",
+          "minor premise": "Some iguanas are reptiles",
+          "conclusion": "Some iguanas are not birds",
+		  "incorrect conclusions": [
+			  "All birds are iguanas",
+			  "All birds are reptiles",
+			  "All iguanas are reptiles",
+			  "All reptiles are birds",
+			  "All reptiles are iguanas",
+			  "Some birds are not reptiles",
+			  "Some birds are iguanas",
+			  "Some birds are not iguanas",
+			  "Some birds are reptiles",
+			  "Some birds are iguanas",
+			  "Some iguanas are birds",
+			  "Some iguanas are not reptiles",
+			  "Some reptiles are birds",
+			  "No birds are iguanas",
+			  "No iguanas are not reptiles",
+			  "No iguanas are reptiles"
+		  ]
+		}
+	 ]
+  }
+}

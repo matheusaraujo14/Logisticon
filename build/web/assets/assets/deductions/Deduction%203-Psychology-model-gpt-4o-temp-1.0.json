@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a therapy session is canceled, then the patient does not make progress",
+          "If a therapy session occurs, then the patient feels better"
+        ],
+        "conclusions": [
+          "If the patient makes progress, then the therapy session is not canceled",
+          "If the patient does not feel better, then the therapy session did not occur",
+          "If the patient does not feel better, then the patient does not make progress",
+          "The patient either does not make progress or feels better",
+          "If a therapy session occurs and the patient does not make progress, then the patient feels better"
+        ],
+        "incorrect conclusions": [
+          "If the patient does not make progress, then the therapy session occurs",
+          "If the patient does not make progress, then the therapy session did not occur",
+          "If the patient makes progress, then the therapy session did not occur",
+          "The patient does not make progress and feels better",
+          "If the patient feels better, then the therapy session occurs",
+          "If the patient does not make progress and feels better, then the therapy session occurs"
+        ]
+      },
+      {
+        "premises": [
+          "If a child is not praised, then the child's self-esteem decreases",
+          "If a child is praised, then the child's performance improves"
+        ],
+        "conclusions": [
+          "If the child's self-esteem does not decrease, then the child is praised",
+          "If the child's performance does not improve, then the child is not praised",
+          "If the child's performance does not improve, then the child's self-esteem decreases",
+          "The child's self-esteem either decreases or the child's performance improves",
+          "If a child is praised and the child's self-esteem decreases, then the child's performance improves"
+        ],
+        "incorrect conclusions": [
+          "If the child's self-esteem decreases, then the child is praised",
+          "If the child's self-esteem decreases, then the child is not praised",
+          "If the child's self-esteem does not decrease, then the child is not praised",
+          "The child's self-esteem decreases and the child's performance improves",
+          "If the child's performance improves, then the child is praised",
+          "If the child's self-esteem decreases and the child's performance improves, then the child is praised"
+        ]
+      },
+      {
+        "premises": [
+          "If an individual does not receive feedback, then the individual stays unmotivated",
+          "If an individual receives feedback, then the individual's engagement increases"
+        ],
+        "conclusions": [
+          "If the individual does not stay unmotivated, then the individual receives feedback",
+          "If the individual's engagement does not increase, then the individual does not receive feedback",
+          "If the individual's engagement does not increase, then the individual stays unmotivated",
+          "The individual either stays unmotivated or the individual's engagement increases",
+          "If an individual receives feedback and the individual stays unmotivated, then the individual's engagement increases"
+        ],
+        "incorrect conclusions": [
+          "If the individual stays unmotivated, then the individual receives feedback",
+          "If the individual stays unmotivated, then the individual does not receive feedback",
+          "If the individual does not stay unmotivated, then the individual does not receive feedback",
+          "The individual stays unmotivated and the individual's engagement increases",
+          "If the individual's engagement increases, then the individual receives feedback",
+          "If the individual stays unmotivated and the individual's engagement increases, then the individual receives feedback"
+        ]
+      }
+    ]
+  }
+}

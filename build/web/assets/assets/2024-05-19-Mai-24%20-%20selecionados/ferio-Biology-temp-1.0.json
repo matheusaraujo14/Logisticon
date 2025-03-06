@@ -1,0 +1,75 @@
+{
+  "Biology": {
+    "Ferio": [
+      {
+        "major premise": "No mammals are birds",
+        "minor premise": "Some bats are mammals",
+        "conclusion": "Some bats are not birds",
+        "incorrect conclusions": [
+          "All mammals are bats",
+          "All mammals are birds",
+          "All bats are birds",
+          "All birds are mammals",
+          "All birds are bats",
+          "Some mammals are not bats",
+          "Some birds are bats",
+          "Some birds are not bats",
+          "Some birds are mammals",
+          "Some birds are bats",
+          "Some bats are birds",
+          "Some bats are not mammals",
+          "Some mammals are birds",
+          "No mammals is bats",
+          "No bats is not mammals",
+          "No bats is mammals"
+        ]
+      },
+      {
+        "major premise": "No reptiles are mammals",
+        "minor premise": "Some snakes are reptiles",
+        "conclusion": "Some snakes are not mammals",
+        "incorrect conclusions": [
+          "All reptiles are snakes",
+          "All reptiles are mammals",
+          "All snakes are mammals",
+          "All mammals are reptiles",
+          "All mammals are snakes",
+          "Some reptiles are not snakes",
+          "Some mammals are snakes",
+          "Some mammals are not snakes",
+          "Some mammals are reptiles",
+          "Some mammals are snakes",
+          "Some snakes are mammals",
+          "Some snakes are not reptiles",
+          "Some reptiles are mammals",
+          "No reptiles is snakes",
+          "No snakes is not reptiles",
+          "No snakes is reptiles"
+        ]
+      },
+      {
+        "major premise": "No fish are birds",
+        "minor premise": "Some goldfish are fish",
+        "conclusion": "Some goldfish are not birds",
+        "incorrect conclusions": [
+          "All fish are goldfish",
+          "All fish are birds",
+          "All goldfish are birds",
+          "All birds are fish",
+          "All birds are goldfish",
+          "Some fish are not goldfish",
+          "Some birds are goldfish",
+          "Some birds are not goldfish",
+          "Some birds are fish",
+          "Some birds are goldfish",
+          "Some goldfish are birds",
+          "Some goldfish are not fish",
+          "Some fish are birds",
+          "No fish is goldfish",
+          "No goldfish is not fish",
+          "No goldfish is fish"
+        ]
+      }
+    ]
+  }
+}

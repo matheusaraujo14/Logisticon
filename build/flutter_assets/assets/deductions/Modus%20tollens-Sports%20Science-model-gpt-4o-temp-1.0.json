@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains consistently, then their performance improves",
+          "The athlete's performance does not improve"
+        ],
+        "conclusions": [
+          "The athlete does not train consistently"
+        ],
+        "incorrect conclusions": [
+          "The athlete trains consistently",
+          "The athlete trains consistently and their performance improves",
+          "The athlete's performance improving implies they train consistently",
+          "If the athlete's performance does not improve, then they train consistently",
+          "If the athlete does not train consistently, then their performance does not improve"
+        ]
+      },
+      {
+        "premises": [
+          "If a team has good teamwork, then they win more games",
+          "The team does not win more games"
+        ],
+        "conclusions": [
+          "The team does not have good teamwork"
+        ],
+        "incorrect conclusions": [
+          "The team has good teamwork",
+          "The team has good teamwork and wins more games",
+          "The team winning more games implies they have good teamwork",
+          "If the team does not win more games, then they have good teamwork",
+          "If the team does not have good teamwork, then they do not win more games"
+        ]
+      },
+      {
+        "premises": [
+          "If a player stretches before exercise, then they reduce their risk of injury",
+          "The player does not reduce their risk of injury"
+        ],
+        "conclusions": [
+          "The player does not stretch before exercise"
+        ],
+        "incorrect conclusions": [
+          "The player stretches before exercise",
+          "The player stretches before exercise and reduces their risk of injury",
+          "Reducing their risk of injury implies the player stretches before exercise",
+          "If the player does not reduce their risk of injury, then they stretch before exercise",
+          "If the player does not stretch before exercise, then they do not reduce their risk of injury"
+        ]
+      }
+    ]
+  }
+}

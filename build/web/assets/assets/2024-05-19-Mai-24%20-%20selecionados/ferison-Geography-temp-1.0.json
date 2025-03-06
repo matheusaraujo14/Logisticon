@@ -1,0 +1,52 @@
+{
+  "Geography": {
+    "Ferison": [
+      {
+        "major premise": "No rocks are stars",
+        "minor premise": "Some rocks are minerals",
+        "conclusion": "Some minerals are not stars",
+        "incorrect conclusions": [
+          "All rocks are minerals",
+          "All rocks are stars",
+          "All minerals are stars",
+          "All stars are rocks",
+          "All stars are minerals",
+          "Some rocks are not minerals",
+          "Some stars are minerals",
+          "Some stars are not minerals",
+          "Some stars are rocks",
+          "Some stars are minerals",
+          "Some minerals are stars",
+          "Some minerals are not rocks",
+          "Some rocks are stars",
+          "No rocks are minerals",
+          "No minerals are not rocks",
+          "No minerals are rocks"
+        ]
+      },
+      {
+        "major premise": "No birds are minerals",
+        "minor premise": "Some birds are mammals",
+        "conclusion": "Some mammals are not minerals",
+        "incorrect conclusions": [
+          "All birds are mammals",
+          "All birds are minerals",
+          "All mammals are minerals",
+          "All minerals are birds",
+          "All minerals are mammals",
+          "Some birds are not mammals",
+          "Some minerals are mammals",
+          "Some minerals are not mammals",
+          "Some minerals are birds",
+          "Some minerals are mammals",
+          "Some mammals are minerals",
+          "Some mammals are not birds",
+          "Some birds are minerals",
+          "No birds are mammals",
+          "No mammals are not birds",
+          "No mammals are birds"
+        ]
+      }
+    ]
+  }
+}

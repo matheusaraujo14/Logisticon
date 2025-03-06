@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Architecture": [
+      {
+        "premises": [
+          "If the foundation is weak, then the building will have structural issues",
+          "If the foundation is weak, then the construction process will take longer",
+          "The building will not have structural issues or the construction process will not take longer"
+        ],
+        "conclusions": [
+          "The foundation is not weak",
+          "The building will not have structural issues and the construction process will not take longer",
+          "If the foundation is weak, then the building will have structural issues and the construction process will take longer"
+        ],
+        "incorrect conclusions": [
+          "If the foundation is weak, then the building will have structural issues and not the construction process will take longer",
+          "If the building will have structural issues and the construction process will take longer, then the foundation is weak",
+          "If the building will have structural issues, then the foundation is weak",
+          "The building will have structural issues or the construction process will take longer but not both",
+          "If the foundation is not weak, then the building will not have structural issues or the construction process will not take longer"
+        ]
+      },
+      {
+        "premises": [
+          "If the windows are not sealed, then there will be drafts",
+          "If the windows are not sealed, then the energy efficiency will decrease",
+          "There will not be drafts or the energy efficiency will not decrease"
+        ],
+        "conclusions": [
+          "The windows are sealed",
+          "There will not be drafts and the energy efficiency will not decrease",
+          "If the windows are not sealed, then there will be drafts and the energy efficiency will decrease"
+        ],
+        "incorrect conclusions": [
+          "If the windows are not sealed, then there will be drafts and not the energy efficiency will decrease",
+          "If there will be drafts and the energy efficiency will decrease, then the windows are not sealed",
+          "If there will be drafts, then the windows are not sealed",
+          "There will be drafts or the energy efficiency will decrease but not both",
+          "If the windows are sealed, then there will not be drafts or the energy efficiency will not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "If the roof is damaged, then there will be leaks",
+          "If the roof is damaged, then the insulation will be compromised",
+          "There will not be leaks or the insulation will not be compromised"
+        ],
+        "conclusions": [
+          "The roof is not damaged",
+          "There will not be leaks and the insulation will not be compromised",
+          "If the roof is damaged, then there will be leaks and the insulation will be compromised"
+        ],
+        "incorrect conclusions": [
+          "If the roof is damaged, then there will be leaks and not the insulation will be compromised",
+          "If there will be leaks and the insulation will be compromised, then the roof is damaged",
+          "If there will be leaks, then the roof is damaged",
+          "There will be leaks or the insulation will be compromised but not both",
+          "If the roof is not damaged, then there will not be leaks or the insulation will not be compromised"
+        ]
+      }
+    ]
+  }
+}

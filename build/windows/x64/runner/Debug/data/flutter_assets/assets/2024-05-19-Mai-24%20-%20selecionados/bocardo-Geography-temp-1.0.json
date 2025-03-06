@@ -1,0 +1,69 @@
+{
+  "Geography": {
+     "Bocardo" : [
+        {
+          "major premise": "Some islands are not continents",
+          "minor premise": "All islands are landmasses",
+          "conclusion": "Some landmasses are not continents",
+          "incorrect conclusions": [
+            "All islands are continents",
+            "All landmasses are islands",
+            "All landmasses are continents",
+            "All continents are not islands",
+            "Some landmasses are not islands",
+            "Some landmasses are continents",
+            "Some islands are not landmasses",
+            "Some islands are continents",
+            "Some continents are islands",
+            "Some continents are landmasses",
+            "Some continents are not landmasses",
+            "Some continents are not islands",
+            "No islands are landmasses",
+            "No landmasses are islands"
+          ]
+        },
+        {
+          "major premise": "Some lake basins are not river basins",
+          "minor premise": "All lake basins are water bodies",
+          "conclusion": "Some water bodies are not river basins",
+          "incorrect conclusions": [
+            "All lake basins are river basins",
+            "All water bodies are lake basins",
+            "All water bodies are river basins",
+            "All river basins are not lake basins",
+            "Some water bodies are not lake basins",
+            "Some water bodies are river basins",
+            "Some lake basins are not water bodies",
+            "Some lake basins are river basins",
+            "Some river basins are lake basins",
+            "Some river basins are water bodies",
+            "Some river basins are not water bodies",
+            "Some river basins are not lake basins",
+            "No lake basins are water bodies",
+            "No water bodies are lake basins"
+          ]
+        },
+        {
+          "major premise": "Some hills are not mountains",
+          "minor premise": "All hills are landforms",
+          "conclusion": "Some landforms are not mountains",
+          "incorrect conclusions": [
+            "All hills are mountains",
+            "All landforms are hills",
+            "All landforms are mountains",
+            "All mountains are not hills",
+            "Some landforms are not hills",
+            "Some landforms are mountains",
+            "Some hills are not landforms",
+            "Some hills are mountains",
+            "Some mountains are hills",
+            "Some mountains are landforms",
+            "Some mountains are not landforms",
+            "Some mountains are not hills",
+            "No hills are landforms",
+            "No landforms are hills"
+          ]
+        }
+     ]
+  }
+}

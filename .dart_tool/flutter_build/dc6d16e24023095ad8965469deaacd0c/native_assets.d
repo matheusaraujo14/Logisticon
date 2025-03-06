@@ -1,0 +1,1 @@
+ C:\\Users\\Matheus\ Araujo\\Documents\\GitHub\\logisticon-main-interface\\Logisticon\\.dart_tool\\flutter_build\\dc6d16e24023095ad8965469deaacd0c\\native_assets.yaml: 

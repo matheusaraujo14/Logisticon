@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a sorting algorithm is efficient, then it saves time",
+          "A sorting algorithm is efficient"
+        ],
+        "conclusions": [
+          "It saves time"
+        ],
+        "incorrect conclusions": [
+          "It does not save time",
+          "If it saves time, then a sorting algorithm is efficient",
+          "If it does not save time, then a sorting algorithm is efficient",
+          "If a sorting algorithm is not efficient, then it does not save time"
+        ]
+      },
+      {
+        "premises": [
+          "If a programming language is object-oriented, then it supports encapsulation",
+          "A programming language is object-oriented"
+        ],
+        "conclusions": [
+          "It supports encapsulation"
+        ],
+        "incorrect conclusions": [
+          "It does not support encapsulation",
+          "If it supports encapsulation, then a programming language is object-oriented",
+          "If it does not support encapsulation, then a programming language is object-oriented",
+          "If a programming language is not object-oriented, then it does not support encapsulation"
+        ]
+      },
+      {
+        "premises": [
+          "If a network is secure, then it uses encryption",
+          "A network is secure"
+        ],
+        "conclusions": [
+          "It uses encryption"
+        ],
+        "incorrect conclusions": [
+          "It does not use encryption",
+          "If it uses encryption, then a network is secure",
+          "If it does not use encryption, then a network is secure",
+          "If a network is not secure, then it does not use encryption"
+        ]
+      }
+    ]
+  }
+}

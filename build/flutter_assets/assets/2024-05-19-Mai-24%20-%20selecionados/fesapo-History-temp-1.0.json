@@ -1,0 +1,63 @@
+{
+  "History": {
+    "Fesapo": [
+      {
+        "major premise": "No World War I events are Cold War events",
+        "minor premise": "All Cold War events are 20th century events and some Cold War events exist",
+        "conclusion": "Some 20th century events are not World War I events",
+        "incorrect conclusions": [
+          "All 20th century events are World War I events",
+          "All 20th century events are Cold War events",
+          "All World War I events are 20th century events",
+          "All World War I events are Cold War events",
+          "Some 20th century events are World War I events",
+          "Some World War I events are 20th century events",
+          "Some World War I events are Cold War events",
+          "Some World War I events are not 20th century events",
+          "Some Cold War events are World War I events",
+          "Some Cold War events are not 20th century events",
+          "No Cold War events is 20th century events",
+          "No 20th century events is Cold War events"
+        ]
+      },
+      {
+        "major premise": "No Renaissance events are Modern events",
+        "minor premise": "All Modern events are Historical events and some Modern events exist",
+        "conclusion": "Some Historical events are not Renaissance events",
+        "incorrect conclusions": [
+          "All Historical events are Renaissance events",
+          "All Historical events are Modern events",
+          "All Renaissance events are Historical events",
+          "All Renaissance events are Modern events",
+          "Some Historical events are Renaissance events",
+          "Some Renaissance events are Historical events",
+          "Some Renaissance events are Modern events",
+          "Some Renaissance events are not Historical events",
+          "Some Modern events are Renaissance events",
+          "Some Modern events are not Historical events",
+          "No Modern events is Historical events",
+          "No Historical events is Modern events"
+        ]
+      },
+      {
+        "major premise": "No Medieval events are Industrial Revolution events",
+        "minor premise": "All Industrial Revolution events are Significant events and some Industrial Revolution events exist",
+        "conclusion": "Some Significant events are not Medieval events",
+        "incorrect conclusions": [
+          "All Significant events are Medieval events",
+          "All Significant events are Industrial Revolution events",
+          "All Medieval events are Significant events",
+          "All Medieval events are Industrial Revolution events",
+          "Some Significant events are Medieval events",
+          "Some Medieval events are Significant events",
+          "Some Medieval events are Industrial Revolution events",
+          "Some Medieval events are not Significant events",
+          "Some Industrial Revolution events are Medieval events",
+          "Some Industrial Revolution events are not Significant events",
+          "No Industrial Revolution events is Significant events",
+          "No Significant events is Industrial Revolution events"
+        ]
+      }
+    ]
+  }
+}

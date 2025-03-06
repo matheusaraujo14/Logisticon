@@ -1,0 +1,54 @@
+{
+  "Nutrition": {
+    "Celarent": [
+      {
+        "major premise": "No vegetables are animal_products",
+        "minor premise": "All spinach are vegetables",
+        "conclusion": "No spinach are animal_products",
+        "incorrect conclusions": [
+          "All spinach are animal_products",
+          "All vegetables are animal_products",
+          "Some spinach are vegetables",
+          "Some spinach are animal_products",
+          "Some vegetables are spinach",
+          "Some vegetables are animal_products",
+          "Some vegetables are not spinach",
+          "Some animal_products are spinach",
+          "Some animal_products are vegetables"
+        ]
+      },
+      {
+        "major premise": "No minerals are carbohydrates",
+        "minor premise": "All calcium are minerals",
+        "conclusion": "No calcium are carbohydrates",
+        "incorrect conclusions": [
+          "All calcium are carbohydrates",
+          "All minerals are carbohydrates",
+          "Some calcium are minerals",
+          "Some calcium are carbohydrates",
+          "Some minerals are calcium",
+          "Some minerals are carbohydrates",
+          "Some minerals are not calcium",
+          "Some carbohydrates are calcium",
+          "Some carbohydrates are minerals"
+        ]
+      },
+      {
+        "major premise": "No fruits are dairy_products",
+        "minor premise": "All apples are fruits",
+        "conclusion": "No apples are dairy_products",
+        "incorrect conclusions": [
+          "All apples are dairy_products",
+          "All fruits are dairy_products",
+          "Some apples are fruits",
+          "Some apples are dairy_products",
+          "Some fruits are apples",
+          "Some fruits are dairy_products",
+          "Some fruits are not apples",
+          "Some dairy_products are apples",
+          "Some dairy_products are fruits"
+        ]
+      }
+    ]
+  }
+}

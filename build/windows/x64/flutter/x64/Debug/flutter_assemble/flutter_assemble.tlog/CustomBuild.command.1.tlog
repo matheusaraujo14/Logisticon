@@ -1,0 +1,28 @@
+^C:\USERS\MATHEUS ARAUJO\DOCUMENTS\GITHUB\LOGISTICON-MAIN-INTERFACE\LOGISTICON\BUILD\WINDOWS\X64\CMAKEFILES\22829A3559B6A8B9AD62D0A15315BA69\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon" "FLUTTER_TARGET=C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATHEUS ARAUJO\DOCUMENTS\GITHUB\LOGISTICON-MAIN-INTERFACE\LOGISTICON\BUILD\WINDOWS\X64\CMAKEFILES\6599AD29EB4413948F3DD94F8DF065F6\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MATHEUS ARAUJO\DOCUMENTS\GITHUB\LOGISTICON-MAIN-INTERFACE\LOGISTICON\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Matheus Araujo/Documents/GitHub/logisticon-main-interface/Logisticon/windows" "-BC:/Users/Matheus Araujo/Documents/GitHub/logisticon-main-interface/Logisticon/build/windows/x64" --check-stamp-file "C:/Users/Matheus Araujo/Documents/GitHub/logisticon-main-interface/Logisticon/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

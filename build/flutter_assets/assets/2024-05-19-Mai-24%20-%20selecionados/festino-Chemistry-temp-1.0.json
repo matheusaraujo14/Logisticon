@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+    "Festino": [
+      {
+        "major premise": "No cations are anions",
+        "minor premise": "Some sodium ions are anions",
+        "conclusion": "Some sodium ions are not cations",
+        "incorrect conclusions": [
+          "All anions are sodium ions",
+          "All anions are cations",
+          "All sodium ions are cations",
+          "All cations are anions",
+          "All cations are sodium ions",
+          "Some anions are not sodium ions",
+          "Some cations are sodium ions",
+          "Some cations are not sodium ions",
+          "Some cations are anions",
+          "Some cations are sodium ions",
+          "Some sodium ions are cations",
+          "Some sodium ions are not anions",
+          "Some anions are cations",
+          "No anions is sodium ions",
+          "No sodium ions is not anions",
+          "No sodium ions is anions"
+        ]
+      },
+      {
+        "major premise": "No molecules are ions",
+        "minor premise": "Some sodium chloride are ions",
+        "conclusion": "Some sodium chloride are not molecules",
+        "incorrect conclusions": [
+          "All ions are sodium chloride",
+          "All ions are molecules",
+          "All sodium chloride are molecules",
+          "All molecules are ions",
+          "All molecules are sodium chloride",
+          "Some ions are not sodium chloride",
+          "Some molecules are sodium chloride",
+          "Some molecules are not sodium chloride",
+          "Some molecules are ions",
+          "Some molecules are sodium chloride",
+          "Some sodium chloride are molecules",
+          "Some sodium chloride are not ions",
+          "Some ions are molecules",
+          "No ions is sodium chloride",
+          "No sodium chloride is not ions",
+          "No sodium chloride is ions"
+        ]
+      },
+      {
+        "major premise": "No amino acids are salts",
+        "minor premise": "Some proteins are salts",
+        "conclusion": "Some proteins are not amino acids",
+        "incorrect conclusions": [
+          "All salts are proteins",
+          "All salts are amino acids",
+          "All proteins are amino acids",
+          "All amino acids are salts",
+          "All amino acids are proteins",
+          "Some salts are not proteins",
+          "Some amino acids are proteins",
+          "Some amino acids are not proteins",
+          "Some amino acids are salts",
+          "Some amino acids are proteins",
+          "Some proteins are amino acids",
+          "Some proteins are not salts",
+          "Some salts are amino acids",
+          "No salts is proteins",
+          "No proteins is not salts",
+          "No proteins is salts"
+        ]
+      }
+    ]
+  }
+}

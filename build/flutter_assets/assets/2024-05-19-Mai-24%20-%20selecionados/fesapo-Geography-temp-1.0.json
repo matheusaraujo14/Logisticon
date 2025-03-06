@@ -1,0 +1,25 @@
+{
+  "Geography": {
+     "Fesapo" : [
+		{
+          "major premise": "No continents are stars",
+          "minor premise": "All stars are celestial bodies and some stars exist",
+          "conclusion": "Some celestial bodies are not continents",
+		  "incorrect conclusions": [
+			 "All celestial bodies are continents",
+			 "All celestial bodies are stars",
+			 "All continents are celestial bodies",
+			 "All continents are stars",
+			 "Some celestial bodies are continents",
+			 "Some continents are celestial bodies",
+			 "Some continents are stars",
+			 "Some continents are not celestial bodies",
+			 "Some stars are continents",
+			 "Some stars are not celestial bodies",
+			 "No stars are celestial bodies",
+			 "No celestial bodies are stars"
+		  ]
+		}
+	 ]
+  }
+}

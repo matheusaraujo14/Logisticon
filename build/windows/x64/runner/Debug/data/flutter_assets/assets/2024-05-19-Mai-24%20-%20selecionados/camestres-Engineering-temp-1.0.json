@@ -1,0 +1,38 @@
+{
+  "Engineering": {
+     "Camestres": [
+		{
+          "major premise": "All electric circuits are electrical systems",
+          "minor premise": "No mechanical components are electrical systems",
+          "conclusion": "No mechanical components are electric circuits",
+		  "incorrect conclusions": [
+			"All electric circuits are mechanical components",
+			"All electrical systems are mechanical components",
+			"Some electric circuits are electrical systems",
+			"Some electric circuits are mechanical components",
+			"Some electrical systems are mechanical components",
+			"Some electrical systems are electric circuits",
+			"Some mechanical components are electrical systems",
+			"Some mechanical components are electric circuits",
+			"Some electrical systems are not electric circuits"
+		  ]
+		},
+		{
+          "major premise": "All turbines are energy converters",
+          "minor premise": "No gears are energy converters",
+          "conclusion": "No gears are turbines",
+		  "incorrect conclusions": [
+			"All turbines are gears",
+			"All energy converters are gears",
+			"Some turbines are energy converters",
+			"Some turbines are gears",
+			"Some energy converters are gears",
+			"Some energy converters are turbines",
+			"Some gears are energy converters",
+			"Some gears are turbines",
+			"Some energy converters are not turbines"
+		  ]
+		}
+	 ]
+  }
+}

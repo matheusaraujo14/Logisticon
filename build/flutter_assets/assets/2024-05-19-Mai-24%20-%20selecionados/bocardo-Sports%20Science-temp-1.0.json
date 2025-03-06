@@ -1,0 +1,47 @@
+{
+  "Sports Science": {
+    "Bocardo": [
+      {
+        "major premise": "Some soccer players are not athletes",
+        "minor premise": "All soccer players are humans",
+        "conclusion": "Some humans are not athletes",
+        "incorrect conclusions": [
+          "All soccer players are athletes",
+          "All humans are soccer players",
+          "All humans are athletes",
+          "All athletes are not soccer players",
+          "Some humans are not soccer players",
+          "Some humans are athletes",
+          "Some soccer players are not humans",
+          "Some soccer players are athletes",
+          "Some athletes are soccer players",
+          "Some athletes are humans",
+          "Some athletes are not humans",
+          "Some athletes are not soccer players",
+          "No soccer players is a humans",
+          "No humans is a soccer player"
+        ]
+      },
+      {
+        "major premise": "Some coaches are not nutritionists",
+        "minor premise": "All coaches are professionals",
+        "conclusion": "Some professionals are not nutritionists",
+        "incorrect conclusions": [
+          "All coaches are nutritionists",
+          "All professionals are coaches",
+          "All professionals are nutritionists",
+          "All nutritionists are not coaches",
+          "Some professionals are not coaches",
+          "Some professionals are nutritionists",
+          "Some coaches are not professionals",
+          "Some coaches are nutritionists",
+          "Some nutritionists are coaches",
+          "Some nutritionists are professionals",
+          "Some nutritionists are not professionals",
+          "Some nutritionists are not coaches",
+          "No coaches is a professionals",
+          "No professionals is a coach"
+        ]
+      }    ]
+  }
+}

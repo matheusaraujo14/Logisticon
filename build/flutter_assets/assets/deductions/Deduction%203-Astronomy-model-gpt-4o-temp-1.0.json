@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Astronomy": [
+      {
+        "premises": [ 
+          "If the star is not dense, it will expand",
+          "If the star is dense, it will collapse"
+        ],
+        "conclusions": [
+          "If the star does not expand, it is dense",
+          "If the star does not collapse, it is not dense",
+          "If the star does not collapse, it will expand",
+          "The star will expand or collapse",
+          "If the star is dense and expands, it will collapse"
+        ],
+        "incorrect conclusions": [
+          "If the star expands, it is dense",
+          "If the star expands, it is not dense",
+          "If the star does not expand, it is not dense",
+          "The star will expand and collapse",
+          "If the star collapses, it is dense",
+          "If the star expands and collapses, it is dense"
+        ]
+      },
+      {
+        "premises": [
+          "If the planet is not in the habitable zone, it will be cold",
+          "If the planet is in the habitable zone, it will support life"
+        ],
+        "conclusions": [
+          "If the planet is not cold, it is in the habitable zone",
+          "If the planet does not support life, it is not in the habitable zone",
+          "If the planet does not support life, it will be cold",
+          "The planet will be cold or support life",
+          "If the planet is in the habitable zone and is cold, it will support life"
+        ],
+        "incorrect conclusions": [
+          "If the planet is cold, it is in the habitable zone",
+          "If the planet is cold, it is not in the habitable zone",
+          "If the planet is not cold, it is not in the habitable zone",
+          "The planet will be cold and support life",
+          "If the planet supports life, it is in the habitable zone",
+          "If the planet is cold and supports life, it is in the habitable zone"
+        ]
+      },
+      {
+        "premises": [
+          "If the comet is not observed, it will not be named",
+          "If the comet is observed, it will be studied"
+        ],
+        "conclusions": [
+          "If the comet is named, it is observed",
+          "If the comet is not studied, it is not observed",
+          "If the comet is not studied, it will not be named",
+          "The comet will not be named or studied",
+          "If the comet is observed and named, it will be studied"
+        ],
+        "incorrect conclusions": [
+          "If the comet is named, it is observed",
+          "If the comet is not named, it is observed",
+          "If the comet is named, it is not observed",
+          "The comet will be named and studied",
+          "If the comet is studied, it is observed",
+          "If the comet is named and studied, it is observed"
+        ]
+      }
+    ]
+  }
+}

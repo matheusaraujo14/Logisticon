@@ -1,0 +1,22 @@
+{
+  "Geography": {
+    "Celarent": [
+      {
+        "major premise": "No mountains are oceans",
+        "minor premise": "All peaks are mountains",
+        "conclusion": "No peaks are oceans",
+        "incorrect conclusions": [
+          "All peaks are oceans",
+          "All mountains are oceans",
+          "Some peaks are mountains",
+          "Some peaks are oceans",
+          "Some mountains are peaks",
+          "Some mountains are oceans",
+          "Some mountains are not peaks",
+          "Some oceans are peaks",
+          "Some oceans are mountains"
+        ]
+      }
+    ]
+  }
+}

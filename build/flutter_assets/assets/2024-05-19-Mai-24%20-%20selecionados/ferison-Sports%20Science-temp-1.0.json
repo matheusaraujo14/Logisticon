@@ -1,0 +1,75 @@
+{
+  "Sports Science": {
+     "Ferison" : [
+		{
+          "major premise": "No gymnasts are weightlifters",
+          "minor premise": "Some gymnasts are athletes",
+          "conclusion": "Some athletes are not weightlifters",
+		  "incorrect conclusions": [
+			"All gymnasts are athletes",
+			"All gymnasts are weightlifters",
+			"All athletes are weightlifters",
+			"All weightlifters are gymnasts",
+			"All weightlifters are athletes",
+			"Some gymnasts are not athletes",
+			"Some weightlifters are athletes",
+			"Some weightlifters are not athletes",
+			"Some weightlifters are gymnasts",
+			"Some weightlifters are athletes",
+			"Some athletes are weightlifters",
+			"Some athletes are not gymnasts",
+			"Some gymnasts are weightlifters",
+			"No gymnasts are athletes",
+			"No athletes are not gymnasts",
+			"No athletes are gymnasts"
+		  ]
+		},
+		{
+          "major premise": "No marathon runners are swimmers",
+          "minor premise": "Some marathon runners are competitors",
+          "conclusion": "Some competitors are not swimmers",
+		  "incorrect conclusions": [
+			"All marathon runners are competitors",
+			"All marathon runners are swimmers",
+			"All competitors are swimmers",
+			"All swimmers are marathon runners",
+			"All swimmers are competitors",
+			"Some marathon runners are not competitors",
+			"Some swimmers are competitors",
+			"Some swimmers are not competitors",
+			"Some swimmers are marathon runners",
+			"Some swimmers are competitors",
+			"Some competitors are swimmers",
+			"Some competitors are not marathon runners",
+			"Some marathon runners are swimmers",
+			"No marathon runners are competitors",
+			"No competitors are not marathon runners",
+			"No competitors are marathon runners"
+		  ]
+		},
+		{
+          "major premise": "No cyclists are sprinters",
+          "minor premise": "Some cyclists are team players",
+          "conclusion": "Some team players are not sprinters",
+		  "incorrect conclusions": [
+			"All cyclists are team players",
+			"All cyclists are sprinters",
+			"All team players are sprinters",
+			"All sprinters are cyclists",
+			"All sprinters are team players",
+			"Some cyclists are not team players",
+			"Some sprinters are team players",
+			"Some sprinters are not team players",
+			"Some sprinters are cyclists",
+			"Some sprinters are team players",
+			"Some team players are sprinters",
+			"Some team players are not cyclists",
+			"Some cyclists are sprinters",
+			"No cyclists are team players",
+			"No team players are not cyclists",
+			"No team players are cyclists"
+		  ]
+		}
+	 ]
+  }
+}

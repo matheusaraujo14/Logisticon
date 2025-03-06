@@ -1,0 +1,75 @@
+{
+  "Medicine": {
+    "Fresison": [
+      {
+        "major premise": "No respiratory cells are red blood cells",
+        "minor premise": "Some red blood cells are oxygen transporters",
+        "conclusion": "Some oxygen transporters are not respiratory cells",
+        "incorrect conclusions": [
+          "All red blood cells are oxygen transporters",
+          "All red blood cells are respiratory cells",
+          "All oxygen transporters are respiratory cells",
+          "All respiratory cells are red blood cells",
+          "All respiratory cells are oxygen transporters",
+          "Some red blood cells are not oxygen transporters",
+          "Some respiratory cells are oxygen transporters",
+          "Some respiratory cells are not oxygen transporters",
+          "Some respiratory cells are red blood cells",
+          "Some respiratory cells are oxygen transporters",
+          "Some oxygen transporters are respiratory cells",
+          "Some oxygen transporters are not red blood cells",
+          "Some red blood cells are respiratory cells",
+          "No red blood cells are oxygen transporters",
+          "No oxygen transporters are not red blood cells",
+          "No oxygen transporters are red blood cells"
+        ]
+      },
+      {
+        "major premise": "No antibiotics are viruses",
+        "minor premise": "Some viruses are pathogens",
+        "conclusion": "Some pathogens are not antibiotics",
+        "incorrect conclusions": [
+          "All viruses are pathogens",
+          "All viruses are antibiotics",
+          "All pathogens are antibiotics",
+          "All antibiotics are viruses",
+          "All antibiotics are pathogens",
+          "Some viruses are not pathogens",
+          "Some antibiotics are pathogens",
+          "Some antibiotics are not pathogens",
+          "Some antibiotics are viruses",
+          "Some antibiotics are pathogens",
+          "Some pathogens are antibiotics",
+          "Some pathogens are not viruses",
+          "Some viruses are antibiotics",
+          "No viruses are pathogens",
+          "No pathogens are not viruses",
+          "No pathogens are viruses"
+        ]
+      },
+      {
+        "major premise": "No neurons are blood cells",
+        "minor premise": "Some blood cells are immune cells",
+        "conclusion": "Some immune cells are not neurons",
+        "incorrect conclusions": [
+          "All blood cells are immune cells",
+          "All blood cells are neurons",
+          "All immune cells are neurons",
+          "All neurons are blood cells",
+          "All neurons are immune cells",
+          "Some blood cells are not immune cells",
+          "Some neurons are immune cells",
+          "Some neurons are not immune cells",
+          "Some neurons are blood cells",
+          "Some neurons are immune cells",
+          "Some immune cells are neurons",
+          "Some immune cells are not blood cells",
+          "Some blood cells are neurons",
+          "No blood cells are immune cells",
+          "No immune cells are not blood cells",
+          "No immune cells are blood cells"
+        ]
+      }
+    ]
+  }
+}

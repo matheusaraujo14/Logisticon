@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Philosophy": [
+      {
+        "premises": [
+          "Either human actions are determined or they are free but not both at the same time",
+          "Human actions are not determined"
+        ],
+        "conclusions": [
+          "Human actions are free",
+          "If human actions are not free, then they are determined"
+        ],
+        "incorrect conclusions": [
+          "Human actions are not free",
+          "If human actions are determined, then they are free",
+          "If human actions are free, then they are determined",
+          "Human actions are determined"
+        ]
+      },
+      {
+        "premises": [
+          "Either reality is subjective or it is objective but not both at the same time",
+          "Reality is not subjective"
+        ],
+        "conclusions": [
+          "Reality is objective",
+          "If reality is not objective, then it is subjective"
+        ],
+        "incorrect conclusions": [
+          "Reality is not objective",
+          "If reality is subjective, then it is objective",
+          "If reality is objective, then it is subjective",
+          "Reality is subjective"
+        ]
+      },
+      {
+        "premises": [
+          "Either knowledge is innate or it is acquired but not both at the same time",
+          "Knowledge is not innate"
+        ],
+        "conclusions": [
+          "Knowledge is acquired",
+          "If knowledge is not acquired, then it is innate"
+        ],
+        "incorrect conclusions": [
+          "Knowledge is not acquired",
+          "If knowledge is innate, then it is acquired",
+          "If knowledge is acquired, then it is innate",
+          "Knowledge is innate"
+        ]
+      }
+    ]
+  }
+}

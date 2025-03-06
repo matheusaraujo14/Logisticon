@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Geography": [
+      {
+        "premises": [
+          "If a mountain has snow, then it is not summer",
+          "If a mountain has snow, then it is cold"
+        ],
+        "conclusions": [
+          "If a mountain has snow, then it is not summer and it is cold",
+          "If a mountain has snow, then it is not summer or it is cold",
+          "If it is summer, then the mountain does not have snow",
+          "If it is not cold, then the mountain does not have snow",
+          "If it is summer or it is not cold, then the mountain does not have snow"
+        ],
+        "incorrect conclusions": [
+          "If it is summer, it is not cold",
+          "If it is not cold, it is summer",
+          "If it is not summer, then it is cold",
+          "If it is cold, then it is not summer",
+          "If it is not summer and it is cold, then the mountain has snow",
+          "If it is not summer or it is cold, then the mountain has snow",
+          "If it is summer or the mountain does not have snow, then the mountain has snow"
+        ]
+      },
+      {
+        "premises": [
+          "If a river is flooding, then the dam is not holding",
+          "If a river is flooding, then the weather is stormy"
+        ],
+        "conclusions": [
+          "If a river is flooding, then the dam is not holding and the weather is stormy",
+          "If a river is flooding, then the dam is not holding or the weather is stormy",
+          "If the dam is holding, then the river is not flooding",
+          "If the weather is not stormy, then the river is not flooding",
+          "If the dam is holding or the weather is not stormy, then the river is not flooding"
+        ],
+        "incorrect conclusions": [
+          "If the dam is holding, the weather is not stormy",
+          "If the weather is not stormy, the dam is holding",
+          "If the dam is not holding, then the weather is stormy",
+          "If the weather is stormy, then the dam is not holding",
+          "If the dam is not holding and the weather is stormy, then the river is flooding",
+          "If the dam is not holding or the weather is stormy, then the river is flooding",
+          "If the dam is holding or the river is not flooding, then the river is flooding"
+        ]
+      },
+      {
+        "premises": [
+          "If a plant is wilting, then it is not raining",
+          "If a plant is wilting, then the soil is dry"
+        ],
+        "conclusions": [
+          "If a plant is wilting, then it is not raining and the soil is dry",
+          "If a plant is wilting, then it is not raining or the soil is dry",
+          "If it is raining, then the plant is not wilting",
+          "If the soil is not dry, then the plant is not wilting",
+          "If it is raining or the soil is not dry, then the plant is not wilting"
+        ],
+        "incorrect conclusions": [
+          "If it is raining, the soil is not dry",
+          "If the soil is not dry, it is raining",
+          "If it is not raining, then the soil is dry",
+          "If the soil is dry, then it is not raining",
+          "If it is not raining and the soil is dry, then the plant is wilting",
+          "If it is not raining or the soil is dry, then the plant is wilting",
+          "If it is raining or the plant is not wilting, then the plant is wilting"
+        ]
+      }
+    ]
+  }
+}

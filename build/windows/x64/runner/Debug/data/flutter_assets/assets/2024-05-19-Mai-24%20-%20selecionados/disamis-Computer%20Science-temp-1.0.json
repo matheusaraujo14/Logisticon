@@ -1,0 +1,52 @@
+{
+  "Computer Science": {
+    "Disamis": [
+      {
+        "major premise": "Some Algorithms are Data Structures",
+        "minor premise": "All Algorithms are Computational Problems",
+        "conclusion": "Some Computational Problems are Data Structures",
+        "incorrect conclusions": [
+          "All Computational Problems are Data Structures",
+          "All Computational Problems are Algorithms",
+          "All Data Structures are Computational Problems",
+          "All Data Structures are Algorithms",
+          "All Algorithms are Data Structures",
+          "Some Computational Problems are not Algorithms",
+          "Some Data Structures are not Computational Problems",
+          "Some Data Structures are not Algorithms",
+          "Some Algorithms are not Computational Problems",
+          "Some Algorithms are not Data Structures",
+          "No Data Structures is a Computational Problem",
+          "No Data Structures is an Algorithm",
+          "No Algorithms is a Computational Problem",
+          "No Algorithms is a Data Structure",
+          "No Computational Problems is an Algorithm",
+          "No Computational Problems is a Data Structure"
+        ]
+      },
+      {
+        "major premise": "Some Machine Learning Algorithms are Neural Networks",
+        "minor premise": "All Machine Learning Algorithms are Techniques in AI",
+        "conclusion": "Some Techniques in AI are Neural Networks",
+        "incorrect conclusions": [
+          "All Techniques in AI are Neural Networks",
+          "All Techniques in AI are Machine Learning Algorithms",
+          "All Neural Networks are Techniques in AI",
+          "All Neural Networks are Machine Learning Algorithms",
+          "All Machine Learning Algorithms are Neural Networks",
+          "Some Techniques in AI are not Machine Learning Algorithms",
+          "Some Neural Networks are not Techniques in AI",
+          "Some Neural Networks are not Machine Learning Algorithms",
+          "Some Machine Learning Algorithms are not Techniques in AI",
+          "Some Machine Learning Algorithms are not Neural Networks",
+          "No Neural Networks is a Technique in AI",
+          "No Neural Networks is a Machine Learning Algorithm",
+          "No Machine Learning Algorithms is a Technique in AI",
+          "No Machine Learning Algorithms is a Neural Network",
+          "No Techniques in AI is a Machine Learning Algorithm",
+          "No Techniques in AI is a Neural Network"
+        ]
+      }
+    ]
+  }
+}

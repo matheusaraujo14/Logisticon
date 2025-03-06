@@ -1,0 +1,69 @@
+{
+  "Literature": {
+    "Calemes": [
+      {
+        "major premise": "All novels are books",
+        "minor premise": "No books are poems",
+        "conclusion": "No poems are novels",
+        "incorrect conclusions": [
+          "All books are poems",
+          "All books are novels",
+          "All poems are books",
+          "All poems are novels",
+          "All novels are poems",
+          "Some books are novels",
+          "Some books are not novels",
+          "Some books are poems",
+          "Some novels are poems",
+          "Some novels are not books",
+          "Some novels are books",
+          "Some poems are books",
+          "Some poems are novels",
+          "No novels are books"
+        ]
+      },
+      {
+        "major premise": "All short stories are narratives",
+        "minor premise": "No narratives are essays",
+        "conclusion": "No essays are short stories",
+        "incorrect conclusions": [
+          "All narratives are essays",
+          "All narratives are short stories",
+          "All essays are narratives",
+          "All essays are short stories",
+          "All short stories are essays",
+          "Some narratives are short stories",
+          "Some narratives are not short stories",
+          "Some narratives are essays",
+          "Some short stories are essays",
+          "Some short stories are not narratives",
+          "Some short stories are narratives",
+          "Some essays are narratives",
+          "Some essays are short stories",
+          "No short stories are narratives"
+        ]
+      },
+      {
+        "major premise": "All biographies are manuscripts",
+        "minor premise": "No manuscripts are plays",
+        "conclusion": "No plays are biographies",
+        "incorrect conclusions": [
+          "All manuscripts are plays",
+          "All manuscripts are biographies",
+          "All plays are manuscripts",
+          "All plays are biographies",
+          "All biographies are plays",
+          "Some manuscripts are biographies",
+          "Some manuscripts are not biographies",
+          "Some manuscripts are plays",
+          "Some biographies are plays",
+          "Some biographies are not manuscripts",
+          "Some biographies are manuscripts",
+          "Some plays are manuscripts",
+          "Some plays are biographies",
+          "No biographies are manuscripts"
+        ]
+      }
+    ]
+  }
+}

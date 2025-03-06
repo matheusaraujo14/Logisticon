@@ -1,0 +1,57 @@
+{
+  "Nutrition": {
+     "Ferio": [
+		{
+          "major premise": "No vegetables are meat",
+          "minor premise": "Some green beans are vegetables",
+          "conclusion": "Some green beans are not meat",
+		  "incorrect conclusions": [
+			"All meat are vegetables",
+            "All green beans are vegetables",
+            "All green beans are meat",
+            "All meat are green beans",
+            "All vegetables are green beans",
+            "Some meat are not green beans",
+            "Some green beans are meat",
+            "Some meat are green beans",
+            "Some green beans are not vegetables",
+            "No green beans are vegetables"
+		   ]
+		},
+		{
+          "major premise": "No fruits are dairy",
+          "minor premise": "Some apples are fruits",
+          "conclusion": "Some apples are not dairy",
+		  "incorrect conclusions": [
+			"All fruits are apples",
+            "All apples are fruits",
+            "All apples are dairy",
+            "All fruits are dairy",
+            "All dairy are apples",
+            "Some dairy are not apples",
+            "Some apples are dairy",
+            "Some dairy are apples",
+            "Some apples are not fruits",
+            "No apples are fruits"
+		   ]
+		},
+		{
+          "major premise": "No nuts are grains",
+          "minor premise": "Some almonds are nuts",
+          "conclusion": "Some almonds are not grains",
+		  "incorrect conclusions": [
+			"All nuts are grains",
+            "All almonds are grains",
+            "All almonds are nuts",
+            "All nuts are almonds",
+            "All grains are nuts",
+            "Some grains are not almonds",
+            "Some almonds are grains",
+            "Some grains are almonds",
+            "Some almonds are not nuts",
+            "No almonds are nuts"
+		   ]
+		}
+	 ]
+  }
+}

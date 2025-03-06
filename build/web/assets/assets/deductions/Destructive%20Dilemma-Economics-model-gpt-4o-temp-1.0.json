@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Economics": [
+      {
+        "premises": [
+          "If the interest rate rises, then investment will decrease",
+          "If the interest rate rises, then consumer spending will fall",
+          "Investment will not decrease or consumer spending will not fall"
+        ],
+        "conclusions": [
+          "The interest rate will not rise",
+          "Investment will not decrease and consumer spending will not fall",
+          "If the interest rate rises, then investment will decrease and consumer spending will fall"
+        ],
+        "incorrect conclusions": [
+          "If the interest rate rises, then investment will decrease and consumer spending will not fall",
+          "If investment decreases and consumer spending falls, then the interest rate will rise",
+          "If investment decreases, then the interest rate will rise",
+          "Investment will decrease or consumer spending will fall but not both are true",
+          "If the interest rate does not rise, then investment will not decrease or consumer spending will not fall"
+        ]
+      },
+      {
+        "premises": [
+          "If the government spends more, then budget deficit increases",
+          "If the government spends more, then inflation rises",
+          "The budget deficit does not increase or inflation does not rise"
+        ],
+        "conclusions": [
+          "The government does not spend more",
+          "The budget deficit does not increase and inflation does not rise",
+          "If the government spends more, then budget deficit increases and inflation rises"
+        ],
+        "incorrect conclusions": [
+          "If the government spends more, then budget deficit increases and inflation does not rise",
+          "If budget deficit increases and inflation rises, then the government spends more",
+          "If budget deficit increases, then the government spends more",
+          "Budget deficit increases or inflation rises but not both are true",
+          "If the government does not spend more, then budget deficit does not increase or inflation does not rise"
+        ]
+      },
+      {
+        "premises": [
+          "If the supply of labor increases, then wage rates fall",
+          "If the supply of labor increases, then unemployment falls",
+          "Wage rates do not fall or unemployment does not fall"
+        ],
+        "conclusions": [
+          "The supply of labor does not increase",
+          "Wage rates do not fall and unemployment does not fall",
+          "If the supply of labor increases, then wage rates fall and unemployment falls"
+        ],
+        "incorrect conclusions": [
+          "If the supply of labor increases, then wage rates fall and unemployment does not fall",
+          "If wage rates fall and unemployment falls, then the supply of labor increases",
+          "If wage rates fall, then the supply of labor increases",
+          "Wage rates fall or unemployment falls but not both are true",
+          "If the supply of labor does not increase, then wage rates do not fall or unemployment does not fall"
+        ]
+      }
+    ]
+  }
+}

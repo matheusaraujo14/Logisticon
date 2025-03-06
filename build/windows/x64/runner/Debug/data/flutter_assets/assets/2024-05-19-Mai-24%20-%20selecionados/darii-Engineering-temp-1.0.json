@@ -1,0 +1,30 @@
+{
+  "Engineering": {
+     "Darii" : [
+		{
+          "major premise": "All screws are fasteners",
+          "minor premise": "Some bolts are screws",
+          "conclusion": "Some bolts are fasteners",
+		  "incorrect conclusions":[
+            "All bolts are screws",
+            "All bolts are fasteners",
+            "All fasteners are screws",
+            "All fasteners are bolts",
+            "All screws are bolts",
+            "Some bolts are not fasteners",
+            "Some bolts are not screws",
+            "Some fasteners are not screws",
+            "Some fasteners are not bolts",
+            "Some screws are not fasteners",
+            "Some screws are not bolts",
+            "No bolts are fasteners",
+            "No bolts are screws",
+            "No screws are fasteners",
+            "No screws are bolts",
+            "No fasteners are screws",
+            "No fasteners are bolts"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Astronomy": {
+    "Darapti": [
+      {
+        "major premise": "All stars are celestial objects",
+        "minor premise": "All stars are luminous spheres and some stars exist",
+        "conclusion": "Some luminous spheres are celestial objects",
+        "incorrect conclusions": [
+          "All luminous spheres are celestial objects",
+          "All celestial objects are luminous spheres",
+          "All stars are not luminous spheres",
+          "All stars are not celestial objects",
+          "Some luminous spheres are not celestial objects",
+          "Some luminous spheres are not stars",
+          "Some celestial objects are not stars",
+          "Some celestial objects are not luminous spheres",
+          "Some stars are not luminous spheres",
+          "Some stars are not celestial objects",
+          "No stars are luminous spheres",
+          "No stars are celestial objects",
+          "No celestial objects are stars",
+          "No celestial objects are luminous spheres",
+          "No luminous spheres are stars",
+          "No luminous spheres are celestial objects"
+        ]
+      },
+      {
+        "major premise": "All planets are celestial bodies",
+        "minor premise": "All planets are orbs and some planets exist",
+        "conclusion": "Some orbs are celestial bodies",
+        "incorrect conclusions": [
+          "All orbs are celestial bodies",
+          "All celestial bodies are orbs",
+          "All planets are not orbs",
+          "All planets are not celestial bodies",
+          "Some orbs are not celestial bodies",
+          "Some orbs are not planets",
+          "Some celestial bodies are not planets",
+          "Some celestial bodies are not orbs",
+          "Some planets are not orbs",
+          "Some planets are not celestial bodies",
+          "No planets are orbs",
+          "No planets are celestial bodies",
+          "No celestial bodies are planets",
+          "No celestial bodies are orbs",
+          "No orbs are planets",
+          "No orbs are celestial bodies"
+        ]
+      }
+    ]
+  }
+}

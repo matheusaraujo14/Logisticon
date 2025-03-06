@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Biology": [
+      {
+        "premises": [
+          "The animal is a mammal or a reptile but not both",
+          "The animal is a mammal"
+        ],
+        "conclusions": [
+          "The animal is not a reptile"
+        ],
+        "incorrect conclusions": [
+          "The animal is a reptile",
+          "The animal is not a mammal"
+        ]
+      },
+      {
+        "premises": [
+          "The plant is a fern or a moss but not both",
+          "The plant is a fern"
+        ],
+        "conclusions": [
+          "The plant is not a moss"
+        ],
+        "incorrect conclusions": [
+          "The plant is a moss",
+          "The plant is not a fern"
+        ]
+      },
+      {
+        "premises": [
+          "The bird can fly or swim but not both",
+          "The bird can fly"
+        ],
+        "conclusions": [
+          "The bird cannot swim"
+        ],
+        "incorrect conclusions": [
+          "The bird can swim",
+          "The bird cannot fly"
+        ]
+      }
+    ]
+  }
+}

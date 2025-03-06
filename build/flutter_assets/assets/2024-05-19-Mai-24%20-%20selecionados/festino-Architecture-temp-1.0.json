@@ -1,0 +1,75 @@
+{
+  "Architecture": {
+    "Festino": [
+      {
+        "major premise": "No skyscrapers are traditional_houses",
+        "minor premise": "Some buildings_with_windows are traditional_houses",
+        "conclusion": "Some buildings_with_windows are not skyscrapers",
+        "incorrect conclusions": [
+          "All traditional_houses are buildings_with_windows",
+          "All traditional_houses are skyscrapers",
+          "All buildings_with_windows are skyscrapers",
+          "All skyscrapers are traditional_houses",
+          "All skyscrapers are buildings_with_windows",
+          "Some traditional_houses are not buildings_with_windows",
+          "Some skyscrapers are buildings_with_windows",
+          "Some skyscrapers are not buildings_with_windows",
+          "Some skyscrapers are traditional_houses",
+          "Some skyscrapers are buildings_with_windows",
+          "Some buildings_with_windows are skyscrapers",
+          "Some buildings_with_windows are not traditional_houses",
+          "Some traditional_houses are skyscrapers",
+          "No traditional_houses is buildings_with_windows",
+          "No buildings_with_windows is not traditional_houses",
+          "No buildings_with_windows is traditional_houses"
+        ]
+      },
+      {
+        "major premise": "No modern_buildings are ancient_structures",
+        "minor premise": "Some museums are ancient_structures",
+        "conclusion": "Some museums are not modern_buildings",
+        "incorrect conclusions": [
+          "All ancient_structures are museums",
+          "All ancient_structures are modern_buildings",
+          "All museums are modern_buildings",
+          "All modern_buildings are ancient_structures",
+          "All modern_buildings are museums",
+          "Some ancient_structures are not museums",
+          "Some modern_buildings are museums",
+          "Some modern_buildings are not museums",
+          "Some modern_buildings are ancient_structures",
+          "Some modern_buildings are museums",
+          "Some museums are modern_buildings",
+          "Some museums are not ancient_structures",
+          "Some ancient_structures are modern_buildings",
+          "No ancient_structures is museums",
+          "No museums is not ancient_structures",
+          "No museums is ancient_structures"
+        ]
+      },
+      {
+        "major premise": "No gothic_structures are wooden_buildings",
+        "minor premise": "Some cathedrals are wooden_buildings",
+        "conclusion": "Some cathedrals are not gothic_structures",
+        "incorrect conclusions": [
+          "All wooden_buildings are cathedrals",
+          "All wooden_buildings are gothic_structures",
+          "All cathedrals are gothic_structures",
+          "All gothic_structures are wooden_buildings",
+          "All gothic_structures are cathedrals",
+          "Some wooden_buildings are not cathedrals",
+          "Some gothic_structures are cathedrals",
+          "Some gothic_structures are not cathedrals",
+          "Some gothic_structures are wooden_buildings",
+          "Some gothic_structures are cathedrals",
+          "Some cathedrals are gothic_structures",
+          "Some cathedrals are not wooden_buildings",
+          "Some wooden_buildings are gothic_structures",
+          "No wooden_buildings is cathedrals",
+          "No cathedrals is not wooden_buildings",
+          "No cathedrals is wooden_buildings"
+        ]
+      }
+    ]
+  }
+}

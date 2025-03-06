@@ -1,0 +1,52 @@
+{
+  "Mathematics": {
+    "Festino": [
+      {
+        "major premise": "No irrational numbers are rational numbers",
+        "minor premise": "Some real numbers are rational numbers",
+        "conclusion": "Some real numbers are not irrational numbers",
+        "incorrect conclusions": [
+          "All rational numbers are real numbers",
+          "All rational numbers are irrational numbers",
+          "All real numbers are irrational numbers",
+          "All irrational numbers are rational numbers",
+          "All irrational numbers are real numbers",
+          "Some rational numbers are not real numbers",
+          "Some irrational numbers are real numbers",
+          "Some irrational numbers are not real numbers",
+          "Some irrational numbers are rational numbers",
+          "Some irrational numbers are real numbers",
+          "Some real numbers are irrational numbers",
+          "Some real numbers are not rational numbers",
+          "Some rational numbers are irrational numbers",
+          "No rational numbers is real numbers",
+          "No real numbers is not rational numbers",
+          "No real numbers are rational numbers"
+        ]
+      },
+      {
+        "major premise": "No composite numbers are prime numbers",
+        "minor premise": "Some natural numbers are prime numbers",
+        "conclusion": "Some natural numbers are not composite numbers",
+        "incorrect conclusions": [
+          "All prime numbers are natural numbers",
+          "All prime numbers are composite numbers",
+          "All natural numbers are composite numbers",
+          "All composite numbers are prime numbers",
+          "All composite numbers are natural numbers",
+          "Some prime numbers are not natural numbers",
+          "Some composite numbers are natural numbers",
+          "Some composite numbers are not natural numbers",
+          "Some composite numbers are prime numbers",
+          "Some composite numbers are natural numbers",
+          "Some natural numbers are composite numbers",
+          "Some natural numbers are not prime numbers",
+          "Some prime numbers are composite numbers",
+          "No prime numbers is natural numbers",
+          "No natural numbers is not prime numbers",
+          "No natural numbers are prime numbers"
+        ]
+      }
+    ]
+  }
+}

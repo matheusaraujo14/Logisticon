@@ -1,0 +1,52 @@
+{
+  "Law": {
+    "Festino": [
+      {
+        "major premise": "No judges are lawyers",
+        "minor premise": "Some criminals are lawyers",
+        "conclusion": "Some criminals are not judges",
+        "incorrect conclusions": [
+          "All lawyers are criminals",
+          "All lawyers are judges",
+          "All criminals are judges",
+          "All judges are lawyers",
+          "All judges are criminals",
+          "Some lawyers are not criminals",
+          "Some judges are criminals",
+          "Some judges are not criminals",
+          "Some judges are lawyers",
+          "Some judges are criminals",
+          "Some criminals are judges",
+          "Some criminals are not lawyers",
+          "Some lawyers are judges",
+          "No lawyers are criminals",
+          "No criminals are not lawyers",
+          "No criminals are lawyers"
+        ]
+      },
+      {
+        "major premise": "No prosecutors are defendants",
+        "minor premise": "Some witnesses are defendants",
+        "conclusion": "Some witnesses are not prosecutors",
+        "incorrect conclusions": [
+          "All defendants are witnesses",
+          "All defendants are prosecutors",
+          "All witnesses are prosecutors",
+          "All prosecutors are defendants",
+          "All prosecutors are witnesses",
+          "Some defendants are not witnesses",
+          "Some prosecutors are witnesses",
+          "Some prosecutors are not witnesses",
+          "Some prosecutors are defendants",
+          "Some prosecutors are witnesses",
+          "Some witnesses are prosecutors",
+          "Some witnesses are not defendants",
+          "Some defendants are prosecutors",
+          "No defendants are witnesses",
+          "No witnesses are not defendants",
+          "No witnesses are defendants"
+        ]
+      }
+    ]
+  }
+}

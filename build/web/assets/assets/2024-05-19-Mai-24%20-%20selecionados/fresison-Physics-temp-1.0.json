@@ -1,0 +1,52 @@
+{
+  "Physics": {
+    "Fresison": [
+      {
+        "major premise": "No stars are planets",
+        "minor premise": "Some planets are rocks",
+        "conclusion": "Some rocks are not stars",
+        "incorrect conclusions": [
+          "All planets are rocks",
+          "All planets are stars",
+          "All rocks are stars",
+          "All stars are planets",
+          "All stars are rocks",
+          "Some planets are not rocks",
+          "Some stars are rocks",
+          "Some stars are not rocks",
+          "Some stars are planets",
+          "Some stars are rocks",
+          "Some rocks are stars",
+          "Some rocks are not planets",
+          "Some planets are stars",
+          "No planets are rocks",
+          "No rocks are not planets",
+          "No rocks are planets"
+        ]
+      },
+      {
+        "major premise": "No atoms are minerals",
+        "minor premise": "Some minerals are molecules",
+        "conclusion": "Some molecules are not atoms",
+        "incorrect conclusions": [
+          "All minerals are molecules",
+          "All minerals are atoms",
+          "All molecules are atoms",
+          "All atoms are minerals",
+          "All atoms are molecules",
+          "Some minerals are not molecules",
+          "Some atoms are molecules",
+          "Some atoms are not molecules",
+          "Some atoms are minerals",
+          "Some atoms are molecules",
+          "Some molecules are atoms",
+          "Some molecules are not minerals",
+          "Some minerals are atoms",
+          "No minerals are molecules",
+          "No molecules are not minerals",
+          "No molecules are minerals"
+        ]
+      }
+    ]
+  }
+}

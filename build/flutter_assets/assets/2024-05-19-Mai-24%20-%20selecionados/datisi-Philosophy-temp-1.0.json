@@ -1,0 +1,78 @@
+{
+  "Philosophy": {
+    "Datisi": [
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "Some philosophers are logicians",
+        "conclusion": "Some logicians are thinkers",
+        "incorrect conclusions": [
+          "All logicians are philosophers",
+          "All logicians are thinkers",
+          "All thinkers are philosophers",
+          "All thinkers are logicians",
+          "All philosophers are logicians",
+          "Some logicians are not thinkers",
+          "Some logicians are not philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are not logicians",
+          "Some philosophers are not thinkers",
+          "Some philosophers are not logicians",
+          "No logician is thinker",
+          "No logician is philosopher",
+          "No philosopher is thinker",
+          "No philosopher is logician",
+          "No thinker is philosopher",
+          "No thinker is logician"
+        ]
+      },
+      {
+        "major premise": "All moral philosophers are ethicists",
+        "minor premise": "Some moral philosophers are professors",
+        "conclusion": "Some professors are ethicists",
+        "incorrect conclusions": [
+          "All professors are moral philosophers",
+          "All professors are ethicists",
+          "All ethicists are moral philosophers",
+          "All ethicists are professors",
+          "All moral philosophers are professors",
+          "Some professors are not ethicists",
+          "Some professors are not moral philosophers",
+          "Some ethicists are not moral philosophers",
+          "Some ethicists are not professors",
+          "Some moral philosophers are not ethicists",
+          "Some moral philosophers are not professors",
+          "No professor is ethicist",
+          "No professor is moral philosopher",
+          "No moral philosopher is ethicist",
+          "No moral philosopher is professor",
+          "No ethicist is moral philosopher",
+          "No ethicist is professor"
+        ]
+      },
+      {
+        "major premise": "All epistemologists are philosophers",
+        "minor premise": "Some epistemologists are researchers",
+        "conclusion": "Some researchers are philosophers",
+        "incorrect conclusions": [
+          "All researchers are epistemologists",
+          "All researchers are philosophers",
+          "All philosophers are epistemologists",
+          "All philosophers are researchers",
+          "All epistemologists are researchers",
+          "Some researchers are not philosophers",
+          "Some researchers are not epistemologists",
+          "Some philosophers are not epistemologists",
+          "Some philosophers are not researchers",
+          "Some epistemologists are not philosophers",
+          "Some epistemologists are not researchers",
+          "No researcher is philosopher",
+          "No researcher is epistemologist",
+          "No epistemologist is philosopher",
+          "No epistemologist is researcher",
+          "No philosopher is epistemologist",
+          "No philosopher is researcher"
+        ]
+      }
+    ]
+  }
+}

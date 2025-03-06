@@ -1,0 +1,52 @@
+{
+  "History": {
+    "Festino": [
+      {
+        "major premise": "No medieval castles are inconspicuous buildings",
+        "minor premise": "Some country houses are inconspicuous buildings",
+        "conclusion": "Some country houses are not medieval castles",
+        "incorrect conclusions": [
+          "All inconspicuous buildings are country houses",
+          "All inconspicuous buildings are medieval castles",
+          "All country houses are medieval castles",
+          "All medieval castles are inconspicuous buildings",
+          "All medieval castles are country houses",
+          "Some inconspicuous buildings are not country houses",
+          "Some medieval castles are country houses",
+          "Some medieval castles are not country houses",
+          "Some medieval castles are inconspicuous buildings",
+          "Some medieval castles are country houses",
+          "Some country houses are medieval castles",
+          "Some country houses are not inconspicuous buildings",
+          "Some inconspicuous buildings are medieval castles",
+          "No inconspicuous buildings are country houses",
+          "No country houses are not inconspicuous buildings",
+          "No country houses are inconspicuous buildings"
+        ]
+      },
+      {
+        "major premise": "No historical figures are insignificant figures",
+        "minor premise": "Some trivial peasants are insignificant figures",
+        "conclusion": "Some trivial peasants are not historical figures",
+        "incorrect conclusions": [
+          "All insignificant figures are trivial peasants",
+          "All insignificant figures are historical figures",
+          "All trivial peasants are historical figures",
+          "All historical figures are insignificant figures",
+          "All historical figures are trivial peasants",
+          "Some insignificant figures are not trivial peasants",
+          "Some historical figures are trivial peasants",
+          "Some historical figures are not trivial peasants",
+          "Some historical figures are insignificant figures",
+          "Some historical figures are trivial peasants",
+          "Some trivial peasants are historical figures",
+          "Some trivial peasants are not insignificant figures",
+          "Some insignificant figures are historical figures",
+          "No insignificant figures are trivial peasants",
+          "No trivial peasants are not insignificant figures",
+          "No trivial peasants are insignificant figures"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete takes a protein supplement, then their muscle recovery improves",
+          "If an athlete follows a high-protein diet, then their muscle recovery improves",
+          "The athlete takes a protein supplement or follows a high-protein diet"
+        ],
+        "conclusions": [
+          "The athlete's muscle recovery improves",
+          "If the athlete takes a protein supplement or follows a high-protein diet, then their muscle recovery improves",
+          "If the athlete's muscle recovery does not improve, then the athlete does not take a protein supplement and does not follow a high-protein diet",
+          "If the athlete takes a protein supplement and follows a high-protein diet, then their muscle recovery improves",
+          "If the athlete's muscle recovery improves, then the athlete takes a protein supplement or follows a high-protein diet"
+        ],
+        "incorrect conclusions": [
+          "If the athlete takes a protein supplement, then the athlete follows a high-protein diet or their muscle recovery improves",
+          "If the athlete's muscle recovery improves, then the athlete takes a protein supplement and follows a high-protein diet",
+          "If the athlete's muscle recovery improves or the athlete takes a protein supplement, then the athlete follows a high-protein diet",
+          "If the athlete does not take a protein supplement, then their muscle recovery improves",
+          "If the athlete's muscle recovery does not improve, then the athlete takes a protein supplement and follows a high-protein diet"
+        ]
+      },
+      {
+        "premises": [
+          "If a team trains with high-intensity intervals, then their cardiovascular endurance increases",
+          "If a team trains with long-distance runs, then their cardiovascular endurance increases",
+          "The team trains with high-intensity intervals or long-distance runs"
+        ],
+        "conclusions": [
+          "The team's cardiovascular endurance increases",
+          "If the team trains with high-intensity intervals or long-distance runs, then their cardiovascular endurance increases",
+          "If the team's cardiovascular endurance does not increase, then the team does not train with high-intensity intervals and does not train with long-distance runs",
+          "If the team trains with high-intensity intervals and long-distance runs, then their cardiovascular endurance increases",
+          "If the team's cardiovascular endurance increases, then the team trains with high-intensity intervals or long-distance runs"
+        ],
+        "incorrect conclusions": [
+          "If the team trains with high-intensity intervals, then the team trains with long-distance runs or their cardiovascular endurance increases",
+          "If the team's cardiovascular endurance increases, then the team trains with high-intensity intervals and long-distance runs",
+          "If the team's cardiovascular endurance increases or the team trains with high-intensity intervals, then the team trains with long-distance runs",
+          "If the team does not train with high-intensity intervals, then their cardiovascular endurance increases",
+          "If the team's cardiovascular endurance does not increase, then the team trains with high-intensity intervals and long-distance runs"
+        ]
+      },
+      {
+        "premises": [
+          "If a player performs strength training, then their sprint speed improves",
+          "If a player performs plyometric exercises, then their sprint speed improves",
+          "The player performs strength training or plyometric exercises"
+        ],
+        "conclusions": [
+          "The player's sprint speed improves",
+          "If the player performs strength training or plyometric exercises, then their sprint speed improves",
+          "If the player's sprint speed does not improve, then the player does not perform strength training and does not perform plyometric exercises",
+          "If the player performs strength training and plyometric exercises, then their sprint speed improves",
+          "If the player's sprint speed improves, then the player performs strength training or plyometric exercises"
+        ],
+        "incorrect conclusions": [
+          "If the player performs strength training, then the player performs plyometric exercises or their sprint speed improves",
+          "If the player's sprint speed improves, then the player performs strength training and plyometric exercises",
+          "If the player's sprint speed improves or the player performs strength training, then the player performs plyometric exercises",
+          "If the player does not perform strength training, then their sprint speed improves",
+          "If the player's sprint speed does not improve, then the player performs strength training and plyometric exercises"
+        ]
+      }
+    ]
+  }
+}

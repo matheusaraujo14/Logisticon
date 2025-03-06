@@ -1,0 +1,69 @@
+{
+  "Nutrition": {
+     "Bocardo" : [
+		{
+          "major premise": "Some vitamins are not proteins",
+          "minor premise": "All vitamins are nutrients",
+          "conclusion": "Some nutrients are not proteins",
+		  "incorrect conclusions": [
+			"All vitamins are proteins",
+			"All nutrients are vitamins",
+			"All nutrients are proteins",
+			"All proteins are not vitamins",
+			"Some nutrients are not vitamins",
+			"Some nutrients are proteins",
+			"Some vitamins are not nutrients",
+			"Some vitamins are proteins",
+			"Some proteins are vitamins",
+			"Some proteins are nutrients",
+			"Some proteins are not nutrients",
+			"Some proteins are not vitamins",
+			"No vitamins are nutrients",
+			"No nutrients are vitamins"
+		  ]
+		},
+		{
+          "major premise": "Some minerals are not carbohydrates",
+          "minor premise": "All minerals are dietary elements",
+          "conclusion": "Some dietary elements are not carbohydrates",
+		  "incorrect conclusions": [
+			"All minerals are carbohydrates",
+			"All dietary elements are minerals",
+			"All dietary elements are carbohydrates",
+			"All carbohydrates are not minerals",
+			"Some dietary elements are not minerals",
+			"Some dietary elements are carbohydrates",
+			"Some minerals are not dietary elements",
+			"Some minerals are carbohydrates",
+			"Some carbohydrates are minerals",
+			"Some carbohydrates are dietary elements",
+			"Some carbohydrates are not dietary elements",
+			"Some carbohydrates are not minerals",
+			"No minerals are dietary elements",
+			"No dietary elements are minerals"
+		  ]
+		},
+		{
+          "major premise": "Some saturated fats are not amino acids",
+          "minor premise": "All saturated fats are lipids",
+          "conclusion": "Some lipids are not amino acids",
+		  "incorrect conclusions": [
+			"All saturated fats are amino acids",
+			"All lipids are saturated fats",
+			"All lipids are amino acids",
+			"All amino acids are not saturated fats",
+			"Some lipids are not saturated fats",
+			"Some lipids are amino acids",
+			"Some saturated fats are not lipids",
+			"Some saturated fats are amino acids",
+			"Some amino acids are saturated fats",
+			"Some amino acids are lipids",
+			"Some amino acids are not lipids",
+			"Some amino acids are not saturated fats",
+			"No saturated fats are lipids",
+			"No lipids are saturated fats"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Physics": [
+      {
+        "premises": [
+          "If an object is in free fall, then it accelerates due to gravity",
+          "If an object accelerates due to gravity, then it gains speed"
+        ],
+        "conclusions": [
+          "If an object is in free fall, then it gains speed",
+          "If an object does not gain speed, then it is not in free fall",
+          "If an object is in free fall or it accelerates due to gravity, then it gains speed and it is in free fall",
+          "If an object is in free fall, then it gains speed and it is in free fall",
+          "If an object is not in free fall and it accelerates due to gravity, then it gains speed and it is in free fall",
+          "If an object is in free fall or it accelerates due to gravity, then it gains speed"
+        ],
+        "incorrect conclusions": [
+          "An object is in free fall",
+          "If an object gains speed, then it is in free fall",
+          "If an object gains speed, then it is not in free fall",
+          "An object gains speed",
+          "An object does not gain speed",
+          "If an object does not gain speed, then it is in free fall",
+          "If an object does not accelerate due to gravity, then it gains speed",
+          "If an object is in free fall or it does not accelerate due to gravity, then it gains speed"
+        ]
+      },
+      {
+        "premises": [
+          "If a material conducts electricity, then it has free electrons",
+          "If a material has free electrons, then it can form an electric current"
+        ],
+        "conclusions": [
+          "If a material conducts electricity, then it can form an electric current",
+          "If a material cannot form an electric current, then it does not conduct electricity",
+          "If a material conducts electricity or it has free electrons, then it can form an electric current and it conducts electricity",
+		  "If a material conducts electricity, then it can form an electric current and it conducts electricity",
+          "If a material does not conduct electricity and it has free electrons, then it can form an electric current and it conducts electricity",
+          "If a material conducts electricity or it has free electrons, then it can form an electric current"
+        ],
+        "incorrect conclusions": [
+          "A material conducts electricity",
+          "If a material can form an electric current, then it conducts electricity",
+          "If a material can form an electric current, then it does not conduct electricity",
+          "A material can form an electric current",
+          "A material cannot form an electric current",
+          "If a material cannot form an electric current, then it conducts electricity",
+          "If a material does not have free electrons, then it can form an electric current",
+          "If a material conducts electricity or it does not have free electrons, then it can form an electric current"
+        ]
+      },
+      {
+        "premises": [
+          "If a gas is heated, then its molecules move faster",
+          "If a gas's molecules move faster, then the gas expands"
+        ],
+        "conclusions": [
+          "If a gas is heated, then the gas expands",
+          "If the gas does not expand, then the gas is not heated",
+          "If a gas is heated or its molecules move faster, then the gas expands and it is heated",
+          "If a gas is heated, then the gas expands and it is heated",
+          "If a gas is not heated and its molecules move faster, then the gas expands and it is heated",
+          "If a gas is heated or its molecules move faster, then the gas expands"
+        ],
+        "incorrect conclusions": [
+          "A gas is heated",
+          "If the gas expands, then the gas is heated",
+          "If the gas expands, then the gas is not heated",
+          "The gas expands",
+          "The gas does not expand",
+          "If the gas does not expand, then the gas is heated",
+          "If the gas's molecules do not move faster, then the gas expands",
+          "If a gas is heated or its molecules do not move faster, then the gas expands"
+        ]
+      }
+    ]
+  }
+}

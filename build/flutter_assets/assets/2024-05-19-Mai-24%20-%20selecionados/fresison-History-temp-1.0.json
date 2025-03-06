@@ -1,0 +1,75 @@
+{
+  "History": {
+     "Fresison": [
+		{
+          "major premise": "No kings are merchants",
+          "minor premise": "Some merchants are citizens",
+          "conclusion": "Some citizens are not kings",
+		  "incorrect conclusions": [
+			"All merchants are citizens",
+			"All merchants are kings",
+			"All citizens are kings",
+			"All kings are merchants",
+			"All kings are citizens",
+			"Some merchants are not citizens",
+			"Some kings are citizens",
+			"Some kings are not citizens",
+			"Some kings are merchants",
+			"Some kings are citizens",
+			"Some citizens are kings",
+			"Some citizens are not merchants",
+			"Some merchants are kings",
+			"No merchants are citizens",
+			"No citizens are not merchants",
+			"No citizens are merchants"
+		  ]
+		},
+		{
+          "major premise": "No knights are popes",
+          "minor premise": "Some popes are nobles",
+          "conclusion": "Some nobles are not knights",
+		  "incorrect conclusions": [
+			"All popes are nobles",
+			"All popes are knights",
+			"All nobles are knights",
+			"All knights are popes",
+			"All knights are nobles",
+			"Some popes are not nobles",
+			"Some knights are nobles",
+			"Some knights are not nobles",
+			"Some knights are popes",
+			"Some knights are nobles",
+			"Some nobles are knights",
+			"Some nobles are not popes",
+			"Some popes are knights",
+			"No popes are nobles",
+			"No nobles are not popes",
+			"No nobles are popes"
+		  ]
+		},
+		{
+          "major premise": "No emperors are monks",
+          "minor premise": "Some monks are artists",
+          "conclusion": "Some artists are not emperors",
+		  "incorrect conclusions": [
+			"All monks are artists",
+			"All monks are emperors",
+			"All artists are emperors",
+			"All emperors are monks",
+			"All emperors are artists",
+			"Some monks are not artists",
+			"Some emperors are artists",
+			"Some emperors are not artists",
+			"Some emperors are monks",
+			"Some emperors are artists",
+			"Some artists are emperors",
+			"Some artists are not monks",
+			"Some monks are emperors",
+			"No monks are artists",
+			"No artists are not monks",
+			"No artists are monks"
+		  ]
+		}
+	 ]
+  }
+}

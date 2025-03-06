@@ -1,0 +1,54 @@
+{
+  "Psychology": {
+     "Cesare": [
+		{
+          "major premise": "No psychologists are neuroscientists",
+          "minor premise": "All behavioral scientists are neuroscientists",
+          "conclusion": "No behavioral scientists are psychologists",
+		  "incorrect conclusions": [
+			"All behavioral scientists are psychologists",
+			"All neuroscientists are psychologists",
+			"Some behavioral scientists are neuroscientists",
+			"Some behavioral scientists are psychologists",
+			"Some neuroscientists are behavioral scientists",
+			"Some neuroscientists are psychologists",
+			"Some neuroscientists are not behavioral scientists",
+			"Some psychologists are behavioral scientists",
+			"Some psychologists are neuroscientists"
+		  ]
+		},
+		{
+          "major premise": "No clinical psychologists are psychiatrists",
+          "minor premise": "All mental health professionals are psychiatrists",
+          "conclusion": "No mental health professionals are clinical psychologists",
+		  "incorrect conclusions": [
+			"All mental health professionals are clinical psychologists",
+			"All psychiatrists are clinical psychologists",
+			"Some mental health professionals are psychiatrists",
+			"Some mental health professionals are clinical psychologists",
+			"Some psychiatrists are mental health professionals",
+			"Some psychiatrists are clinical psychologists",
+			"Some psychiatrists are not mental health professionals",
+			"Some clinical psychologists are mental health professionals",
+			"Some clinical psychologists are psychiatrists"
+		  ]
+		},
+		{
+          "major premise": "No cognitive psychologists are clinical scientists",
+          "minor premise": "All experimental psychologists are clinical scientists",
+          "conclusion": "No experimental psychologists are cognitive psychologists",
+		  "incorrect conclusions": [
+			"All experimental psychologists are cognitive psychologists",
+			"All clinical scientists are cognitive psychologists",
+			"Some experimental psychologists are clinical scientists",
+			"Some experimental psychologists are cognitive psychologists",
+			"Some clinical scientists are experimental psychologists",
+			"Some clinical scientists are cognitive psychologists",
+			"Some clinical scientists are not experimental psychologists",
+			"Some cognitive psychologists are experimental psychologists",
+			"Some cognitive psychologists are clinical scientists"
+		  ]
+		}
+	 ]
+  }
+}

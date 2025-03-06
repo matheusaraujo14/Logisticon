@@ -1,0 +1,54 @@
+{
+  "Chemistry": {
+    "Celarent": [
+      {
+        "major premise": "No acids are bases",
+        "minor premise": "All hydrochloric acids are acids",
+        "conclusion": "No hydrochloric acids are bases",
+        "incorrect conclusions": [
+          "All hydrochloric acids are bases",
+          "All acids are bases",
+          "Some hydrochloric acids are acids",
+          "Some hydrochloric acids are bases",
+          "Some acids are hydrochloric acids",
+          "Some acids are bases",
+          "Some acids are not hydrochloric acids",
+          "Some bases are hydrochloric acids",
+          "Some bases are acids"
+        ]
+      },
+      {
+        "major premise": "No salts are organic compounds",
+        "minor premise": "All table salts are salts",
+        "conclusion": "No table salts are organic compounds",
+        "incorrect conclusions": [
+          "All table salts are organic compounds",
+          "All salts are organic compounds",
+          "Some table salts are salts",
+          "Some table salts are organic compounds",
+          "Some salts are table salts",
+          "Some salts are organic compounds",
+          "Some salts are not table salts",
+          "Some organic compounds are table salts",
+          "Some organic compounds are salts"
+        ]
+      },
+      {
+        "major premise": "No elements are compounds",
+        "minor premise": "All oxygen are elements",
+        "conclusion": "No oxygen are compounds",
+        "incorrect conclusions": [
+          "All oxygen are compounds",
+          "All elements are compounds",
+          "Some oxygen are elements",
+          "Some oxygen are compounds",
+          "Some elements are oxygen",
+          "Some elements are compounds",
+          "Some elements are not oxygen",
+          "Some compounds are oxygen",
+          "Some compounds are elements"
+        ]
+      }
+    ]
+  }
+}

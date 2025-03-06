@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If the moon is full, it illuminates the night sky",
+          "If the night sky is illuminated, stargazing is poor"
+        ],
+        "conclusions": [
+          "If the moon is full, stargazing is poor",
+          "If stargazing is not poor, the moon is not full",
+          "If the moon is full or the night sky is illuminated, stargazing is poor and the moon being full implies stargazing is poor",
+          "If the moon is full, stargazing is poor and the moon being full implies stargazing is poor",
+          "If the moon is not full and the night sky is illuminated, stargazing is poor and the moon being full implies stargazing is poor",
+          "If the moon is full or the night sky is illuminated, stargazing is poor"
+        ],
+        "incorrect conclusions": [
+          "The moon is full",
+          "If stargazing is poor, the moon is full",
+          "If stargazing is poor, the moon is not full",
+          "Stargazing is poor",
+          "Stargazing is not poor",
+          "If stargazing is not poor, the moon is full",
+          "If the night sky is not illuminated, stargazing is poor",
+          "If the moon is full or the night sky is not illuminated, stargazing is poor"
+        ]
+      },
+      {
+        "premises": [
+          "If a star explodes, it creates a supernova",
+          "If a supernova is created, elements are dispersed into space"
+        ],
+        "conclusions": [
+          "If a star explodes, elements are dispersed into space",
+          "If elements are not dispersed into space, a star did not explode",
+          "If a star explodes or a supernova is created, elements are dispersed into space and a star exploding implies elements are dispersed into space",
+          "If a star explodes, elements are dispersed into space and a star exploding implies elements are dispersed into space",
+          "If a star does not explode and a supernova is created, elements are dispersed into space and a star exploding implies elements are dispersed into space",
+          "If a star explodes or a supernova is created, elements are dispersed into space"
+        ],
+        "incorrect conclusions": [
+          "A star explodes",
+          "If elements are dispersed into space, a star explodes",
+          "If elements are dispersed into space, a star did not explode",
+          "Elements are dispersed into space",
+          "Elements are not dispersed into space",
+          "If elements are not dispersed into space, a star explodes",
+          "If a supernova is not created, elements are dispersed into space",
+          "If a star explodes or a supernova is not created, elements are dispersed into space"
+        ]
+      },
+      {
+        "premises": [
+          "If a comet approaches the sun, it forms a tail",
+          "If a comet forms a tail, it becomes visible from Earth"
+        ],
+        "conclusions": [
+          "If a comet approaches the sun, it becomes visible from Earth",
+          "If a comet does not become visible from Earth, it did not approach the sun",
+          "If a comet approaches the sun or forms a tail, it becomes visible from Earth and a comet approaching the sun implies it becomes visible from Earth",
+          "If a comet approaches the sun, it becomes visible from Earth and a comet approaching the sun implies it becomes visible from Earth",
+          "If a comet does not approach the sun and forms a tail, it becomes visible from Earth and a comet approaching the sun implies it becomes visible from Earth",
+          "If a comet approaches the sun or forms a tail, it becomes visible from Earth"
+        ],
+        "incorrect conclusions": [
+          "A comet approaches the sun",
+          "If a comet becomes visible from Earth, it approaches the sun",
+          "If a comet becomes visible from Earth, it did not approach the sun",
+          "A comet becomes visible from Earth",
+          "A comet does not become visible from Earth",
+          "If a comet does not become visible from Earth, it approaches the sun",
+          "If a comet does not form a tail, it becomes visible from Earth",
+          "If a comet approaches the sun or does not form a tail, it becomes visible from Earth"
+        ]
+      }
+    ]
+  }
+}

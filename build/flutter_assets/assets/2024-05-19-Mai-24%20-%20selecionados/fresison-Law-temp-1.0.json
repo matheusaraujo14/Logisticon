@@ -1,0 +1,52 @@
+{
+  "Law": {
+    "Fresison": [
+      {
+        "major premise": "No laws are regulations",
+        "minor premise": "Some regulations are guidelines",
+        "conclusion": "Some guidelines are not laws",
+        "incorrect conclusions": [
+          "All regulations are guidelines",
+          "All regulations are laws",
+          "All guidelines are laws",
+          "All laws are regulations",
+          "All laws are guidelines",
+          "Some regulations are not guidelines",
+          "Some laws are guidelines",
+          "Some laws are not guidelines",
+          "Some laws are regulations",
+          "Some laws are guidelines",
+          "Some guidelines are laws",
+          "Some guidelines are not regulations",
+          "Some regulations are laws",
+          "No regulations are guidelines",
+          "No guidelines are not regulations",
+          "No guidelines are regulations"
+        ]
+      },
+      {
+        "major premise": "No crimes are contracts",
+        "minor premise": "Some contracts are agreements",
+        "conclusion": "Some agreements are not crimes",
+        "incorrect conclusions": [
+          "All contracts are agreements",
+          "All contracts are crimes",
+          "All agreements are crimes",
+          "All crimes are contracts",
+          "All crimes are agreements",
+          "Some contracts are not agreements",
+          "Some crimes are agreements",
+          "Some crimes are not agreements",
+          "Some crimes are contracts",
+          "Some crimes are agreements",
+          "Some agreements are crimes",
+          "Some agreements are not contracts",
+          "Some contracts are crimes",
+          "No contracts are agreements",
+          "No agreements are not contracts",
+          "No agreements are contracts"
+        ]
+      }
+    ]
+  }
+}

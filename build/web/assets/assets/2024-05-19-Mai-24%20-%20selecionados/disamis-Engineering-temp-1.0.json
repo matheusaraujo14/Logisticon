@@ -1,0 +1,29 @@
+{
+  "Engineering": {
+     "Disamis" : [
+		{
+          "major premise": "Some minerals are rocks",
+          "minor premise": "All minerals are materials",
+          "conclusion": "Some materials are rocks",
+		  "incorrect conclusions": [
+			"All materials are rocks",
+			"All materials are minerals",
+			"All rocks are materials",
+			"All rocks are minerals",
+			"All minerals are rocks",
+			"Some materials are not minerals",
+			"Some rocks are not materials",
+			"Some rocks are not minerals",
+			"Some minerals are not materials",
+			"Some minerals are not rocks",
+			"No rocks is a material",
+			"No rocks is a mineral",
+			"No minerals is a material",
+			"No minerals is a rock",
+			"No materials is a mineral",
+			"No materials is a rock"
+		  ]
+		}
+	 ]
+  }
+}

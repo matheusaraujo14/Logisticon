@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Biology": [
+      {
+        "premises": [
+          "A predator is present or prey is abundant but not both at the same time",
+          "A predator is not present"
+        ],
+        "conclusions": [
+          "Prey is abundant",
+          "If prey is not abundant, then a predator is present"
+        ],
+        "incorrect conclusions": [
+          "Prey is not abundant",
+          "If a predator is present, then prey is abundant",
+          "If prey is abundant, then a predator is present",
+          "A predator is present"
+        ]
+      },
+      {
+        "premises": [
+          "A flower is red or a bee is pollinating but not both at the same time",
+          "A flower is not red"
+        ],
+        "conclusions": [
+          "A bee is pollinating",
+          "If a bee is not pollinating, then a flower is red"
+        ],
+        "incorrect conclusions": [
+          "A bee is not pollinating",
+          "If a flower is red, then a bee is pollinating",
+          "If a bee is pollinating, then a flower is red",
+          "A flower is red"
+        ]
+      },
+      {
+        "premises": [
+          "A leaf is green or chlorophyll is present but not both at the same time",
+          "A leaf is not green"
+        ],
+        "conclusions": [
+          "Chlorophyll is present",
+          "If chlorophyll is not present, then a leaf is green"
+        ],
+        "incorrect conclusions": [
+          "Chlorophyll is not present",
+          "If a leaf is green, then chlorophyll is present",
+          "If chlorophyll is present, then a leaf is green",
+          "A leaf is green"
+        ]
+      }
+    ]
+  }
+}

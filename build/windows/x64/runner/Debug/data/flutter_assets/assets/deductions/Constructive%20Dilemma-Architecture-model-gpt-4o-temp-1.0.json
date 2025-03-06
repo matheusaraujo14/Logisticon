@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Architecture": [
+      {
+        "premises": [
+          "If the foundation is strong, then the building is stable",
+          "If the frame is well-constructed, then the building is stable",
+          "The foundation is strong or the frame is well-constructed"
+        ],
+        "conclusions": [
+          "The building is stable",
+          "If the foundation is strong or the frame is well-constructed, then the building is stable",
+          "If the building is not stable, then the foundation is not strong and the frame is not well-constructed",
+          "If the foundation is strong and the frame is well-constructed, then the building is stable",
+          "If the building is stable, then the foundation is strong or the frame is well-constructed"
+        ],
+        "incorrect conclusions": [
+          "If the foundation is strong, then the frame is well-constructed or the building is stable",
+          "If the building is stable, then the foundation is strong and the frame is well-constructed",
+          "If the building is stable or the foundation is strong, then the frame is well-constructed",
+          "If the foundation is not strong, then the building is stable",
+          "If the building is not stable, then the foundation is strong and the frame is well-constructed"
+        ]
+      },
+      {
+        "premises": [
+          "If the roof is insulated, then the temperature inside is regulated",
+          "If the walls are thick, then the temperature inside is regulated",
+          "The roof is insulated or the walls are thick"
+        ],
+        "conclusions": [
+          "The temperature inside is regulated",
+          "If the roof is insulated or the walls are thick, then the temperature inside is regulated",
+          "If the temperature inside is not regulated, then the roof is not insulated and the walls are not thick",
+          "If the roof is insulated and the walls are thick, then the temperature inside is regulated",
+          "If the temperature inside is regulated, then the roof is insulated or the walls are thick"
+        ],
+        "incorrect conclusions": [
+          "If the roof is insulated, then the walls are thick or the temperature inside is regulated",
+          "If the temperature inside is regulated, then the roof is insulated and the walls are thick",
+          "If the temperature inside is regulated or the roof is insulated, then the walls are thick",
+          "If the roof is not insulated, then the temperature inside is regulated",
+          "If the temperature inside is not regulated, then the roof is insulated and the walls are thick"
+        ]
+      },
+      {
+        "premises": [
+          "If the windows are double-glazed, then the noise level inside is reduced",
+          "If the walls are soundproofed, then the noise level inside is reduced",
+          "The windows are double-glazed or the walls are soundproofed"
+        ],
+        "conclusions": [
+          "The noise level inside is reduced",
+          "If the windows are double-glazed or the walls are soundproofed, then the noise level inside is reduced",
+          "If the noise level inside is not reduced, then the windows are not double-glazed and the walls are not soundproofed",
+          "If the windows are double-glazed and the walls are soundproofed, then the noise level inside is reduced",
+          "If the noise level inside is reduced, then the windows are double-glazed or the walls are soundproofed"
+        ],
+        "incorrect conclusions": [
+          "If the windows are double-glazed, then the walls are soundproofed or the noise level inside is reduced",
+          "If the noise level inside is reduced, then the windows are double-glazed and the walls are soundproofed",
+          "If the noise level inside is reduced or the windows are double-glazed, then the walls are soundproofed",
+          "If the windows are not double-glazed, then the noise level inside is reduced",
+          "If the noise level inside is not reduced, then the windows are double-glazed and the walls are soundproofed"
+        ]
+      }
+    ]
+  }
+}

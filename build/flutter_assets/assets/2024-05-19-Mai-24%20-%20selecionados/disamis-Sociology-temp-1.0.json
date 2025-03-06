@@ -1,0 +1,75 @@
+{
+  "Sociology": {
+    "Disamis": [
+      {
+        "major premise": "Some sociologists are researchers",
+        "minor premise": "All sociologists are academics",
+        "conclusion": "Some academics are researchers",
+        "incorrect conclusions": [
+          "All academics are researchers",
+          "All academics are sociologists",
+          "All researchers are academics",
+          "All researchers are sociologists",
+          "All sociologists are researchers",
+          "Some academics are not sociologists",
+          "Some researchers are not academics",
+          "Some researchers are not sociologists",
+          "Some sociologists are not academics",
+          "Some sociologists are not researchers",
+          "No researchers is an academic",
+          "No researchers is a sociologist",
+          "No sociologists is an academic",
+          "No sociologists is a researcher",
+          "No academics is a sociologist",
+          "No academics is a researcher"
+        ]
+      },
+      {
+        "major premise": "Some ethnographers are data analysts",
+        "minor premise": "All ethnographers are social scientists",
+        "conclusion": "Some social scientists are data analysts",
+        "incorrect conclusions": [
+          "All social scientists are data analysts",
+          "All social scientists are ethnographers",
+          "All data analysts are social scientists",
+          "All data analysts are ethnographers",
+          "All ethnographers are data analysts",
+          "Some social scientists are not ethnographers",
+          "Some data analysts are not social scientists",
+          "Some data analysts are not ethnographers",
+          "Some ethnographers are not social scientists",
+          "Some ethnographers are not data analysts",
+          "No data analysts is a social scientist",
+          "No data analysts is an ethnographer",
+          "No ethnographers is a social scientist",
+          "No ethnographers is a data analyst",
+          "No social scientists is an ethnographer",
+          "No social scientists is a data analyst"
+        ]
+      },
+      {
+        "major premise": "Some demographers are statisticians",
+        "minor premise": "All demographers are researchers",
+        "conclusion": "Some researchers are statisticians",
+        "incorrect conclusions": [
+          "All researchers are statisticians",
+          "All researchers are demographers",
+          "All statisticians are researchers",
+          "All statisticians are demographers",
+          "All demographers are statisticians",
+          "Some researchers are not demographers",
+          "Some statisticians are not researchers",
+          "Some statisticians are not demographers",
+          "Some demographers are not researchers",
+          "Some demographers are not statisticians",
+          "No statisticians is a researcher",
+          "No statisticians is a demographer",
+          "No demographers is a researcher",
+          "No demographers is a statistician",
+          "No researchers is a demographer",
+          "No researchers is a statistician"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Philosophy": {
+    "Festino": [
+      {
+        "major premise": "No logicians are existentialists",
+        "minor premise": "Some humanists are existentialists",
+        "conclusion": "Some humanists are not logicians",
+        "incorrect conclusions": [
+          "All existentialists are humanists",
+          "All existentialists are logicians",
+          "All humanists are logicians",
+          "All logicians are existentialists",
+          "All logicians are humanists",
+          "Some existentialists are not humanists",
+          "Some logicians are humanists",
+          "Some logicians are not humanists",
+          "Some logicians are existentialists",
+          "Some logicians are humanists",
+          "Some humanists are logicians",
+          "Some humanists are not existentialists",
+          "Some existentialists are logicians",
+          "No existentialists are humanists",
+          "No humanists are not existentialists",
+          "No humanists are existentialists"
+        ]
+      },
+      {
+        "major premise": "No metaphysicians are empiricists",
+        "minor premise": "Some academics are empiricists",
+        "conclusion": "Some academics are not metaphysicians",
+        "incorrect conclusions": [
+          "All empiricists are academics",
+          "All empiricists are metaphysicians",
+          "All academics are metaphysicians",
+          "All metaphysicians are empiricists",
+          "All metaphysicians are academics",
+          "Some empiricists are not academics",
+          "Some metaphysicians are academics",
+          "Some metaphysicians are not academics",
+          "Some metaphysicians are empiricists",
+          "Some metaphysicians are academics",
+          "Some academics are metaphysicians",
+          "Some academics are not empiricists",
+          "Some empiricists are metaphysicians",
+          "No empiricists are academics",
+          "No academics are not empiricists",
+          "No academics are empiricists"
+        ]
+      }
+    ]
+  }
+}

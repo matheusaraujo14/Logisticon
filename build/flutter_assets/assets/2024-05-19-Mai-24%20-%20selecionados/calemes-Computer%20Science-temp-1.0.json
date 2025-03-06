@@ -1,0 +1,69 @@
+{
+  "Computer Science": {
+     "Calemes" : [
+		{
+          "major premise": "All algorithms are processes",
+          "minor premise": "No processes are data structures",
+          "conclusion": "No data structures are algorithms",
+		  "incorrect conclusions": [
+			"All processes are data structures",
+			"All processes are algorithms",
+			"All data structures are processes",
+			"All data structures are algorithms",
+			"All algorithms are data structures",
+			"Some processes are algorithms",
+			"Some processes are not algorithms",
+			"Some processes are data structures",
+			"Some algorithms are data structures",
+			"Some algorithms are not processes",
+			"Some algorithms are processes",
+			"Some data structures are processes",
+			"Some data structures are algorithms",
+			"No algorithms are processes"
+		  ]
+		},
+		{
+          "major premise": "All databases are software",
+          "minor premise": "No software are hardware",
+          "conclusion": "No hardware is a database",
+		  "incorrect conclusions": [
+			"All software are hardware",
+			"All software are databases",
+			"All hardware are software",
+			"All hardware are databases",
+			"All databases are hardware",
+			"Some software are databases",
+			"Some software are not databases",
+			"Some software are hardware",
+			"Some databases are hardware",
+			"Some databases are not software",
+			"Some databases are software",
+			"Some hardware are software",
+			"Some hardware are databases",
+			"No databases are software"
+		  ]
+		},
+		{
+          "major premise": "All algorithms are concepts",
+          "minor premise": "No concepts are tangible",
+          "conclusion": "No tangible thing is an algorithm",
+		  "incorrect conclusions": [
+			"All concepts are tangible",
+			"All concepts are algorithms",
+			"All tangible things are concepts",
+			"All tangible things are algorithms",
+			"All algorithms are tangible",
+			"Some concepts are algorithms",
+			"Some concepts are not algorithms",
+			"Some concepts are tangible",
+			"Some algorithms are tangible",
+			"Some algorithms are not concepts",
+			"Some algorithms are concepts",
+			"Some tangible things are concepts",
+			"Some tangible things are algorithms",
+			"No algorithms are concepts"
+		  ]
+		}
+	 ]
+  }
+}

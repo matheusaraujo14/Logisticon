@@ -1,0 +1,40 @@
+{
+  "History": {
+    "Baroco": [
+      {
+        "major premise": "All knights are nobles",
+        "minor premise": "Some peasants are not nobles",
+        "conclusion": "Some peasants are not knights",
+        "incorrect conclusions": [
+          "All peasants are not nobles",
+          "All peasants are knights",
+          "All peasants are nobles",
+          "Some nobles are peasants",
+          "Some nobles are not peasants",
+          "Some nobles are not knights",
+          "Some peasants are nobles",
+          "Some peasants are knights",
+          "Some nobles are not knights",
+          "Some nobles are peasants"
+        ]
+      },
+      {
+        "major premise": "All emperors are rulers",
+        "minor premise": "Some merchants are not rulers",
+        "conclusion": "Some merchants are not emperors",
+        "incorrect conclusions": [
+          "All merchants are not rulers",
+          "All merchants are emperors",
+          "All merchants are rulers",
+          "Some rulers are merchants",
+          "Some rulers are not merchants",
+          "Some rulers are not emperors",
+          "Some merchants are rulers",
+          "Some merchants are emperors",
+          "Some rulers are not emperors",
+          "Some rulers are merchants"
+        ]
+      }
+    ]
+  }
+}

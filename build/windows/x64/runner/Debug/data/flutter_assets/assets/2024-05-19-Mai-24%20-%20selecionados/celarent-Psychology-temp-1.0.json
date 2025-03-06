@@ -1,0 +1,38 @@
+{
+  "Psychology": {
+    "Celarent" : [
+      {
+        "major premise": "No psychologists are neuroscientists",
+        "minor premise": "All cognitive scientists are psychologists",
+        "conclusion": "No cognitive scientists are neuroscientists",
+        "incorrect conclusions": [
+          "All cognitive scientists are neuroscientists",
+          "All psychologists are neuroscientists",
+          "Some cognitive scientists are psychologists",
+          "Some cognitive scientists are neuroscientists",
+          "Some psychologists are cognitive scientists",
+          "Some psychologists are neuroscientists",
+          "Some psychologists are not cognitive scientists",
+          "Some neuroscientists are cognitive scientists",
+          "Some neuroscientists are psychologists"
+        ]
+      },
+      {
+        "major premise": "No counselors are biologists",
+        "minor premise": "All school counselors are counselors",
+        "conclusion": "No school counselors are biologists",
+        "incorrect conclusions": [
+          "All school counselors are biologists",
+          "All counselors are biologists",
+          "Some school counselors are counselors",
+          "Some school counselors are biologists",
+          "Some counselors are school counselors",
+          "Some counselors are biologists",
+          "Some counselors are not school counselors",
+          "Some biologists are school counselors",
+          "Some biologists are counselors"
+        ]
+      }
+    ]
+  }
+}

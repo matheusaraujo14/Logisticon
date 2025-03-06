@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Sociology": [
+		{
+          "premises": [ 
+            "If a person has high social support, then they have better mental health",
+            "If a person has high social support, then they have higher life satisfaction"
+          ],
+          "conclusions": [
+			"If a person has high social support, then they have better mental health and higher life satisfaction",
+            "If a person has high social support, then they have better mental health or higher life satisfaction",
+            "If a person does not have better mental health, then they do not have high social support",
+            "If a person does not have higher life satisfaction, then they do not have high social support",
+            "If a person does not have better mental health or higher life satisfaction, then they do not have high social support"
+          ],
+          "incorrect conclusions": [
+            "If a person has better mental health, then they have higher life satisfaction",
+            "If a person has higher life satisfaction, then they have better mental health",
+            "If a person does not have higher life satisfaction, then they do not have better mental health",
+            "If a person does not have better mental health, then they do not have higher life satisfaction",
+            "If a person has better mental health and higher life satisfaction, then they have high social support",
+            "If a person has better mental health or higher life satisfaction, then they have high social support",
+            "If a person does not have better mental health or high social support, then they have high social support"
+          ]
+        },
+        {
+          "premises": [
+            "If a community has high levels of trust, then it has lower crime rates",
+            "If a community has high levels of trust, then it has higher civic engagement"
+          ],
+          "conclusions": [
+            "If a community has high levels of trust, then it has lower crime rates and higher civic engagement",
+            "If a community has high levels of trust, then it has lower crime rates or higher civic engagement",
+            "If a community does not have lower crime rates, then it does not have high levels of trust",
+            "If a community does not have higher civic engagement, then it does not have high levels of trust",
+            "If a community does not have lower crime rates or higher civic engagement, then it does not have high levels of trust"
+          ],
+          "incorrect conclusions": [
+            "If a community has lower crime rates, then it has higher civic engagement",
+            "If a community has higher civic engagement, then it has lower crime rates",
+            "If a community does not have higher civic engagement, then it does not have lower crime rates",
+            "If a community does not have lower crime rates, then it does not have higher civic engagement",
+            "If a community has lower crime rates and higher civic engagement, then it has high levels of trust",
+            "If a community has lower crime rates or higher civic engagement, then it has high levels of trust",
+            "If a community does not have lower crime rates or high levels of trust, then it has high levels of trust"
+          ]
+        },
+        {
+          "premises": [
+            "If an individual is well-educated, then they have higher earning potential",
+            "If an individual is well-educated, then they have higher societal status"
+          ],
+          "conclusions": [
+            "If an individual is well-educated, then they have higher earning potential and higher societal status",
+            "If an individual is well-educated, then they have higher earning potential or higher societal status",
+            "If an individual does not have higher earning potential, then they are not well-educated",
+            "If an individual does not have higher societal status, then they are not well-educated",
+            "If an individual does not have higher earning potential or higher societal status, then they are not well-educated"
+          ],
+          "incorrect conclusions": [
+            "If an individual has higher earning potential, then they have higher societal status",
+            "If an individual has higher societal status, then they have higher earning potential",
+            "If an individual does not have higher societal status, then they do not have higher earning potential",
+            "If an individual does not have higher earning potential, then they do not have higher societal status",
+            "If an individual has higher earning potential and higher societal status, then they are well-educated",
+            "If an individual has higher earning potential or higher societal status, then they are well-educated",
+            "If an individual does not have higher earning potential or well-educated, then they are well-educated"
+          ]
+        }
+	 ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Economics": {
+    "Bocardo": [
+      {
+        "major premise": "Some consumers are not savers",
+        "minor premise": "All consumers are households",
+        "conclusion": "Some households are not savers",
+        "incorrect conclusions": [
+          "All consumers are savers",
+          "All households are consumers",
+          "All households are savers",
+          "All savers are not consumers",
+          "Some households are not consumers",
+          "Some households are savers",
+          "Some consumers are not households",
+          "Some consumers are savers",
+          "Some savers are consumers",
+          "Some savers are households",
+          "Some savers are not households",
+          "Some savers are not consumers",
+          "No consumers is a households",
+          "No households is a consumers"
+        ]
+      },
+      {
+        "major premise": "Some luxuries are not necessities",
+        "minor premise": "All luxuries are commodities",
+        "conclusion": "Some commodities are not necessities",
+        "incorrect conclusions": [
+          "All luxuries are necessities",
+          "All commodities are luxuries",
+          "All commodities are necessities",
+          "All necessities are not luxuries",
+          "Some commodities are not luxuries",
+          "Some commodities are necessities",
+          "Some luxuries are not commodities",
+          "Some luxuries are necessities",
+          "Some necessities are luxuries",
+          "Some necessities are commodities",
+          "Some necessities are not commodities",
+          "Some necessities are not luxuries",
+          "No luxuries are commodities",
+          "No commodities are luxuries"
+        ]
+      },
+      {
+        "major premise": "Some assets are not liabilities",
+        "minor premise": "All assets are investments",
+        "conclusion": "Some investments are not liabilities",
+        "incorrect conclusions": [
+          "All assets are liabilities",
+          "All investments are assets",
+          "All investments are liabilities",
+          "All liabilities are not assets",
+          "Some investments are not assets",
+          "Some investments are liabilities",
+          "Some assets are not investments",
+          "Some assets are liabilities",
+          "Some liabilities are assets",
+          "Some liabilities are investments",
+          "Some liabilities are not investments",
+          "Some liabilities are not assets",
+          "No assets are investments",
+          "No investments are assets"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Chemistry": {
+     "Ferio" : [
+        {
+          "major premise": "No gases are metals",
+          "minor premise": "Some noble gases are gases",
+          "conclusion": "Some noble gases are not metals",
+          "incorrect conclusions": [
+            "All gases are noble gases",
+            "All gases are metals",
+            "All noble gases are metals",
+            "All metals are gases",
+            "All metals are noble gases",
+            "Some gases are not noble gases",
+            "Some metals are noble gases",
+            "Some metals are not noble gases",
+            "Some metals are gases",
+            "Some noble gases are metals",
+            "Some noble gases are not gases",
+            "Some gases are metals",
+            "No gases are noble gases",
+            "No noble gases are not gases",
+            "No noble gases are gases"
+          ]
+        },
+        {
+          "major premise": "No salts are gas",
+          "minor premise": "Some ionic crystals are salts",
+          "conclusion": "Some ionic crystals are not gas",
+          "incorrect conclusions": [
+            "All salts are ionic crystals",
+            "All salts are gas",
+            "All ionic crystals are gas",
+            "All gas are salts",
+            "All gas are ionic crystals",
+            "Some salts are not ionic crystals",
+            "Some gas are ionic crystals",
+            "Some gas are not ionic crystals",
+            "Some gas are salts",
+            "Some ionic crystals are gas",
+            "Some ionic crystals are not salts",
+            "Some salts are gas",
+            "No salts are ionic crystals",
+            "No ionic crystals are not salts",
+            "No ionic crystals are salts"
+          ]
+        }
+     ]
+  }
+}

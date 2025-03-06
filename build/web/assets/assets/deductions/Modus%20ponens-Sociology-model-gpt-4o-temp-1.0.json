@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Sociology": [
+      {
+        "premises": [
+          "If a city has good public transportation, then commute times are shorter",
+          "A city has good public transportation"
+        ],
+        "conclusions": [
+          "Commute times are shorter"
+        ],
+        "incorrect conclusions": [
+          "Commute times are not shorter",
+          "Commute times being shorter implies that a city has good public transportation",
+          "Commute times not being shorter implies that a city has good public transportation",
+          "If a city does not have good public transportation, then commute times are not shorter"
+        ]
+      },
+      {
+        "premises": [
+          "If a society values education, then literacy rates are high",
+          "A society values education"
+        ],
+        "conclusions": [
+          "Literacy rates are high"
+        ],
+        "incorrect conclusions": [
+          "Literacy rates are not high",
+          "High literacy rates imply that a society values education",
+          "Low literacy rates imply that a society values education",
+          "If a society does not value education, then literacy rates are not high"
+        ]
+      },
+      {
+        "premises": [
+          "If there are community support programs, then social cohesion improves",
+          "There are community support programs"
+        ],
+        "conclusions": [
+          "Social cohesion improves"
+        ],
+        "incorrect conclusions": [
+          "Social cohesion does not improve",
+          "Social cohesion improving implies that there are community support programs",
+          "Social cohesion not improving implies that there are community support programs",
+          "If there are no community support programs, then social cohesion does not improve"
+        ]
+      }
+    ]
+  }
+}

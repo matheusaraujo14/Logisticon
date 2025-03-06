@@ -1,0 +1,54 @@
+{
+  "Sociology": {
+    "Camestres": [
+      {
+        "major premise": "All humans are social creatures",
+        "minor premise": "No rocks are social creatures",
+        "conclusion": "No rocks are humans",
+        "incorrect conclusions": [
+          "All humans are rocks",
+          "All social creatures are rocks",
+          "Some humans are social creatures",
+          "Some humans are rocks",
+          "Some social creatures are rocks",
+          "Some social creatures are humans",
+          "Some rocks are social creatures",
+          "Some rocks are humans",
+          "Some social creatures are not humans"
+        ]
+      },
+      {
+        "major premise": "All sociologists are scientists",
+        "minor premise": "No artists are scientists",
+        "conclusion": "No artists are sociologists",
+        "incorrect conclusions": [
+          "All sociologists are artists",
+          "All scientists are artists",
+          "Some sociologists are scientists",
+          "Some sociologists are artists",
+          "Some scientists are artists",
+          "Some scientists are sociologists",
+          "Some artists are scientists",
+          "Some artists are sociologists",
+          "Some scientists are not sociologists"
+        ]
+      },
+      {
+        "major premise": "All communities are societies",
+        "minor premise": "No individuals are societies",
+        "conclusion": "No individuals are communities",
+        "incorrect conclusions": [
+          "All communities are individuals",
+          "All societies are individuals",
+          "Some communities are societies",
+          "Some communities are individuals",
+          "Some societies are individuals",
+          "Some societies are communities",
+          "Some individuals are societies",
+          "Some individuals are communities",
+          "Some societies are not communities"
+        ]
+      }
+    ]
+  }
+}

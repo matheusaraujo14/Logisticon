@@ -1,0 +1,52 @@
+{
+  "Sports Science": {
+    "Darapti": [
+      {
+        "major premise": "All Olympic athletes are humans",
+        "minor premise": "All Olympic athletes are competitors and some Olympic athletes exist",
+        "conclusion": "Some competitors are humans",
+        "incorrect conclusions": [
+          "All competitors are humans",
+          "All humans are competitors",
+          "All Olympic athletes are not competitors",
+          "All Olympic athletes are not humans",
+          "Some competitors are not humans",
+          "Some competitors are not Olympic athletes",
+          "Some humans are not Olympic athletes",
+          "Some humans are not competitors",
+          "Some Olympic athletes are not competitors",
+          "Some Olympic athletes are not humans",
+          "No Olympic athletes are competitors",
+          "No Olympic athletes are humans",
+          "No humans are Olympic athletes",
+          "No humans are competitors",
+          "No competitors are Olympic athletes",
+          "No competitors are humans"
+        ]
+      },
+      {
+        "major premise": "All strength trainers are athletes",
+        "minor premise": "All strength trainers are fitness enthusiasts and some strength trainers exist",
+        "conclusion": "Some fitness enthusiasts are athletes",
+        "incorrect conclusions": [
+          "All fitness enthusiasts are athletes",
+          "All athletes are fitness enthusiasts",
+          "All strength trainers are not fitness enthusiasts",
+          "All strength trainers are not athletes",
+          "Some fitness enthusiasts are not athletes",
+          "Some fitness enthusiasts are not strength trainers",
+          "Some athletes are not strength trainers",
+          "Some athletes are not fitness enthusiasts",
+          "Some strength trainers are not fitness enthusiasts",
+          "Some strength trainers are not athletes",
+          "No strength trainers are fitness enthusiasts",
+          "No strength trainers are athletes",
+          "No athletes are strength trainers",
+          "No athletes are fitness enthusiasts",
+          "No fitness enthusiasts are strength trainers",
+          "No fitness enthusiasts are athletes"
+        ]
+      }
+    ]
+  }
+}

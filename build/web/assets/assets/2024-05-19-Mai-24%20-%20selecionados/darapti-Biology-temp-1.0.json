@@ -1,0 +1,75 @@
+{
+  "Biology": {
+    "Darapti": [
+      {
+        "major premise": "All mammals are vertebrates",
+        "minor premise": "All mammals are warm-blooded animals and some mammals exist",
+        "conclusion": "Some warm-blooded animals are vertebrates",
+        "incorrect conclusions": [
+          "All warm-blooded animals are vertebrates",
+          "All vertebrates are warm-blooded animals",
+          "All mammals are not warm-blooded animals",
+          "All mammals are not vertebrates",
+          "Some warm-blooded animals are not vertebrates",
+          "Some warm-blooded animals are not mammals",
+          "Some vertebrates are not mammals",
+          "Some vertebrates are not warm-blooded animals",
+          "Some mammals are not warm-blooded animals",
+          "Some mammals are not vertebrates",
+          "No mammals are warm-blooded animals",
+          "No mammals are vertebrates",
+          "No vertebrates are mammals",
+          "No vertebrates are warm-blooded animals",
+          "No warm-blooded animals are mammals",
+          "No warm-blooded animals are vertebrates"
+        ]
+      },
+      {
+        "major premise": "All bacteria are prokaryotes",
+        "minor premise": "All bacteria are microorganisms and some bacteria exist",
+        "conclusion": "Some microorganisms are prokaryotes",
+        "incorrect conclusions": [
+          "All microorganisms are prokaryotes",
+          "All prokaryotes are microorganisms",
+          "All bacteria are not microorganisms",
+          "All bacteria are not prokaryotes",
+          "Some microorganisms are not prokaryotes",
+          "Some microorganisms are not bacteria",
+          "Some prokaryotes are not bacteria",
+          "Some prokaryotes are not microorganisms",
+          "Some bacteria are not microorganisms",
+          "Some bacteria are not prokaryotes",
+          "No bacteria are microorganisms",
+          "No bacteria are prokaryotes",
+          "No prokaryotes are bacteria",
+          "No prokaryotes are microorganisms",
+          "No microorganisms are bacteria",
+          "No microorganisms are prokaryotes"
+        ]
+      },
+      {
+        "major premise": "All reptiles are vertebrates",
+        "minor premise": "All reptiles are cold-blooded animals and some reptiles exist",
+        "conclusion": "Some cold-blooded animals are vertebrates",
+        "incorrect conclusions": [
+          "All cold-blooded animals are vertebrates",
+          "All vertebrates are cold-blooded animals",
+          "All reptiles are not cold-blooded animals",
+          "All reptiles are not vertebrates",
+          "Some cold-blooded animals are not vertebrates",
+          "Some cold-blooded animals are not reptiles",
+          "Some vertebrates are not reptiles",
+          "Some vertebrates are not cold-blooded animals",
+          "Some reptiles are not cold-blooded animals",
+          "Some reptiles are not vertebrates",
+          "No reptiles are cold-blooded animals",
+          "No reptiles are vertebrates",
+          "No vertebrates are reptiles",
+          "No vertebrates are cold-blooded animals",
+          "No cold-blooded animals are reptiles",
+          "No cold-blooded animals are vertebrates"
+        ]
+      }
+    ]
+  }
+}

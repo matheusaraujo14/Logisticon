@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Sociology": [
+        {
+          "premises": [
+            "If a community has social cohesion, then it has lower crime rates",
+            "If a community has lower crime rates, then its citizens feel safer"
+          ],
+          "conclusions": [
+            "If a community has social cohesion, its citizens feel safer",
+            "If its citizens do not feel safer, then the community does not have social cohesion",
+            "If a community has social cohesion or has lower crime rates, its citizens feel safer and the community has social cohesion",
+            "If a community has social cohesion, its citizens feel safer and the community has social cohesion",
+            "If a community does not have social cohesion and has lower crime rates, its citizens feel safer and the community has social cohesion",
+            "If a community has social cohesion or has lower crime rates, its citizens feel safer"
+          ],
+          "incorrect conclusions": [
+            "A community has social cohesion",
+            "If its citizens feel safer, then the community has social cohesion",
+            "If its citizens feel safer, then the community does not have social cohesion",
+            "Its citizens feel safer",
+            "Its citizens do not feel safer",
+            "If its citizens do not feel safer, the community has social cohesion",
+            "If the community does not have lower crime rates, then its citizens feel safer",
+            "If a community has social cohesion or does not have lower crime rates, then its citizens feel safer"
+          ]
+        },
+        {
+          "premises": [
+            "If the education level is high, then the employment rate is high",
+            "If the employment rate is high, then the economy is stable"
+          ],
+          "conclusions": [
+            "If the education level is high, the economy is stable",
+            "If the economy is not stable, then the education level is not high",
+            "If the education level is high or the employment rate is high, the economy is stable and the education level is high",
+            "If the education level is high, the economy is stable and the education level is high",
+            "If the education level is not high and the employment rate is high, the economy is stable and the education level is high",
+            "If the education level is high or the employment rate is high, the economy is stable"
+          ],
+          "incorrect conclusions": [
+            "The education level is high",
+            "If the economy is stable, then the education level is high",
+            "If the economy is stable, then the education level is not high",
+            "The economy is stable",
+            "The economy is not stable",
+            "If the economy is not stable, the education level is high",
+            "If the employment rate is not high, then the economy is stable",
+            "If the education level is high or the employment rate is not high, then the economy is stable"
+          ]
+        },
+        {
+          "premises": [
+            "If social media is widely used, then the spread of information is fast",
+            "If the spread of information is fast, then public awareness increases"
+          ],
+          "conclusions": [
+            "If social media is widely used, public awareness increases",
+            "If public awareness does not increase, then social media is not widely used",
+            "If social media is widely used or the spread of information is fast, public awareness increases and social media is widely used",
+            "If social media is widely used, public awareness increases and social media is widely used",
+            "If social media is not widely used and the spread of information is fast, public awareness increases and social media is widely used",
+            "If social media is widely used or the spread of information is fast, public awareness increases"
+          ],
+          "incorrect conclusions": [
+            "Social media is widely used",
+            "If public awareness increases, then social media is widely used",
+            "If public awareness increases, then social media is not widely used",
+            "Public awareness increases",
+            "Public awareness does not increase",
+            "If public awareness does not increase, social media is widely used",
+            "If the spread of information is not fast, then public awareness increases",
+            "If social media is widely used or the spread of information is not fast, then public awareness increases"
+          ]
+        }
+     ]
+  }
+}

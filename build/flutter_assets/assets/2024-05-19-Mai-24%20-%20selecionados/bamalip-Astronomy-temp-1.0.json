@@ -1,0 +1,69 @@
+{
+  "Astronomy": {
+    "Bamalip": [
+      {
+        "major premise": "All galaxies are celestial objects",
+        "minor premise": "All celestial objects are entities and some galaxies exist",
+        "conclusion": "Some entities are galaxies",
+        "incorrect conclusions": [
+          "All entities are celestial objects",
+          "All celestial objects are galaxies",
+          "Some entities are not celestial objects",
+          "Some entities are not galaxies",
+          "Some celestial objects are not galaxies",
+          "Some celestial objects are not entities",
+          "Some galaxies are not celestial objects",
+          "Some galaxies are not entities",
+          "No entities is celestial objects",
+          "No entities is galaxies",
+          "No celestial objects is entities",
+          "No celestial objects is galaxies",
+          "No galaxies is celestial objects",
+          "No galaxies is entities"
+        ]
+      },
+      {
+        "major premise": "All stars are celestial bodies",
+        "minor premise": "All celestial bodies are objects in space and some stars exist",
+        "conclusion": "Some objects in space are stars",
+        "incorrect conclusions": [
+          "All objects in space are celestial bodies",
+          "All celestial bodies are stars",
+          "Some objects in space are not celestial bodies",
+          "Some objects in space are not stars",
+          "Some celestial bodies are not stars",
+          "Some celestial bodies are not objects in space",
+          "Some stars are not celestial bodies",
+          "Some stars are not objects in space",
+          "No objects in space is celestial bodies",
+          "No objects in space is stars",
+          "No celestial bodies is objects in space",
+          "No celestial bodies is stars",
+          "No stars is celestial bodies",
+          "No stars is objects in space"
+        ]
+      },
+      {
+        "major premise": "All planets are celestial objects",
+        "minor premise": "All celestial objects are matter and some planets exist",
+        "conclusion": "Some matter are planets",
+        "incorrect conclusions": [
+          "All matter are celestial objects",
+          "All celestial objects are planets",
+          "Some matter are not celestial objects",
+          "Some matter are not planets",
+          "Some celestial objects are not planets",
+          "Some celestial objects are not matter",
+          "Some planets are not celestial objects",
+          "Some planets are not matter",
+          "No matter is celestial objects",
+          "No matter is planets",
+          "No celestial objects is matter",
+          "No celestial objects is planets",
+          "No planets is celestial objects",
+          "No planets is matter"
+        ]
+      }
+    ]
+  }
+}

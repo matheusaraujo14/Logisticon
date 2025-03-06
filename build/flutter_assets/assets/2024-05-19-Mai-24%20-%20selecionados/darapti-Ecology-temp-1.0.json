@@ -1,0 +1,75 @@
+{
+  "Ecology": {
+    "Darapti": [
+      {
+        "major premise": "All amphibians are vertebrates",
+        "minor premise": "All amphibians are cold-blooded and some amphibians exist",
+        "conclusion": "Some cold-blooded are vertebrates",
+        "incorrect conclusions": [
+          "All cold-blooded are vertebrates",
+          "All vertebrates are cold-blooded",
+          "All amphibians are not cold-blooded",
+          "All amphibians are not vertebrates",
+          "Some cold-blooded are not vertebrates",
+          "Some cold-blooded are not amphibians",
+          "Some vertebrates are not amphibians",
+          "Some vertebrates are not cold-blooded",
+          "Some amphibians are not cold-blooded",
+          "Some amphibians are not vertebrates",
+          "No amphibians are cold-blooded",
+          "No amphibians are vertebrates",
+          "No vertebrates are amphibians",
+          "No vertebrates are cold-blooded",
+          "No cold-blooded are amphibians",
+          "No cold-blooded are vertebrates"
+        ]
+      },
+      {
+        "major premise": "All coral reefs are marine ecosystems",
+        "minor premise": "All coral reefs are habitats for fish and some coral reefs exist",
+        "conclusion": "Some habitats for fish are marine ecosystems",
+        "incorrect conclusions": [
+          "All habitats for fish are marine ecosystems",
+          "All marine ecosystems are habitats for fish",
+          "All coral reefs are not habitats for fish",
+          "All coral reefs are not marine ecosystems",
+          "Some habitats for fish are not marine ecosystems",
+          "Some habitats for fish are not coral reefs",
+          "Some marine ecosystems are not coral reefs",
+          "Some marine ecosystems are not habitats for fish",
+          "Some coral reefs are not habitats for fish",
+          "Some coral reefs are not marine ecosystems",
+          "No coral reefs are habitats for fish",
+          "No coral reefs are marine ecosystems",
+          "No marine ecosystems are coral reefs",
+          "No marine ecosystems are habitats for fish",
+          "No habitats for fish are coral reefs",
+          "No habitats for fish are marine ecosystems"
+        ]
+      },
+      {
+        "major premise": "All trees are plants",
+        "minor premise": "All trees are carbon absorbers and some trees exist",
+        "conclusion": "Some carbon absorbers are plants",
+        "incorrect conclusions": [
+          "All carbon absorbers are plants",
+          "All plants are carbon absorbers",
+          "All trees are not carbon absorbers",
+          "All trees are not plants",
+          "Some carbon absorbers are not plants",
+          "Some carbon absorbers are not trees",
+          "Some plants are not trees",
+          "Some plants are not carbon absorbers",
+          "Some trees are not carbon absorbers",
+          "Some trees are not plants",
+          "No trees are carbon absorbers",
+          "No trees are plants",
+          "No plants are trees",
+          "No plants are carbon absorbers",
+          "No carbon absorbers are trees",
+          "No carbon absorbers are plants"
+        ]
+      }
+    ]
+  }
+}

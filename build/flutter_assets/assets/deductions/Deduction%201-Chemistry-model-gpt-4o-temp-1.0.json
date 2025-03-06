@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a substance is an acid, then it has a pH less than 7",
+          "If a substance is an acid, then it turns blue litmus red"
+        ],
+        "conclusions": [
+          "If a substance is an acid, it has a pH less than 7 and it turns blue litmus red",
+          "If a substance is an acid, it has a pH less than 7 or it turns blue litmus red",
+          "If a substance does not have a pH less than 7, then it is not an acid",
+          "If a substance does not turn blue litmus red, then it is not an acid",
+          "If a substance does not have a pH less than 7 or it does not turn blue litmus red, then it is not an acid"
+        ],
+        "incorrect conclusions": [
+          "If a substance does not have a pH less than 7, then it does not turn blue litmus red",
+          "If a substance does not turn blue litmus red, then it does not have a pH less than 7",
+          "If a substance has a pH less than 7, then it turns blue litmus red",
+          "If a substance turns blue litmus red, then it has a pH less than 7",
+          "If a substance has a pH less than 7 and it turns blue litmus red, then it is an acid",
+          "If a substance has a pH less than 7 or it turns blue litmus red, then it is an acid",
+          "If a substance does not have a pH less than 7 or it is not an acid, then it is an acid"
+        ]
+      },
+      {
+        "premises": [
+          "If a compound contains carbon, then it is organic",
+          "If a compound contains carbon, then it can form chains"
+        ],
+        "conclusions": [
+          "If a compound contains carbon, then it is organic and it can form chains",
+          "If a compound contains carbon, then it is organic or it can form chains",
+          "If a compound is not organic, then it does not contain carbon",
+          "If a compound cannot form chains, then it does not contain carbon",
+          "If a compound is not organic or it cannot form chains, then it does not contain carbon"
+        ],
+        "incorrect conclusions": [
+          "If a compound is not organic, then it cannot form chains",
+          "If a compound cannot form chains, then it is not organic",
+          "If a compound is organic, then it can form chains",
+          "If a compound can form chains, then it is organic",
+          "If a compound is organic and it can form chains, then it contains carbon",
+          "If a compound is organic or it can form chains, then it contains carbon",
+          "If a compound is not organic or it does not contain carbon, then it contains carbon"
+        ]
+      },
+      {
+        "premises": [
+          "If a reaction absorbs heat, then it is endothermic",
+          "If a reaction absorbs heat, then it feels cold to the touch"
+        ],
+        "conclusions": [
+          "If a reaction absorbs heat, then it is endothermic and it feels cold to the touch",
+          "If a reaction absorbs heat, then it is endothermic or it feels cold to the touch",
+          "If a reaction is not endothermic, then it does not absorb heat",
+          "If a reaction does not feel cold to the touch, then it does not absorb heat",
+          "If a reaction is not endothermic or it does not feel cold to the touch, then it does not absorb heat"
+        ],
+        "incorrect conclusions": [
+          "If a reaction is not endothermic, then it does not feel cold to the touch",
+          "If a reaction does not feel cold to the touch, then it is not endothermic",
+          "If a reaction is endothermic, then it feels cold to the touch",
+          "If a reaction feels cold to the touch, then it is endothermic",
+          "If a reaction is endothermic and it feels cold to the touch, then it absorbs heat",
+          "If a reaction is endothermic or it feels cold to the touch, then it absorbs heat",
+          "If a reaction is not endothermic or it does not absorb heat, then it absorbs heat"
+        ]
+      }
+    ]
+  }
+}

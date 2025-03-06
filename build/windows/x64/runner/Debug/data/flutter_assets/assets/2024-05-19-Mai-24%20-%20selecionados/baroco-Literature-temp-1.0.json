@@ -1,0 +1,57 @@
+{
+  "Literature": {
+    "Baroco": [
+      {
+        "major premise": "All novels are literature",
+        "minor premise": "Some drama are not literature",
+        "conclusion": "Some drama are not novels",
+        "incorrect conclusions": [
+          "All drama are not literature",
+          "All drama are novels",
+          "All drama are literature",
+          "Some novels are drama",
+          "Some novels are not drama",
+          "Some novels are not literature",
+          "Some drama are literature",
+          "Some drama are novels",
+          "Some literature are not novels",
+          "Some literature are drama"
+        ]
+      },
+      {
+        "major premise": "All poems are art",
+        "minor premise": "Some essays are not art",
+        "conclusion": "Some essays are not poems",
+        "incorrect conclusions": [
+          "All essays are not art",
+          "All essays are poems",
+          "All essays are art",
+          "Some poems are essays",
+          "Some poems are not essays",
+          "Some poems are not art",
+          "Some essays are art",
+          "Some essays are poems",
+          "Some art are not poems",
+          "Some art are essays"
+        ]
+      },
+      {
+        "major premise": "All biographies are non-fiction",
+        "minor premise": "Some novels are not non-fiction",
+        "conclusion": "Some novels are not biographies",
+        "incorrect conclusions": [
+          "All novels are not non-fiction",
+          "All novels are biographies",
+          "All novels are non-fiction",
+          "Some biographies are novels",
+          "Some biographies are not novels",
+          "Some biographies are not non-fiction",
+          "Some novels are non-fiction",
+          "Some novels are biographies",
+          "Some non-fiction are not biographies",
+          "Some non-fiction are novels"
+        ]
+      }
+    ]
+  }
+}

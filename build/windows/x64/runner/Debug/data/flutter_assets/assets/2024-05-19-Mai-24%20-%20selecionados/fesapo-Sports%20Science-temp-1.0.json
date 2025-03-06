@@ -1,0 +1,63 @@
+{
+  "Sports Science": {
+     "Fesapo" : [
+		{
+          "major premise": "No soccer players are cricketers",
+          "minor premise": "All cricketers are athletes and some cricketers exist",
+          "conclusion": "Some athletes are not soccer players",
+		  "incorrect conclusions": [
+				"All athletes are soccer players",
+				"All athletes are cricketers",
+				"All soccer players are athletes",
+				"All soccer players are cricketers",
+				"Some athletes are soccer players",
+				"Some soccer players are athletes",
+				"Some soccer players are cricketers",
+				"Some soccer players are not athletes",
+				"Some cricketers are soccer players",
+				"Some cricketers are not athletes",
+				"No cricketers are athletes",
+				"No athletes are cricketers"
+		  ]
+		},
+		{
+		  "major premise": "No marathon runners are weightlifters",
+          "minor premise": "All weightlifters are sports enthusiasts and some weightlifters exist",
+          "conclusion": "Some sports enthusiasts are not marathon runners",
+		  "incorrect conclusions": [
+				"All sports enthusiasts are marathon runners",
+				"All sports enthusiasts are weightlifters",
+				"All marathon runners are sports enthusiasts",
+				"All marathon runners are weightlifters",
+				"Some sports enthusiasts are marathon runners",
+				"Some marathon runners are sports enthusiasts",
+				"Some marathon runners are weightlifters",
+				"Some marathon runners are not sports enthusiasts",
+				"Some weightlifters are marathon runners",
+				"Some weightlifters are not sports enthusiasts",
+				"No weightlifters are sports enthusiasts",
+				"No sports enthusiasts are weightlifters"
+		  ]
+		},
+		{
+		  "major premise": "No gymnasts are hockey players",
+          "minor premise": "All hockey players are team athletes and some hockey players exist",
+          "conclusion": "Some team athletes are not gymnasts",
+		  "incorrect conclusions": [
+				"All team athletes are gymnasts",
+				"All team athletes are hockey players",
+				"All gymnasts are team athletes",
+				"All gymnasts are hockey players",
+				"Some team athletes are gymnasts",
+				"Some gymnasts are team athletes",
+				"Some gymnasts are hockey players",
+				"Some gymnasts are not team athletes",
+				"Some hockey players are gymnasts",
+				"Some hockey players are not team athletes",
+				"No hockey players are team athletes",
+				"No team athletes are hockey players"
+		  ]
+		}
+	 ]
+  }
+}

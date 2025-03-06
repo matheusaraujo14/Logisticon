@@ -1,0 +1,52 @@
+{
+  "Computer Science": {
+     "Dimatis" : [
+		{
+          "major premise": "Some software projects are open-source projects",
+          "minor premise": "All open-source projects are collaborative initiatives",
+          "conclusion": "Some collaborative initiatives are software projects",
+		  "incorrect conclusions": [
+		    "All collaborative initiatives are software projects",
+		    "All collaborative initiatives are open-source projects",
+		    "All software projects are collaborative initiatives",
+		    "All software projects are open-source projects",
+		    "All open-source projects are software projects",
+		    "Some collaborative initiatives are not open-source projects",
+		    "Some software projects are not collaborative initiatives",
+		    "Some software projects are not open-source projects",
+		    "Some open-source projects are not collaborative initiatives",
+		    "Some open-source projects are not software projects",
+		    "No software projects is a collaborative initiative",
+		    "No software projects is an open-source project",
+		    "No open-source project is a collaborative initiative",
+		    "No open-source project is a software project",
+		    "No collaborative initiative is an open-source project",
+		    "No collaborative initiative is a software project"
+		  ]
+		},
+		{
+          "major premise": "Some programming paradigms are object-oriented paradigms",
+          "minor premise": "All object-oriented paradigms are programming methodologies",
+          "conclusion": "Some programming methodologies are programming paradigms",
+		  "incorrect conclusions": [
+		    "All programming methodologies are programming paradigms",
+		    "All programming methodologies are object-oriented paradigms",
+		    "All programming paradigms are programming methodologies",
+		    "All programming paradigms are object-oriented paradigms",
+		    "All object-oriented paradigms are programming paradigms",
+		    "Some programming methodologies are not object-oriented paradigms",
+		    "Some programming paradigms are not programming methodologies",
+		    "Some programming paradigms are not object-oriented paradigms",
+		    "Some object-oriented paradigms are not programming methodologies",
+		    "Some object-oriented paradigms are not programming paradigms",
+		    "No programming paradigms is a programming methodology",
+		    "No programming paradigms is an object-oriented paradigm",
+		    "No object-oriented paradigm is a programming methodology",
+		    "No object-oriented paradigm is a programming paradigm",
+		    "No programming methodology is an object-oriented paradigm",
+		    "No programming methodology is a programming paradigm"
+		  ]
+		}
+	 ]
+  }
+}

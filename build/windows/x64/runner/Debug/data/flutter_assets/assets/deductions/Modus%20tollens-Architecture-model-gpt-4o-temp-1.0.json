@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Architecture": [
+      {
+        "premises": [ 
+          "If a building has poor ventilation, then the indoor air quality is bad",
+          "The indoor air quality is not bad"
+        ],
+        "conclusions": [
+          "The building does not have poor ventilation"
+        ],
+        "incorrect conclusions": [
+          "The building has poor ventilation",
+          "The building has poor ventilation and the indoor air quality is bad",
+          "If the indoor air quality is bad, then the building has poor ventilation",
+          "If the indoor air quality is not bad, then the building has poor ventilation",
+          "If the building does not have poor ventilation, then the indoor air quality is not bad"
+        ]
+      },
+      {
+        "premises": [ 
+          "If an architect designs a building sustainably, then the energy consumption is reduced",
+          "The energy consumption is not reduced"
+        ],
+        "conclusions": [
+          "The architect does not design the building sustainably"
+        ],
+        "incorrect conclusions": [
+          "The architect designs the building sustainably",
+          "The architect designs the building sustainably and the energy consumption is reduced",
+          "If the energy consumption is reduced, then the architect designs the building sustainably",
+          "If the energy consumption is not reduced, then the architect designs the building sustainably",
+          "If the architect does not design the building sustainably, then the energy consumption is not reduced"
+        ]
+      },
+      {
+        "premises": [
+          "If a house has a flat roof, then it requires regular maintenance",
+          "The house does not require regular maintenance"
+        ],
+        "conclusions": [
+          "The house does not have a flat roof"
+        ],
+        "incorrect conclusions": [
+          "The house has a flat roof",
+          "The house has a flat roof and it requires regular maintenance",
+          "If it requires regular maintenance, then the house has a flat roof",
+          "If the house does not require regular maintenance, then it has a flat roof",
+          "If the house does not have a flat roof, then it does not require regular maintenance"
+        ]
+      }
+    ]
+  }
+}

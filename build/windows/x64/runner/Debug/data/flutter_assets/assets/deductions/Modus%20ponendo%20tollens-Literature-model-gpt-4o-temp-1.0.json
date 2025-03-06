@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Literature": [
+		{
+          "premises": [ 
+            "Either the hero defeats the villain or the hero fails, but not both",
+            "The hero defeats the villain"
+          ],
+          "conclusions": [
+            "The hero fails is not the case"
+          ],
+		  "incorrect conclusions": [
+            "The hero fails",
+            "The hero defeats the villain is not the case"
+          ]
+		},
+		{
+          "premises": [ 
+            "Either the book ends happily or the book ends tragically, but not both",
+            "The book ends happily"
+          ],
+          "conclusions": [
+            "The book ends tragically is not the case"
+          ],
+		  "incorrect conclusions": [
+            "The book ends tragically",
+            "The book ends happily is not the case"
+          ]
+		},
+		{
+          "premises": [ 
+            "Either the protagonist escapes or the protagonist is captured, but not both",
+            "The protagonist escapes"
+          ],
+          "conclusions": [
+            "The protagonist is captured is not the case"
+          ],
+		  "incorrect conclusions": [
+            "The protagonist is captured",
+            "The protagonist escapes is not the case"
+          ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Geology": [
+      {
+        "premises": [
+          "If a volcanic eruption occurs, then the air quality deteriorates",
+          "If a volcanic eruption occurs, then ash is deposited"
+        ],
+        "conclusions": [
+          "If a volcanic eruption occurs, then the air quality deteriorates and ash is deposited",
+          "If a volcanic eruption occurs, then the air quality deteriorates or ash is deposited",
+          "If the air quality deteriorates, then a volcanic eruption did not occur",
+          "If ash is not deposited, then a volcanic eruption did not occur",
+          "If the air quality deteriorates or ash is not deposited, then a volcanic eruption did not occur"
+        ],
+        "incorrect conclusions": [
+          "If the air quality deteriorates, ash is not deposited",
+          "If ash is not deposited, the air quality deteriorates",
+          "If the air quality does not deteriorate, then ash is deposited",
+          "If ash is deposited, then the air quality deteriorates",
+          "If the air quality does not deteriorate and ash is deposited, then a volcanic eruption occurs",
+          "If the air quality does not deteriorate or ash is deposited, then a volcanic eruption occurs",
+          "If the air quality deteriorates or a volcanic eruption did not occur, then a volcanic eruption occurs"
+        ]
+      },
+      {
+        "premises": [
+          "If an earthquake occurs, then buildings collapse",
+          "If an earthquake occurs, then a tsunami may follow"
+        ],
+        "conclusions": [
+          "If an earthquake occurs, then buildings collapse and a tsunami may follow",
+          "If an earthquake occurs, then buildings collapse or a tsunami may follow",
+          "If buildings collapse, then an earthquake did not occur",
+          "If a tsunami does not follow, then an earthquake did not occur",
+          "If buildings collapse or a tsunami does not follow, then an earthquake did not occur"
+        ],
+        "incorrect conclusions": [
+          "If buildings collapse, a tsunami does not follow",
+          "If a tsunami does not follow, buildings collapse",
+          "If buildings do not collapse, then a tsunami may follow",
+          "If a tsunami may follow, then buildings collapse",
+          "If buildings do not collapse and a tsunami follows, then an earthquake occurs",
+          "If buildings do not collapse or a tsunami follows, then an earthquake occurs",
+          "If buildings collapse or an earthquake did not occur, then an earthquake occurs"
+        ]
+      },
+      {
+        "premises": [
+          "If a flood occurs, then the soil erodes",
+          "If a flood occurs, then freshwater habitats are disrupted"
+        ],
+        "conclusions": [
+          "If a flood occurs, then the soil erodes and freshwater habitats are disrupted",
+          "If a flood occurs, then the soil erodes or freshwater habitats are disrupted",
+          "If the soil erodes, then a flood did not occur",
+          "If freshwater habitats are not disrupted, then a flood did not occur",
+          "If the soil erodes or freshwater habitats are not disrupted, then a flood did not occur"
+        ],
+        "incorrect conclusions": [
+          "If the soil erodes, freshwater habitats are not disrupted",
+          "If freshwater habitats are not disrupted, the soil erodes",
+          "If the soil does not erode, then freshwater habitats are disrupted",
+          "If freshwater habitats are disrupted, then the soil erodes",
+          "If the soil does not erode and freshwater habitats are disrupted, then a flood occurs",
+          "If the soil does not erode or freshwater habitats are disrupted, then a flood occurs",
+          "If the soil erodes or a flood did not occur, then a flood occurs"
+        ]
+      }
+    ]
+  }
+}

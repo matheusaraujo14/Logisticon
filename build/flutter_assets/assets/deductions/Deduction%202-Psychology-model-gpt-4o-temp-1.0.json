@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a person experiences chronic stress, then they do not sleep well",
+          "If a person experiences chronic stress, then they feel anxious"
+        ],
+        "conclusions": [
+          "If a person experiences chronic stress, then they do not sleep well and feel anxious",
+          "If a person experiences chronic stress, then they do not sleep well or feel anxious",
+          "If a person sleeps well, then they do not experience chronic stress",
+          "If a person does not feel anxious, then they do not experience chronic stress",
+          "If a person sleeps well or does not feel anxious, then they do not experience chronic stress"
+        ],
+        "incorrect conclusions": [
+          "If a person sleeps well, they do not feel anxious",
+          "If a person does not feel anxious, then they sleep well",
+          "If a person does not sleep well, then they feel anxious",
+          "If a person feels anxious, then they do not sleep well",
+          "If a person does not sleep well and feels anxious, then they experience chronic stress",
+          "If a person does not sleep well or feels anxious, then they experience chronic stress",
+          "If a person sleeps well or does not experience chronic stress, then they experience chronic stress"
+        ]
+      },
+      {
+        "premises": [
+          "If an individual feels isolated, then they do not feel happy",
+          "If an individual feels isolated, then they feel lonely"
+        ],
+        "conclusions": [
+          "If an individual feels isolated, then they do not feel happy and feel lonely",
+          "If an individual feels isolated, then they do not feel happy or feel lonely",
+          "If an individual feels happy, then they do not feel isolated",
+          "If an individual does not feel lonely, then they do not feel isolated",
+          "If an individual feels happy or does not feel lonely, then they do not feel isolated"
+        ],
+        "incorrect conclusions": [
+          "If an individual feels happy, they do not feel lonely",
+          "If an individual does not feel lonely, then they feel happy",
+          "If an individual does not feel happy, then they feel lonely",
+          "If an individual feels lonely, then they do not feel happy",
+          "If an individual does not feel happy and feels lonely, then they feel isolated",
+          "If an individual does not feel happy or feels lonely, then they feel isolated",
+          "If an individual feels happy or does not feel isolated, then they feel isolated"
+        ]
+      },
+      {
+        "premises": [
+          "If a child is bullied, then they do not enjoy school",
+          "If a child is bullied, then they feel insecure"
+        ],
+        "conclusions": [
+          "If a child is bullied, then they do not enjoy school and feel insecure",
+          "If a child is bullied, then they do not enjoy school or feel insecure",
+          "If a child enjoys school, then they are not bullied",
+          "If a child does not feel insecure, then they are not bullied",
+          "If a child enjoys school or does not feel insecure, then they are not bullied"
+        ],
+        "incorrect conclusions": [
+          "If a child enjoys school, they do not feel insecure",
+          "If a child does not feel insecure, then they enjoy school",
+          "If a child does not enjoy school, then they feel insecure",
+          "If a child feels insecure, then they do not enjoy school",
+          "If a child does not enjoy school and feels insecure, then they are bullied",
+          "If a child does not enjoy school or feels insecure, then they are bullied",
+          "If a child enjoys school or is not bullied, then they are bullied"
+        ]
+      }
+    ]
+  }
+}

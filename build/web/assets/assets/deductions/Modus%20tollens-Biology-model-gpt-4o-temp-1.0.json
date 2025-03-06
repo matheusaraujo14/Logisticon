@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Biology": [
+      {
+        "premises": [
+          "If a plant receives sunlight, then it photosynthesizes",
+          "The plant does not photosynthesize"
+        ],
+        "conclusions": [
+          "The plant does not receive sunlight"
+        ],
+        "incorrect conclusions": [
+          "The plant receives sunlight",
+          "The plant receives sunlight and it photosynthesizes",
+          "If the plant photosynthesizes, then it receives sunlight",
+          "If the plant does not photosynthesize, then it receives sunlight",
+          "If the plant does not receive sunlight, then it does not photosynthesize"
+        ]
+      },
+      {
+        "premises": [
+          "If an animal has a backbone, then it is a vertebrate",
+          "The animal is not a vertebrate"
+        ],
+        "conclusions": [
+          "The animal does not have a backbone"
+        ],
+        "incorrect conclusions": [
+          "The animal has a backbone",
+          "The animal has a backbone and it is a vertebrate",
+          "If the animal is a vertebrate, then it has a backbone",
+          "If the animal is not a vertebrate, then it has a backbone",
+          "If the animal does not have a backbone, then it is not a vertebrate"
+        ]
+      },
+      {
+        "premises": [
+          "If a cell has a nucleus, then it is a eukaryote",
+          "The cell is not a eukaryote"
+        ],
+        "conclusions": [
+          "The cell does not have a nucleus"
+        ],
+        "incorrect conclusions": [
+          "The cell has a nucleus",
+          "The cell has a nucleus and it is a eukaryote",
+          "If the cell is a eukaryote, then it has a nucleus",
+          "If the cell is not a eukaryote, then it has a nucleus",
+          "If the cell does not have a nucleus, then it is not a eukaryote"
+        ]
+      }
+    ]
+  }
+}

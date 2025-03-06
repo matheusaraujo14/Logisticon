@@ -1,0 +1,69 @@
+{
+  "Nutrition": {
+    "Calemes": [
+      {
+        "major premise": "All vegetables are plants",
+        "minor premise": "No plants are minerals",
+        "conclusion": "No minerals are vegetables",
+        "incorrect conclusions": [
+          "All plants are minerals",
+          "All plants are vegetables",
+          "All minerals are plants",
+          "All minerals are vegetables",
+          "All vegetables are minerals",
+          "Some plants are vegetables",
+          "Some plants are not vegetables",
+          "Some plants are minerals",
+          "Some vegetables are minerals",
+          "Some vegetables are not plants",
+          "Some vegetables are plants",
+          "Some minerals are plants",
+          "Some minerals are vegetables",
+          "No vegetables are plants"
+        ]
+      },
+      {
+        "major premise": "All legumes are protein sources",
+        "minor premise": "No protein sources are bacteria",
+        "conclusion": "No bacteria are legumes",
+        "incorrect conclusions": [
+          "All protein sources are bacteria",
+          "All protein sources are legumes",
+          "All bacteria are protein sources",
+          "All bacteria are legumes",
+          "All legumes are bacteria",
+          "Some protein sources are legumes",
+          "Some protein sources are not legumes",
+          "Some protein sources are bacteria",
+          "Some legumes are bacteria",
+          "Some legumes are not protein sources",
+          "Some legumes are protein sources",
+          "Some bacteria are protein sources",
+          "Some bacteria are legumes",
+          "No legumes are protein sources"
+        ]
+      },
+      {
+        "major premise": "All vitamins are nutrients",
+        "minor premise": "No nutrients are inedible substances",
+        "conclusion": "No inedible substances are vitamins",
+        "incorrect conclusions": [
+          "All nutrients are inedible substances",
+          "All nutrients are vitamins",
+          "All inedible substances are nutrients",
+          "All inedible substances are vitamins",
+          "All vitamins are inedible substances",
+          "Some nutrients are vitamins",
+          "Some nutrients are not vitamins",
+          "Some nutrients are inedible substances",
+          "Some vitamins are inedible substances",
+          "Some vitamins are not nutrients",
+          "Some vitamins are nutrients",
+          "Some inedible substances are nutrients",
+          "Some inedible substances are vitamins",
+          "No vitamins are nutrients"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Astronomy": {
+    "Fesapo": [
+      {
+        "major premise": "No stars are planets",
+        "minor premise": "All planets are celestial bodies and some planets exist",
+        "conclusion": "Some celestial bodies are not stars",
+        "incorrect conclusions": [
+          "All celestial bodies are stars",
+          "All celestial bodies are planets",
+          "All stars are celestial bodies",
+          "All stars are planets",
+          "Some celestial bodies are stars",
+          "Some stars are celestial bodies",
+          "Some stars are planets",
+          "Some stars are not celestial bodies",
+          "Some planets are stars",
+          "Some planets are not celestial bodies",
+          "No planets are celestial bodies",
+          "No celestial bodies are planets"
+        ]
+      },
+      {
+        "major premise": "No planets are stars",
+        "minor premise": "All stars are astronomical objects and some stars exist",
+        "conclusion": "Some astronomical objects are not planets",
+        "incorrect conclusions": [
+          "All astronomical objects are planets",
+          "All astronomical objects are stars",
+          "All planets are astronomical objects",
+          "All planets are stars",
+          "Some astronomical objects are planets",
+          "Some planets are astronomical objects",
+          "Some planets are stars",
+          "Some planets are not astronomical objects",
+          "Some stars are planets",
+          "Some stars are not astronomical objects",
+          "No stars are astronomical objects",
+          "No astronomical objects are stars"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has a viral infection, then they will have a fever",
+          "If a patient has a fever, then they will feel fatigued"
+        ],
+        "conclusions": [
+          "If a patient has a viral infection, then they will feel fatigued",
+          "If a patient does not feel fatigued, then they do not have a viral infection",
+          "If a patient has a viral infection or a fever, they will feel fatigued and a viral infection will lead to feeling fatigued",
+          "If a patient has a viral infection, they will feel fatigued and a viral infection will lead to feeling fatigued",
+          "If a patient does not have a viral infection and has a fever, they will feel fatigued and a viral infection will lead to feeling fatigued",
+          "If a patient has a viral infection or a fever, they will feel fatigued"
+        ],
+        "incorrect conclusions": [
+          "A patient has a viral infection",
+          "If a patient feels fatigued, then they have a viral infection",
+          "If a patient feels fatigued, then they do not have a viral infection",
+          "A patient feels fatigued",
+          "A patient does not feel fatigued",
+          "If a patient does not feel fatigued, then they have a viral infection",
+          "If a patient does not have a fever, then they feel fatigued",
+          "If a patient has a viral infection or does not have a fever, then they will feel fatigued"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient is diagnosed with diabetes, then they must monitor their blood sugar levels regularly",
+          "If a patient must monitor their blood sugar levels regularly, then they must follow a special diet"
+        ],
+        "conclusions": [
+          "If a patient is diagnosed with diabetes, then they must follow a special diet",
+          "If a patient does not follow a special diet, then they are not diagnosed with diabetes",
+          "If a patient is diagnosed with diabetes or must monitor their blood sugar levels regularly, they must follow a special diet and a diabetes diagnosis will lead to following a special diet",
+          "If a patient is diagnosed with diabetes, they must follow a special diet and a diabetes diagnosis will lead to following a special diet",
+          "If a patient is not diagnosed with diabetes and must monitor their blood sugar levels regularly, they must follow a special diet and a diabetes diagnosis will lead to following a special diet",
+          "If a patient is diagnosed with diabetes or must monitor their blood sugar levels regularly, they must follow a special diet"
+        ],
+        "incorrect conclusions": [
+          "A patient is diagnosed with diabetes",
+          "If a patient follows a special diet, then they are diagnosed with diabetes",
+          "If a patient follows a special diet, then they are not diagnosed with diabetes",
+          "A patient follows a special diet",
+          "A patient does not follow a special diet",
+          "If a patient does not follow a special diet, then they are diagnosed with diabetes",
+          "If a patient does not monitor their blood sugar levels regularly, then they follow a special diet",
+          "If a patient is diagnosed with diabetes or does not monitor their blood sugar levels regularly, then they will follow a special diet"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient is diagnosed with hypertension, then they must take medication daily",
+          "If a patient must take medication daily, then they will experience fewer symptoms"
+        ],
+        "conclusions": [
+          "If a patient is diagnosed with hypertension, then they will experience fewer symptoms",
+          "If a patient does not experience fewer symptoms, then they are not diagnosed with hypertension",
+          "If a patient is diagnosed with hypertension or must take medication daily, they will experience fewer symptoms and a hypertension diagnosis will lead to experiencing fewer symptoms",
+          "If a patient is diagnosed with hypertension, they will experience fewer symptoms and a hypertension diagnosis will lead to experiencing fewer symptoms",
+          "If a patient is not diagnosed with hypertension and must take medication daily, they will experience fewer symptoms and a hypertension diagnosis will lead to experiencing fewer symptoms",
+          "If a patient is diagnosed with hypertension or must take medication daily, they will experience fewer symptoms"
+        ],
+        "incorrect conclusions": [
+          "A patient is diagnosed with hypertension",
+          "If a patient experiences fewer symptoms, then they are diagnosed with hypertension",
+          "If a patient experiences fewer symptoms, then they are not diagnosed with hypertension",
+          "A patient experiences fewer symptoms",
+          "A patient does not experience fewer symptoms",
+          "If a patient does not experience fewer symptoms, then they are diagnosed with hypertension",
+          "If a patient does not take medication daily, then they will experience fewer symptoms",
+          "If a patient is diagnosed with hypertension or does not take medication daily, then they will experience fewer symptoms"
+        ]
+      }
+    ]
+  }
+}

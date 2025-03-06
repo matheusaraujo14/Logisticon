@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Law": [
+      {
+        "premises": [
+          "The suspect was at the crime scene or has an alibi but not both are true",
+          "The suspect was at the crime scene"
+        ],
+        "conclusions": [
+          "The suspect does not have an alibi"
+        ],
+        "incorrect conclusions": [
+          "The suspect has an alibi",
+          "The suspect was not at the crime scene"
+        ]
+      },
+      {
+        "premises": [
+          "The contract is valid or it is signed under duress but not both are true",
+          "The contract is valid"
+        ],
+        "conclusions": [
+          "The contract was not signed under duress"
+        ],
+        "incorrect conclusions": [
+          "The contract was signed under duress",
+          "The contract is not valid"
+        ]
+      },
+      {
+        "premises": [
+          "The witness is reliable or the witness lied but not both are true",
+          "The witness is reliable"
+        ],
+        "conclusions": [
+          "The witness did not lie"
+        ],
+        "incorrect conclusions": [
+          "The witness lied",
+          "The witness is not reliable"
+        ]
+      }
+    ]
+  }
+}

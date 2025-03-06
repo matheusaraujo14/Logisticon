@@ -1,0 +1,22 @@
+{
+  "Astronomy": {
+    "Camestres": [
+      {
+        "major premise": "All exoplanets are planets",
+        "minor premise": "No moons are planets",
+        "conclusion": "No moons are exoplanets",
+        "incorrect conclusions": [
+          "All exoplanets are moons",
+          "All planets are moons",
+          "Some exoplanets are planets",
+          "Some exoplanets are moons",
+          "Some planets are moons",
+          "Some planets are exoplanets",
+          "Some moons are planets",
+          "Some moons are exoplanets",
+          "Some planets are not exoplanets"
+        ]
+      }
+    ]
+  }
+}

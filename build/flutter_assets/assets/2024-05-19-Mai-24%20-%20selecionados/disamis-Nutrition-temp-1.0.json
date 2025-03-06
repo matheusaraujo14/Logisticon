@@ -1,0 +1,75 @@
+{
+  "Nutrition": {
+    "Disamis": [
+      {
+        "major premise": "Some fruits are citrus",
+        "minor premise": "All fruits are foods",
+        "conclusion": "Some foods are citrus",
+        "incorrect conclusions": [
+          "All foods are citrus",
+          "All foods are fruits",
+          "All citrus are foods",
+          "All citrus are fruits",
+          "All fruits are citrus",
+          "Some foods are not fruits",
+          "Some citrus are not foods",
+          "Some citrus are not fruits",
+          "Some fruits are not foods",
+          "Some fruits are not citrus",
+          "No citrus is a food",
+          "No citrus is a fruit",
+          "No fruits are foods",
+          "No fruits are citrus",
+          "No foods are fruits",
+          "No foods are citrus"
+        ]
+      },
+      {
+        "major premise": "Some vegetables are leafy greens",
+        "minor premise": "All vegetables are plants",
+        "conclusion": "Some plants are leafy greens",
+        "incorrect conclusions": [
+          "All plants are leafy greens",
+          "All plants are vegetables",
+          "All leafy greens are plants",
+          "All leafy greens are vegetables",
+          "All vegetables are leafy greens",
+          "Some plants are not vegetables",
+          "Some leafy greens are not plants",
+          "Some leafy greens are not vegetables",
+          "Some vegetables are not plants",
+          "Some vegetables are not leafy greens",
+          "No leafy green is a plant",
+          "No leafy green is a vegetable",
+          "No vegetables are plants",
+          "No vegetables are leafy greens",
+          "No plants are vegetables",
+          "No plants are leafy greens"
+        ]
+      },
+      {
+        "major premise": "Some grains are cereals",
+        "minor premise": "All grains are crops",
+        "conclusion": "Some crops are cereals",
+        "incorrect conclusions": [
+          "All crops are cereals",
+          "All crops are grains",
+          "All cereals are crops",
+          "All cereals are grains",
+          "All grains are cereals",
+          "Some crops are not grains",
+          "Some cereals are not crops",
+          "Some cereals are not grains",
+          "Some grains are not crops",
+          "Some grains are not cereals",
+          "No cereal is a crop",
+          "No cereal is a grain",
+          "No grains are crops",
+          "No grains are cereals",
+          "No crops are grains",
+          "No crops are cereals"
+        ]
+      }
+    ]
+  }
+}

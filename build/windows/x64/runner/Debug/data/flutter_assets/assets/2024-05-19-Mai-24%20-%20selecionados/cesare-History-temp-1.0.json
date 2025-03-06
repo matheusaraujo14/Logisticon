@@ -1,0 +1,54 @@
+{
+  "History": {
+    "Cesare": [
+      {
+        "major premise": "No kings are humble people",
+        "minor premise": "All peasants are humble people",
+        "conclusion": "No peasants are kings",
+        "incorrect conclusions": [
+          "All peasants are kings",
+          "All humble people are kings",
+          "Some peasants are humble people",
+          "Some peasants are kings",
+          "Some humble people are peasants",
+          "Some humble people are kings",
+          "Some humble people are not peasants",
+          "Some kings are peasants",
+          "Some kings are humble people"
+        ]
+      },
+      {
+        "major premise": "No wars strategies are peaceful resolutions",
+        "minor premise": "All treaties are peaceful resolutions",
+        "conclusion": "No treaties are wars strategies",
+        "incorrect conclusions": [
+          "All treaties are wars strategies",
+          "All peaceful resolutions are wars strategies",
+          "Some treaties are peaceful resolutions",
+          "Some treaties are wars strategies",
+          "Some peaceful resolutions are treaties",
+          "Some peaceful resolutions are wars strategies",
+          "Some peaceful resolutions are not treaties",
+          "Some wars strategies are treaties",
+          "Some wars strategies are peaceful resolutions"
+        ]
+      },
+      {
+        "major premise": "No feudal lords are commoners",
+        "minor premise": "All serfs are commoners",
+        "conclusion": "No serfs are feudal lords",
+        "incorrect conclusions": [
+          "All serfs are feudal lords",
+          "All commoners are feudal lords",
+          "Some serfs are commoners",
+          "Some serfs are feudal lords",
+          "Some commoners are serfs",
+          "Some commoners are feudal lords",
+          "Some commoners are not serfs",
+          "Some feudal lords are serfs",
+          "Some feudal lords are commoners"
+        ]
+      }
+    ]
+  }
+}

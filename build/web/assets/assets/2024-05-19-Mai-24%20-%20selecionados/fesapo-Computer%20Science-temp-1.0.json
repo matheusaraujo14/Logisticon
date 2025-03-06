@@ -1,0 +1,44 @@
+{
+  "Computer Science": {
+    "Fesapo": [
+      {
+        "major premise": "No algorithms are hardware components",
+        "minor premise": "All hardware components are physical entities and some hardware components exist",
+        "conclusion": "Some physical entities are not algorithms",
+        "incorrect conclusions": [
+          "All physical entities are algorithms",
+          "All physical entities are hardware components",
+          "All algorithms are physical entities",
+          "All algorithms are hardware components",
+          "Some physical entities are algorithms",
+          "Some algorithms are physical entities",
+          "Some algorithms are hardware components",
+          "Some algorithms are not physical entities",
+          "Some hardware components are algorithms",
+          "Some hardware components are not physical entities",
+          "No hardware components are physical entities",
+          "No physical entities are hardware components"
+        ]
+      },
+      {
+        "major premise": "No data structures are machine learning models",
+        "minor premise": "All machine learning models are computational models and some machine learning models exist",
+        "conclusion": "Some computational models are not data structures",
+        "incorrect conclusions": [
+          "All computational models are data structures",
+          "All computational models are machine learning models",
+          "All data structures are computational models",
+          "All data structures are machine learning models",
+          "Some computational models are data structures",
+          "Some data structures are computational models",
+          "Some data structures are machine learning models",
+          "Some data structures are not computational models",
+          "Some machine learning models are data structures",
+          "Some machine learning models are not computational models",
+          "No machine learning models are computational models",
+          "No computational models are machine learning models"
+        ]
+      }
+    ]
+  }
+}

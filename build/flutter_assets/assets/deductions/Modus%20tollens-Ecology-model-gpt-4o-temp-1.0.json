@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Ecology": [
+      {
+        "premises": [
+          "If an animal is nocturnal, then it is active at night",
+          "The animal is not active at night"
+        ],
+        "conclusions": [
+          "The animal is not nocturnal"
+        ],
+        "incorrect conclusions": [
+          "The animal is nocturnal",
+          "The animal is nocturnal and it is active at night",
+          "If the animal is active at night, then it is nocturnal",
+          "If the animal is not active at night, then it is nocturnal",
+          "If the animal is not nocturnal, then it is not active at night"
+        ]
+      },
+      {
+        "premises": [
+          "If a plant performs photosynthesis, then it produces oxygen",
+          "The plant does not produce oxygen"
+        ],
+        "conclusions": [
+          "The plant does not perform photosynthesis"
+        ],
+        "incorrect conclusions": [
+          "The plant performs photosynthesis",
+          "The plant performs photosynthesis and it produces oxygen",
+          "If the plant produces oxygen, then it performs photosynthesis",
+          "If the plant does not produce oxygen, then it performs photosynthesis",
+          "If the plant does not perform photosynthesis, then it does not produce oxygen"
+        ]
+      },
+      {
+        "premises": [
+          "If a species is endangered, then its population is decreasing",
+          "The population is not decreasing"
+        ],
+        "conclusions": [
+          "The species is not endangered"
+        ],
+        "incorrect conclusions": [
+          "The species is endangered",
+          "The species is endangered and its population is decreasing",
+          "If the population is decreasing, then the species is endangered",
+          "If the population is not decreasing, then the species is endangered",
+          "If the species is not endangered, then its population is not decreasing"
+        ]
+      }
+    ]
+  }
+}

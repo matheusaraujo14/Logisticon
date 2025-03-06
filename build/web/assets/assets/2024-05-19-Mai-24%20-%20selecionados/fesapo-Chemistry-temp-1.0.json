@@ -1,0 +1,44 @@
+{
+  "Chemistry": {
+     "Fesapo": [
+		{
+          "major premise": "No acids are salts",
+          "minor premise": "All salts are compounds and some salts exist",
+          "conclusion": "Some compounds are not acids",
+		  "incorrect conclusions": [
+			"All compounds are acids",
+			"All compounds are salts",
+			"All acids are compounds",
+			"All acids are salts",
+			"Some compounds are acids",
+			"Some acids are compounds",
+			"Some acids are salts",
+			"Some acids are not compounds",
+			"Some salts are acids",
+			"Some salts are not compounds",
+			"No salts is compound",
+			"No compounds is salts"
+		  ]
+		},
+		{
+          "major premise": "No bases are metals",
+          "minor premise": "All metals are elements and some metals exist",
+          "conclusion": "Some elements are not bases",
+		  "incorrect conclusions": [
+			"All elements are bases",
+			"All elements are metals",
+			"All bases are elements",
+			"All bases are metals",
+			"Some elements are bases",
+			"Some bases are elements",
+			"Some bases are metals",
+			"Some bases are not elements",
+			"Some metals are bases",
+			"Some metals are not elements",
+			"No metals is element",
+			"No elements is metal"
+		  ]
+		}
+	 ]
+  }
+}

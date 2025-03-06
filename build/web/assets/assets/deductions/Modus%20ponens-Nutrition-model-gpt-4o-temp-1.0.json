@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a diet is high in fiber, then it helps with digestion",
+          "A diet is high in fiber"
+        ],
+        "conclusions": [
+          "It helps with digestion"
+        ],
+        "incorrect conclusions": [
+          "It does not help with digestion",
+          "It helping with digestion implies that a diet is high in fiber",
+          "It not helping with digestion implies that a diet is high in fiber",
+          "A diet not being high in fiber implies that it does not help with digestion"
+        ]
+      },
+      {
+        "premises": [
+          "If a person consumes more calories than they burn, then they gain weight",
+          "A person consumes more calories than they burn"
+        ],
+        "conclusions": [
+          "They gain weight"
+        ],
+        "incorrect conclusions": [
+          "They do not gain weight",
+          "Gaining weight implies that a person consumes more calories than they burn",
+          "Not gaining weight implies that a person consumes more calories than they burn",
+          "A person not consuming more calories than they burn implies that they do not gain weight"
+        ]
+      },
+      {
+        "premises": [
+          "If a food is rich in antioxidants, then it promotes health",
+          "A food is rich in antioxidants"
+        ],
+        "conclusions": [
+          "It promotes health"
+        ],
+        "incorrect conclusions": [
+          "It does not promote health",
+          "It promoting health implies that a food is rich in antioxidants",
+          "It not promoting health implies that a food is rich in antioxidants",
+          "A food not being rich in antioxidants implies that it does not promote health"
+        ]
+      }
+    ]
+  }
+}

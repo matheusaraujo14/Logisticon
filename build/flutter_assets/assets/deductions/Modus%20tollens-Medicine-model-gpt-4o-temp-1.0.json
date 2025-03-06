@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has influenza, then the patient has a fever",
+          "The patient does not have a fever"
+        ],
+        "conclusions": [
+          "The patient does not have influenza"
+        ],
+        "incorrect conclusions": [
+          "The patient has influenza",
+          "The patient has influenza and the patient has a fever",
+          "If the patient has a fever, then the patient has influenza",
+          "If the patient does not have a fever, then the patient has influenza",
+          "If the patient does not have influenza, then the patient does not have a fever"
+        ]
+      },
+      {
+        "premises": [
+          "If a medication is effective, then the patient's symptoms improve",
+          "The patient's symptoms do not improve"
+        ],
+        "conclusions": [
+          "The medication is not effective"
+        ],
+        "incorrect conclusions": [
+          "The medication is effective",
+          "The medication is effective and the patient's symptoms improve",
+          "If the patient's symptoms improve, then the medication is effective",
+          "If the patient's symptoms do not improve, then the medication is effective",
+          "If the medication is not effective, then the patient's symptoms do not improve"
+        ]
+      },
+      {
+        "premises": [
+          "If a person is dehydrated, then they feel thirsty",
+          "The person does not feel thirsty"
+        ],
+        "conclusions": [
+          "The person is not dehydrated"
+        ],
+        "incorrect conclusions": [
+          "The person is dehydrated",
+          "The person is dehydrated and they feel thirsty",
+          "If they feel thirsty, then the person is dehydrated",
+          "If they do not feel thirsty, then the person is dehydrated",
+          "If the person is not dehydrated, then they do not feel thirsty"
+        ]
+      }
+    ]
+  }
+}

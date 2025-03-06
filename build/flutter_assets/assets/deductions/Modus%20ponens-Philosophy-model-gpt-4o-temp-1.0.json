@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If a person thinks, then they exist",
+          "A person thinks"
+        ],
+        "conclusions": [
+          "A person exists"
+        ],
+        "incorrect conclusions": [
+          "A person does not exist",
+          "A person exists implies that a person thinks",
+          "A person does not exist implies that a person thinks",
+          "If a person does not think, then a person does not exist"
+        ]
+      },
+      {
+        "premises": [
+          "If an action is morally good, then it maximizes happiness",
+          "An action is morally good"
+        ],
+        "conclusions": [
+          "An action maximizes happiness"
+        ],
+        "incorrect conclusions": [
+          "An action does not maximize happiness",
+          "An action maximizes happiness implies that an action is morally good",
+          "An action does not maximize happiness implies that an action is morally good",
+          "If an action is not morally good, then it does not maximize happiness"
+        ]
+      },
+      {
+        "premises": [
+          "If humans have free will, then they are morally responsible for their actions",
+          "Humans have free will"
+        ],
+        "conclusions": [
+          "Humans are morally responsible for their actions"
+        ],
+        "incorrect conclusions": [
+          "Humans are not morally responsible for their actions",
+          "Humans are morally responsible for their actions implies that humans have free will",
+          "Humans are not morally responsible for their actions implies that humans have free will",
+          "If humans do not have free will, then they are not morally responsible for their actions"
+        ]
+      }
+    ]
+  }
+}

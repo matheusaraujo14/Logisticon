@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Physics": [
+      {
+        "premises": [
+          "If an object is in free fall, then it accelerates towards the Earth"
+        ],
+        "conclusions": [
+          "If an object does not accelerate towards the Earth, then it is not in free fall"
+        ],
+        "incorrect conclusions": [
+          "An object is in free fall",
+          "An object is not in free fall",
+          "An object accelerates towards the Earth",
+          "An object does not accelerate towards the Earth",
+          "If an object accelerates towards the Earth, then it is in free fall",
+          "If an object does not accelerate towards the Earth, then it is in free fall",
+          "If an object is not in free fall, then it does not accelerate towards the Earth"
+        ]
+      },
+      {
+        "premises": [
+          "If a substance is a superconductor, then it has zero electrical resistance"
+        ],
+        "conclusions": [
+          "If a substance does not have zero electrical resistance, then it is not a superconductor"
+        ],
+        "incorrect conclusions": [
+          "A substance is a superconductor",
+          "A substance is not a superconductor",
+          "A substance has zero electrical resistance",
+          "A substance does not have zero electrical resistance",
+          "If a substance has zero electrical resistance, then it is a superconductor",
+          "If a substance does not have zero electrical resistance, then it is a superconductor",
+          "If a substance is not a superconductor, then it does not have zero electrical resistance"
+        ]
+      },
+      {
+        "premises": [
+          "If a star is in its main sequence, then it is fusing hydrogen into helium"
+        ],
+        "conclusions": [
+          "If a star is not fusing hydrogen into helium, then it is not in its main sequence"
+        ],
+        "incorrect conclusions": [
+          "A star is in its main sequence",
+          "A star is not in its main sequence",
+          "A star is fusing hydrogen into helium",
+          "A star is not fusing hydrogen into helium",
+          "If a star is fusing hydrogen into helium, then it is in its main sequence",
+          "If a star is not fusing hydrogen into helium, then it is in its main sequence",
+          "If a star is not in its main sequence, then it is not fusing hydrogen into helium"
+        ]
+      }
+    ]
+  }
+}

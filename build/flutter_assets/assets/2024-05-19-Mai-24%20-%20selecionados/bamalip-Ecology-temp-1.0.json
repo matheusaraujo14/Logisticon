@@ -1,0 +1,69 @@
+{
+  "Ecology": {
+    "Bamalip": [
+      {
+        "major premise": "All herbivores are mammals",
+        "minor premise": "All mammals are animals and some herbivores exist",
+        "conclusion": "Some animals are herbivores",
+        "incorrect conclusions": [
+          "All animals are mammals",
+          "All mammals are herbivores",
+          "Some animals are not mammals",
+          "Some animals are not herbivores",
+          "Some mammals are not herbivores",
+          "Some mammals are not animals",
+          "Some herbivores are not mammals",
+          "Some herbivores are not animals",
+          "No animals are mammals",
+          "No animals are herbivores",
+          "No mammals are animals",
+          "No mammals are herbivores",
+          "No herbivores are mammals",
+          "No herbivores are animals"
+        ]
+      },
+      {
+        "major premise": "All predators are carnivores",
+        "minor premise": "All carnivores are mammals and some predators exist",
+        "conclusion": "Some mammals are predators",
+        "incorrect conclusions": [
+          "All mammals are carnivores",
+          "All carnivores are predators",
+          "Some mammals are not carnivores",
+          "Some mammals are not predators",
+          "Some carnivores are not predators",
+          "Some carnivores are not mammals",
+          "Some predators are not carnivores",
+          "Some predators are not mammals",
+          "No mammals are carnivores",
+          "No mammals are predators",
+          "No carnivores are mammals",
+          "No carnivores are predators",
+          "No predators are carnivores",
+          "No predators are mammals"
+        ]
+      },
+      {
+        "major premise": "All insects are arthropods",
+        "minor premise": "All arthropods are invertebrates and some insects exist",
+        "conclusion": "Some invertebrates are insects",
+        "incorrect conclusions": [
+          "All invertebrates are arthropods",
+          "All arthropods are insects",
+          "Some invertebrates are not arthropods",
+          "Some invertebrates are not insects",
+          "Some arthropods are not insects",
+          "Some arthropods are not invertebrates",
+          "Some insects are not arthropods",
+          "Some insects are not invertebrates",
+          "No invertebrates are arthropods",
+          "No invertebrates are insects",
+          "No arthropods are invertebrates",
+          "No arthropods are insects",
+          "No insects are arthropods",
+          "No insects are invertebrates"
+        ]
+      }
+    ]
+  }
+}

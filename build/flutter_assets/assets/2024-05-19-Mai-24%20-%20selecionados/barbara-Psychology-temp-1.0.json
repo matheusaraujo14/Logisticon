@@ -1,0 +1,38 @@
+{
+  "Psychology": {
+     "Barbara": [
+        {
+          "major premise": "All emotions are feelings",
+          "minor premise": "All anxieties are emotions",
+          "conclusion": "All anxieties are feelings",
+          "incorrect conclusions": [
+            "All feelings are emotions",
+            "All feelings are anxieties",
+            "Some anxieties are emotions",
+            "Some anxieties are feelings",
+            "Some anxieties are not feelings",
+            "Some anxieties are not emotions",
+            "Some feelings are anxieties",
+            "Some feelings are emotions",
+            "Some emotions are anxieties"
+          ]
+        },
+        {
+          "major premise": "All responses are reactions",
+          "minor premise": "All defensive mechanisms are responses",
+          "conclusion": "All defensive mechanisms are reactions",
+          "incorrect conclusions": [
+            "All reactions are responses",
+            "All reactions are defensive mechanisms",
+            "Some defensive mechanisms are responses",
+            "Some defensive mechanisms are reactions",
+            "Some defensive mechanisms are not reactions",
+            "Some defensive mechanisms are not responses",
+            "Some reactions are defensive mechanisms",
+            "Some reactions are responses",
+            "Some responses are defensive mechanisms"
+          ]
+        }
+     ]
+  }
+}

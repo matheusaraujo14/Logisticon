@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Biology": [
+        {
+          "premises": [
+            "If an animal is warm-blooded, then it can regulate its body temperature",
+            "If an animal is warm-blooded, then it has a high metabolic rate",
+            "An animal cannot regulate its body temperature or an animal does not have a high metabolic rate"
+          ],
+          "conclusions": [
+            "An animal is not warm-blooded",
+            "An animal cannot regulate its body temperature and an animal does not have a high metabolic rate",
+            "If an animal is warm-blooded, then it can regulate its body temperature and it has a high metabolic rate"
+          ],
+          "incorrect conclusions": [
+            "If an animal is warm-blooded, then it can regulate its body temperature and it does not have a high metabolic rate",
+            "If an animal can regulate its body temperature and has a high metabolic rate, then it is warm-blooded",
+            "If an animal can regulate its body temperature, then it is warm-blooded",
+            "An animal can regulate its body temperature or it has a high metabolic rate but not both are true",
+            "If an animal is not warm-blooded, then it cannot regulate its body temperature or it does not have a high metabolic rate"
+          ]
+        },
+        {
+          "premises": [
+            "If a plant is exposed to light, then it performs photosynthesis",
+            "If a plant is exposed to light, then it produces oxygen",
+            "A plant does not perform photosynthesis or a plant does not produce oxygen"
+          ],
+          "conclusions": [
+            "A plant is not exposed to light",
+            "A plant does not perform photosynthesis and a plant does not produce oxygen",
+            "If a plant is exposed to light, then it performs photosynthesis and it produces oxygen"
+          ],
+          "incorrect conclusions": [
+            "If a plant is exposed to light, then it performs photosynthesis and it does not produce oxygen",
+            "If a plant performs photosynthesis and produces oxygen, then it is exposed to light",
+            "If a plant performs photosynthesis, then it is exposed to light",
+            "A plant performs photosynthesis or it produces oxygen but not both are true",
+            "If a plant is not exposed to light, then it does not perform photosynthesis or it does not produce oxygen"
+          ]
+        },
+        {
+          "premises": [
+            "If a bacteria has a specific resistance gene, then it is resistant to antibiotics",
+            "If a bacteria has a specific resistance gene, then it survives in antibiotic environments",
+            "A bacteria is not resistant to antibiotics or a bacteria does not survive in antibiotic environments"
+          ],
+          "conclusions": [
+            "A bacteria does not have a specific resistance gene",
+            "A bacteria is not resistant to antibiotics and a bacteria does not survive in antibiotic environments",
+            "If a bacteria has a specific resistance gene, then it is resistant to antibiotics and it survives in antibiotic environments"
+          ],
+          "incorrect conclusions": [
+            "If a bacteria has a specific resistance gene, then it is resistant to antibiotics and it does not survive in antibiotic environments",
+            "If a bacteria is resistant to antibiotics and survives in antibiotic environments, then it has a specific resistance gene",
+            "If a bacteria is resistant to antibiotics, then it has a specific resistance gene",
+            "A bacteria is resistant to antibiotics or it survives in antibiotic environments but not both are true",
+            "If a bacteria does not have a specific resistance gene, then it is not resistant to antibiotics or it does not survive in antibiotic environments"
+          ]
+        }
+     ]
+  }
+}

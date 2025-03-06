@@ -1,0 +1,52 @@
+{
+  "Astronomy": {
+    "Disamis": [
+      {
+        "major premise": "Some stars are red dwarfs",
+        "minor premise": "All stars are celestial bodies",
+        "conclusion": "Some celestial bodies are red dwarfs",
+        "incorrect conclusions": [
+          "All celestial bodies are red dwarfs",
+          "All celestial bodies are stars",
+          "All red dwarfs are celestial bodies",
+          "All red dwarfs are stars",
+          "All stars are red dwarfs",
+          "Some celestial bodies are not stars",
+          "Some red dwarfs are not celestial bodies",
+          "Some red dwarfs are not stars",
+          "Some stars are not celestial bodies",
+          "Some stars are not red dwarfs",
+          "No red dwarfs is a celestial bodies",
+          "No red dwarfs is a stars",
+          "No stars is a celestial bodies",
+          "No stars is a red dwarfs",
+          "No celestial bodies is a stars",
+          "No celestial bodies is a red dwarfs"
+        ]
+      },
+      {
+        "major premise": "Some planets are gas giants",
+        "minor premise": "All planets are celestial objects",
+        "conclusion": "Some celestial objects are gas giants",
+        "incorrect conclusions": [
+          "All celestial objects are gas giants",
+          "All celestial objects are planets",
+          "All gas giants are celestial objects",
+          "All gas giants are planets",
+          "All planets are gas giants",
+          "Some celestial objects are not planets",
+          "Some gas giants are not celestial objects",
+          "Some gas giants are not planets",
+          "Some planets are not celestial objects",
+          "Some planets are not gas giants",
+          "No gas giants is a celestial objects",
+          "No gas giants is a planets",
+          "No planets is a celestial objects",
+          "No planets is a gas giants",
+          "No celestial objects is a planets",
+          "No celestial objects is a gas giants"
+        ]
+      }
+    ]
+  }
+}

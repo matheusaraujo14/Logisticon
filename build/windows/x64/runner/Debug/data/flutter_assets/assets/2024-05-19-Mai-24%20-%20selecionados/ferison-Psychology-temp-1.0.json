@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+     "Ferison" : [
+		{
+          "major premise": "No therapists are clients",
+          "minor premise": "Some therapists are researchers",
+          "conclusion": "Some researchers are not clients",
+		  "incorrect conclusions": [
+			"All therapists are researchers",
+			"All therapists are clients",
+			"All researchers are clients",
+			"All clients are therapists",
+			"All clients are researchers",
+			"Some therapists are not researchers",
+			"Some clients are researchers",
+			"Some clients are not researchers",
+			"Some clients are therapists",
+			"Some clients are researchers",
+			"Some researchers are clients",
+			"Some researchers are not therapists",
+			"Some therapists are clients",
+			"No therapists are researchers",
+			"No researchers are not therapists",
+			"No researchers are therapists"
+		  ]
+		},
+		{
+          "major premise": "No counselors are psychiatrists",
+          "minor premise": "Some counselors are social workers",
+          "conclusion": "Some social workers are not psychiatrists",
+		  "incorrect conclusions": [
+			"All counselors are social workers",
+			"All counselors are psychiatrists",
+			"All social workers are psychiatrists",
+			"All psychiatrists are counselors",
+			"All psychiatrists are social workers",
+			"Some counselors are not social workers",
+			"Some psychiatrists are social workers",
+			"Some psychiatrists are not social workers",
+			"Some psychiatrists are counselors",
+			"Some psychiatrists are social workers",
+			"Some social workers are psychiatrists",
+			"Some social workers are not counselors",
+			"Some counselors are psychiatrists",
+			"No counselors are social workers",
+			"No social workers are not counselors",
+			"No social workers are counselors"
+		  ]
+		},
+		{
+          "major premise": "No cognitive psychologists are behaviorists",
+          "minor premise": "Some cognitive psychologists are professors",
+          "conclusion": "Some professors are not behaviorists",
+		  "incorrect conclusions": [
+			"All cognitive psychologists are professors",
+			"All cognitive psychologists are behaviorists",
+			"All professors are behaviorists",
+			"All behaviorists are cognitive psychologists",
+			"All behaviorists are professors",
+			"Some cognitive psychologists are not professors",
+			"Some behaviorists are professors",
+			"Some behaviorists are not professors",
+			"Some behaviorists are cognitive psychologists",
+			"Some behaviorists are professors",
+			"Some professors are behaviorists",
+			"Some professors are not cognitive psychologists",
+			"Some cognitive psychologists are behaviorists",
+			"No cognitive psychologists are professors",
+			"No professors are not cognitive psychologists",
+			"No professors are cognitive psychologists"
+		  ]
+		}
+	 ]
+  }
+}

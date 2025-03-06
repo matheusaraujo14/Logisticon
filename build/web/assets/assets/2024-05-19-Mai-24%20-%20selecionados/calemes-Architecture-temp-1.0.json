@@ -1,0 +1,69 @@
+{
+  "Architecture": {
+    "Calemes": [
+      {
+        "major premise": "All skyscrapers are buildings",
+        "minor premise": "No buildings are trees",
+        "conclusion": "No trees are skyscrapers",
+        "incorrect conclusions": [
+          "All buildings are trees",
+          "All buildings are skyscrapers",
+          "All trees are buildings",
+          "All trees are skyscrapers",
+          "All skyscrapers are trees",
+          "Some buildings are skyscrapers",
+          "Some buildings are not skyscrapers",
+          "Some buildings are trees",
+          "Some skyscrapers are trees",
+          "Some skyscrapers are not buildings",
+          "Some skyscrapers are buildings",
+          "Some trees are buildings",
+          "Some trees are skyscrapers",
+          "No skyscrapers are buildings"
+        ]
+      },
+      {
+        "major premise": "All bridges are structures",
+        "minor premise": "No structures are animals",
+        "conclusion": "No animals are bridges",
+        "incorrect conclusions": [
+          "All structures are animals",
+          "All structures are bridges",
+          "All animals are structures",
+          "All animals are bridges",
+          "All bridges are animals",
+          "Some structures are bridges",
+          "Some structures are not bridges",
+          "Some structures are animals",
+          "Some bridges are animals",
+          "Some bridges are not structures",
+          "Some bridges are structures",
+          "Some animals are structures",
+          "Some animals are bridges",
+          "No bridges are structures"
+        ]
+      },
+      {
+        "major premise": "All columns are supports",
+        "minor premise": "No supports are furniture",
+        "conclusion": "No furniture is a column",
+        "incorrect conclusions": [
+          "All supports are furniture",
+          "All supports are columns",
+          "All furniture are supports",
+          "All furniture are columns",
+          "All columns are furniture",
+          "Some supports are columns",
+          "Some supports are not columns",
+          "Some supports are furniture",
+          "Some columns are furniture",
+          "Some columns are not supports",
+          "Some columns are supports",
+          "Some furniture are supports",
+          "Some furniture are columns",
+          "No columns are supports"
+        ]
+      }
+    ]
+  }
+}

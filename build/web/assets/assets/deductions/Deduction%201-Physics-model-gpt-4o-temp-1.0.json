@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Physics": [
+      {
+          "premises": [ 
+            "If an object is in motion, then it has momentum",
+            "If an object is in motion, then it has kinetic energy"
+          ],
+          "conclusions": [
+            "If an object is in motion, then it has momentum and kinetic energy",
+            "If an object is in motion, then it has momentum or kinetic energy",
+            "If an object does not have momentum, then it is not in motion",
+            "If an object does not have kinetic energy, then it is not in motion",
+            "If an object does not have momentum or does not have kinetic energy, then it is not in motion"
+          ],
+          "incorrect conclusions": [
+            "If an object does not have momentum, it does not have kinetic energy",
+            "If an object does not have kinetic energy, it does not have momentum",
+            "If an object has momentum, then it has kinetic energy",
+            "If an object has kinetic energy, then it has momentum",
+            "If an object has momentum and kinetic energy, then it is in motion",
+            "If an object has momentum or kinetic energy, then it is in motion",
+            "If an object does not have momentum or is not in motion, then it is in motion"
+          ]
+        },
+        {
+          "premises": [ 
+            "If a material is heated, then its temperature increases",
+            "If a material is heated, then its volume expands"
+          ],
+          "conclusions": [
+            "If a material is heated, then its temperature increases and its volume expands",
+            "If a material is heated, then its temperature increases or its volume expands",
+            "If a material's temperature does not increase, then it is not heated",
+            "If a material's volume does not expand, then it is not heated",
+            "If a material's temperature does not increase or its volume does not expand, then it is not heated"
+          ],
+          "incorrect conclusions": [
+            "If a material's temperature does not increase, its volume does not expand",
+            "If a material's volume does not expand, its temperature does not increase",
+            "If a material's temperature increases, then its volume expands",
+            "If a material's volume expands, then its temperature increases",
+            "If a material's temperature increases and its volume expands, then it is heated",
+            "If a material's temperature increases or its volume expands, then it is heated",
+            "If a material's temperature does not increase or it is not heated, then it is heated"
+          ]
+        },
+        {
+          "premises": [ 
+            "If a planet has a magnetic field, then it deflects solar wind particles",
+            "If a planet has a magnetic field, then it generates auroras"
+          ],
+          "conclusions": [
+            "If a planet has a magnetic field, then it deflects solar wind particles and generates auroras",
+            "If a planet has a magnetic field, then it deflects solar wind particles or generates auroras",
+            "If a planet does not deflect solar wind particles, then it does not have a magnetic field",
+            "If a planet does not generate auroras, then it does not have a magnetic field",
+            "If a planet does not deflect solar wind particles or does not generate auroras, then it does not have a magnetic field"
+          ],
+          "incorrect conclusions": [
+            "If a planet does not deflect solar wind particles, it does not generate auroras",
+            "If a planet does not generate auroras, it does not deflect solar wind particles",
+            "If a planet deflects solar wind particles, then it generates auroras",
+            "If a planet generates auroras, then it deflects solar wind particles",
+            "If a planet deflects solar wind particles and generates auroras, then it has a magnetic field",
+            "If a planet deflects solar wind particles or generates auroras, then it has a magnetic field",
+            "If a planet does not deflect solar wind particles or does not have a magnetic field, then it has a magnetic field"
+          ]
+        }
+    ]
+  }
+}

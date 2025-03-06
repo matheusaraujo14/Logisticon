@@ -1,0 +1,38 @@
+{
+  "Engineering": {
+    "Barbara": [
+      {
+        "major premise": "All algorithms are computational_methods",
+        "minor premise": "All sorting_algorithms are algorithms",
+        "conclusion": "All sorting algorithms are computational_methods",
+        "incorrect conclusions": [
+          "All computational_methods are algorithms",
+          "All computational_methods are sorting_algorithms",
+          "Some sorting_algorithms are algorithms",
+          "Some sorting_algorithms are computational_methods",
+          "Some sorting_algorithms are not computational_methods",
+          "Some sorting_algorithms are not algorithms",
+          "Some computational_methods are sorting_algorithms",
+          "Some computational_methods are algorithms",
+          "Some algorithms are sorting_algorithms"
+        ]
+      },
+      {
+        "major premise": "All machines are mechanical_systems",
+        "minor premise": "All engines are machines",
+        "conclusion": "All engines are mechanical_systems",
+        "incorrect conclusions": [
+          "All mechanical_systems are machines",
+          "All mechanical_systems are engines",
+          "Some engines are machines",
+          "Some engines are mechanical_systems",
+          "Some engines are not mechanical_systems",
+          "Some engines are not machines",
+          "Some mechanical_systems are engines",
+          "Some mechanical_systems are machines",
+          "Some machines are engines"
+        ]
+      }
+    ]
+  }
+}

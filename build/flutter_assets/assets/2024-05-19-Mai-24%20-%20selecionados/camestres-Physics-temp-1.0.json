@@ -1,0 +1,22 @@
+{
+  "Physics": {
+    "Camestres": [
+      {
+        "major premise": "All neutrons are nucleons",
+        "minor premise": "No electrons are nucleons",
+        "conclusion": "No electrons are neutrons",
+        "incorrect conclusions": [
+          "All neutrons are electrons",
+          "All nucleons are electrons",
+          "Some neutrons are nucleons",
+          "Some neutrons are electrons",
+          "Some nucleons are electrons",
+          "Some nucleons are neutrons",
+          "Some electrons are nucleons",
+          "Some electrons are neutrons",
+          "Some nucleons are not neutrons"
+        ]
+      }
+    ]
+  }
+}

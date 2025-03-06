@@ -1,0 +1,52 @@
+{
+  "Engineering": {
+    "Darapti" : [
+      {
+        "major premise": "All alloys are metals",
+        "minor premise": "All alloys are engineered materials and some alloys exist",
+        "conclusion": "Some engineered materials are metals",
+        "incorrect conclusions": [
+          "All engineered materials are metals",
+          "All metals are engineered materials",
+          "All alloys are not engineered materials",
+          "All alloys are not metals",
+          "Some engineered materials are not metals",
+          "Some engineered materials are not alloys",
+          "Some metals are not alloys",
+          "Some metals are not engineered materials",
+          "Some alloys are not engineered materials",
+          "Some alloys are not metals",
+          "No alloys are engineered materials",
+          "No alloys are metals",
+          "No metals are alloys",
+          "No metals are engineered materials",
+          "No engineered materials are alloys",
+          "No engineered materials are metals"
+        ]
+      },
+      {
+        "major premise": "All programming languages are tools",
+        "minor premise": "All programming languages are abstracts and some programming languages exist",
+        "conclusion": "Some abstracts are tools",
+        "incorrect conclusions": [
+          "All abstracts are tools",
+          "All tools are abstracts",
+          "All programming languages are not abstracts",
+          "All programming languages are not tools",
+          "Some abstracts are not tools",
+          "Some abstracts are not programming languages",
+          "Some tools are not programming languages",
+          "Some tools are not abstracts",
+          "Some programming languages are not abstracts",
+          "Some programming languages are not tools",
+          "No programming languages are abstracts",
+          "No programming languages are tools",
+          "No tools are programming languages",
+          "No tools are abstracts",
+          "No abstracts are programming languages",
+          "No abstracts are tools"
+        ]
+      }
+    ]
+  }
+}

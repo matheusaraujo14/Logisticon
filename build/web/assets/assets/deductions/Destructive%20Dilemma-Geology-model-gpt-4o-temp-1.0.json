@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Geology": [
+      {
+        "premises": [
+          "If an earthquake hits, then the ground shakes",
+          "If an earthquake hits, then buildings might collapse",
+          "The ground does not shake or buildings do not collapse"
+        ],
+        "conclusions": [
+          "An earthquake does not hit",
+          "The ground does not shake and buildings do not collapse",
+          "If an earthquake hits, then the ground shakes and buildings might collapse"
+        ],
+        "incorrect conclusions": [
+          "If an earthquake hits, then the ground shakes and buildings do not collapse",
+          "If the ground shakes and buildings collapse, then an earthquake hits",
+          "If the ground shakes, then an earthquake hits",
+          "The ground shakes or buildings collapse but not both",
+          "If an earthquake does not hit, then the ground does not shake or buildings do not collapse"
+        ]
+      },
+      {
+        "premises": [
+          "If a volcano erupts, then lava flows",
+          "If a volcano erupts, then ash clouds form",
+          "Lava does not flow or ash clouds do not form"
+        ],
+        "conclusions": [
+          "A volcano does not erupt",
+          "Lava does not flow and ash clouds do not form",
+          "If a volcano erupts, then lava flows and ash clouds form"
+        ],
+        "incorrect conclusions": [
+          "If a volcano erupts, then lava flows and ash clouds do not form",
+          "If lava flows and ash clouds form, then a volcano erupts",
+          "If lava flows, then a volcano erupts",
+          "Lava flows or ash clouds form but not both",
+          "If a volcano does not erupt, then lava does not flow or ash clouds do not form"
+        ]
+      },
+      {
+        "premises": [
+          "If glaciers melt, then sea levels rise",
+          "If glaciers melt, then coastal erosion increases",
+          "Sea levels do not rise or coastal erosion does not increase"
+        ],
+        "conclusions": [
+          "Glaciers do not melt",
+          "Sea levels do not rise and coastal erosion does not increase",
+          "If glaciers melt, then sea levels rise and coastal erosion increases"
+        ],
+        "incorrect conclusions": [
+          "If glaciers melt, then sea levels rise and coastal erosion does not increase",
+          "If sea levels rise and coastal erosion increases, then glaciers melt",
+          "If sea levels rise, then glaciers melt",
+          "Sea levels rise or coastal erosion increases but not both",
+          "If glaciers do not melt, then sea levels do not rise or coastal erosion does not increase"
+        ]
+      }
+    ]
+  }
+}

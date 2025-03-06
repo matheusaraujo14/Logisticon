@@ -1,0 +1,69 @@
+{
+	"Deduction 3": {
+		"Biology": [
+			{
+				"premises": [
+					"If the plant is not watered, then it wilts",
+					"If the plant is watered, then it grows"
+				],
+				"conclusions": [
+					"If the plant does not wilt, then it is watered",
+					"If the plant does not grow, then it is not watered",
+					"If the plant does not grow, then it wilts",
+					"The plant either wilts or grows",
+					"If the plant is watered and it wilts, then it grows"
+				],
+				"incorrect conclusions": [
+					"If the plant wilts, then it is watered",
+					"If the plant wilts, it is not watered",
+					"If the plant does not wilt, then it is not watered",
+					"The plant wilts and grows",
+					"If the plant grows, then it is watered",
+					"If the plant wilts and grows, then it is watered"
+				]
+			},
+			{
+				"premises": [
+					"If a bird does not eat, then it starves",
+					"If a bird eats, then it gets energy"
+				],
+				"conclusions": [
+					"If a bird does not starve, then it eats",
+					"If a bird does not get energy, then it does not eat",
+					"If a bird does not get energy, then it starves",
+					"A bird either starves or gets energy",
+					"If a bird eats and it starves, then it gets energy"
+				],
+				"incorrect conclusions": [
+					"If a bird starves, then it eats",
+					"If a bird starves, then it does not eat",
+					"If a bird does not starve, then it does not eat",
+					"A bird starves and gets energy",
+					"If a bird gets energy, then it eats",
+					"If a bird starves and gets energy, then it eats"
+				]
+			},
+			{
+				"premises": [
+					"If a fish is not in water, then it suffocates",
+					"If a fish is in water, then it breathes"
+				],
+				"conclusions": [
+					"If a fish does not suffocate, then it is in water",
+					"If a fish does not breathe, then it is not in water",
+					"If a fish does not breathe, then it suffocates",
+					"A fish either suffocates or breathes",
+					"If a fish is in water and it suffocates, then it breathes"
+				],
+				"incorrect conclusions": [
+					"If a fish suffocates, then it is in water",
+					"If a fish suffocates, then it is not in water",
+					"If a fish does not suffocate, then it is not in water",
+					"A fish suffocates and breathes",
+					"If a fish breathes, then it is in water",
+					"If a fish suffocates and breathes, then it is in water"
+				]
+			}
+		]
+	}
+}

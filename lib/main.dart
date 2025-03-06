@@ -2,67 +2,178 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:new_test/animated_card.dart';
-import 'package:new_test/color_test.dart';
-import 'package:new_test/data.dart';
-import 'package:new_test/riverpod_example.dart';
+// import 'package:new_test/data.dart';
 import 'package:new_test/show_questions.dart';
 import 'package:new_test/start_page.dart';
-import 'package:new_test/timer.dart';
+import 'package:new_test/show_history.dart';
+import 'package:new_test/show_explanation.dart';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:new_test/choose_language.dart';
+import 'package:new_test/truth_table/edit_table.dart';
+import 'package:new_test/font_size.dart';
+import 'package:provider/provider.dart';
+import 'package:new_test/show_explanation_deduction.dart';
+import 'global_language.dart';
+// import 'package:new_test/timer.dart';
 
-late Map<String,dynamic> mapFileToContents;
+late Map<String, dynamic> mapFileToContents;
+final List<Question> questions = [];
+late double percentCorrectAnswers;
+late int numberOfCorrectAnswers;
+late int numberOfQuestions;
+late int correctAnswersInARow;
+late int bestCombo;
+late Map<String, dynamic> currentQuestion;
 
-void main() async{
+String lastSyllType = 'none';
+late TypeOfQuestion lastSyllTypeOfQuestion;
+List<Widget> options = [];
+List<String> randomOptions = [];
+TypeOfQuestion type = TypeOfQuestion.syllogism;
+Map<String, dynamic>? lastSyllogism = {};
+
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  Future<Map<String,dynamic>> tempLib = readJson();
+  // Fixando a orientação na horizontal
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.landscapeLeft,
+    DeviceOrientation.landscapeRight,
+  ]);
+
+  Future<Map<String, dynamic>> tempLib = readJson(3); // ingles
   mapFileToContents = await tempLib;
 
-  // mainRiverpod();
-  runApp(const StartPage());
-
-  // runApp(const TestApp());
-
-  //runApp(const PopUpMenuTest());
-
-  //runApp(const LogicalApp());
-
-  //runApp(const MyAppColorTest());
-  //runApp(const AnimatedTest());
-
-  //showExampleBook();
+  runApp(
+    ChangeNotifierProvider(
+      // Cria o LanguageProvider com o índice de idioma inicial
+      create: (context) => LanguageProvider(),
+      child: MyApp(),
+    ),
+  );
 }
 
-
-
-Future<Map<String, dynamic>> readJson() async {
-  final dir = Directory('assets/2024-05-19-Mai-24 - selecionados/');
-  final dir2 = Directory('assets/deductions/');
-  final List<FileSystemEntity> entities = await dir.list().toList();
-  final List<FileSystemEntity> entitiesDeduc = await dir2.list().toList();
-  dynamic data;
-  String response;
-  for (var i = 0; i < entities.length; i++){
-    response = await rootBundle.loadString(entities[i].path);
-    data ??= await json.decode(response);
-    //print(entities[i].path);
-    data.addAll(await json.decode(response));
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: StartPage(
+        gameActive: false,
+      ),
+      debugShowCheckedModeBanner: false,
+    );
   }
-  for (var i = 0; i < entitiesDeduc.length; i++){
-    response = await rootBundle.loadString(entitiesDeduc[i].path);
-    data ??= await json.decode(response);
-    //print(entitiesDeduc[i].path);
-    data.addAll(await json.decode(response));
+}
+
+Future<Map<String, dynamic>> readJson(int index) async {
+  // Lista dos arquivos de assets, substitua pelos caminhos reais
+  const syllPaths = [
+    'assets/all-languages-syllogism/arb-syllogism.json',
+    'assets/all-languages-syllogism/cmn-syllogism.json',
+    'assets/all-languages-syllogism/deu-syllogism.json',
+    'assets/all-languages-syllogism/eng-syllogism.json',
+    'assets/all-languages-syllogism/fra-syllogism.json',
+    'assets/all-languages-syllogism/hin-syllogism.json',
+    'assets/all-languages-syllogism/jpn-syllogism.json',
+    'assets/all-languages-syllogism/por-syllogism.json',
+    'assets/all-languages-syllogism/spa-syllogism.json'
+  ];
+  const deducPaths = [
+    'assets/all-languages-deductions/arb-deductions.json',
+    'assets/all-languages-deductions/cmn-deductions.json',
+    'assets/all-languages-deductions/deu-deductions.json',
+    'assets/all-languages-deductions/eng-deductions.json',
+    'assets/all-languages-deductions/fra-deductions.json',
+    'assets/all-languages-deductions/hin-deductions.json',
+    'assets/all-languages-deductions/jpn-deductions.json',
+    'assets/all-languages-deductions/por-deductions.json',
+    'assets/all-languages-deductions/spa-deductions.json'
+  ];
+
+  dynamic allData = {};
+  String response = '';
+  Map<String, dynamic> decodedData = {};
+
+  // Obter o arquivo syllogism correspondente ao índice
+  response = await rootBundle.loadString(syllPaths[index]);
+  decodedData = json.decode(response);
+  for (int i = 0; i < decodedData.keys.length; i++) {
+    String key = decodedData.keys.elementAt(i);
+    for (int j = 0; j < decodedData[key].length; j++) {
+      String syllogism = decodedData[key][j].keys.first;
+      for (int k = 0; k < decodedData[key][j][syllogism].length; k++) {
+        if (!allData.containsKey(key)) {
+          allData[key] = {};
+        }
+        if (!allData[key].containsKey(syllogism)) {
+          allData[key][syllogism] = {};
+        }
+        allData[key][syllogism][k] = decodedData[key][j][syllogism][k];
+      }
+    }
   }
-  return data;
+
+  // Obter o arquivo deduction correspondente ao índice
+  response = await rootBundle.loadString(deducPaths[index]);
+  decodedData = json.decode(response);
+  for (int i = 0; i < decodedData.keys.length; i++) {
+    String key = decodedData.keys.elementAt(i);
+    for (int j = 0; j < decodedData[key].length; j++) {
+      String deduction = decodedData[key][j].keys.first;
+      for (int k = 0; k < decodedData[key][j][deduction].length; k++) {
+        if (!allData.containsKey(key)) {
+          allData[key] = {};
+        }
+        if (!allData[key].containsKey(deduction)) {
+          allData[key][deduction] = {};
+        }
+        allData[key][deduction][k] = decodedData[key][j][deduction][k];
+      }
+    }
+  }
+
+  allData = Map<String, dynamic>.from(allData);
+  return allData;
+}
+
+List<String> getLanguagesCode() {
+  const syllPaths = [
+    'assets/all-languages-syllogism/arb-syllogism.json',
+    'assets/all-languages-syllogism/cmn-syllogism.json',
+    'assets/all-languages-syllogism/deu-syllogism.json',
+    'assets/all-languages-syllogism/eng-syllogism.json',
+    'assets/all-languages-syllogism/fra-syllogism.json',
+    'assets/all-languages-syllogism/hin-syllogism.json',
+    'assets/all-languages-syllogism/jpn-syllogism.json',
+    'assets/all-languages-syllogism/por-syllogism.json',
+    'assets/all-languages-syllogism/spa-syllogism.json',
+  ];
+
+  List<String> languages = [];
+  for (String path in syllPaths) {
+    String fileName = path.split('/').last; // Obtém o nome do arquivo
+    String languageCode =
+        fileName.split('-').first; // Extrai o código do idioma
+    if (!languages.contains(languageCode)) {
+      languages.add(languageCode); // Evita duplicatas
+    }
+  }
+  return languages;
 }
 
 class LogicalApp extends StatelessWidget {
-  const LogicalApp({super.key});
+  final bool gameActive;
 
-  // This widget is the root of your application.
+  LogicalApp({
+    super.key,
+    required this.gameActive,
+  });
+
+  // This widget is the root of your application.cd
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -72,31 +183,216 @@ class LogicalApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color.fromARGB(199, 0, 255, 255),
         ),
-        // seedColor: const Color.fromARGB(255, 64, 255, 179)),
         useMaterial3: true,
       ),
-      home: const MyLogicalApp(),
+      home: MyLogicalApp(
+        gameActive: gameActive,
+      ),
     );
   }
 }
 
 class MyLogicalApp extends StatefulWidget {
-  const MyLogicalApp({super.key});
+  final bool gameActive;
+
+  MyLogicalApp({
+    super.key,
+    required this.gameActive,
+  });
 
   @override
   State<MyLogicalApp> createState() => MyLogicalAppState();
 }
 
+void clearQuestions() {
+  questions.clear();
+}
+
 class MyLogicalAppState extends State<MyLogicalApp> {
   @override
   Widget build(BuildContext context) {
+    FontSizes fontSizes = FontSizes(context);
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double size = screenHeight > screenWidth ? screenHeight : screenWidth;
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.transparent,
+        extendBodyBehindAppBar: true,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-          title: const Text('Syllogisms'),
+          forceMaterialTransparency: true,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          // botoes de mmudar a lingua e de reportar questão na appbar
+
+          /* title: Consumer<LanguageProvider>(
+              builder: (context, languageProvider, child) {
+            int index = languageProvider.currentLanguageIndex;
+            return SizedBox(
+              child: Row(
+                children: [
+                  // botao de alterar idioma
+                  IconButton(
+                    icon: Icon(Icons.language, size: fontSizes.extraLarge),
+                    color: Colors.white,
+                    onPressed: () {
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return AlertDialog(
+                            backgroundColor: Colors.grey.shade200,
+                            title: SelectableText(
+                              chooseOptionTranslations[index]!,
+                              style: TextStyle(
+                                fontSize: fontSizes.large,
+                                fontWeight: FontWeight.bold,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            content:
+                                ChooseLanguage(languages: getLanguagesCode()),
+                          );
+                        },
+                      ).then(
+                        (value) {
+                          if (value != null) {
+                            
+                            setState(() {});
+                          }
+                        },
+                      );
+                    },
+                  ),
+                  // botao de reportar questão
+                  IconButton(
+                    tooltip: show_history_reportQuestionTranslations[index],
+                    iconSize: fontSizes.extraLarge,
+                    padding: EdgeInsets.zero,
+                    icon: Icon(
+                      Icons.error_outline,
+                      color: Colors.yellow.shade800,
+                    ),
+                    onPressed: () {
+                      showDialog(
+                          context: context,
+                          builder: (context) {
+                            return AlertDialog(
+                              backgroundColor: Colors.yellow.shade500,
+                              alignment: Alignment.center,
+                              actionsAlignment: MainAxisAlignment.center,
+                              content: SelectableText(
+                                  show_history_reportQuestionTranslations[
+                                      index],
+                                  style: TextStyle(
+                                      fontSize: screenWidth > screenHeight
+                                          ? FontSizes(context).large
+                                          : FontSizes(context).medium,
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold)),
+                              actions: [
+                                Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
+                                  children: [
+                                    TextButton(
+                                      style: TextButton.styleFrom(
+                                        backgroundColor: Colors.grey,
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 14, vertical: 10),
+                                      ),
+                                      onPressed: () {
+                                        Navigator.of(context).pop();
+                                      },
+                                      child: Text(
+                                          show_history_closeTranslations[index],
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize:
+                                                  FontSizes(context).medium,
+                                              fontWeight: FontWeight.bold)),
+                                    ),
+                                    TextButton(
+                                      style: TextButton.styleFrom(
+                                        backgroundColor: Colors.red,
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 14, vertical: 10),
+                                      ),
+                                      onPressed: () {
+                                        Navigator.of(context).pop();
+                                        // Implementar a função de reportar
+                                        showDialog(
+                                          context: context,
+                                          builder: (BuildContext context) {
+                                            Future.delayed(
+                                                const Duration(
+                                                    milliseconds: 2500), () {
+                                              Navigator.of(context).pop();
+                                            });
+                                            return AlertDialog(
+                                              backgroundColor: Colors.red,
+                                              title: SelectableText(
+                                                  show_history_thanksForYourReportTranslations[
+                                                      index],
+                                                  style: TextStyle(
+                                                      fontSize:
+                                                          FontSizes(context)
+                                                              .large,
+                                                      color: Colors.yellow,
+                                                      fontWeight:
+                                                          FontWeight.bold)),
+                                            );
+                                          },
+                                        );
+                                      },
+                                      child: Text(
+                                          show_history_reportTranslations[
+                                              index],
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize:
+                                                  FontSizes(context).medium,
+                                              fontWeight: FontWeight.bold)),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            );
+                          });
+                    },
+                  ),
+                ],
+              ),
+            );
+          }), */
+          leading: Consumer<LanguageProvider>(
+            builder: (context, languageProvider, child) {
+              int index = languageProvider.currentLanguageIndex;
+              return IconButton(
+                icon: Icon(Icons.arrow_back, size: fontSizes.extraLarge),
+                color: Colors.white,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => StartPage(
+                              gameActive: true,
+                            )),
+                  );
+                },
+                tooltip: backTranslations[index],
+              );
+            },
+          ),
+          iconTheme: IconThemeData(
+            color: Colors.white,
+            size: fontSizes.extraLarge,
+          ),
         ),
-        body: const ShowQuestionList(),
+        body: ShowQuestionList(
+          gameActive: widget.gameActive,
+        ),
       ),
     );
   }
@@ -104,7 +400,11 @@ class MyLogicalAppState extends State<MyLogicalApp> {
 
 // create a ShowQuestionList statefull widget
 class ShowQuestionList extends StatefulWidget {
-  const ShowQuestionList({super.key});
+  final bool gameActive;
+  ShowQuestionList({
+    super.key,
+    required this.gameActive,
+  });
 
   @override
   State<ShowQuestionList> createState() => ShowQuestionListState();
@@ -113,180 +413,1498 @@ class ShowQuestionList extends StatefulWidget {
 enum AnswerQuestion { correct, incorrect, notAnswered }
 
 class ShowQuestionListState extends State<ShowQuestionList> {
-  ValueNotifier<String> chosedOption = ValueNotifier<String>('none');
+  ValueNotifier<List<String>> chosedOption = ValueNotifier<List<String>>(['']);
+  ValueNotifier<String> syllogismType = ValueNotifier<String>('none');
+  ValueNotifier<AnswerQuestion> answer =
+      ValueNotifier<AnswerQuestion>(AnswerQuestion.notAnswered);
+  ValueNotifier<String> majorPremise = ValueNotifier<String>('none');
+  ValueNotifier<String> minorPremise = ValueNotifier<String>('none');
+  ValueNotifier<String> conclusion = ValueNotifier<String>('none');
+  ValueNotifier<List<dynamic>> premises = ValueNotifier<List<dynamic>>(['']);
+  ValueNotifier<List<String>> conclusions = ValueNotifier<List<String>>(['']);
+  ValueNotifier<TypeOfQuestion> typeOfQuestion =
+      ValueNotifier<TypeOfQuestion>(TypeOfQuestion.syllogism);
+  ValueNotifier<List<String>> incorrectConclusions =
+      ValueNotifier<List<String>>(['']);
+  ValueNotifier<List<int>> selectedCorrectOptions =
+      ValueNotifier<List<int>>([]);
+  ValueNotifier<List<int>> selectedIncorrectOptions =
+      ValueNotifier<List<int>>([]);
+  ValueNotifier<List<int>> selectedOptionsInOrder =
+      ValueNotifier<List<int>>([]);
 
-  var answer = ValueNotifier<AnswerQuestion>(AnswerQuestion.notAnswered);
-  double percentCorrectAnswers = 0;
-  int numberOfCorrectAnswers = 0;
-  int numberOfQuestions = 0;
+  bool alternativeText = true;
+  @override
+  void initState() {
+    if (syllogismType.value == 'none' && lastSyllType != 'none') {
+      syllogismType.value = lastSyllType;
+      typeOfQuestion.value = lastSyllTypeOfQuestion;
+      currentQuestion = changedLanguage ? _randomQuestion() : lastSyllogism!;
+    }
+    super.initState();
+    if (!widget.gameActive) {
+      numberOfCorrectAnswers = 0;
+      numberOfQuestions = 0;
+      correctAnswersInARow = 0;
+      bestCombo = 0;
+      percentCorrectAnswers = 0;
+      currentQuestion = _randomQuestion();
+    }
+    changedLanguage = false;
+  }
+
+  void nextQuestion() {
+    setState(() {
+      chosedOption.value.clear();
+      chosedOption.value.add('');
+      answer.value = AnswerQuestion.notAnswered;
+      currentQuestion = _randomQuestion();
+      lastSyllogism = currentQuestion;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    // chosedOption.addListener(() {
-    //   setState(() {});
-    // });
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenSize = screenHeight > screenWidth ? screenHeight : screenWidth;
+    FontSizes fontSizes = FontSizes(context);
 
-    return AnimatedSwitcher(
-      duration: const Duration(milliseconds: 700),
-      child: Column(
-        key: ValueKey<int>(numberOfQuestions),
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          ShowQuestion(
-            syllogism: _randomQuestion(),
-            chosedOption: chosedOption,
-            answer: answer,
-          ),
-          const SizedBox(height: 20),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  // Text Button that, on pressed, call setState
-                  // and change the syllogism
-                  TextButton(
-                    onPressed: () {
-                      Widget msg;
-                      if (answer.value == AnswerQuestion.correct) {
-                        msg = const Text('Correct answer');
-                      } else if (answer.value == AnswerQuestion.incorrect) {
-                        msg = const Text('Incorrect answer',
-                            style: TextStyle(color: Colors.red));
-                      } else {
-                        msg = const Text('Not answered');
-                      }
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: msg,
-                          duration: const Duration(milliseconds: 800),
+    return Consumer<LanguageProvider>(
+        builder: (context, languageProvider, child) {
+      int currentLanguageIndex = languageProvider.currentLanguageIndex;
+      return Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [
+                Color.fromARGB(255, 113, 252, 194),
+                Color.fromARGB(255, 6, 231, 126),
+                //Color.fromARGB(255, 255, 255, 255),
+              ]),
+          color: Colors.white,
+        ),
+        child: LayoutBuilder(builder: (context, constraints) {
+          lastSyllType = syllogismType.value == 'none'
+              ? lastSyllType
+              : syllogismType.value;
+          return AnimatedSwitcher(
+            duration: const Duration(milliseconds: 500),
+            child: Column(
+              key: ValueKey<int>(numberOfQuestions),
+              children: [
+                Expanded(
+                  flex: screenWidth > screenHeight ? 15 : 50,
+                  child: SizedBox(
+                    child: ShowQuestion(
+                      syllogism: currentQuestion,
+                      chosedOption: chosedOption,
+                      answer: answer,
+                      syllogismType: syllogismType,
+                      majorPremise: majorPremise,
+                      minorPremise: minorPremise,
+                      conclusion: conclusion,
+                      premises: premises,
+                      conclusions: conclusions,
+                      typeOfQuestion: typeOfQuestion,
+                      incorrectConclusions: incorrectConclusions,
+                      selectedCorrectOptions: selectedCorrectOptions,
+                      selectedIncorrectOptions: selectedIncorrectOptions,
+                      selectedOptionsInOrder: selectedOptionsInOrder,
+                    ),
+                  ),
+                ),
+                if (screenWidth > screenHeight) ...[
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: screenWidth * 0.1),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(vertical: 5),
+                          decoration: BoxDecoration(
+                            color: Colors.grey.shade100,
+                            borderRadius: BorderRadius.circular(15),
+                            border: Border.all(
+                              color: numberOfCorrectAnswers >=
+                                          numberOfQuestions / 2 &&
+                                      numberOfQuestions > 0
+                                  ? Colors.green
+                                  : numberOfQuestions == 0
+                                      ? Colors.grey
+                                      : Colors.redAccent,
+                              width: 5,
+                            ),
+                            boxShadow: [
+                              BoxShadow(
+                                color: numberOfCorrectAnswers >=
+                                            numberOfQuestions / 2 &&
+                                        numberOfQuestions > 0
+                                    ? correctAnswersInARow >= 20
+                                        ? Colors.purple
+                                        : correctAnswersInARow >= 15
+                                            ? Colors.blue
+                                            : correctAnswersInARow >= 10
+                                                ? const Color.fromARGB(
+                                                    255, 207, 187, 0)
+                                                : Colors.lightGreen
+                                    : numberOfQuestions == 0
+                                        ? Colors.grey
+                                        : Colors.redAccent,
+                                blurRadius: 10,
+                                offset: const Offset(5, 5),
+                              ),
+                            ],
+                          ),
+                          child: ConstrainedBox(
+                            constraints: BoxConstraints(
+                              minWidth: screenWidth * 0.16,
+                            ),
+                            child: Column(
+                              children: [
+                                Padding(
+                                  padding:
+                                      const EdgeInsets.symmetric(horizontal: 5),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      SelectableText(
+                                        '$numberOfCorrectAnswers/$numberOfQuestions ',
+                                        style: TextStyle(
+                                          fontSize: fontSizes.extraSmall,
+                                          color: numberOfCorrectAnswers >=
+                                                      numberOfQuestions / 2 &&
+                                                  numberOfQuestions > 0
+                                              ? Colors.green
+                                              : numberOfQuestions == 0
+                                                  ? Colors.grey.shade800
+                                                  : Colors.redAccent,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                      if (numberOfQuestions > 0)
+                                        SelectableText(
+                                          '${(100 * percentCorrectAnswers).truncate()}% ${main_correctTranslations[currentLanguageIndex]}',
+                                          style: TextStyle(
+                                            fontSize:
+                                                FontSizes(context).extraSmall,
+                                            color: numberOfCorrectAnswers >=
+                                                    numberOfQuestions / 2
+                                                ? Colors.green
+                                                : numberOfQuestions == 0
+                                                    ? Colors.grey.shade800
+                                                    : Colors.redAccent,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      if (numberOfQuestions == 0)
+                                        SelectableText(
+                                          '-% ${main_correctTranslations[currentLanguageIndex]}',
+                                          style: TextStyle(
+                                            fontSize:
+                                                FontSizes(context).extraSmall,
+                                            color: Colors.grey.shade800,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                    ],
+                                  ),
+                                ),
+                                Column(
+                                  children: [
+                                    SelectableText(
+                                      '${main_currentComboTranslations[currentLanguageIndex]} $correctAnswersInARow',
+                                      style: TextStyle(
+                                          fontSize: fontSizes.extraExtraSmall,
+                                          fontWeight: FontWeight.bold,
+                                          color: correctAnswersInARow >= 20
+                                              ? Colors.purple
+                                              : correctAnswersInARow >= 15
+                                                  ? Colors.blue
+                                                  : correctAnswersInARow >= 10
+                                                      ? const Color.fromARGB(
+                                                          255, 207, 187, 0)
+                                                      : correctAnswersInARow >=
+                                                              5
+                                                          ? Colors.lightGreen
+                                                          : Colors
+                                                              .grey.shade700),
+                                    ),
+                                    SelectableText(
+                                      '${main_yourBestTranslations[currentLanguageIndex]} $bestCombo',
+                                      style: TextStyle(
+                                        fontSize: fontSizes.extraExtraSmall,
+                                        fontWeight: FontWeight.bold,
+                                        color: bestCombo >= 20
+                                            ? Colors.purple
+                                            : bestCombo >= 15
+                                                ? Colors.blue
+                                                : bestCombo >= 10
+                                                    ? const Color.fromARGB(
+                                                        255, 207, 187, 0)
+                                                    : bestCombo >= 5
+                                                        ? Colors.lightGreen
+                                                        : Colors.grey.shade700,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
                         ),
-                      );
-                      if (answer.value == AnswerQuestion.correct) {
-                        ++numberOfCorrectAnswers;
-                      }
-                      ++numberOfQuestions;
-                      percentCorrectAnswers =
-                          numberOfCorrectAnswers / numberOfQuestions;
-                      chosedOption.value = 'none';
-                      answer.value = AnswerQuestion.notAnswered;
+                        //const Spacer(),
+                        Container(
+                          margin: const EdgeInsets.fromLTRB(5, 0, 0, 0),
+                          width: screenWidth * 0.2,
+                          height: screenHeight * 0.13,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(35),
+                              boxShadow: [
+                                BoxShadow(
+                                  color:
+                                      const Color.fromARGB(255, 10, 192, 122),
+                                  blurRadius: 15,
+                                  offset: const Offset(5, 5),
+                                )
+                              ]),
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              backgroundColor: Colors.white,
+                              foregroundColor: Colors.green,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(35),
+                              ),
+                              elevation: 10,
+                              shadowColor:
+                                  const Color.fromARGB(255, 4, 128, 80),
+                            ),
+                            onPressed: () {
+                              if (chosedOption.value.first == "") {
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      title: SelectableText("Atenção",
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              fontSize: fontSizes.medium)),
+                                      content: SelectableText(
+                                          "Você deve selecionar uma das opções ou pular a questão.",
+                                          style: TextStyle(
+                                              fontSize: fontSizes.small)),
+                                      actions: [
+                                        TextButton(
+                                          onPressed: () {
+                                            Navigator.of(context)
+                                                .pop(); // Fecha a janela
+                                          },
+                                          style: TextButton.styleFrom(
+                                            backgroundColor: Colors.lightBlue,
+                                            foregroundColor: Colors.white,
+                                            fixedSize: Size(screenWidth * 0.1,
+                                                FontSizes(context).extraLarge),
+                                            shape: RoundedRectangleBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(30),
+                                            ),
+                                          ),
+                                          child: Text("Entendido",
+                                              style: TextStyle(
+                                                  fontSize:
+                                                      fontSizes.extraSmall)),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                                return; // Interrompe o restante do processamento
+                              }
 
-                      setState(() {});
-                    },
-                    child: const Text(
-                      'Verify',
-                      style: TextStyle(fontSize: 20),
+                              bool error = verifyError(
+                                conclusion.value,
+                                chosedOption.value.first,
+                                chosedOption.value,
+                                incorrectConclusions.value,
+                                conclusions.value,
+                                typeOfQuestion.value,
+                              );
+
+                              Widget msg;
+                              if (!error) {
+                                if (answer.value == AnswerQuestion.correct) {
+                                  msg = SelectableText(
+                                    main_correctAnswerTranslations[
+                                        currentLanguageIndex],
+                                    style: TextStyle(
+                                        fontSize:
+                                            fontSizes.extraExtraExtraSmall),
+                                  );
+                                } else if (answer.value ==
+                                    AnswerQuestion.incorrect) {
+                                  msg = SelectableText(
+                                    main_incorrectAnswerTranslations[
+                                        currentLanguageIndex],
+                                    style: TextStyle(
+                                        fontSize:
+                                            fontSizes.extraExtraExtraSmall),
+                                  );
+                                } else {
+                                  msg = SelectableText(
+                                    main_notAnsweredTranslations[
+                                        currentLanguageIndex],
+                                    style: TextStyle(
+                                        fontSize:
+                                            fontSizes.extraExtraExtraSmall),
+                                  );
+                                }
+                              } else {
+                                msg = SelectableText(
+                                  main_errorTranslations[currentLanguageIndex],
+                                  style: TextStyle(
+                                      fontSize: fontSizes.extraExtraExtraSmall),
+                                );
+                              }
+                              ScaffoldMessenger.of(context)
+                                  .hideCurrentSnackBar();
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                  content: msg,
+                                  duration: const Duration(milliseconds: 800),
+                                  backgroundColor: error
+                                      ? const Color.fromARGB(255, 192, 173, 0)
+                                      : answer.value == AnswerQuestion.correct
+                                          ? Colors.green
+                                          : answer.value ==
+                                                  AnswerQuestion.notAnswered
+                                              ? Colors.grey
+                                              : Colors.red,
+                                ),
+                              );
+
+                              if (!error) {
+                                if (answer.value == AnswerQuestion.correct) {
+                                  ++numberOfCorrectAnswers;
+                                }
+                                ++numberOfQuestions;
+                                percentCorrectAnswers =
+                                    numberOfCorrectAnswers / numberOfQuestions;
+
+                                answer.value != AnswerQuestion.correct
+                                    ? correctAnswersInARow = 0
+                                    : ++correctAnswersInARow;
+
+                                if (correctAnswersInARow > bestCombo) {
+                                  bestCombo = correctAnswersInARow;
+                                }
+                              }
+
+                              questions.add(Question(
+                                  userChoices: chosedOption.value.toList(),
+                                  syllogismType: syllogismType.value,
+                                  majorPremise: majorPremise.value,
+                                  minorPremise: minorPremise.value,
+                                  userChoice: chosedOption.value.first,
+                                  rightChoice: conclusion.value,
+                                  premises: premises.value,
+                                  isCorrect: answer.value,
+                                  typeOfQuestion: typeOfQuestion.value,
+                                  conclusions: conclusions.value,
+                                  incorrectConclusions:
+                                      incorrectConclusions.value,
+                                  selectedCorrectOptions:
+                                      selectedCorrectOptions.value,
+                                  selectedIncorrectOptions:
+                                      selectedIncorrectOptions.value,
+                                  selectedOptionsInOrder:
+                                      selectedOptionsInOrder.value));
+
+                              nextQuestion();
+                              setState(() {});
+                            },
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              main_verifyTranslations[currentLanguageIndex],
+                              maxLines: 1,
+                              style: TextStyle(
+                                fontSize: fontSizes.extraExtraExtraLarge,
+                                color: Theme.of(context)
+                                    .colorScheme
+                                    .onPrimaryContainer,
+                              ),
+                            ),
+                          ),
+                        ),
+                        //const Spacer(),
+                        ConstrainedBox(
+                          constraints: BoxConstraints(
+                            minWidth: screenWidth * 0.16,
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color:
+                                        const Color.fromARGB(255, 29, 169, 108),
+                                    width: 5,
+                                  ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: const Color.fromARGB(
+                                            255, 3, 83, 75),
+                                        offset: Offset(2, 3),
+                                        blurRadius: 3,
+                                        spreadRadius: 2),
+                                  ],
+                                ),
+                                child: IconButton(
+                                  tooltip: show_history_explicacaoTranslations[
+                                      currentLanguageIndex],
+                                  hoverColor: Colors.grey.shade300,
+                                  focusColor: Colors.grey.shade300,
+                                  iconSize: screenSize * 0.055,
+                                  icon: const Icon(Icons.lightbulb_circle,
+                                      color: const Color.fromARGB(
+                                          255, 29, 169, 108)),
+                                  onPressed: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (BuildContext context) {
+                                        return AlertDialog(
+                                          backgroundColor: Colors.grey.shade200,
+                                          title: SelectableText(
+                                            premises.value.isEmpty
+                                                ? main_explanationQuestionTranslations[
+                                                    currentLanguageIndex]
+                                                : main_explanationDeductionQuestionTranslations[
+                                                    currentLanguageIndex],
+                                            style: TextStyle(
+                                                fontSize: fontSizes.medium),
+                                            textAlign: TextAlign.center,
+                                          ),
+                                          actions: [
+                                            Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.spaceEvenly,
+                                              children: [
+                                                // Botão NO
+                                                TextButton(
+                                                  style: TextButton.styleFrom(
+                                                    backgroundColor:
+                                                        Colors.redAccent,
+                                                    foregroundColor:
+                                                        Colors.white,
+                                                    shape:
+                                                        RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              30),
+                                                    ),
+                                                  ),
+                                                  onPressed: () {
+                                                    Navigator.of(context).pop();
+                                                  },
+                                                  child: Padding(
+                                                    padding: const EdgeInsets
+                                                        .symmetric(
+                                                        horizontal: 8.0),
+                                                    child: Text(
+                                                        main_noTranslations[
+                                                            currentLanguageIndex],
+                                                        style: TextStyle(
+                                                            fontSize: fontSizes
+                                                                .small)),
+                                                  ),
+                                                ),
+                                                // Botão YES
+                                                TextButton(
+                                                  style: TextButton.styleFrom(
+                                                    alignment: Alignment.center,
+                                                    backgroundColor:
+                                                        Colors.lightBlue,
+                                                    foregroundColor:
+                                                        Colors.white,
+                                                    shape:
+                                                        RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              30),
+                                                    ),
+                                                  ),
+                                                  onPressed: () {
+                                                    //Navigator.of(context).pop();
+                                                    if (typeOfQuestion.value ==
+                                                        TypeOfQuestion
+                                                            .syllogism) {
+                                                      Navigator.of(context)
+                                                          .pop();
+
+                                                      showExplanation(
+                                                        context,
+                                                        syllogismType.value,
+                                                        premises.value.isEmpty
+                                                            ? true
+                                                            : false,
+                                                        selectedCorrectOptions
+                                                            .value,
+                                                        selectedIncorrectOptions
+                                                            .value,
+                                                      );
+                                                    } else {
+                                                      Navigator.of(context)
+                                                          .pop();
+                                                      showTestDeduction(context,
+                                                          premises: premises,
+                                                          conclusions:
+                                                              conclusions,
+                                                          incorrectConclusions:
+                                                              incorrectConclusions,
+                                                          selectedCorrectOptions:
+                                                              selectedCorrectOptions,
+                                                          selectedIncorrectOptions:
+                                                              selectedIncorrectOptions,
+                                                          sylogismType:
+                                                              syllogismType
+                                                                  .value,
+                                                          selectedOptionsInOrder:
+                                                              selectedCorrectOptions);
+                                                    }
+                                                  },
+                                                  child: Padding(
+                                                    padding: const EdgeInsets
+                                                        .symmetric(
+                                                        horizontal: 8.0),
+                                                    child: Text(
+                                                        main_yesTranslations[
+                                                            currentLanguageIndex],
+                                                        style: TextStyle(
+                                                            fontSize: fontSizes
+                                                                .small)),
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+                                  },
+                                ),
+                              ),
+                              Container(
+                                margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white,
+                                  border: Border.all(
+                                    color:
+                                        const Color.fromARGB(255, 29, 169, 108),
+                                    width: 5,
+                                  ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color:
+                                          const Color.fromARGB(255, 3, 83, 75),
+                                      offset: Offset(2, 3),
+                                      blurRadius: 3,
+                                      spreadRadius: 2,
+                                    ),
+                                  ],
+                                ),
+                                alignment: Alignment.center,
+                                child: IconButton(
+                                  tooltip: main_historicoTranslations[
+                                      currentLanguageIndex],
+                                  hoverColor: Colors.grey.shade300,
+                                  focusColor: Colors.grey.shade300,
+                                  alignment: Alignment.center,
+                                  icon: const Icon(Icons.history,
+                                      color: const Color.fromARGB(
+                                          255, 29, 169, 108)),
+                                  iconSize: screenSize * 0.055,
+                                  onPressed: () {
+                                    showDialog(
+                                      context: context,
+                                      builder: (BuildContext context) {
+                                        return AlertDialog(
+                                          backgroundColor: Colors.grey.shade200,
+                                          title: SelectableText(
+                                            main_historicoTranslations[
+                                                currentLanguageIndex],
+                                            style: TextStyle(
+                                                fontSize: 28,
+                                                fontWeight: FontWeight.bold),
+                                            textAlign: TextAlign.center,
+                                          ),
+                                          content: questions.isNotEmpty
+                                              ? SizedBox(
+                                                  height: 1000,
+                                                  width: 750,
+                                                  child: ShowHistory(
+                                                      questions: questions))
+                                              : SelectableText(
+                                                  main_noQuestionsAnsweredYetTranslations[
+                                                      currentLanguageIndex],
+                                                  textAlign: TextAlign.center,
+                                                  style:
+                                                      TextStyle(fontSize: 28),
+                                                ),
+                                          actions: [
+                                            TextButton(
+                                              style: TextButton.styleFrom(
+                                                backgroundColor:
+                                                    Colors.lightBlue,
+                                                foregroundColor: Colors.white,
+                                                minimumSize:
+                                                    const Size(100, 50),
+                                                shape: RoundedRectangleBorder(
+                                                  borderRadius:
+                                                      BorderRadius.circular(30),
+                                                ),
+                                              ),
+                                              onPressed: () {
+                                                Navigator.of(context).pop();
+                                              },
+                                              child: Container(
+                                                width: double.infinity,
+                                                alignment: Alignment.center,
+                                                child: Text(
+                                                    main_okTranslations[
+                                                        currentLanguageIndex],
+                                                    style: TextStyle(
+                                                      fontSize: 28,
+                                                    )),
+                                              ),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+                                  },
+                                ),
+                              ),
+                              Container(
+                                  margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    color: Colors.white,
+                                    border: Border.all(
+                                      color: const Color.fromARGB(
+                                          255, 29, 169, 108),
+                                      width: 5,
+                                    ),
+                                    boxShadow: [
+                                      BoxShadow(
+                                          color: const Color.fromARGB(
+                                              255, 3, 83, 75),
+                                          offset: Offset(2, 3),
+                                          blurRadius: 3,
+                                          spreadRadius: 2),
+                                    ],
+                                  ),
+                                  alignment: Alignment.center,
+                                  child: IconButton(
+                                      tooltip: skipTranslations[
+                                          currentLanguageIndex],
+                                      hoverColor: Colors.grey.shade300,
+                                      focusColor: Colors.grey.shade300,
+                                      alignment: Alignment.center,
+                                      icon: const Icon(
+                                          Icons.arrow_circle_right_sharp,
+                                          color: const Color.fromARGB(
+                                              255, 29, 169, 108)),
+                                      iconSize: screenSize * 0.055,
+                                      onPressed: () {
+                                        randomOptions.clear();
+                                        nextQuestion();
+                                        setState(() {});
+                                      })),
+                            ],
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                  const SizedBox(width: 20),
-                  Text(
-                    '$numberOfCorrectAnswers/$numberOfQuestions',
-                    style: const TextStyle(fontSize: 20),
-                  ),
-                  const SizedBox(width: 20),
-                  // a Text widget with the percentage of correct answers
-                  // shown with two decimals
-                  if (numberOfQuestions > 0)
-                    Text(
-                      '${(100 * percentCorrectAnswers).truncate()}% correct',
-                      style: const TextStyle(fontSize: 12),
+                ] else ...[
+                  Container(
+                    // Botões de ação
+                    margin:
+                        EdgeInsets.symmetric(horizontal: screenWidth * 0.05),
+                    child: Column(
+                      // Coluna de botões
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        MouseRegion(
+                          cursor: SystemMouseCursors.click,
+                          child: GestureDetector(
+                            onTap: () {
+                              setState(() {
+                                alternativeText = !alternativeText;
+                              });
+                            },
+                            child: Container(
+                              // Dados do usuário
+                              padding: const EdgeInsets.symmetric(vertical: 5),
+                              decoration: BoxDecoration(
+                                color: Colors.grey.shade100,
+                                borderRadius: BorderRadius.circular(15),
+                                border: Border.all(
+                                  color: numberOfCorrectAnswers >=
+                                              numberOfQuestions / 2 &&
+                                          numberOfQuestions > 0
+                                      ? Colors.green
+                                      : numberOfQuestions == 0
+                                          ? Colors.grey
+                                          : Colors.redAccent,
+                                  width: 3,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: numberOfCorrectAnswers >=
+                                                numberOfQuestions / 2 &&
+                                            numberOfQuestions > 0
+                                        ? correctAnswersInARow >= 20
+                                            ? Colors.purple
+                                            : correctAnswersInARow >= 15
+                                                ? Colors.blue
+                                                : correctAnswersInARow >= 10
+                                                    ? const Color.fromARGB(
+                                                        255, 207, 187, 0)
+                                                    : Colors.lightGreen
+                                        : numberOfQuestions == 0
+                                            ? Colors.grey
+                                            : Colors.redAccent,
+                                    blurRadius: 5,
+                                    offset: const Offset(3, 3),
+                                  ),
+                                ],
+                              ),
+                              child: Container(
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 5),
+                                // width: double.infinity,
+                                child: SingleChildScrollView(
+                                  scrollDirection: Axis.horizontal,
+                                  child: Row(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      if (alternativeText) ...[
+                                        SelectableText(
+                                          '$numberOfCorrectAnswers/$numberOfQuestions ',
+                                          style: TextStyle(
+                                            fontSize: fontSizes.small,
+                                            color: numberOfCorrectAnswers >=
+                                                        numberOfQuestions / 2 &&
+                                                    numberOfQuestions > 0
+                                                ? Colors.green
+                                                : numberOfQuestions == 0
+                                                    ? Colors.grey.shade800
+                                                    : Colors.redAccent,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                          onTap: () {
+                                            setState(() {
+                                              alternativeText =
+                                                  !alternativeText;
+                                            });
+                                          },
+                                        ),
+                                        if (numberOfQuestions > 0) ...[
+                                          SelectableText(
+                                            '${(100 * percentCorrectAnswers).truncate()}% ${main_correctTranslations[currentLanguageIndex]}',
+                                            style: TextStyle(
+                                              fontSize: fontSizes.small,
+                                              color: numberOfCorrectAnswers >=
+                                                      numberOfQuestions / 2
+                                                  ? Colors.green
+                                                  : numberOfQuestions == 0
+                                                      ? Colors.grey.shade800
+                                                      : Colors.redAccent,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                            onTap: () {
+                                              setState(() {
+                                                alternativeText =
+                                                    !alternativeText;
+                                              });
+                                            },
+                                          ),
+                                        ],
+                                        if (numberOfQuestions == 0) ...[
+                                          SelectableText(
+                                            '-% ${main_correctTranslations[currentLanguageIndex]}',
+                                            style: TextStyle(
+                                              fontSize: fontSizes.small,
+                                              color: Colors.grey.shade800,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                            onTap: () {
+                                              setState(() {
+                                                alternativeText =
+                                                    !alternativeText;
+                                              });
+                                            },
+                                          ),
+                                        ]
+                                      ] else ...[
+                                        SelectableText(
+                                          onTap: () {
+                                            setState(() {
+                                              alternativeText =
+                                                  !alternativeText;
+                                            });
+                                          },
+                                          '${main_currentComboTranslations[currentLanguageIndex]} $correctAnswersInARow',
+                                          style: TextStyle(
+                                              fontSize: fontSizes.extraSmall,
+                                              fontWeight: FontWeight.bold,
+                                              color: correctAnswersInARow >= 20
+                                                  ? Colors.purple
+                                                  : correctAnswersInARow >= 15
+                                                      ? Colors.blue
+                                                      : correctAnswersInARow >=
+                                                              10
+                                                          ? const Color
+                                                              .fromARGB(
+                                                              255, 207, 187, 0)
+                                                          : correctAnswersInARow >=
+                                                                  5
+                                                              ? Colors
+                                                                  .lightGreen
+                                                              : Colors.grey
+                                                                  .shade700),
+                                        ),
+                                        SelectableText(
+                                          onTap: () {
+                                            setState(() {
+                                              alternativeText =
+                                                  !alternativeText;
+                                            });
+                                          },
+                                          ' ${main_yourBestTranslations[currentLanguageIndex]} $bestCombo',
+                                          style: TextStyle(
+                                            fontSize: fontSizes.extraSmall,
+                                            fontWeight: FontWeight.bold,
+                                            color: bestCombo >= 20
+                                                ? Colors.purple
+                                                : bestCombo >= 15
+                                                    ? Colors.blue
+                                                    : bestCombo >= 10
+                                                        ? const Color.fromARGB(
+                                                            255, 207, 187, 0)
+                                                        : bestCombo >= 5
+                                                            ? Colors.lightGreen
+                                                            : Colors
+                                                                .grey.shade700,
+                                          ),
+                                        )
+                                      ],
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: screenHeight * 0.01),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color:
+                                      const Color.fromARGB(255, 29, 169, 108),
+                                  width: 5,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                      color:
+                                          const Color.fromARGB(255, 3, 83, 75),
+                                      offset: Offset(2, 3),
+                                      blurRadius: 3,
+                                      spreadRadius: 2),
+                                ],
+                              ),
+                              child: IconButton(
+                                tooltip: show_history_explicacaoTranslations[
+                                    currentLanguageIndex],
+                                hoverColor: Colors.grey.shade300,
+                                focusColor: Colors.grey.shade300,
+                                iconSize: screenSize * 0.055,
+                                icon: const Icon(Icons.lightbulb_circle,
+                                    color: const Color.fromARGB(
+                                        255, 29, 169, 108)),
+                                onPressed: () {
+                                  showDialog(
+                                    context: context,
+                                    builder: (BuildContext context) {
+                                      return AlertDialog(
+                                        backgroundColor: Colors.grey.shade200,
+                                        title: SelectableText(
+                                          premises.value.isEmpty
+                                              ? main_explanationQuestionTranslations[
+                                                  currentLanguageIndex]
+                                              : main_explanationDeductionQuestionTranslations[
+                                                  currentLanguageIndex],
+                                          style: TextStyle(
+                                              fontSize: fontSizes.medium),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        actions: [
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceEvenly,
+                                            children: [
+                                              // Botão NO
+                                              SizedBox(
+                                                width: 75,
+                                                child: TextButton(
+                                                  style: TextButton.styleFrom(
+                                                    backgroundColor:
+                                                        Colors.redAccent,
+                                                    foregroundColor:
+                                                        Colors.white,
+                                                    fixedSize: Size(
+                                                        screenWidth * 0.075,
+                                                        FontSizes(context)
+                                                            .extraLarge),
+                                                    shape:
+                                                        RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              30),
+                                                    ),
+                                                  ),
+                                                  onPressed: () {
+                                                    Navigator.of(context).pop();
+                                                  },
+                                                  child: Text(
+                                                      main_noTranslations[
+                                                          currentLanguageIndex],
+                                                      style: TextStyle(
+                                                          fontSize:
+                                                              fontSizes.small)),
+                                                ),
+                                              ),
+                                              // Botão YES
+                                              SizedBox(
+                                                width: 75,
+                                                child: TextButton(
+                                                  style: TextButton.styleFrom(
+                                                    alignment: Alignment.center,
+                                                    backgroundColor:
+                                                        Colors.lightBlue,
+                                                    foregroundColor:
+                                                        Colors.white,
+                                                    fixedSize: Size(
+                                                        screenWidth * 0.075,
+                                                        FontSizes(context)
+                                                            .extraLarge),
+                                                    shape:
+                                                        RoundedRectangleBorder(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              30),
+                                                    ),
+                                                  ),
+                                                  onPressed: () {
+                                                    //Navigator.of(context).pop();
+                                                    if (typeOfQuestion.value ==
+                                                        TypeOfQuestion
+                                                            .syllogism) {
+                                                      Navigator.of(context)
+                                                          .pop();
+                                                      showExplanation(
+                                                        context,
+                                                        syllogismType.value,
+                                                        premises.value.isEmpty
+                                                            ? true
+                                                            : false,
+                                                        selectedCorrectOptions
+                                                            .value,
+                                                        selectedIncorrectOptions
+                                                            .value,
+                                                      );
+                                                    } else {
+                                                      Navigator.of(context)
+                                                          .pop();
+                                                      showTestDeduction(context,
+                                                          premises: premises,
+                                                          conclusions:
+                                                              conclusions,
+                                                          incorrectConclusions:
+                                                              incorrectConclusions,
+                                                          selectedCorrectOptions:
+                                                              selectedCorrectOptions,
+                                                          selectedIncorrectOptions:
+                                                              selectedIncorrectOptions,
+                                                          sylogismType:
+                                                              syllogismType
+                                                                  .value,
+                                                          selectedOptionsInOrder:
+                                                              selectedCorrectOptions);
+                                                    }
+                                                  },
+                                                  child: Text(
+                                                      main_yesTranslations[
+                                                          currentLanguageIndex],
+                                                      style: TextStyle(
+                                                          fontSize:
+                                                              fontSizes.small)),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      );
+                                    },
+                                  );
+                                },
+                              ),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: Colors.white,
+                                border: Border.all(
+                                  color:
+                                      const Color.fromARGB(255, 29, 169, 108),
+                                  width: 5,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: const Color.fromARGB(255, 3, 83, 75),
+                                    offset: Offset(2, 3),
+                                    blurRadius: 3,
+                                    spreadRadius: 2,
+                                  ),
+                                ],
+                              ),
+                              alignment: Alignment.center,
+                              child: IconButton(
+                                tooltip: main_historicoTranslations[
+                                    currentLanguageIndex],
+                                hoverColor: Colors.grey.shade300,
+                                focusColor: Colors.grey.shade300,
+                                alignment: Alignment.center,
+                                icon: const Icon(Icons.history,
+                                    color: const Color.fromARGB(
+                                        255, 29, 169, 108)),
+                                iconSize: screenSize * 0.055,
+                                onPressed: () {
+                                  showDialog(
+                                    context: context,
+                                    builder: (BuildContext context) {
+                                      return AlertDialog(
+                                        backgroundColor: Colors.grey.shade200,
+                                        title: SelectableText(
+                                          main_historicoTranslations[
+                                              currentLanguageIndex],
+                                          style: TextStyle(
+                                              fontSize: 28,
+                                              fontWeight: FontWeight.bold),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        content: questions.isNotEmpty
+                                            ? SizedBox(
+                                                height: 1000,
+                                                width: 750,
+                                                child: ShowHistory(
+                                                    questions: questions))
+                                            : SelectableText(
+                                                main_noQuestionsAnsweredYetTranslations[
+                                                    currentLanguageIndex],
+                                                textAlign: TextAlign.center,
+                                                style: TextStyle(fontSize: 28),
+                                              ),
+                                        actions: [
+                                          TextButton(
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.lightBlue,
+                                              foregroundColor: Colors.white,
+                                              minimumSize: const Size(100, 50),
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                    BorderRadius.circular(30),
+                                              ),
+                                            ),
+                                            onPressed: () {
+                                              Navigator.of(context).pop();
+                                            },
+                                            child: Container(
+                                              width: double.infinity,
+                                              alignment: Alignment.center,
+                                              child: Text(
+                                                  main_okTranslations[
+                                                      currentLanguageIndex],
+                                                  style: TextStyle(
+                                                    fontSize: 28,
+                                                  )),
+                                            ),
+                                          ),
+                                        ],
+                                      );
+                                    },
+                                  );
+                                },
+                              ),
+                            ),
+                            Container(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white,
+                                  border: Border.all(
+                                    color:
+                                        const Color.fromARGB(255, 29, 169, 108),
+                                    width: 5,
+                                  ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: const Color.fromARGB(
+                                            255, 3, 83, 75),
+                                        offset: Offset(2, 3),
+                                        blurRadius: 3,
+                                        spreadRadius: 2),
+                                  ],
+                                ),
+                                alignment: Alignment.center,
+                                child: IconButton(
+                                    tooltip:
+                                        skipTranslations[currentLanguageIndex],
+                                    hoverColor: Colors.grey.shade300,
+                                    focusColor: Colors.grey.shade300,
+                                    alignment: Alignment.center,
+                                    icon: const Icon(
+                                        Icons.arrow_circle_right_sharp,
+                                        color: const Color.fromARGB(
+                                            255, 29, 169, 108)),
+                                    iconSize: screenSize * 0.055,
+                                    onPressed: () {
+                                      randomOptions.clear();
+                                      nextQuestion();
+                                      setState(() {});
+                                    })),
+                          ],
+                        ),
+                        //Spacer(),
+                        Container(
+                          margin: const EdgeInsets.fromLTRB(0, 10, 0, 15),
+                          width: double.infinity,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(35),
+                              boxShadow: [
+                                BoxShadow(
+                                  color:
+                                      const Color.fromARGB(255, 10, 192, 122),
+                                  blurRadius: 15,
+                                  offset: const Offset(5, 5),
+                                )
+                              ]),
+                          child: TextButton(
+                            style: TextButton.styleFrom(
+                              backgroundColor: Colors.white,
+                              foregroundColor: Colors.green,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(35),
+                              ),
+                              elevation: 10,
+                              shadowColor:
+                                  const Color.fromARGB(255, 4, 128, 80),
+                            ),
+                            onPressed: () {
+                              if (chosedOption.value.first == "") {
+                                showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return AlertDialog(
+                                      title: SelectableText("Atenção",
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              fontSize: fontSizes.medium)),
+                                      content: SelectableText(
+                                          textAlign: TextAlign.center,
+                                          "Você deve selecionar uma das opções ou pular a questão.",
+                                          style: TextStyle(
+                                              fontSize: fontSizes.small)),
+                                      actions: [
+                                        SizedBox(
+                                          width: double.infinity,
+                                          child: TextButton(
+                                            onPressed: () {
+                                              Navigator.of(context)
+                                                  .pop(); // Fecha a janela
+                                            },
+                                            style: TextButton.styleFrom(
+                                              backgroundColor: Colors.lightBlue,
+                                              foregroundColor: Colors.white,
+                                              fixedSize: Size(
+                                                  screenWidth * 0.1,
+                                                  FontSizes(context)
+                                                      .extraLarge),
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                    BorderRadius.circular(30),
+                                              ),
+                                            ),
+                                            child: Text("Entendido",
+                                                style: TextStyle(
+                                                    fontSize:
+                                                        fontSizes.extraSmall)),
+                                          ),
+                                        ),
+                                      ],
+                                    );
+                                  },
+                                );
+                                return; // Interrompe o restante do processamento
+                              }
+                              bool error = verifyError(
+                                conclusion.value,
+                                chosedOption.value.first,
+                                chosedOption.value,
+                                incorrectConclusions.value,
+                                conclusions.value,
+                                typeOfQuestion.value,
+                              );
+
+                              Widget msg;
+                              if (!error) {
+                                if (answer.value == AnswerQuestion.correct) {
+                                  msg = SelectableText(
+                                      main_correctAnswerTranslations[
+                                          currentLanguageIndex],
+                                      style: TextStyle(
+                                          fontSize:
+                                              fontSizes.extraExtraExtraSmall));
+                                } else if (answer.value ==
+                                    AnswerQuestion.incorrect) {
+                                  msg = SelectableText(
+                                      main_incorrectAnswerTranslations[
+                                          currentLanguageIndex],
+                                      style: TextStyle(
+                                          fontSize:
+                                              fontSizes.extraExtraExtraSmall));
+                                } else {
+                                  msg = SelectableText(
+                                      main_notAnsweredTranslations[
+                                          currentLanguageIndex],
+                                      style: TextStyle(
+                                          fontSize:
+                                              fontSizes.extraExtraExtraSmall));
+                                }
+                              } else {
+                                msg = SelectableText(
+                                    main_errorTranslations[
+                                        currentLanguageIndex],
+                                    style: TextStyle(
+                                        fontSize:
+                                            fontSizes.extraExtraExtraSmall));
+                              }
+                              ScaffoldMessenger.of(context)
+                                  .hideCurrentSnackBar();
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                    content: msg,
+                                    duration: const Duration(milliseconds: 800),
+                                    backgroundColor: error
+                                        ? const Color.fromARGB(255, 192, 173, 0)
+                                        : answer.value == AnswerQuestion.correct
+                                            ? Colors.green
+                                            : answer.value ==
+                                                    AnswerQuestion.notAnswered
+                                                ? Colors.grey
+                                                : Colors.red),
+                              );
+
+                              if (!error) {
+                                if (answer.value == AnswerQuestion.correct) {
+                                  ++numberOfCorrectAnswers;
+                                }
+                                ++numberOfQuestions;
+                                percentCorrectAnswers =
+                                    numberOfCorrectAnswers / numberOfQuestions;
+
+                                answer.value != AnswerQuestion.correct
+                                    ? correctAnswersInARow = 0
+                                    : ++correctAnswersInARow;
+
+                                if (correctAnswersInARow > bestCombo) {
+                                  bestCombo = correctAnswersInARow;
+                                }
+                              }
+                              questions.add(Question(
+                                  userChoices: chosedOption.value.toList(),
+                                  syllogismType: syllogismType.value,
+                                  majorPremise: majorPremise.value,
+                                  minorPremise: minorPremise.value,
+                                  userChoice: chosedOption.value.first,
+                                  rightChoice: conclusion.value,
+                                  premises: premises.value,
+                                  isCorrect: answer.value,
+                                  typeOfQuestion: typeOfQuestion.value,
+                                  conclusions: conclusions.value,
+                                  incorrectConclusions:
+                                      incorrectConclusions.value,
+                                  selectedCorrectOptions:
+                                      selectedCorrectOptions.value,
+                                  selectedIncorrectOptions:
+                                      selectedIncorrectOptions.value,
+                                  selectedOptionsInOrder:
+                                      selectedOptionsInOrder.value));
+                              randomOptions.clear();
+                              nextQuestion();
+                              setState(() {});
+                            },
+                            child: Text(
+                              main_verifyTranslations[currentLanguageIndex],
+                              maxLines: 1,
+                              style: TextStyle(
+                                fontSize:
+                                    FontSizes(context).extraExtraExtraLarge,
+                                color: Theme.of(context)
+                                    .colorScheme
+                                    .onPrimaryContainer,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  const SizedBox(width: 20),
-                  const TimerText(),
+                  )
                 ],
-              ),
-              IconButton(
-                  icon: const Icon(Icons.home),
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  }),
-            ],
-            // put an icon with 'home' that returns to the home page, poping
-            // to the previous route
-          ),
-        ],
-      ),
-    );
+                const Spacer(flex: 1),
+              ],
+            ),
+          );
+        }),
+      );
+    });
   }
-
 
   Map<String, dynamic> _randomQuestion() {
     final random = Random();
-    final max = random.nextInt(mapFileToContents.length);
-    final value = mapFileToContents.values.elementAt(max);
-    //var dataFromJson = jsonDecode(value);
-    // get first key from dataFromJson
-    var barbara = value[value.keys.first];
-    //List<dynamic> barbara = data[data.keys.first];
-    var barbaraSyllogism = barbara[random.nextInt(barbara.length)];
 
-    if (barbaraSyllogism.keys.first == 'major premise'){
-      for (var i = barbaraSyllogism.values.elementAt(3).length; i > 4; i--){
-        barbaraSyllogism.values.elementAt(3).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(3).length));
-      }
-      if (barbaraSyllogism.values.elementAt(2) is List){
-        for (var i = barbaraSyllogism.values.elementAt(2).length; i > 1; i--){
-          barbaraSyllogism.values.elementAt(2).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(2).length));
+    // 1. Seleciona aleatoriamente um tema de silogismo ou dedução
+    List<String> themesList = mapFileToContents.keys.toList();
+    String theme = themesList[random.nextInt(themesList.length)];
+
+    // 2. Seleciona aleatoriamente um tipo de silogismo ou dedução do tema selecionado
+    Map<String, dynamic> syllogisms =
+        Map<String, dynamic>.from(mapFileToContents[theme]);
+    List<String> syllogismKeys = syllogisms.keys.toList();
+    String selectedSyll = syllogismKeys[random.nextInt(syllogismKeys.length)];
+
+    // Modus ponendo tollens de Medicina apresenta problemas
+    if (selectedSyll == 'Modus ponendo tollens' && theme == 'Medicine') {
+      return _randomQuestion();
+    }
+    syllogismType.value = selectedSyll;
+
+    // 3. Seleciona aleatoriamente um silogismo do tipo selecionado
+    List<dynamic> selectedSyllList = syllogisms[selectedSyll].values.toList();
+    Map<String, dynamic> selectedSyllogism = Map<String, dynamic>.from(
+        selectedSyllList[random.nextInt(selectedSyllList.length)]);
+
+    // 4. Modifica o silogismo selecionado (remove elementos aleatórios de certas listas)
+    if (!selectedSyllogism.containsKey('major premise')) {
+      // Reduz o número de conclusões, se for uma lista
+      if (selectedSyllogism['conclusion'] is List) {
+        print('Conclusion is a list');
+        List conclusions = selectedSyllogism['conclusion'];
+        while (conclusions.length > 1) {
+          conclusions.removeAt(random.nextInt(conclusions.length));
         }
       }
-    }else{
-      for (var i = barbaraSyllogism.values.elementAt(2).length; i > 4; i--){
-        barbaraSyllogism.values.elementAt(2).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(2).length));
-      }
-      if (barbaraSyllogism.values.elementAt(1) is List){
-        //print(barbaraSyllogism.keys.elementAt(1));
 
-        var newMap = {
-          for (var e in barbaraSyllogism.entries)
-            if (e.key != 'conclusions')
-              e.key: e.value
-            else
-              "conclusion" : e.value
-        };
-        barbaraSyllogism = Map<String, dynamic>.from(newMap);
-
-        for (var i = barbaraSyllogism.values.elementAt(1).length; i > 1; i--){
-          barbaraSyllogism.values.elementAt(1).removeAt(random.nextInt(barbaraSyllogism.values.elementAt(1).length));
+      // Remove parênteses das strings
+      // Ecology Constructive Dilemma, ...
+      for (String key in ['premises', 'conclusions', 'incorrect conclusions']) {
+        if (selectedSyllogism.containsKey(key)) {
+          List<dynamic> list = selectedSyllogism[key];
+          for (int i = 0; i < list.length; i++) {
+            if (list[i].contains('(A)') ||
+                list[i].contains('(B)') ||
+                list[i].contains('(C)') ||
+                list[i].contains('(A or B)') ||
+                list[i].contains('A or B') ||
+                list[i].contains('A and B') ||
+                list[i].contains('(A or C)') ||
+                list[i].contains('(B or C)') ||
+                list[i].contains('(A and B)') ||
+                list[i].contains('(A and C)') ||
+                list[i].contains('(B and C)')) {
+              print(
+                  "$theme $selectedSyll possui parênteses em $key, selecionando outro...");
+              return _randomQuestion();
+            }
+            if (!(selectedSyll == 'Modus ponendo tollens' ||
+                selectedSyll == 'Modus tollendo ponens')) {
+              list[i] = list[i].replaceAll('(', '');
+              list[i] = list[i].replaceAll(')', '');
+            } else {
+              list[i] = list[i].replaceAll('(', '"');
+              list[i] = list[i].replaceAll(')', '"');
+            }
+          }
         }
       }
     }
 
-    //print(barbaraSyllogism);
-    Map<String, dynamic> barbaraSyllogismMap =
-        Map<String, dynamic>.from(barbaraSyllogism);
-    return barbaraSyllogismMap;
-  }
-}
+    // Se alguma incorrect conclusions estiver em conclusions ou vice-versa, return _randomQuestion()
+    // Biology Deduction 3, Astronomy Deduction 3, Computer Science Modus tollens, ...
+    if (selectedSyllogism.containsKey('conclusions')) {
+      List conclusions = selectedSyllogism['conclusions'];
+      List incConclusions = selectedSyllogism['incorrect conclusions'];
+      for (String incConclusion in incConclusions) {
+        if (conclusions.contains(incConclusion)) {
+          if (kDebugMode) {
+            print(
+                "$theme $selectedSyll possui conclusão incorreta em conclusões, selecionando outro...");
+          }
+          return _randomQuestion();
+        }
+      }
+      for (String conclusion in conclusions) {
+        if (incConclusions.contains(conclusion)) {
+          if (kDebugMode) {
+            print(
+                "$theme $selectedSyll possui conclusão correta em incorrect conclusions, selecionando outro...");
+          }
+          return _randomQuestion();
+        }
+      }
+    }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+    // 5. Reduz o número de conclusões incorretas
+    // if (selectedSyllogism['incorrect conclusions'].isNotEmpty) {
+    //   List incConclusions = selectedSyllogism['incorrect conclusions'];
+    //   while (incConclusions.length > 4) {
+    //     incConclusions.removeAt(random.nextInt(incConclusions.length));
+    //   }
+    // }
 
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a blue toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+    // 6. Define o tipo de questão
+    if (selectedSyllogism.containsKey('premises')) {
+      bool typeOfQuestionBool = Random().nextBool();
+      typeOfQuestion.value = typeOfQuestionBool
+          ? TypeOfQuestion.deductionTrue
+          : TypeOfQuestion.deductionFalse;
+    } else {
+      typeOfQuestion.value = TypeOfQuestion.syllogism;
+    }
+    lastSyllTypeOfQuestion = typeOfQuestion.value;
+
+    // 7. Retorna o silogismo modificado
+    return selectedSyllogism;
   }
 }
 
@@ -329,7 +1947,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.transparent,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),

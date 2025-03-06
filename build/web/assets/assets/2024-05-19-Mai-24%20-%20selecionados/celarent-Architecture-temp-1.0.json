@@ -1,0 +1,38 @@
+{
+  "Architecture": {
+    "Celarent": [
+      {
+        "major premise": "No skyscrapers are single-family homes",
+        "minor premise": "All office buildings are skyscrapers",
+        "conclusion": "No office buildings are single-family homes",
+        "incorrect conclusions": [
+          "All office buildings are single-family homes",
+          "All skyscrapers are single-family homes",
+          "Some office buildings are skyscrapers",
+          "Some office buildings are single-family homes",
+          "Some skyscrapers are office buildings",
+          "Some skyscrapers are single-family homes",
+          "Some skyscrapers are not office buildings",
+          "Some single-family homes are office buildings",
+          "Some single-family homes are skyscrapers"
+        ]
+      },
+      {
+        "major premise": "No cathedrals are apartment buildings",
+        "minor premise": "All Gothic structures are cathedrals",
+        "conclusion": "No Gothic structures are apartment buildings",
+        "incorrect conclusions": [
+          "All Gothic structures are apartment buildings",
+          "All cathedrals are apartment buildings",
+          "Some Gothic structures are cathedrals",
+          "Some Gothic structures are apartment buildings",
+          "Some cathedrals are Gothic structures",
+          "Some cathedrals are apartment buildings",
+          "Some cathedrals are not Gothic structures",
+          "Some apartment buildings are Gothic structures",
+          "Some apartment buildings are cathedrals"
+        ]
+      }
+    ]
+  }
+}

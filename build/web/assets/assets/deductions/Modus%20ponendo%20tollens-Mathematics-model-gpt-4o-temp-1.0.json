@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Mathematics": [
+		{
+          "premises": [
+            "A geometric figure is a triangle or a circle but not both",
+            "A geometric figure is a triangle"
+          ],
+          "conclusions": [
+			"A geometric figure is not a circle"
+		  ],
+		  "incorrect conclusions": [
+			"A geometric figure is a circle",
+			"A geometric figure is not a triangle"
+		  ]
+		},
+		{
+          "premises": [
+            "An equation has a real root or a complex root but not both",
+            "An equation has a real root"
+          ],
+          "conclusions": [
+			"An equation does not have a complex root"
+		  ],
+		  "incorrect conclusions": [
+			"An equation has a complex root",
+			"An equation does not have a real root"
+		  ]
+		},
+		{
+          "premises": [
+            "A function is continuous or differentiable but not both",
+            "A function is continuous"
+          ],
+          "conclusions": [
+			"A function is not differentiable"
+		  ],
+		  "incorrect conclusions": [
+			"A function is differentiable",
+			"A function is not continuous"
+		  ]
+		}
+	 ]
+  }
+}

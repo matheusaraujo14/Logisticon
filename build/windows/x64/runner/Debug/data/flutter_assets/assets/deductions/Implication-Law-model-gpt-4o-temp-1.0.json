@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Law": [
+		{
+          "premises": [ 
+            "If a person commits theft, then they break the law"
+          ],
+          "conclusions": [
+			"If a person does not break the law, then they do not commit theft"
+          ],
+		  "incorrect conclusions": [
+			"The person commits theft",
+            "The person does not commit theft",
+            "The person breaks the law",
+            "The person does not break the law",
+            "If a person breaks the law, then they commit theft",
+            "If a person does not break the law, then they commit theft",
+            "If a person does not commit theft, then they do not break the law"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If a contract is breached, then there is a legal consequence"
+          ],
+          "conclusions": [
+			"If there is not a legal consequence, then the contract is not breached"
+          ],
+		  "incorrect conclusions": [
+			"The contract is breached",
+            "The contract is not breached",
+            "There is a legal consequence",
+            "There is not a legal consequence",
+            "If there is a legal consequence, then the contract is breached",
+            "If there is not a legal consequence, then the contract is breached",
+            "If the contract is not breached, then there is not a legal consequence"
+		  ]
+		},
+		{
+          "premises": [
+            "If a person is found guilty, then they are convicted"
+          ],
+          "conclusions": [
+            "If a person is not convicted, then they are not found guilty"
+          ],
+          "incorrect conclusions": [
+            "The person is found guilty",
+            "The person is not found guilty",
+            "The person is convicted",
+            "The person is not convicted",
+            "If a person is convicted, then they are found guilty",
+            "If a person is not convicted, then they are found guilty",
+            "If a person is not found guilty, then they are not convicted"
+          ]
+		}
+	 ]
+  }
+}

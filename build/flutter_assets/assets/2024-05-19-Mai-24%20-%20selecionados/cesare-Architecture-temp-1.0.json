@@ -1,0 +1,38 @@
+{
+  "Architecture": {
+     "Cesare": [
+		{
+          "major premise": "No skyscrapers are museums",
+          "minor premise": "All art galleries are museums",
+          "conclusion": "No art galleries are skyscrapers",
+		  "incorrect conclusions": [
+            "All art galleries are skyscrapers",
+            "All museums are skyscrapers",
+            "Some art galleries are museums",
+            "Some art galleries are skyscrapers",
+            "Some museums are art galleries",
+            "Some museums are skyscrapers",
+            "Some museums are not art galleries",
+            "Some skyscrapers are art galleries",
+            "Some skyscrapers are museums"
+		  ]
+		},
+		{
+          "major premise": "No bridges are theaters",
+          "minor premise": "All concert halls are theaters",
+          "conclusion": "No concert halls are bridges",
+		  "incorrect conclusions": [
+            "All concert halls are bridges",
+            "All theaters are bridges",
+            "Some concert halls are theaters",
+            "Some concert halls are bridges",
+            "Some theaters are concert halls",
+            "Some theaters are bridges",
+            "Some theaters are not concert halls",
+            "Some bridges are concert halls",
+            "Some bridges are theaters"
+		  ]
+		}
+	 ]
+  }
+}

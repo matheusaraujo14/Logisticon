@@ -1,0 +1,52 @@
+{
+  "Psychology": {
+    "Festino": [
+      {
+        "major premise": "No stress_diseases are cognitive_disorders",
+        "minor premise": "Some behavioral_disorders are cognitive_disorders",
+        "conclusion": "Some behavioral_disorders are not stress_diseases",
+        "incorrect conclusions": [
+          "All cognitive_disorders are behavioral_disorders",
+          "All cognitive_disorders are stress_diseases",
+          "All behavioral_disorders are stress_diseases",
+          "All stress_diseases are cognitive_disorders",
+          "All stress_diseases are behavioral_disorders",
+          "Some cognitive_disorders are not behavioral_disorders",
+          "Some stress_diseases are behavioral_disorders",
+          "Some stress_diseases are not behavioral_disorders",
+          "Some stress_diseases are cognitive_disorders",
+          "Some stress_diseases are behavioral_disorders",
+          "Some behavioral_disorders are stress_diseases",
+          "Some behavioral_disorders are not cognitive_disorders",
+          "Some cognitive_disorders are stress_diseases",
+          "No cognitive_disorder is behavioral_disorders",
+          "No behavioral_disorder is not cognitive_disorders",
+          "No behavioral_disorders is cognitive_disorders"
+        ]
+      },
+      {
+        "major premise": "No personality_disorders are sleep_disorders",
+        "minor premise": "Some anxiety_disorders are sleep_disorders",
+        "conclusion": "Some anxiety_disorders are not personality_disorders",
+        "incorrect conclusions": [
+          "All sleep_disorders are anxiety_disorders",
+          "All sleep_disorders are personality_disorders",
+          "All anxiety_disorders are personality_disorders",
+          "All personality_disorders are sleep_disorders",
+          "All personality_disorders are anxiety_disorders",
+          "Some sleep_disorders are not anxiety_disorders",
+          "Some personality_disorders are anxiety_disorders",
+          "Some personality_disorders are not anxiety_disorders",
+          "Some personality_disorders are sleep_disorders",
+          "Some personality_disorders are anxiety_disorders",
+          "Some anxiety_disorders are personality_disorders",
+          "Some anxiety_disorders are not sleep_disorders",
+          "Some sleep_disorders are personality_disorders",
+          "No sleep_disorder is anxiety_disorders",
+          "No anxiety_disorder is not sleep_disorders",
+          "No anxiety_disorders is sleep_disorders"
+        ]
+      }
+    ]
+  }
+}

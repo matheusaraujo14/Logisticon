@@ -1,0 +1,52 @@
+{
+  "Medicine": {
+    "Dimatis": [
+      {
+        "major premise": "Some antibiotics are drugs",
+        "minor premise": "All drugs are treatments",
+        "conclusion": "Some treatments are antibiotics",
+        "incorrect conclusions": [
+          "All treatments are antibiotics",
+          "All treatments are drugs",
+          "All antibiotics are treatments",
+          "All antibiotics are drugs",
+          "All drugs are antibiotics",
+          "Some treatments are not drugs",
+          "Some antibiotics are not treatments",
+          "Some antibiotics are not drugs",
+          "Some drugs are not treatments",
+          "Some drugs are not antibiotics",
+          "No antibiotics is a treatments",
+          "No antibiotics is a drugs",
+          "No drugs is a treatments",
+          "No drugs is a antibiotics",
+          "No treatments is a drugs",
+          "No treatments is a antibiotics"
+        ]
+      },
+      {
+        "major premise": "Some vitamins are supplements",
+        "minor premise": "All supplements are health products",
+        "conclusion": "Some health products are vitamins",
+        "incorrect conclusions": [
+          "All health products are vitamins",
+          "All health products are supplements",
+          "All vitamins are health products",
+          "All vitamins are supplements",
+          "All supplements are vitamins",
+          "Some health products are not supplements",
+          "Some vitamins are not health products",
+          "Some vitamins are not supplements",
+          "Some supplements are not health products",
+          "Some supplements are not vitamins",
+          "No vitamins is a health products",
+          "No vitamins is a supplements",
+          "No supplements is a health products",
+          "No supplements is a vitamins",
+          "No health products is a supplements",
+          "No health products is a vitamins"
+        ]
+      }
+    ]
+  }
+}

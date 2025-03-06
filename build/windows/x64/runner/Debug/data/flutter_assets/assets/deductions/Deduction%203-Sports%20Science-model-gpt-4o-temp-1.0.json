@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If the athlete is not injured, then the athlete performs well",
+          "If the athlete is injured, then the athlete receives treatment"
+        ],
+        "conclusions": [
+          "If the athlete does not perform well, then the athlete is injured",
+          "If the athlete does not receive treatment, then the athlete is not injured",
+          "If the athlete does not receive treatment, then the athlete performs well",
+          "The athlete performs well or the athlete receives treatment",
+          "If the athlete is injured and performs well, then the athlete receives treatment"
+        ],
+        "incorrect conclusions": [
+          "If the athlete performs well, then the athlete is injured",
+          "If the athlete performs well, then the athlete is not injured",
+          "If the athlete does not perform well, then the athlete is not injured",
+          "The athlete performs well and the athlete receives treatment",
+          "If the athlete receives treatment, the athlete is injured",
+          "If the athlete performs well and receives treatment, then the athlete is injured"
+        ]
+      },
+      {
+        "premises": [
+          "If the team does not practice regularly, then the team loses matches",
+          "If the team practices regularly, then the team wins matches"
+        ],
+        "conclusions": [
+          "If the team does not lose matches, then the team practices regularly",
+          "If the team does not win matches, then the team does not practice regularly",
+          "If the team does not win matches, then the team loses matches",
+          "The team loses matches or the team wins matches",
+          "If the team practices regularly and loses matches, then the team wins matches"
+        ],
+        "incorrect conclusions": [
+          "If the team wins matches, then the team practices regularly",
+          "If the team wins matches, then the team does not practice regularly",
+          "If the team does not lose matches, then the team does not practice regularly",
+          "The team wins matches and the team loses matches",
+          "If the team wins matches, the team practices regularly",
+          "If the team wins matches and loses matches, then the team practices regularly"
+        ]
+      },
+      {
+        "premises": [
+          "If the player is not fit, then the player is substituted",
+          "If the player is fit, then the player plays the full match"
+        ],
+        "conclusions": [
+          "If the player is not substituted, then the player is fit",
+          "If the player does not play the full match, then the player is not fit",
+          "If the player does not play the full match, then the player is substituted",
+          "The player is substituted or the player plays the full match",
+          "If the player is fit and substituted, then the player plays the full match"
+        ],
+        "incorrect conclusions": [
+          "If the player is substituted, then the player is fit",
+          "If the player is substituted, then the player is not fit",
+          "If the player is not substituted, then the player is not fit",
+          "The player is substituted and the player plays the full match",
+          "If the player plays the full match, the player is fit",
+          "If the player plays the full match and is substituted, then the player is fit"
+        ]
+      }
+    ]
+  }
+}

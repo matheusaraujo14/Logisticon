@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Architecture": [
+      {
+        "premises": [
+          "The building is either residential or commercial but not both",
+          "The building is residential"
+        ],
+        "conclusions": [
+          "The building is not commercial"
+        ],
+        "incorrect conclusions": [
+          "The building is commercial",
+          "The building is not residential"
+        ]
+      },
+      {
+        "premises": [
+          "The design has either a flat roof or a pitched roof but not both",
+          "The design has a flat roof"
+        ],
+        "conclusions": [
+          "The design does not have a pitched roof"
+        ],
+        "incorrect conclusions": [
+          "The design has a pitched roof",
+          "The design does not have a flat roof"
+        ]
+      },
+      {
+        "premises": [
+          "The project will use either steel beams or concrete beams but not both",
+          "The project will use steel beams"
+        ],
+        "conclusions": [
+          "The project will not use concrete beams"
+        ],
+        "incorrect conclusions": [
+          "The project will use concrete beams",
+          "The project will not use steel beams"
+        ]
+      }
+    ]
+  }
+}

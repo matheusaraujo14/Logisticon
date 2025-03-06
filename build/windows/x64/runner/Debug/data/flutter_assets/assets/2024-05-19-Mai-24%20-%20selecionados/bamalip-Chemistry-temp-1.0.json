@@ -1,0 +1,69 @@
+{
+  "Chemistry": {
+    "Bamalip": [
+      {
+        "major premise": "All H2O molecules are molecules",
+        "minor premise": "All molecules are matter and some H2O molecules exist",
+        "conclusion": "Some matter is H2O molecules",
+        "incorrect conclusions": [
+          "All matter is molecules",
+          "All molecules are H2O molecules",
+          "Some matter is not molecules",
+          "Some matter is not H2O molecules",
+          "Some molecules are not H2O molecules",
+          "Some molecules are not matter",
+          "Some H2O molecules are not molecules",
+          "Some H2O molecules are not matter",
+          "No matter is molecules",
+          "No matter is H2O molecules",
+          "No molecules are matter",
+          "No molecules are H2O molecules",
+          "No H2O molecules are molecules",
+          "No H2O molecules are matter"
+        ]
+      },
+      {
+        "major premise": "All NaCl crystals are crystals",
+        "minor premise": "All crystals are solids and some NaCl crystals exist",
+        "conclusion": "Some solids are NaCl crystals",
+        "incorrect conclusions": [
+          "All solids are crystals",
+          "All crystals are NaCl crystals",
+          "Some solids are not crystals",
+          "Some solids are not NaCl crystals",
+          "Some crystals are not NaCl crystals",
+          "Some crystals are not solids",
+          "Some NaCl crystals are not crystals",
+          "Some NaCl crystals are not solids",
+          "No solids are crystals",
+          "No solids are NaCl crystals",
+          "No crystals are solids",
+          "No crystals are NaCl crystals",
+          "No NaCl crystals are crystals",
+          "No NaCl crystals are solids"
+        ]
+      },
+      {
+        "major premise": "All CO2 molecules are molecules",
+        "minor premise": "All molecules are substances and some CO2 molecules exist",
+        "conclusion": "Some substances are CO2 molecules",
+        "incorrect conclusions": [
+          "All substances are molecules",
+          "All molecules are CO2 molecules",
+          "Some substances are not molecules",
+          "Some substances are not CO2 molecules",
+          "Some molecules are not CO2 molecules",
+          "Some molecules are not substances",
+          "Some CO2 molecules are not molecules",
+          "Some CO2 molecules are not substances",
+          "No substances are molecules",
+          "No substances are CO2 molecules",
+          "No molecules are substances",
+          "No molecules are CO2 molecules",
+          "No CO2 molecules are molecules",
+          "No CO2 molecules are substances"
+        ]
+      }
+    ]
+  }
+}

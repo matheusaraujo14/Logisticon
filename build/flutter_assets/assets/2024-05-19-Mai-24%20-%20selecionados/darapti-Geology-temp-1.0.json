@@ -1,0 +1,75 @@
+{
+  "Geology": {
+    "Darapti": [
+      {
+        "major premise": "All igneous rocks are minerals",
+        "minor premise": "All igneous rocks are solid substances and some igneous rocks exist",
+        "conclusion": "Some solid substances are minerals",
+        "incorrect conclusions": [
+          "All solid substances are minerals",
+          "All minerals are solid substances",
+          "All igneous rocks are not solid substances",
+          "All igneous rocks are not minerals",
+          "Some solid substances are not minerals",
+          "Some solid substances are not igneous rocks",
+          "Some minerals are not igneous rocks",
+          "Some minerals are not solid substances",
+          "Some igneous rocks are not solid substances",
+          "Some igneous rocks are not minerals",
+          "No igneous rocks are solid substances",
+          "No igneous rocks are minerals",
+          "No minerals are igneous rocks",
+          "No minerals are solid substances",
+          "No solid substances are igneous rocks",
+          "No solid substances are minerals"
+        ]
+      },
+      {
+        "major premise": "All basalt rocks are volcanic rocks",
+        "minor premise": "All basalt rocks are extrusive rocks and some basalt rocks exist",
+        "conclusion": "Some extrusive rocks are volcanic rocks",
+        "incorrect conclusions": [
+          "All extrusive rocks are volcanic rocks",
+          "All volcanic rocks are extrusive rocks",
+          "All basalt rocks are not extrusive rocks",
+          "All basalt rocks are not volcanic rocks",
+          "Some extrusive rocks are not volcanic rocks",
+          "Some extrusive rocks are not basalt rocks",
+          "Some volcanic rocks are not basalt rocks",
+          "Some volcanic rocks are not extrusive rocks",
+          "Some basalt rocks are not extrusive rocks",
+          "Some basalt rocks are not volcanic rocks",
+          "No basalt rocks are extrusive rocks",
+          "No basalt rocks are volcanic rocks",
+          "No volcanic rocks are basalt rocks",
+          "No volcanic rocks are extrusive rocks",
+          "No extrusive rocks are basalt rocks",
+          "No extrusive rocks are volcanic rocks"
+        ]
+      },
+      {
+        "major premise": "All quartz grains are minerals",
+        "minor premise": "All quartz grains are silica materials and some quartz grains exist",
+        "conclusion": "Some silica materials are minerals",
+        "incorrect conclusions": [
+          "All silica materials are minerals",
+          "All minerals are silica materials",
+          "All quartz grains are not silica materials",
+          "All quartz grains are not minerals",
+          "Some silica materials are not minerals",
+          "Some silica materials are not quartz grains",
+          "Some minerals are not quartz grains",
+          "Some minerals are not silica materials",
+          "Some quartz grains are not silica materials",
+          "Some quartz grains are not minerals",
+          "No quartz grains are silica materials",
+          "No quartz grains are minerals",
+          "No minerals are quartz grains",
+          "No minerals are silica materials",
+          "No silica materials are quartz grains",
+          "No silica materials are minerals"
+        ]
+      }
+    ]
+  }
+}

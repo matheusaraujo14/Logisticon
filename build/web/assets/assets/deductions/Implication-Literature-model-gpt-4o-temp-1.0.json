@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Literature": [
+      {
+        "premises": [
+          "If Hamlet hesitates, then he loses his opportunity for revenge"
+        ],
+        "conclusions": [
+          "If Hamlet does not lose his opportunity for revenge, then he does not hesitate"
+        ],
+        "incorrect conclusions": [
+          "Hamlet hesitates",
+          "Hamlet does not hesitate",
+          "Hamlet loses his opportunity for revenge",
+          "Hamlet does not lose his opportunity for revenge",
+          "If Hamlet loses his opportunity for revenge, then he hesitates",
+          "If Hamlet does not lose his opportunity for revenge, then he hesitates",
+          "If Hamlet does not hesitate, then he does not lose his opportunity for revenge"
+        ]
+      },
+      {
+        "premises": [
+          "If the narrator is unreliable, then the story is ambiguous"
+        ],
+        "conclusions": [
+          "If the story is not ambiguous, then the narrator is not unreliable"
+        ],
+        "incorrect conclusions": [
+          "The narrator is unreliable",
+          "The narrator is not unreliable",
+          "The story is ambiguous",
+          "The story is not ambiguous",
+          "If the story is ambiguous, then the narrator is unreliable",
+          "If the story is not ambiguous, then the narrator is unreliable",
+          "If the narrator is not unreliable, then the story is not ambiguous"
+        ]
+      },
+      {
+        "premises": [
+          "If the protagonist overcomes their flaw, then they achieve their goal"
+        ],
+        "conclusions": [
+          "If the protagonist does not achieve their goal, then they do not overcome their flaw"
+        ],
+        "incorrect conclusions": [
+          "The protagonist overcomes their flaw",
+          "The protagonist does not overcome their flaw",
+          "The protagonist achieves their goal",
+          "The protagonist does not achieve their goal",
+          "If the protagonist achieves their goal, then they overcome their flaw",
+          "If the protagonist does not achieve their goal, then they overcome their flaw",
+          "If the protagonist does not overcome their flaw, then they do not achieve their goal"
+        ]
+      }
+    ]
+  }
+}

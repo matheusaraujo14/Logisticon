@@ -1,0 +1,44 @@
+{
+  "Economics": {
+    "Fesapo": [
+      {
+        "major premise": "No corporations are small businesses",
+        "minor premise": "All small businesses are economic entities and some small businesses exist",
+        "conclusion": "Some economic entities are not corporations",
+        "incorrect conclusions": [
+          "All economic entities are corporations",
+          "All economic entities are small businesses",
+          "All corporations are economic entities",
+          "All corporations are small businesses",
+          "Some economic entities are corporations",
+          "Some corporations are economic entities",
+          "Some corporations are small businesses",
+          "Some corporations are not economic entities",
+          "Some small businesses are corporations",
+          "Some small businesses are not economic entities",
+          "No small businesses are economic entities",
+          "No economic entities are small businesses"
+        ]
+      },
+      {
+        "major premise": "No developed country is a developing country",
+        "minor premise": "All developing countries are nations and some developing countries exist",
+        "conclusion": "Some nations are not developed countries",
+        "incorrect conclusions": [
+          "All nations are developed countries",
+          "All nations are developing countries",
+          "All developed countries are nations",
+          "All developed countries are developing countries",
+          "Some nations are developed countries",
+          "Some developed countries are nations",
+          "Some developed countries are developing countries",
+          "Some developed countries are not nations",
+          "Some developing countries are developed countries",
+          "Some developing countries are not nations",
+          "No developing country is a nation",
+          "No nation is a developing country"
+        ]
+      }
+    ]
+  }
+}

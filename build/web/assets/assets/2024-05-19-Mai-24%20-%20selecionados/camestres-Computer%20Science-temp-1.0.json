@@ -1,0 +1,22 @@
+{
+  "Computer Science": {
+     "Camestres" : [
+		{
+          "major premise": "All machine learning models are algorithms",
+          "minor premise": "No user interfaces are algorithms",
+          "conclusion": "No user interfaces are machine learning models",
+		  "incorrect conclusions": [
+			"All machine learning models are user interfaces",
+			"All algorithms are user interfaces",
+			"Some machine learning models are algorithms",
+			"Some machine learning models are user interfaces",
+			"Some algorithms are user interfaces",
+			"Some algorithms are machine learning models",
+			"Some user interfaces are algorithms",
+			"Some user interfaces are machine learning models",
+			"Some algorithms are not machine learning models"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains daily, then their stamina improves",
+          "If an athlete trains daily, then their performance increases",
+          "The athlete's stamina does not improve or the athlete's performance does not increase"
+        ],
+        "conclusions": [
+		  "The athlete does not train daily",
+		  "The athlete's stamina does not improve and the athlete's performance does not increase",
+		  "If an athlete trains daily, then their stamina improves and their performance increases"
+        ],
+        "incorrect conclusions": [
+		  "If an athlete trains daily, then their stamina improves and their performance does not increase",
+		  "If the athlete's stamina improves and their performance increases, then they train daily",
+		  "If the athlete's stamina improves, then they train daily",
+		  "The athlete's stamina improves or their performance increases but not both",
+		  "If the athlete does not train daily, then their stamina does not improve or their performance does not increase"
+        ]
+      },
+      {
+        "premises": [
+          "If a team practices regularly, then their teamwork gets better",
+          "If a team practices regularly, then their strategy improves",
+          "The team's teamwork does not get better or the team's strategy does not improve"
+        ],
+        "conclusions": [
+		  "The team does not practice regularly",
+		  "The team's teamwork does not get better and the team's strategy does not improve",
+		  "If a team practices regularly, then their teamwork gets better and their strategy improves"
+        ],
+        "incorrect conclusions": [
+		  "If a team practices regularly, then their teamwork gets better and their strategy does not improve",
+		  "If the team's teamwork gets better and their strategy improves, then they practice regularly",
+		  "If the team's teamwork gets better, then they practice regularly",
+		  "The team's teamwork gets better or their strategy improves but not both",
+		  "If the team does not practice regularly, then their teamwork does not get better or their strategy does not improve"
+        ]
+      },
+      {
+        "premises": [
+          "If a player maintains a healthy diet, then they recover quickly",
+          "If a player maintains a healthy diet, then they perform consistently",
+          "The player does not recover quickly or the player does not perform consistently"
+        ],
+        "conclusions": [
+		  "The player does not maintain a healthy diet",
+		  "The player does not recover quickly and the player does not perform consistently",
+		  "If a player maintains a healthy diet, then they recover quickly and they perform consistently"
+        ],
+        "incorrect conclusions": [
+		  "If a player maintains a healthy diet, then they recover quickly and they do not perform consistently",
+		  "If the player recovers quickly and they perform consistently, then they maintain a healthy diet",
+		  "If the player recovers quickly, then they maintain a healthy diet",
+		  "The player recovers quickly or they perform consistently but not both",
+		  "If the player does not maintain a healthy diet, then they do not recover quickly or they do not perform consistently"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Biology": {
+     "Calemes": [
+		{
+          "major premise": "All birds are animals",
+          "minor premise": "No animals are plants",
+          "conclusion": "No plants are birds",
+		  "incorrect conclusions": [
+			"All animals are plants",
+			"All animals are birds",
+			"All plants are animals",
+			"All plants are birds",
+			"All birds are plants",
+			"Some animals are birds",
+			"Some animals are not birds",
+			"Some animals are plants",
+			"Some birds are plants",
+			"Some birds are not animals",
+			"Some birds are animals",
+			"Some plants are animals",
+			"Some plants are birds",
+			"No birds are animals"
+		  ]
+		},
+		{
+		  "major premise": "All mammals are vertebrates",
+		  "minor premise": "No vertebrates are invertebrates",
+		  "conclusion": "No invertebrates are mammals",
+		  "incorrect conclusions": [
+			"All vertebrates are invertebrates",
+			"All vertebrates are mammals",
+			"All invertebrates are vertebrates",
+			"All invertebrates are mammals",
+			"All mammals are invertebrates",
+			"Some vertebrates are mammals",
+			"Some vertebrates are not mammals",
+			"Some vertebrates are invertebrates",
+			"Some mammals are invertebrates",
+			"Some mammals are not vertebrates",
+			"Some mammals are vertebrates",
+			"Some invertebrates are vertebrates",
+			"Some invertebrates are mammals",
+			"No mammals are vertebrates"
+		  ]
+		},
+		{
+		  "major premise": "All reptiles are ectotherms",
+		  "minor premise": "No ectotherms are endotherms",
+		  "conclusion": "No endotherms are reptiles",
+		  "incorrect conclusions": [
+			"All ectotherms are endotherms",
+			"All ectotherms are reptiles",
+			"All endotherms are ectotherms",
+			"All endotherms are reptiles",
+			"All reptiles are endotherms",
+			"Some ectotherms are reptiles",
+			"Some ectotherms are not reptiles",
+			"Some ectotherms are endotherms",
+			"Some reptiles are endotherms",
+			"Some reptiles are not ectotherms",
+			"Some reptiles are ectotherms",
+			"Some endotherms are ectotherms",
+			"Some endotherms are reptiles",
+			"No reptiles are ectotherms"
+		  ]
+		}
+	 ]
+  }
+}

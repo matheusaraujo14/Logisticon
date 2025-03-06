@@ -1,0 +1,69 @@
+{
+  "Literature": {
+    "Bocardo" : [
+		  {
+        "major premise": "Some novels are not poetry",
+        "minor premise": "All novels are literature",
+        "conclusion": "Some literature are not poetry",
+		    "incorrect conclusions": [
+          "All novels are poetry",
+          "All literature are novels",
+          "All literature are poetry",
+          "All poetry are not novels",
+          "Some literature are not novels",
+          "Some literature are poetry",
+          "Some novels are not literature",
+          "Some novels are poetry",
+          "Some poetry are novels",
+          "Some poetry are literature",
+          "Some poetry are not literature",
+          "Some poetry are not novels",
+          "No novels is a literature",
+          "No literature is a novel"
+		    ]
+		  },
+		  {
+        "major premise": "Some plays are not fiction",
+        "minor premise": "All plays are drama",
+        "conclusion": "Some drama are not fiction",
+		    "incorrect conclusions": [
+          "All plays are fiction",
+          "All drama are plays",
+          "All drama are fiction",
+          "All fiction are not plays",
+          "Some drama are not plays",
+          "Some drama are fiction",
+          "Some plays are not drama",
+          "Some plays are fiction",
+          "Some fiction are plays",
+          "Some fiction are drama",
+          "Some fiction are not drama",
+          "Some fiction are not plays",
+          "No plays is a drama",
+          "No drama is a play"
+		    ]
+		  },
+		  {
+        "major premise": "Some essays are not history",
+        "minor premise": "All essays are non-fiction",
+        "conclusion": "Some non-fiction are not history",
+		    "incorrect conclusions": [
+          "All essays are history",
+          "All non-fiction are essays",
+          "All non-fiction are history",
+          "All history are not essays",
+          "Some non-fiction are not essays",
+          "Some non-fiction are history",
+          "Some essays are not non-fiction",
+          "Some essays are history",
+          "Some history are essays",
+          "Some history are non-fiction",
+          "Some history are not non-fiction",
+          "Some history are not essays",
+          "No essays is a non-fiction",
+          "No non-fiction is an essay"
+		    ]
+		  }
+	  ]
+  }
+}

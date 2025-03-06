@@ -1,0 +1,75 @@
+{
+  "Geology": {
+    "Ferison": [
+      {
+        "major premise": "No minerals are fossils",
+        "minor premise": "Some minerals are rocks",
+        "conclusion": "Some rocks are not fossils",
+        "incorrect conclusions": [
+          "All minerals are rocks",
+          "All minerals are fossils",
+          "All rocks are fossils",
+          "All fossils are minerals",
+          "All fossils are rocks",
+          "Some minerals are not rocks",
+          "Some fossils are rocks",
+          "Some fossils are not rocks",
+          "Some fossils are minerals",
+          "Some fossils are rocks",
+          "Some rocks are fossils",
+          "Some rocks are not minerals",
+          "Some minerals are fossils",
+          "No minerals is rocks",
+          "No rocks is not minerals",
+          "No rocks is minerals"
+        ]
+      },
+      {
+        "major premise": "No sediments are igneous rocks",
+        "minor premise": "Some sediments are minerals",
+        "conclusion": "Some minerals are not igneous rocks",
+        "incorrect conclusions": [
+          "All sediments are minerals",
+          "All sediments are igneous rocks",
+          "All minerals are igneous rocks",
+          "All igneous rocks are sediments",
+          "All igneous rocks are minerals",
+          "Some sediments are not minerals",
+          "Some igneous rocks are minerals",
+          "Some igneous rocks are not minerals",
+          "Some igneous rocks are sediments",
+          "Some igneous rocks are minerals",
+          "Some minerals are igneous rocks",
+          "Some minerals are not sediments",
+          "Some sediments are igneous rocks",
+          "No sediments is minerals",
+          "No minerals is not sediments",
+          "No minerals is sediments"
+        ]
+      },
+      {
+        "major premise": "No rocks are gases",
+        "minor premise": "Some rocks are minerals",
+        "conclusion": "Some minerals are not gases",
+        "incorrect conclusions": [
+          "All rocks are minerals",
+          "All rocks are gases",
+          "All minerals are gases",
+          "All gases are rocks",
+          "All gases are minerals",
+          "Some rocks are not minerals",
+          "Some gases are minerals",
+          "Some gases are not minerals",
+          "Some gases are rocks",
+          "Some gases are minerals",
+          "Some minerals are gases",
+          "Some minerals are not rocks",
+          "Some rocks are gases",
+          "No rocks is minerals",
+          "No minerals is not rocks",
+          "No minerals is rocks"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Geography": [
+      {
+        "premises": [
+          "The river is in flood or the dam is opened but not both at the same time",
+          "The river is not in flood"
+        ],
+        "conclusions": [
+          "The dam is opened",
+          "If the dam is not opened, then the river is in flood"
+        ],
+        "incorrect conclusions": [
+          "The dam is not opened",
+          "If the river is in flood, then the dam is opened",
+          "If the dam is opened, then the river is in flood",
+          "The river is in flood"
+        ]
+      },
+      {
+        "premises": [
+          "The mountain is snowy or the valley is green but not both at the same time",
+          "The mountain is not snowy"
+        ],
+        "conclusions": [
+          "The valley is green",
+          "If the valley is not green, then the mountain is snowy"
+        ],
+        "incorrect conclusions": [
+          "The valley is not green",
+          "If the mountain is snowy, then the valley is green",
+          "If the valley is green, then the mountain is snowy",
+          "The mountain is snowy"
+        ]
+      },
+      {
+        "premises": [
+          "The coastline is eroding or the beach is widening but not both at the same time",
+          "The coastline is not eroding"
+        ],
+        "conclusions": [
+          "The beach is widening",
+          "If the beach is not widening, then the coastline is eroding"
+        ],
+        "incorrect conclusions": [
+          "The beach is not widening",
+          "If the coastline is eroding, then the beach is widening",
+          "If the beach is widening, then the coastline is eroding",
+          "The coastline is eroding"
+        ]
+      }
+    ]
+  }
+}

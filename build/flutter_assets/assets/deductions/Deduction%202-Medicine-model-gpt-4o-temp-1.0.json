@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has a viral infection, then the patient does not need antibiotics",
+          "If a patient has a viral infection, then the patient has a fever"
+        ],
+        "conclusions": [
+          "If a patient has a viral infection, then the patient does not need antibiotics and the patient has a fever",
+          "If a patient has a viral infection, then the patient does not need antibiotics or the patient has a fever",
+          "If the patient needs antibiotics, then the patient does not have a viral infection",
+          "If the patient does not have a fever, then the patient does not have a viral infection",
+          "If the patient needs antibiotics or does not have a fever, then the patient does not have a viral infection"
+        ],
+        "incorrect conclusions": [
+          "If the patient needs antibiotics, then the patient does not have a fever",
+          "If the patient does not have a fever, then the patient needs antibiotics",
+          "If the patient does not need antibiotics, then the patient has a fever",
+          "If the patient has a fever, then the patient does not need antibiotics",
+          "If the patient does not need antibiotics and has a fever, then the patient has a viral infection",
+          "If the patient does not need antibiotics or has a fever, then the patient has a viral infection",
+          "If the patient needs antibiotics or does not have a viral infection, then the patient has a viral infection"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has asthma, then the patient does not smoke",
+          "If a patient has asthma, then the patient uses an inhaler"
+        ],
+        "conclusions": [
+          "If a patient has asthma, then the patient does not smoke and uses an inhaler",
+          "If a patient has asthma, then the patient does not smoke or uses an inhaler",
+          "If the patient smokes, then the patient does not have asthma",
+          "If the patient does not use an inhaler, then the patient does not have asthma",
+          "If the patient smokes or does not use an inhaler, then the patient does not have asthma"
+        ],
+        "incorrect conclusions": [
+          "If the patient smokes, then the patient does not use an inhaler",
+          "If the patient does not use an inhaler, then the patient smokes",
+          "If the patient does not smoke, then the patient uses an inhaler",
+          "If the patient uses an inhaler, then the patient does not smoke",
+          "If the patient does not smoke and uses an inhaler, then the patient has asthma",
+          "If the patient does not smoke or uses an inhaler, then the patient has asthma",
+          "If the patient smokes or does not have asthma, then the patient has asthma"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has high blood pressure, then the patient does not eat salty foods",
+          "If a patient has high blood pressure, then the patient takes medication"
+        ],
+        "conclusions": [
+          "If a patient has high blood pressure, then the patient does not eat salty foods and takes medication",
+          "If a patient has high blood pressure, then the patient does not eat salty foods or takes medication",
+          "If the patient eats salty foods, then the patient does not have high blood pressure",
+          "If the patient does not take medication, then the patient does not have high blood pressure",
+          "If the patient eats salty foods or does not take medication, then the patient does not have high blood pressure"
+        ],
+        "incorrect conclusions": [
+          "If the patient eats salty foods, then the patient does not take medication",
+          "If the patient does not take medication, then the patient eats salty foods",
+          "If the patient does not eat salty foods, then the patient takes medication",
+          "If the patient takes medication, then the patient does not eat salty foods",
+          "If the patient does not eat salty foods and takes medication, then the patient has high blood pressure",
+          "If the patient does not eat salty foods or takes medication, then the patient has high blood pressure",
+          "If the patient eats salty foods or does not have high blood pressure, then the patient has high blood pressure"
+        ]
+      }
+    ]
+  }
+}

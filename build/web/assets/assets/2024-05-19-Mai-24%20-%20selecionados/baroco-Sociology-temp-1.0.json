@@ -1,0 +1,40 @@
+{
+  "Sociology": {
+     "Baroco" : [
+		{
+          "major premise": "All Sociologists are Academics",
+          "minor premise": "Some Researchers are not Academics",
+          "conclusion": "Some Researchers are not Sociologists",
+		  "incorrect conclusions": [
+			"All Researchers are not Academics",
+			"All Researchers are Sociologists",
+			"All Researchers are Academics",
+			"Some Academics are Researchers",
+			"Some Academics are not Researchers",
+			"Some Academics are not Academics",
+			"Some Researchers are Academics",
+			"Some Researchers are Sociologists",
+			"Some Academics are not Sociologists",
+			"Some Academics are Researchers"
+		  ]
+		},
+		{
+          "major premise": "All Teachers are Educators",
+          "minor premise": "Some Community Workers are not Educators",
+          "conclusion": "Some Community Workers are not Teachers",
+		  "incorrect conclusions": [
+			"All Community Workers are not Educators",
+			"All Community Workers are Teachers",
+			"All Community Workers are Educators",
+			"Some Educators are Community Workers",
+			"Some Educators are not Community Workers",
+			"Some Educators are not Educators",
+			"Some Community Workers are Educators",
+			"Some Community Workers are Teachers",
+			"Some Educators are not Teachers",
+			"Some Educators are Community Workers"
+		  ]
+		}
+	 ]
+  }
+}

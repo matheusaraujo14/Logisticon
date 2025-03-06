@@ -1,0 +1,25 @@
+{
+  "Architecture": {
+     "Felapton": [
+        {
+          "major premise": "No skyscrapers are bridges",
+          "minor premise": "All skyscrapers are buildings and some skyscrapers exist",
+          "conclusion": "Some buildings are not bridges",
+          "incorrect conclusions": [
+            "All buildings are bridges",
+            "All buildings are skyscrapers",
+            "All bridges are buildings",
+            "All bridges are skyscrapers",
+            "Some buildings are bridges",
+            "Some bridges are buildings",
+            "Some bridges are skyscrapers",
+            "Some bridges are not buildings",
+            "Some skyscrapers are bridges",
+            "Some skyscrapers are not buildings",
+            "No skyscrapers is buildings",
+            "No buildings is skyscrapers"
+          ]
+        }
+     ]
+  }
+}

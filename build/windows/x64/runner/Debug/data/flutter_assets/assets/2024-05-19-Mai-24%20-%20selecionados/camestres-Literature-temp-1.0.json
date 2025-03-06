@@ -1,0 +1,38 @@
+{
+  "Literature": {
+    "Camestres": [
+      {
+        "major premise": "All novels are books",
+        "minor premise": "No essays are books",
+        "conclusion": "No essays are novels",
+        "incorrect conclusions": [
+          "All novels are essays",
+          "All books are essays",
+          "Some novels are books",
+          "Some novels are essays",
+          "Some books are essays",
+          "Some books are novels",
+          "Some essays are books",
+          "Some essays are novels",
+          "Some books are not novels"
+        ]
+      },
+      {
+        "major premise": "All playwrights are authors",
+        "minor premise": "No extras are authors",
+        "conclusion": "No extras are playwrights",
+        "incorrect conclusions": [
+          "All playwrights are extras",
+          "All authors are extras",
+          "Some playwrights are authors",
+          "Some playwrights are extras",
+          "Some authors are extras",
+          "Some authors are playwrights",
+          "Some extras are authors",
+          "Some extras are playwrights",
+          "Some authors are not playwrights"
+        ]
+      }
+    ]
+  }
+}

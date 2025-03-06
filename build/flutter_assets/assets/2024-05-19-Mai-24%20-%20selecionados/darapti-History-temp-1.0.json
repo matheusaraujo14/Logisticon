@@ -1,0 +1,75 @@
+{
+  "History": {
+    "Darapti": [
+      {
+        "major premise": "All ancient ruins are historical landmarks",
+        "minor premise": "All ancient ruins are archaeological sites and some ancient ruins exist",
+        "conclusion": "Some archaeological sites are historical landmarks",
+        "incorrect conclusions": [
+          "All archaeological sites are historical landmarks",
+          "All historical landmarks are archaeological sites",
+          "All ancient ruins are not archaeological sites",
+          "All ancient ruins are not historical landmarks",
+          "Some archaeological sites are not historical landmarks",
+          "Some archaeological sites are not ancient ruins",
+          "Some historical landmarks are not ancient ruins",
+          "Some historical landmarks are not archaeological sites",
+          "Some ancient ruins are not archaeological sites",
+          "Some ancient ruins are not historical landmarks",
+          "No ancient ruins are archaeological sites",
+          "No ancient ruins are historical landmarks",
+          "No historical landmarks are ancient ruins",
+          "No historical landmarks are archaeological sites",
+          "No archaeological sites are ancient ruins",
+          "No archaeological sites are historical landmarks"
+        ]
+      },
+      {
+        "major premise": "All medieval manuscripts are primary sources",
+        "minor premise": "All medieval manuscripts are documents and some medieval manuscripts exist",
+        "conclusion": "Some documents are primary sources",
+        "incorrect conclusions": [
+          "All documents are primary sources",
+          "All primary sources are documents",
+          "All medieval manuscripts are not documents",
+          "All medieval manuscripts are not primary sources",
+          "Some documents are not primary sources",
+          "Some documents are not medieval manuscripts",
+          "Some primary sources are not medieval manuscripts",
+          "Some primary sources are not documents",
+          "Some medieval manuscripts are not documents",
+          "Some medieval manuscripts are not primary sources",
+          "No medieval manuscripts are documents",
+          "No medieval manuscripts are primary sources",
+          "No primary sources are medieval manuscripts",
+          "No primary sources are documents",
+          "No documents are medieval manuscripts",
+          "No documents are primary sources"
+        ]
+      },
+      {
+        "major premise": "All artifacts are pieces of history",
+        "minor premise": "All artifacts are objects and some artifacts exist",
+        "conclusion": "Some objects are pieces of history",
+        "incorrect conclusions": [
+          "All objects are pieces of history",
+          "All pieces of history are objects",
+          "All artifacts are not objects",
+          "All artifacts are not pieces of history",
+          "Some objects are not pieces of history",
+          "Some objects are not artifacts",
+          "Some pieces of history are not artifacts",
+          "Some pieces of history are not objects",
+          "Some artifacts are not objects",
+          "Some artifacts are not pieces of history",
+          "No artifacts are objects",
+          "No artifacts are pieces of history",
+          "No pieces of history are artifacts",
+          "No pieces of history are objects",
+          "No objects are artifacts",
+          "No objects are pieces of history"
+        ]
+      }
+    ]
+  }
+}

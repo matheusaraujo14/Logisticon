@@ -1,0 +1,40 @@
+{
+  "Architecture": {
+    "Baroco": [
+      {
+        "major premise": "All skyscrapers are buildings",
+        "minor premise": "Some landmarks are not buildings",
+        "conclusion": "Some landmarks are not skyscrapers",
+        "incorrect conclusions": [
+          "All landmarks are not buildings",
+          "All landmarks are skyscrapers",
+          "All landmarks are buildings",
+          "Some skyscrapers are landmarks",
+          "Some skyscrapers are not landmarks",
+          "Some skyscrapers are not buildings",
+          "Some landmarks are buildings",
+          "Some landmarks are skyscrapers",
+          "Some buildings are not skyscrapers",
+          "Some buildings are landmarks"
+        ]
+      },
+      {
+        "major premise": "All libraries are public spaces",
+        "minor premise": "Some cafes are not public spaces",
+        "conclusion": "Some cafes are not libraries",
+        "incorrect conclusions": [
+          "All cafes are not public spaces",
+          "All cafes are libraries",
+          "All cafes are public spaces",
+          "Some libraries are cafes",
+          "Some libraries are not cafes",
+          "Some libraries are not public spaces",
+          "Some cafes are public spaces",
+          "Some cafes are libraries",
+          "Some public spaces are not libraries",
+          "Some public spaces are cafes"
+        ]
+      }
+    ]
+  }
+}

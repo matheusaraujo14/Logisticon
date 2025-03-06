@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Psychology": [
+      {
+        "premises": [
+          "If someone experiences chronic stress, then they might develop anxiety",
+          "If someone experiences chronic stress, then they might develop depression"
+        ],
+        "conclusions": [
+          "If someone experiences chronic stress, then they might develop anxiety and depression",
+          "If someone experiences chronic stress, then they might develop anxiety or depression",
+          "If someone does not develop anxiety, then they did not experience chronic stress",
+          "If someone does not develop depression, then they did not experience chronic stress",
+          "If someone does not develop anxiety or does not develop depression, then they did not experience chronic stress"
+        ],
+        "incorrect conclusions": [
+          "If someone does not develop anxiety, then they will not develop depression",
+          "If someone does not develop depression, then they will not develop anxiety",
+          "If someone develops anxiety, then they might develop depression",
+          "If someone develops depression, then they might develop anxiety",
+          "If someone develops anxiety and depression, then they experienced chronic stress",
+          "If someone develops anxiety or depression, then they experienced chronic stress",
+          "If someone does not develop anxiety or did not experience chronic stress, then they did experience chronic stress"
+        ]
+      },
+      {
+        "premises": [
+          "If a person practices mindfulness, then they might increase their emotional regulation",
+          "If a person practices mindfulness, then they might improve their attention span"
+        ],
+        "conclusions": [
+          "If a person practices mindfulness, then they might increase their emotional regulation and improve their attention span",
+          "If a person practices mindfulness, then they might increase their emotional regulation or improve their attention span",
+          "If a person does not increase their emotional regulation, then they did not practice mindfulness",
+          "If a person does not improve their attention span, then they did not practice mindfulness",
+          "If a person does not increase their emotional regulation or does not improve their attention span, then they did not practice mindfulness"
+        ],
+        "incorrect conclusions": [
+          "If a person does not increase their emotional regulation, then they will not improve their attention span",
+          "If a person does not improve their attention span, then they will not increase their emotional regulation",
+          "If a person increases their emotional regulation, then they might improve their attention span",
+          "If a person improves their attention span, then they might increase their emotional regulation",
+          "If a person increases their emotional regulation and improves their attention span, then they practiced mindfulness",
+          "If a person increases their emotional regulation or improves their attention span, then they practiced mindfulness",
+          "If a person does not increase their emotional regulation or did not practice mindfulness, then they did practice mindfulness"
+        ]
+      },
+      {
+        "premises": [
+          "If an individual receives positive social support, then their self-esteem might increase",
+          "If an individual receives positive social support, then their overall well-being might enhance"
+        ],
+        "conclusions": [
+          "If an individual receives positive social support, then their self-esteem might increase and their overall well-being might enhance",
+          "If an individual receives positive social support, then their self-esteem might increase or their overall well-being might enhance",
+          "If an individual's self-esteem does not increase, then they did not receive positive social support",
+          "If an individual's overall well-being does not enhance, then they did not receive positive social support",
+          "If an individual's self-esteem does not increase or their overall well-being does not enhance, then they did not receive positive social support"
+        ],
+        "incorrect conclusions": [
+          "If an individual's self-esteem does not increase, then their overall well-being will not enhance",
+          "If an individual's overall well-being does not enhance, then their self-esteem will not increase",
+          "If an individual's self-esteem increases, then their overall well-being might enhance",
+          "If an individual's overall well-being enhances, then their self-esteem might increase",
+          "If an individual's self-esteem increases and their overall well-being enhances, then they received positive social support",
+          "If an individual's self-esteem increases or their overall well-being enhances, then they received positive social support",
+          "If an individual's self-esteem does not increase or they did not receive positive social support, then they did receive positive social support"
+        ]
+      }
+    ]
+  }
+}

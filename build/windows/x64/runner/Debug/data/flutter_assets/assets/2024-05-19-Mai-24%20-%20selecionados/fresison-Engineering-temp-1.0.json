@@ -1,0 +1,75 @@
+{
+  "Engineering": {
+    "Fresison": [
+      {
+        "major premise": "No mechanical parts are electrical components",
+        "minor premise": "Some electrical components are sensors",
+        "conclusion": "Some sensors are not mechanical parts",
+        "incorrect conclusions": [
+          "All electrical components are sensors",
+          "All electrical components are mechanical parts",
+          "All sensors are mechanical parts",
+          "All mechanical parts are electrical components",
+          "All mechanical parts are sensors",
+          "Some electrical components are not sensors",
+          "Some mechanical parts are sensors",
+          "Some mechanical parts are not sensors",
+          "Some mechanical parts are electrical components",
+          "Some mechanical parts are sensors",
+          "Some sensors are mechanical parts",
+          "Some sensors are not electrical components",
+          "Some electrical components are mechanical parts",
+          "No electrical components are sensors",
+          "No sensors are not electrical components",
+          "No sensors are electrical components"
+        ]
+      },
+      {
+        "major premise": "No structural materials are electronic circuits",
+        "minor premise": "Some electronic circuits are transistors",
+        "conclusion": "Some transistors are not structural materials",
+        "incorrect conclusions": [
+          "All electronic circuits are transistors",
+          "All electronic circuits are structural materials",
+          "All transistors are structural materials",
+          "All structural materials are electronic circuits",
+          "All structural materials are transistors",
+          "Some electronic circuits are not transistors",
+          "Some structural materials are transistors",
+          "Some structural materials are not transistors",
+          "Some structural materials are electronic circuits",
+          "Some structural materials are transistors",
+          "Some transistors are structural materials",
+          "Some transistors are not electronic circuits",
+          "Some electronic circuits are structural materials",
+          "No electronic circuits are transistors",
+          "No transistors are not electronic circuits",
+          "No transistors are electronic circuits"
+        ]
+      },
+      {
+        "major premise": "No hydraulic systems are computer programs",
+        "minor premise": "Some computer programs are algorithms",
+        "conclusion": "Some algorithms are not hydraulic systems",
+        "incorrect conclusions": [
+          "All computer programs are algorithms",
+          "All computer programs are hydraulic systems",
+          "All algorithms are hydraulic systems",
+          "All hydraulic systems are computer programs",
+          "All hydraulic systems are algorithms",
+          "Some computer programs are not algorithms",
+          "Some hydraulic systems are algorithms",
+          "Some hydraulic systems are not algorithms",
+          "Some hydraulic systems are computer programs",
+          "Some hydraulic systems are algorithms",
+          "Some algorithms are hydraulic systems",
+          "Some algorithms are not computer programs",
+          "Some computer programs are hydraulic systems",
+          "No computer programs are algorithms",
+          "No algorithms are not computer programs",
+          "No algorithms are computer programs"
+        ]
+      }
+    ]
+  }
+}

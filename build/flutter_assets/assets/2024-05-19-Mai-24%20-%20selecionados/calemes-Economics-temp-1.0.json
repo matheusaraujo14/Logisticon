@@ -1,0 +1,69 @@
+{
+  "Economics": {
+    "Calemes": [
+      {
+        "major premise": "All investment banks are financial institutions",
+        "minor premise": "No financial institutions are small businesses",
+        "conclusion": "No small businesses are investment banks",
+        "incorrect conclusions": [
+          "All financial institutions are small businesses",
+          "All financial institutions are investment banks",
+          "All small businesses are financial institutions",
+          "All small businesses are investment banks",
+          "All investment banks are small businesses",
+          "Some financial institutions are investment banks",
+          "Some financial institutions are not investment banks",
+          "Some financial institutions are small businesses",
+          "Some investment banks are small businesses",
+          "Some investment banks are not financial institutions",
+          "Some investment banks are financial institutions",
+          "Some small businesses are financial institutions",
+          "Some small businesses are investment banks",
+          "No investment banks are financial institutions"
+        ]
+      },
+      {
+        "major premise": "All central banks are regulatory bodies",
+        "minor premise": "No regulatory bodies are private companies",
+        "conclusion": "No private companies are central banks",
+        "incorrect conclusions": [
+          "All regulatory bodies are private companies",
+          "All regulatory bodies are central banks",
+          "All private companies are regulatory bodies",
+          "All private companies are central banks",
+          "All central banks are private companies",
+          "Some regulatory bodies are central banks",
+          "Some regulatory bodies are not central banks",
+          "Some regulatory bodies are private companies",
+          "Some central banks are private companies",
+          "Some central banks are not regulatory bodies",
+          "Some central banks are regulatory bodies",
+          "Some private companies are regulatory bodies",
+          "Some private companies are central banks",
+          "No central banks are regulatory bodies"
+        ]
+      },
+      {
+        "major premise": "All multinational corporations are business entities",
+        "minor premise": "No business entities are government agencies",
+        "conclusion": "No government agencies are multinational corporations",
+        "incorrect conclusions": [
+          "All business entities are government agencies",
+          "All business entities are multinational corporations",
+          "All government agencies are business entities",
+          "All government agencies are multinational corporations",
+          "All multinational corporations are government agencies",
+          "Some business entities are multinational corporations",
+          "Some business entities are not multinational corporations",
+          "Some business entities are government agencies",
+          "Some multinational corporations are government agencies",
+          "Some multinational corporations are not business entities",
+          "Some multinational corporations are business entities",
+          "Some government agencies are business entities",
+          "Some government agencies are multinational corporations",
+          "No multinational corporations are business entities"
+        ]
+      }
+    ]
+  }
+}

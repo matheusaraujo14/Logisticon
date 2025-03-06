@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Computer Science": [
+      {
+        "premises": [
+          "Either the file is corrupted or the network is down, but not both",
+          "The file is corrupted"
+        ],
+        "conclusions": [
+          "The network is not down"
+        ],
+        "incorrect conclusions": [
+          "The network is down",
+          "The file is not corrupted"
+        ]
+      },
+      {
+        "premises": [
+          "Either the code has a syntax error or the compiler is out of date, but not both",
+          "The code has a syntax error"
+        ],
+        "conclusions": [
+          "The compiler is not out of date"
+        ],
+        "incorrect conclusions": [
+          "The compiler is out of date",
+          "The code does not have a syntax error"
+        ]
+      },
+      {
+        "premises": [
+          "Either the server is overloaded or the database is corrupted, but not both",
+          "The server is overloaded"
+        ],
+        "conclusions": [
+          "The database is not corrupted"
+        ],
+        "incorrect conclusions": [
+          "The database is corrupted",
+          "The server is not overloaded"
+        ]
+      }
+    ]
+  }
+}

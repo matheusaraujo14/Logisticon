@@ -1,0 +1,75 @@
+{
+  "Biology": {
+    "Dimatis": [
+      {
+        "major premise": "Some mammals are primates",
+        "minor premise": "All primates are animals",
+        "conclusion": "Some animals are mammals",
+        "incorrect conclusions": [
+          "All animals are mammals",
+          "All animals are primates",
+          "All mammals are animals",
+          "All mammals are primates",
+          "All primates are mammals",
+          "Some animals are not primates",
+          "Some mammals are not animals",
+          "Some mammals are not primates",
+          "Some primates are not animals",
+          "Some primates are not mammals",
+          "No mammals is a animal",
+          "No mammals is a primate",
+          "No primates is a animal",
+          "No primates is a mammal",
+          "No animals is a primate",
+          "No animals is a mammal"
+        ]
+      },
+      {
+        "major premise": "Some birds are parrots",
+        "minor premise": "All parrots are vertebrates",
+        "conclusion": "Some vertebrates are birds",
+        "incorrect conclusions": [
+          "All vertebrates are birds",
+          "All vertebrates are parrots",
+          "All birds are vertebrates",
+          "All birds are parrots",
+          "All parrots are birds",
+          "Some vertebrates are not parrots",
+          "Some birds are not vertebrates",
+          "Some birds are not parrots",
+          "Some parrots are not vertebrates",
+          "Some parrots are not birds",
+          "No birds is a vertebrate",
+          "No birds is a parrot",
+          "No parrots is a vertebrate",
+          "No parrots is a bird",
+          "No vertebrates is a parrot",
+          "No vertebrates is a bird"
+        ]
+      },
+      {
+        "major premise": "Some insects are beetles",
+        "minor premise": "All beetles are arthropods",
+        "conclusion": "Some arthropods are insects",
+        "incorrect conclusions": [
+          "All arthropods are insects",
+          "All arthropods are beetles",
+          "All insects are arthropods",
+          "All insects are beetles",
+          "All beetles are insects",
+          "Some arthropods are not beetles",
+          "Some insects are not arthropods",
+          "Some insects are not beetles",
+          "Some beetles are not arthropods",
+          "Some beetles are not insects",
+          "No insects is a arthropod",
+          "No insects is a beetle",
+          "No beetles is a arthropod",
+          "No beetles is a insect",
+          "No arthropods is a beetle",
+          "No arthropods is a insect"
+        ]
+      }
+    ]
+  }
+}

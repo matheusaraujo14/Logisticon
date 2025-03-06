@@ -1,0 +1,78 @@
+{
+  "Nutrition": {
+    "Datisi": [
+      {
+        "major premise": "All fruits are plant-based foods",
+        "minor premise": "Some fruits are berries",
+        "conclusion": "Some berries are plant-based foods",
+        "incorrect conclusions": [
+          "All berries are fruits",
+          "All berries are plant-based foods",
+          "All plant-based foods are fruits",
+          "All plant-based foods are berries",
+          "All fruits are berries",
+          "Some berries are not plant-based foods",
+          "Some berries are not fruits",
+          "Some plant-based foods are not fruits",
+          "Some plant-based foods are not berries",
+          "Some fruits are not plant-based foods",
+          "Some fruits are not berries",
+          "No berries are plant-based foods",
+          "No berries are fruits",
+          "No fruits are plant-based foods",
+          "No fruits are berries",
+          "No plant-based foods are fruits",
+          "No plant-based foods are berries"
+        ]
+      },
+      {
+        "major premise": "All vitamins are essential nutrients",
+        "minor premise": "Some vitamins are antioxidants",
+        "conclusion": "Some antioxidants are essential nutrients",
+        "incorrect conclusions": [
+          "All antioxidants are vitamins",
+          "All antioxidants are essential nutrients",
+          "All essential nutrients are vitamins",
+          "All essential nutrients are antioxidants",
+          "All vitamins are antioxidants",
+          "Some antioxidants are not essential nutrients",
+          "Some antioxidants are not vitamins",
+          "Some essential nutrients are not vitamins",
+          "Some essential nutrients are not antioxidants",
+          "Some vitamins are not essential nutrients",
+          "Some vitamins are not antioxidants",
+          "No antioxidants are essential nutrients",
+          "No antioxidants are vitamins",
+          "No vitamins are essential nutrients",
+          "No vitamins are antioxidants",
+          "No essential nutrients are vitamins",
+          "No essential nutrients are antioxidants"
+        ]
+      },
+      {
+        "major premise": "All proteins are macronutrients",
+        "minor premise": "Some proteins are enzymes",
+        "conclusion": "Some enzymes are macronutrients",
+        "incorrect conclusions": [
+          "All enzymes are proteins",
+          "All enzymes are macronutrients",
+          "All macronutrients are proteins",
+          "All macronutrients are enzymes",
+          "All proteins are enzymes",
+          "Some enzymes are not macronutrients",
+          "Some enzymes are not proteins",
+          "Some macronutrients are not proteins",
+          "Some macronutrients are not enzymes",
+          "Some proteins are not macronutrients",
+          "Some proteins are not enzymes",
+          "No enzymes are macronutrients",
+          "No enzymes are proteins",
+          "No proteins are macronutrients",
+          "No proteins are enzymes",
+          "No macronutrients are proteins",
+          "No macronutrients are enzymes"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Mathematics": {
+     "Darii" : [
+		{
+          "major premise": "All prime numbers are integers",
+          "minor premise": "Some even numbers are prime numbers",
+          "conclusion": "Some even numbers are integers",
+		  "incorrect conclusions": [
+			"All even numbers are prime numbers",
+			"All even numbers are integers",
+			"All integers are prime numbers",
+			"All integers are even numbers",
+			"All prime numbers are even numbers",
+			"Some even numbers are not integers",
+			"Some even numbers are not prime numbers",
+			"Some integers are not prime numbers",
+			"Some integers are not even numbers",
+			"Some prime numbers are not integers",
+			"Some prime numbers are not even numbers",
+			"No even numbers are integers",
+			"No even numbers are prime numbers",
+			"No prime numbers are integers",
+			"No prime numbers are even numbers",
+			"No integers are prime numbers",
+			"No integers are even numbers"
+		  ]
+		},
+		{
+		  "major premise": "All squares are rectangles",
+          "minor premise": "Some geometric shapes are squares",
+          "conclusion": "Some geometric shapes are rectangles",
+		  "incorrect conclusions": [
+			"All geometric shapes are squares",
+			"All geometric shapes are rectangles",
+			"All rectangles are squares",
+			"All rectangles are geometric shapes",
+			"All squares are geometric shapes",
+			"Some geometric shapes are not rectangles",
+			"Some geometric shapes are not squares",
+			"Some rectangles are not squares",
+			"Some rectangles are not geometric shapes",
+			"Some squares are not rectangles",
+			"Some squares are not geometric shapes",
+			"No geometric shapes are rectangles",
+			"No geometric shapes are squares",
+			"No squares are rectangles",
+			"No squares are geometric shapes",
+			"No rectangles are squares",
+			"No rectangles are geometric shapes"
+		  ]
+		},
+		{
+		  "major premise": "All rational numbers are real numbers",
+          "minor premise": "Some fractions are rational numbers",
+          "conclusion": "Some fractions are real numbers",
+		  "incorrect conclusions": [
+			"All fractions are rational numbers",
+			"All fractions are real numbers",
+			"All real numbers are rational numbers",
+			"All real numbers are fractions",
+			"All rational numbers are fractions",
+			"Some fractions are not real numbers",
+			"Some fractions are not rational numbers",
+			"Some real numbers are not rational numbers",
+			"Some real numbers are not fractions",
+			"Some rational numbers are not real numbers",
+			"Some rational numbers are not fractions",
+			"No fractions are real numbers",
+			"No fractions are rational numbers",
+			"No rational numbers are real numbers",
+			"No rational numbers are fractions",
+			"No real numbers are rational numbers",
+			"No real numbers are fractions"
+		  ]
+		}
+	  ]
+  }
+}

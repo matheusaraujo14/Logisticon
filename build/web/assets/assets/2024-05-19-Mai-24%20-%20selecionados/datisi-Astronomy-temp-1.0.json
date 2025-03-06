@@ -1,0 +1,78 @@
+{
+  "Astronomy": {
+    "Datisi": [
+      {
+        "major premise": "All planets are celestial bodies",
+        "minor premise": "Some planets are rocky objects",
+        "conclusion": "Some rocky objects are celestial bodies",
+        "incorrect conclusions": [
+          "All rocky objects are planets",
+          "All rocky objects are celestial bodies",
+          "All celestial bodies are planets",
+          "All celestial bodies are rocky objects",
+          "All planets are rocky objects",
+          "Some rocky objects are not celestial bodies",
+          "Some rocky objects are not planets",
+          "Some celestial bodies are not planets",
+          "Some celestial bodies are not rocky objects",
+          "Some planets are not celestial bodies",
+          "Some planets are not rocky objects",
+          "No rocky object is a celestial body",
+          "No rocky object is a planet",
+          "No planet is a celestial body",
+          "No planet is a rocky object",
+          "No celestial body is a planet",
+          "No celestial body is a rocky object"
+        ]
+      },
+      {
+        "major premise": "All stars are celestial bodies",
+        "minor premise": "Some stars are main sequence stars",
+        "conclusion": "Some main sequence stars are celestial bodies",
+        "incorrect conclusions": [
+          "All main sequence stars are stars",
+          "All main sequence stars are celestial bodies",
+          "All celestial bodies are stars",
+          "All celestial bodies are main sequence stars",
+          "All stars are main sequence stars",
+          "Some main sequence stars are not celestial bodies",
+          "Some main sequence stars are not stars",
+          "Some celestial bodies are not stars",
+          "Some celestial bodies are not main sequence stars",
+          "Some stars are not celestial bodies",
+          "Some stars are not main sequence stars",
+          "No main sequence star is a celestial body",
+          "No main sequence star is a star",
+          "No star is a celestial body",
+          "No star is a main sequence star",
+          "No celestial body is a star",
+          "No celestial body is a main sequence star"
+        ]
+      },
+      {
+        "major premise": "All asteroids are celestial objects",
+        "minor premise": "Some asteroids are near-Earth objects",
+        "conclusion": "Some near-Earth objects are celestial objects",
+        "incorrect conclusions": [
+          "All near-Earth objects are asteroids",
+          "All near-Earth objects are celestial objects",
+          "All celestial objects are asteroids",
+          "All celestial objects are near-Earth objects",
+          "All asteroids are near-Earth objects",
+          "Some near-Earth objects are not celestial objects",
+          "Some near-Earth objects are not asteroids",
+          "Some celestial objects are not asteroids",
+          "Some celestial objects are not near-Earth objects",
+          "Some asteroids are not celestial objects",
+          "Some asteroids are not near-Earth objects",
+          "No near-Earth object is a celestial object",
+          "No near-Earth object is an asteroid",
+          "No asteroid is a celestial object",
+          "No asteroid is a near-Earth object",
+          "No celestial object is an asteroid",
+          "No celestial object is a near-Earth object"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If an algorithm's time complexity is not O(n^2), then it is efficient",
+          "If an algorithm's time complexity is O(n^2), then it uses nested loops"
+        ],
+        "conclusions": [
+          "If an algorithm's time complexity is not efficient, then its complexity is O(n^2)",
+          "If an algorithm does not use nested loops, then its complexity is not O(n^2)",
+          "If an algorithm does not use nested loops, then it is efficient",
+          "An algorithm's time complexity is either efficient or it uses nested loops",
+          "If an algorithm's time complexity is O(n^2) and it is efficient, then it uses nested loops"
+        ],
+        "incorrect conclusions": [
+          "If an algorithm is efficient, then its time complexity is O(n^2)",
+          "If an algorithm is efficient, then its time complexity is not O(n^2)",
+          "If an algorithm is not efficient, then its time complexity is not O(n^2)",
+          "An algorithm's time complexity is both efficient and it uses nested loops",
+          "If an algorithm uses nested loops, then its time complexity is O(n^2)",
+          "If an algorithm is efficient and uses nested loops, then its time complexity is O(n^2)"
+        ]
+      },
+      {
+        "premises": [
+          "If the network is not connected, then data cannot be transmitted",
+          "If the network is connected, then packets are being routed"
+        ],
+        "conclusions": [
+          "If data can be transmitted, then the network is connected",
+          "If packets are not being routed, then the network is not connected",
+          "If packets are not being routed, then data cannot be transmitted",
+          "The network is either connected or data cannot be transmitted",
+          "If the network is connected and data cannot be transmitted, then packets are being routed"
+        ],
+        "incorrect conclusions": [
+          "If data can be transmitted, then the network is not connected",
+          "If data can be transmitted, then the network is not connected",
+          "If data cannot be transmitted, then the network is not connected",
+          "The network is both connected and data cannot be transmitted",
+          "If packets are being routed, then the network is connected",
+          "If data can be transmitted and packets are being routed, then the network is connected"
+        ]
+      },
+      {
+        "premises": [
+          "If the program does not compile, then it has syntax errors",
+          "If the program compiles, then it is written in a supported language"
+        ],
+        "conclusions": [
+          "If a program has no syntax errors, then it compiles",
+          "If a program is not written in a supported language, then it does not compile",
+          "If a program is not written in a supported language, then it has syntax errors",
+          "The program either compiles or has syntax errors",
+          "If the program compiles and it does not have syntax errors, then it is written in a supported language"
+        ],
+        "incorrect conclusions": [
+          "If a program compiles, then it has syntax errors",
+          "If a program compiles, then it does not have syntax errors",
+          "If a program does not compile, then it does not have syntax errors",
+          "The program both compiles and it has syntax errors",
+          "If a program is written in a supported language, then it compiles",
+          "If a program has syntax errors and it is written in a supported language, then it compiles"
+        ]
+      }
+    ]
+  }
+}

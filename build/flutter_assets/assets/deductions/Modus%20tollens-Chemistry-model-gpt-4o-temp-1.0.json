@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a substance is acidic, then it turns blue litmus paper red",
+          "The substance does not turn blue litmus paper red"
+        ],
+        "conclusions": [
+          "The substance is not acidic"
+        ],
+        "incorrect conclusions": [
+          "The substance is acidic",
+          "The substance is acidic and it turns blue litmus paper red",
+          "If the substance turns blue litmus paper red, then it is acidic",
+          "If the substance does not turn blue litmus paper red, then it is acidic",
+          "If the substance is not acidic, then it does not turn blue litmus paper red"
+        ]
+      },
+      {
+        "premises": [
+          "If a compound contains carbon, then it can undergo combustion",
+          "The compound cannot undergo combustion"
+        ],
+        "conclusions": [
+          "The compound does not contain carbon"
+        ],
+        "incorrect conclusions": [
+          "The compound contains carbon",
+          "The compound contains carbon and can undergo combustion",
+          "If the compound can undergo combustion, then it contains carbon",
+          "If the compound cannot undergo combustion, then it contains carbon",
+          "If the compound does not contain carbon, then it cannot undergo combustion"
+        ]
+      },
+      {
+        "premises": [
+          "If a reaction is exothermic, then it releases heat",
+          "The reaction does not release heat"
+        ],
+        "conclusions": [
+          "The reaction is not exothermic"
+        ],
+        "incorrect conclusions": [
+          "The reaction is exothermic",
+          "The reaction is exothermic and it releases heat",
+          "If the reaction releases heat, then it is exothermic",
+          "If the reaction does not release heat, then it is exothermic",
+          "If the reaction is not exothermic, then it does not release heat"
+        ]
+      }
+    ]
+  }
+}

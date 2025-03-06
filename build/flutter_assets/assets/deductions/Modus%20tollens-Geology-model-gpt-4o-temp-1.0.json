@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Geology": [
+      {
+        "premises": [ 
+          "If a rock contains fossils, then it is sedimentary",
+          "The rock does not contain fossils"
+        ],
+        "conclusions": [
+          "The rock is not sedimentary"
+        ],
+        "incorrect conclusions": [
+          "The rock contains fossils",
+          "The rock contains fossils and it is sedimentary",
+          "If a rock is sedimentary, then it contains fossils",
+          "If a rock does not contain fossils, then it is sedimentary",
+          "If a rock is not sedimentary, then it does not contain fossils"
+        ]
+      },
+      {
+        "premises": [ 
+          "If a mineral scratches glass, then it is harder than glass",
+          "The mineral does not scratch glass"
+        ],
+        "conclusions": [
+          "The mineral is not harder than glass"
+        ],
+        "incorrect conclusions": [
+          "The mineral scratches glass",
+          "The mineral scratches glass and it is harder than glass",
+          "If a mineral is harder than glass, then it scratches glass",
+          "If a mineral does not scratch glass, then it is harder than glass",
+          "If a mineral is not harder than glass, then it does not scratch glass"
+        ]
+      },
+      {
+        "premises": [ 
+          "If an earthquake occurs, then tectonic plates have moved",
+          "Tectonic plates have not moved"
+        ],
+        "conclusions": [
+          "An earthquake did not occur"
+        ],
+        "incorrect conclusions": [
+          "An earthquake occurred",
+          "An earthquake occurred and tectonic plates have moved",
+          "If tectonic plates have moved, then an earthquake occurs",
+          "If tectonic plates have not moved, then an earthquake occurs",
+          "If an earthquake did not occur, then tectonic plates have not moved"
+        ]
+      }
+    ]
+  }
+}

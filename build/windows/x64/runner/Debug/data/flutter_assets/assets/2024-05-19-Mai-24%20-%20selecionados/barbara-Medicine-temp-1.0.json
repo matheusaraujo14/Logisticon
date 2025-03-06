@@ -1,0 +1,54 @@
+{
+  "Medicine": {
+    "Barbara": [
+      {
+        "major premise": "All doctors are healthcare professionals",
+        "minor premise": "All surgeons are doctors",
+        "conclusion": "All surgeons are healthcare professionals",
+        "incorrect conclusions": [
+          "All healthcare professionals are doctors",
+          "All healthcare professionals are surgeons",
+          "Some surgeons are doctors",
+          "Some surgeons are healthcare professionals",
+          "Some surgeons are not healthcare professionals",
+          "Some surgeons are not doctors",
+          "Some healthcare professionals are surgeons",
+          "Some healthcare professionals are doctors",
+          "Some doctors are surgeons"
+        ]
+      },
+      {
+        "major premise": "All viruses are pathogens",
+        "minor premise": "All coronaviruses are viruses",
+        "conclusion": "All coronaviruses are pathogens",
+        "incorrect conclusions": [
+          "All pathogens are viruses",
+          "All pathogens are coronaviruses",
+          "Some coronaviruses are viruses",
+          "Some coronaviruses are pathogens",
+          "Some coronaviruses are not pathogens",
+          "Some coronaviruses are not viruses",
+          "Some pathogens are coronaviruses",
+          "Some pathogens are viruses",
+          "Some viruses are coronaviruses"
+        ]
+      },
+      {
+        "major premise": "All vaccines are medical interventions",
+        "minor premise": "All flu shots are vaccines",
+        "conclusion": "All flu shots are medical interventions",
+        "incorrect conclusions": [
+          "All medical interventions are vaccines",
+          "All medical interventions are flu shots",
+          "Some flu shots are vaccines",
+          "Some flu shots are medical interventions",
+          "Some flu shots are not medical interventions",
+          "Some flu shots are not vaccines",
+          "Some medical interventions are flu shots",
+          "Some medical interventions are vaccines",
+          "Some vaccines are flu shots"
+        ]
+      }
+    ]
+  }
+}

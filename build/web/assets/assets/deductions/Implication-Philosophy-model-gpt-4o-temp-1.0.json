@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If a being is human, then it is mortal"
+        ],
+        "conclusions": [
+          "If a being is not mortal, then it is not human"
+        ],
+        "incorrect conclusions": [
+          "A being is human",
+          "A being is not human",
+          "A being is mortal",
+          "A being is not mortal",
+          "If a being is mortal, then it is human",
+          "If a being is not mortal, then it is human",
+          "If a being is not human, then it is not mortal"
+        ]
+      },
+      {
+        "premises": [
+          "If a person thinks, then they exist"
+        ],
+        "conclusions": [
+          "If a person does not exist, then they do not think"
+        ],
+        "incorrect conclusions": [
+          "A person thinks",
+          "A person does not think",
+          "A person exists",
+          "A person does not exist",
+          "If a person exists, then they think",
+          "If a person does not exist, then they think",
+          "If a person does not think, then they do not exist"
+        ]
+      },
+      {
+        "premises": [
+          "If an action is just, then it should be done"
+        ],
+        "conclusions": [
+          "If an action should not be done, then it is not just"
+        ],
+        "incorrect conclusions": [
+          "An action is just",
+          "An action is not just",
+          "An action should be done",
+          "An action should not be done",
+          "If an action should be done, then it is just",
+          "If an action should not be done, then it is just",
+          "If an action is not just, then it should not be done"
+        ]
+      }
+    ]
+  }
+}

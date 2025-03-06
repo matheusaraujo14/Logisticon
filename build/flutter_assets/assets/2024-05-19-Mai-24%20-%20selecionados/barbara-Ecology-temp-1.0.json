@@ -1,0 +1,38 @@
+{
+  "Ecology": {
+     "Barbara": [
+		{
+          "major premise": "All forests are ecosystems",
+          "minor premise": "All rainforests are forests",
+          "conclusion": "All rainforests are ecosystems",
+		  "incorrect conclusions": [
+            "All ecosystems are forests",
+            "All ecosystems are rainforests",
+            "Some rainforests are forests",
+            "Some rainforests are ecosystems",
+            "Some rainforests are not ecosystems",
+            "Some rainforests are not forests",
+            "Some ecosystems are rainforests",
+            "Some ecosystems are forests",
+            "Some forests are rainforests"
+		  ]
+		},
+		{
+          "major premise": "All predators are animals",
+          "minor premise": "All wolves are predators",
+          "conclusion": "All wolves are animals",
+		  "incorrect conclusions": [
+            "All animals are predators",
+            "All animals are wolves",
+            "Some wolves are predators",
+            "Some wolves are animals",
+            "Some wolves are not animals",
+            "Some wolves are not predators",
+            "Some animals are wolves",
+            "Some animals are predators",
+            "Some predators are wolves"
+		  ]
+		}
+	 ]
+  }
+}

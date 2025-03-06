@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a substance is acidic, it turns blue litmus paper red",
+          "If a substance is basic, it turns blue litmus paper red",
+          "A substance is either acidic or basic"
+        ],
+        "conclusions": [
+          "The substance turns blue litmus paper red",
+          "If a substance is acidic or basic, it turns blue litmus paper red",
+          "If a substance does not turn blue litmus paper red, it is neither acidic nor basic",
+          "If a substance is both acidic and basic, it turns blue litmus paper red",
+          "If a substance turns blue litmus paper red, it is either acidic or basic"
+        ],
+        "incorrect conclusions": [
+          "If a substance is acidic, it is either basic or turns blue litmus paper red",
+          "If a substance turns blue litmus paper red, it is both acidic and basic",
+          "If a substance either turns blue litmus paper red or is acidic, it is basic",
+          "If a substance is not acidic, it turns blue litmus paper red",
+          "If a substance does not turn blue litmus paper red, it is both acidic and basic"
+        ]
+      },
+      {
+        "premises": [
+          "If a reaction is exothermic, it releases heat",
+          "If a reaction is endothermic, it releases heat",
+          "A reaction is either exothermic or endothermic"
+        ],
+        "conclusions": [
+          "The reaction releases heat",
+          "If a reaction is exothermic or endothermic, it releases heat",
+          "If a reaction does not release heat, it is neither exothermic nor endothermic",
+          "If a reaction is both exothermic and endothermic, it releases heat",
+          "If a reaction releases heat, it is either exothermic or endothermic"
+        ],
+        "incorrect conclusions": [
+          "If a reaction is exothermic, it is either endothermic or releases heat",
+          "If a reaction releases heat, it is both exothermic and endothermic",
+          "If a reaction either releases heat or is exothermic, it is endothermic",
+          "If a reaction is not exothermic, it releases heat",
+          "If a reaction does not release heat, it is both exothermic and endothermic"
+        ]
+      },
+      {
+        "premises": [
+          "If a substance is a metal, it conducts electricity",
+          "If a substance is a non-metal, it conducts electricity",
+          "A substance is either a metal or a non-metal"
+        ],
+        "conclusions": [
+          "The substance conducts electricity",
+          "If a substance is a metal or non-metal, it conducts electricity",
+          "If a substance does not conduct electricity, it is neither a metal nor a non-metal",
+          "If a substance is both a metal and a non-metal, it conducts electricity",
+          "If a substance conducts electricity, it is either a metal or a non-metal"
+        ],
+        "incorrect conclusions": [
+          "If a substance is a metal, it is either a non-metal or conducts electricity",
+          "If a substance conducts electricity, it is both a metal and a non-metal",
+          "If a substance either conducts electricity or is a metal, it is a non-metal",
+          "If a substance is not a metal, it conducts electricity",
+          "If a substance does not conduct electricity, it is both a metal and a non-metal"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Geology": {
+    "Camestres": [
+      {
+        "major premise": "All quartz are minerals",
+        "minor premise": "No fossils are minerals",
+        "conclusion": "No fossils are quartz",
+        "incorrect conclusions": [
+          "All minerals are fossils",
+          "All minerals are fossils",
+          "Some fossils are minerals",
+          "Some fossils are quartz",
+          "Some minerals are fossils",
+          "Some quartz are minerals",
+          "Some fossils are minerals",
+          "Some minerals are fossils",
+          "Some minerals are not quartz"
+        ]
+      },
+      {
+        "major premise": "All diamonds are minerals",
+        "minor premise": "No fossils are minerals",
+        "conclusion": "No fossils are diamonds",
+        "incorrect conclusions": [
+          "All minerals are fossils",
+          "All minerals are fossils",
+          "Some fossils are minerals",
+          "Some fossils are diamonds",
+          "Some minerals are fossils",
+          "Some diamonds are minerals",
+          "Some fossils are minerals",
+          "Some minerals are fossils",
+          "Some minerals are not diamonds"
+        ]
+      }
+    ]
+  }
+}

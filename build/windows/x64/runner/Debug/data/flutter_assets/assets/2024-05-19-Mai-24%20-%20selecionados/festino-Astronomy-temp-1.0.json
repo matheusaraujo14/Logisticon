@@ -1,0 +1,29 @@
+{
+  "Astronomy": {
+    "Festino": [
+      {
+        "major premise": "No asteroids are galaxies",
+        "minor premise": "Some celestial bodies are galaxies",
+        "conclusion": "Some celestial bodies are not asteroids",
+        "incorrect conclusions": [
+          "All galaxies are celestial bodies",
+          "All galaxies are asteroids",
+          "All celestial bodies are asteroids",
+          "All asteroids are galaxies",
+          "All asteroids are celestial bodies",
+          "Some galaxies are not celestial bodies",
+          "Some asteroids are celestial bodies",
+          "Some asteroids are not celestial bodies",
+          "Some asteroids are galaxies",
+          "Some asteroids are celestial bodies",
+          "Some celestial bodies are asteroids",
+          "Some celestial bodies are not galaxies",
+          "Some galaxies are asteroids",
+          "No galaxies are celestial bodies",
+          "No celestial bodies are not galaxies",
+          "No celestial bodies are galaxies"
+        ]
+      }
+    ]
+  }
+}

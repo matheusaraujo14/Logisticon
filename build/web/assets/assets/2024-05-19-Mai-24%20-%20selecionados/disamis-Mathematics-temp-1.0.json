@@ -1,0 +1,75 @@
+{
+  "Mathematics": {
+    "Disamis": [
+      {
+        "major premise": "Some students are mathematicians",
+        "minor premise": "All mathematicians are scholars",
+        "conclusion": "Some scholars are mathematicians",
+        "incorrect conclusions": [
+          "All scholars are mathematicians",
+          "All scholars are students",
+          "All mathematicians are scholars",
+          "All mathematicians are students",
+          "All students are mathematicians",
+          "Some scholars are not students",
+          "Some mathematicians are not scholars",
+          "Some mathematicians are not students",
+          "Some students are not scholars",
+          "Some students are not mathematicians",
+          "No mathematicians is a scholar",
+          "No mathematicians is a student",
+          "No students is a scholar",
+          "No students is a mathematician",
+          "No scholars is a student",
+          "No scholars is a mathematician"
+        ]
+      },
+      {
+        "major premise": "Some equations are mathematical statements",
+        "minor premise": "All mathematical statements are expressions",
+        "conclusion": "Some expressions are mathematical statements",
+        "incorrect conclusions": [
+          "All expressions are mathematical statements",
+          "All expressions are equations",
+          "All mathematical statements are expressions",
+          "All mathematical statements are equations",
+          "All equations are mathematical statements",
+          "Some expressions are not equations",
+          "Some mathematical statements are not expressions",
+          "Some mathematical statements are not equations",
+          "Some equations are not expressions",
+          "Some equations are not mathematical statements",
+          "No mathematical statements is an expression",
+          "No mathematical statements is an equation",
+          "No equations is an expression",
+          "No equations is a mathematical statement",
+          "No expressions is an equation",
+          "No expressions is a mathematical statement"
+        ]
+      },
+      {
+        "major premise": "Some numbers are primes",
+        "minor premise": "All primes are integers",
+        "conclusion": "Some integers are primes",
+        "incorrect conclusions": [
+          "All integers are primes",
+          "All integers are numbers",
+          "All primes are integers",
+          "All primes are numbers",
+          "All numbers are primes",
+          "Some integers are not numbers",
+          "Some primes are not integers",
+          "Some primes are not numbers",
+          "Some numbers are not integers",
+          "Some numbers are not primes",
+          "No primes is an integer",
+          "No primes is a number",
+          "No numbers is an integer",
+          "No numbers is a prime",
+          "No integers is a number",
+          "No integers is a prime"
+        ]
+      }
+    ]
+  }
+}

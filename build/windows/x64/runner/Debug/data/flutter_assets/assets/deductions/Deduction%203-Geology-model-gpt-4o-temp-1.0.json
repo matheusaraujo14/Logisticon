@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Geology": [
+      {
+        "premises": [
+          "If the rock is igneous, then it contains crystals",
+          "If the rock is sedimentary, then it contains fossils"
+        ],
+        "conclusions": [
+          "If the rock does not contain crystals, then it is not igneous",
+          "If the rock does not contain fossils, then it is not sedimentary",
+          "If the rock does not contain fossils, then it contains crystals",
+          "The rock contains fossils or crystals",
+          "If the rock is igneous and contains crystals, then it contains fossils"
+        ],
+        "incorrect conclusions": [
+          "If the rock contains crystals, then it is igneous",
+          "If the rock contains crystals, then it is not igneous",
+          "If the rock does not contain crystals, then it is not sedimentary",
+          "The rock contains fossils and crystals",
+          "If the rock contains fossils, then it is sedimentary",
+          "If the rock contains fossils and crystals, then it is sedimentary"
+        ]
+      },
+      {
+        "premises": [
+          "If the soil is clay, then it retains water",
+          "If the soil is sandy, then it drains easily"
+        ],
+        "conclusions": [
+          "If the soil does not retain water, then it is not clay",
+          "If the soil does not drain easily, then it is not sandy",
+          "If the soil does not drain easily, then it retains water",
+          "The soil retains water or drains easily",
+          "If the soil is clay and retains water, then it drains easily"
+        ],
+        "incorrect conclusions": [
+          "If the soil retains water, then it is clay",
+          "If the soil retains water, then it is not clay",
+          "If the soil does not retain water, then it is not sandy",
+          "The soil retains water and drains easily",
+          "If the soil drains easily, then it is sandy",
+          "If the soil drains easily and retains water, then it is sandy"
+        ]
+      },
+      {
+        "premises": [
+          "If a mineral is quartz, then it scratches glass",
+          "If a mineral is calcite, then it fizzes with acid"
+        ],
+        "conclusions": [
+          "If a mineral does not scratch glass, then it is not quartz",
+          "If a mineral does not fizz with acid, then it is not calcite",
+          "If a mineral does not fizz with acid, then it scratches glass",
+          "A mineral fizzes with acid or scratches glass",
+          "If a mineral is quartz and scratches glass, then it fizzes with acid"
+        ],
+        "incorrect conclusions": [
+          "If a mineral scratches glass, then it is quartz",
+          "If a mineral scratches glass, then it is not quartz",
+          "If a mineral does not scratch glass, then it is not calcite",
+          "A mineral fizzes with acid and scratches glass",
+          "If a mineral fizzes with acid, then it is calcite",
+          "If a mineral fizzes with acid and scratches glass, then it is quartz"
+        ]
+      }
+    ]
+  }
+}

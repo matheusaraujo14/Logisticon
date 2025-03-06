@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Literature": [
+      {
+        "premises": [
+          "If the protagonist seeks revenge, then the story becomes a tragedy",
+          "If the protagonist seeks revenge, then the plot thickens"
+        ],
+        "conclusions": [
+          "If the protagonist seeks revenge, then the story becomes a tragedy and the plot thickens",
+          "If the protagonist seeks revenge, then the story becomes a tragedy or the plot thickens",
+          "If the story does not become a tragedy, then the protagonist does not seek revenge",
+          "If the plot does not thicken, then the protagonist does not seek revenge",
+          "If the story does not become a tragedy or the plot does not thicken, then the protagonist does not seek revenge"
+        ],
+        "incorrect conclusions": [
+          "If the story becomes a tragedy is false, then the plot thickens is false",
+          "If the plot thickens is false, then the story becomes a tragedy is false",
+          "If the story becomes a tragedy, then the plot thickens",
+          "If the plot thickens, then the story becomes a tragedy",
+          "If the story becomes a tragedy and the plot thickens, then the protagonist seeks revenge",
+          "If the story becomes a tragedy or the plot thickens, then the protagonist seeks revenge",
+          "If the story does not become a tragedy or the protagonist does not seek revenge, then the protagonist seeks revenge"
+        ]
+      },
+      {
+        "premises": [
+          "If the hero finds the artifact, then the curse is lifted",
+          "If the hero finds the artifact, then the kingdom is saved"
+        ],
+        "conclusions": [
+          "If the hero finds the artifact then the curse is lifted and the kingdom is saved",
+          "If the hero finds the artifact, then the curse is lifted or the kingdom is saved",
+          "If the curse is not lifted, then the hero does not find the artifact",
+          "If the kingdom is not saved, then the hero does not find the artifact",
+          "If the curse is not lifted or the kingdom is not saved, then the hero does not find the artifact"
+        ],
+        "incorrect conclusions": [
+          "If the curse is lifted is false, then the kingdom is saved is false",
+          "If the kingdom is saved is false, then the curse is lifted is false",
+          "If the curse is lifted, then the kingdom is saved",
+          "If the kingdom is saved, then the curse is lifted",
+          "If the curse is lifted and the kingdom is saved, then the hero finds the artifact",
+          "If the curse is lifted or the kingdom is saved, then the hero finds the artifact",
+          "If the curse is lifted is false or the hero does not find the artifact, then the hero finds the artifact"
+        ]
+      },
+      {
+        "premises": [
+          "If the detective solves the case, then the truth is revealed",
+          "If the detective solves the case, then the criminal is caught"
+        ],
+        "conclusions": [
+          "If the detective solves the case, then the truth is revealed and the criminal is caught",
+          "If the detective solves the case, then the truth is revealed or the criminal is caught",
+          "If the truth is not revealed, then the detective does not solve the case",
+          "If the criminal is not caught, then the detective does not solve the case",
+          "If the truth is not revealed or the criminal is not caught, then the detective does not solve the case"
+        ],
+        "incorrect conclusions": [
+          "If the truth is revealed is false, then the criminal is caught is false",
+          "If the criminal is caught is false, then the truth is revealed is false",
+          "If the truth is revealed, then the criminal is caught",
+          "If the criminal is caught, then the truth is revealed",
+          "If the truth is revealed and the criminal is caught, then the detective solves the case",
+          "If the truth is revealed or the criminal is caught, then the detective solves the case",
+          "If the truth is revealed is false or the detective does not solve the case, then the detective solves the case"
+        ]
+      }
+    ]
+  }
+}

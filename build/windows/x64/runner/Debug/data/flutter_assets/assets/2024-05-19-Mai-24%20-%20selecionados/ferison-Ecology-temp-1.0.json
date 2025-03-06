@@ -1,0 +1,75 @@
+{
+  "Ecology": {
+    "Ferison": [
+      {
+        "major premise": "No amphibians are mammals",
+        "minor premise": "Some amphibians are vertebrates",
+        "conclusion": "Some vertebrates are not mammals",
+        "incorrect conclusions": [
+          "All amphibians are vertebrates",
+          "All amphibians are mammals",
+          "All vertebrates are mammals",
+          "All mammals are amphibians",
+          "All mammals are vertebrates",
+          "Some amphibians are not vertebrates",
+          "Some mammals are vertebrates",
+          "Some mammals are not vertebrates",
+          "Some mammals are amphibians",
+          "Some mammals are vertebrates",
+          "Some vertebrates are mammals",
+          "Some vertebrates are not amphibians",
+          "Some amphibians are mammals",
+          "No amphibians are vertebrates",
+          "No vertebrates are not amphibians",
+          "No vertebrates are amphibians"
+        ]
+      },
+      {
+        "major premise": "No carnivores are plants",
+        "minor premise": "Some carnivores are animals",
+        "conclusion": "Some animals are not plants",
+        "incorrect conclusions": [
+          "All carnivores are animals",
+          "All carnivores are plants",
+          "All animals are plants",
+          "All plants are carnivores",
+          "All plants are animals",
+          "Some carnivores are not animals",
+          "Some plants are animals",
+          "Some plants are not animals",
+          "Some plants are carnivores",
+          "Some plants are animals",
+          "Some animals are plants",
+          "Some animals are not carnivores",
+          "Some carnivores are plants",
+          "No carnivores are animals",
+          "No animals are not carnivores",
+          "No animals are carnivores"
+        ]
+      },
+      {
+        "major premise": "No reptiles are mammals",
+        "minor premise": "Some reptiles are lizards",
+        "conclusion": "Some lizards are not mammals",
+        "incorrect conclusions": [
+          "All reptiles are lizards",
+          "All reptiles are mammals",
+          "All lizards are mammals",
+          "All mammals are reptiles",
+          "All mammals are lizards",
+          "Some reptiles are not lizards",
+          "Some mammals are lizards",
+          "Some mammals are not lizards",
+          "Some mammals are reptiles",
+          "Some mammals are lizards",
+          "Some lizards are mammals",
+          "Some lizards are not reptiles",
+          "Some reptiles are mammals",
+          "No reptiles are lizards",
+          "No lizards are not reptiles",
+          "No lizards are reptiles"
+        ]
+      }
+    ]
+  }
+}

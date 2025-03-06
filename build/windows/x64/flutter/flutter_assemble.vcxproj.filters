@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\build\windows\x64\CMakeFiles\22829a3559b6a8b9ad62d0a15315ba69\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\build\windows\x64\CMakeFiles\6599ad29eb4413948f3dd94f8df065f6\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9968FFEC-3854-3BE8-9C39-1D0828858585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

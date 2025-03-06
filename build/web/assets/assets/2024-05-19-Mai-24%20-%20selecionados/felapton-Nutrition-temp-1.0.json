@@ -1,0 +1,25 @@
+{
+  "Nutrition": {
+    "Felapton": [
+      {
+        "major premise": "No fruits are meats",
+        "minor premise": "All fruits are foods and some fruits exist",
+        "conclusion": "Some foods are not meats",
+        "incorrect conclusions": [
+          "All foods are meats",
+          "All foods are fruits",
+          "All meats are foods",
+          "All meats are fruits",
+          "Some foods are meats",
+          "Some meats are foods",
+          "Some meats are fruits",
+          "Some meats are not foods",
+          "Some fruits are meats",
+          "Some fruits are not foods",
+          "No fruits is foods",
+          "No foods is fruits"
+        ]
+      }
+    ]
+  }
+}

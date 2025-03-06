@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a person consumes excessive sugar, then they gain weight",
+          "If a person consumes excessive sugar, they have a higher risk of diabetes"
+        ],
+        "conclusions": [
+          "If a person consumes excessive sugar, then they gain weight and have a higher risk of diabetes",
+          "If a person consumes excessive sugar, then they gain weight or have a higher risk of diabetes",
+          "If a person gains weight, then they do not consume excessive sugar",
+          "If a person does not have a higher risk of diabetes, then they do not consume excessive sugar",
+          "If a person gains weight or does not have a higher risk of diabetes, then they do not consume excessive sugar"
+        ],
+        "incorrect conclusions": [
+          "If a person gains weight, then they do not have a higher risk of diabetes",
+          "If a person does not have a higher risk of diabetes, then they gain weight",
+          "If a person does not gain weight, then they have a higher risk of diabetes",
+          "If a person has a higher risk of diabetes, then they do not gain weight",
+          "If a person does not gain weight and has a higher risk of diabetes, then they consume excessive sugar",
+          "If a person does not gain weight or has a higher risk of diabetes, then they consume excessive sugar",
+          "If a person gains weight or does not consume excessive sugar, then they consume excessive sugar"
+        ]
+      },
+      {
+        "premises": [
+          "If a diet lacks protein, then muscle mass is lost",
+          "If a diet lacks protein, energy levels are reduced"
+        ],
+        "conclusions": [
+          "If a diet lacks protein, then muscle mass is lost and energy levels are reduced",
+          "If a diet lacks protein, then muscle mass is lost or energy levels are reduced",
+          "If muscle mass is lost, then the diet does not lack protein",
+          "If energy levels are not reduced, then the diet does not lack protein",
+          "If muscle mass is lost or energy levels are not reduced, then the diet does not lack protein"
+        ],
+        "incorrect conclusions": [
+          "If muscle mass is lost, then energy levels are not reduced",
+          "If energy levels are not reduced, then muscle mass is lost",
+          "If muscle mass is not lost, then energy levels are reduced",
+          "If energy levels are reduced, then muscle mass is not lost",
+          "If muscle mass is not lost and energy levels are reduced, then the diet lacks protein",
+          "If muscle mass is not lost or energy levels are reduced, then the diet lacks protein",
+          "If muscle mass is lost or the diet does not lack protein, then the diet lacks protein"
+        ]
+      },
+      {
+        "premises": [
+          "If a person eats high-fiber foods, then digestion improves",
+          "If a person eats high-fiber foods, weight management becomes easier"
+        ],
+        "conclusions": [
+          "If a person eats high-fiber foods, then digestion improves and weight management becomes easier",
+          "If a person eats high-fiber foods, then digestion improves or weight management becomes easier",
+          "If digestion improves, then the person does not eat high-fiber foods",
+          "If weight management does not become easier, then the person does not eat high-fiber foods",
+          "If digestion improves or weight management does not become easier, then the person does not eat high-fiber foods"
+        ],
+        "incorrect conclusions": [
+          "If digestion improves, then weight management does not become easier",
+          "If weight management does not become easier, then digestion improves",
+          "If digestion does not improve, then weight management becomes easier",
+          "If weight management becomes easier, then digestion does not improve",
+          "If digestion does not improve and weight management becomes easier, then the person eats high-fiber foods",
+          "If digestion does not improve or weight management becomes easier, then the person eats high-fiber foods",
+          "If digestion improves or the person does not eat high-fiber foods, then the person eats high-fiber foods"
+        ]
+      }
+    ]
+  }
+}

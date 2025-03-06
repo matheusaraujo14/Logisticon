@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient takes antibiotics, then the infection clears up"
+        ],
+        "conclusions": [
+          "If the infection does not clear up, then the patient did not take antibiotics"
+        ],
+        "incorrect conclusions": [
+          "The patient takes antibiotics",
+          "The patient does not take antibiotics",
+          "The infection clears up",
+          "The infection does not clear up",
+          "If the infection clears up, then the patient took antibiotics",
+          "If the infection does not clear up, then the patient took antibiotics",
+          "If the patient does not take antibiotics, then the infection does not clear up"
+        ]
+      },
+      {
+        "premises": [
+          "If the surgery is successful, then the patient recovers"
+        ],
+        "conclusions": [
+          "If the patient does not recover, then the surgery was not successful"
+        ],
+        "incorrect conclusions": [
+          "The surgery is successful",
+          "The surgery is not successful",
+          "The patient recovers",
+          "The patient does not recover",
+          "If the patient recovers, then the surgery was successful",
+          "If the patient does not recover, then the surgery was successful",
+          "If the surgery is not successful, then the patient does not recover"
+        ]
+      },
+      {
+        "premises": [
+          "If the patient exercises regularly, then their blood pressure decreases"
+        ],
+        "conclusions": [
+          "If the patient's blood pressure does not decrease, then the patient does not exercise regularly"
+        ],
+        "incorrect conclusions": [
+          "The patient exercises regularly",
+          "The patient does not exercise regularly",
+          "The patient's blood pressure decreases",
+          "The patient's blood pressure does not decrease",
+          "If the patient's blood pressure decreases, then the patient exercises regularly",
+          "If the patient's blood pressure does not decrease, then the patient exercises regularly",
+          "If the patient does not exercise regularly, then their blood pressure does not decrease"
+        ]
+      }
+    ]
+  }
+}

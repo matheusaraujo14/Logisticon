@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a user inputs a password, then the system checks the password.",
+          "If a user inputs a password, then the system logs the attempt."
+        ],
+        "conclusions": [
+          "If a user inputs a password, then the system checks the password and logs the attempt.",
+          "If a user inputs a password, then the system checks the password or logs the attempt.",
+          "If the system does not check the password, then the user did not input a password.",
+          "If the system does not log the attempt, then the user did not input a password.",
+          "If the system does not check the password or does not log the attempt, then the user did not input a password."
+        ],
+        "incorrect conclusions": [
+          "If the system does not check the password, then the system does not log the attempt.",
+          "If the system does not log the attempt, then the system does not check the password.",
+          "If the system checks the password, then the system logs the attempt.",
+          "If the system logs the attempt, then the system checks the password.",
+          "If the system checks the password and logs the attempt, then a user inputs a password.",
+          "If the system checks the password or logs the attempt, then a user inputs a password.",
+          "If the system does not check the password or the user did not input a password, then a user inputs a password."
+        ]
+      },
+      {
+        "premises": [
+          "If the software has a bug, then the application crashes.",
+          "If the software has a bug, then the performance decreases."
+        ],
+        "conclusions": [
+          "If the software has a bug, then the application crashes and the performance decreases.",
+          "If the software has a bug, then the application crashes or the performance decreases.",
+          "If the application does not crash, then the software does not have a bug.",
+          "If the performance does not decrease, then the software does not have a bug.",
+          "If the application does not crash or the performance does not decrease, then the software does not have a bug."
+        ],
+        "incorrect conclusions": [
+          "If the application does not crash, then the performance does not decrease.",
+          "If the performance does not decrease, then the application does not crash.",
+          "If the application crashes, then the performance decreases.",
+          "If the performance decreases, then the application crashes.",
+          "If the application crashes and the performance decreases, then the software has a bug.",
+          "If the application crashes or the performance decreases, then the software has a bug.",
+          "If the application does not crash or the software does not have a bug, then the software has a bug."
+        ]
+      },
+      {
+        "premises": [
+          "If the server is overloaded, then the response time increases.",
+          "If the server is overloaded, then the error rate increases."
+        ],
+        "conclusions": [
+          "If the server is overloaded, then the response time and the error rate increase.",
+          "If the server is overloaded, then the response time or the error rate increases.",
+          "If the response time does not increase, then the server is not overloaded.",
+          "If the error rate does not increase, then the server is not overloaded.",
+          "If the response time does not increase or the error rate does not increase, then the server is not overloaded."
+        ],
+        "incorrect conclusions": [
+          "If the response time does not increase, then the error rate does not increase.",
+          "If the error rate does not increase, then the response time does not increase.",
+          "If the response time increases, then the error rate increases.",
+          "If the error rate increases, then the response time increases.",
+          "If the response time increases and the error rate increases, then the server is overloaded.",
+          "If the response time increases or the error rate increases, then the server is overloaded.",
+          "If the response time does not increase or the server is not overloaded, then the server is overloaded."
+        ]
+      }
+    ]
+  }
+}

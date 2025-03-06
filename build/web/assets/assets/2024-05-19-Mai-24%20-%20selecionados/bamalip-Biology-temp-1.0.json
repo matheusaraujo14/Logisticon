@@ -1,0 +1,69 @@
+{
+  "Biology": {
+    "Bamalip": [
+      {
+        "major premise": "All birds are animals",
+        "minor premise": "All animals are living beings and some birds exist",
+        "conclusion": "Some living beings are birds",
+        "incorrect conclusions": [
+          "All living beings are animals",
+          "All animals are birds",
+          "Some living beings are not animals",
+          "Some living beings are not birds",
+          "Some animals are not birds",
+          "Some animals are not living beings",
+          "Some birds are not animals",
+          "Some birds are not living beings",
+          "No living being is an animal",
+          "No living being is a bird",
+          "No animal is a living being",
+          "No animal is a bird",
+          "No bird is an animal",
+          "No bird is a living being"
+        ]
+      },
+      {
+        "major premise": "All mammals are vertebrates",
+        "minor premise": "All vertebrates are animals and some mammals exist",
+        "conclusion": "Some animals are mammals",
+        "incorrect conclusions": [
+          "All animals are vertebrates",
+          "All vertebrates are mammals",
+          "Some animals are not vertebrates",
+          "Some animals are not mammals",
+          "Some vertebrates are not mammals",
+          "Some vertebrates are not animals",
+          "Some mammals are not vertebrates",
+          "Some mammals are not animals",
+          "No animal is a vertebrate",
+          "No animal is a mammal",
+          "No vertebrate is an animal",
+          "No vertebrate is a mammal",
+          "No mammal is a vertebrate",
+          "No mammal is an animal"
+        ]
+      },
+      {
+        "major premise": "All fish are aquatic animals",
+        "minor premise": "All aquatic animals are animals and some fish exist",
+        "conclusion": "Some animals are fish",
+        "incorrect conclusions": [
+          "All animals are aquatic animals",
+          "All aquatic animals are fish",
+          "Some animals are not aquatic animals",
+          "Some animals are not fish",
+          "Some aquatic animals are not fish",
+          "Some aquatic animals are not animals",
+          "Some fish are not aquatic animals",
+          "Some fish are not animals",
+          "No aquatic animal is an animal",
+          "No aquatic animal is a fish",
+          "No animal is an aquatic animal",
+          "No animal is a fish",
+          "No fish is an aquatic animal",
+          "No fish is an animal"
+        ]
+      }
+    ]
+  }
+}

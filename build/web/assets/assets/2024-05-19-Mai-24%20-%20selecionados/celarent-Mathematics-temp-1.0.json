@@ -1,0 +1,22 @@
+{
+  "Mathematics": {
+    "Celarent": [
+      {
+        "major premise": "No real numbers are complex numbers",
+        "minor premise": "All positive integers are real numbers",
+        "conclusion": "No positive integers are complex numbers",
+        "incorrect conclusions": [
+          "All positive integers are complex numbers",
+          "All real numbers are complex numbers",
+          "Some positive integers are real numbers",
+          "Some positive integers are complex numbers",
+          "Some real numbers are positive integers",
+          "Some real numbers are complex numbers",
+          "Some real numbers are not positive integers",
+          "Some complex numbers are positive integers",
+          "Some complex numbers are real numbers"
+        ]
+      }
+    ]
+  }
+}

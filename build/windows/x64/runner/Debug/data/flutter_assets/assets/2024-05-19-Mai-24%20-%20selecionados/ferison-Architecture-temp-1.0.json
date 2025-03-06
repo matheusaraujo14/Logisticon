@@ -1,0 +1,30 @@
+{
+  "Architecture": {
+    "Ferison": [
+
+      {
+        "major premise": "No gardens are skyscrapers",
+        "minor premise": "Some gardens are parks",
+        "conclusion": "Some parks are not skyscrapers",
+        "incorrect conclusions": [
+          "All gardens are parks",
+          "All gardens are skyscrapers",
+          "All parks are skyscrapers",
+          "All skyscrapers are gardens",
+          "All skyscrapers are parks",
+          "Some gardens are not parks",
+          "Some skyscrapers are parks",
+          "Some skyscrapers are not parks",
+          "Some skyscrapers are gardens",
+          "Some skyscrapers are parks",
+          "Some parks are skyscrapers",
+          "Some parks are not gardens",
+          "Some gardens are skyscrapers",
+          "No gardens are parks",
+          "No parks are not gardens",
+          "No parks are gardens"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Philosophy": {
+    "Calemes": [
+      {
+        "major premise": "All logic problems are abstract concepts",
+        "minor premise": "No abstract concepts are tangible objects",
+        "conclusion": "No tangible objects are logic problems",
+        "incorrect conclusions": [
+          "All abstract concepts are tangible objects",
+          "All abstract concepts are logic problems",
+          "All tangible objects are abstract concepts",
+          "All tangible objects are logic problems",
+          "All logic problems are tangible objects",
+          "Some abstract concepts are logic problems",
+          "Some abstract concepts are not logic problems",
+          "Some abstract concepts are tangible objects",
+          "Some logic problems are tangible objects",
+          "Some logic problems are not abstract concepts",
+          "Some logic problems are abstract concepts",
+          "Some tangible objects are abstract concepts",
+          "Some tangible objects are logic problems",
+          "No logic problems are abstract concepts"
+        ]
+      },
+      {
+        "major premise": "All ideas are mental constructs",
+        "minor premise": "No mental constructs are physical objects",
+        "conclusion": "No physical objects are ideas",
+        "incorrect conclusions": [
+          "All mental constructs are physical objects",
+          "All mental constructs are ideas",
+          "All physical objects are mental constructs",
+          "All physical objects are ideas",
+          "All ideas are physical objects",
+          "Some mental constructs are ideas",
+          "Some mental constructs are not ideas",
+          "Some mental constructs are physical objects",
+          "Some ideas are physical objects",
+          "Some ideas are not mental constructs",
+          "Some ideas are mental constructs",
+          "Some physical objects are mental constructs",
+          "Some physical objects are ideas",
+          "No ideas are mental constructs"
+        ]
+      }
+    ]
+  }
+}

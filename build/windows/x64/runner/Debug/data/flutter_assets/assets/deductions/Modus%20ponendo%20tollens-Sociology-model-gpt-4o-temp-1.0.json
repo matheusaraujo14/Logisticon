@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Sociology": [
+		{
+          "premises": [ 
+            "John is either a sociologist or an economist but not both",
+            "John is a sociologist"
+          ],
+          "conclusions": [
+            "John is not an economist"
+          ],
+		  "incorrect conclusions": [
+            "John is an economist",
+            "John is not a sociologist"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The community center hosts either a book club or a film club but not both",
+            "The community center hosts a book club"
+          ],
+          "conclusions": [
+            "The community center does not host a film club"
+          ],
+		  "incorrect conclusions": [
+            "The community center hosts a film club",
+            "The community center does not host a book club"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The survey was conducted in either urban areas or rural areas but not both",
+            "The survey was conducted in urban areas"
+          ],
+          "conclusions": [
+            "The survey was not conducted in rural areas"
+          ],
+		  "incorrect conclusions": [
+            "The survey was conducted in rural areas",
+            "The survey was not conducted in urban areas"
+		  ]
+		}
+	 ]
+  }
+}

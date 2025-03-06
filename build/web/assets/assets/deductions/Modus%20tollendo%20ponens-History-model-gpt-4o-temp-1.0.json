@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "History": [
+      {
+        "premises": [
+          "The American Revolution succeeded or the British maintained control but not both at the same time",
+          "The American Revolution did not succeed"
+        ],
+        "conclusions": [
+          "The British maintained control",
+          "If the British did not maintain control, then the American Revolution succeeded"
+        ],
+        "incorrect conclusions": [
+          "The British did not maintain control",
+          "If the American Revolution succeeded, then the British maintained control",
+          "If the British maintained control, then the American Revolution succeeded",
+          "The American Revolution succeeded"
+        ]
+      },
+      {
+        "premises": [
+          "The Roman Empire fell or it persisted but not both at the same time",
+          "The Roman Empire did not fall"
+        ],
+        "conclusions": [
+          "It persisted",
+          "If it did not persist, then the Roman Empire fell"
+        ],
+        "incorrect conclusions": [
+          "The Roman Empire did not persist",
+          "If the Roman Empire fell, then it persisted",
+          "If it persisted, then the Roman Empire fell",
+          "The Roman Empire fell"
+        ]
+      },
+      {
+        "premises": [
+          "The Industrial Revolution began in Britain or in France but not both at the same time",
+          "The Industrial Revolution did not begin in Britain"
+        ],
+        "conclusions": [
+          "The Industrial Revolution began in France",
+          "If the Industrial Revolution did not begin in France, then it began in Britain"
+        ],
+        "incorrect conclusions": [
+          "The Industrial Revolution did not begin in France",
+          "If the Industrial Revolution began in Britain, then it began in France",
+          "If the Industrial Revolution began in France, then it began in Britain",
+          "The Industrial Revolution began in Britain"
+        ]
+      }
+    ]
+  }
+}

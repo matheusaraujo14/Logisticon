@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a person exercises regularly, then their stress levels decrease",
+          "If stress levels decrease, then mental health improves"
+        ],
+        "conclusions": [
+          "If a person exercises regularly, then mental health improves",
+          "If mental health does not improve, then a person does not exercise regularly",
+          "If a person exercises regularly or their stress levels decrease, mental health improves and a person exercises regularly implies mental health improves",
+          "If a person exercises regularly, mental health improves and a person exercises regularly implies mental health improves",
+          "If a person does not exercise regularly and their stress levels decrease, mental health improves and a person exercises regularly implies mental health improves",
+          "If a person exercises regularly or their stress levels decrease, mental health improves"
+        ],
+        "incorrect conclusions": [
+          "A person exercises regularly",
+          "If mental health improves, then a person exercises regularly",
+          "If mental health improves, then a person does not exercise regularly",
+          "Mental health improves",
+          "Mental health does not improve",
+          "If mental health does not improve, then a person exercises regularly",
+          "If stress levels do not decrease, then mental health improves",
+          "If a person exercises regularly or stress levels do not decrease, then mental health improves"
+        ]
+      },
+      {
+        "premises": [
+          "If individuals receive social support, then their resilience increases",
+          "If resilience increases, then coping with adversity becomes more effective"
+        ],
+        "conclusions": [
+          "If individuals receive social support, then coping with adversity becomes more effective",
+          "If coping with adversity does not become more effective, then individuals do not receive social support",
+          "If individuals receive social support or their resilience increases, coping with adversity becomes more effective and individuals receive social support implies coping with adversity becomes more effective",
+          "If individuals receive social support, coping with adversity becomes more effective and individuals receive social support implies coping with adversity becomes more effective",
+          "If individuals do not receive social support and their resilience increases, coping with adversity becomes more effective and individuals receive social support implies coping with adversity becomes more effective",
+          "If individuals receive social support or their resilience increases, coping with adversity becomes more effective"
+        ],
+        "incorrect conclusions": [
+          "Individuals receive social support",
+          "If coping with adversity becomes more effective, then individuals receive social support",
+          "If coping with adversity becomes more effective, then individuals do not receive social support",
+          "Coping with adversity becomes more effective",
+          "Coping with adversity does not become more effective",
+          "If coping with adversity does not become more effective, then individuals receive social support",
+          "If resilience does not increase, then coping with adversity becomes more effective",
+          "If individuals receive social support or resilience does not increase, then coping with adversity becomes more effective"
+        ]
+      },
+      {
+        "premises": [
+          "If a psychologist provides cognitive behavioral therapy, then symptoms of depression decrease",
+          "If symptoms of depression decrease, then overall well-being improves"
+        ],
+        "conclusions": [
+          "If a psychologist provides cognitive behavioral therapy, then overall well-being improves",
+          "If overall well-being does not improve, then a psychologist does not provide cognitive behavioral therapy",
+          "If a psychologist provides cognitive behavioral therapy or symptoms of depression decrease, overall well-being improves and a psychologist provides cognitive behavioral therapy implies overall well-being improves",
+          "If a psychologist provides cognitive behavioral therapy, overall well-being improves and a psychologist provides cognitive behavioral therapy implies overall well-being improves",
+          "If a psychologist does not provide cognitive behavioral therapy and symptoms of depression decrease, overall well-being improves and a psychologist provides cognitive behavioral therapy implies overall well-being improves",
+          "If a psychologist provides cognitive behavioral therapy or symptoms of depression decrease, overall well-being improves"
+        ],
+        "incorrect conclusions": [
+          "A psychologist provides cognitive behavioral therapy",
+          "If overall well-being improves, then a psychologist provides cognitive behavioral therapy",
+          "If overall well-being improves, then a psychologist does not provide cognitive behavioral therapy",
+          "Overall well-being improves",
+          "Overall well-being does not improve",
+          "If overall well-being does not improve, then a psychologist provides cognitive behavioral therapy",
+          "If symptoms of depression do not decrease, then overall well-being improves",
+          "If a psychologist provides cognitive behavioral therapy or symptoms of depression do not decrease, then overall well-being improves"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Ecology": [
+      {
+        "premises": [
+          "Species A is present in the ecosystem or Species B is present in the ecosystem but not both at the same time",
+          "Species A is not present in the ecosystem"
+        ],
+        "conclusions": [
+          "Species B is present in the ecosystem",
+          "If Species B is not present in the ecosystem, Species A is present in the ecosystem"
+        ],
+        "incorrect conclusions": [
+          "Species B is not present in the ecosystem",
+          "If Species A is present in the ecosystem, then Species B is present in the ecosystem",
+          "If Species B is present in the ecosystem, then Species A is present in the ecosystem",
+          "Species A is present in the ecosystem"
+        ]
+      },
+      {
+        "premises": [
+          "The forest supports Plant A or Plant B but not both at the same time",
+          "The forest does not support Plant A"
+        ],
+        "conclusions": [
+          "The forest supports Plant B",
+          "If the forest does not support Plant B, the forest supports Plant A"
+        ],
+        "incorrect conclusions": [
+          "The forest does not support Plant B",
+          "If the forest supports Plant A, then the forest supports Plant B",
+          "If the forest supports Plant B, then the forest supports Plant A",
+          "The forest supports Plant A"
+        ]
+      },
+      {
+        "premises": [
+          "Habitat X provides a home for Animal A or Animal B but not both at the same time",
+          "Habitat X does not provide a home for Animal A"
+        ],
+        "conclusions": [
+          "Habitat X provides a home for Animal B",
+          "If Habitat X does not provide a home for Animal B, Habitat X provides a home for Animal A"
+        ],
+        "incorrect conclusions": [
+          "Habitat X does not provide a home for Animal B",
+          "If Habitat X provides a home for Animal A, then Habitat X provides a home for Animal B",
+          "If Habitat X provides a home for Animal B, then Habitat X provides a home for Animal A",
+          "Habitat X provides a home for Animal A"
+        ]
+      }
+    ]
+  }
+}

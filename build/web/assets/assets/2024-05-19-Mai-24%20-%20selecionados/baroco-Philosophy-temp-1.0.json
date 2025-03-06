@@ -1,0 +1,57 @@
+{
+  "Philosophy": {
+    "Baroco": [
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "Some skeptics are not thinkers",
+        "conclusion": "Some skeptics are not philosophers",
+        "incorrect conclusions": [
+          "All skeptics are not thinkers",
+          "All skeptics are philosophers",
+          "All skeptics are thinkers",
+          "Some philosophers are skeptics",
+          "Some philosophers are not skeptics",
+          "Some philosophers are not thinkers",
+          "Some skeptics are thinkers",
+          "Some skeptics are philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are skeptics"
+        ]
+      },
+      {
+        "major premise": "All metaphysicians are scholars",
+        "minor premise": "Some empiricists are not scholars",
+        "conclusion": "Some empiricists are not metaphysicians",
+        "incorrect conclusions": [
+          "All empiricists are not scholars",
+          "All empiricists are metaphysicians",
+          "All empiricists are scholars",
+          "Some metaphysicians are empiricists",
+          "Some metaphysicians are not empiricists",
+          "Some metaphysicians are not scholars",
+          "Some empiricists are scholars",
+          "Some empiricists are metaphysicians",
+          "Some scholars are not metaphysicians",
+          "Some scholars are empiricists"
+        ]
+      },
+      {
+        "major premise": "All logicians are academicians",
+        "minor premise": "Some pragmatists are not academicians",
+        "conclusion": "Some pragmatists are not logicians",
+        "incorrect conclusions": [
+          "All pragmatists are not academicians",
+          "All pragmatists are logicians",
+          "All pragmatists are academicians",
+          "Some logicians are pragmatists",
+          "Some logicians are not pragmatists",
+          "Some logicians are not academicians",
+          "Some pragmatists are academicians",
+          "Some pragmatists are logicians",
+          "Some academicians are not logicians",
+          "Some academicians are pragmatists"
+        ]
+      }
+    ]
+  }
+}

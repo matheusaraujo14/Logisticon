@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Astronomy": [
+        {
+          "premises": [
+            "If the star is very hot, it emits blue light",
+            "If the star is very hot, it has strong solar winds",
+            "The star does not emit blue light or it does not have strong solar winds"
+          ],
+          "conclusions": [
+            "The star is not very hot",
+            "The star does not emit blue light and it does not have strong solar winds",
+            "If the star is very hot, it emits blue light and it has strong solar winds"
+          ],
+          "incorrect conclusions": [
+            "If the star is very hot, it emits blue light and it does not have strong solar winds",
+            "If the star emits blue light and it has strong solar winds, it is very hot",
+            "If the star emits blue light, it is very hot",
+            "The star emits blue light or it has strong solar winds but not both",
+            "If the star is not very hot, it does not emit blue light or it does not have strong solar winds"
+          ]
+        },
+        {
+          "premises": [
+            "If the galaxy contains dark matter, it has a strong gravitational pull",
+            "If the galaxy contains dark matter, it bends light",
+            "The galaxy does not have a strong gravitational pull or it does not bend light"
+          ],
+          "conclusions": [
+            "The galaxy does not contain dark matter",
+            "The galaxy does not have a strong gravitational pull and it does not bend light",
+            "If the galaxy contains dark matter, it has a strong gravitational pull and it bends light"
+          ],
+          "incorrect conclusions": [
+            "If the galaxy contains dark matter, it has a strong gravitational pull and it does not bend light",
+            "If the galaxy has a strong gravitational pull and it bends light, it contains dark matter",
+            "If the galaxy has a strong gravitational pull, it contains dark matter",
+            "The galaxy has a strong gravitational pull or it bends light but not both",
+            "If the galaxy does not contain dark matter, it does not have a strong gravitational pull or it does not bend light"
+          ]
+        },
+        {
+          "premises": [
+            "If the planet has liquid water, it supports life",
+            "If the planet has liquid water, it has a magnetic field",
+            "The planet does not support life or it does not have a magnetic field"
+          ],
+          "conclusions": [
+            "The planet does not have liquid water",
+            "The planet does not support life and it does not have a magnetic field",
+            "If the planet has liquid water, it supports life and it has a magnetic field"
+          ],
+          "incorrect conclusions": [
+            "If the planet has liquid water, it supports life and it does not have a magnetic field",
+            "If the planet supports life and it has a magnetic field, it has liquid water",
+            "If the planet supports life, it has liquid water",
+            "The planet supports life or it has a magnetic field but not both",
+            "If the planet does not have liquid water, it does not support life or it does not have a magnetic field"
+          ]
+        }
+     ]
+  }
+}

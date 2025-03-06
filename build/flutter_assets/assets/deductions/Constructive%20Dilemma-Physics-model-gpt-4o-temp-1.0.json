@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Physics": [
+      {
+        "premises": [
+          "If an object is accelerating, then it experiences a net force",
+          "If an object has mass, then it experiences a net force",
+          "The object is accelerating or the object has mass"
+        ],
+        "conclusions": [
+          "The object experiences a net force",
+          "If the object is accelerating or the object has mass, then it experiences a net force",
+          "If the object does not experience a net force, then the object is not accelerating and the object does not have mass",
+          "If the object is accelerating and the object has mass, then it experiences a net force",
+          "If the object experiences a net force, then the object is accelerating or the object has mass"
+        ],
+        "incorrect conclusions": [
+          "If the object is accelerating, then the object has mass or experiences a net force",
+          "If the object experiences a net force, then the object is accelerating and the object has mass",
+          "If the object experiences a net force or the object is accelerating, then the object has mass",
+          "If the object is not accelerating, then it experiences a net force",
+          "If the object does not experience a net force, then the object is accelerating and the object has mass"
+        ]
+      },
+      {
+        "premises": [
+          "If a magnetic field is present, then a moving charge experiences a force",
+          "If an electric field is present, then a moving charge experiences a force",
+          "A magnetic field is present or an electric field is present"
+        ],
+        "conclusions": [
+          "A moving charge experiences a force",
+          "If a magnetic field is present or an electric field is present, then a moving charge experiences a force",
+          "If a moving charge does not experience a force, then a magnetic field is not present and an electric field is not present",
+          "If a magnetic field is present and an electric field is present, then a moving charge experiences a force",
+          "If a moving charge experiences a force, then a magnetic field is present or an electric field is present"
+        ],
+        "incorrect conclusions": [
+          "If a magnetic field is present, then an electric field is present or a moving charge experiences a force",
+          "If a moving charge experiences a force, then a magnetic field is present and an electric field is present",
+          "If a moving charge experiences a force or a magnetic field is present, then an electric field is present",
+          "If a magnetic field is not present, then a moving charge experiences a force",
+          "If a moving charge does not experience a force, then a magnetic field is present and an electric field is present"
+        ]
+      },
+      {
+        "premises": [
+          "If a photon strikes the surface, then an electron is emitted",
+          "If light is of sufficient energy, then an electron is emitted",
+          "A photon strikes the surface or light is of sufficient energy"
+        ],
+        "conclusions": [
+          "An electron is emitted",
+          "If a photon strikes the surface or light is of sufficient energy, then an electron is emitted",
+          "If an electron is not emitted, then a photon does not strike the surface and light is not of sufficient energy",
+          "If a photon strikes the surface and light is of sufficient energy, then an electron is emitted",
+          "If an electron is emitted, then a photon strikes the surface or light is of sufficient energy"
+        ],
+        "incorrect conclusions": [
+          "If a photon strikes the surface, then light is of sufficient energy or an electron is emitted",
+          "If an electron is emitted, then a photon strikes the surface and light is of sufficient energy",
+          "If an electron is emitted or a photon strikes the surface, then light is of sufficient energy",
+          "If a photon does not strike the surface, then an electron is emitted",
+          "If an electron is not emitted, then a photon strikes the surface and light is of sufficient energy"
+        ]
+      }
+    ]
+  }
+}

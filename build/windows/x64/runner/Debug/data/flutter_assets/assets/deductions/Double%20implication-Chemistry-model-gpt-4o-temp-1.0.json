@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Chemistry": [
+        {
+          "premises": [
+            "If a reaction is exothermic, then it releases energy",
+            "If a reaction releases energy, then the temperature of the surroundings increases"
+          ],
+          "conclusions": [
+            "If a reaction is exothermic, then the temperature of the surroundings increases",
+            "If the temperature of the surroundings does not increase, then a reaction is not exothermic",
+            "If a reaction is exothermic or a reaction releases energy, then the temperature of the surroundings increases and a reaction is exothermic implies the temperature of the surroundings increases",
+            "If a reaction is exothermic, then the temperature of the surroundings increases and a reaction is exothermic implies the temperature of the surroundings increases",
+            "If a reaction is not exothermic and a reaction releases energy, then the temperature of the surroundings increases and a reaction is exothermic implies the temperature of the surroundings increases",
+            "If a reaction is exothermic or a reaction releases energy, then the temperature of the surroundings increases"
+          ],
+          "incorrect conclusions": [
+            "A reaction is exothermic",
+            "If the temperature of the surroundings increases, then a reaction is exothermic",
+            "If the temperature of the surroundings increases, then a reaction is not exothermic",
+            "The temperature of the surroundings increases",
+            "The temperature of the surroundings does not increase",
+            "If the temperature of the surroundings does not increase, then a reaction is exothermic",
+            "If a reaction does not release energy, then the temperature of the surroundings increases",
+            "If a reaction is exothermic or a reaction does not release energy, then the temperature of the surroundings increases"
+          ]
+        },
+        {
+          "premises": [
+            "If a substance is a strong acid, then it donates protons easily",
+            "If a substance donates protons easily, then it has a low pH"
+          ],
+          "conclusions": [
+            "If a substance is a strong acid, then it has a low pH",
+            "If a substance does not have a low pH, then it is not a strong acid",
+            "If a substance is a strong acid or it donates protons easily, then it has a low pH and a substance is a strong acid implies it has a low pH",
+            "If a substance is a strong acid, then it has a low pH and a substance is a strong acid implies it has a low pH",
+            "If a substance is not a strong acid and it donates protons easily, then it has a low pH and a substance is a strong acid implies it has a low pH",
+            "If a substance is a strong acid or it donates protons easily, then it has a low pH"
+          ],
+          "incorrect conclusions": [
+            "A substance is a strong acid",
+            "If a substance has a low pH, then it is a strong acid",
+            "If a substance has a low pH, then it is not a strong acid",
+            "A substance has a low pH",
+            "A substance does not have a low pH",
+            "If a substance does not have a low pH, then it is a strong acid",
+            "If a substance does not donate protons easily, then it has a low pH",
+            "If a substance is a strong acid or it does not donate protons easily, then it has a low pH"
+          ]
+        },
+        {
+          "premises": [
+            "If a metal is highly reactive, then it can displace hydrogen from acids",
+            "If a metal can displace hydrogen from acids, then it corrodes easily"
+          ],
+          "conclusions": [
+            "If a metal is highly reactive, then it corrodes easily",
+            "If a metal does not corrode easily, then it is not highly reactive",
+            "If a metal is highly reactive or it can displace hydrogen from acids, then it corrodes easily and a metal is highly reactive implies it corrodes easily",
+            "If a metal is highly reactive, then it corrodes easily and a metal is highly reactive implies it corrodes easily",
+            "If a metal is not highly reactive and it can displace hydrogen from acids, then it corrodes easily and a metal is highly reactive implies it corrodes easily",
+            "If a metal is highly reactive or it can displace hydrogen from acids, then it corrodes easily"
+          ],
+          "incorrect conclusions": [
+            "A metal is highly reactive",
+            "If a metal corrodes easily, then it is highly reactive",
+            "If a metal corrodes easily, then it is not highly reactive",
+            "A metal corrodes easily",
+            "A metal does not corrode easily",
+            "If a metal does not corrode easily, then it is highly reactive",
+            "If a metal cannot displace hydrogen from acids, then it corrodes easily",
+            "If a metal is highly reactive or it cannot displace hydrogen from acids, then it corrodes easily"
+          ]
+        }
+     ]
+  }
+}

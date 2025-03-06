@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Disamis": [
+      {
+        "major premise": "Some novels are bestsellers",
+        "minor premise": "All novels are books",
+        "conclusion": "Some books are bestsellers",
+        "incorrect conclusions": [
+          "All books are bestsellers",
+          "All books are novels",
+          "All bestsellers are books",
+          "All bestsellers are novels",
+          "All novels are bestsellers",
+          "Some books are not novels",
+          "Some bestsellers are not books",
+          "Some bestsellers are not novels",
+          "Some novels are not books",
+          "Some novels are not bestsellers",
+          "No bestsellers is a book",
+          "No bestsellers is a novel",
+          "No novels is a book",
+          "No novels is a bestsellers",
+          "No books is a novel",
+          "No books is a bestsellers"
+        ]
+      },
+      {
+        "major premise": "Some poems are classics",
+        "minor premise": "All poems are writings",
+        "conclusion": "Some writings are classics",
+        "incorrect conclusions": [
+          "All writings are classics",
+          "All writings are poems",
+          "All classics are writings",
+          "All classics are poems",
+          "All poems are classics",
+          "Some writings are not poems",
+          "Some classics are not writings",
+          "Some classics are not poems",
+          "Some poems are not writings",
+          "Some poems are not classics",
+          "No classics is a writings",
+          "No classics is a poems",
+          "No poems is a writings",
+          "No poems is a classics",
+          "No writings is a poems",
+          "No writings is a classics"
+        ]
+      },
+      {
+        "major premise": "Some essays are influential",
+        "minor premise": "All essays are expositions",
+        "conclusion": "Some expositions are influential",
+        "incorrect conclusions": [
+          "All expositions are influential",
+          "All expositions are essays",
+          "All influential are expositions",
+          "All influential are essays",
+          "All essays are influential",
+          "Some expositions are not essays",
+          "Some influential are not expositions",
+          "Some influential are not essays",
+          "Some essays are not expositions",
+          "Some essays are not influential",
+          "No influential is a expositions",
+          "No influential is a essays",
+          "No essays is a expositions",
+          "No essays is a influential",
+          "No expositions is a essays",
+          "No expositions is a influential"
+        ]
+      }
+    ]
+  }
+}

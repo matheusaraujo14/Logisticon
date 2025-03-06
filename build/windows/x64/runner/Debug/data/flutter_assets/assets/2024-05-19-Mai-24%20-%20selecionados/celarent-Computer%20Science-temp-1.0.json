@@ -1,0 +1,38 @@
+{
+  "Computer Science": {
+    "Celarent": [
+      {
+        "major premise": "No algorithms are networking Protocols",
+        "minor premise": "All sortingAlgorithms are algorithms",
+        "conclusion": "No sortingAlgorithms are networking Protocols",
+        "incorrect conclusions": [
+          "All sortingAlgorithms are networking Protocols",
+          "All algorithms are networking Protocols",
+          "Some sortingAlgorithms are algorithms",
+          "Some sortingAlgorithms are networking Protocols",
+          "Some algorithms are sortingAlgorithms",
+          "Some algorithms are networking Protocols",
+          "Some algorithms are not sortingAlgorithms",
+          "Some networking Protocols are sortingAlgorithms",
+          "Some networking Protocols are algorithms"
+        ]
+      },
+      {
+        "major premise": "No databases are programming Languages",
+        "minor premise": "All SQL are databases",
+        "conclusion": "No SQL are programming Languages",
+        "incorrect conclusions": [
+          "All SQL are programming Languages",
+          "All databases are programming Languages",
+          "Some SQL are databases",
+          "Some SQL are programming Languages",
+          "Some databases are SQL",
+          "Some databases are programming Languages",
+          "Some databases are not SQL",
+          "Some programming Languages are SQL",
+          "Some programming Languages are databases"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "History": {
+     "Bamalip" : [
+		{
+          "major premise": "All historians are scholars",
+          "minor premise": "All scholars are academics and some historians exist",
+          "conclusion": "Some academics are historians",
+		  "incorrect conclusions": [
+			"All academics are scholars",
+			"All scholars are historians",
+			"Some academics are not scholars",
+			"Some academics are not historians",
+			"Some scholars are not historians",
+			"Some scholars are not academics",
+			"Some historians are not scholars",
+			"Some historians are not academics",
+			"No academics is scholars",
+			"No academics is historians",
+			"No scholars is academics",
+			"No scholars is historians",
+			"No historians is scholars",
+			"No historians is academics"
+		  ]
+		},
+		{
+          "major premise": "All ancient civilizations are cultures",
+          "minor premise": "All cultures are societies and some ancient civilizations exist",
+          "conclusion": "Some societies are ancient civilizations",
+		  "incorrect conclusions": [
+			"All societies are cultures",
+			"All cultures are ancient civilizations",
+			"Some societies are not cultures",
+			"Some societies are not ancient civilizations",
+			"Some cultures are not ancient civilizations",
+			"Some cultures are not societies",
+			"Some ancient civilizations are not cultures",
+			"Some ancient civilizations are not societies",
+			"No societies is cultures",
+			"No societies is ancient civilizations",
+			"No cultures is societies",
+			"No cultures is ancient civilizations",
+			"No ancient civilizations is cultures",
+			"No ancient civilizations is societies"
+		  ]
+		},
+		{
+          "major premise": "All historical treaties are documents",
+          "minor premise": "All documents are artifacts and some historical treaties exist",
+          "conclusion": "Some artifacts are historical treaties",
+		  "incorrect conclusions": [
+			"All artifacts are documents",
+			"All documents are historical treaties",
+			"Some artifacts are not documents",
+			"Some artifacts are not historical treaties",
+			"Some documents are not historical treaties",
+			"Some documents are not artifacts",
+			"Some historical treaties are not documents",
+			"Some historical treaties are not artifacts",
+			"No artifacts is documents",
+			"No artifacts is historical treaties",
+			"No documents is artifacts",
+			"No documents is historical treaties",
+			"No historical treaties is documents",
+			"No historical treaties is artifacts"
+		  ]
+		}
+	 ]
+  }
+}

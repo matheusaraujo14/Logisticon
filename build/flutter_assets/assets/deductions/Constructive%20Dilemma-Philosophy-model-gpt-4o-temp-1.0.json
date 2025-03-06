@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If humans are rational, then they can engage in ethical reasoning",
+          "If humans have free will, then they can engage in ethical reasoning",
+          "Humans are rational or humans have free will"
+        ],
+        "conclusions": [
+          "Humans can engage in ethical reasoning",
+          "If humans are rational or humans have free will, then they can engage in ethical reasoning",
+          "If humans cannot engage in ethical reasoning, then humans are not rational and humans do not have free will",
+          "If humans are rational and humans have free will, then they can engage in ethical reasoning",
+          "If humans can engage in ethical reasoning, then humans are rational or humans have free will"
+        ],
+        "incorrect conclusions": [
+          "If humans are rational, then humans have free will or humans can engage in ethical reasoning",
+          "If humans can engage in ethical reasoning, then humans are rational and humans have free will",
+          "If humans can engage in ethical reasoning or humans are rational, then humans have free will",
+          "If humans are not rational, then humans can engage in ethical reasoning",
+          "If humans cannot engage in ethical reasoning, then humans are rational and humans have free will"
+        ]
+      },
+      {
+        "premises": [
+          "If society is just, then individuals have equal opportunities",
+          "If society is democratic, then individuals have equal opportunities",
+          "Society is just or society is democratic"
+        ],
+        "conclusions": [
+          "Individuals have equal opportunities",
+          "If society is just or society is democratic, then individuals have equal opportunities",
+          "If individuals do not have equal opportunities, then society is not just and society is not democratic",
+          "If society is just and society is democratic, then individuals have equal opportunities",
+          "If individuals have equal opportunities, then society is just or society is democratic"
+        ],
+        "incorrect conclusions": [
+          "If society is just, then society is democratic or individuals have equal opportunities",
+          "If individuals have equal opportunities, then society is just and society is democratic",
+          "If individuals have equal opportunities or society is just, then society is democratic",
+          "If society is not just, then individuals have equal opportunities",
+          "If individuals do not have equal opportunities, then society is just and society is democratic"
+        ]
+      },
+      {
+        "premises": [
+          "If the soul is immortal, then morality is significant",
+          "If there is a cosmic order, then morality is significant",
+          "The soul is immortal or there is a cosmic order"
+        ],
+        "conclusions": [
+          "Morality is significant",
+          "If the soul is immortal or there is a cosmic order, then morality is significant",
+          "If morality is not significant, then the soul is not immortal and there is no cosmic order",
+          "If the soul is immortal and there is a cosmic order, then morality is significant",
+          "If morality is significant, then the soul is immortal or there is a cosmic order"
+        ],
+        "incorrect conclusions": [
+          "If the soul is immortal, then there is a cosmic order or morality is significant",
+          "If morality is significant, then the soul is immortal and there is a cosmic order",
+          "If morality is significant or the soul is immortal, then there is a cosmic order",
+          "If the soul is not immortal, then morality is significant",
+          "If morality is not significant, then the soul is immortal and there is a cosmic order"
+        ]
+      }
+    ]
+  }
+}

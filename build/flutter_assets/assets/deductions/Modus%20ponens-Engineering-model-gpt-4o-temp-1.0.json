@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Engineering": [
+      {
+        "premises": [
+          "If the power supply is stable, then the circuit will function properly",
+          "The power supply is stable"
+        ],
+        "conclusions": [
+          "The circuit will function properly"
+        ],
+        "incorrect conclusions": [
+          "The circuit will not function properly",
+          "If the circuit functions properly, then the power supply is stable",
+          "If the circuit does not function properly, then the power supply is stable",
+          "If the power supply is not stable, then the circuit will not function properly"
+        ]
+      },
+      {
+        "premises": [
+          "If the coolant system is activated, then the engine temperature will decrease",
+          "The coolant system is activated"
+        ],
+        "conclusions": [
+          "The engine temperature will decrease"
+        ],
+        "incorrect conclusions": [
+          "The engine temperature will not decrease",
+          "If the engine temperature decreases, then the coolant system is activated",
+          "If the engine temperature does not decrease, then the coolant system is activated",
+          "If the coolant system is not activated, then the engine temperature will not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "If the software is updated, then the system performance will improve",
+          "The software is updated"
+        ],
+        "conclusions": [
+          "The system performance will improve"
+        ],
+        "incorrect conclusions": [
+          "The system performance will not improve",
+          "If the system performance improves, then the software is updated",
+          "If the system performance does not improve, then the software is updated",
+          "If the software is not updated, then the system performance will not improve"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+    "Ferio": [
+      {
+        "major premise": "No professors are psychologists",
+        "minor premise": "Some students are professors",
+        "conclusion": "Some students are not psychologists",
+        "incorrect conclusions": [
+          "All professors are students",
+          "All professors are psychologists",
+          "All students are psychologists",
+          "All psychologists are professors",
+          "All psychologists are students",
+          "Some professors are not students",
+          "Some psychologists are students",
+          "Some psychologists are not students",
+          "Some psychologists are professors",
+          "Some psychologists are students",
+          "Some students are psychologists",
+          "Some students are not professors",
+          "Some professors are psychologists",
+          "No professors are students",
+          "No students are not professors",
+          "No students are professors"
+        ]
+      },
+      {
+        "major premise": "No therapists are neurologists",
+        "minor premise": "Some counselors are therapists",
+        "conclusion": "Some counselors are not neurologists",
+        "incorrect conclusions": [
+          "All therapists are counselors",
+          "All therapists are neurologists",
+          "All counselors are neurologists",
+          "All neurologists are therapists",
+          "All neurologists are counselors",
+          "Some therapists are not counselors",
+          "Some neurologists are counselors",
+          "Some neurologists are not counselors",
+          "Some neurologists are therapists",
+          "Some neurologists are counselors",
+          "Some counselors are neurologists",
+          "Some counselors are not therapists",
+          "Some therapists are neurologists",
+          "No therapists are counselors",
+          "No counselors are not therapists",
+          "No counselors are therapists"
+        ]
+      },
+      {
+        "major premise": "No psychiatrists are sociologists",
+        "minor premise": "Some psychologists are psychiatrists",
+        "conclusion": "Some psychologists are not sociologists",
+        "incorrect conclusions": [
+          "All psychiatrists are psychologists",
+          "All psychiatrists are sociologists",
+          "All psychologists are sociologists",
+          "All sociologists are psychiatrists",
+          "All sociologists are psychologists",
+          "Some psychiatrists are not psychologists",
+          "Some sociologists are psychologists",
+          "Some sociologists are not psychologists",
+          "Some sociologists are psychiatrists",
+          "Some sociologists are psychologists",
+          "Some psychologists are sociologists",
+          "Some psychologists are not psychiatrists",
+          "Some psychiatrists are sociologists",
+          "No psychiatrists are psychologists",
+          "No psychologists are not psychiatrists",
+          "No psychologists are psychiatrists"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Law": {
+     "Ferio": [
+        {
+          "major premise": "No plaintiffs are advocates",
+          "minor premise": "Some witnesses are plaintiffs",
+          "conclusion": "Some witnesses are not advocates",
+          "incorrect conclusions": [
+            "All plaintiffs are witnesses",
+            "All plaintiffs are advocates",
+            "All witnesses are advocates",
+            "All advocates are plaintiffs",
+            "All advocates are witnesses",
+            "Some plaintiffs are not witnesses",
+            "Some advocates are witnesses",
+            "Some advocates are not witnesses",
+            "Some advocates are plaintiffs",
+            "Some advocates are witnesses",
+            "Some witnesses are advocates",
+            "Some witnesses are not plaintiffs",
+            "Some plaintiffs are advocates",
+            "No plaintiffs is witnesses",
+            "No witnesses is not plaintiffs",
+            "No witnesses is plaintiffs"
+          ]
+        },
+        {
+          "major premise": "No witnesses are judges",
+          "minor premise": "Some defendants are witnesses",
+          "conclusion": "Some defendants are not judges",
+          "incorrect conclusions": [
+            "All witnesses are defendants",
+            "All witnesses are judges",
+            "All defendants are judges",
+            "All judges are witnesses",
+            "All judges are defendants",
+            "Some witnesses are not defendants",
+            "Some judges are defendants",
+            "Some judges are not defendants",
+            "Some judges are witnesses",
+            "Some judges are defendants",
+            "Some defendants are judges",
+            "Some defendants are not witnesses",
+            "Some witnesses are judges",
+            "No witnesses is defendants",
+            "No defendants is not witnesses",
+            "No defendants is witnesses"
+          ]
+        }
+     ]
+  }
+}

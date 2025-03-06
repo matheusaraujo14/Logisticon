@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Medicine": [
+      {
+        "premises": [
+          "A patient has a viral or bacterial infection but not both",
+          "A patient has a viral infection"
+        ],
+        "conclusions": [
+          "A patient does not have a bacterial infection"
+        ],
+        "incorrect conclusions": [
+          "A patient has a bacterial infection",
+          "A patient does not have a viral infection"
+        ]
+      },
+      {
+        "premises": [
+          "The medication causes dizziness or headaches but not both",
+          "The medication causes dizziness"
+        ],
+        "conclusions": [
+          "The medication does not cause headaches"
+        ],
+        "incorrect conclusions": [
+          "The medication causes headaches",
+          "The medication does not cause dizziness"
+        ]
+      },
+      {
+        "premises": [
+          "The patient has a fever or cough but not both",
+          "The patient has a fever"
+        ],
+        "conclusions": [
+          "The patient does not have a cough"
+        ],
+        "incorrect conclusions": [
+          "The patient has a cough",
+          "The patient does not have a fever"
+        ]
+      }
+    ]
+  }
+}

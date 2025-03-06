@@ -1,0 +1,48 @@
+{
+  "Law": {
+    "Bocardo": [
+      {
+        "major premise": "Some jurors are not lawyers",
+        "minor premise": "All jurors are citizens",
+        "conclusion": "Some citizens are not lawyers",
+        "incorrect conclusions": [
+          "All jurors are lawyers",
+          "All citizens are jurors",
+          "All citizens are lawyers",
+          "All lawyers are not jurors",
+          "Some citizens are not jurors",
+          "Some citizens are lawyers",
+          "Some jurors are not citizens",
+          "Some jurors are lawyers",
+          "Some lawyers are jurors",
+          "Some lawyers are citizens",
+          "Some lawyers are not citizens",
+          "Some lawyers are not jurors",
+          "No juror is a citizen",
+          "No citizen is a juror"
+        ]
+      },
+      {
+        "major premise": "Some trials are not convictions",
+        "minor premise": "All trials are proceedings",
+        "conclusion": "Some proceedings are not convictions",
+        "incorrect conclusions": [
+          "All trials are convictions",
+          "All proceedings are trials",
+          "All proceedings are convictions",
+          "All convictions are not trials",
+          "Some proceedings are not trials",
+          "Some proceedings are convictions",
+          "Some trials are not proceedings",
+          "Some trials are convictions",
+          "Some convictions are trials",
+          "Some convictions are proceedings",
+          "Some convictions are not proceedings",
+          "Some convictions are not trials",
+          "No trial is a proceeding",
+          "No proceeding is a trial"
+        ]
+      }
+    ]
+  }
+}

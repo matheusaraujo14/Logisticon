@@ -1,0 +1,23 @@
+{
+  "Engineering": {
+    "Baroco": [
+      {
+        "major premise": "All engines are mechanical devices",
+        "minor premise": "Some sensors are not mechanical devices",
+        "conclusion": "Some sensors are not engines",
+        "incorrect conclusions": [
+          "All sensors are not mechanical devices",
+          "All sensors are engines",
+          "All sensors are mechanical devices",
+          "Some mechanical devices are sensors",
+          "Some mechanical devices are not sensors",
+          "Some mechanical devices are not mechanical devices",
+          "Some sensors are mechanical devices",
+          "Some sensors are engines",
+          "Some mechanical devices are not engines",
+          "Some mechanical devices are sensors"
+        ]
+      }
+    ]
+  }
+}

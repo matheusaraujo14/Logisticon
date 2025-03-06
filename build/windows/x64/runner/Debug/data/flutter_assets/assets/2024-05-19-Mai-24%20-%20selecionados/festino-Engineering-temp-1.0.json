@@ -1,0 +1,75 @@
+{
+  "Engineering": {
+     "Festino" : [
+		{
+          "major premise": "No bridges are skyscrapers",
+          "minor premise": "Some structures are skyscrapers",
+          "conclusion": "Some structures are not bridges",
+		  "incorrect conclusions": [
+			"All skyscrapers are structures",
+			"All skyscrapers are bridges",
+			"All structures are bridges",
+			"All bridges are skyscrapers",
+			"All bridges are structures",
+			"Some skyscrapers are not structures",
+			"Some bridges are structures",
+			"Some bridges are not structures",
+			"Some bridges are skyscrapers",
+			"Some bridges are structures",
+			"Some structures are bridges",
+			"Some structures are not skyscrapers",
+			"Some skyscrapers are bridges",
+			"No skyscraper is structure",
+			"No structures are not skyscrapers",
+			"No structures are skyscrapers"
+		  ]
+		},
+		{
+          "major premise": "No circuits are engines",
+          "minor premise": "Some machines are engines",
+          "conclusion": "Some machines are not circuits",
+		  "incorrect conclusions": [
+			"All engines are machines",
+			"All engines are circuits",
+			"All machines are circuits",
+			"All circuits are engines",
+			"All circuits are machines",
+			"Some engines are not machines",
+			"Some circuits are machines",
+			"Some circuits are not machines",
+			"Some circuits are engines",
+			"Some circuits are machines",
+			"Some machines are circuits",
+			"Some machines are not engines",
+			"Some engines are circuits",
+			"No engines are machines",
+			"No machines are not engines",
+			"No machines are engines"
+		  ]
+		},
+		{
+          "major premise": "No turbines are storage units",
+          "minor premise": "Some power sources are storage units",
+          "conclusion": "Some power sources are not turbines",
+		  "incorrect conclusions": [
+			"All storage units are power sources",
+			"All storage units are turbines",
+			"All power sources are turbines",
+			"All turbines are storage units",
+			"All turbines are power sources",
+			"Some storage units are not power sources",
+			"Some turbines are power sources",
+			"Some turbines are not power sources",
+			"Some turbines are storage units",
+			"Some turbines are power sources",
+			"Some power sources are turbines",
+			"Some power sources are not storage units",
+			"Some storage units are turbines",
+			"No storage unit is power source",
+			"No power sources are not storage units",
+			"No power sources are storage units"
+		  ]
+		}
+	 ]
+  }
+}

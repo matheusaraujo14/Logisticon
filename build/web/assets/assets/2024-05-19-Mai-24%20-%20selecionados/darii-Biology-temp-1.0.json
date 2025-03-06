@@ -1,0 +1,78 @@
+{
+  "Biology": {
+    "Darii": [
+      {
+        "major premise": "All mammals are animals",
+        "minor premise": "Some whales are mammals",
+        "conclusion": "Some whales are animals",
+        "incorrect conclusions": [
+          "All whales are mammals",
+          "All whales are animals",
+          "All animals are mammals",
+          "All animals are whales",
+          "All mammals are whales",
+          "Some whales are not animals",
+          "Some whales are not mammals",
+          "Some animals are not mammals",
+          "Some animals are not whales",
+          "Some mammals are not animals",
+          "Some mammals are not whales",
+          "No whales are animals",
+          "No whales are mammals",
+          "No mammals are animals",
+          "No mammals are whales",
+          "No animals are mammals",
+          "No animals are whales"
+        ]
+      },
+      {
+        "major premise": "All birds are vertebrates",
+        "minor premise": "Some canaries are birds",
+        "conclusion": "Some canaries are vertebrates",
+        "incorrect conclusions": [
+          "All canaries are birds",
+          "All canaries are vertebrates",
+          "All vertebrates are birds",
+          "All vertebrates are canaries",
+          "All birds are canaries",
+          "Some canaries are not vertebrates",
+          "Some canaries are not birds",
+          "Some vertebrates are not birds",
+          "Some vertebrates are not canaries",
+          "Some birds are not vertebrates",
+          "Some birds are not canaries",
+          "No canaries are vertebrates",
+          "No canaries are birds",
+          "No birds are vertebrates",
+          "No birds are canaries",
+          "No vertebrates are birds",
+          "No vertebrates are canaries"
+        ]
+      },
+      {
+        "major premise": "All plants are organisms",
+        "minor premise": "Some ferns are plants",
+        "conclusion": "Some ferns are organisms",
+        "incorrect conclusions": [
+          "All ferns are plants",
+          "All ferns are organisms",
+          "All organisms are plants",
+          "All organisms are ferns",
+          "All plants are ferns",
+          "Some ferns are not organisms",
+          "Some ferns are not plants",
+          "Some organisms are not plants",
+          "Some organisms are not ferns",
+          "Some plants are not organisms",
+          "Some plants are not ferns",
+          "No ferns are organisms",
+          "No ferns are plants",
+          "No plants are organisms",
+          "No plants are ferns",
+          "No organisms are plants",
+          "No organisms are ferns"
+        ]
+      }
+    ]
+  }
+}

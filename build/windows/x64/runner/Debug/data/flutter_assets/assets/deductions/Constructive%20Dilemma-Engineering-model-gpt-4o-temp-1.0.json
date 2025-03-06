@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Engineering": [
+		{
+          "premises": [
+            "If the engine overheats, the vehicle stops functioning",
+            "If the fuel runs out, the vehicle stops functioning",
+            "The engine overheats or the fuel runs out"
+          ],
+          "conclusions": [
+            "The vehicle stops functioning",
+            "If the engine overheats or the fuel runs out, then the vehicle stops functioning",
+            "If the vehicle does not stop functioning, then the engine does not overheat and the fuel does not run out",
+            "If the engine overheats and the fuel runs out, then the vehicle stops functioning",
+            "If the vehicle stops functioning, then the engine overheats or the fuel runs out"
+          ],
+          "incorrect conclusions": [
+            "If the engine overheats, then the fuel runs out or the vehicle stops functioning",
+            "If the vehicle stops functioning, then the engine overheats and the fuel runs out",
+            "If the vehicle stops functioning or the engine overheats, then the fuel runs out",
+            "If the engine does not overheat, then the vehicle stops functioning",
+            "If the vehicle does not stop functioning, then the engine overheats and the fuel runs out"
+          ]
+		},
+		{
+          "premises": [
+            "If the circuit is open, the current flow is interrupted",
+            "If the power supply fails, the current flow is interrupted",
+            "The circuit is open or the power supply fails"
+          ],
+          "conclusions": [
+            "The current flow is interrupted",
+            "If the circuit is open or the power supply fails, then the current flow is interrupted",
+            "If the current flow is not interrupted, then the circuit is not open and the power supply does not fail",
+            "If the circuit is open and the power supply fails, then the current flow is interrupted",
+            "If the current flow is interrupted, then the circuit is open or the power supply fails"
+          ],
+          "incorrect conclusions": [
+            "If the circuit is open, then the power supply fails or the current flow is interrupted",
+            "If the current flow is interrupted, then the circuit is open and the power supply fails",
+            "If the current flow is interrupted or the circuit is open, then the power supply fails",
+            "If the circuit is not open, then the current flow is interrupted",
+            "If the current flow is not interrupted, then the circuit is open and the power supply fails"
+          ]
+		},
+		{
+          "premises": [
+            "If the software crashes, the system needs a reboot",
+            "If the hardware fails, the system needs a reboot",
+            "The software crashes or the hardware fails"
+          ],
+          "conclusions": [
+            "The system needs a reboot",
+            "If the software crashes or the hardware fails, then the system needs a reboot",
+            "If the system does not need a reboot, then the software does not crash and the hardware does not fail",
+            "If the software crashes and the hardware fails, then the system needs a reboot",
+            "If the system needs a reboot, then the software crashes or the hardware fails"
+          ],
+          "incorrect conclusions": [
+            "If the software crashes, then the hardware fails or the system needs a reboot",
+            "If the system needs a reboot, then the software crashes and the hardware fails",
+            "If the system needs a reboot or the software crashes, then the hardware fails",
+            "If the software does not crash, then the system needs a reboot",
+            "If the system does not need a reboot, then the software crashes and the hardware fails"
+          ]
+		}
+	]
+  }
+}

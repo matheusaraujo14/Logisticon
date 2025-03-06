@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Economics": [
+		{
+          "premises": [ 
+            "If the inflation rate increases, then the cost of living increases",
+            "The inflation rate increases"
+          ],
+          "conclusions": [
+			"The cost of living increases"
+		  ],
+		  "incorrect conclusions": [
+			"The cost of living does not increase",
+			"The cost of living increases implies that the inflation rate increases",
+			"The cost of living does not increase implies that the inflation rate increases",
+			"If the inflation rate does not increase, then the cost of living does not increase"
+		  ]
+		},
+		{
+          "premises": [
+            "If unemployment rises, then consumer spending decreases",
+            "Unemployment rises"
+          ],
+          "conclusions": [
+			"Consumer spending decreases"
+		  ],
+		  "incorrect conclusions": [
+			"Consumer spending does not decrease",
+			"Consumer spending decreases implies that unemployment rises",
+			"Consumer spending does not decrease implies that unemployment rises",
+			"If unemployment does not rise, then consumer spending does not decrease"
+		  ]
+		},
+		{
+          "premises": [
+            "If government spending increases, then the national debt increases",
+            "Government spending increases"
+          ],
+          "conclusions": [
+			"The national debt increases"
+		  ],
+		  "incorrect conclusions": [
+			"The national debt does not increase",
+			"The national debt increases implies that government spending increases",
+			"The national debt does not increase implies that government spending increases",
+			"If government spending does not increase, then the national debt does not increase"
+		  ]
+		}
+	 ]
+  }
+}

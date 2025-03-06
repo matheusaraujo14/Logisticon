@@ -1,0 +1,29 @@
+{
+  "Geography": {
+     "Fresison" : [
+        {
+          "major premise": "No rocks are stars",
+          "minor premise": "Some stars are molecules",
+          "conclusion": "Some molecules are not rocks",
+          "incorrect conclusions": [
+            "All stars are molecules",
+            "All stars are rocks",
+            "All molecules are rocks",
+            "All rocks are stars",
+            "All rocks are molecules",
+            "Some stars are not molecules",
+            "Some rocks are molecules",
+            "Some rocks are not molecules",
+            "Some rocks are stars",
+            "Some rocks are molecules",
+            "Some molecules are rocks",
+            "Some molecules are not stars",
+            "Some stars are rocks",
+            "No stars are molecules",
+            "No molecules are not stars",
+            "No molecules are stars"
+          ]
+        }
+     ]
+  }
+}

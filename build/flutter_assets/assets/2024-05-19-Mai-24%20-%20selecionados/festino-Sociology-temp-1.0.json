@@ -1,0 +1,52 @@
+{
+  "Sociology": {
+    "Festino": [
+      {
+        "major premise": "No anthropologists are sociologists",
+        "minor premise": "Some college students are sociologists",
+        "conclusion": "Some college students are not anthropologists",
+        "incorrect conclusions": [
+          "All sociologists are college students",
+          "All sociologists are anthropologists",
+          "All college students are anthropologists",
+          "All anthropologists are sociologists",
+          "All anthropologists are college students",
+          "Some sociologists are not college students",
+          "Some anthropologists are college students",
+          "Some anthropologists are not college students",
+          "Some anthropologists are sociologists",
+          "Some anthropologists are college students",
+          "Some college students are anthropologists",
+          "Some college students are not sociologists",
+          "Some sociologists are anthropologists",
+          "No sociologists are college students",
+          "No college students are not sociologists",
+          "No college students are sociologists"
+        ]
+      },
+      {
+        "major premise": "No demographers are psychologists",
+        "minor premise": "Some research assistants are psychologists",
+        "conclusion": "Some research assistants are not demographers",
+        "incorrect conclusions": [
+          "All psychologists are research assistants",
+          "All psychologists are demographers",
+          "All research assistants are demographers",
+          "All demographers are psychologists",
+          "All demographers are research assistants",
+          "Some psychologists are not research assistants",
+          "Some demographers are research assistants",
+          "Some demographers are not research assistants",
+          "Some demographers are psychologists",
+          "Some demographers are research assistants",
+          "Some research assistants are demographers",
+          "Some research assistants are not psychologists",
+          "Some psychologists are demographers",
+          "No psychologists are research assistants",
+          "No research assistants are not psychologists",
+          "No research assistants are psychologists"
+        ]
+      }
+    ]
+  }
+}

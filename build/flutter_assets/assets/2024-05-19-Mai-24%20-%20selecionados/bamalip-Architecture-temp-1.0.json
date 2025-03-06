@@ -1,0 +1,69 @@
+{
+  "Architecture": {
+     "Bamalip" : [
+		{
+          "major premise": "All skyscrapers are buildings",
+          "minor premise": "All buildings are structures and some skyscrapers exist",
+          "conclusion": "Some structures are skyscrapers",
+		  "incorrect conclusions": [
+            "All structures are buildings",
+            "All buildings are skyscrapers",
+            "Some structures are not buildings",
+            "Some structures are not skyscrapers",
+            "Some buildings are not skyscrapers",
+            "Some buildings are not structures",
+            "Some skyscrapers are not buildings",
+            "Some skyscrapers are not structures",
+            "No structures are buildings",
+            "No structures are skyscrapers",
+            "No buildings are structures",
+            "No buildings are skyscrapers",
+            "No skyscrapers are buildings",
+            "No skyscrapers are structures"
+		  ]
+		},
+		{
+          "major premise": "All cathedrals are buildings",
+          "minor premise": "All buildings are constructions and some cathedrals exist",
+          "conclusion": "Some constructions are cathedrals",
+		  "incorrect conclusions": [
+            "All constructions are buildings",
+            "All buildings are cathedrals",
+            "Some constructions are not buildings",
+            "Some constructions are not cathedrals",
+            "Some buildings are not cathedrals",
+            "Some buildings are not constructions",
+            "Some cathedrals are not buildings",
+            "Some cathedrals are not constructions",
+            "No constructions are buildings",
+            "No constructions are cathedrals",
+            "No buildings are constructions",
+            "No buildings are cathedrals",
+            "No cathedrals are buildings",
+            "No cathedrals are constructions"
+		  ]
+		},
+		{
+          "major premise": "All bridges are structures",
+          "minor premise": "All structures are infrastructures and some bridges exist",
+          "conclusion": "Some infrastructures are bridges",
+		  "incorrect conclusions": [
+            "All infrastructures are structures",
+            "All structures are bridges",
+            "Some infrastructures are not structures",
+            "Some infrastructures are not bridges",
+            "Some structures are not bridges",
+            "Some structures are not infrastructures",
+            "Some bridges are not structures",
+            "Some bridges are not infrastructures",
+            "No infrastructures are structures",
+            "No infrastructures are bridges",
+            "No structures are infrastructures",
+            "No structures are bridges",
+            "No bridges are structures",
+            "No bridges are infrastructures"
+		  ]
+		}
+	 ]
+  }
+}

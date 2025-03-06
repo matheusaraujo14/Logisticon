@@ -1,0 +1,69 @@
+{
+  "Geology": {
+     "Bamalip" : [
+		{
+          "major premise": "All granites are igneous rocks",
+          "minor premise": "All igneous rocks are rocks and some granites exist",
+          "conclusion": "Some rocks are granites",
+		  "incorrect conclusions": [
+			"All rocks are igneous rocks",
+			"All igneous rocks are granites",
+			"Some rocks are not igneous rocks",
+			"Some rocks are not granites",
+			"Some igneous rocks are not granites",
+			"Some igneous rocks are not rocks",
+			"Some granites are not igneous rocks",
+			"Some granites are not rocks",
+			"No rocks is igneous rocks",
+			"No rocks is granites",
+			"No igneous rocks is rocks",
+			"No igneous rocks is granites",
+			"No granites is igneous rocks",
+			"No granites is rocks"
+		  ]
+		},
+		{
+          "major premise": "All quartz are minerals",
+          "minor premise": "All minerals are geological substances and some quartz exist",
+          "conclusion": "Some geological substances are quartz",
+		  "incorrect conclusions": [
+			"All geological substances are minerals",
+			"All minerals are quartz",
+			"Some geological substances are not minerals",
+			"Some geological substances are not quartz",
+			"Some minerals are not quartz",
+			"Some minerals are not geological substances",
+			"Some quartz are not minerals",
+			"Some quartz are not geological substances",
+			"No geological substances is minerals",
+			"No geological substances is quartz",
+			"No minerals is geological substances",
+			"No minerals is quartz",
+			"No quartz is minerals",
+			"No quartz is geological substances"
+		  ]
+		},
+		{
+          "major premise": "All diamonds are gemstones",
+          "minor premise": "All gemstones are minerals and some diamonds exist",
+          "conclusion": "Some minerals are diamonds",
+		  "incorrect conclusions": [
+			"All minerals are gemstones",
+			"All gemstones are diamonds",
+			"Some minerals are not gemstones",
+			"Some minerals are not diamonds",
+			"Some gemstones are not diamonds",
+			"Some gemstones are not minerals",
+			"Some diamonds are not gemstones",
+			"Some diamonds are not minerals",
+			"No minerals is gemstones",
+			"No minerals is diamonds",
+			"No gemstones is minerals",
+			"No gemstones is diamonds",
+			"No diamonds is gemstones",
+			"No diamonds is minerals"
+		  ]
+		}
+	 ]
+  }
+}

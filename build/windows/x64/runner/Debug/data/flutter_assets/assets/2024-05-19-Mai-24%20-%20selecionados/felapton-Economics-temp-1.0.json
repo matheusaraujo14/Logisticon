@@ -1,0 +1,44 @@
+{
+  "Economics": {
+    "Felapton": [
+      {
+        "major premise": "No corporations are small businesses",
+        "minor premise": "All corporations are entities and some corporations exist",
+        "conclusion": "Some entities are not small businesses",
+        "incorrect conclusions": [
+          "All entities are small businesses",
+          "All entities are corporations",
+          "All small businesses are entities",
+          "All small businesses are corporations",
+          "Some entities are small businesses",
+          "Some small businesses are entities",
+          "Some small businesses are corporations",
+          "Some small businesses are not entities",
+          "Some corporations are small businesses",
+          "Some corporations are not entities",
+          "No corporations are entities",
+          "No entities are corporations"
+        ]
+      },
+      {
+        "major premise": "No luxury goods are necessities",
+        "minor premise": "All luxury goods are products and some luxury goods exist",
+        "conclusion": "Some products are not necessities",
+        "incorrect conclusions": [
+          "All products are necessities",
+          "All products are luxury goods",
+          "All necessities are products",
+          "All necessities are luxury goods",
+          "Some products are necessities",
+          "Some necessities are products",
+          "Some necessities are luxury goods",
+          "Some necessities are not products",
+          "Some luxury goods are necessities",
+          "Some luxury goods are not products",
+          "No luxury goods are products",
+          "No products are luxury goods"
+        ]
+      }
+    ]
+  }
+}

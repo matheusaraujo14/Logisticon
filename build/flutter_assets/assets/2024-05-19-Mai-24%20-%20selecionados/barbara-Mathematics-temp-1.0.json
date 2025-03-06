@@ -1,0 +1,54 @@
+{
+  "Mathematics": {
+    "Barbara": [
+      {
+        "major premise": "All integers are rational numbers",
+        "minor premise": "All prime numbers are integers",
+        "conclusion": "All prime numbers are rational numbers",
+        "incorrect conclusions": [
+          "All rational numbers are integers",
+          "All rational numbers are prime numbers",
+          "Some prime numbers are integers",
+          "Some prime numbers are rational numbers",
+          "Some prime numbers are not rational numbers",
+          "Some prime numbers are not integers",
+          "Some rational numbers are prime numbers",
+          "Some rational numbers are integers",
+          "Some integers are prime numbers"
+        ]
+      },
+      {
+        "major premise": "All circles are geometric shapes",
+        "minor premise": "All circles with radius 1 are circles",
+        "conclusion": "All circles with radius 1 are geometric shapes",
+        "incorrect conclusions": [
+          "All geometric shapes are circles",
+          "All geometric shapes are circles with radius 1",
+          "Some circles with radius 1 are circles",
+          "Some circles with radius 1 are geometric shapes",
+          "Some circles with radius 1 are not geometric shapes",
+          "Some circles with radius 1 are not circles",
+          "Some geometric shapes are circles with radius 1",
+          "Some geometric shapes are circles",
+          "Some circles are circles with radius 1"
+        ]
+      },
+      {
+        "major premise": "All polygons are planes",
+        "minor premise": "All triangles are polygons",
+        "conclusion": "All triangles are planes",
+        "incorrect conclusions": [
+          "All planes are polygons",
+          "All planes are triangles",
+          "Some triangles are polygons",
+          "Some triangles are planes",
+          "Some triangles are not planes",
+          "Some triangles are not polygons",
+          "Some planes are triangles",
+          "Some planes are polygons",
+          "Some polygons are triangles"
+        ]
+      }
+    ]
+  }
+}

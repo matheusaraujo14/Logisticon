@@ -1,0 +1,69 @@
+{
+  "Chemistry": {
+    "Calemes": [
+      {
+        "major premise": "All acids are chemicals",
+        "minor premise": "No chemicals are bases",
+        "conclusion": "No bases are acids",
+        "incorrect conclusions": [
+          "All chemicals are bases",
+          "All chemicals are acids",
+          "All bases are chemicals",
+          "All bases are acids",
+          "All acids are bases",
+          "Some chemicals are acids",
+          "Some chemicals are not acids",
+          "Some chemicals are bases",
+          "Some acids are bases",
+          "Some acids are not chemicals",
+          "Some acids are chemicals",
+          "Some bases are chemicals",
+          "Some bases are acids",
+          "No acids are chemicals"
+        ]
+      },
+      {
+        "major premise": "All proteins are molecules",
+        "minor premise": "No molecules are elements",
+        "conclusion": "No elements are proteins",
+        "incorrect conclusions": [
+          "All molecules are elements",
+          "All molecules are proteins",
+          "All elements are molecules",
+          "All elements are proteins",
+          "All proteins are elements",
+          "Some molecules are proteins",
+          "Some molecules are not proteins",
+          "Some molecules are elements",
+          "Some proteins are elements",
+          "Some proteins are not molecules",
+          "Some proteins are molecules",
+          "Some elements are molecules",
+          "Some elements are proteins",
+          "No proteins are molecules"
+        ]
+      },
+      {
+        "major premise": "All salts are compounds",
+        "minor premise": "No compounds are metals",
+        "conclusion": "No metals are salts",
+        "incorrect conclusions": [
+          "All compounds are metals",
+          "All compounds are salts",
+          "All metals are compounds",
+          "All metals are salts",
+          "All salts are metals",
+          "Some compounds are salts",
+          "Some compounds are not salts",
+          "Some compounds are metals",
+          "Some salts are metals",
+          "Some salts are not compounds",
+          "Some salts are compounds",
+          "Some metals are compounds",
+          "Some metals are salts",
+          "No salts are compounds"
+        ]
+      }
+    ]
+  }
+}

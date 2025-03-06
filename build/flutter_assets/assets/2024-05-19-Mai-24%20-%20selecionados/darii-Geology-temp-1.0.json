@@ -1,0 +1,78 @@
+{
+  "Geology": {
+     "Darii" : [
+		{
+          "major premise": "All igneous rocks are rocks",
+          "minor premise": "Some granite are igneous rocks",
+          "conclusion": "Some granite are rocks",
+		  "incorrect conclusions": [
+			"All granite are igneous rocks",
+			"All granite are rocks",
+			"All rocks are igneous rocks",
+			"All rocks are granite",
+			"All igneous rocks are granite",
+			"Some granite are not rocks",
+			"Some granite are not igneous rocks",
+			"Some rocks are not igneous rocks",
+			"Some rocks are not granite",
+			"Some igneous rocks are not rocks",
+			"Some igneous rocks are not granite",
+			"No granite is rocks",
+			"No granite is igneous rocks",
+			"No igneous rocks is rocks",
+			"No igneous rocks is granite",
+			"No rocks is igneous rocks",
+			"No rocks is granite"
+		  ]
+		},
+		{
+          "major premise": "All minerals are substances",
+          "minor premise": "Some quartz are minerals",
+          "conclusion": "Some quartz are substances",
+		  "incorrect conclusions": [
+			"All quartz are minerals",
+			"All quartz are substances",
+			"All substances are minerals",
+			"All substances are quartz",
+			"All minerals are quartz",
+			"Some quartz are not substances",
+			"Some quartz are not minerals",
+			"Some substances are not minerals",
+			"Some substances are not quartz",
+			"Some minerals are not substances",
+			"Some minerals are not quartz",
+			"No quartz is substances",
+			"No quartz is minerals",
+			"No minerals is substances",
+			"No minerals is quartz",
+			"No substances is minerals",
+			"No substances is quartz"
+		  ]
+		},
+		{
+          "major premise": "All sedimentary rocks are rocks",
+          "minor premise": "Some limestone are sedimentary rocks",
+          "conclusion": "Some limestone are rocks",
+		  "incorrect conclusions": [
+			"All limestone are sedimentary rocks",
+			"All limestone are rocks",
+			"All rocks are sedimentary rocks",
+			"All rocks are limestone",
+			"All sedimentary rocks are limestone",
+			"Some limestone are not rocks",
+			"Some limestone are not sedimentary rocks",
+			"Some rocks are not sedimentary rocks",
+			"Some rocks are not limestone",
+			"Some sedimentary rocks are not rocks",
+			"Some sedimentary rocks are not limestone",
+			"No limestone is rocks",
+			"No limestone is sedimentary rocks",
+			"No sedimentary rocks is rocks",
+			"No sedimentary rocks is limestone",
+			"No rocks is sedimentary rocks",
+			"No rocks is limestone"
+		  ]
+		}
+	 ]
+  }
+}

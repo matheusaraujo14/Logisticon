@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Geology": [
+      {
+        "premises": [
+          "If a volcano erupts, then the surrounding area is covered with ash",
+          "A volcano erupts"
+        ],
+        "conclusions": [
+          "The surrounding area is covered with ash"
+        ],
+        "incorrect conclusions": [
+          "The surrounding area is not covered with ash",
+          "The surrounding area covered with ash implies that a volcano erupts",
+          "The surrounding area is not covered with ash implies that a volcano erupts",
+          "A volcano does not erupt implies that the surrounding area is not covered with ash"
+        ]
+      },
+      {
+        "premises": [
+          "If tectonic plates collide, then mountains form",
+          "Tectonic plates collide"
+        ],
+        "conclusions": [
+          "Mountains form"
+        ],
+        "incorrect conclusions": [
+          "Mountains do not form",
+          "Mountains form implies that tectonic plates collide",
+          "Mountains do not form implies that tectonic plates collide",
+          "Tectonic plates do not collide implies that mountains do not form"
+        ]
+      },
+      {
+        "premises": [
+          "If there is heavy rainfall, then soil erosion increases",
+          "There is heavy rainfall"
+        ],
+        "conclusions": [
+          "Soil erosion increases"
+        ],
+        "incorrect conclusions": [
+          "Soil erosion does not increase",
+          "Soil erosion increases implies that there is heavy rainfall",
+          "Soil erosion does not increase implies that there is heavy rainfall",
+          "There is not heavy rainfall implies that soil erosion does not increase"
+        ]
+      }
+    ]
+  }
+}

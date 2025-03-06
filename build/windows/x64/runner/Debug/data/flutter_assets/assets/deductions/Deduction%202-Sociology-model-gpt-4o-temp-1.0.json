@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Sociology": [
+      {
+        "premises": [
+          "If a person is unemployed, then they do not have a stable income",
+          "If a person is unemployed, then they look for a job"
+        ],
+        "conclusions": [
+          "If a person is unemployed, then they do not have a stable income and they look for a job",
+          "If a person is unemployed, then they do not have a stable income or they look for a job",
+          "If a person has a stable income, then they are not unemployed",
+          "If a person is not looking for a job, then they are not unemployed",
+          "If a person has a stable income or is not looking for a job, then they are not unemployed"
+        ],
+        "incorrect conclusions": [
+          "If a person has a stable income, then they are not looking for a job",
+          "If a person is not looking for a job, then they have a stable income",
+          "If a person does not have a stable income, then they look for a job",
+          "If a person looks for a job, then they do not have a stable income",
+          "If a person does not have a stable income and looks for a job, then they are unemployed",
+          "If a person does not have a stable income or looks for a job, then they are unemployed",
+          "If a person has a stable income or is not unemployed, then they are unemployed"
+        ]
+      },
+      {
+        "premises": [
+          "If a community lacks resources, then the standard of living is low",
+          "If a community lacks resources, then the local economy is weak"
+        ],
+        "conclusions": [
+          "If a community lacks resources, then the standard of living is low and the local economy is weak",
+          "If a community lacks resources, then the standard of living is low or the local economy is weak",
+          "If the standard of living is high, then the community does not lack resources",
+          "If the local economy is strong, then the community does not lack resources",
+          "If the standard of living is high or the local economy is strong, then the community does not lack resources"
+        ],
+        "incorrect conclusions": [
+          "If the standard of living is high, then the local economy is strong",
+          "If the local economy is strong, then the standard of living is high",
+          "If the standard of living is low, then the local economy is weak",
+          "If the local economy is weak, then the standard of living is low",
+          "If the standard of living is low and the local economy is weak, then the community lacks resources",
+          "If the standard of living is low or the local economy is weak, then the community lacks resources",
+          "If the standard of living is high or the community does not lack resources, then the community lacks resources"
+        ]
+      },
+      {
+        "premises": [
+          "If a social policy is ineffective, then social equality does not improve",
+          "If a social policy is ineffective, then public dissatisfaction increases"
+        ],
+        "conclusions": [
+          "If a social policy is ineffective, then social equality does not improve and public dissatisfaction increases",
+          "If a social policy is ineffective, then social equality does not improve or public dissatisfaction increases",
+          "If social equality improves, then the social policy is not ineffective",
+          "If public dissatisfaction does not increase, then the social policy is not ineffective",
+          "If social equality improves or public dissatisfaction does not increase, then the social policy is not ineffective"
+        ],
+        "incorrect conclusions": [
+          "If social equality improves, then public dissatisfaction does not increase",
+          "If public dissatisfaction does not increase, then social equality improves",
+          "If social equality does not improve, then public dissatisfaction increases",
+          "If public dissatisfaction increases, then social equality does not improve",
+          "If social equality does not improve and public dissatisfaction increases, then the social policy is ineffective",
+          "If social equality does not improve or public dissatisfaction increases, then the social policy is ineffective",
+          "If social equality improves or the social policy is not ineffective, then the social policy is ineffective"
+        ]
+      }
+    ]
+  }
+}

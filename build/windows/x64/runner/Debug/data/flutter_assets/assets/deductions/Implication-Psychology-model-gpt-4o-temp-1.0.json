@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a person feels lonely, then they are likely to seek social connections"
+        ],
+        "conclusions": [
+          "If a person does not seek social connections, then they do not feel lonely"
+        ],
+        "incorrect conclusions": [
+          "A person feels lonely",
+          "A person does not feel lonely",
+          "A person seeks social connections",
+          "A person does not seek social connections",
+          "If a person seeks social connections, then they feel lonely",
+          "If a person does not seek social connections, then they feel lonely",
+          "If a person does not feel lonely, then they do not seek social connections"
+        ]
+      },
+      {
+        "premises": [
+          "If an individual has high self-esteem, then they are less likely to experience depression"
+        ],
+        "conclusions": [
+          "If an individual is likely to experience depression, then they do not have high self-esteem"
+        ],
+        "incorrect conclusions": [
+          "An individual has high self-esteem",
+          "An individual does not have high self-esteem",
+          "An individual is less likely to experience depression",
+          "An individual is likely to experience depression",
+          "If an individual is less likely to experience depression, then they have high self-esteem",
+          "If an individual is likely to experience depression, then they have high self-esteem",
+          "If an individual does not have high self-esteem, then they are likely to experience depression"
+        ]
+      },
+      {
+        "premises": [
+          "If a child experiences consistent discipline, then they develop a sense of security"
+        ],
+        "conclusions": [
+          "If a child does not develop a sense of security, then they do not experience consistent discipline"
+        ],
+        "incorrect conclusions": [
+          "A child experiences consistent discipline",
+          "A child does not experience consistent discipline",
+          "A child develops a sense of security",
+          "A child does not develop a sense of security",
+          "If a child develops a sense of security, then they experience consistent discipline",
+          "If a child does not develop a sense of security, then they experience consistent discipline",
+          "If a child does not experience consistent discipline, then they do not develop a sense of security"
+        ]
+      }
+    ]
+  }
+}

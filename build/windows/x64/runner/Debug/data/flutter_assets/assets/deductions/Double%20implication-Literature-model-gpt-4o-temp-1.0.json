@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Literature": [
+      {
+        "premises": [
+          "If the main character faces a conflict, then the plot advances",
+          "If the plot advances, then the theme becomes clear"
+        ],
+        "conclusions": [
+          "If the main character faces a conflict, then the theme becomes clear",
+          "If the theme does not become clear, then the main character does not face a conflict",
+          "If the main character faces a conflict or the plot advances, then the theme becomes clear and if the main character faces a conflict, then the theme becomes clear",
+          "If the main character faces a conflict, then the theme becomes clear and if the main character faces a conflict, then the theme becomes clear",
+          "If the main character does not face a conflict and the plot advances, then the theme becomes clear and if the main character faces a conflict, then the theme becomes clear",
+          "If the main character faces a conflict or the plot advances, then the theme becomes clear"
+        ],
+        "incorrect conclusions": [
+          "The main character faces a conflict",
+          "If the theme becomes clear, then the main character faces a conflict",
+          "If the theme becomes clear, then the main character does not face a conflict",
+          "The theme becomes clear",
+          "The theme does not become clear",
+          "If the theme does not become clear, then the main character faces a conflict",
+          "If the plot does not advance, then the theme becomes clear",
+          "If the main character faces a conflict or the plot does not advance, then the theme becomes clear"
+        ]
+      },
+      {
+        "premises": [
+          "If the antagonist is introduced, then tension rises",
+          "If tension rises, then the climax is approaching"
+        ],
+        "conclusions": [
+          "If the antagonist is introduced, then the climax is approaching",
+          "If the climax is not approaching, then the antagonist is not introduced",
+          "If the antagonist is introduced or tension rises, then the climax is approaching and if the antagonist is introduced, then the climax is approaching",
+          "If the antagonist is introduced, then the climax is approaching and if the antagonist is introduced, then the climax is approaching",
+          "If the antagonist is not introduced and tension rises, then the climax is approaching and if the antagonist is introduced, then the climax is approaching",
+          "If the antagonist is introduced or tension rises, then the climax is approaching"
+        ],
+        "incorrect conclusions": [
+          "The antagonist is introduced",
+          "If the climax is approaching, then the antagonist is introduced",
+          "If the climax is approaching, then the antagonist is not introduced",
+          "The climax is approaching",
+          "The climax is not approaching",
+          "If the climax is not approaching, then the antagonist is introduced",
+          "If tension does not rise, then the climax is approaching",
+          "If the antagonist is introduced or tension does not rise, then the climax is approaching"
+        ]
+      },
+      {
+        "premises": [
+          "If a subplot is revealed, then character depth increases",
+          "If character depth increases, then reader engagement rises"
+        ],
+        "conclusions": [
+          "If a subplot is revealed, then reader engagement rises",
+          "If reader engagement does not rise, then a subplot is not revealed",
+          "If a subplot is revealed or character depth increases, then reader engagement rises and if a subplot is revealed, then reader engagement rises",
+          "If a subplot is revealed, then reader engagement rises and if a subplot is revealed, then reader engagement rises",
+          "If a subplot is not revealed and character depth increases, then reader engagement rises and if a subplot is revealed, then reader engagement rises",
+          "If a subplot is revealed or character depth increases, then reader engagement rises"
+        ],
+        "incorrect conclusions": [
+          "A subplot is revealed",
+          "If reader engagement rises, then a subplot is revealed",
+          "If reader engagement rises, then a subplot is not revealed",
+          "Reader engagement rises",
+          "Reader engagement does not rise",
+          "If reader engagement does not rise, then a subplot is revealed",
+          "If character depth does not increase, then reader engagement rises",
+          "If a subplot is revealed or character depth does not increase, then reader engagement rises"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Geography": [
+      {
+        "premises": [
+          "Either it is raining or it is sunny but not both",
+          "It is raining"
+        ],
+        "conclusions": [
+          "It is not sunny"
+        ],
+        "incorrect conclusions": [
+          "It is sunny",
+          "It is not raining"
+        ]
+      },
+      {
+        "premises": [
+          "Either the river is rising or the dam is releasing water but not both",
+          "The river is rising"
+        ],
+        "conclusions": [
+          "The dam is not releasing water"
+        ],
+        "incorrect conclusions": [
+          "The dam is releasing water",
+          "The river is not rising"
+        ]
+      },
+      {
+        "premises": [
+          "Either the volcano is erupting or there is an earthquake but not both",
+          "The volcano is erupting"
+        ],
+        "conclusions": [
+          "There is no earthquake"
+        ],
+        "incorrect conclusions": [
+          "There is an earthquake",
+          "The volcano is not erupting"
+        ]
+      }
+    ]
+  }
+}

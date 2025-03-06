@@ -1,0 +1,78 @@
+{
+  "Geography": {
+    "Datisi": [
+      {
+        "major premise": "All continents are landmasses",
+        "minor premise": "Some continents are islands",
+        "conclusion": "Some islands are landmasses",
+        "incorrect conclusions": [
+          "All islands are continents",
+          "All islands are landmasses",
+          "All landmasses are continents",
+          "All landmasses are islands",
+          "All continents are islands",
+          "Some islands are not landmasses",
+          "Some islands are not continents",
+          "Some landmasses are not continents",
+          "Some landmasses are not islands",
+          "Some continents are not landmasses",
+          "Some continents are not islands",
+          "No islands is landmasses",
+          "No islands is continents",
+          "No continents is landmasses",
+          "No continents is islands",
+          "No landmasses is continents",
+          "No landmasses is islands"
+        ]
+      },
+      {
+        "major premise": "All rivers are water bodies",
+        "minor premise": "Some rivers are deltas",
+        "conclusion": "Some deltas are water bodies",
+        "incorrect conclusions": [
+          "All deltas are rivers",
+          "All deltas are water bodies",
+          "All water bodies are rivers",
+          "All water bodies are deltas",
+          "All rivers are deltas",
+          "Some deltas are not water bodies",
+          "Some deltas are not rivers",
+          "Some water bodies are not rivers",
+          "Some water bodies are not deltas",
+          "Some rivers are not water bodies",
+          "Some rivers are not deltas",
+          "No deltas is water bodies",
+          "No deltas is rivers",
+          "No rivers is water bodies",
+          "No rivers is deltas",
+          "No water bodies is rivers",
+          "No water bodies is deltas"
+        ]
+      },
+      {
+        "major premise": "All deserts are ecosystems",
+        "minor premise": "Some deserts are sand dunes",
+        "conclusion": "Some sand dunes are ecosystems",
+        "incorrect conclusions": [
+          "All sand dunes are deserts",
+          "All sand dunes are ecosystems",
+          "All ecosystems are deserts",
+          "All ecosystems are sand dunes",
+          "All deserts are sand dunes",
+          "Some sand dunes are not ecosystems",
+          "Some sand dunes are not deserts",
+          "Some ecosystems are not deserts",
+          "Some ecosystems are not sand dunes",
+          "Some deserts are not ecosystems",
+          "Some deserts are not sand dunes",
+          "No sand dunes is ecosystems",
+          "No sand dunes is deserts",
+          "No deserts is ecosystems",
+          "No deserts is sand dunes",
+          "No ecosystems is deserts",
+          "No ecosystems is sand dunes"
+        ]
+      }
+    ]
+  }
+}

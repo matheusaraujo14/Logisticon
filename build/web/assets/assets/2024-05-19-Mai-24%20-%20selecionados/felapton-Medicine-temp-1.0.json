@@ -1,0 +1,63 @@
+{
+  "Medicine": {
+    "Felapton": [
+      {
+        "major premise": "No antibodies are viruses",
+        "minor premise": "All antibodies are proteins and some antibodies exist",
+        "conclusion": "Some proteins are not viruses",
+        "incorrect conclusions": [
+          "All proteins are viruses",
+          "All proteins are antibodies",
+          "All viruses are proteins",
+          "All viruses are antibodies",
+          "Some proteins are viruses",
+          "Some viruses are proteins",
+          "Some viruses are antibodies",
+          "Some viruses are not proteins",
+          "Some antibodies are viruses",
+          "Some antibodies are not proteins",
+          "No antibodies is proteins",
+          "No proteins is antibodies"
+        ]
+      },
+      {
+        "major premise": "No pathogens are organs",
+        "minor premise": "All pathogens are microorganisms and some pathogens exist",
+        "conclusion": "Some microorganisms are not organs",
+        "incorrect conclusions": [
+          "All microorganisms are organs",
+          "All microorganisms are pathogens",
+          "All organs are microorganisms",
+          "All organs are pathogens",
+          "Some microorganisms are organs",
+          "Some organs are microorganisms",
+          "Some organs are pathogens",
+          "Some organs are not microorganisms",
+          "Some pathogens are organs",
+          "Some pathogens are not microorganisms",
+          "No pathogens is microorganisms",
+          "No microorganisms is pathogens"
+        ]
+      },
+      {
+        "major premise": "No cells are minerals",
+        "minor premise": "All cells are tissues and some cells exist",
+        "conclusion": "Some tissues are not minerals",
+        "incorrect conclusions": [
+          "All tissues are minerals",
+          "All tissues are cells",
+          "All minerals are tissues",
+          "All minerals are cells",
+          "Some tissues are minerals",
+          "Some minerals are tissues",
+          "Some minerals are cells",
+          "Some minerals are not tissues",
+          "Some cells are minerals",
+          "Some cells are not tissues",
+          "No cells is tissues",
+          "No tissues is cells"
+        ]
+      }
+    ]
+  }
+}

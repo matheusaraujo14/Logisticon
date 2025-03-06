@@ -1,0 +1,52 @@
+{
+  "Engineering": {
+    "Dimatis": [
+      {
+        "major premise": "Some gears are metal components",
+        "minor premise": "All metal components are machine parts",
+        "conclusion": "Some machine parts are gears",
+        "incorrect conclusions": [
+          "All machine parts are gears",
+          "All machine parts are metal components",
+          "All gears are machine parts",
+          "All gears are metal components",
+          "All metal components are gears",
+          "Some machine parts are not metal components",
+          "Some gears are not machine parts",
+          "Some gears are not metal components",
+          "Some metal components are not machine parts",
+          "Some metal components are not gears",
+          "No gears are machine parts",
+          "No gears are metal components",
+          "No metal components are machine parts",
+          "No metal components are gears",
+          "No machine parts are metal components",
+          "No machine parts are gears"
+        ]
+      },
+      {
+        "major premise": "Some algorithms are software modules",
+        "minor premise": "All software modules are computational tools",
+        "conclusion": "Some computational tools are algorithms",
+        "incorrect conclusions": [
+          "All computational tools are algorithms",
+          "All computational tools are software modules",
+          "All algorithms are computational tools",
+          "All algorithms are software modules",
+          "All software modules are algorithms",
+          "Some computational tools are not software modules",
+          "Some algorithms are not computational tools",
+          "Some algorithms are not software modules",
+          "Some software modules are not computational tools",
+          "Some software modules are not algorithms",
+          "No algorithms are computational tools",
+          "No algorithms are software modules",
+          "No software modules are computational tools",
+          "No software modules are algorithms",
+          "No computational tools are software modules",
+          "No computational tools are algorithms"
+        ]
+      }
+    ]
+  }
+}

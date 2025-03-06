@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Engineering": [
+		{
+          "premises": [
+            "The machine will start or the system will fail but not both at the same time",
+            "The machine will not start"
+          ],
+          "conclusions": [
+            "The system will fail",
+            "If the system does not fail, then the machine will start"
+          ],
+		  "incorrect conclusions": [
+			"The system will not fail",
+            "If the machine will start, then the system will fail",
+            "If the system will fail, then the machine will start",
+            "The machine will start"
+		  ]
+		},
+		{
+          "premises": [
+            "The circuit will close or the alarm will trigger but not both at the same time",
+            "The circuit will not close"
+          ],
+          "conclusions": [
+            "The alarm will trigger",
+            "If the alarm does not trigger, then the circuit will close"
+          ],
+		  "incorrect conclusions": [
+			"The alarm will not trigger",
+            "If the circuit will close, then the alarm will trigger",
+            "If the alarm will trigger, then the circuit will close",
+            "The circuit will close"
+		  ]
+		},
+		{
+          "premises": [
+            "The engine will overheat or the coolant system will engage but not both at the same time",
+            "The engine will not overheat"
+          ],
+          "conclusions": [
+            "The coolant system will engage",
+            "If the coolant system does not engage, then the engine will overheat"
+          ],
+		  "incorrect conclusions": [
+			"The coolant system will not engage",
+            "If the engine will overheat, then the coolant system will engage",
+            "If the coolant system will engage, then the engine will overheat",
+            "The engine will overheat"
+		  ]
+		}
+	]
+  }
+}

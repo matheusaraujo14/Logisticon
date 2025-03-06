@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "History": [
+      {
+        "premises": [
+          "If the treaty is signed, then peace will be established",
+          "Peace is not established"
+        ],
+        "conclusions": [
+          "The treaty is not signed"
+        ],
+        "incorrect conclusions": [
+          "The treaty is signed",
+          "The treaty is signed and peace is established",
+          "Peace implies the treaty is signed",
+          "Peace is not established implies the treaty is signed",
+          "The treaty is not signed implies peace is not established"
+        ]
+      },
+      {
+        "premises": [
+          "If the king is deposed, then the revolution will succeed",
+          "The revolution did not succeed"
+        ],
+        "conclusions": [
+          "The king is not deposed"
+        ],
+        "incorrect conclusions": [
+          "The king is deposed",
+          "The king is deposed and the revolution succeeds",
+          "The revolution succeeding implies the king is deposed",
+          "The revolution not succeeding implies the king is deposed",
+          "The king not being deposed implies the revolution not succeeding"
+        ]
+      },
+      {
+        "premises": [
+          "If the empire declines, then the province gains independence",
+          "The province does not gain independence"
+        ],
+        "conclusions": [
+          "The empire does not decline"
+        ],
+        "incorrect conclusions": [
+          "The empire declines",
+          "The empire declines and the province gains independence",
+          "The province gaining independence implies the empire declines",
+          "The province not gaining independence implies the empire declines",
+          "The empire not declining implies the province not gaining independence"
+        ]
+      }
+    ]
+  }
+}

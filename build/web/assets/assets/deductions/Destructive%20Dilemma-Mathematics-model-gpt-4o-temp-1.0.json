@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a triangle is equilateral, then its angles are all equal",
+          "If a triangle is equilateral, then its sides are all equal",
+          "The angles of the triangle are not all equal or the sides of the triangle are not all equal"
+        ],
+        "conclusions": [
+          "A triangle is not equilateral",
+          "The angles of the triangle are not all equal and the sides of the triangle are not all equal",
+          "If a triangle is equilateral, then its angles are all equal and its sides are all equal"
+        ],
+        "incorrect conclusions": [
+          "If a triangle is equilateral, then its angles are all equal and not all its sides are equal",
+          "If the angles of the triangle are all equal and its sides are all equal, then the triangle is equilateral",
+          "If the angles of the triangle are all equal, then the triangle is equilateral",
+          "The angles of the triangle are all equal or the sides of the triangle are all equal but not both",
+          "If a triangle is not equilateral, then its angles are not all equal or its sides are not all equal"
+        ]
+      },
+      {
+        "premises": [
+          "If an integer is even, then it is divisible by 2",
+          "If an integer is even, then it cannot be odd",
+          "An integer is not divisible by 2 or it can be odd"
+        ],
+        "conclusions": [
+          "An integer is not even",
+          "An integer is not divisible by 2 and it can be odd",
+          "If an integer is even, then it is divisible by 2 and it cannot be odd"
+        ],
+        "incorrect conclusions": [
+          "If an integer is even, then it is divisible by 2 and it can be odd",
+          "If an integer is divisible by 2 and it cannot be odd, then it is even",
+          "If an integer is divisible by 2, then it is even",
+          "An integer is divisible by 2 or it can be odd but not both",
+          "If an integer is not even, then it is not divisible by 2 or it can be odd"
+        ]
+      },
+      {
+        "premises": [
+          "If a number is a prime, then it has only two distinct positive divisors",
+          "If a number is a prime, then it is greater than 1",
+          "A number does not have only two distinct positive divisors or it is not greater than 1"
+        ],
+        "conclusions": [
+          "A number is not prime",
+          "A number does not have only two distinct positive divisors and it is not greater than 1",
+          "If a number is a prime, then it has only two distinct positive divisors and it is greater than 1"
+        ],
+        "incorrect conclusions": [
+          "If a number is a prime, then it has only two distinct positive divisors and it is not greater than 1",
+          "If a number has only two distinct positive divisors and it is greater than 1, then it is a prime",
+          "If a number has only two distinct positive divisors, then it is a prime",
+          "A number has only two distinct positive divisors or it is greater than 1 but not both",
+          "If a number is not a prime, then it does not have only two distinct positive divisors or it is not greater than 1"
+        ]
+      }
+    ]
+  }
+}

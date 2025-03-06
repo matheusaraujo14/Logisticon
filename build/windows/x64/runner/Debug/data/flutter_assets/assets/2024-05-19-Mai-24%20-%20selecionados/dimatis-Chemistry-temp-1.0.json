@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+     "Dimatis" : [
+		{
+          "major premise": "Some water molecules are hydrogen atoms",
+          "minor premise": "All hydrogen atoms are subatomic particles",
+          "conclusion": "Some subatomic particles are water molecules",
+		  "incorrect conclusions": [
+			"All subatomic particles are water molecules",
+			"All subatomic particles are hydrogen atoms",
+			"All water molecules are subatomic particles",
+			"All water molecules are hydrogen atoms",
+			"All hydrogen atoms are water molecules",
+			"Some subatomic particles are not hydrogen atoms",
+			"Some water molecules are not subatomic particles",
+			"Some water molecules are not hydrogen atoms",
+			"Some hydrogen atoms are not subatomic particles",
+			"Some hydrogen atoms are not water molecules",
+			"No water molecule is a subatomic particle",
+			"No water molecule is a hydrogen atom",
+			"No hydrogen atom is a subatomic particle",
+			"No hydrogen atom is a water molecule",
+			"No subatomic particle is a hydrogen atom",
+			"No subatomic particle is a water molecule"
+		  ]
+		},
+		{
+          "major premise": "Some carbon compounds are organic molecules",
+          "minor premise": "All organic molecules are chemical compounds",
+          "conclusion": "Some chemical compounds are carbon compounds",
+		  "incorrect conclusions": [
+			"All chemical compounds are carbon compounds",
+			"All chemical compounds are organic molecules",
+			"All carbon compounds are chemical compounds",
+			"All carbon compounds are organic molecules",
+			"All organic molecules are carbon compounds",
+			"Some chemical compounds are not organic molecules",
+			"Some carbon compounds are not chemical compounds",
+			"Some carbon compounds are not organic molecules",
+			"Some organic molecules are not chemical compounds",
+			"Some organic molecules are not carbon compounds",
+			"No carbon compound is a chemical compound",
+			"No carbon compound is an organic molecule",
+			"No organic molecule is a chemical compound",
+			"No organic molecule is a carbon compound",
+			"No chemical compound is an organic molecule",
+			"No chemical compound is a carbon compound"
+		  ]
+		},
+		{
+          "major premise": "Some salts are ionic compounds",
+          "minor premise": "All ionic compounds are chemical substances",
+          "conclusion": "Some chemical substances are salts",
+		  "incorrect conclusions": [
+			"All chemical substances are salts",
+			"All chemical substances are ionic compounds",
+			"All salts are chemical substances",
+			"All salts are ionic compounds",
+			"All ionic compounds are salts",
+			"Some chemical substances are not ionic compounds",
+			"Some salts are not chemical substances",
+			"Some salts are not ionic compounds",
+			"Some ionic compounds are not chemical substances",
+			"Some ionic compounds are not salts",
+			"No salt is a chemical substance",
+			"No salt is an ionic compound",
+			"No ionic compound is a chemical substance",
+			"No ionic compound is a salt",
+			"No chemical substance is an ionic compound",
+			"No chemical substance is a salt"
+		  ]
+		}
+	 ]
+  }
+}

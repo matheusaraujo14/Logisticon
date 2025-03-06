@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Physics": [
+      {
+        "premises": [
+          "If an object is heated, then its temperature increases",
+          "If an object is heated, then its shape deforms",
+          "The object's temperature does not increase or its shape does not deform"
+        ],
+        "conclusions": [
+          "An object is not heated",
+          "Its temperature and shape deformation is false",
+          "If an object is heated, then its temperature increases and its shape deforms"
+        ],
+        "incorrect conclusions": [
+          "If an object is heated, then its temperature increases and its shape does not deform",
+          "If its temperature increases and its shape deforms, then an object is heated",
+          "If its temperature increases, then an object is heated",
+          "Its temperature increases or its shape deforms but not both are true",
+          "If an object is not heated, then its temperature does not increase or its shape does not deform"
+        ]
+      },
+      {
+        "premises": [
+          "If a particle is accelerated, then it gains energy",
+          "If a particle is accelerated, then it changes direction",
+          "The particle does not gain energy or it does not change direction"
+        ],
+        "conclusions": [
+          "A particle is not accelerated",
+          "Its energy gain and direction change are false",
+          "If a particle is accelerated, then it gains energy and changes direction"
+        ],
+        "incorrect conclusions": [
+          "If a particle is accelerated, then it gains energy and does not change direction",
+          "If it gains energy and changes direction, then a particle is accelerated",
+          "If it gains energy, then a particle is accelerated",
+          "It gains energy or it changes direction but not both are true",
+          "If a particle is not accelerated, then it does not gain energy or it does not change direction"
+        ]
+      },
+      {
+        "premises": [
+          "If light passes through a medium, then its speed decreases",
+          "If light passes through a medium, then it refracts",
+          "Light's speed does not decrease or it does not refract"
+        ],
+        "conclusions": [
+          "Light does not pass through a medium",
+          "Its speed decrease and refraction are false",
+          "If light passes through a medium, then its speed decreases and it refracts"
+        ],
+        "incorrect conclusions": [
+          "If light passes through a medium, then its speed decreases and it does not refract",
+          "If its speed decreases and it refracts, then light passes through a medium",
+          "If its speed decreases, then light passes through a medium",
+          "Its speed decreases or it refracts but not both are true",
+          "If light does not pass through a medium, then its speed does not decrease or it does not refract"
+        ]
+      }
+    ]
+  }
+}

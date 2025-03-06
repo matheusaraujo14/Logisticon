@@ -1,0 +1,52 @@
+{
+  "Biology": {
+     "Ferison": [
+        {
+          "major premise": "No birds are mammals",
+          "minor premise": "Some birds are sparrows",
+          "conclusion": "Some sparrows are not mammals",
+		  "incorrect conclusions": [
+			"All birds are sparrows",
+            "All birds are mammals",
+            "All sparrows are mammals",
+            "All mammals are birds",
+            "All mammals are sparrows",
+            "Some birds are not sparrows",
+            "Some mammals are sparrows",
+            "Some mammals are not sparrows",
+            "Some mammals are birds",
+            "Some mammals are sparrows",
+            "Some sparrows are mammals",
+            "Some sparrows are not birds",
+            "Some birds are mammals",
+            "No birds are sparrows",
+            "No sparrows are not birds",
+            "No sparrows are birds"
+		  ]
+        },
+        {
+          "major premise": "No reptiles are mammals",
+          "minor premise": "Some reptiles are snakes",
+          "conclusion": "Some snakes are not mammals",
+		  "incorrect conclusions": [
+			"All reptiles are snakes",
+            "All reptiles are mammals",
+            "All snakes are mammals",
+            "All mammals are reptiles",
+            "All mammals are snakes",
+            "Some reptiles are not snakes",
+            "Some mammals are snakes",
+            "Some mammals are not snakes",
+            "Some mammals are reptiles",
+            "Some mammals are snakes",
+            "Some snakes are mammals",
+            "Some snakes are not reptiles",
+            "Some reptiles are mammals",
+            "No reptiles are snakes",
+            "No snakes are not reptiles",
+            "No snakes are reptiles"
+		  ]
+        }
+     ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a diet is high in fiber, then digestion improves",
+          "If digestion improves, then energy levels increase"
+        ],
+        "conclusions": [
+          "If a diet is high in fiber, then energy levels increase",
+          "If energy levels do not increase, then a diet is not high in fiber",
+          "If a diet is high in fiber or digestion improves, then energy levels increase and a diet is high in fiber implies energy levels increase",
+          "If a diet is high in fiber, then energy levels increase and a diet is high in fiber implies energy levels increase",
+          "If a diet is not high in fiber and digestion improves, then energy levels increase and a diet is high in fiber implies energy levels increase",
+          "If a diet is high in fiber or digestion improves, then energy levels increase"
+        ],
+        "incorrect conclusions": [
+          "A diet is high in fiber",
+          "If energy levels increase, then a diet is high in fiber",
+          "If energy levels increase, then a diet is not high in fiber",
+          "Energy levels increase",
+          "Energy levels do not increase",
+          "If energy levels do not increase, then a diet is high in fiber",
+          "If digestion does not improve, then energy levels increase",
+          "If a diet is high in fiber or digestion does not improve, then energy levels increase"
+        ]
+      },
+      {
+        "premises": [
+          "If a meal contains protein, then muscle repair is facilitated",
+          "If muscle repair is facilitated, then workout recovery improves"
+        ],
+        "conclusions": [
+          "If a meal contains protein, then workout recovery improves",
+          "If workout recovery does not improve, then a meal does not contain protein",
+          "If a meal contains protein or muscle repair is facilitated, then workout recovery improves and a meal contains protein implies workout recovery improves",
+          "If a meal contains protein, then workout recovery improves and a meal contains protein implies workout recovery improves",
+          "If a meal does not contain protein and muscle repair is facilitated, then workout recovery improves and a meal contains protein implies workout recovery improves",
+          "If a meal contains protein or muscle repair is facilitated, then workout recovery improves"
+        ],
+        "incorrect conclusions": [
+          "A meal contains protein",
+          "If workout recovery improves, then a meal contains protein",
+          "If workout recovery improves, then a meal does not contain protein",
+          "Workout recovery improves",
+          "Workout recovery does not improve",
+          "If workout recovery does not improve, then a meal contains protein",
+          "If muscle repair is not facilitated, then workout recovery improves",
+          "If a meal contains protein or muscle repair is not facilitated, then workout recovery improves"
+        ]
+      },
+      {
+        "premises": [
+          "If a person drinks enough water, then hydration is maintained",
+          "If hydration is maintained, then cognitive function improves"
+        ],
+        "conclusions": [
+          "If a person drinks enough water, then cognitive function improves",
+          "If cognitive function does not improve, then a person does not drink enough water",
+          "If a person drinks enough water or hydration is maintained, then cognitive function improves and a person drinks enough water implies cognitive function improves",
+          "If a person drinks enough water, then cognitive function improves and a person drinks enough water implies cognitive function improves",
+          "If a person does not drink enough water and hydration is maintained, then cognitive function improves and a person drinks enough water implies cognitive function improves",
+          "If a person drinks enough water or hydration is maintained, then cognitive function improves"
+        ],
+        "incorrect conclusions": [
+          "A person drinks enough water",
+          "If cognitive function improves, then a person drinks enough water",
+          "If cognitive function improves, then a person does not drink enough water",
+          "Cognitive function improves",
+          "Cognitive function does not improve",
+          "If cognitive function does not improve, then a person drinks enough water",
+          "If hydration is not maintained, then cognitive function improves",
+          "If a person drinks enough water or hydration is not maintained, then cognitive function improves"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Ecology": [
+      {
+        "premises": [
+          "Either the forest is regenerating or it is degrading but not both",
+          "The forest is regenerating"
+        ],
+        "conclusions": [
+          "The forest is not degrading"
+        ],
+        "incorrect conclusions": [
+          "The forest is degrading",
+          "The forest is not regenerating"
+        ]
+      },
+      {
+        "premises": [
+          "Either the lake is polluted or it is clean but not both",
+          "The lake is polluted"
+        ],
+        "conclusions": [
+          "The lake is not clean"
+        ],
+        "incorrect conclusions": [
+          "The lake is clean",
+          "The lake is not polluted"
+        ]
+      },
+      {
+        "premises": [
+          "Either the species is increasing or it is decreasing but not both",
+          "The species is increasing"
+        ],
+        "conclusions": [
+          "The species is not decreasing"
+        ],
+        "incorrect conclusions": [
+          "The species is decreasing",
+          "The species is not increasing"
+        ]
+      }
+    ]
+  }
+}

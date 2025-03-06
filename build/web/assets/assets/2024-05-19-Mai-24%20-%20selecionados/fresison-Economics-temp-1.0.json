@@ -1,0 +1,75 @@
+{
+  "Economics": {
+    "Fresison": [
+      {
+        "major premise": "No Stockholders are Consumers",
+        "minor premise": "Some Consumers are Investors",
+        "conclusion": "Some Investors are not Stockholders",
+        "incorrect conclusions": [
+          "All Consumers are Investors",
+          "All Consumers are Stockholders",
+          "All Investors are Stockholders",
+          "All Stockholders are Consumers",
+          "All Stockholders are Investors",
+          "Some Consumers are not Investors",
+          "Some Stockholders are Investors",
+          "Some Stockholders are not Investors",
+          "Some Stockholders are Consumers",
+          "Some Stockholders are Investors",
+          "Some Investors are Stockholders",
+          "Some Investors are not Consumers",
+          "Some Consumers are Stockholders",
+          "No Consumers are Investors",
+          "No Investors are not Consumers",
+          "No Investors are Consumers"
+        ]
+      },
+      {
+        "major premise": "No Capitalists are Laborers",
+        "minor premise": "Some Laborers are MiddleClass",
+        "conclusion": "Some MiddleClass are not Capitalists",
+        "incorrect conclusions": [
+          "All Laborers are MiddleClass",
+          "All Laborers are Capitalists",
+          "All MiddleClass are Capitalists",
+          "All Capitalists are Laborers",
+          "All Capitalists are MiddleClass",
+          "Some Laborers are not MiddleClass",
+          "Some Capitalists are MiddleClass",
+          "Some Capitalists are not MiddleClass",
+          "Some Capitalists are Laborers",
+          "Some Capitalists are MiddleClass",
+          "Some MiddleClass are Capitalists",
+          "Some MiddleClass are not Laborers",
+          "Some Laborers are Capitalists",
+          "No Laborers are MiddleClass",
+          "No MiddleClass are not Laborers",
+          "No MiddleClass are Laborers"
+        ]
+      },
+      {
+        "major premise": "No Rich are MiddleClass",
+        "minor premise": "Some MiddleClass are Entrepreneurs",
+        "conclusion": "Some Entrepreneurs are not Rich",
+        "incorrect conclusions": [
+          "All MiddleClass are Entrepreneurs",
+          "All MiddleClass are Rich",
+          "All Entrepreneurs are Rich",
+          "All Rich are MiddleClass",
+          "All Rich are Entrepreneurs",
+          "Some MiddleClass are not Entrepreneurs",
+          "Some Rich are Entrepreneurs",
+          "Some Rich are not Entrepreneurs",
+          "Some Rich are MiddleClass",
+          "Some Rich are Entrepreneurs",
+          "Some Entrepreneurs are Rich",
+          "Some Entrepreneurs are not MiddleClass",
+          "Some MiddleClass are Rich",
+          "No MiddleClass are Entrepreneurs",
+          "No Entrepreneurs are not MiddleClass",
+          "No Entrepreneurs are MiddleClass"
+        ]
+      }
+    ]
+  }
+}

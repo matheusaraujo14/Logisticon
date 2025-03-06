@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Sociology": [
+      {
+        "premises": [
+          "If a country industrializes, then its urban population grows",
+          "If a country industrializes, then its pollution levels increase",
+          "Either the urban population does not grow or the pollution levels do not increase"
+        ],
+        "conclusions": [
+          "A country does not industrialize",
+          "The urban population does not grow and the pollution levels do not increase",
+          "If a country industrializes, then the urban population grows and the pollution levels increase"
+        ],
+        "incorrect conclusions": [
+          "If a country industrializes, then the urban population grows and the pollution levels do not increase",
+          "If the urban population grows and the pollution levels increase, then the country industrializes",
+          "If the urban population grows, then the country industrializes",
+          "The urban population grows or the pollution levels increase, but not both",
+          "If a country does not industrialize, then either the urban population does not grow or the pollution levels do not increase"
+        ]
+      },
+      {
+        "premises": [
+          "If a community experiences economic development, then income inequality decreases",
+          "If a community experiences economic development, then social services improve",
+          "Either income inequality does not decrease or social services do not improve"
+        ],
+        "conclusions": [
+          "A community does not experience economic development",
+          "Income inequality does not decrease and social services do not improve",
+          "If a community experiences economic development, then income inequality decreases and social services improve"
+        ],
+        "incorrect conclusions": [
+          "If a community experiences economic development, then income inequality decreases and social services do not improve",
+          "If income inequality decreases and social services improve, then the community experiences economic development",
+          "If income inequality decreases, then the community experiences economic development",
+          "Income inequality decreases or social services improve, but not both",
+          "If a community does not experience economic development, then either income inequality does not decrease or social services do not improve"
+        ]
+      },
+      {
+        "premises": [
+          "If a society adopts digital technology, then communication becomes faster",
+          "If a society adopts digital technology, then access to information increases",
+          "Either communication does not become faster or access to information does not increase"
+        ],
+        "conclusions": [
+          "A society does not adopt digital technology",
+          "Communication does not become faster and access to information does not increase",
+          "If a society adopts digital technology, then communication becomes faster and access to information increases"
+        ],
+        "incorrect conclusions": [
+          "If a society adopts digital technology, then communication becomes faster and access to information does not increase",
+          "If communication becomes faster and access to information increases, then the society adopts digital technology",
+          "If communication becomes faster, then the society adopts digital technology",
+          "Communication becomes faster or access to information increases, but not both",
+          "If a society does not adopt digital technology, then either communication does not become faster or access to information does not increase"
+        ]
+      }
+    ]
+  }
+}

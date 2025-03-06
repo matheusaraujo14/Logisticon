@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Dimatis": [
+      {
+        "major premise": "Some poets are novelists",
+        "minor premise": "All novelists are writers",
+        "conclusion": "Some writers are poets",
+        "incorrect conclusions": [
+          "All writers are poets",
+          "All writers are novelists",
+          "All poets are writers",
+          "All poets are novelists",
+          "All novelists are poets",
+          "Some writers are not novelists",
+          "Some poets are not writers",
+          "Some poets are not novelists",
+          "Some novelists are not writers",
+          "Some novelists are not poets",
+          "No poets are writers",
+          "No poets are novelists",
+          "No novelists are writers",
+          "No novelists are poets",
+          "No writers are novelists",
+          "No writers are poets"
+        ]
+      },
+      {
+        "major premise": "Some playwrights are poets",
+        "minor premise": "All poets are writers",
+        "conclusion": "Some writers are playwrights",
+        "incorrect conclusions": [
+          "All writers are playwrights",
+          "All writers are poets",
+          "All playwrights are writers",
+          "All playwrights are poets",
+          "All poets are playwrights",
+          "Some writers are not poets",
+          "Some playwrights are not writers",
+          "Some playwrights are not poets",
+          "Some poets are not writers",
+          "Some poets are not playwrights",
+          "No playwrights are writers",
+          "No playwrights are poets",
+          "No poets are writers",
+          "No poets are playwrights",
+          "No writers are poets",
+          "No writers are playwrights"
+        ]
+      },
+      {
+        "major premise": "Some essayists are critics",
+        "minor premise": "All critics are literary analysts",
+        "conclusion": "Some literary analysts are essayists",
+        "incorrect conclusions": [
+          "All literary analysts are essayists",
+          "All literary analysts are critics",
+          "All essayists are literary analysts",
+          "All essayists are critics",
+          "All critics are essayists",
+          "Some literary analysts are not critics",
+          "Some essayists are not literary analysts",
+          "Some essayists are not critics",
+          "Some critics are not literary analysts",
+          "Some critics are not essayists",
+          "No essayists are literary analysts",
+          "No essayists are critics",
+          "No critics are literary analysts",
+          "No critics are essayists",
+          "No literary analysts are critics",
+          "No literary analysts are essayists"
+        ]
+      }
+    ]
+  }
+}

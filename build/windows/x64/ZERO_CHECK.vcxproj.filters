@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matheus Araujo\Documents\GitHub\logisticon-main-interface\Logisticon\build\windows\x64\CMakeFiles\7c90a81cf9dbb9eee934a339eaeb82ce\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9968FFEC-3854-3BE8-9C39-1D0828858585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

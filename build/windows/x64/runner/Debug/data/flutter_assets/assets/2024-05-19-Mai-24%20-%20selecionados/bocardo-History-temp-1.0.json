@@ -1,0 +1,69 @@
+{
+  "History": {
+    "Bocardo": [
+      {
+        "major_premise": "Some Greek historians are not philosophers",
+        "minor_premise": "All Greek historians are scholars",
+        "conclusion": "Some scholars are not philosophers",
+        "incorrect_conclusions": [
+          "All scholars are philosophers",
+          "All philosophers are Greek historians",
+          "All philosophers are scholars",
+          "All scholars are not Greek historians",
+          "Some philosophers are not Greek historians",
+          "Some philosophers are scholars",
+          "Some scholars are not Greek historians",
+          "Some scholars are philosophers",
+          "Some philosophers are Greek historians",
+          "Some philosophers are Greek historians",
+          "Some philosophers are not Greek historians",
+          "Some philosophers are not scholars",
+          "No scholars are Greek historians",
+          "No Greek historians are scholars"
+        ]
+      },
+      {
+        "major_premise": "Some medieval manuscripts are not original texts",
+        "minor_premise": "All medieval manuscripts are historical documents",
+        "conclusion": "Some historical documents are not original texts",
+        "incorrect_conclusions": [
+          "All historical documents are original texts",
+          "All original texts are medieval manuscripts",
+          "All original texts are historical documents",
+          "All original texts are not medieval manuscripts",
+          "Some original texts are not medieval manuscripts",
+          "Some original texts are historical documents",
+          "Some historical documents are not medieval manuscripts",
+          "Some historical documents are original texts",
+          "Some original texts are medieval manuscripts",
+          "Some original texts are historical documents",
+          "Some original texts are not historical documents",
+          "Some original texts are not medieval manuscripts",
+          "No historical documents are medieval manuscripts",
+          "No medieval manuscripts are historical documents"
+        ]
+      },
+      {
+        "major_premise": "Some historical paintings are not accurate depictions",
+        "minor_premise": "All historical paintings are artifacts",
+        "conclusion": "Some artifacts are not accurate depictions",
+        "incorrect_conclusions": [
+          "All artifacts are accurate depictions",
+          "All accurate depictions are historical paintings",
+          "All accurate depictions are artifacts",
+          "All accurate depictions are not historical paintings",
+          "Some accurate depictions are not historical paintings",
+          "Some accurate depictions are artifacts",
+          "Some artifacts are not historical paintings",
+          "Some artifacts are accurate depictions",
+          "Some accurate depictions are historical paintings",
+          "Some accurate depictions are artifacts",
+          "Some accurate depictions are not artifacts",
+          "Some accurate depictions are not historical paintings",
+          "No artifacts are historical paintings",
+          "No historical paintings are artifacts"
+        ]
+      }
+    ]
+  }
+}

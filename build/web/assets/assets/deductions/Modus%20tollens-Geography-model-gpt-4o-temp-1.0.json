@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Geography": [
+      {
+        "premises": [
+          "If a region is in a desert, then it has low annual rainfall",
+          "The region does not have low annual rainfall"
+        ],
+        "conclusions": [
+          "The region is not in a desert"
+        ],
+        "incorrect conclusions": [
+          "The region is in a desert",
+          "The region is in a desert and it has low annual rainfall",
+          "Low annual rainfall implies the region is in a desert",
+          "The region not having low annual rainfall implies it is in a desert",
+          "The region not being in a desert implies it does not have low annual rainfall"
+        ]
+      },
+      {
+        "premises": [
+          "If a city is located on a river, then it has a good supply of water",
+          "The city does not have a good supply of water"
+        ],
+        "conclusions": [
+          "The city is not located on a river"
+        ],
+        "incorrect conclusions": [
+          "The city is located on a river",
+          "The city is located on a river and it has a good supply of water",
+          "A good supply of water implies the city is located on a river",
+          "The city not having a good supply of water implies it is located on a river",
+          "The city not being located on a river implies it does not have a good supply of water"
+        ]
+      },
+      {
+        "premises": [
+          "If a mountain range is volcanic, then it has volcanic rock formations",
+          "The mountain range does not have volcanic rock formations"
+        ],
+        "conclusions": [
+          "The mountain range is not volcanic"
+        ],
+        "incorrect conclusions": [
+          "The mountain range is volcanic",
+          "The mountain range is volcanic and it has volcanic rock formations",
+          "Volcanic rock formations imply the mountain range is volcanic",
+          "The mountain range not having volcanic rock formations implies it is volcanic",
+          "The mountain range not being volcanic implies it does not have volcanic rock formations"
+        ]
+      }
+    ]
+  }
+}

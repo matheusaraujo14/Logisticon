@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Literature": [
+      {
+        "premises": [
+          "If a story has a surprising twist, then readers are engaged",
+          "A story has a surprising twist"
+        ],
+        "conclusions": [
+          "Readers are engaged"
+        ],
+        "incorrect conclusions": [
+          "Readers are not engaged",
+          "Readers are engaged implies that a story has a surprising twist",
+          "Readers are not engaged implies that a story has a surprising twist",
+          "A story does not have a surprising twist implies that readers are not engaged"
+        ]
+      },
+      {
+        "premises": [
+          "If a character undergoes significant development, then the plot becomes more compelling",
+          "A character undergoes significant development"
+        ],
+        "conclusions": [
+          "The plot becomes more compelling"
+        ],
+        "incorrect conclusions": [
+          "The plot does not become more compelling",
+          "The plot becomes more compelling implies that a character undergoes significant development",
+          "The plot does not become more compelling implies that a character undergoes significant development",
+          "A character does not undergo significant development implies that the plot does not become more compelling"
+        ]
+      },
+      {
+        "premises": [
+          "If the narrative is told from a first-person perspective, then readers gain insight into the protagonist's thoughts",
+          "The narrative is told from a first-person perspective"
+        ],
+        "conclusions": [
+          "Readers gain insight into the protagonist's thoughts"
+        ],
+        "incorrect conclusions": [
+          "Readers do not gain insight into the protagonist's thoughts",
+          "Readers gain insight into the protagonist's thoughts implies that the narrative is told from a first-person perspective",
+          "Readers do not gain insight into the protagonist's thoughts implies that the narrative is told from a first-person perspective",
+          "The narrative is not told from a first-person perspective implies that readers do not gain insight into the protagonist's thoughts"
+        ]
+      }
+    ]
+  }
+}

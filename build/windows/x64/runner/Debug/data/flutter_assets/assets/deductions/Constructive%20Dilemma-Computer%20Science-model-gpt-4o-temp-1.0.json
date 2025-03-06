@@ -1,0 +1,69 @@
+{
+	"Constructive Dilemma": {
+		"Computer Science": [
+			{
+				"premises": [
+					"If the software is tested, then it is reliable",
+					"If the software is peer-reviewed, then it is reliable",
+					"The software is tested or peer-reviewed"
+				],
+				"conclusions": [
+					"The software is reliable",
+					"If the software is tested or peer-reviewed, then it is reliable",
+					"If the software is not reliable, then it is not tested and it is not peer-reviewed",
+					"If the software is tested and peer-reviewed, then it is reliable",
+					"If the software is reliable, then it is tested or peer-reviewed"
+				],
+				"incorrect conclusions": [
+					"If the software is tested, then it is peer-reviewed or reliable",
+					"If the software is reliable, then it is tested and peer-reviewed",
+					"If the software is reliable or tested, then it is peer-reviewed",
+					"If the software is not tested, then it is reliable",
+					"If the software is not reliable, then it is tested and peer-reviewed"
+				]
+			},
+			{
+				"premises": [
+					"If the database is optimized, then it is fast",
+					"If the database is indexed, then it is fast",
+					"The database is optimized or indexed"
+				],
+				"conclusions": [
+					"The database is fast",
+					"If the database is optimized or indexed, then it is fast",
+					"If the database is not fast, then it is not optimized and it is not indexed",
+					"If the database is optimized and indexed, then it is fast",
+					"If the database is fast, then it is optimized or indexed"
+				],
+				"incorrect conclusions": [
+					"If the database is optimized, then it is indexed or fast",
+					"If the database is fast, then it is optimized and indexed",
+					"If the database is fast or optimized, then it is indexed",
+					"If the database is not optimized, then it is fast",
+					"If the database is not fast, then it is optimized and indexed"
+				]
+			},
+			{
+				"premises": [
+					"If the code is documented, then it is understandable",
+					"If the code is modular, then it is understandable",
+					"The code is documented or modular"
+				],
+				"conclusions": [
+					"The code is understandable",
+					"If the code is documented or modular, then it is understandable",
+					"If the code is not understandable, then it is not documented and it is not modular",
+					"If the code is documented and modular, then it is understandable",
+					"If the code is understandable, then it is documented or modular"
+				],
+				"incorrect conclusions": [
+					"If the code is documented, then it is modular or understandable",
+					"If the code is understandable, then it is documented and modular",
+					"If the code is understandable or documented, then it is modular",
+					"If the code is not documented, then it is understandable",
+					"If the code is not understandable, then it is documented and modular"
+				]
+			}
+		]
+	}
+}

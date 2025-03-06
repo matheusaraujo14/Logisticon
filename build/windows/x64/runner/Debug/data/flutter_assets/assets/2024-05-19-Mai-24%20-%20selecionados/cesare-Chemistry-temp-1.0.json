@@ -1,0 +1,54 @@
+{
+  "Chemistry": {
+    "Cesare": [
+      {
+        "major premise": "No noble gases are metals",
+        "minor premise": "All neon atoms are noble gases",
+        "conclusion": "No neon atoms are metals",
+        "incorrect conclusions": [
+          "All neon atoms are metals",
+          "All noble gases are metals",
+          "Some neon atoms are noble gases",
+          "Some neon atoms are metals",
+          "Some metals are neon atoms",
+          "Some metals are noble gases",
+          "Some metals are not neon atoms",
+          "Some metals are neon atoms",
+          "Some metals are noble gases"
+        ]
+      },
+      {
+        "major premise": "No acids are bases",
+        "minor premise": "All hydrochloric acid molecules are acids",
+        "conclusion": "No hydrochloric acid molecules are bases",
+        "incorrect conclusions": [
+          "All hydrochloric acid molecules are bases",
+          "All acids are bases",
+          "Some hydrochloric acid molecules are acids",
+          "Some hydrochloric acid molecules are bases",
+          "Some bases are hydrochloric acid molecules",
+          "Some bases are acids",
+          "Some bases are not hydrochloric acid molecules",
+          "Some bases are hydrochloric acid molecules",
+          "Some bases are acids"
+        ]
+      },
+      {
+        "major premise": "No polymers are elements",
+        "minor premise": "All proteins are polymers",
+        "conclusion": "No proteins are elements",
+        "incorrect conclusions": [
+          "All proteins are elements",
+          "All polymers are elements",
+          "Some proteins are polymers",
+          "Some proteins are elements",
+          "Some elements are proteins",
+          "Some elements are polymers",
+          "Some elements are not proteins",
+          "Some elements are proteins",
+          "Some elements are polymers"
+        ]
+      }
+    ]
+  }
+}

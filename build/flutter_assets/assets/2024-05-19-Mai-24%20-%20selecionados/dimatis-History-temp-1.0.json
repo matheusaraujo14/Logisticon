@@ -1,0 +1,75 @@
+{
+  "History": {
+     "Dimatis" : [
+		{
+          "major premise": "Some European kings are Holy Roman Emperors",
+          "minor premise": "All Holy Roman Emperors are rulers",
+          "conclusion": "Some rulers are European kings",
+		  "incorrect conclusions": [
+			"All rulers are European kings",
+			"All rulers are Holy Roman Emperors",
+			"All European kings are rulers",
+			"All European kings are Holy Roman Emperors",
+			"All Holy Roman Emperors are European kings",
+			"Some rulers are not Holy Roman Emperors",
+			"Some European kings are not rulers",
+			"Some European kings are not Holy Roman Emperors",
+			"Some Holy Roman Emperors are not rulers",
+			"Some Holy Roman Emperors are not European kings",
+			"No European king is a ruler",
+			"No European king is a Holy Roman Emperor",
+			"No Holy Roman Emperor is a ruler",
+			"No Holy Roman Emperor is an European king",
+			"No ruler is a Holy Roman Emperor",
+			"No ruler is a European king"
+		  ]
+		},
+		{
+          "major premise": "Some ancient civilizations are kingdom states",
+          "minor premise": "All kingdom states are political entities",
+          "conclusion": "Some political entities are ancient civilizations",
+		  "incorrect conclusions": [
+			"All political entities are ancient civilizations",
+			"All political entities are kingdom states",
+			"All ancient civilizations are political entities",
+			"All ancient civilizations are kingdom states",
+			"All kingdom states are ancient civilizations",
+			"Some political entities are not kingdom states",
+			"Some ancient civilizations are not political entities",
+			"Some ancient civilizations are not kingdom states",
+			"Some kingdom states are not political entities",
+			"Some kingdom states are not ancient civilizations",
+			"No ancient civilization is a political entity",
+			"No ancient civilization is a kingdom state",
+			"No kingdom state is a political entity",
+			"No kingdom state is an ancient civilization",
+			"No political entity is a kingdom state",
+			"No political entity is an ancient civilization"
+		  ]
+		},
+		{
+          "major premise": "Some historic treaties are peace agreements",
+          "minor premise": "All peace agreements are written documents",
+          "conclusion": "Some written documents are historic treaties",
+		  "incorrect conclusions": [
+			"All written documents are historic treaties",
+			"All written documents are peace agreements",
+			"All historic treaties are written documents",
+			"All historic treaties are peace agreements",
+			"All peace agreements are historic treaties",
+			"Some written documents are not peace agreements",
+			"Some historic treaties are not written documents",
+			"Some historic treaties are not peace agreements",
+			"Some peace agreements are not written documents",
+			"Some peace agreements are not historic treaties",
+			"No historic treaty is a written document",
+			"No historic treaty is a peace agreement",
+			"No peace agreement is a written document",
+			"No peace agreement is a historic treaty",
+			"No written document is a peace agreement",
+			"No written document is a historic treaty"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Psychology": [
+      {
+        "premises": [
+          "A person is either introverted or extroverted but not both",
+          "The person is not introverted"
+        ],
+        "conclusions": [
+          "The person is extroverted",
+          "If the person is not extroverted, then they are introverted"
+        ],
+        "incorrect conclusions": [
+          "The person is introverted",
+          "If the person is introverted, then they are extroverted",
+          "If the person is extroverted, then they are introverted",
+          "The person is introverted"
+        ]
+      },
+      {
+        "premises": [
+          "A patient is either experiencing anxiety or depression but not both",
+          "The patient is not experiencing anxiety"
+        ],
+        "conclusions": [
+          "The patient is experiencing depression",
+          "If the patient is not experiencing depression, then they are experiencing anxiety"
+        ],
+        "incorrect conclusions": [
+          "The patient is not experiencing depression",
+          "If the patient is experiencing anxiety, then they are experiencing depression",
+          "If the patient is experiencing depression, then they are experiencing anxiety",
+          "The patient is experiencing anxiety"
+        ]
+      },
+      {
+        "premises": [
+          "A student either prefers group study or individual study but not both",
+          "The student does not prefer group study"
+        ],
+        "conclusions": [
+          "The student prefers individual study",
+          "If the student does not prefer individual study, then they prefer group study"
+        ],
+        "incorrect conclusions": [
+          "The student does not prefer individual study",
+          "If the student prefers group study, then they prefer individual study",
+          "If the student prefers individual study, then they prefer group study",
+          "The student prefers group study"
+        ]
+      }
+    ]
+  }
+}

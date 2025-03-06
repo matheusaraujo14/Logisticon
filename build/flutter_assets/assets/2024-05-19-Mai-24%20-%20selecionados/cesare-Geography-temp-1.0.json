@@ -1,0 +1,54 @@
+{
+  "Geography": {
+    "Cesare": [
+      {
+        "major premise": "No mountains are rivers",
+        "minor premise": "All Rockies are mountains",
+        "conclusion": "No Rockies are rivers",
+        "incorrect conclusions": [
+          "All Rockies are rivers",
+          "All mountains are rivers",
+          "Some Rockies are mountains",
+          "Some Rockies are rivers",
+          "Some mountains are Rockies",
+          "Some mountains are rivers",
+          "Some mountains are not Rockies",
+          "Some rivers are Rockies",
+          "Some rivers are mountains"
+        ]
+      },
+      {
+        "major premise": "No forests are oceans",
+        "minor premise": "All Amazon are forests",
+        "conclusion": "No Amazon are oceans",
+        "incorrect conclusions": [
+          "All Amazon are oceans",
+          "All forests are oceans",
+          "Some Amazon are forests",
+          "Some Amazon are oceans",
+          "Some forests are Amazon",
+          "Some forests are oceans",
+          "Some forests are not Amazon",
+          "Some oceans are Amazon",
+          "Some oceans are forests"
+        ]
+      },
+      {
+        "major premise": "No lakes are deserts",
+        "minor premise": "All Great Lakes are lakes",
+        "conclusion": "No Great Lakes are deserts",
+        "incorrect conclusions": [
+          "All Great Lakes are deserts",
+          "All lakes are deserts",
+          "Some Great Lakes are lakes",
+          "Some Great Lakes are deserts",
+          "Some lakes are Great Lakes",
+          "Some lakes are deserts",
+          "Some lakes are not Great Lakes",
+          "Some deserts are Great Lakes",
+          "Some deserts are lakes"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Economics": [
+      {
+        "premises": [
+          "If demand increases, then prices rise",
+          "If prices rise, then inflation occurs"
+        ],
+        "conclusions": [
+          "If demand increases, then inflation occurs",
+          "If inflation does not occur, then demand did not increase",
+          "If either demand increases or price rises, then inflation occurs and if demand increases, then inflation occurs",
+          "If demand increases, then inflation occurs and if demand increases, then inflation occurs",
+          "If demand does not increase and prices rise, then inflation occurs and if demand increases, then inflation occurs",
+          "If either demand increases or prices rise, then inflation occurs"
+        ],
+        "incorrect conclusions": [
+          "Demand increases",
+          "If inflation occurs, then demand increases",
+          "If inflation occurs, then demand did not increase",
+          "Inflation occurs",
+          "Inflation does not occur",
+          "If inflation does not occur, then demand did increase",
+          "If prices do not rise, then inflation occurs",
+          "If demand increases or prices do not rise, then inflation occurs"
+        ]
+      },
+      {
+        "premises": [
+          "If economic growth slows, then unemployment rises",
+          "If unemployment rises, then consumer spending decreases"
+        ],
+        "conclusions": [
+          "If economic growth slows, then consumer spending decreases",
+          "If consumer spending does not decrease, then economic growth did not slow",
+          "If either economic growth slows or unemployment rises, then consumer spending decreases and if economic growth slows, then consumer spending decreases",
+          "If economic growth slows, then consumer spending decreases and if economic growth slows, then consumer spending decreases",
+          "If economic growth does not slow and unemployment rises, then consumer spending decreases and if economic growth slows, then consumer spending decreases",
+          "If either economic growth slows or unemployment rises, then consumer spending decreases"
+        ],
+        "incorrect conclusions": [
+          "Economic growth slows",
+          "If consumer spending decreases, then economic growth slows",
+          "If consumer spending decreases, then economic growth did not slow",
+          "Consumer spending decreases",
+          "Consumer spending does not decrease",
+          "If consumer spending does not decrease, then economic growth did slow",
+          "If unemployment does not rise, then consumer spending decreases",
+          "If economic growth slows or unemployment does not rise, then consumer spending decreases"
+        ]
+      },
+      {
+        "premises": [
+          "If interest rates increase, then investment decreases",
+          "If investment decreases, then economic growth slows"
+        ],
+        "conclusions": [
+          "If interest rates increase, then economic growth slows",
+          "If economic growth does not slow, then interest rates did not increase",
+          "If either interest rates increase or investment decreases, then economic growth slows and if interest rates increase, then economic growth slows",
+          "If interest rates increase, then economic growth slows and if interest rates increase, then economic growth slows",
+          "If interest rates do not increase and investment decreases, then economic growth slows and if interest rates increase, then economic growth slows",
+          "If either interest rates increase or investment decreases, then economic growth slows"
+        ],
+        "incorrect conclusions": [
+          "Interest rates increase",
+          "If economic growth slows, then interest rates increase",
+          "If economic growth slows, then interest rates did not increase",
+          "Economic growth slows",
+          "Economic growth does not slow",
+          "If economic growth does not slow, then interest rates did increase",
+          "If investment does not decrease, then economic growth slows",
+          "If interest rates increase or investment does not decrease, then economic growth slows"
+        ]
+      }
+    ]
+  }
+}

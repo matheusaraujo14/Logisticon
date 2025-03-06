@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Geology": [
+      {
+        "premises": [
+          "Either the rock is igneous or it is sedimentary, but not both",
+          "The rock is igneous"
+        ],
+        "conclusions": [
+          "The rock is not sedimentary"
+        ],
+        "incorrect conclusions": [
+          "The rock is sedimentary",
+          "The rock is not igneous"
+        ]
+      },
+      {
+        "premises": [
+          "Either the soil is loamy or it is sandy, but not both",
+          "The soil is loamy"
+        ],
+        "conclusions": [
+          "The soil is not sandy"
+        ],
+        "incorrect conclusions": [
+          "The soil is sandy",
+          "The soil is not loamy"
+        ]
+      },
+      {
+        "premises": [
+          "Either the mineral contains quartz or it contains feldspar, but not both",
+          "The mineral contains quartz"
+        ],
+        "conclusions": [
+          "The mineral does not contain feldspar"
+        ],
+        "incorrect conclusions": [
+          "The mineral contains feldspar",
+          "The mineral does not contain quartz"
+        ]
+      }
+    ]
+  }
+}

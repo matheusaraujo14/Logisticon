@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "History": [
+      {
+        "premises": [
+          "If the king is deposed, then a republic is established",
+          "If the king reigns, then reforms are enacted"
+        ],
+        "conclusions": [
+          "If a republic is not established, then the king reigns",
+          "If reforms are not enacted, then the king is not reigning",
+          "If reforms are not enacted, then a republic is established",
+          "A republic is established or reforms are enacted",
+          "If the king reigns and a republic is established, then reforms are enacted"
+        ],
+        "incorrect conclusions": [
+          "If a republic is established, then the king reigns",
+          "If a republic is established, then the king is not reigning",
+          "If a republic is not established, then the king is not reigning",
+          "A republic is established and reforms are enacted",
+          "If reforms are enacted, then the king reigns",
+          "If a republic is established and reforms are enacted, then the king reigns"
+        ]
+      },
+      {
+        "premises": [
+          "If a treaty is signed, then peace prevails",
+          "If a treaty is not signed, then the war continues"
+        ],
+        "conclusions": [
+          "If peace does not prevail, then a treaty is not signed",
+          "If the war continues, then a treaty is not signed",
+          "If the war continues, then peace prevails",
+          "Peace prevails or the war continues",
+          "If a treaty is signed and peace prevails, then the war continues"
+        ],
+        "incorrect conclusions": [
+          "If peace prevails, then a treaty is signed",
+          "If peace prevails, then a treaty is not signed",
+          "If peace does not prevail, then a treaty is not signed",
+          "Peace prevails and the war continues",
+          "If the war continues, then a treaty is signed",
+          "If peace prevails and the war continues, then a treaty is signed"
+        ]
+      },
+      {
+        "premises": [
+          "If the alliance is formed, then the enemy is defeated",
+          "If the alliance is not formed, then the enemy attacks"
+        ],
+        "conclusions": [
+          "If the enemy is not defeated, then the alliance is not formed",
+          "If the enemy attacks, then the alliance is not formed",
+          "If the enemy attacks, then the enemy is defeated",
+          "The enemy is defeated or the enemy attacks",
+          "If the alliance is formed and the enemy is defeated, then the enemy attacks"
+        ],
+        "incorrect conclusions": [
+          "If the enemy is defeated, then the alliance is formed",
+          "If the enemy is defeated, then the alliance is not formed",
+          "If the enemy is not defeated, then the alliance is not formed",
+          "The enemy is defeated and the enemy attacks",
+          "If the enemy attacks, then the alliance is formed",
+          "If the enemy is defeated and the enemy attacks, then the alliance is formed"
+        ]
+      }
+    ]
+  }
+}

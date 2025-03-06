@@ -1,0 +1,54 @@
+{
+  "Sports Science": {
+    "Datisi": [
+      {
+        "major premise": "All swimmers are competitors",
+        "minor premise": "Some swimmers are Olympians",
+        "conclusion": "Some Olympians are competitors",
+        "incorrect conclusions": [
+          "All Olympians are swimmers",
+          "All Olympians are competitors",
+          "All competitors are swimmers",
+          "All competitors are Olympians",
+          "All swimmers are Olympians",
+          "Some Olympians are not competitors",
+          "Some Olympians are not swimmers",
+          "Some competitors are not swimmers",
+          "Some competitors are not Olympians",
+          "Some swimmers are not competitors",
+          "Some swimmers are not Olympians",
+          "No Olympians are competitors",
+          "No Olympians are swimmers",
+          "No swimmers are competitors",
+          "No swimmers are Olympians",
+          "No competitors are swimmers",
+          "No competitors are Olympians"
+        ]
+      },
+      {
+        "major premise": "All cyclists are sportspeople",
+        "minor premise": "Some cyclists are triathletes",
+        "conclusion": "Some triathletes are sportspeople",
+        "incorrect conclusions": [
+          "All triathletes are cyclists",
+          "All triathletes are sportspeople",
+          "All sportspeople are cyclists",
+          "All sportspeople are triathletes",
+          "All cyclists are triathletes",
+          "Some triathletes are not sportspeople",
+          "Some triathletes are not cyclists",
+          "Some sportspeople are not cyclists",
+          "Some sportspeople are not triathletes",
+          "Some cyclists are not sportspeople",
+          "Some cyclists are not triathletes",
+          "No triathletes are sportspeople",
+          "No triathletes are cyclists",
+          "No cyclists are sportspeople",
+          "No cyclists are triathletes",
+          "No sportspeople are cyclists",
+          "No sportspeople are triathletes"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Geology": [
+      {
+        "premises": [
+          "If a volcano erupts, then lava flows",
+          "If an earthquake occurs, then lava flows",
+          "A volcano erupts or an earthquake occurs"
+        ],
+        "conclusions": [
+          "Lava flows",
+          "If a volcano erupts or an earthquake occurs, then lava flows",
+          "If lava does not flow, then a volcano does not erupt and an earthquake does not occur",
+          "If a volcano erupts and an earthquake occurs, then lava flows",
+          "If lava flows, then a volcano erupts or an earthquake occurs"
+        ],
+        "incorrect conclusions": [
+          "If a volcano erupts, then an earthquake occurs or lava flows",
+          "If lava flows, then a volcano erupts and an earthquake occurs",
+          "If lava flows or a volcano erupts, then an earthquake occurs",
+          "If a volcano does not erupt, then lava flows",
+          "If lava does not flow, then a volcano erupts and an earthquake occurs"
+        ]
+      },
+      {
+        "premises": [
+          "If a rock contains fossils, then it is sedimentary",
+          "If a rock contains layers, then it is sedimentary",
+          "A rock contains fossils or it contains layers"
+        ],
+        "conclusions": [
+          "The rock is sedimentary",
+          "If a rock contains fossils or layers, then it is sedimentary",
+          "If a rock is not sedimentary, then it does not contain fossils and does not contain layers",
+          "If a rock contains fossils and layers, then it is sedimentary",
+          "If a rock is sedimentary, then it contains fossils or layers"
+        ],
+        "incorrect conclusions": [
+          "If a rock contains fossils, then it contains layers or it is sedimentary",
+          "If a rock is sedimentary, then it contains fossils and layers",
+          "If a rock is sedimentary or contains fossils, then it contains layers",
+          "If a rock does not contain fossils, then it is sedimentary",
+          "If a rock is not sedimentary, then it contains fossils and layers"
+        ]
+      },
+      {
+        "premises": [
+          "If a mineral scratches glass, then it is hard",
+          "If a mineral scratches steel, then it is hard",
+          "A mineral scratches glass or it scratches steel"
+        ],
+        "conclusions": [
+          "The mineral is hard",
+          "If a mineral scratches glass or steel, then it is hard",
+          "If a mineral is not hard, then it does not scratch glass and does not scratch steel",
+          "If a mineral scratches glass and steel, then it is hard",
+          "If a mineral is hard, then it scratches glass or steel"
+        ],
+        "incorrect conclusions": [
+          "If a mineral scratches glass, then it scratches steel or it is hard",
+          "If a mineral is hard, then it scratches glass and steel",
+          "If a mineral is hard or it scratches glass, then it scratches steel",
+          "If a mineral does not scratch glass, then it is hard",
+          "If a mineral is not hard, then it scratches glass and steel"
+        ]
+      }
+    ]
+  }
+}

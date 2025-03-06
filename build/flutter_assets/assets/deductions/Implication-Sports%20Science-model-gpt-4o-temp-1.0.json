@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains regularly, then their performance improves"
+        ],
+        "conclusions": [
+          "If an athlete's performance does not improve, then they do not train regularly"
+        ],
+        "incorrect conclusions": [
+          "An athlete trains regularly",
+          "An athlete does not train regularly",
+          "An athlete's performance improves",
+          "An athlete's performance does not improve",
+          "If an athlete's performance improves, then they train regularly",
+          "If an athlete's performance does not improve, then they train regularly",
+          "If an athlete does not train regularly, then their performance does not improve"
+        ]
+      },
+      {
+        "premises": [
+          "If a player follows a balanced diet, then their recovery time decreases"
+        ],
+        "conclusions": [
+          "If a player's recovery time does not decrease, then they do not follow a balanced diet"
+        ],
+        "incorrect conclusions": [
+          "A player follows a balanced diet",
+          "A player does not follow a balanced diet",
+          "A player's recovery time decreases",
+          "A player's recovery time does not decrease",
+          "If a player's recovery time decreases, then they follow a balanced diet",
+          "If a player's recovery time does not decrease, then they follow a balanced diet",
+          "If a player does not follow a balanced diet, then their recovery time does not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "If a team practices strategic plays, then they have a higher chance of winning"
+        ],
+        "conclusions": [
+          "If a team does not have a higher chance of winning, then they do not practice strategic plays"
+        ],
+        "incorrect conclusions": [
+          "A team practices strategic plays",
+          "A team does not practice strategic plays",
+          "A team has a higher chance of winning",
+          "A team does not have a higher chance of winning",
+          "If a team has a higher chance of winning, then they practice strategic plays",
+          "If a team does not have a higher chance of winning, then they practice strategic plays",
+          "If a team does not practice strategic plays, then they do not have a higher chance of winning"
+        ]
+      }
+    ]
+  }
+}

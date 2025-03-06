@@ -1,0 +1,52 @@
+{
+  "Astronomy": {
+    "Ferison": [
+      {
+        "major premise": "No stars are planets",
+        "minor premise": "Some stars are red dwarfs",
+        "conclusion": "Some red dwarfs are not planets",
+        "incorrect conclusions": [
+          "All stars are red dwarfs",
+          "All stars are planets",
+          "All red dwarfs are planets",
+          "All planets are stars",
+          "All planets are red dwarfs",
+          "Some stars are not red dwarfs",
+          "Some planets are red dwarfs",
+          "Some planets are not red dwarfs",
+          "Some planets are stars",
+          "Some planets are red dwarfs",
+          "Some red dwarfs are planets",
+          "Some red dwarfs are not stars",
+          "Some stars are planets",
+          "No stars are red dwarfs",
+          "No red dwarfs are not stars",
+          "No red dwarfs are stars"
+        ]
+      },
+      {
+        "major premise": "No asteroids are planets",
+        "minor premise": "Some asteroids are celestial bodies",
+        "conclusion": "Some celestial bodies are not planets",
+        "incorrect conclusions": [
+          "All asteroids are celestial bodies",
+          "All asteroids are planets",
+          "All celestial bodies are planets",
+          "All planets are asteroids",
+          "All planets are celestial bodies",
+          "Some asteroids are not celestial bodies",
+          "Some planets are celestial bodies",
+          "Some planets are not celestial bodies",
+          "Some planets are asteroids",
+          "Some planets are celestial bodies",
+          "Some celestial bodies are planets",
+          "Some celestial bodies are not asteroids",
+          "Some asteroids are planets",
+          "No asteroids are celestial bodies",
+          "No celestial bodies are not asteroids",
+          "No celestial bodies are asteroids"
+        ]
+      }
+    ]
+  }
+}

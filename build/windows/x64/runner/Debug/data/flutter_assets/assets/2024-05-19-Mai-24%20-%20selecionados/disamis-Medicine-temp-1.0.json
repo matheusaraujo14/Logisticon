@@ -1,0 +1,75 @@
+{
+  "Medicine": {
+     "Disamis": [
+        {
+          "major premise": "Some painkillers are opioids",
+          "minor premise": "All painkillers are drugs",
+          "conclusion": "Some drugs are opioids",
+          "incorrect conclusions": [
+            "All drugs are opioids",
+            "All drugs are painkillers",
+            "All opioids are drugs",
+            "All opioids are painkillers",
+            "All painkillers are opioids",
+            "Some drugs are not painkillers",
+            "Some opioids are not drugs",
+            "Some opioids are not painkillers",
+            "Some painkillers are not drugs",
+            "Some painkillers are not opioids",
+            "No opioids are drugs",
+            "No opioids are painkillers",
+            "No painkillers are drugs",
+            "No painkillers are opioids",
+            "No drugs are painkillers",
+            "No drugs are opioids"
+          ]
+        },
+        {
+          "major premise": "Some antidepressants are SSRIs",
+          "minor premise": "All antidepressants are medications",
+          "conclusion": "Some medications are SSRIs",
+          "incorrect conclusions": [
+            "All medications are SSRIs",
+            "All medications are antidepressants",
+            "All SSRIs are medications",
+            "All SSRIs are antidepressants",
+            "All antidepressants are SSRIs",
+            "Some medications are not antidepressants",
+            "Some SSRIs are not medications",
+            "Some SSRIs are not antidepressants",
+            "Some antidepressants are not medications",
+            "Some antidepressants are not SSRIs",
+            "No SSRIs are medications",
+            "No SSRIs are antidepressants",
+            "No antidepressants are medications",
+            "No antidepressants are SSRIs",
+            "No medications are antidepressants",
+            "No medications are SSRIs"
+          ]
+        },
+        {
+          "major premise": "Some antibiotics are penicillins",
+          "minor premise": "All antibiotics are medicines",
+          "conclusion": "Some medicines are penicillins",
+          "incorrect conclusions": [
+            "All medicines are penicillins",
+            "All medicines are antibiotics",
+            "All penicillins are medicines",
+            "All penicillins are antibiotics",
+            "All antibiotics are penicillins",
+            "Some medicines are not antibiotics",
+            "Some penicillins are not medicines",
+            "Some penicillins are not antibiotics",
+            "Some antibiotics are not medicines",
+            "Some antibiotics are not penicillins",
+            "No penicillins are medicines",
+            "No penicillins are antibiotics",
+            "No antibiotics are medicines",
+            "No antibiotics are penicillins",
+            "No medicines are antibiotics",
+            "No medicines are penicillins"
+          ]
+        }
+     ]
+  }
+}

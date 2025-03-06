@@ -1,0 +1,69 @@
+{
+  "Astronomy": {
+     "Bocardo" : [
+		{
+          "major premise": "Some stars are not planets",
+          "minor premise": "All stars are celestial bodies",
+          "conclusion": "Some celestial bodies are not planets",
+		  "incorrect conclusions": [
+			"All stars are planets",
+			"All celestial bodies are stars",
+			"All celestial bodies are planets",
+			"All planets are not stars",
+			"Some celestial bodies are not stars",
+			"Some celestial bodies are planets",
+			"Some stars are not celestial bodies",
+			"Some stars are planets",
+			"Some planets are stars",
+			"Some planets are celestial bodies",
+			"Some planets are not celestial bodies",
+			"Some planets are not stars",
+			"No stars is a celestial body",
+			"No celestial bodies is a star"
+		  ]
+		},
+		{
+          "major premise": "Some asteroids are not planets",
+          "minor premise": "All asteroids are small celestial bodies",
+          "conclusion": "Some small celestial bodies are not planets",
+		  "incorrect conclusions": [
+			"All asteroids are planets",
+			"All small celestial bodies are asteroids",
+			"All small celestial bodies are planets",
+			"All planets are not asteroids",
+			"Some small celestial bodies are not asteroids",
+			"Some small celestial bodies are planets",
+			"Some asteroids are not small celestial bodies",
+			"Some asteroids are planets",
+			"Some planets are asteroids",
+			"Some planets are small celestial bodies",
+			"Some planets are not small celestial bodies",
+			"Some planets are not asteroids",
+			"No asteroids is a small celestial body",
+			"No small celestial bodies is an asteroid"
+		  ]
+		},
+		{
+          "major premise": "Some moons are not planets",
+          "minor premise": "All moons are natural satellites",
+          "conclusion": "Some natural satellites are not planets",
+		  "incorrect conclusions": [
+			"All moons are planets",
+			"All natural satellites are moons",
+			"All natural satellites are planets",
+			"All planets are not moons",
+			"Some natural satellites are not moons",
+			"Some natural satellites are planets",
+			"Some moons are not natural satellites",
+			"Some moons are planets",
+			"Some planets are moons",
+			"Some planets are natural satellites",
+			"Some planets are not natural satellites",
+			"Some planets are not moons",
+			"No moons is a natural satellite",
+			"No natural satellites is a moon"
+		   ]
+		}
+	 ]
+  }
+}

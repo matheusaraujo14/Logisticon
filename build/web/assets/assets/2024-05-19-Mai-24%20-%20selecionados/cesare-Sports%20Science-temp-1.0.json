@@ -1,0 +1,22 @@
+{
+  "Sports Science": {
+    "Cesare": [
+      {
+        "major premise": "No football coaches are nutritionists",
+        "minor premise": "All dietitians are nutritionists",
+        "conclusion": "No dietitians are football coaches",
+        "incorrect conclusions": [
+          "All dietitians are football coaches",
+          "All nutritionists are football coaches",
+          "Some dietitians are nutritionists",
+          "Some dietitians are football coaches",
+          "Some nutritionists are dietitians",
+          "Some nutritionists are football coaches",
+          "Some nutritionists are not dietitians",
+          "Some football coaches are dietitians",
+          "Some football coaches are nutritionists"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "Computer Science": {
+    "Festino": [
+      {
+        "major premise": "No databases are algorithms",
+        "minor premise": "Some sorting algorithms are algorithms",
+        "conclusion": "Some sorting algorithms are not databases",
+        "incorrect conclusions": [
+          "All algorithms are sorting algorithms",
+          "All algorithms are databases",
+          "All sorting algorithms are databases",
+          "All databases are algorithms",
+          "All databases are sorting algorithms",
+          "Some algorithms are not sorting algorithms",
+          "Some databases are sorting algorithms",
+          "Some databases are not sorting algorithms",
+          "Some databases are algorithms",
+          "Some databases are sorting algorithms",
+          "Some sorting algorithms are databases",
+          "Some sorting algorithms are not algorithms",
+          "Some algorithms are databases",
+          "No algorithms is sorting algorithm",
+          "No sorting algorithm is not algorithm",
+          "No sorting algorithm is algorithm"
+        ]
+      },
+      {
+        "major premise": "No data structures are operating systems",
+        "minor premise": "Some linked lists are data structures",
+        "conclusion": "Some linked lists are not operating systems",
+        "incorrect conclusions": [
+          "All operating systems are linked lists",
+          "All operating systems are data structures",
+          "All linked lists are data structures",
+          "All data structures are operating systems",
+          "All data structures are linked lists",
+          "Some operating systems are not linked lists",
+          "Some data structures are linked lists",
+          "Some data structures are not linked lists",
+          "Some data structures are operating systems",
+          "Some data structures are linked lists",
+          "Some linked lists are data structures",
+          "Some linked lists are not data structures",
+          "Some operating systems are data structures",
+          "No operating system is linked list",
+          "No linked list is not data structure",
+          "No linked list is data structure"
+        ]
+      },
+      {
+        "major premise": "No software developers are network protocols",
+        "minor premise": "Some Python developers are software developers",
+        "conclusion": "Some Python developers are not network protocols",
+        "incorrect conclusions": [
+          "All network protocols are Python developers",
+          "All network protocols are software developers",
+          "All Python developers are software developers",
+          "All software developers are network protocols",
+          "All software developers are Python developers",
+          "Some network protocols are not Python developers",
+          "Some software developers are Python developers",
+          "Some software developers are not Python developers",
+          "Some software developers are network protocols",
+          "Some software developers are Python developers",
+          "Some Python developers are software developers",
+          "Some Python developers are not software developers",
+          "Some network protocols are software developers",
+          "No network protocol is Python developer",
+          "No Python developer is not software developer",
+          "No Python developer is software developer"
+        ]
+      }
+    ]
+  }
+}

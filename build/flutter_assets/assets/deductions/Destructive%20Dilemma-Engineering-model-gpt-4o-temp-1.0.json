@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Engineering": [
+      {
+        "premises": [
+          "If the engine overheats, then the coolant level is low",
+          "If the engine overheats, then the radiator is malfunctioning",
+          "The coolant level is not low or the radiator is not malfunctioning"
+        ],
+        "conclusions": [
+          "The engine does not overheat",
+          "The coolant level is not low and the radiator is not malfunctioning",
+          "If the engine overheats, then the coolant level is low and the radiator is malfunctioning"
+        ],
+        "incorrect conclusions": [
+          "If the engine overheats, then the coolant level is low and the radiator is not malfunctioning",
+          "If the coolant level is low and the radiator is malfunctioning, then the engine overheats",
+          "If the coolant level is low, then the engine overheats",
+          "The coolant level is low or the radiator is malfunctioning but not both",
+          "If the engine does not overheat, then the coolant level is not low or the radiator is not malfunctioning"
+        ]
+      },
+      {
+        "premises": [
+          "If the software has a bug, then the application crashes",
+          "If the software has a bug, then the user reports an error",
+          "The application does not crash or the user does not report an error"
+        ],
+        "conclusions": [
+          "The software does not have a bug",
+          "The application does not crash and the user does not report an error",
+          "If the software has a bug, then the application crashes and the user reports an error"
+        ],
+        "incorrect conclusions": [
+          "If the software has a bug, then the application crashes and the user does not report an error",
+          "If the application crashes and the user reports an error, then the software has a bug",
+          "If the application crashes, then the software has a bug",
+          "The application crashes or the user reports an error but not both",
+          "If the software does not have a bug, then the application does not crash or the user does not report an error"
+        ]
+      },
+      {
+        "premises": [
+          "If the circuit is overloaded, then the fuse blows",
+          "If the circuit is overloaded, then the power supply shuts down",
+          "The fuse does not blow or the power supply does not shut down"
+        ],
+        "conclusions": [
+          "The circuit is not overloaded",
+          "The fuse does not blow and the power supply does not shut down",
+          "If the circuit is overloaded, then the fuse blows and the power supply shuts down"
+        ],
+        "incorrect conclusions": [
+          "If the circuit is overloaded, then the fuse blows and the power supply does not shut down",
+          "If the fuse blows and the power supply shuts down, then the circuit is overloaded",
+          "If the fuse blows, then the circuit is overloaded",
+          "The fuse blows or the power supply shuts down but not both",
+          "If the circuit is not overloaded, then the fuse does not blow or the power supply does not shut down"
+        ]
+      }
+    ]
+  }
+}

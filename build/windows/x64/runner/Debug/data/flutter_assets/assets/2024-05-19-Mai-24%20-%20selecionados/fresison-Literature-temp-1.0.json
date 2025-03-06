@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Fresison": [
+      {
+        "major premise": "No novels are historical documents",
+        "minor premise": "Some historical documents are books",
+        "conclusion": "Some books are not novels",
+        "incorrect conclusions": [
+          "All historical documents are books",
+          "All historical documents are novels",
+          "All books are novels",
+          "All novels are historical documents",
+          "All novels are books",
+          "Some historical documents are not books",
+          "Some novels are books",
+          "Some novels are not books",
+          "Some novels are historical documents",
+          "Some novels are books",
+          "Some books are novels",
+          "Some books are not historical documents",
+          "Some historical documents are novels",
+          "No historical documents is books",
+          "No books is not historical documents",
+          "No books is historical documents"
+        ]
+      },
+      {
+        "major premise": "No magazines are dictionaries",
+        "minor premise": "Some dictionaries are publications",
+        "conclusion": "Some publications are not magazines",
+        "incorrect conclusions": [
+          "All dictionaries are publications",
+          "All dictionaries are magazines",
+          "All publications are magazines",
+          "All magazines are dictionaries",
+          "All magazines are publications",
+          "Some dictionaries are not publications",
+          "Some magazines are publications",
+          "Some magazines are not publications",
+          "Some magazines are dictionaries",
+          "Some magazines are publications",
+          "Some publications are magazines",
+          "Some publications are not dictionaries",
+          "Some dictionaries are magazines",
+          "No dictionaries is publications",
+          "No publications is not dictionaries",
+          "No publications is dictionaries"
+        ]
+      },
+      {
+        "major premise": "No essays are anthologies",
+        "minor premise": "Some anthologies are writings",
+        "conclusion": "Some writings are not essays",
+        "incorrect conclusions": [
+          "All anthologies are writings",
+          "All anthologies are essays",
+          "All writings are essays",
+          "All essays are anthologies",
+          "All essays are writings",
+          "Some anthologies are not writings",
+          "Some essays are writings",
+          "Some essays are not writings",
+          "Some essays are anthologies",
+          "Some essays are writings",
+          "Some writings are essays",
+          "Some writings are not anthologies",
+          "Some anthologies are essays",
+          "No anthologies is writings",
+          "No writings is not anthologies",
+          "No writings is anthologies"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Sociology": {
+    "Barbara": [
+      {
+        "major premise": "All communities are social constructs",
+        "minor premise": "All neighborhoods are communities",
+        "conclusion": "All neighborhoods are social constructs",
+        "incorrect conclusions": [
+          "All social constructs are communities",
+          "All social constructs are neighborhoods",
+          "Some neighborhoods are communities",
+          "Some neighborhoods are social constructs",
+          "Some neighborhoods are not social constructs",
+          "Some neighborhoods are not communities",
+          "Some social constructs are neighborhoods",
+          "Some social constructs are communities",
+          "Some communities are neighborhoods"
+        ]
+      },
+      {
+        "major premise": "All social norms are societal expectations",
+        "minor premise": "All cultural practices are social norms",
+        "conclusion": "All cultural practices are societal expectations",
+        "incorrect conclusions": [
+          "All societal expectations are social norms",
+          "All societal expectations are cultural practices",
+          "Some cultural practices are social norms",
+          "Some cultural practices are societal expectations",
+          "Some cultural practices are not societal expectations",
+          "Some cultural practices are not social norms",
+          "Some societal expectations are cultural practices",
+          "Some societal expectations are social norms",
+          "Some social norms are cultural practices"
+        ]
+      }
+    ]
+  }
+}

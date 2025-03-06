@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Psychology": [
+      {
+        "premises": [
+          "A person is either introverted or extroverted, but not both",
+          "The person is introverted"
+        ],
+        "conclusions": [
+          "The person is not extroverted"
+        ],
+        "incorrect conclusions": [
+          "The person is extroverted",
+          "The person is not introverted"
+        ]
+      },
+      {
+        "premises": [
+          "Someone either experiences anxiety or depression, but not both",
+          "The person experiences anxiety"
+        ],
+        "conclusions": [
+          "The person does not experience depression"
+        ],
+        "incorrect conclusions": [
+          "The person experiences depression",
+          "The person does not experience anxiety"
+        ]
+      },
+      {
+        "premises": [
+          "A behavior is either learned or innate, but not both",
+          "The behavior is learned"
+        ],
+        "conclusions": [
+          "The behavior is not innate"
+        ],
+        "incorrect conclusions": [
+          "The behavior is innate",
+          "The behavior is not learned"
+        ]
+      }
+    ]
+  }
+}

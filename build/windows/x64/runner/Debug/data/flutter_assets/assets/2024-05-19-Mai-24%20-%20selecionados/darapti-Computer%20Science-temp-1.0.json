@@ -1,0 +1,75 @@
+{
+  "Computer Science": {
+    "Darapti": [
+      {
+        "major premise": "All programming languages are artificial languages",
+        "minor premise": "All programming languages are tools and some programming languages exist",
+        "conclusion": "Some tools are artificial languages",
+        "incorrect conclusions": [
+          "All tools are artificial languages",
+          "All artificial languages are tools",
+          "All programming languages are not tools",
+          "All programming languages are not artificial languages",
+          "Some tools are not artificial languages",
+          "Some tools are not programming languages",
+          "Some artificial languages are not programming languages",
+          "Some artificial languages are not tools",
+          "Some programming languages are not tools",
+          "Some programming languages are not artificial languages",
+          "No programming languages are tools",
+          "No programming languages are artificial languages",
+          "No artificial languages are programming languages",
+          "No artificial languages are tools",
+          "No tools are programming languages",
+          "No tools are artificial languages"
+        ]
+      },
+      {
+        "major premise": "All algorithms are step-by-step instructions",
+        "minor premise": "All algorithms are problem-solving methods and some algorithms exist",
+        "conclusion": "Some problem-solving methods are step-by-step instructions",
+        "incorrect conclusions": [
+          "All problem-solving methods are step-by-step instructions",
+          "All step-by-step instructions are problem-solving methods",
+          "All algorithms are not problem-solving methods",
+          "All algorithms are not step-by-step instructions",
+          "Some problem-solving methods are not step-by-step instructions",
+          "Some problem-solving methods are not algorithms",
+          "Some step-by-step instructions are not algorithms",
+          "Some step-by-step instructions are not problem-solving methods",
+          "Some algorithms are not problem-solving methods",
+          "Some algorithms are not step-by-step instructions",
+          "No algorithms are problem-solving methods",
+          "No algorithms are step-by-step instructions",
+          "No step-by-step instructions are algorithms",
+          "No step-by-step instructions are problem-solving methods",
+          "No problem-solving methods are algorithms",
+          "No problem-solving methods are step-by-step instructions"
+        ]
+      },
+      {
+        "major premise": "All databases are data storage solutions",
+        "minor premise": "All databases are software and some databases exist",
+        "conclusion": "Some software are data storage solutions",
+        "incorrect conclusions": [
+          "All software are data storage solutions",
+          "All data storage solutions are software",
+          "All databases are not software",
+          "All databases are not data storage solutions",
+          "Some software are not data storage solutions",
+          "Some software are not databases",
+          "Some data storage solutions are not databases",
+          "Some data storage solutions are not software",
+          "Some databases are not software",
+          "Some databases are not data storage solutions",
+          "No databases are software",
+          "No databases are data storage solutions",
+          "No data storage solutions are databases",
+          "No data storage solutions are software",
+          "No software are databases",
+          "No software are data storage solutions"
+        ]
+      }
+    ]
+  }
+}

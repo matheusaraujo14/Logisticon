@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If a person eats too much sugar, then they may gain weight",
+          "If a person eats too much sugar, then their blood sugar levels may spike",
+          "A person does not gain weight or their blood sugar levels do not spike"
+        ],
+        "conclusions": [
+          "A person does not eat too much sugar",
+          "A person does not gain weight and their blood sugar levels do not spike",
+          "If a person eats too much sugar, then they may gain weight and their blood sugar levels may spike"
+        ],
+        "incorrect conclusions": [
+          "If a person eats too much sugar, then they may gain weight and their blood sugar levels do not spike",
+          "If a person gains weight and their blood sugar levels spike, then they eat too much sugar",
+          "If a person gains weight, then they eat too much sugar",
+          "A person gains weight or their blood sugar levels spike but not both are true",
+          "If a person does not eat too much sugar, then they do not gain weight or their blood sugar levels do not spike"
+        ]
+      },
+      {
+        "premises": [
+          "If someone consumes a lot of fiber, then their digestion improves",
+          "If someone consumes a lot of fiber, then they feel fuller longer",
+          "Someone's digestion does not improve or they do not feel fuller longer"
+        ],
+        "conclusions": [
+          "Someone does not consume a lot of fiber",
+          "Someone's digestion does not improve and they do not feel fuller longer",
+          "If someone consumes a lot of fiber, then their digestion improves and they feel fuller longer"
+        ],
+        "incorrect conclusions": [
+          "If someone consumes a lot of fiber, then their digestion improves and they do not feel fuller longer",
+          "If someone's digestion improves and they feel fuller longer, then they consume a lot of fiber",
+          "If someone's digestion improves, then they consume a lot of fiber",
+          "Someone's digestion improves or they feel fuller longer but not both are true",
+          "If someone does not consume a lot of fiber, then their digestion does not improve or they do not feel fuller longer"
+        ]
+      },
+      {
+        "premises": [
+          "If a person drinks enough water, then they stay hydrated",
+          "If a person drinks enough water, then their skin may improve",
+          "A person does not stay hydrated or their skin does not improve"
+        ],
+        "conclusions": [
+          "A person does not drink enough water",
+          "A person does not stay hydrated and their skin does not improve",
+          "If a person drinks enough water, then they stay hydrated and their skin may improve"
+        ],
+        "incorrect conclusions": [
+          "If a person drinks enough water, then they stay hydrated and their skin does not improve",
+          "If a person stays hydrated and their skin improves, then they drink enough water",
+          "If a person stays hydrated, then they drink enough water",
+          "A person stays hydrated or their skin improves but not both are true",
+          "If a person does not drink enough water, then they do not stay hydrated or their skin does not improve"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a solution is acidic, then it has a pH less than 7",
+          "The solution is acidic"
+        ],
+        "conclusions": [
+          "The solution has a pH less than 7"
+        ],
+        "incorrect conclusions": [
+          "The solution does not have a pH less than 7",
+          "If the solution has a pH less than 7, then it is acidic",
+          "If the solution does not have a pH less than 7, then it is acidic",
+          "If the solution is not acidic, then it does not have a pH less than 7"
+        ]
+      },
+      {
+        "premises": [
+          "If a chemical reaction is exothermic, then it releases heat",
+          "The chemical reaction is exothermic"
+        ],
+        "conclusions": [
+          "The chemical reaction releases heat"
+        ],
+        "incorrect conclusions": [
+          "The chemical reaction does not release heat",
+          "If the chemical reaction releases heat, then it is exothermic",
+          "If the chemical reaction does not release heat, then it is exothermic",
+          "If the chemical reaction is not exothermic, then it does not release heat"
+        ]
+      },
+      {
+        "premises": [
+          "If a salt is dissolved in water, then it produces ions",
+          "The salt is dissolved in water"
+        ],
+        "conclusions": [
+          "The salt produces ions"
+        ],
+        "incorrect conclusions": [
+          "The salt does not produce ions",
+          "If the salt produces ions, then it is dissolved in water",
+          "If the salt does not produce ions, then it is dissolved in water",
+          "If the salt is not dissolved in water, then it does not produce ions"
+        ]
+      }
+    ]
+  }
+}

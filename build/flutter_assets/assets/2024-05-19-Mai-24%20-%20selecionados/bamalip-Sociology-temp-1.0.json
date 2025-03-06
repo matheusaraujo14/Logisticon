@@ -1,0 +1,48 @@
+{
+  "Sociology": {
+    "Bamalip": [
+      {
+        "major premise": "All teachers are educated persons",
+        "minor premise": "All educated persons are members of society and some teachers exist",
+        "conclusion": "Some members of society are teachers",
+        "incorrect conclusions": [
+          "All members of society are educated persons",
+          "All educated persons are teachers",
+          "Some members of society are not educated persons",
+          "Some members of society are not teachers",
+          "Some educated persons are not teachers",
+          "Some educated persons are not members of society",
+          "Some teachers are not educated persons",
+          "Some teachers are not members of society",
+          "No members of society are educated persons",
+          "No members of society are teachers",
+          "No educated persons are members of society",
+          "No educated persons are teachers",
+          "No teachers are educated persons",
+          "No teachers are members of society"
+        ]
+      },
+      {
+        "major premise": "All sociologists are social scientists",
+        "minor premise": "All social scientists are professionals and some sociologists exist",
+        "conclusion": "Some professionals are sociologists",
+        "incorrect conclusions": [
+          "All professionals are social scientists",
+          "All social scientists are sociologists",
+          "Some professionals are not social scientists",
+          "Some professionals are not sociologists",
+          "Some social scientists are not sociologists",
+          "Some social scientists are not professionals",
+          "Some sociologists are not social scientists",
+          "Some sociologists are not professionals",
+          "No professionals are social scientists",
+          "No professionals are sociologists",
+          "No social scientists are professionals",
+          "No social scientists are sociologists",
+          "No sociologists are social scientists",
+          "No sociologists are professionals"
+        ]
+      }
+    ]
+  }
+}

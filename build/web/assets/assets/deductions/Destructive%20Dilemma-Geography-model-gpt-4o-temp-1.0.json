@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Geography": [
+      {
+        "premises": [ 
+          "If a country has a high birth rate, then its population will increase",
+          "If a country has a high birth rate, then it will have a young population",
+          "The population will not increase or the population will not be young"
+        ],
+        "conclusions": [
+          "The country does not have a high birth rate",
+          "The population will not increase and the population will not be young",
+          "If a country has a high birth rate, then its population will increase and the population will be young"
+        ],
+        "incorrect conclusions": [
+          "If a country has a high birth rate, then its population will increase and the population will not be young",
+          "If the population will increase and the population will be young, then the country has a high birth rate",
+          "If the population will increase, then the country has a high birth rate",
+          "The population will increase or the population will be young but not both are true",
+          "If a country does not have a high birth rate, then the population will not increase or the population will not be young"
+        ]
+      },
+      {
+        "premises": [ 
+          "If a region receives heavy rainfall, then its rivers will overflow",
+          "If a region receives heavy rainfall, then it will experience landslides",
+          "The rivers will not overflow or the region will not experience landslides"
+        ],
+        "conclusions": [
+          "The region does not receive heavy rainfall",
+          "The rivers will not overflow and the region will not experience landslides",
+          "If a region receives heavy rainfall, then its rivers will overflow and the region will experience landslides"
+        ],
+        "incorrect conclusions": [
+          "If a region receives heavy rainfall, then its rivers will overflow and the region will not experience landslides",
+          "If the rivers will overflow and the region will experience landslides, then the region receives heavy rainfall",
+          "If the rivers will overflow, then the region receives heavy rainfall",
+          "The rivers will overflow or the region will experience landslides but not both are true",
+          "If a region does not receive heavy rainfall, then the rivers will not overflow or the region will not experience landslides"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the temperature decreases, then snowfall will occur",
+          "If the temperature decreases, then the roads will become icy",
+          "Snowfall will not occur or the roads will not become icy"
+        ],
+        "conclusions": [
+          "The temperature does not decrease",
+          "Snowfall will not occur and the roads will not become icy",
+          "If the temperature decreases, then snowfall will occur and the roads will become icy"
+        ],
+        "incorrect conclusions": [
+          "If the temperature decreases, then snowfall will occur and the roads will not become icy",
+          "If snowfall will occur and the roads will become icy, then the temperature decreases",
+          "If snowfall will occur, then the temperature decreases",
+          "Snowfall will occur or the roads will become icy but not both are true",
+          "If the temperature does not decrease, then snowfall will not occur or the roads will not become icy"
+        ]
+      }
+    ]
+  }
+}

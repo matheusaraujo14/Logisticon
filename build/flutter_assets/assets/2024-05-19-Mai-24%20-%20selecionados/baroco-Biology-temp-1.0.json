@@ -1,0 +1,23 @@
+{
+  "Biology": {
+    "Baroco": [
+      {
+        "major premise": "All amphibians are vertebrates",
+        "minor premise": "Some fish are not vertebrates",
+        "conclusion": "Some fish are not amphibians",
+        "incorrect conclusions": [
+          "All fish are not vertebrates",
+          "All fish are amphibians",
+          "All fish are vertebrates",
+          "Some amphibians are fish",
+          "Some amphibians are not fish",
+          "Some amphibians are not vertebrates",
+          "Some fish are vertebrates",
+          "Some fish are amphibians",
+          "Some vertebrates are not amphibians",
+          "Some vertebrates are fish"
+        ]
+      }
+    ]
+  }
+}

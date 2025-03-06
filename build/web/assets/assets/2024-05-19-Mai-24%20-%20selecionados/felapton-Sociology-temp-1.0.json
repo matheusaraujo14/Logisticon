@@ -1,0 +1,25 @@
+{
+  "Sociology": {
+    "Felapton": [
+      {
+        "major premise": "No students are educators",
+        "minor premise": "All students are individuals and some students exist",
+        "conclusion": "Some individuals are not educators",
+        "incorrect conclusions": [
+          "All individuals are educators",
+          "All individuals are students",
+          "All educators are individuals",
+          "All educators are students",
+          "Some individuals are educators",
+          "Some educators are individuals",
+          "Some educators are students",
+          "Some educators are not individuals",
+          "Some students are educators",
+          "Some students are not individuals",
+          "No students are individuals",
+          "No individuals are students"
+        ]
+      }
+    ]
+  }
+}

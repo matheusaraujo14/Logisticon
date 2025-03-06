@@ -1,0 +1,54 @@
+{
+  "Physics": {
+     "Darii": [
+		{
+          "major premise": "All electrons are charged particles",
+          "minor premise": "Some subatomic particles are electrons",
+          "conclusion": "Some subatomic particles are charged particles",
+		  "incorrect conclusions": [
+			"All subatomic particles are electrons",
+			"All subatomic particles are charged particles",
+			"All charged particles are electrons",
+			"All charged particles are subatomic particles",
+			"All electrons are subatomic particles",
+			"Some subatomic particles are not charged particles",
+			"Some subatomic particles are not electrons",
+			"Some charged particles are not electrons",
+			"Some charged particles are not subatomic particles",
+			"Some electrons are not charged particles",
+			"Some electrons are not subatomic particles",
+			"No subatomic particles is charged particle",
+			"No subatomic particles is electron",
+			"No electrons is charged particle",
+			"No electrons is subatomic particle",
+			"No charged particles is electron",
+			"No charged particles is subatomic particle"
+		  ]
+		},
+        {
+          "major premise": "All photons are quantum particles",
+          "minor premise": "Some visible light photons are photons",
+          "conclusion": "Some visible light photons are quantum particles",
+		  "incorrect conclusions": [
+			"All visible light photons are photons",
+			"All visible light photons are quantum particles",
+			"All quantum particles are photons",
+			"All quantum particles are visible light photons",
+			"All photons are visible light photons",
+			"Some visible light photons are not quantum particles",
+			"Some visible light photons are not photons",
+			"Some quantum particles are not photons",
+			"Some quantum particles are not visible light photons",
+			"Some photons are not quantum particles",
+			"Some photons are not visible light photons",
+			"No visible light photons is quantum particle",
+			"No visible light photons is photon",
+			"No photons is quantum particle",
+			"No photons is visible light photon",
+			"No quantum particles is photon",
+			"No quantum particles is visible light photon"
+		  ]
+		}
+	 ]
+  }
+}

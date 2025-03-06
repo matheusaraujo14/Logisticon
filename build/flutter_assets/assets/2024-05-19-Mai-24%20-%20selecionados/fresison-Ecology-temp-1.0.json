@@ -1,0 +1,75 @@
+{
+  "Ecology": {
+     "Fresison" : [
+		{
+          "major premise": "No mammals are birds",
+          "minor premise": "Some birds are flying animals",
+          "conclusion": "Some flying animals are not mammals",
+		  "incorrect conclusions": [
+            "All birds are flying animals",
+            "All birds are mammals",
+            "All flying animals are mammals",
+            "All mammals are birds",
+            "All mammals are flying animals",
+            "Some birds are not flying animals",
+            "Some mammals are flying animals",
+            "Some mammals are not flying animals",
+            "Some mammals are birds",
+            "Some mammals are flying animals",
+            "Some flying animals are mammals",
+            "Some flying animals are not birds",
+            "Some birds are mammals",
+            "No birds are flying animals",
+            "No flying animals are not birds",
+            "No flying animals are birds"
+          ]
+		},
+		{
+          "major premise": "No rocks are plants",
+          "minor premise": "Some plants are trees",
+          "conclusion": "Some trees are not rocks",
+		  "incorrect conclusions": [
+            "All plants are trees",
+            "All plants are rocks",
+            "All trees are rocks",
+            "All rocks are plants",
+            "All rocks are trees",
+            "Some plants are not trees",
+            "Some rocks are trees",
+            "Some rocks are not trees",
+            "Some rocks are plants",
+            "Some rocks are trees",
+            "Some trees are rocks",
+            "Some trees are not plants",
+            "Some plants are rocks",
+            "No plants are trees",
+            "No trees are not plants",
+            "No trees are plants"
+          ]
+		},
+		{
+          "major premise": "No minerals are mammals",
+          "minor premise": "Some mammals are predators",
+          "conclusion": "Some predators are not minerals",
+		  "incorrect conclusions": [
+            "All mammals are predators",
+            "All mammals are minerals",
+            "All predators are minerals",
+            "All minerals are mammals",
+            "All minerals are predators",
+            "Some mammals are not predators",
+            "Some minerals are predators",
+            "Some minerals are not predators",
+            "Some minerals are mammals",
+            "Some minerals are predators",
+            "Some predators are minerals",
+            "Some predators are not mammals",
+            "Some mammals are minerals",
+            "No mammals are predators",
+            "No predators are not mammals",
+            "No predators are mammals"
+          ]
+		}
+	 ]
+  }
+}

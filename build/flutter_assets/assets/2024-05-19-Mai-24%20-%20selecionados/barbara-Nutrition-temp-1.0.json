@@ -1,0 +1,22 @@
+{
+  "Nutrition": {
+    "Barbara": [
+      {
+        "major premise": "All carbs are macronutrients",
+        "minor premise": "All sugars are carbs",
+        "conclusion": "All sugars are macronutrients",
+        "incorrect conclusions": [
+          "All macronutrients are carbs",
+          "All macronutrients are sugars",
+          "Some sugars are carbs",
+          "Some sugars are macronutrients",
+          "Some sugars are not macronutrients",
+          "Some sugars are not carbs",
+          "Some macronutrients are sugars",
+          "Some macronutrients are carbs",
+          "Some carbs are sugars"
+        ]
+      }
+    ]
+  }
+}

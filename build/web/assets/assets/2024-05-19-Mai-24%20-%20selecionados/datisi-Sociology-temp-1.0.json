@@ -1,0 +1,78 @@
+{
+  "Sociology": {
+    "Datisi": [
+      {
+        "major premise": "All sociologists are social scientists",
+        "minor premise": "Some sociologists are professors",
+        "conclusion": "Some professors are social scientists",
+        "incorrect conclusions": [
+          "All professors are sociologists",
+          "All professors are social scientists",
+          "All social scientists are sociologists",
+          "All social scientists are professors",
+          "All sociologists are professors",
+          "Some professors are not social scientists",
+          "Some professors are not sociologists",
+          "Some social scientists are not sociologists",
+          "Some social scientists are not professors",
+          "Some sociologists are not social scientists",
+          "Some sociologists are not professors",
+          "No professors is social scientists",
+          "No professors is sociologists",
+          "No sociologists is social scientists",
+          "No sociologists is professors",
+          "No social scientists is sociologists",
+          "No social scientists is professors"
+        ]
+      },
+      {
+        "major premise": "All anthropologists are social scientists",
+        "minor premise": "Some anthropologists are field workers",
+        "conclusion": "Some field workers are social scientists",
+        "incorrect conclusions": [
+          "All field workers are anthropologists",
+          "All field workers are social scientists",
+          "All social scientists are anthropologists",
+          "All social scientists are field workers",
+          "All anthropologists are field workers",
+          "Some field workers are not social scientists",
+          "Some field workers are not anthropologists",
+          "Some social scientists are not anthropologists",
+          "Some social scientists are not field workers",
+          "Some anthropologists are not social scientists",
+          "Some anthropologists are not field workers",
+          "No field workers is social scientists",
+          "No field workers is anthropologists",
+          "No anthropologists is social scientists",
+          "No anthropologists is field workers",
+          "No social scientists is anthropologists",
+          "No social scientists is field workers"
+        ]
+      },
+      {
+        "major premise": "All psychologists are behavioral scientists",
+        "minor premise": "Some psychologists are researchers",
+        "conclusion": "Some researchers are behavioral scientists",
+        "incorrect conclusions": [
+          "All researchers are psychologists",
+          "All researchers are behavioral scientists",
+          "All behavioral scientists are psychologists",
+          "All behavioral scientists are researchers",
+          "All psychologists are researchers",
+          "Some researchers are not behavioral scientists",
+          "Some researchers are not psychologists",
+          "Some behavioral scientists are not psychologists",
+          "Some behavioral scientists are not researchers",
+          "Some psychologists are not behavioral scientists",
+          "Some psychologists are not researchers",
+          "No researchers is behavioral scientists",
+          "No researchers is psychologists",
+          "No psychologists is behavioral scientists",
+          "No psychologists is researchers",
+          "No behavioral scientists is psychologists",
+          "No behavioral scientists is researchers"
+        ]
+      }
+    ]
+  }
+}

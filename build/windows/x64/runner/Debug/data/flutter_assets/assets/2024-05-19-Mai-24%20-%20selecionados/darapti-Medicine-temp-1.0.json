@@ -1,0 +1,75 @@
+{
+  "Medicine": {
+     "Darapti": [
+		{
+          "major premise": "All vaccines are medical treatments",
+          "minor premise": "All vaccines are immune system enhancers and some vaccines exist",
+          "conclusion": "Some immune system enhancers are medical treatments",
+		  "incorrect conclusions": [
+			"All immune system enhancers are medical treatments",
+			"All medical treatments are immune system enhancers",
+			"All vaccines are not immune system enhancers",
+			"All vaccines are not medical treatments",
+			"Some immune system enhancers are not medical treatments",
+			"Some immune system enhancers are not vaccines",
+			"Some medical treatments are not vaccines",
+			"Some medical treatments are not immune system enhancers",
+			"Some vaccines are not immune system enhancers",
+			"Some vaccines are not medical treatments",
+			"No vaccines are immune system enhancers",
+			"No vaccines are medical treatments",
+			"No medical treatments are vaccines",
+			"No medical treatments are immune system enhancers",
+			"No immune system enhancers are vaccines",
+			"No immune system enhancers are medical treatments"
+		  ]
+		},
+		{
+          "major premise": "All antibiotics are medications",
+          "minor premise": "All antibiotics are bacterial infection treatments and some antibiotics exist",
+          "conclusion": "Some bacterial infection treatments are medications",
+		  "incorrect conclusions": [
+			"All bacterial infection treatments are medications",
+			"All medications are bacterial infection treatments",
+			"All antibiotics are not bacterial infection treatments",
+			"All antibiotics are not medications",
+			"Some bacterial infection treatments are not medications",
+			"Some bacterial infection treatments are not antibiotics",
+			"Some medications are not antibiotics",
+			"Some medications are not bacterial infection treatments",
+			"Some antibiotics are not bacterial infection treatments",
+			"Some antibiotics are not medications",
+			"No antibiotics are bacterial infection treatments",
+			"No antibiotics are medications",
+			"No medications are antibiotics",
+			"No medications are bacterial infection treatments",
+			"No bacterial infection treatments are antibiotics",
+			"No bacterial infection treatments are medications"
+		  ]
+		},
+		{
+          "major premise": "All painkillers are pharmaceuticals",
+          "minor premise": "All painkillers are analgesics and some painkillers exist",
+          "conclusion": "Some analgesics are pharmaceuticals",
+		  "incorrect conclusions": [
+			"All analgesics are pharmaceuticals",
+			"All pharmaceuticals are analgesics",
+			"All painkillers are not analgesics",
+			"All painkillers are not pharmaceuticals",
+			"Some analgesics are not pharmaceuticals",
+			"Some analgesics are not painkillers",
+			"Some pharmaceuticals are not painkillers",
+			"Some pharmaceuticals are not analgesics",
+			"Some painkillers are not analgesics",
+			"Some painkillers are not pharmaceuticals",
+			"No painkillers are analgesics",
+			"No painkillers are pharmaceuticals",
+			"No pharmaceuticals are painkillers",
+			"No pharmaceuticals are analgesics",
+			"No analgesics are painkillers",
+			"No analgesics are pharmaceuticals"
+		  ]
+		}
+	 ]
+  }
+}

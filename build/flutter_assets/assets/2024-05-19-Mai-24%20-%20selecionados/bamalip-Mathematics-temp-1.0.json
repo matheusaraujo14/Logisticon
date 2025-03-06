@@ -1,0 +1,69 @@
+{
+  "Mathematics": {
+    "Bamalip": [
+      {
+        "major premise": "All prime numbers are integers",
+        "minor premise": "All integers are numbers and some prime numbers exist",
+        "conclusion": "Some numbers are prime numbers",
+        "incorrect conclusions": [
+          "All numbers are integers",
+          "All integers are prime numbers",
+          "Some numbers are not integers",
+          "Some numbers are not prime numbers",
+          "Some integers are not prime numbers",
+          "Some integers are not numbers",
+          "Some prime numbers are not integers",
+          "Some prime numbers are not numbers",
+          "No numbers is integers",
+          "No numbers is prime numbers",
+          "No integers is numbers",
+          "No integers is prime numbers",
+          "No prime numbers is integers",
+          "No prime numbers is numbers"
+        ]
+      },
+      {
+        "major premise": "All even numbers are whole numbers",
+        "minor premise": "All whole numbers are numbers and some even numbers exist",
+        "conclusion": "Some numbers are even numbers",
+        "incorrect conclusions": [
+          "All numbers are whole numbers",
+          "All whole numbers are even numbers",
+          "Some numbers are not whole numbers",
+          "Some numbers are not even numbers",
+          "Some whole numbers are not even numbers",
+          "Some whole numbers are not numbers",
+          "Some even numbers are not whole numbers",
+          "Some even numbers are not numbers",
+          "No numbers is whole numbers",
+          "No numbers is even numbers",
+          "No whole numbers is numbers",
+          "No whole numbers is even numbers",
+          "No even numbers is whole numbers",
+          "No even numbers is numbers"
+        ]
+      },
+      {
+        "major premise": "All square numbers are integers",
+        "minor premise": "All integers are numbers and some square numbers exist",
+        "conclusion": "Some numbers are square numbers",
+        "incorrect conclusions": [
+          "All numbers are integers",
+          "All integers are square numbers",
+          "Some numbers are not integers",
+          "Some numbers are not square numbers",
+          "Some integers are not square numbers",
+          "Some integers are not numbers",
+          "Some square numbers are not integers",
+          "Some square numbers are not numbers",
+          "No numbers is integers",
+          "No numbers is square numbers",
+          "No integers is numbers",
+          "No integers is square numbers",
+          "No square numbers is integers",
+          "No square numbers is numbers"
+        ]
+      }
+    ]
+  }
+}

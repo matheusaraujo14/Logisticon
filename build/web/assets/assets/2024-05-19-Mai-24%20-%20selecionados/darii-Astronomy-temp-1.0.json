@@ -1,0 +1,78 @@
+{
+  "Astronomy": {
+    "Darii": [
+      {
+        "major premise": "All stars are celestial bodies",
+        "minor premise": "Some red dwarfs are stars",
+        "conclusion": "Some red dwarfs are celestial bodies",
+        "incorrect conclusions": [
+          "All red dwarfs are stars",
+          "All red dwarfs are celestial bodies",
+          "All celestial bodies are stars",
+          "All celestial bodies are red dwarfs",
+          "All stars are red dwarfs",
+          "Some red dwarfs are not celestial bodies",
+          "Some red dwarfs are not stars",
+          "Some celestial bodies are not stars",
+          "Some celestial bodies are not red dwarfs",
+          "Some stars are not celestial bodies",
+          "Some stars are not red dwarfs",
+          "No red dwarf is a celestial body",
+          "No red dwarf is a star",
+          "No star is a celestial body",
+          "No star is a red dwarf",
+          "No celestial body is a star",
+          "No celestial body is a red dwarf"
+        ]
+      },
+      {
+        "major premise": "All planets are astronomical objects",
+        "minor premise": "Some gas giants are planets",
+        "conclusion": "Some gas giants are astronomical objects",
+        "incorrect conclusions": [
+          "All gas giants are planets",
+          "All gas giants are astronomical objects",
+          "All astronomical objects are planets",
+          "All astronomical objects are gas giants",
+          "All planets are gas giants",
+          "Some gas giants are not astronomical objects",
+          "Some gas giants are not planets",
+          "Some astronomical objects are not planets",
+          "Some astronomical objects are not gas giants",
+          "Some planets are not astronomical objects",
+          "Some planets are not gas giants",
+          "No gas giant is an astronomical object",
+          "No gas giant is a planet",
+          "No planet is an astronomical object",
+          "No planet is a gas giant",
+          "No astronomical object is a planet",
+          "No astronomical object is a gas giant"
+        ]
+      },
+      {
+        "major premise": "All moons are natural satellites",
+        "minor premise": "Some moons of Jupiter are moons",
+        "conclusion": "Some moons of Jupiter are natural satellites",
+        "incorrect conclusions": [
+          "All moons of Jupiter are moons",
+          "All moons of Jupiter are natural satellites",
+          "All natural satellites are moons",
+          "All natural satellites are moons of Jupiter",
+          "All moons are moons of Jupiter",
+          "Some moons of Jupiter are not natural satellites",
+          "Some moons of Jupiter are not moons",
+          "Some natural satellites are not moons",
+          "Some natural satellites are not moons of Jupiter",
+          "Some moons are not natural satellites",
+          "Some moons are not moons of Jupiter",
+          "No moon of Jupiter is a natural satellite",
+          "No moon of Jupiter is a moon",
+          "No moon is a natural satellite",
+          "No moon is a moon of Jupiter",
+          "No natural satellite is a moon",
+          "No natural satellite is a moon of Jupiter"
+        ]
+      }
+    ]
+  }
+}

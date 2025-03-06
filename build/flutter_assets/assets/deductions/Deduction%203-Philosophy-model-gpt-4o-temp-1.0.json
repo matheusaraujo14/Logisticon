@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If one acts unethically, then they compromise their values",
+          "If one acts ethically, then they strengthen society"
+        ],
+        "conclusions": [
+          "If one does not compromise their values, then they act ethically",
+          "If one does not strengthen society, then they do not act ethically",
+          "If one does not strengthen society, then they compromise their values",
+          "One either compromises their values or strengthens society",
+          "If one acts ethically and compromises their values, then they strengthen society"
+        ],
+        "incorrect conclusions": [
+          "If one compromises their values, then they act unethically",
+          "If one compromises their values, then they do not act ethically",
+          "If one does not compromise their values, then they do not act ethically",
+          "One both compromises their values and strengthens society",
+          "If one strengthens society, then they act ethically",
+          "If one strengthens society and compromises their values, then they act ethically"
+        ]
+      },
+      {
+        "premises": [
+          "If a philosopher believes in determinism, then they reject free will",
+          "If a philosopher believes in free will, then they value autonomy"
+        ],
+        "conclusions": [
+          "If a philosopher does not reject free will, then they believe in free will",
+          "If a philosopher does not value autonomy, then they do not believe in free will",
+          "If a philosopher does not value autonomy, then they reject free will",
+          "A philosopher either rejects free will or values autonomy",
+          "If a philosopher believes in free will and rejects free will, then they value autonomy"
+        ],
+        "incorrect conclusions": [
+          "If a philosopher rejects free will, then they believe in determinism",
+          "If a philosopher rejects free will, then they do not believe in free will",
+          "If a philosopher does not reject free will, then they do not believe in free will",
+          "A philosopher both rejects free will and values autonomy",
+          "If a philosopher values autonomy, then they believe in free will",
+          "If a philosopher rejects free will and values autonomy, then they believe in free will"
+        ]
+      },
+      {
+        "premises": [
+          "If someone embraces stoicism, then they accept fate",
+          "If someone embraces hedonism, then they seek pleasure"
+        ],
+        "conclusions": [
+          "If someone does not accept fate, then they embrace hedonism",
+          "If someone does not seek pleasure, then they do not embrace hedonism",
+          "If someone does not seek pleasure, then they accept fate",
+          "Someone either accepts fate or seeks pleasure",
+          "If someone embraces hedonism and accepts fate, then they seek pleasure"
+        ],
+        "incorrect conclusions": [
+          "If someone accepts fate, then they embrace stoicism",
+          "If someone accepts fate, then they do not embrace hedonism",
+          "If someone does not accept fate, then they do not embrace hedonism",
+          "Someone both accepts fate and seeks pleasure",
+          "If someone seeks pleasure, then they embrace hedonism",
+          "If someone accepts fate and seeks pleasure, then they embrace hedonism"
+        ]
+      }
+    ]
+  }
+}

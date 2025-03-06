@@ -1,0 +1,48 @@
+{
+  "Sports Science": {
+     "Calemes" : [
+		{
+          "major premise": "All marathon runners are endurance athletes",
+          "minor premise": "No endurance athletes are sprinters",
+          "conclusion": "No sprinter is a marathon runner",
+		  "incorrect conclusions": [
+		    "All endurance athletes are sprinters",
+                    "All endurance athletes are marathon runners",
+                    "All sprinters are endurance athletes",
+                    "All sprinters are marathon runners",
+                    "All marathon runners are sprinters",
+                    "Some endurance athletes are marathon runners",
+                    "Some endurance athletes are not marathon runners",
+                    "Some endurance athletes are sprinters",
+                    "Some marathon runners are sprinters",
+                    "Some marathon runners are not endurance athletes",
+                    "Some marathon runners are endurance athletes",
+                    "Some sprinters are endurance athletes",
+                    "Some sprinters are marathon runners",
+                    "No marathon runner is an endurance athlete"
+		  ]
+		},
+		{
+          "major premise": "All professional basketball players are tall individuals",
+          "minor premise": "No tall individuals are jockeys",
+          "conclusion": "No jockey is a professional basketball player",
+		  "incorrect conclusions": [
+		    "All tall individuals are jockeys",
+                    "All tall individuals are professional basketball players",
+                    "All jockeys are tall individuals",
+                    "All jockeys are professional basketball players",
+                    "All professional basketball players are jockeys",
+                    "Some tall individuals are professional basketball players",
+                    "Some tall individuals are not professional basketball players",
+                    "Some tall individuals are jockeys",
+                    "Some professional basketball players are jockeys",
+                    "Some professional basketball players are not tall individuals",
+                    "Some professional basketball players are tall individuals",
+                    "Some jockeys are tall individuals",
+                    "Some jockeys are professional basketball players",
+                    "No professional basketball player is a tall individual"
+		  ]
+		}
+	 ]
+  }
+}

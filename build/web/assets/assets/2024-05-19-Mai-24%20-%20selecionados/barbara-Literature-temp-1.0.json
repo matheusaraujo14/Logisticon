@@ -1,0 +1,54 @@
+{
+  "Literature": {
+    "Barbara": [
+      {
+        "major premise": "All writers are communicators",
+        "minor premise": "All poets are writers",
+        "conclusion": "All poets are communicators",
+        "incorrect conclusions": [
+          "All communicators are writers",
+          "All communicators are poets",
+          "Some poets are writers",
+          "Some poets are communicators",
+          "Some poets are not communicators",
+          "Some poets are not writers",
+          "Some communicators are poets",
+          "Some communicators are writers",
+          "Some writers are poets"
+        ]
+      },
+      {
+        "major premise": "All novels are books",
+        "minor premise": "All mysteries are novels",
+        "conclusion": "All mysteries are books",
+        "incorrect conclusions": [
+          "All books are novels",
+          "All books are mysteries",
+          "Some mysteries are novels",
+          "Some mysteries are books",
+          "Some mysteries are not books",
+          "Some mysteries are not novels",
+          "Some books are mysteries",
+          "Some books are novels",
+          "Some novels are mysteries"
+        ]
+      },
+      {
+        "major premise": "All plays are literary works",
+        "minor premise": "All tragedies are plays",
+        "conclusion": "All tragedies are literary works",
+        "incorrect conclusions": [
+          "All literary works are plays",
+          "All literary works are tragedies",
+          "Some tragedies are plays",
+          "Some tragedies are literary works",
+          "Some tragedies are not literary works",
+          "Some tragedies are not plays",
+          "Some literary works are tragedies",
+          "Some literary works are plays",
+          "Some plays are tragedies"
+        ]
+      }
+    ]
+  }
+}

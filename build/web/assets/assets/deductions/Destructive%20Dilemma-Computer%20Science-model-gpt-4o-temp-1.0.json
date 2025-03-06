@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If a program is bug-free, then it produces the correct output",
+          "If a program is bug-free, then it executes efficiently",
+          "The program does not produce the correct output or the program does not execute efficiently"
+        ],
+        "conclusions": [
+          "The program is not bug-free",
+          "The program does not produce the correct output and the program does not execute efficiently",
+          "If a program is bug-free, then it produces the correct output and it executes efficiently"
+        ],
+        "incorrect conclusions": [
+          "If a program is bug-free, then it produces the correct output and it does not execute efficiently",
+          "If the program produces the correct output and executes efficiently, then the program is bug-free",
+          "If the program produces the correct output, then the program is bug-free",
+          "The program produces the correct output or the program executes efficiently but not both are true",
+          "If the program is not bug-free, then it does not produce the correct output or it does not execute efficiently"
+        ]
+      },
+      {
+        "premises": [
+          "If a network is secure, then it prevents unauthorized access",
+          "If a network is secure, then it ensures data integrity",
+          "The network does not prevent unauthorized access or it does not ensure data integrity"
+        ],
+        "conclusions": [
+          "The network is not secure",
+          "The network does not prevent unauthorized access and it does not ensure data integrity",
+          "If a network is secure, then it prevents unauthorized access and it ensures data integrity"
+        ],
+        "incorrect conclusions": [
+          "If a network is secure, then it prevents unauthorized access and it does not ensure data integrity",
+          "If the network prevents unauthorized access and ensures data integrity, then the network is secure",
+          "If the network prevents unauthorized access, then the network is secure",
+          "The network prevents unauthorized access or it ensures data integrity but not both are true",
+          "If the network is not secure, then it does not prevent unauthorized access or it does not ensure data integrity"
+        ]
+      },
+      {
+        "premises": [
+          "If a software is well-documented, then it is easy to maintain",
+          "If a software is well-documented, then it is easy to extend",
+          "The software is not easy to maintain or it is not easy to extend"
+        ],
+        "conclusions": [
+          "The software is not well-documented",
+          "The software is not easy to maintain and it is not easy to extend",
+          "If a software is well-documented, then it is easy to maintain and it is easy to extend"
+        ],
+        "incorrect conclusions": [
+          "If a software is well-documented, then it is easy to maintain and it is not easy to extend",
+          "If the software is easy to maintain and easy to extend, then the software is well-documented",
+          "If the software is easy to maintain, then the software is well-documented",
+          "The software is easy to maintain or it is easy to extend but not both are true",
+          "If the software is not well-documented, then it is not easy to maintain or it is not easy to extend"
+        ]
+      }
+    ]
+  }
+}

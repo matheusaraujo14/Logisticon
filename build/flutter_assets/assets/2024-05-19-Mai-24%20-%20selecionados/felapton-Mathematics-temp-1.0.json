@@ -1,0 +1,44 @@
+{
+  "Mathematics": {
+    "Felapton": [
+      {
+        "major premise": "No rational numbers are irrational numbers",
+        "minor premise": "All rational numbers are real numbers and some rational numbers exist",
+        "conclusion": "Some real numbers are not irrational numbers",
+        "incorrect conclusions": [
+          "All real numbers are irrational numbers",
+          "All real numbers are rational numbers",
+          "All irrational numbers are real numbers",
+          "All irrational numbers are rational numbers",
+          "Some real numbers are irrational numbers",
+          "Some irrational numbers are real numbers",
+          "Some irrational numbers are rational numbers",
+          "Some irrational numbers are not real numbers",
+          "Some rational numbers are irrational numbers",
+          "Some rational numbers are not real numbers",
+          "No rational numbers are real numbers",
+          "No real numbers are rational numbers"
+        ]
+      },
+      {
+        "major premise": "No composite numbers are prime numbers",
+        "minor premise": "All composite numbers are natural numbers and some composite numbers exist",
+        "conclusion": "Some natural numbers are not prime numbers",
+        "incorrect conclusions": [
+          "All natural numbers are prime numbers",
+          "All natural numbers are composite numbers",
+          "All prime numbers are natural numbers",
+          "All prime numbers are composite numbers",
+          "Some natural numbers are prime numbers",
+          "Some prime numbers are natural numbers",
+          "Some prime numbers are composite numbers",
+          "Some prime numbers are not natural numbers",
+          "Some composite numbers are prime numbers",
+          "Some composite numbers are not natural numbers",
+          "No composite numbers are natural numbers",
+          "No natural numbers are composite numbers"
+        ]
+      }
+    ]
+  }
+}

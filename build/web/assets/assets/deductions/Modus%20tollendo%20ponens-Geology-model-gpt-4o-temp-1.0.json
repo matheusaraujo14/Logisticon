@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Geology": [
+      {
+        "premises": [
+          "The rock is sedimentary or the rock is igneous but not both at the same time",
+          "The rock is not sedimentary"
+        ],
+        "conclusions": [
+          "The rock is igneous",
+          "If the rock is not igneous, then it is sedimentary"
+        ],
+        "incorrect conclusions": [
+          "The rock is not igneous",
+          "If the rock is sedimentary, then the rock is igneous",
+          "If the rock is igneous, then the rock is sedimentary",
+          "The rock is sedimentary"
+        ]
+      },
+      {
+        "premises": [
+          "The mountain was formed by volcanic activity or the mountain was formed by tectonic uplift but not both at the same time",
+          "The mountain was not formed by volcanic activity"
+        ],
+        "conclusions": [
+          "The mountain was formed by tectonic uplift",
+          "If the mountain was not formed by tectonic uplift, then it was formed by volcanic activity"
+        ],
+        "incorrect conclusions": [
+          "The mountain was not formed by tectonic uplift",
+          "If the mountain was formed by volcanic activity, then the mountain was formed by tectonic uplift",
+          "If the mountain was formed by tectonic uplift, then it was formed by volcanic activity",
+          "The mountain was formed by volcanic activity"
+        ]
+      },
+      {
+        "premises": [
+          "The soil is rich in organic matter or the soil has high mineral content but not both at the same time",
+          "The soil is not rich in organic matter"
+        ],
+        "conclusions": [
+          "The soil has high mineral content",
+          "If the soil does not have high mineral content, then it is rich in organic matter"
+        ],
+        "incorrect conclusions": [
+          "The soil does not have high mineral content",
+          "If the soil is rich in organic matter, then the soil has high mineral content",
+          "If the soil has high mineral content, then it is rich in organic matter",
+          "The soil is rich in organic matter"
+        ]
+      }
+    ]
+  }
+}

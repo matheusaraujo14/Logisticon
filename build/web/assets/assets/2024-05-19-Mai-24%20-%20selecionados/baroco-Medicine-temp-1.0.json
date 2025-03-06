@@ -1,0 +1,57 @@
+{
+  "Medicine": {
+    "Baroco": [
+      {
+        "major premise": "All physicians are healthcare professionals",
+        "minor premise": "Some nurses are not healthcare professionals",
+        "conclusion": "Some nurses are not physicians",
+        "incorrect conclusions": [
+          "All nurses are not healthcare professionals",
+          "All nurses are physicians",
+          "All nurses are healthcare professionals",
+          "Some healthcare professionals are nurses",
+          "Some healthcare professionals are not nurses",
+          "Some healthcare professionals are not physicians",
+          "Some nurses are healthcare professionals",
+          "Some nurses are physicians",
+          "Some healthcare professionals are not physicians",
+          "Some healthcare professionals are nurses"
+        ]
+      },
+      {
+        "major premise": "All antibiotics are medications",
+        "minor premise": "Some analgesics are not medications",
+        "conclusion": "Some analgesics are not antibiotics",
+        "incorrect conclusions": [
+          "All analgesics are not medications",
+          "All analgesics are antibiotics",
+          "All analgesics are medications",
+          "Some medications are analgesics",
+          "Some medications are not analgesics",
+          "Some medications are not antibiotics",
+          "Some analgesics are medications",
+          "Some analgesics are antibiotics",
+          "Some medications are not antibiotics",
+          "Some medications are analgesics"
+        ]
+      },
+      {
+        "major premise": "All surgeons are medical doctors",
+        "minor premise": "Some radiologists are not medical doctors",
+        "conclusion": "Some radiologists are not surgeons",
+        "incorrect conclusions": [
+          "All radiologists are not medical doctors",
+          "All radiologists are surgeons",
+          "All radiologists are medical doctors",
+          "Some medical doctors are radiologists",
+          "Some medical doctors are not radiologists",
+          "Some medical doctors are not surgeons",
+          "Some radiologists are medical doctors",
+          "Some radiologists are surgeons",
+          "Some medical doctors are not surgeons",
+          "Some medical doctors are radiologists"
+        ]
+      }
+    ]
+  }
+}

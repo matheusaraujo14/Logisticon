@@ -1,0 +1,57 @@
+{
+  "Chemistry": {
+     "Baroco" : [
+        {
+          "major premise": "All molecules are chemical substances",
+          "minor premise": "Some atoms are not chemical substances",
+          "conclusion": "Some atoms are not molecules",
+          "incorrect conclusions": [
+            "All atoms are not chemical substances",
+            "All atoms are molecules",
+            "All atoms are chemical substances",
+            "Some molecules are atoms",
+            "Some molecules are not atoms",
+            "Some molecules are not chemical substances",
+            "Some atoms are chemical substances",
+            "Some atoms are molecules",
+            "Some chemical substances are not molecules",
+            "Some chemical substances are atoms"
+          ]
+        },
+        {
+          "major premise": "All organic compounds are carbon-containing substances",
+          "minor premise": "Some inorganic compounds are not carbon-containing substances",
+          "conclusion": "Some inorganic compounds are not organic compounds",
+          "incorrect conclusions": [
+            "All inorganic compounds are not carbon-containing substances",
+            "All inorganic compounds are organic compounds",
+            "All inorganic compounds are carbon-containing substances",
+            "Some organic compounds are inorganic compounds",
+            "Some organic compounds are not inorganic compounds",
+            "Some organic compounds are not carbon-containing substances",
+            "Some inorganic compounds are carbon-containing substances",
+            "Some inorganic compounds are organic compounds",
+            "Some carbon-containing substances are not organic compounds",
+            "Some carbon-containing substances are inorganic compounds"
+          ]
+        },
+        {
+          "major premise": "All acids are substances with pH less than 7",
+          "minor premise": "Some bases are not substances with pH less than 7",
+          "conclusion": "Some bases are not acids",
+          "incorrect conclusions": [
+            "All bases are not substances with pH less than 7",
+            "All bases are acids",
+            "All bases are substances with pH less than 7",
+            "Some acids are bases",
+            "Some acids are not bases",
+            "Some acids are not substances with pH less than 7",
+            "Some bases are substances with pH less than 7",
+            "Some bases are acids",
+            "Some substances with pH less than 7 are not acids",
+            "Some substances with pH less than 7 are bases"
+          ]
+        }
+     ]
+  }
+}

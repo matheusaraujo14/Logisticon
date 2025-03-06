@@ -1,0 +1,48 @@
+{
+  "Mathematics": {
+    "Bocardo": [
+      {
+        "major premise": "Some even numbers are not prime numbers",
+        "minor premise": "All even numbers are integers",
+        "conclusion": "Some integers are not prime numbers",
+        "incorrect conclusions": [
+          "All even numbers are prime numbers",
+          "All integers are even numbers",
+          "All integers are prime numbers",
+          "All prime numbers are not even numbers",
+          "Some integers are not even numbers",
+          "Some integers are prime numbers",
+          "Some even numbers are not integers",
+          "Some even numbers are prime numbers",
+          "Some prime numbers are even numbers",
+          "Some prime numbers are integers",
+          "Some prime numbers are not integers",
+          "Some prime numbers are not even numbers",
+          "No even number is an integer",
+          "No integer is an even number"
+        ]
+      },
+      {
+        "major premise": "Some rational numbers are not whole numbers",
+        "minor premise": "All whole numbers are real numbers",
+        "conclusion": "Some real numbers are not whole numbers",
+        "incorrect conclusions": [
+          "All whole numbers are real numbers",
+          "All real numbers are whole numbers",
+          "All real numbers are whole numbers",
+          "All whole numbers are not rational numbers",
+          "Some real numbers are not rational numbers",
+          "Some real numbers are whole numbers",
+          "Some rational numbers are not real numbers",
+          "Some rational numbers are whole numbers",
+          "Some whole numbers are rational numbers",
+          "Some whole numbers are real numbers",
+          "Some rational numbers are not whole numbers",
+          "Some rational numbers are not whole numbers",
+          "No whole number is a real number",
+          "No rational number is a whole number"
+        ]
+      }
+    ]
+  }
+}

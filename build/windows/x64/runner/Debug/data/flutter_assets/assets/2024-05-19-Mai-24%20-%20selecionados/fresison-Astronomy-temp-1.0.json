@@ -1,0 +1,75 @@
+{
+  "Astronomy": {
+    "Fresison": [
+      {
+        "major premise": "No planets are stars",
+        "minor premise": "Some stars are celestial objects",
+        "conclusion": "Some celestial objects are not planets",
+        "incorrect conclusions": [
+          "All stars are celestial objects",
+          "All stars are planets",
+          "All celestial objects are planets",
+          "All planets are stars",
+          "All planets are celestial objects",
+          "Some stars are not celestial objects",
+          "Some planets are celestial objects",
+          "Some planets are not celestial objects",
+          "Some planets are stars",
+          "Some celestial objects are stars",
+          "Some celestial objects are planets",
+          "Some celestial objects are not stars",
+          "Some stars are planets",
+          "No stars are celestial objects",
+          "No celestial objects are not stars",
+          "No celestial objects are stars"
+        ]
+      },
+      {
+        "major premise": "No moons are stars",
+        "minor premise": "Some stars are celestial objects",
+        "conclusion": "Some celestial objects are not moons",
+        "incorrect conclusions": [
+          "All stars are celestial objects",
+          "All stars are moons",
+          "All celestial objects are moons",
+          "All moons are stars",
+          "All moons are celestial objects",
+          "Some stars are not celestial objects",
+          "Some moons are celestial objects",
+          "Some moons are not celestial objects",
+          "Some moons are stars",
+          "Some celestial objects are stars",
+          "Some celestial objects are moons",
+          "Some celestial objects are not stars",
+          "Some stars are moons",
+          "No stars are celestial objects",
+          "No celestial objects are not stars",
+          "No celestial objects are stars"
+        ]
+      },
+      {
+        "major premise": "No asteroids are galaxies",
+        "minor premise": "Some galaxies are astronomical bodies",
+        "conclusion": "Some astronomical bodies are not asteroids",
+        "incorrect conclusions": [
+          "All galaxies are astronomical bodies",
+          "All galaxies are asteroids",
+          "All astronomical bodies are asteroids",
+          "All asteroids are galaxies",
+          "All asteroids are astronomical bodies",
+          "Some galaxies are not astronomical bodies",
+          "Some asteroids are astronomical bodies",
+          "Some asteroids are not astronomical bodies",
+          "Some asteroids are galaxies",
+          "Some astronomical bodies are galaxies",
+          "Some astronomical bodies are asteroids",
+          "Some astronomical bodies are not galaxies",
+          "Some galaxies are asteroids",
+          "No galaxies are astronomical bodies",
+          "No astronomical bodies are not galaxies",
+          "No astronomical bodies are galaxies"
+        ]
+      }
+    ]
+  }
+}

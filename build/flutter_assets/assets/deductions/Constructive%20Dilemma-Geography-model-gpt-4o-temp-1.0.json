@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Geography": [
+      {
+        "premises": [
+          "If it is raining, then the roads are wet",
+          "If it is snowing, then the roads are wet",
+          "It is either raining or snowing"
+        ],
+        "conclusions": [
+          "The roads are wet",
+          "If it is raining or snowing, then the roads are wet",
+          "If the roads are not wet, then it is neither raining nor snowing",
+          "If it is raining and snowing, then the roads are wet",
+          "If the roads are wet, then it is either raining or snowing"
+        ],
+        "incorrect conclusions": [
+          "If it is raining, then the roads are wet or snowing",
+          "If the roads are wet, then it is raining and snowing",
+          "If the roads are wet or snowing, then it is raining",
+          "If it is not raining, then the roads are wet",
+          "If the roads are not wet, then it is raining and snowing"
+        ]
+      },
+      {
+        "premises": [
+          "If there is a drought, then crops will fail",
+          "If there is a flood, then crops will fail",
+          "There is either a drought or a flood"
+        ],
+        "conclusions": [
+          "Crops will fail",
+          "If there is a drought or a flood, then the crops will fail",
+          "If the crops do not fail, then it is neither a drought nor a flood",
+          "If there is a drought and a flood, then the crops will fail",
+          "If the crops fail, then it is either a drought or a flood"
+        ],
+        "incorrect conclusions": [
+          "If there is a drought, then the crops will fail or there will be a flood",
+          "If the crops fail, then there is a drought and a flood",
+          "If the crops fail or there is a drought, then there is a flood",
+          "If there is not a drought, then the crops will fail",
+          "If the crops do not fail, then there is a drought and a flood"
+        ]
+      },
+      {
+        "premises": [
+          "If a volcano erupts, then the air is polluted",
+          "If an industrial plant is emitting, then the air is polluted",
+          "There is either a volcano erupting or an industrial plant emitting"
+        ],
+        "conclusions": [
+          "The air is polluted",
+          "If a volcano is erupting or an industrial plant is emitting, then the air is polluted",
+          "If the air is not polluted, then it is neither a volcano erupting nor an industrial plant emitting",
+          "If a volcano is erupting and an industrial plant is emitting, then the air is polluted",
+          "If the air is polluted, then it is either a volcano erupting or an industrial plant emitting"
+        ],
+        "incorrect conclusions": [
+          "If a volcano is erupting, then the air is polluted or an industrial plant is emitting",
+          "If the air is polluted, then a volcano is erupting and an industrial plant is emitting",
+          "If the air is polluted or a volcano is erupting, then an industrial plant is emitting",
+          "If a volcano is not erupting, then the air is polluted",
+          "If the air is not polluted, then a volcano is erupting and an industrial plant is emitting"
+        ]
+      }
+    ]
+  }
+}

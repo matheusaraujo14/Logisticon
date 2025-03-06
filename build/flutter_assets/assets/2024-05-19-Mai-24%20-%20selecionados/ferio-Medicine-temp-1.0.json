@@ -1,0 +1,52 @@
+{
+  "Medicine": {
+    "Ferio": [
+      {
+        "major premise": "No vaccines are bacteria",
+        "minor premise": "Some antibiotics are vaccines",
+        "conclusion": "Some antibiotics are not bacteria",
+        "incorrect conclusions": [
+          "All vaccines are antibiotics",
+          "All vaccines are bacteria",
+          "All antibiotics are bacteria",
+          "All bacteria are vaccines",
+          "All bacteria are antibiotics",
+          "Some vaccines are not antibiotics",
+          "Some bacteria are antibiotics",
+          "Some bacteria are not antibiotics",
+          "Some bacteria are vaccines",
+          "Some bacteria are antibiotics",
+          "Some antibiotics are bacteria",
+          "Some antibiotics are not vaccines",
+          "Some vaccines are bacteria",
+          "No vaccines are antibiotics",
+          "No antibiotics are not vaccines",
+          "No antibiotics are vaccines"
+        ]
+      },
+      {
+        "major premise": "No viruses are antibiotics",
+        "minor premise": "Some flu treatments are viruses",
+        "conclusion": "Some flu treatments are not antibiotics",
+        "incorrect conclusions": [
+          "All viruses are flu treatments",
+          "All viruses are antibiotics",
+          "All flu treatments are antibiotics",
+          "All antibiotics are viruses",
+          "All antibiotics are flu treatments",
+          "Some viruses are not flu treatments",
+          "Some antibiotics are flu treatments",
+          "Some antibiotics are not flu treatments",
+          "Some antibiotics are viruses",
+          "Some antibiotics are flu treatments",
+          "Some flu treatments are antibiotics",
+          "Some flu treatments are not viruses",
+          "Some viruses are antibiotics",
+          "No viruses are flu treatments",
+          "No flu treatments are not viruses",
+          "No flu treatments are viruses"
+        ]
+      }
+    ]
+  }
+}

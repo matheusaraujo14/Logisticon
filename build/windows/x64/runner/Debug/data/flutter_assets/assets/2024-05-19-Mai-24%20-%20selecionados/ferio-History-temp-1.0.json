@@ -1,0 +1,75 @@
+{
+  "History": {
+    "Ferio": [
+      {
+        "major premise": "No medieval kings are ancient philosophers",
+        "minor premise": "Some historical figures are medieval kings",
+        "conclusion": "Some historical figures are not ancient philosophers",
+        "incorrect conclusions": [
+          "All medieval kings are historical figures",
+          "All medieval kings are ancient philosophers",
+          "All historical figures are ancient philosophers",
+          "All ancient philosophers are medieval kings",
+          "All ancient philosophers are historical figures",
+          "Some medieval kings are not historical figures",
+          "Some ancient philosophers are historical figures",
+          "Some ancient philosophers are not historical figures",
+          "Some ancient philosophers are medieval kings",
+          "Some ancient philosophers are historical figures",
+          "Some historical figures are ancient philosophers",
+          "Some historical figures are not medieval kings",
+          "Some medieval kings are ancient philosophers",
+          "No medieval kings are historical figures",
+          "No historical figures are not medieval kings",
+          "No historical figures are medieval kings"
+        ]
+      },
+      {
+        "major premise": "No Renaissance artists are ancient generals",
+        "minor premise": "Some art scholars are Renaissance artists",
+        "conclusion": "Some art scholars are not ancient generals",
+        "incorrect conclusions": [
+          "All Renaissance artists are art scholars",
+          "All Renaissance artists are ancient generals",
+          "All art scholars are ancient generals",
+          "All ancient generals are Renaissance artists",
+          "All ancient generals are art scholars",
+          "Some Renaissance artists are not art scholars",
+          "Some ancient generals are art scholars",
+          "Some ancient generals are not art scholars",
+          "Some ancient generals are Renaissance artists",
+          "Some ancient generals are art scholars",
+          "Some art scholars are ancient generals",
+          "Some art scholars are not Renaissance artists",
+          "Some Renaissance artists are ancient generals",
+          "No Renaissance artists are art scholars",
+          "No art scholars are not Renaissance artists",
+          "No art scholars are Renaissance artists"
+        ]
+      },
+      {
+        "major premise": "No 19th century writers are early modern scientists",
+        "minor premise": "Some literary critics are 19th century writers",
+        "conclusion": "Some literary critics are not early modern scientists",
+        "incorrect conclusions": [
+          "All 19th century writers are literary critics",
+          "All 19th century writers are early modern scientists",
+          "All literary critics are early modern scientists",
+          "All early modern scientists are 19th century writers",
+          "All early modern scientists are literary critics",
+          "Some 19th century writers are not literary critics",
+          "Some early modern scientists are literary critics",
+          "Some early modern scientists are not literary critics",
+          "Some early modern scientists are 19th century writers",
+          "Some early modern scientists are literary critics",
+          "Some literary critics are early modern scientists",
+          "Some literary critics are not 19th century writers",
+          "Some 19th century writers are early modern scientists",
+          "No 19th century writers are literary critics",
+          "No literary critics are not 19th century writers",
+          "No literary critics are 19th century writers"
+        ]
+      }
+    ]
+  }
+}

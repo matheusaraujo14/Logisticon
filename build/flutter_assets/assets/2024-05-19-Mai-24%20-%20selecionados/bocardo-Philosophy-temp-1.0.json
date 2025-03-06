@@ -1,0 +1,69 @@
+{
+  "Philosophy": {
+    "Bocardo": [
+      {
+        "major premise": "Some philosophers are not empiricists",
+        "minor premise": "All philosophers are thinkers",
+        "conclusion": "Some thinkers are not empiricists",
+        "incorrect conclusions": [
+          "All philosophers are empiricists",
+          "All thinkers are philosophers",
+          "All thinkers are empiricists",
+          "All empiricists are not philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are empiricists",
+          "Some philosophers are not thinkers",
+          "Some philosophers are empiricists",
+          "Some empiricists are philosophers",
+          "Some empiricists are thinkers",
+          "Some empiricists are not thinkers",
+          "Some empiricists are not philosophers",
+          "No philosophers is a thinker",
+          "No thinkers is a philosopher"
+        ]
+      },
+      {
+        "major premise": "Some metaphysicians are not materialists",
+        "minor premise": "All metaphysicians are existentialists",
+        "conclusion": "Some existentialists are not materialists",
+        "incorrect conclusions": [
+          "All metaphysicians are materialists",
+          "All existentialists are metaphysicians",
+          "All existentialists are materialists",
+          "All materialists are not metaphysicians",
+          "Some existentialists are not metaphysicians",
+          "Some existentialists are materialists",
+          "Some metaphysicians are not existentialists",
+          "Some metaphysicians are materialists",
+          "Some materialists are metaphysicians",
+          "Some materialists are existentialists",
+          "Some materialists are not existentialists",
+          "Some materialists are not metaphysicians",
+          "No metaphysician is a existentialist",
+          "No existentialist is a metaphysician"
+        ]
+      },
+      {
+        "major premise": "Some logicians are not ethicists",
+        "minor premise": "All logicians are philosophers",
+        "conclusion": "Some philosophers are not ethicists",
+        "incorrect conclusions": [
+          "All logicians are ethicists",
+          "All philosophers are logicians",
+          "All philosophers are ethicists",
+          "All ethicists are not logicians",
+          "Some philosophers are not logicians",
+          "Some philosophers are ethicists",
+          "Some logicians are not philosophers",
+          "Some logicians are ethicists",
+          "Some ethicists are logicians",
+          "Some ethicists are philosophers",
+          "Some ethicists are not philosophers",
+          "Some ethicists are not logicians",
+          "No logicians is a philosopher",
+          "No philosophers is a logician"
+        ]
+      }
+    ]
+  }
+}

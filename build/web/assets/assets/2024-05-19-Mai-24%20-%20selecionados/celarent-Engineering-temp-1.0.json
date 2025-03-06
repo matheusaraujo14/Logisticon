@@ -1,0 +1,54 @@
+{
+  "Engineering": {
+    "Celarent": [
+      {
+        "major premise": "No metals are polymers",
+        "minor premise": "All wires are metals",
+        "conclusion": "No wires are polymers",
+        "incorrect conclusions": [
+          "All wires are polymers",
+          "All metals are polymers",
+          "Some wires are metals",
+          "Some wires are polymers",
+          "Some metals are wires",
+          "Some metals are polymers",
+          "Some metals are not wires",
+          "Some polymers are wires",
+          "Some polymers are metals"
+        ]
+      },
+      {
+        "major premise": "No insulators are conductors",
+        "minor premise": "All plastics are insulators",
+        "conclusion": "No plastics are conductors",
+        "incorrect conclusions": [
+          "All plastics are conductors",
+          "All insulators are conductors",
+          "Some plastics are insulators",
+          "Some plastics are conductors",
+          "Some insulators are plastics",
+          "Some insulators are conductors",
+          "Some insulators are not plastics",
+          "Some conductors are plastics",
+          "Some conductors are insulators"
+        ]
+      },
+      {
+        "major premise": "No semiconductors are liquids",
+        "minor premise": "All silicon components are semiconductors",
+        "conclusion": "No silicon components are liquids",
+        "incorrect conclusions": [
+          "All silicon components are liquids",
+          "All semiconductors are liquids",
+          "Some silicon components are semiconductors",
+          "Some silicon components are liquids",
+          "Some semiconductors are silicon components",
+          "Some semiconductors are liquids",
+          "Some semiconductors are not silicon components",
+          "Some liquids are silicon components",
+          "Some liquids are semiconductors"
+        ]
+      }
+    ]
+  }
+}

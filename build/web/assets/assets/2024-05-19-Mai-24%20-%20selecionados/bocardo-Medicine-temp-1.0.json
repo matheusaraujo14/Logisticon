@@ -1,0 +1,69 @@
+{
+  "Medicine": {
+    "Bocardo": [
+      {
+        "major premise": "Some bacteria are not pathogens",
+        "minor premise": "All bacteria are microorganisms",
+        "conclusion": "Some microorganisms are not pathogens",
+        "incorrect conclusions": [
+          "All bacteria are pathogens",
+          "All microorganisms are bacteria",
+          "All microorganisms are pathogens",
+          "All pathogens are not bacteria",
+          "Some microorganisms are not bacteria",
+          "Some microorganisms are pathogens",
+          "Some bacteria are not microorganisms",
+          "Some bacteria are pathogens",
+          "Some pathogens are bacteria",
+          "Some pathogens are microorganisms",
+          "Some pathogens are not microorganisms",
+          "Some pathogens are not bacteria",
+          "No bacteria is a microorganism",
+          "No microorganisms are bacteria"
+        ]
+      },
+      {
+        "major premise": "Some viruses are not lethal",
+        "minor premise": "All viruses are infectious agents",
+        "conclusion": "Some infectious agents are not lethal",
+        "incorrect conclusions": [
+          "All viruses are lethal",
+          "All infectious agents are viruses",
+          "All infectious agents are lethal",
+          "All lethal are not viruses",
+          "Some infectious agents are not viruses",
+          "Some infectious agents are lethal",
+          "Some viruses are not infectious agents",
+          "Some viruses are lethal",
+          "Some lethal are viruses",
+          "Some lethal are infectious agents",
+          "Some lethal are not infectious agents",
+          "Some lethal are not viruses",
+          "No viruses are infectious agents",
+          "No infectious agents are viruses"
+        ]
+      },
+      {
+        "major premise": "Some antibiotics are not effective",
+        "minor premise": "All antibiotics are drugs",
+        "conclusion": "Some drugs are not effective",
+        "incorrect conclusions": [
+          "All antibiotics are effective",
+          "All drugs are antibiotics",
+          "All drugs are effective",
+          "All effective are not antibiotics",
+          "Some drugs are not antibiotics",
+          "Some drugs are effective",
+          "Some antibiotics are not drugs",
+          "Some antibiotics are effective",
+          "Some effective are antibiotics",
+          "Some effective are drugs",
+          "Some effective are not drugs",
+          "Some effective are not antibiotics",
+          "No antibiotics are drugs",
+          "No drugs are antibiotics"
+        ]
+      }
+    ]
+  }
+}

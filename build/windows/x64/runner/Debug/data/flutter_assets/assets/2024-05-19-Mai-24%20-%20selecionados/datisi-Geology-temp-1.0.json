@@ -1,0 +1,78 @@
+{
+  "Geology": {
+    "Datisi": [
+      {
+        "major premise": "All igneous rocks are minerals",
+        "minor premise": "Some igneous rocks are volcanic",
+        "conclusion": "Some volcanic are minerals",
+        "incorrect conclusions": [
+          "All volcanic are igneous rocks",
+          "All volcanic are minerals",
+          "All minerals are igneous rocks",
+          "All minerals are volcanic",
+          "All igneous rocks are volcanic",
+          "Some volcanic are not minerals",
+          "Some volcanic are not igneous rocks",
+          "Some minerals are not igneous rocks",
+          "Some minerals are not volcanic",
+          "Some igneous rocks are not minerals",
+          "Some igneous rocks are not volcanic",
+          "No volcanic is mineral",
+          "No volcanic is igneous rock",
+          "No igneous rock is mineral",
+          "No igneous rock is volcanic",
+          "No mineral is igneous rock",
+          "No mineral is volcanic"
+        ]
+      },
+      {
+        "major premise": "All sedimentary rocks are minerals",
+        "minor premise": "Some sedimentary rocks are sandstones",
+        "conclusion": "Some sandstones are minerals",
+        "incorrect conclusions": [
+          "All sandstones are sedimentary rocks",
+          "All sandstones are minerals",
+          "All minerals are sedimentary rocks",
+          "All minerals are sandstones",
+          "All sedimentary rocks are sandstones",
+          "Some sandstones are not minerals",
+          "Some sandstones are not sedimentary rocks",
+          "Some minerals are not sedimentary rocks",
+          "Some minerals are not sandstones",
+          "Some sedimentary rocks are not minerals",
+          "Some sedimentary rocks are not sandstones",
+          "No sandstone is mineral",
+          "No sandstone is sedimentary rock",
+          "No sedimentary rock is mineral",
+          "No sedimentary rock is sandstone",
+          "No mineral is sedimentary rock",
+          "No mineral is sandstone"
+        ]
+      },
+      {
+        "major premise": "All metamorphic rocks are minerals",
+        "minor premise": "Some metamorphic rocks are schists",
+        "conclusion": "Some schists are minerals",
+        "incorrect conclusions": [
+          "All schists are metamorphic rocks",
+          "All schists are minerals",
+          "All minerals are metamorphic rocks",
+          "All minerals are schists",
+          "All metamorphic rocks are schists",
+          "Some schists are not minerals",
+          "Some schists are not metamorphic rocks",
+          "Some minerals are not metamorphic rocks",
+          "Some minerals are not schists",
+          "Some metamorphic rocks are not minerals",
+          "Some metamorphic rocks are not schists",
+          "No schist is mineral",
+          "No schist is metamorphic rock",
+          "No metamorphic rock is mineral",
+          "No metamorphic rock is schist",
+          "No mineral is metamorphic rock",
+          "No mineral is schist"
+        ]
+      }
+    ]
+  }
+}

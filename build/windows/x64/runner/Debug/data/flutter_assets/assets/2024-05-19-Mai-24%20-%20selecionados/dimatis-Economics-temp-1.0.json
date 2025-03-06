@@ -1,0 +1,75 @@
+{
+  "Economics": {
+    "Dimatis": [
+      {
+        "major premise": "Some companies are monopolies",
+        "minor premise": "All monopolies are businesses",
+        "conclusion": "Some businesses are companies",
+        "incorrect conclusions": [
+          "All businesses are companies",
+          "All businesses are monopolies",
+          "All companies are businesses",
+          "All companies are monopolies",
+          "All monopolies are companies",
+          "Some businesses are not monopolies",
+          "Some companies are not businesses",
+          "Some companies are not monopolies",
+          "Some monopolies are not businesses",
+          "Some monopolies are not companies",
+          "No companies is a businesses",
+          "No companies is a monopolies",
+          "No monopolies is a businesses",
+          "No monopolies is a companies",
+          "No businesses is a monopolies",
+          "No businesses is a companies"
+        ]
+      },
+      {
+        "major premise": "Some startups are innovators",
+        "minor premise": "All innovators are entrepreneurs",
+        "conclusion": "Some entrepreneurs are startups",
+        "incorrect conclusions": [
+          "All entrepreneurs are startups",
+          "All entrepreneurs are innovators",
+          "All startups are entrepreneurs",
+          "All startups are innovators",
+          "All innovators are startups",
+          "Some entrepreneurs are not innovators",
+          "Some startups are not entrepreneurs",
+          "Some startups are not innovators",
+          "Some innovators are not entrepreneurs",
+          "Some innovators are not startups",
+          "No startups is a entrepreneurs",
+          "No startups is a innovators",
+          "No innovators is a entrepreneurs",
+          "No innovators is a startups",
+          "No entrepreneurs is a innovators",
+          "No entrepreneurs is a startups"
+        ]
+      },
+      {
+        "major premise": "Some banks are lenders",
+        "minor premise": "All lenders are financial institutions",
+        "conclusion": "Some financial institutions are banks",
+        "incorrect conclusions": [
+          "All financial institutions are banks",
+          "All financial institutions are lenders",
+          "All banks are financial institutions",
+          "All banks are lenders",
+          "All lenders are banks",
+          "Some financial institutions are not lenders",
+          "Some banks are not financial institutions",
+          "Some banks are not lenders",
+          "Some lenders are not financial institutions",
+          "Some lenders are not banks",
+          "No banks is a financial institutions",
+          "No banks is a lenders",
+          "No lenders is a financial institutions",
+          "No lenders is a banks",
+          "No financial institutions is a lenders",
+          "No financial institutions is a banks"
+        ]
+      }
+    ]
+  }
+}

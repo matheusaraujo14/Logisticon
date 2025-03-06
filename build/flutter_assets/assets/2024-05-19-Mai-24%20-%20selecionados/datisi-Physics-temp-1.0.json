@@ -1,0 +1,78 @@
+{
+  "Physics": {
+     "Datisi" : [
+		{
+          "major premise": "All stars are celestial_bodies",
+          "minor premise": "Some stars are red_giants",
+          "conclusion": "Some red_giants are celestial_bodies",
+		  "incorrect conclusions": [
+			"All red_giants are stars",
+            "All red_giants are celestial_bodies",
+            "All celestial_bodies are stars",
+            "All celestial_bodies are red_giants",
+            "All stars are red_giants",
+            "Some red_giants are not celestial_bodies",
+            "Some red_giants are not stars",
+            "Some celestial_bodies are not stars",
+            "Some celestial_bodies are not red_giants",
+            "Some stars are not celestial_bodies",
+            "Some stars are not red_giants",
+            "No red_giants are celestial_bodies",
+            "No red_giants are stars",
+            "No stars are celestial_bodies",
+            "No stars are red_giants",
+            "No celestial_bodies are stars",
+            "No celestial_bodies are red_giants"
+		  ]
+		},
+		{
+          "major premise": "All electrons are subatomic_particles",
+          "minor premise": "Some electrons are beta_particles",
+          "conclusion": "Some beta_particles are subatomic_particles",
+		  "incorrect conclusions": [
+			"All beta_particles are electrons",
+            "All beta_particles are subatomic_particles",
+            "All subatomic_particles are electrons",
+            "All subatomic_particles are beta_particles",
+            "All electrons are beta_particles",
+            "Some beta_particles are not subatomic_particles",
+            "Some beta_particles are not electrons",
+            "Some subatomic_particles are not electrons",
+            "Some subatomic_particles are not beta_particles",
+            "Some electrons are not subatomic_particles",
+            "Some electrons are not beta_particles",
+            "No beta_particles are subatomic_particles",
+            "No beta_particles are electrons",
+            "No electrons are subatomic_particles",
+            "No electrons are beta_particles",
+            "No subatomic_particles are electrons",
+            "No subatomic_particles are beta_particles"
+		  ]
+		},
+		{
+          "major premise": "All molecules are matter",
+          "minor premise": "Some molecules are proteins",
+          "conclusion": "Some proteins are matter",
+		  "incorrect conclusions": [
+			"All proteins are molecules",
+            "All proteins are matter",
+            "All matter are molecules",
+            "All matter are proteins",
+            "All molecules are proteins",
+            "Some proteins are not matter",
+            "Some proteins are not molecules",
+            "Some matter are not molecules",
+            "Some matter are not proteins",
+            "Some molecules are not matter",
+            "Some molecules are not proteins",
+            "No proteins are matter",
+            "No proteins are molecules",
+            "No molecules are matter",
+            "No molecules are proteins",
+            "No matter are molecules",
+            "No matter are proteins"
+		  ]
+		}
+	 ]
+  }
+}

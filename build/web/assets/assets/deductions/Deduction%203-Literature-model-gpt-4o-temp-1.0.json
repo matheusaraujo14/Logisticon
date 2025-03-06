@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Literature": [
+      {
+        "premises": [
+          "If the protagonist is not brave, then they will not confront the villain",
+          "If the protagonist is brave, then they will save the victim"
+        ],
+        "conclusions": [
+          "If they confront the villain, then the protagonist is brave",
+          "If they do not save the victim, then the protagonist is not brave",
+          "If they do not save the victim, then they will not confront the villain",
+          "The protagonist will either confront the villain or save the victim",
+          "If the protagonist is brave and they will not confront the villain, then they will save the victim"
+        ],
+        "incorrect conclusions": [
+          "If the protagonist will not confront the villain, then they are brave",
+          "If they will not confront the villain, then the protagonist is not brave",
+          "If they confront the villain, then the protagonist is not brave",
+          "The protagonist will not confront the villain and will save the victim",
+          "If they save the victim, then the protagonist is brave",
+          "If they will not confront the villain and save the victim, then the protagonist is brave"
+        ]
+      },
+      {
+        "premises": [
+          "If the antagonist is not cunning, then they will not deceive the protagonist",
+          "If the antagonist is cunning, then they will succeed in their plan"
+        ],
+        "conclusions": [
+          "If they deceive the protagonist, then the antagonist is cunning",
+          "If they do not succeed in their plan, then the antagonist is not cunning",
+          "If they do not succeed in their plan, then they will not deceive the protagonist",
+          "The antagonist will either deceive the protagonist or succeed in their plan",
+          "If the antagonist is cunning and they will not deceive the protagonist, then they will succeed in their plan"
+        ],
+        "incorrect conclusions": [
+          "If they will not deceive the protagonist, then the antagonist is cunning",
+          "If they will not deceive the protagonist, then the antagonist is not cunning",
+          "If they deceive the protagonist, then the antagonist is not cunning",
+          "The antagonist will not deceive the protagonist and succeed in their plan",
+          "If they succeed in their plan, then the antagonist is cunning",
+          "If they will not deceive the protagonist and succeed in their plan, then the antagonist is cunning"
+        ]
+      },
+      {
+        "premises": [
+          "If the hero is not diligent, then they will not discover the secret",
+          "If the hero is diligent, then they will solve the mystery"
+        ],
+        "conclusions": [
+          "If they discover the secret, then the hero is diligent",
+          "If they do not solve the mystery, then the hero is not diligent",
+          "If they do not solve the mystery, then they will not discover the secret",
+          "The hero will either discover the secret or solve the mystery",
+          "If the hero is diligent and they will not discover the secret, then they will solve the mystery"
+        ],
+        "incorrect conclusions": [
+          "If they will not discover the secret, then the hero is diligent",
+          "If they will not discover the secret, then the hero is not diligent",
+          "If they discover the secret, then the hero is not diligent",
+          "The hero will not discover the secret and solve the mystery",
+          "If they solve the mystery, then the hero is diligent",
+          "If they will not discover the secret and solve the mystery, then the hero is diligent"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Philosophy": {
+     "Disamis" : [
+		{
+          "major premise": "Some ethical theories are normative theories",
+          "minor premise": "All ethical theories are theories",
+          "conclusion": "Some theories are normative theories",
+		  "incorrect conclusions": [
+			"All theories are normative theories",
+			"All theories are ethical theories",
+			"All normative theories are theories",
+			"All normative theories are ethical theories",
+			"All ethical theories are normative theories",
+			"Some theories are not ethical theories",
+			"Some normative theories are not theories",
+			"Some normative theories are not ethical theories",
+			"Some ethical theories are not theories",
+			"Some ethical theories are not normative theories",
+			"No normative theory is a theory",
+			"No normative theory is an ethical theory",
+			"No ethical theory is a theory",
+			"No ethical theory is a normative theory",
+			"No theory is an ethical theory",
+			"No theory is a normative theory"
+		  ]
+		},
+		{
+          "major premise": "Some arguments are deductive arguments",
+          "minor premise": "All arguments are assertions",
+          "conclusion": "Some assertions are deductive arguments",
+		  "incorrect conclusions": [
+			"All assertions are deductive arguments",
+			"All assertions are arguments",
+			"All deductive arguments are assertions",
+			"All deductive arguments are arguments",
+			"All arguments are deductive arguments",
+			"Some assertions are not arguments",
+			"Some deductive arguments are not assertions",
+			"Some deductive arguments are not arguments",
+			"Some arguments are not assertions",
+			"Some arguments are not deductive arguments",
+			"No deductive argument is an assertion",
+			"No deductive argument is an argument",
+			"No argument is an assertion",
+			"No argument is a deductive argument",
+			"No assertion is an argument",
+			"No assertion is a deductive argument"
+		  ]
+		}
+	 ]
+  }
+}

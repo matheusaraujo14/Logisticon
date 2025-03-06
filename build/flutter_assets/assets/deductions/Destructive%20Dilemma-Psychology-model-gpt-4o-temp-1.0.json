@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Psychology": [
+		{
+          "premises": [
+            "If someone experiences chronic stress, then they may develop anxiety",
+            "If someone experiences chronic stress, then their immune system may weaken",
+            "Someone does not develop anxiety or their immune system does not weaken"
+          ],
+          "conclusions": [
+            "Someone does not experience chronic stress",
+            "Someone does not develop anxiety and their immune system does not weaken",
+            "If someone experiences chronic stress, then they may develop anxiety and their immune system may weaken"
+          ],
+		  "incorrect conclusions": [
+            "If someone experiences chronic stress, then they may develop anxiety and their immune system does not weaken",
+            "If someone develops anxiety and their immune system weakens, then they experience chronic stress",
+            "If someone develops anxiety, then they experience chronic stress",
+            "Someone develops anxiety or their immune system weakens but not both are true",
+            "If someone does not experience chronic stress, then they do not develop anxiety or their immune system does not weaken"
+          ]
+		},
+		{
+          "premises": [
+            "If a person has a high need for achievement, then they set challenging goals",
+            "If a person has a high need for achievement, then they work diligently",
+            "A person does not set challenging goals or they do not work diligently"
+          ],
+          "conclusions": [
+            "A person does not have a high need for achievement",
+            "A person does not set challenging goals and they do not work diligently",
+            "If a person has a high need for achievement, then they set challenging goals and they work diligently"
+          ],
+		  "incorrect conclusions": [
+            "If a person has a high need for achievement, then they set challenging goals and they do not work diligently",
+            "If a person sets challenging goals and they work diligently, then they have a high need for achievement",
+            "If a person sets challenging goals, then they have a high need for achievement",
+            "A person sets challenging goals or they work diligently but not both are true",
+            "If a person does not have a high need for achievement, then they do not set challenging goals or they do not work diligently"
+          ]
+		},
+		{
+		  "premises": [
+            "If an individual receives positive feedback, then their self-esteem increases",
+            "If an individual receives positive feedback, then their motivation improves",
+            "An individual's self-esteem does not increase or their motivation does not improve"
+          ],
+          "conclusions": [
+            "An individual does not receive positive feedback",
+            "An individual's self-esteem does not increase and their motivation does not improve",
+            "If an individual receives positive feedback, then their self-esteem increases and their motivation improves"
+          ],
+		  "incorrect conclusions": [
+            "If an individual receives positive feedback, then their self-esteem increases and their motivation does not improve",
+            "If an individual's self-esteem increases and their motivation improves, then they receive positive feedback",
+            "If an individual's self-esteem increases, then they receive positive feedback",
+            "An individual's self-esteem increases or their motivation improves but not both are true",
+            "If an individual does not receive positive feedback, then their self-esteem does not increase or their motivation does not improve"
+          ]
+		}
+	 ]
+  }
+}

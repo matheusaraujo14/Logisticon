@@ -1,0 +1,78 @@
+{
+  "Architecture": {
+     "Darii": [
+		{
+          "major premise": "All architects are professionals",
+          "minor premise": "Some designers are architects",
+          "conclusion": "Some designers are professionals",
+		  "incorrect conclusions": [
+			  "All designers are architects",
+			  "All designers are professionals",
+			  "All professionals are architects",
+			  "All professionals are designers",
+			  "All architects are designers",
+			  "Some designers are not professionals",
+			  "Some designers are not architects",
+			  "Some professionals are not architects",
+			  "Some professionals are not designers",
+			  "Some architects are not professionals",
+			  "Some architects are not designers",
+			  "No designers are professionals",
+			  "No designers are architects",
+			  "No architects are professionals",
+			  "No architects are designers",
+			  "No professionals are architects",
+			  "No professionals are designers"
+		]
+		},
+		{
+          "major premise": "All buildings are structures",
+          "minor premise": "Some houses are buildings",
+          "conclusion": "Some houses are structures",
+		  "incorrect conclusions": [
+			  "All houses are buildings",
+			  "All houses are structures",
+			  "All structures are buildings",
+			  "All structures are houses",
+			  "All buildings are houses",
+			  "Some houses are not structures",
+			  "Some houses are not buildings",
+			  "Some structures are not buildings",
+			  "Some structures are not houses",
+			  "Some buildings are not structures",
+			  "Some buildings are not houses",
+			  "No houses are structures",
+			  "No houses are buildings",
+			  "No buildings are structures",
+			  "No buildings are houses",
+			  "No structures are buildings",
+			  "No structures are houses"
+		]
+		},
+		{
+          "major premise": "All blueprints are documents",
+          "minor premise": "Some floor plans are blueprints",
+          "conclusion": "Some floor plans are documents",
+		  "incorrect conclusions": [
+			  "All floor plans are blueprints",
+			  "All floor plans are documents",
+			  "All documents are blueprints",
+			  "All documents are floor plans",
+			  "All blueprints are floor plans",
+			  "Some floor plans are not documents",
+			  "Some floor plans are not blueprints",
+			  "Some documents are not blueprints",
+			  "Some documents are not floor plans",
+			  "Some blueprints are not documents",
+			  "Some blueprints are not floor plans",
+			  "No floor plans are documents",
+			  "No floor plans are blueprints",
+			  "No blueprints are documents",
+			  "No blueprints are floor plans",
+			  "No documents are blueprints",
+			  "No documents are floor plans"
+		]
+		}
+	 ]
+  }
+}

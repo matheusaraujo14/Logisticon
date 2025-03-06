@@ -1,0 +1,54 @@
+{
+  "Sports Science": {
+     "Camestres" : [
+		{
+          "major premise": "All soccer players are athletes",
+          "minor premise": "No tennis players are athletes",
+          "conclusion": "No tennis players are soccer players",
+		  "incorrect conclusions": [
+			"All soccer players are tennis players",
+			"All athletes are tennis players",
+			"Some soccer players are athletes",
+			"Some soccer players are tennis players",
+			"Some athletes are tennis players",
+			"Some athletes are soccer players",
+			"Some tennis players are athletes",
+			"Some tennis players are soccer players",
+			"Some athletes are not soccer players"
+		  ]
+		},
+		{
+          "major premise": "All runners are sportspersons",
+          "minor premise": "No basketball players are sportspersons",
+          "conclusion": "No basketball players are runners",
+		  "incorrect conclusions": [
+			"All runners are basketball players",
+			"All sportspersons are basketball players",
+			"Some runners are sportspersons",
+			"Some runners are basketball players",
+			"Some sportspersons are basketball players",
+			"Some sportspersons are runners",
+			"Some basketball players are sportspersons",
+			"Some basketball players are runners",
+			"Some sportspersons are not runners"
+		  ]
+		},
+		{
+          "major premise": "All swimmers are competitors",
+          "minor premise": "No skiers are competitors",
+          "conclusion": "No skiers are swimmers",
+		  "incorrect conclusions": [
+			"All swimmers are skiers",
+			"All competitors are skiers",
+			"Some swimmers are competitors",
+			"Some swimmers are skiers",
+			"Some competitors are skiers",
+			"Some competitors are swimmers",
+			"Some skiers are competitors",
+			"Some skiers are swimmers",
+			"Some competitors are not swimmers"
+		  ]
+		}
+	 ]
+  }
+}

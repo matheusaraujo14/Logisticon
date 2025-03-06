@@ -1,0 +1,27 @@
+{
+  "Engineering": {
+     "Bocardo" : [
+		{
+		  "major premise": "Some sensors are not data processors",
+          "minor premise": "All sensors are measurement instruments",
+          "conclusion": "Some measurement instruments are not data processors",
+		  "incorrect conclusions": [
+            "All sensors are data processors",
+            "All measurement instruments are sensors",
+            "All measurement instruments are data processors",
+            "All data processors are not sensors",
+            "Some measurement instruments are not sensors",
+            "Some measurement instruments are data processors",
+            "Some sensors are not measurement instruments",
+            "Some sensors are data processors",
+            "Some data processors are sensors",
+            "Some data processors are measurement instruments",
+            "Some data processors are not measurement instruments",
+            "Some data processors are not sensors",
+            "No sensors are measurement instruments",
+            "No measurement instruments are sensors"
+		  ]
+		}
+	 ]
+  }
+}

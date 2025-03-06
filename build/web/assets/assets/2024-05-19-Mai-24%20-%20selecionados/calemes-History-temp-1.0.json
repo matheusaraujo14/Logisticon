@@ -1,0 +1,48 @@
+{
+  "History": {
+    "Calemes": [
+      {
+        "major premise": "All renaissance artworks are historical artifacts",
+        "minor premise": "No historical artifacts are modern digital files",
+        "conclusion": "No modern digital files are renaissance artworks",
+        "incorrect conclusions": [
+          "All historical artifacts are modern digital files",
+          "All historical artifacts are renaissance artworks",
+          "All modern digital files are historical artifacts",
+          "All modern digital files are renaissance artworks",
+          "All renaissance artworks are modern digital files",
+          "Some historical artifacts are renaissance artworks",
+          "Some historical artifacts are not renaissance artworks",
+          "Some historical artifacts are modern digital files",
+          "Some renaissance artworks are modern digital files",
+          "Some renaissance artworks are not historical artifacts",
+          "Some renaissance artworks are historical artifacts",
+          "Some modern digital files are historical artifacts",
+          "Some modern digital files are renaissance artworks",
+          "No renaissance artworks are historical artifacts"
+        ]
+      },
+      {
+        "major premise": "All medieval manuscripts are historical documents",
+        "minor premise": "No historical documents are contemporary novels",
+        "conclusion": "No contemporary novels are medieval manuscripts",
+        "incorrect conclusions": [
+          "All historical documents are contemporary novels",
+          "All historical documents are medieval manuscripts",
+          "All contemporary novels are historical documents",
+          "All contemporary novels are medieval manuscripts",
+          "All medieval manuscripts are contemporary novels",
+          "Some historical documents are medieval manuscripts",
+          "Some historical documents are not medieval manuscripts",
+          "Some historical documents are contemporary novels",
+          "Some medieval manuscripts are contemporary novels",
+          "Some medieval manuscripts are not historical documents",
+          "Some medieval manuscripts are historical documents",
+          "Some contemporary novels are historical documents",
+          "Some contemporary novels are medieval manuscripts",
+          "No medieval manuscripts are historical documents"
+        ]
+      }
+    ]
+  }
+}

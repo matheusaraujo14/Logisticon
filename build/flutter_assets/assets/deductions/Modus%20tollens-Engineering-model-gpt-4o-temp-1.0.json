@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Engineering": [
+      {
+        "premises": [
+          "If a circuit is open, then current does not flow",
+          "Current flows"
+        ],
+        "conclusions": [
+          "The circuit is not open"
+        ],
+        "incorrect conclusions": [
+          "The circuit is open",
+          "The circuit is open and current flows",
+          "If current flows, then the circuit is open",
+          "If current does not flow, then the circuit is open",
+          "If the circuit is not open, then current flows"
+        ]
+      },
+      {
+        "premises": [
+          "If a material is an insulator, then it does not conduct electricity",
+          "The material conducts electricity"
+        ],
+        "conclusions": [
+          "The material is not an insulator"
+        ],
+        "incorrect conclusions": [
+          "The material is an insulator",
+          "The material is an insulator and it conducts electricity",
+          "If the material conducts electricity, then it is an insulator",
+          "If the material does not conduct electricity, then it is an insulator",
+          "If the material is not an insulator, then it does not conduct electricity"
+        ]
+      },
+      {
+        "premises": [
+          "If a beam is properly reinforced, then it does not collapse under load",
+          "The beam collapses under load"
+        ],
+        "conclusions": [
+          "The beam is not properly reinforced"
+        ],
+        "incorrect conclusions": [
+          "The beam is properly reinforced",
+          "The beam is properly reinforced and it collapses under load",
+          "If the beam collapses under load, then it is properly reinforced",
+          "If the beam does not collapse under load, then it is properly reinforced",
+          "If the beam is not properly reinforced, then it does not collapse under load"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Philosophy": {
+    "Darii": [
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "Some students are philosophers",
+        "conclusion": "Some students are thinkers",
+        "incorrect conclusions": [
+          "All students are philosophers",
+          "All students are thinkers",
+          "All thinkers are philosophers",
+          "All thinkers are students",
+          "All philosophers are students",
+          "Some students are not thinkers",
+          "Some students are not philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are not students",
+          "Some philosophers are not thinkers",
+          "Some philosophers are not students",
+          "No students is thinker",
+          "No students is philosopher",
+          "No philosophers is thinker",
+          "No philosophers is student",
+          "No thinkers is philosopher",
+          "No thinkers is student"
+        ]
+      },
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "Some teachers are philosophers",
+        "conclusion": "Some teachers are thinkers",
+        "incorrect conclusions": [
+          "All teachers are philosophers",
+          "All teachers are thinkers",
+          "All thinkers are philosophers",
+          "All thinkers are teachers",
+          "All philosophers are teachers",
+          "Some teachers are not thinkers",
+          "Some teachers are not philosophers",
+          "Some thinkers are not philosophers",
+          "Some thinkers are not teachers",
+          "Some philosophers are not thinkers",
+          "Some philosophers are not teachers",
+          "No teachers is writer",
+          "No teachers is philosopher",
+          "No philosophers is writer",
+          "No philosophers is teacher",
+          "No thinkers is philosopher",
+          "No thinkers is teacher"
+        ]
+      },
+      {
+        "major premise": "All philosophies are disciplines",
+        "minor premise": "Some studies are philosophies",
+        "conclusion": "Some studies are disciplines",
+        "incorrect conclusions": [
+          "All studies are philosophies",
+          "All studies are disciplines",
+          "All disciplines are philosophies",
+          "All disciplines are studies",
+          "All philosophies are studies",
+          "Some studies are not disciplines",
+          "Some studies are not philosophies",
+          "Some disciplines are not philosophies",
+          "Some disciplines are not studies",
+          "Some philosophies are not disciplines",
+          "Some philosophies are not studies",
+          "No studies is discipline",
+          "No studies is philosophy",
+          "No philosophies is discipline",
+          "No philosophies is study",
+          "No disciplines is philosophy",
+          "No disciplines is study"
+        ]
+      }
+    ]
+  }
+}

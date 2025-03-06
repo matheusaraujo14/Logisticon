@@ -1,0 +1,52 @@
+{
+  "Architecture": {
+    "Dimatis": [
+      {
+        "major premise": "Some skyscrapers are buildings",
+        "minor premise": "All buildings are structures",
+        "conclusion": "Some structures are skyscrapers",
+        "incorrect conclusions": [
+          "All structures are skyscrapers",
+          "All structures are buildings",
+          "All skyscrapers are structures",
+          "All skyscrapers are buildings",
+          "All buildings are skyscrapers",
+          "Some structures are not buildings",
+          "Some skyscrapers are not structures",
+          "Some skyscrapers are not buildings",
+          "Some buildings are not structures",
+          "Some buildings are not skyscrapers",
+          "No skyscraper is a structure",
+          "No skyscraper is a building",
+          "No buildings are structures",
+          "No buildings are skyscrapers",
+          "No structures are buildings",
+          "No structures are skyscrapers"
+        ]
+      },
+      {
+        "major premise": "Some architects are designers",
+        "minor premise": "All designers are professionals",
+        "conclusion": "Some professionals are architects",
+        "incorrect conclusions": [
+          "All professionals are architects",
+          "All professionals are designers",
+          "All architects are professionals",
+          "All architects are designers",
+          "All designers are architects",
+          "Some professionals are not designers",
+          "Some architects are not professionals",
+          "Some architects are not designers",
+          "Some designers are not professionals",
+          "Some designers are not architects",
+          "No architect is a professional",
+          "No architect is a designer",
+          "No designers are professionals",
+          "No designers are architects",
+          "No professionals are designers",
+          "No professionals are architects"
+        ]
+      }
+    ]
+  }
+}

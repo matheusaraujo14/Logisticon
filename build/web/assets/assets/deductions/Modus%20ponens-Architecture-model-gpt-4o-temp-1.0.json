@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Architecture": [
+      {
+        "premises": [
+          "If a building has a strong foundation, then it can support multiple stories",
+          "A building has a strong foundation"
+        ],
+        "conclusions": [
+          "A building can support multiple stories"
+        ],
+        "incorrect conclusions": [
+          "A building cannot support multiple stories",
+          "If a building can support multiple stories, then it has a strong foundation",
+          "If a building cannot support multiple stories, then it has a strong foundation",
+          "If a building does not have a strong foundation, then it cannot support multiple stories"
+        ]
+      },
+      {
+        "premises": [
+          "If a structure is made from reinforced concrete, then it is more resistant to earthquakes",
+          "A structure is made from reinforced concrete"
+        ],
+        "conclusions": [
+          "A structure is more resistant to earthquakes"
+        ],
+        "incorrect conclusions": [
+          "A structure is not more resistant to earthquakes",
+          "If a structure is more resistant to earthquakes, then it is made from reinforced concrete",
+          "If a structure is not more resistant to earthquakes, then it is made from reinforced concrete",
+          "If a structure is not made from reinforced concrete, then it is not more resistant to earthquakes"
+        ]
+      },
+      {
+        "premises": [
+          "If a room has large windows, then it receives a lot of natural light",
+          "A room has large windows"
+        ],
+        "conclusions": [
+          "A room receives a lot of natural light"
+        ],
+        "incorrect conclusions": [
+          "A room does not receive a lot of natural light",
+          "If a room receives a lot of natural light, then it has large windows",
+          "If a room does not receive a lot of natural light, then it has large windows",
+          "If a room does not have large windows, then it does not receive a lot of natural light"
+        ]
+      }
+    ]
+  }
+}

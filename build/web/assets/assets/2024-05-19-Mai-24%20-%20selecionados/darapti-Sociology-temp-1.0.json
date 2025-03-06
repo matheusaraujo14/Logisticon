@@ -1,0 +1,52 @@
+{
+  "Sociology": {
+    "Darapti": [
+      {
+        "major premise": "All sociologists are academics",
+        "minor premise": "All sociologists are researchers and some sociologists exist",
+        "conclusion": "Some researchers are academics",
+        "incorrect conclusions": [
+          "All researchers are academics",
+          "All academics are researchers",
+          "All sociologists are not researchers",
+          "All sociologists are not academics",
+          "Some researchers are not academics",
+          "Some researchers are not sociologists",
+          "Some academics are not sociologists",
+          "Some academics are not researchers",
+          "Some sociologists are not researchers",
+          "Some sociologists are not academics",
+          "No sociologists are researchers",
+          "No sociologists are academics",
+          "No academics are sociologists",
+          "No academics are researchers",
+          "No researchers are sociologists",
+          "No researchers are academics"
+        ]
+      },
+      {
+        "major premise": "All sociologists are scholars",
+        "minor premise": "All sociologists are individuals with PhDs and some sociologists exist",
+        "conclusion": "Some individuals with PhDs are scholars",
+        "incorrect conclusions": [
+          "All individuals with PhDs are scholars",
+          "All scholars are individuals with PhDs",
+          "All sociologists are not individuals with PhDs",
+          "All sociologists are not scholars",
+          "Some individuals with PhDs are not scholars",
+          "Some individuals with PhDs are not sociologists",
+          "Some scholars are not sociologists",
+          "Some scholars are not individuals with PhDs",
+          "Some sociologists are not individuals with PhDs",
+          "Some sociologists are not scholars",
+          "No sociologists are individuals with PhDs",
+          "No sociologists are scholars",
+          "No scholars are sociologists",
+          "No scholars are individuals with PhDs",
+          "No individuals with PhDs are sociologists",
+          "No individuals with PhDs are scholars"
+        ]
+      }
+    ]
+  }
+}

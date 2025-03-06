@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Economics": [
+      {
+        "premises": [
+          "If unemployment rises, then consumer spending decreases",
+          "Consumer spending does not decrease"
+        ],
+        "conclusions": [
+          "Unemployment does not rise"
+        ],
+        "incorrect conclusions": [
+          "Unemployment rises",
+          "Unemployment rises and consumer spending decreases",
+          "Consumer spending decreasing implies unemployment rises",
+          "Consumer spending does not decrease implies unemployment rises",
+          "Unemployment not rising implies consumer spending does not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "If the government increases taxes, then disposable income falls",
+          "Disposable income does not fall"
+        ],
+        "conclusions": [
+          "The government does not increase taxes"
+        ],
+        "incorrect conclusions": [
+          "The government increases taxes",
+          "The government increases taxes and disposable income falls",
+          "Disposable income falling implies the government increases taxes",
+          "Disposable income not falling implies the government increases taxes",
+          "The government not increasing taxes implies disposable income does not fall"
+        ]
+      },
+      {
+        "premises": [
+          "If inflation rises, then the central bank increases interest rates",
+          "The central bank does not increase interest rates"
+        ],
+        "conclusions": [
+          "Inflation does not rise"
+        ],
+        "incorrect conclusions": [
+          "Inflation rises",
+          "Inflation rises and the central bank increases interest rates",
+          "The central bank increasing interest rates implies inflation rises",
+          "The central bank not increasing interest rates implies inflation rises",
+          "Inflation not rising implies the central bank does not increase interest rates"
+        ]
+      }
+    ]
+  }
+}

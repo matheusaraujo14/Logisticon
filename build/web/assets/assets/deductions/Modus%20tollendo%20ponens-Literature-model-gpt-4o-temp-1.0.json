@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Literature": [
+      {
+        "premises": [
+          "The novel ends happily or tragically but not both at the same time",
+          "The novel does not end happily"
+        ],
+        "conclusions": [
+          "The novel ends tragically",
+          "If the novel does not end tragically, it ends happily"
+        ],
+        "incorrect conclusions": [
+          "The novel ends happily",
+          "If the novel ends happily, it ends tragically",
+          "If the novel ends tragically, it ends happily",
+          "The novel ends happily"
+        ]
+      },
+      {
+        "premises": [
+          "The protagonist survives or perishes but not both at the same time",
+          "The protagonist does not survive"
+        ],
+        "conclusions": [
+          "The protagonist perishes",
+          "If the protagonist does not perish, they survive"
+        ],
+        "incorrect conclusions": [
+          "The protagonist survives",
+          "If the protagonist survives, they perish",
+          "If the protagonist perishes, they survive",
+          "The protagonist survives"
+        ]
+      },
+      {
+        "premises": [
+          "The plot is comedic or dramatic but not both at the same time",
+          "The plot is not comedic"
+        ],
+        "conclusions": [
+          "The plot is dramatic",
+          "If the plot is not dramatic, it is comedic"
+        ],
+        "incorrect conclusions": [
+          "The plot is comedic",
+          "If the plot is comedic, it is dramatic",
+          "If the plot is dramatic, it is comedic",
+          "The plot is comedic"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Mathematics": [
+      {
+        "premises": [
+          "If a number is even, then it is divisible by 2",
+          "The number 4 is even"
+        ],
+        "conclusions": [
+          "The number 4 is divisible by 2"
+        ],
+        "incorrect conclusions": [
+          "The number 4 is not divisible by 2",
+          "If the number 4 is divisible by 2, then it is even",
+          "If the number 4 is not divisible by 2, then it is even",
+          "If the number 4 is not even, then it is not divisible by 2"
+        ]
+      },
+      {
+        "premises": [
+          "If a triangle is equilateral, then it has three equal sides",
+          "The triangle ABC is equilateral"
+        ],
+        "conclusions": [
+          "The triangle ABC has three equal sides"
+        ],
+        "incorrect conclusions": [
+          "The triangle ABC does not have three equal sides",
+          "If the triangle ABC has three equal sides, then it is equilateral",
+          "If the triangle ABC does not have three equal sides, then it is equilateral",
+          "If the triangle ABC is not equilateral, then it does not have three equal sides"
+        ]
+      },
+      {
+        "premises": [
+          "If an angle is 90 degrees, then it is a right angle",
+          "Angle DEF is 90 degrees"
+        ],
+        "conclusions": [
+          "Angle DEF is a right angle"
+        ],
+        "incorrect conclusions": [
+          "Angle DEF is not a right angle",
+          "If angle DEF is a right angle, then it is 90 degrees",
+          "If angle DEF is not a right angle, then it is 90 degrees",
+          "If angle DEF is not 90 degrees, then it is not a right angle"
+        ]
+      }
+    ]
+  }
+}

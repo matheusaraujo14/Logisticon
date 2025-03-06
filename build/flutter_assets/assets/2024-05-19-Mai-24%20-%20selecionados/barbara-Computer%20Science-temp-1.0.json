@@ -1,0 +1,54 @@
+{
+  "Computer Science": {
+     "Barbara" : [
+		{
+          "major premise": "All algorithms are procedures",
+          "minor premise": "All sorting algorithms are algorithms",
+          "conclusion": "All sorting algorithms are procedures",
+		  "incorrect conclusions": [
+			"All procedures are algorithms",
+			"All procedures are sorting algorithms",
+			"Some sorting algorithms are algorithms",
+			"Some sorting algorithms are procedures",
+			"Some sorting algorithms are not procedures",
+			"Some sorting algorithms are not algorithms",
+			"Some procedures are sorting algorithms",
+			"Some procedures are algorithms",
+			"Some algorithms are sorting algorithms"
+		  ]
+		},
+		{
+          "major premise": "All programming languages are tools",
+          "minor premise": "All functional programming languages are programming languages",
+          "conclusion": "All functional programming languages are tools",
+		  "incorrect conclusions": [
+			"All tools are programming languages",
+			"All tools are functional programming languages",
+			"Some functional programming languages are programming languages",
+			"Some functional programming languages are tools",
+			"Some functional programming languages are not tools",
+			"Some functional programming languages are not programming languages",
+			"Some tools are functional programming languages",
+			"Some tools are programming languages",
+			"Some programming languages are functional programming languages"
+		  ]
+		},
+		{
+          "major premise": "All data structures are abstractions",
+          "minor premise": "All trees are data structures",
+          "conclusion": "All trees are abstractions",
+		  "incorrect conclusions": [
+			"All abstractions are data structures",
+			"All abstractions are trees",
+			"Some trees are data structures",
+			"Some trees are abstractions",
+			"Some trees are not abstractions",
+			"Some trees are not data structures",
+			"Some abstractions are trees",
+			"Some abstractions are data structures",
+			"Some data structures are trees"
+		  ]
+		}
+	 ]
+  }
+}

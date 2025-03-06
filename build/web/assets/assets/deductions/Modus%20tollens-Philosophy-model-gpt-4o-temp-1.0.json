@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If a person is wise, then they act thoughtfully",
+          "A person does not act thoughtfully"
+        ],
+        "conclusions": [
+          "A person is not wise"
+        ],
+        "incorrect conclusions": [
+          "A person is wise",
+          "A person is wise and they act thoughtfully",
+          "If a person acts thoughtfully, then they are wise",
+          "If a person does not act thoughtfully, then they are wise",
+          "If a person is not wise, then they do not act thoughtfully"
+        ]
+      },
+      {
+        "premises": [
+          "If an action is just, then it is morally permissible",
+          "An action is not morally permissible"
+        ],
+        "conclusions": [
+          "An action is not just"
+        ],
+        "incorrect conclusions": [
+          "An action is just",
+          "An action is just and it is morally permissible",
+          "If an action is morally permissible, then it is just",
+          "If an action is not morally permissible, then it is just",
+          "If an action is not just, then it is not morally permissible"
+        ]
+      },
+      {
+        "premises": [
+          "If a belief is rational, then it is supported by evidence",
+          "A belief is not supported by evidence"
+        ],
+        "conclusions": [
+          "A belief is not rational"
+        ],
+        "incorrect conclusions": [
+          "A belief is rational",
+          "A belief is rational and it is supported by evidence",
+          "If a belief is supported by evidence, then it is rational",
+          "If a belief is not supported by evidence, then it is rational",
+          "If a belief is not rational, then it is not supported by evidence"
+        ]
+      }
+    ]
+  }
+}

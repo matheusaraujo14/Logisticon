@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Biology": [
+      {
+        "premises": [
+          "If an animal is a mammal, then it has a backbone",
+          "If an animal has a backbone, then it has a spinal cord"
+        ],
+        "conclusions": [
+          "If an animal is a mammal, then it has a spinal cord",
+          "If an animal does not have a spinal cord, then it is not a mammal",
+          "If an animal is a mammal or has a backbone, it has a spinal cord and being a mammal implies having a spinal cord",
+          "If an animal is a mammal, it has a spinal cord and being a mammal implies having a spinal cord",
+          "If an animal is not a mammal and it has a backbone, it has a spinal cord and being a mammal implies having a spinal cord",
+          "If an animal is a mammal or has a backbone, it has a spinal cord"
+        ],
+        "incorrect conclusions": [
+          "An animal is a mammal",
+          "If an animal has a spinal cord, then it is a mammal",
+          "If an animal has a spinal cord, then it is not a mammal",
+          "An animal has a spinal cord",
+          "An animal does not have a spinal cord",
+          "If an animal does not have a spinal cord, then it is a mammal",
+          "If an animal does not have a backbone, then it has a spinal cord",
+          "If an animal is a mammal or it does not have a backbone, then it has a spinal cord"
+        ]
+      },
+      {
+        "premises": [
+          "If a plant performs photosynthesis, then it produces glucose",
+          "If a plant produces glucose, then it grows"
+        ],
+        "conclusions": [
+          "If a plant performs photosynthesis, then it grows",
+          "If a plant does not grow, then it does not perform photosynthesis",
+          "If a plant performs photosynthesis or produces glucose, it grows and performing photosynthesis implies growing",
+          "If a plant performs photosynthesis, it grows and performing photosynthesis implies growing",
+          "If a plant does not perform photosynthesis and it produces glucose, it grows and performing photosynthesis implies growing",
+          "If a plant performs photosynthesis or produces glucose, it grows"
+        ],
+        "incorrect conclusions": [
+          "A plant performs photosynthesis",
+          "If a plant grows, then it performs photosynthesis",
+          "If a plant grows, then it does not perform photosynthesis",
+          "A plant grows",
+          "A plant does not grow",
+          "If a plant does not grow, then it performs photosynthesis",
+          "If a plant does not produce glucose, then it grows",
+          "If a plant performs photosynthesis or it does not produce glucose, then it grows"
+        ]
+      },
+      {
+        "premises": [
+          "If a cell undergoes mitosis, then it divides",
+          "If a cell divides, then it replicates its DNA"
+        ],
+        "conclusions": [
+          "If a cell undergoes mitosis, then it replicates its DNA",
+          "If a cell does not replicate its DNA, then it does not undergo mitosis",
+          "If a cell undergoes mitosis or divides, it replicates its DNA and undergoing mitosis implies replicating DNA",
+          "If a cell undergoes mitosis, it replicates its DNA and undergoing mitosis implies replicating DNA",
+          "If a cell does not undergo mitosis and it divides, it replicates its DNA and undergoing mitosis implies replicating DNA",
+          "If a cell undergoes mitosis or divides, it replicates its DNA"
+        ],
+        "incorrect conclusions": [
+          "A cell undergoes mitosis",
+          "If a cell replicates its DNA, then it undergoes mitosis",
+          "If a cell replicates its DNA, then it does not undergo mitosis",
+          "A cell replicates its DNA",
+          "A cell does not replicate its DNA",
+          "If a cell does not replicate its DNA, then it undergoes mitosis",
+          "If a cell does not divide, then it replicates its DNA",
+          "If a cell undergoes mitosis or it does not divide, then it replicates its DNA"
+        ]
+      }
+    ]
+  }
+}

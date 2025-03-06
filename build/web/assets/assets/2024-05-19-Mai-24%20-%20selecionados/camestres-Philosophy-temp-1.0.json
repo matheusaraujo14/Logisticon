@@ -1,0 +1,38 @@
+{
+  "Philosophy": {
+    "Camestres": [
+      {
+        "major premise": "All philosophers are thinkers",
+        "minor premise": "No students are thinkers",
+        "conclusion": "No students are philosophers",
+        "incorrect conclusions": [
+          "All philosophers are students",
+          "All thinkers are students",
+          "Some philosophers are thinkers",
+          "Some philosophers are students",
+          "Some thinkers are students",
+          "Some thinkers are philosophers",
+          "Some students are thinkers",
+          "Some students are philosophers",
+          "Some thinkers are not philosophers"
+        ]
+      },
+      {
+        "major premise": "All ideologies are doctrines",
+        "minor premise": "No hypotheses are doctrines",
+        "conclusion": "No hypotheses are ideologies",
+        "incorrect conclusions": [
+          "All ideologies are hypotheses",
+          "All doctrines are hypotheses",
+          "Some ideologies are doctrines",
+          "Some ideologies are hypotheses",
+          "Some doctrines are hypotheses",
+          "Some doctrines are ideologies",
+          "Some hypotheses are doctrines",
+          "Some hypotheses are ideologies",
+          "Some doctrines are not ideologies"
+        ]
+      }
+    ]
+  }
+}

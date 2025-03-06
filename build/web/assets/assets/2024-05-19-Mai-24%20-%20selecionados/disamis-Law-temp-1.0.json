@@ -1,0 +1,75 @@
+{
+  "Law": {
+     "Disamis": [
+        {
+          "major premise": "Some judges are lawyers",
+          "minor premise": "All judges are professionals",
+          "conclusion": "Some professionals are lawyers",
+          "incorrect conclusions": [
+            "All professionals are lawyers",
+            "All professionals are judges",
+            "All lawyers are professionals",
+            "All lawyers are judges",
+            "All judges are lawyers",
+            "Some professionals are not judges",
+            "Some lawyers are not professionals",
+            "Some lawyers are not judges",
+            "Some judges are not professionals",
+            "Some judges are not lawyers",
+            "No lawyers is a professionals",
+            "No lawyers is a judges",
+            "No judges is a professionals",
+            "No judges is a lawyers",
+            "No professionals is a judges",
+            "No professionals is a lawyers"
+          ]
+        },
+        {
+          "major premise": "Some lawmakers are politicians",
+          "minor premise": "All lawmakers are legislators",
+          "conclusion": "Some legislators are politicians",
+          "incorrect conclusions": [
+            "All legislators are politicians",
+            "All legislators are lawmakers",
+            "All politicians are legislators",
+            "All politicians are lawmakers",
+            "All lawmakers are politicians",
+            "Some legislators are not lawmakers",
+            "Some politicians are not legislators",
+            "Some politicians are not lawmakers",
+            "Some lawmakers are not legislators",
+            "Some lawmakers are not politicians",
+            "No politicians is a legislators",
+            "No politicians is a lawmakers",
+            "No lawmakers is a legislators",
+            "No lawmakers is a politicians",
+            "No legislators is a lawmakers",
+            "No legislators is a politicians"
+          ]
+        },
+        {
+          "major premise": "Some paralegals are clerks",
+          "minor premise": "All paralegals are employees",
+          "conclusion": "Some employees are clerks",
+          "incorrect conclusions": [
+            "All employees are clerks",
+            "All employees are paralegals",
+            "All clerks are employees",
+            "All clerks are paralegals",
+            "All paralegals are clerks",
+            "Some employees are not paralegals",
+            "Some clerks are not employees",
+            "Some clerks are not paralegals",
+            "Some paralegals are not employees",
+            "Some paralegals are not clerks",
+            "No clerks is a employees",
+            "No clerks is a paralegals",
+            "No paralegals is a employees",
+            "No paralegals is a clerks",
+            "No employees is a paralegals",
+            "No employees is a clerks"
+          ]
+        }
+     ]
+  }
+}

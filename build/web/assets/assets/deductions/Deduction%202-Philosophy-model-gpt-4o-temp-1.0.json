@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If human beings possess free will, then determinism is false",
+          "If human beings possess free will, then moral responsibility exists"
+        ],
+        "conclusions": [
+          "If human beings possess free will, then determinism is false and moral responsibility exists",
+          "If human beings possess free will, then determinism is false or moral responsibility exists",
+          "If determinism is true, then human beings do not possess free will",
+          "If moral responsibility does not exist, then human beings do not possess free will",
+          "If determinism is true or moral responsibility does not exist, then human beings do not possess free will"
+        ],
+        "incorrect conclusions": [
+          "If determinism is true, moral responsibility does not exist",
+          "If moral responsibility does not exist, determinism is true",
+          "If determinism is false, then moral responsibility exists",
+          "If moral responsibility exists, then determinism is false",
+          "If determinism is false and moral responsibility exists, then human beings possess free will",
+          "If determinism is false or moral responsibility exists, then human beings possess free will",
+          "If determinism is true or human beings do not possess free will, then human beings possess free will"
+        ]
+      },
+      {
+        "premises": [
+          "If existence precedes essence, then existentialism is false",
+          "If existence precedes essence, then human nature is fluid"
+        ],
+        "conclusions": [
+          "If existence precedes essence, then existentialism is false and human nature is fluid",
+          "If existence precedes essence, then existentialism is false or human nature is fluid",
+          "If existentialism is true, then existence does not precede essence",
+          "If human nature is not fluid, then existence does not precede essence",
+          "If existentialism is true or human nature is not fluid, then existence does not precede essence"
+        ],
+        "incorrect conclusions": [
+          "If existentialism is true, human nature is not fluid",
+          "If human nature is not fluid, existentialism is true",
+          "If existentialism is false, then human nature is fluid",
+          "If human nature is fluid, then existentialism is false",
+          "If existentialism is false and human nature is fluid, then existence precedes essence",
+          "If existentialism is false or human nature is fluid, then existence precedes essence",
+          "If existentialism is true or existence does not precede essence, then existence precedes essence"
+        ]
+      },
+      {
+        "premises": [
+          "If the mind is a blank slate, then innate ideas do not exist",
+          "If the mind is a blank slate, then knowledge comes from experience"
+        ],
+        "conclusions": [
+          "If the mind is a blank slate, then innate ideas do not exist and knowledge comes from experience",
+          "If the mind is a blank slate, then innate ideas do not exist or knowledge comes from experience",
+          "If innate ideas exist, then the mind is not a blank slate",
+          "If knowledge does not come from experience, then the mind is not a blank slate",
+          "If innate ideas exist or knowledge does not come from experience, then the mind is not a blank slate"
+        ],
+        "incorrect conclusions": [
+          "If innate ideas exist, knowledge does not come from experience",
+          "If knowledge does not come from experience, innate ideas exist",
+          "If innate ideas do not exist, then knowledge comes from experience",
+          "If knowledge comes from experience, then innate ideas do not exist",
+          "If innate ideas do not exist and knowledge comes from experience, then the mind is a blank slate",
+          "If innate ideas do not exist or knowledge comes from experience, then the mind is a blank slate",
+          "If innate ideas exist or the mind is not a blank slate, then the mind is a blank slate"
+        ]
+      }
+    ]
+  }
+}

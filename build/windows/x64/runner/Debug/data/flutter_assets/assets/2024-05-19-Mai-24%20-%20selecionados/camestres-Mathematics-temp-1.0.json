@@ -1,0 +1,38 @@
+{
+  "Mathematics": {
+    "Camestres": [
+      {
+        "major premise": "All squares are polygons",
+        "minor premise": "No curves are polygons",
+        "conclusion": "No curves are squares",
+        "incorrect conclusions": [
+          "All squares are curves",
+          "All polygons are curves",
+          "Some squares are polygons",
+          "Some squares are curves",
+          "Some polygons are curves",
+          "Some polygons are squares",
+          "Some curves are polygons",
+          "Some curves are squares",
+          "Some polygons are not squares"
+        ]
+      },
+      {
+        "major premise": "All prime numbers are integers",
+        "minor premise": "No irrational numbers are integers",
+        "conclusion": "No irrational numbers are prime numbers",
+        "incorrect conclusions": [
+          "All prime numbers are irrational numbers",
+          "All integers are irrational numbers",
+          "Some prime numbers are integers",
+          "Some prime numbers are irrational numbers",
+          "Some integers are irrational numbers",
+          "Some integers are prime numbers",
+          "Some irrational numbers are integers",
+          "Some irrational numbers are prime numbers",
+          "Some integers are not prime numbers"
+        ]
+      }
+    ]
+  }
+}

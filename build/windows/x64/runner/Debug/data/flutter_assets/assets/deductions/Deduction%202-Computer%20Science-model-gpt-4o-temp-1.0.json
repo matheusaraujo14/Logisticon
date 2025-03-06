@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Computer Science": [
+      {
+        "premises": [
+          "If the server is running, then the database is accessible",
+          "If the server is running, then the website is reachable"
+        ],
+        "conclusions": [
+          "If the server is running, then the database is accessible and the website is reachable",
+          "If the server is running, then the database is accessible or the website is reachable",
+          "If the database is accessible, the server is not running",
+          "If the website is not reachable, then the server is not running",
+          "If the database is accessible or if the website is not reachable, then the server is not running"
+        ],
+        "incorrect conclusions": [
+          "If the database is accessible, the website is not reachable",
+          "If the website is not reachable, the database is accessible",
+          "If the database is not accessible, then the website is reachable",
+          "If the website is reachable, then the database is not accessible",
+          "If the database is not accessible and the website is reachable, then the server is running",
+          "If the database is not accessible or the website is reachable, then the server is running",
+          "If the database is accessible or the server is not running, then the server is running"
+        ]
+      },
+      {
+        "premises": [
+          "If the code is compiled, then there are no syntax errors",
+          "If the code is compiled, then the executable is generated"
+        ],
+        "conclusions": [
+          "If the code is compiled, then there are no syntax errors and the executable is generated",
+          "If the code is compiled, then there are no syntax errors or the executable is generated",
+          "If there are syntax errors, then the code is not compiled",
+          "If the executable is not generated, then the code is not compiled",
+          "If there are syntax errors or if the executable is not generated, then the code is not compiled"
+        ],
+        "incorrect conclusions": [
+          "If there are syntax errors, the executable is not generated",
+          "If the executable is not generated, then there are syntax errors",
+          "If there are no syntax errors, then the executable is generated",
+          "If the executable is generated, then there are syntax errors",
+          "If there are no syntax errors and the executable is generated, then the code is compiled",
+          "If there are no syntax errors or the executable is generated, then the code is compiled",
+          "If there are syntax errors or the code is not compiled, then the code is compiled"
+        ]
+      },
+      {
+        "premises": [
+          "If a user is authenticated, then the user can access the dashboard",
+          "If a user is authenticated, then the user can send messages"
+        ],
+        "conclusions": [
+          "If a user is authenticated, then the user can access the dashboard and send messages",
+          "If a user is authenticated, then the user can access the dashboard or send messages",
+          "If the user can access the dashboard, then the user is not authenticated",
+          "If the user cannot send messages, then the user is not authenticated",
+          "If the user can access the dashboard or if the user cannot send messages, then the user is not authenticated"
+        ],
+        "incorrect conclusions": [
+          "If the user can access the dashboard, the user cannot send messages",
+          "If the user cannot send messages, the user can access the dashboard",
+          "If the user cannot access the dashboard, then the user can send messages",
+          "If the user can send messages, then the user cannot access the dashboard",
+          "If the user cannot access the dashboard and can send messages, then the user is authenticated",
+          "If the user cannot access the dashboard or can send messages, then the user is authenticated",
+          "If the user can access the dashboard or is not authenticated, then the user is authenticated"
+        ]
+      }
+    ]
+  }
+}

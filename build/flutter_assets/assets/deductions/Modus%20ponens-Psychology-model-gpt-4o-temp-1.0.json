@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Psychology": [
+      {
+        "premises": [
+          "If a person receives positive reinforcement, they perform the behavior again",
+          "A person receives positive reinforcement"
+        ],
+        "conclusions": [
+          "They perform the behavior again"
+        ],
+        "incorrect conclusions": [
+          "They do not perform the behavior again",
+          "If they perform the behavior again, the person receives positive reinforcement",
+          "If they do not perform the behavior again, the person receives positive reinforcement",
+          "If the person does not receive positive reinforcement, they do not perform the behavior again"
+        ]
+      },
+      {
+        "premises": [
+          "If a person has high self-esteem, they are likely to take on challenging tasks",
+          "A person has high self-esteem"
+        ],
+        "conclusions": [
+          "They are likely to take on challenging tasks"
+        ],
+        "incorrect conclusions": [
+          "They are not likely to take on challenging tasks",
+          "If they are likely to take on challenging tasks, the person has high self-esteem",
+          "If they are not likely to take on challenging tasks, the person has high self-esteem",
+          "If the person does not have high self-esteem, they are not likely to take on challenging tasks"
+        ]
+      },
+      {
+        "premises": [
+          "If a person experiences chronic stress, their immune system weakens",
+          "A person experiences chronic stress"
+        ],
+        "conclusions": [
+          "Their immune system weakens"
+        ],
+        "incorrect conclusions": [
+          "Their immune system does not weaken",
+          "If their immune system weakens, the person experiences chronic stress",
+          "If their immune system does not weaken, the person experiences chronic stress",
+          "If the person does not experience chronic stress, their immune system does not weaken"
+        ]
+      }
+    ]
+  }
+}

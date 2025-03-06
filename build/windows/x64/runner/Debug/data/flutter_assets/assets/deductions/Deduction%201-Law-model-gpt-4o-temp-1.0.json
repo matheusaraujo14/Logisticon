@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Law": [
+      {
+        "premises": [
+          "If someone commits theft, they can be prosecuted",
+          "If someone commits theft, they are liable for damages"
+        ],
+        "conclusions": [
+          "If someone commits theft, they can be prosecuted and are liable for damages",
+          "If someone commits theft, they can be prosecuted or are liable for damages",
+          "If someone cannot be prosecuted, they did not commit theft",
+          "If someone is not liable for damages, they did not commit theft",
+          "If someone cannot be prosecuted or is not liable for damages, they did not commit theft"
+        ],
+        "incorrect conclusions": [
+          "If someone cannot be prosecuted, they are not liable for damages",
+          "If someone is not liable for damages, they cannot be prosecuted",
+          "If someone can be prosecuted, they are liable for damages",
+          "If someone is liable for damages, they can be prosecuted",
+          "If someone can be prosecuted and are liable for damages, they committed theft",
+          "If someone can be prosecuted or are liable for damages, they committed theft",
+          "If someone cannot be prosecuted or did not commit theft, they committed theft"
+        ]
+      },
+      {
+        "premises": [
+          "If a contract is breached, the breaching party owes damages",
+          "If a contract is breached, the non-breaching party can terminate the contract"
+        ],
+        "conclusions": [
+          "If a contract is breached, the breaching party owes damages and the non-breaching party can terminate the contract",
+          "If a contract is breached, the breaching party owes damages or the non-breaching party can terminate the contract",
+          "If the breaching party does not owe damages, the contract was not breached",
+          "If the non-breaching party cannot terminate the contract, the contract was not breached",
+          "If the breaching party does not owe damages or the non-breaching party cannot terminate the contract, the contract was not breached"
+        ],
+        "incorrect conclusions": [
+          "If the breaching party does not owe damages, the non-breaching party cannot terminate the contract",
+          "If the non-breaching party cannot terminate the contract, the breaching party does not owe damages",
+          "If the breaching party owes damages, the non-breaching party can terminate the contract",
+          "If the non-breaching party can terminate the contract, the breaching party owes damages",
+          "If the breaching party owes damages and the non-breaching party can terminate the contract, the contract was breached",
+          "If the breaching party owes damages or the non-breaching party can terminate the contract, the contract was breached",
+          "If the breaching party does not owe damages or the contract was not breached, the contract was breached"
+        ]
+      },
+      {
+        "premises": [
+          "If a witness testifies truthfully, they provide reliable evidence",
+          "If a witness testifies truthfully, they help the court reach a fair verdict"
+        ],
+        "conclusions": [
+          "If a witness testifies truthfully, they provide reliable evidence and help the court reach a fair verdict",
+          "If a witness testifies truthfully, they provide reliable evidence or help the court reach a fair verdict",
+          "If a witness does not provide reliable evidence, they did not testify truthfully",
+          "If a witness does not help the court reach a fair verdict, they did not testify truthfully",
+          "If a witness does not provide reliable evidence or does not help the court reach a fair verdict, they did not testify truthfully"
+        ],
+        "incorrect conclusions": [
+          "If a witness does not provide reliable evidence, they do not help the court reach a fair verdict",
+          "If a witness does not help the court reach a fair verdict, they do not provide reliable evidence",
+          "If a witness provides reliable evidence, they help the court reach a fair verdict",
+          "If a witness helps the court reach a fair verdict, they provide reliable evidence",
+          "If a witness provides reliable evidence and helps the court reach a fair verdict, they testified truthfully",
+          "If a witness provides reliable evidence or helps the court reach a fair verdict, they testified truthfully",
+          "If a witness does not provide reliable evidence or did not testify truthfully, they testified truthfully"
+        ]
+      }
+    ]
+  }
+}

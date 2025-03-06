@@ -1,0 +1,69 @@
+{
+  "Medicine": {
+    "Bamalip": [
+      {
+        "major premise": "All medicines are chemicals",
+        "minor premise": "All chemicals are compounds and some medicines exist",
+        "conclusion": "Some compounds are medicines",
+        "incorrect conclusions": [
+          "All compounds are chemicals",
+          "All chemicals are medicines",
+          "Some compounds are not chemicals",
+          "Some compounds are not medicines",
+          "Some chemicals are not medicines",
+          "Some chemicals are not compounds",
+          "Some medicines are not chemicals",
+          "Some medicines are not compounds",
+          "No compounds are chemicals",
+          "No compounds are medicines",
+          "No chemicals are compounds",
+          "No chemicals are medicines",
+          "No medicines are chemicals",
+          "No medicines are compounds"
+        ]
+      },
+      {
+        "major premise": "All antibiotics are drugs",
+        "minor premise": "All drugs are substances and some antibiotics exist",
+        "conclusion": "Some substances are antibiotics",
+        "incorrect conclusions": [
+          "All substances are drugs",
+          "All drugs are antibiotics",
+          "Some substances are not drugs",
+          "Some substances are not antibiotics",
+          "Some drugs are not antibiotics",
+          "Some drugs are not substances",
+          "Some antibiotics are not drugs",
+          "Some antibiotics are not substances",
+          "No substances are drugs",
+          "No substances are antibiotics",
+          "No drugs are substances",
+          "No drugs are antibiotics",
+          "No antibiotics are drugs",
+          "No antibiotics are substances"
+        ]
+      },
+      {
+        "major premise": "All vaccines are biologics",
+        "minor premise": "All biologics are therapies and some vaccines exist",
+        "conclusion": "Some therapies are vaccines",
+        "incorrect conclusions": [
+          "All therapies are biologics",
+          "All biologics are vaccines",
+          "Some therapies are not biologics",
+          "Some therapies are not vaccines",
+          "Some biologics are not vaccines",
+          "Some biologics are not therapies",
+          "Some vaccines are not biologics",
+          "Some vaccines are not therapies",
+          "No therapies are biologics",
+          "No therapies are vaccines",
+          "No biologics are therapies",
+          "No biologics are vaccines",
+          "No vaccines are biologics",
+          "No vaccines are therapies"
+        ]
+      }
+    ]
+  }
+}

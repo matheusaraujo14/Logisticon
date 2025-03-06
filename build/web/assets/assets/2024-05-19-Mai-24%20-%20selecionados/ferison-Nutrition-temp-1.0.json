@@ -1,0 +1,29 @@
+{
+  "Nutrition": {
+     "Ferison": [
+        {
+          "major premise": "No processed foods are natural foods",
+          "minor premise": "Some grains are processed foods",
+          "conclusion": "Some grains are not natural foods",
+          "incorrect conclusions": [
+            "All processed foods are grains",
+            "All processed foods are natural foods",
+            "All grains are natural foods",
+            "All natural foods are processed foods",
+            "All natural foods are grains",
+            "Some processed foods are not grains",
+            "Some natural foods are grains",
+            "Some natural foods are not grains",
+            "Some natural foods are processed foods",
+            "Some natural foods are grains",
+            "Some grains are natural foods",
+            "Some grains are not processed foods",
+            "Some processed foods are natural foods",
+            "No processed foods are grains",
+            "No grains are not processed foods",
+            "No grains are processed foods"
+          ]
+        }
+     ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Astronomy": {
+    "Ferio": [
+      {
+        "major premise": "No planets are stars",
+        "minor premise": "Some asteroids are planets",
+        "conclusion": "Some asteroids are not stars",
+        "incorrect conclusions": [
+          "All planets are asteroids",
+          "All planets are stars",
+          "All asteroids are stars",
+          "All stars are planets",
+          "All stars are asteroids",
+          "Some planets are not asteroids",
+          "Some stars are asteroids",
+          "Some stars are not asteroids",
+          "Some stars are planets",
+          "Some stars are asteroids",
+          "Some asteroids are stars",
+          "Some asteroids are not planets",
+          "Some planets are stars",
+          "No planets are asteroids",
+          "No asteroids are not planets",
+          "No asteroids are planets"
+        ]
+      },
+      {
+        "major premise": "No galaxies are moons",
+        "minor premise": "Some satellite systems are galaxies",
+        "conclusion": "Some satellite systems are not moons",
+        "incorrect conclusions": [
+          "All galaxies are satellite systems",
+          "All galaxies are moons",
+          "All satellite systems are moons",
+          "All moons are galaxies",
+          "All moons are satellite systems",
+          "Some galaxies are not satellite systems",
+          "Some moons are satellite systems",
+          "Some moons are not satellite systems",
+          "Some moons are galaxies",
+          "Some moons are satellite systems",
+          "Some satellite systems are moons",
+          "Some satellite systems are not galaxies",
+          "Some galaxies are moons",
+          "No galaxies are satellite systems",
+          "No satellite systems are not galaxies",
+          "No satellite systems are galaxies"
+        ]
+      }
+    ]
+  }
+}

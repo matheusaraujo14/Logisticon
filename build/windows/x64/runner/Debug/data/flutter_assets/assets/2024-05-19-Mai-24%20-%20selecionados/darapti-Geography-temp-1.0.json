@@ -1,0 +1,75 @@
+{
+  "Geography": {
+     "Darapti": [
+        {
+          "major premise": "All mountains are landforms",
+          "minor premise": "All mountains are geologic formations and some mountains exist",
+          "conclusion": "Some geologic formations are landforms",
+          "incorrect conclusions": [
+            "All geologic formations are landforms",
+            "All landforms are geologic formations",
+            "All mountains are not geologic formations",
+            "All mountains are not landforms",
+            "Some geologic formations are not landforms",
+            "Some geologic formations are not mountains",
+            "Some landforms are not mountains",
+            "Some landforms are not geologic formations",
+            "Some mountains are not geologic formations",
+            "Some mountains are not landforms",
+            "No mountains are geologic formations",
+            "No mountains are landforms",
+            "No landforms are mountains",
+            "No landforms are geologic formations",
+            "No geologic formations are mountains",
+            "No geologic formations are landforms"
+          ]
+        },
+        {
+          "major premise": "All rivers are bodies of water",
+          "minor premise": "All rivers are natural formations and some rivers exist",
+          "conclusion": "Some natural formations are bodies of water",
+          "incorrect conclusions": [
+            "All natural formations are bodies of water",
+            "All bodies of water are natural formations",
+            "All rivers are not natural formations",
+            "All rivers are not bodies of water",
+            "Some natural formations are not bodies of water",
+            "Some natural formations are not rivers",
+            "Some bodies of water are not rivers",
+            "Some bodies of water are not natural formations",
+            "Some rivers are not natural formations",
+            "Some rivers are not bodies of water",
+            "No rivers are natural formations",
+            "No rivers are bodies of water",
+            "No bodies of water are rivers",
+            "No bodies of water are natural formations",
+            "No natural formations are rivers",
+            "No natural formations are bodies of water"
+          ]
+        },
+        {
+          "major premise": "All lakes are water bodies",
+          "minor premise": "All lakes are geographic features and some lakes exist",
+          "conclusion": "Some geographic features are water bodies",
+          "incorrect conclusions": [
+            "All geographic features are water bodies",
+            "All water bodies are geographic features",
+            "All lakes are not geographic features",
+            "All lakes are not water bodies",
+            "Some geographic features are not water bodies",
+            "Some geographic features are not lakes",
+            "Some water bodies are not lakes",
+            "Some water bodies are not geographic features",
+            "Some lakes are not geographic features",
+            "Some lakes are not water bodies",
+            "No lakes are geographic features",
+            "No lakes are water bodies",
+            "No water bodies are lakes",
+            "No water bodies are geographic features",
+            "No geographic features are lakes",
+            "No geographic features are water bodies"
+          ]
+        }
+     ]
+  }
+}

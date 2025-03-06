@@ -1,0 +1,52 @@
+{
+  "Architecture": {
+    "Ferio": [
+      {
+        "major premise": "No steel beams are bricks",
+        "minor premise": "Some supports are steel beams",
+        "conclusion": "Some supports are not bricks",
+        "incorrect conclusions": [
+          "All steel beams are supports",
+          "All steel beams are bricks",
+          "All supports are bricks",
+          "All bricks are steel beams",
+          "All bricks are supports",
+          "Some steel beams are not supports",
+          "Some bricks are supports",
+          "Some bricks are not supports",
+          "Some bricks are steel beams",
+          "Some bricks are supports",
+          "Some supports are bricks",
+          "Some supports are not steel beams",
+          "Some steel beams are bricks",
+          "No steel beam is support",
+          "No support is not steel beam",
+          "No support is steel beam"
+        ]
+      },
+      {
+        "major premise": "No glass panels are concrete blocks",
+        "minor premise": "Some façades are glass panels",
+        "conclusion": "Some façades are not concrete blocks",
+        "incorrect conclusions": [
+          "All glass panels are façades",
+          "All glass panels are concrete blocks",
+          "All façades are concrete blocks",
+          "All concrete blocks are glass panels",
+          "All concrete blocks are façades",
+          "Some glass panels are not façades",
+          "Some concrete blocks are façades",
+          "Some concrete blocks are not façades",
+          "Some concrete blocks are glass panels",
+          "Some concrete blocks are façades",
+          "Some façades are concrete blocks",
+          "Some façades are not glass panels",
+          "Some glass panels are concrete blocks",
+          "No glass panel is façade",
+          "No façade is not glass panel",
+          "No façade is glass panel"
+        ]
+      }
+    ]
+  }
+}

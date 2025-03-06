@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Medicine": [
+      {
+        "premises": [
+          "The patient has a bacterial infection or a viral infection but not both at the same time",
+          "The patient does not have a bacterial infection"
+        ],
+        "conclusions": [
+          "The patient has a viral infection",
+          "If the patient does not have a viral infection, then the patient has a bacterial infection"
+        ],
+        "incorrect conclusions": [
+          "The patient does not have a viral infection",
+          "If the patient has a bacterial infection, then the patient has a viral infection",
+          "If the patient has a viral infection, then the patient has a bacterial infection",
+          "The patient has a bacterial infection"
+        ]
+      },
+      {
+        "premises": [
+          "The test result is positive or the test result is negative but not both at the same time",
+          "The test result is not positive"
+        ],
+        "conclusions": [
+          "The test result is negative",
+          "If the test result is not negative, then the test result is positive"
+        ],
+        "incorrect conclusions": [
+          "The test result is not negative",
+          "If the test result is positive, then the test result is negative",
+          "If the test result is negative, then the test result is positive",
+          "The test result is positive"
+        ]
+      },
+      {
+        "premises": [
+          "The patient has diabetes or the patient has hypertension but not both at the same time",
+          "The patient does not have diabetes"
+        ],
+        "conclusions": [
+          "The patient has hypertension",
+          "If the patient does not have hypertension, then the patient has diabetes"
+        ],
+        "incorrect conclusions": [
+          "The patient does not have hypertension",
+          "If the patient has diabetes, then the patient has hypertension",
+          "If the patient has hypertension, then the patient has diabetes",
+          "The patient has diabetes"
+        ]
+      }
+    ]
+  }
+}

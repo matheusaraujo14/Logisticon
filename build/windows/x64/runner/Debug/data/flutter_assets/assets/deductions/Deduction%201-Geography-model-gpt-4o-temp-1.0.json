@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Geography": [
+      {
+        "premises": [ 
+          "If it rains, the river floods",
+          "If it rains, the crops are watered"
+        ],
+        "conclusions": [
+          "If it rains, the river floods and the crops are watered",
+          "If it rains, the river floods or the crops are watered",
+          "If the river does not flood, then it does not rain",
+          "If the crops are not watered, then it does not rain",
+          "If the river does not flood or the crops are not watered, then it does not rain"
+        ],
+        "incorrect conclusions": [
+          "If the river floods is false, the crops are watered is false",
+          "If the crops are watered is false, the river floods is false",
+          "The river floods implies the crops are watered",
+          "The crops are watered implies the river floods",
+          "If the river floods and the crops are watered, then it rains",
+          "If the river floods or the crops are watered, then it rains",
+          "If the river does not flood or it does not rain, then it rains"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the volcano erupts, the nearby town is evacuated",
+          "If the volcano erupts, ash spreads in the atmosphere"
+        ],
+        "conclusions": [
+          "If the volcano erupts, the nearby town is evacuated and ash spreads in the atmosphere",
+          "If the volcano erupts, the nearby town is evacuated or ash spreads in the atmosphere",
+          "If the nearby town is not evacuated, then the volcano does not erupt",
+          "If ash does not spread in the atmosphere, then the volcano does not erupt",
+          "If the nearby town is not evacuated or ash does not spread in the atmosphere, then the volcano does not erupt"
+        ],
+        "incorrect conclusions": [
+          "If the nearby town is evacuated is false, ash spreads in the atmosphere is false",
+          "If ash spreads in the atmosphere is false, the nearby town is evacuated is false",
+          "The nearby town is evacuated implies ash spreads in the atmosphere",
+          "Ash spreads in the atmosphere implies the nearby town is evacuated",
+          "If the nearby town is evacuated and ash spreads in the atmosphere, then the volcano erupts",
+          "If the nearby town is evacuated or ash spreads in the atmosphere, then the volcano erupts",
+          "If the nearby town is not evacuated or the volcano does not erupt, then the volcano erupts"
+        ]
+      },
+      {
+        "premises": [ 
+          "If the glacier melts, sea levels rise",
+          "If the glacier melts, new rivers form"
+        ],
+        "conclusions": [
+          "If the glacier melts, sea levels rise and new rivers form",
+          "If the glacier melts, sea levels rise or new rivers form",
+          "If sea levels do not rise, then the glacier does not melt",
+          "If new rivers do not form, then the glacier does not melt",
+          "If sea levels do not rise or new rivers do not form, then the glacier does not melt"
+        ],
+        "incorrect conclusions": [
+          "If sea levels rise is false, new rivers form is false",
+          "If new rivers form is false, sea levels rise is false",
+          "Sea levels rise implies new rivers form",
+          "New rivers form implies sea levels rise",
+          "If sea levels rise and new rivers form, then the glacier melts",
+          "If sea levels rise or new rivers form, then the glacier melts",
+          "If sea levels do not rise or the glacier does not melt, then the glacier melts"
+        ]
+      }
+    ]
+  }
+}

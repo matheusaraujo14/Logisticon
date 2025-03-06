@@ -1,0 +1,48 @@
+{
+  "Law": {
+    "Bamalip": [
+      {
+        "major premise": "All Criminals are Humans",
+        "minor premise": "All Humans are Organisms and some Criminals exist",
+        "conclusion": "Some Organisms are Criminals",
+        "incorrect conclusions": [
+          "All Organisms are Humans",
+          "All Humans are Criminals",
+          "Some Organisms are not Humans",
+          "Some Organisms are not Criminals",
+          "Some Humans are not Criminals",
+          "Some Humans are not Organisms",
+          "Some Criminals are not Humans",
+          "Some Criminals are not Organisms",
+          "No Organisms is Humans",
+          "No Organisms is Criminals",
+          "No Humans is Organisms",
+          "No Humans is Criminals",
+          "No Criminals is Humans",
+          "No Criminals is Organisms"
+        ]
+      },
+      {
+        "major premise": "All Lawyers are Professionals",
+        "minor premise": "All Professionals are Educated and some Lawyers exist",
+        "conclusion": "Some Educated are Lawyers",
+        "incorrect conclusions": [
+          "All Educated are Professionals",
+          "All Professionals are Lawyers",
+          "Some Educated are not Professionals",
+          "Some Educated are not Lawyers",
+          "Some Professionals are not Lawyers",
+          "Some Professionals are not Educated",
+          "Some Lawyers are not Professionals",
+          "Some Lawyers are not Educated",
+          "No Educated is Professional",
+          "No Educated is Lawyer",
+          "No Professionals is Educated",
+          "No Professionals is Lawyer",
+          "No Lawyers is Professional",
+          "No Lawyers is Educated"
+        ]
+      }
+    ]
+  }
+}

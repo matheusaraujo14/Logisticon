@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "History": [
+      {
+        "premises": [
+          "The Treaty of Versailles was signed or World War II ended, but not both",
+          "The Treaty of Versailles was signed"
+        ],
+        "conclusions": [
+          "World War II did not end"
+        ],
+        "incorrect conclusions": [
+          "World War II ended",
+          "The Treaty of Versailles was not signed"
+        ]
+      },
+      {
+        "premises": [
+          "Napoleon won the Battle of Waterloo or France became a republic, but not both",
+          "Napoleon won the Battle of Waterloo"
+        ],
+        "conclusions": [
+          "France did not become a republic"
+        ],
+        "incorrect conclusions": [
+          "France became a republic",
+          "Napoleon did not win the Battle of Waterloo"
+        ]
+      },
+      {
+        "premises": [
+          "The American Revolution succeeded or the French Revolution succeeded, but not both",
+          "The American Revolution succeeded"
+        ],
+        "conclusions": [
+          "The French Revolution did not succeed"
+        ],
+        "incorrect conclusions": [
+          "The French Revolution succeeded",
+          "The American Revolution did not succeed"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Architecture": [
+      {
+        "premises": [
+          "If the building lacks insulation, then it has higher energy consumption",
+          "If the building is well-insulated, then it has lower heating costs"
+        ],
+        "conclusions": [
+          "If the building has lower energy consumption, then it is well-insulated",
+          "If the building does not have lower heating costs, then it is not well-insulated",
+          "If the building does not have lower heating costs, then it has higher energy consumption",
+          "The building has higher energy consumption or lower heating costs",
+          "If the building is well-insulated and has higher energy consumption, then it has lower heating costs"
+        ],
+        "incorrect conclusions": [
+          "If the building has higher energy consumption, then it is well-insulated",
+          "If the building has higher energy consumption, then it is not well-insulated",
+          "If the building has lower energy consumption, then it is not well-insulated",
+          "The building has higher energy consumption and lower heating costs",
+          "If the building has lower heating costs, then it is well-insulated",
+          "If the building has higher energy consumption and lower heating costs, then it is well-insulated"
+        ]
+      },
+      {
+        "premises": [
+          "If the architect does not prefer modern styles, then the building has a classic design",
+          "If the architect prefers modern styles, then the building includes large glass windows"
+        ],
+        "conclusions": [
+          "If the building does not have a classic design, then the architect prefers modern styles",
+          "If the building does not include large glass windows, then the architect does not prefer modern styles",
+          "If the building does not include large glass windows, then it has a classic design",
+          "The building has a classic design or includes large glass windows",
+          "If the architect prefers modern styles and the building has a classic design, then it includes large glass windows"
+        ],
+        "incorrect conclusions": [
+          "If the building has a classic design, then the architect prefers modern styles",
+          "If the building has a classic design, then the architect does not prefer modern styles",
+          "If the building has a classic design, then the architect does not prefer modern styles",
+          "The building has a classic design and includes large glass windows",
+          "If the building includes large glass windows, then the architect prefers modern styles",
+          "If the building has a classic design and includes large glass windows, then the architect prefers modern styles"
+        ]
+      },
+      {
+        "premises": [
+          "If the location is not urban, then the building has a large garden",
+          "If the location is urban, then the building includes a rooftop terrace"
+        ],
+        "conclusions": [
+          "If the building does not have a large garden, then the location is urban",
+          "If the building does not include a rooftop terrace, then the location is not urban",
+          "If the building does not include a rooftop terrace, then it has a large garden",
+          "The building has a large garden or includes a rooftop terrace",
+          "If the location is urban and the building has a large garden, then it includes a rooftop terrace"
+        ],
+        "incorrect conclusions": [
+          "If the building has a large garden, then the location is urban",
+          "If the building has a large garden, then the location is not urban",
+          "If the building has a large garden, then the location is not urban",
+          "The building has a large garden and includes a rooftop terrace",
+          "If the building includes a rooftop terrace, then the location is urban",
+          "If the building has a large garden and includes a rooftop terrace, then the location is urban"
+        ]
+      }
+    ]
+  }
+}

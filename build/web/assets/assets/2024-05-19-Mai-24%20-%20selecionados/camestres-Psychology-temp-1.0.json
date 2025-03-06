@@ -1,0 +1,22 @@
+{
+  "Psychology": {
+     "Camestres" : [
+        {
+          "major premise": "All defense mechanisms are coping strategies",
+          "minor premise": "No instincts are coping strategies",
+          "conclusion": "No instincts are defense mechanisms",
+          "incorrect conclusions": [
+            "All defense mechanisms are instincts",
+            "All coping strategies are instincts",
+            "Some defense mechanisms are coping strategies",
+            "Some defense mechanisms are instincts",
+            "Some coping strategies are instincts",
+            "Some coping strategies are defense mechanisms",
+            "Some instincts are coping strategies",
+            "Some instincts are defense mechanisms",
+            "Some coping strategies are not defense mechanisms"
+          ]
+        }
+     ]
+  }
+}

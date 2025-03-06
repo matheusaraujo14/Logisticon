@@ -1,0 +1,38 @@
+{
+  "Chemistry": {
+    "Camestres": [
+      {
+        "major premise": "All water molecules are H2O molecules",
+        "minor premise": "No CH4 molecules are H2O molecules",
+        "conclusion": "No CH4 molecules are water molecules",
+        "incorrect conclusions": [
+          "All water molecules are CH4 molecules",
+          "All H2O molecules are CH4 molecules",
+          "Some water molecules are H2O molecules",
+          "Some water molecules are CH4 molecules",
+          "Some H2O molecules are CH4 molecules",
+          "Some H2O molecules are water molecules",
+          "Some CH4 molecules are H2O molecules",
+          "Some CH4 molecules are water molecules",
+          "Some H2O molecules are not water molecules"
+        ]
+      },
+      {
+        "major premise": "All NaCl compounds are salts",
+        "minor premise": "No organic compounds are salts",
+        "conclusion": "No organic compounds are NaCl compounds",
+        "incorrect conclusions": [
+          "All NaCl compounds are organic compounds",
+          "All salts are organic compounds",
+          "Some NaCl compounds are salts",
+          "Some NaCl compounds are organic compounds",
+          "Some salts are organic compounds",
+          "Some salts are NaCl compounds",
+          "Some organic compounds are salts",
+          "Some organic compounds are NaCl compounds",
+          "Some salts are not NaCl compounds"
+        ]
+      }
+    ]
+  }
+}

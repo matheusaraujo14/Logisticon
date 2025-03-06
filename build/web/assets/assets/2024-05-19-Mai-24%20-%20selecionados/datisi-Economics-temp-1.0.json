@@ -1,0 +1,78 @@
+{
+  "Economics": {
+    "Datisi": [
+      {
+        "major premise": "All economic policies are government strategies",
+        "minor premise": "Some economic policies are fiscal policies",
+        "conclusion": "Some fiscal policies are government strategies",
+        "incorrect conclusions": [
+          "All fiscal policies are economic policies",
+          "All fiscal policies are government strategies",
+          "All government strategies are economic policies",
+          "All government strategies are fiscal policies",
+          "All economic policies are fiscal policies",
+          "Some fiscal policies are not government strategies",
+          "Some fiscal policies are not economic policies",
+          "Some government strategies are not economic policies",
+          "Some government strategies are not fiscal policies",
+          "Some economic policies are not government strategies",
+          "Some economic policies are not fiscal policies",
+          "No fiscal policy is a government strategy",
+          "No fiscal policy is an economic policy",
+          "No economic policy is a government strategy",
+          "No economic policy is a fiscal policy",
+          "No government strategy is an economic policy",
+          "No government strategy is a fiscal policy"
+        ]
+      },
+      {
+        "major premise": "All multinational corporations are businesses",
+        "minor premise": "Some multinational corporations are exporters",
+        "conclusion": "Some exporters are businesses",
+        "incorrect conclusions": [
+          "All exporters are multinational corporations",
+          "All exporters are businesses",
+          "All businesses are multinational corporations",
+          "All businesses are exporters",
+          "All multinational corporations are exporters",
+          "Some exporters are not businesses",
+          "Some exporters are not multinational corporations",
+          "Some businesses are not multinational corporations",
+          "Some businesses are not exporters",
+          "Some multinational corporations are not businesses",
+          "Some multinational corporations are not exporters",
+          "No exporter is a business",
+          "No exporter is a multinational corporation",
+          "No multinational corporation is a business",
+          "No multinational corporation is an exporter",
+          "No business is a multinational corporation",
+          "No business is an exporter"
+        ]
+      },
+      {
+        "major premise": "All financial markets are economic systems",
+        "minor premise": "Some financial markets are stock exchanges",
+        "conclusion": "Some stock exchanges are economic systems",
+        "incorrect conclusions": [
+          "All stock exchanges are financial markets",
+          "All stock exchanges are economic systems",
+          "All economic systems are financial markets",
+          "All economic systems are stock exchanges",
+          "All financial markets are stock exchanges",
+          "Some stock exchanges are not economic systems",
+          "Some stock exchanges are not financial markets",
+          "Some economic systems are not financial markets",
+          "Some economic systems are not stock exchanges",
+          "Some financial markets are not economic systems",
+          "Some financial markets are not stock exchanges",
+          "No stock exchange is an economic system",
+          "No stock exchange is a financial market",
+          "No financial market is an economic system",
+          "No financial market is a stock exchange",
+          "No economic system is a financial market",
+          "No economic system is a stock exchange"
+        ]
+      }
+    ]
+  }
+}

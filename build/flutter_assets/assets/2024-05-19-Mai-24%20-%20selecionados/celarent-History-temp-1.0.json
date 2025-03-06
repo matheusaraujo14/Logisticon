@@ -1,0 +1,54 @@
+{
+  "History": {
+     "Celarent": [
+       {
+          "major premise": "No monarchies are democracies",
+          "minor premise": "All empires are monarchies",
+          "conclusion": "No empires are democracies",
+          "incorrect conclusions": [
+            "All empires are democracies",
+            "All monarchies are democracies",
+            "Some empires are monarchies",
+            "Some empires are democracies",
+            "Some monarchies are empires",
+            "Some monarchies are democracies",
+            "Some monarchies are not empires",
+            "Some democracies are empires",
+            "Some democracies are monarchies"
+          ]
+       },
+       {
+          "major premise": "No dictatorships are republics",
+          "minor premise": "All empires are dictatorships",
+          "conclusion": "No empires are republics",
+          "incorrect conclusions": [
+            "All empires are republics",
+            "All dictatorships are republics",
+            "Some empires are dictatorships",
+            "Some empires are republics",
+            "Some dictatorships are empires",
+            "Some dictatorships are republics",
+            "Some dictatorships are not empires",
+            "Some republics are empires",
+            "Some republics are dictatorships"
+          ]
+       },
+       {
+          "major premise": "No feudal states are modern nations",
+          "minor premise": "All medieval societies are feudal states",
+          "conclusion": "No medieval societies are modern nations",
+          "incorrect conclusions": [
+            "All medieval societies are modern nations",
+            "All feudal states are modern nations",
+            "Some medieval societies are feudal states",
+            "Some medieval societies are modern nations",
+            "Some feudal states are medieval societies",
+            "Some feudal states are modern nations",
+            "Some feudal states are not medieval societies",
+            "Some modern nations are medieval societies",
+            "Some modern nations are feudal states"
+          ]
+       }
+     ]
+  }
+}

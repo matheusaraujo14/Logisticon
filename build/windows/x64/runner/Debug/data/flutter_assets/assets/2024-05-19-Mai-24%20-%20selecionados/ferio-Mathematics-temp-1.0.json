@@ -1,0 +1,75 @@
+{
+  "Mathematics": {
+    "Ferio": [
+      {
+        "major premise": "No convex polygons are ellipses",
+        "minor premise": "Some regular polygons are convex polygons",
+        "conclusion": "Some regular polygons are not ellipses",
+        "incorrect conclusions": [
+          "All convex polygons are regular polygons",
+          "All convex polygons are ellipses",
+          "All regular polygons are ellipses",
+          "All ellipses are convex polygons",
+          "All ellipses are regular polygons",
+          "Some convex polygons are not regular polygons",
+          "Some ellipses are regular polygons",
+          "Some ellipses are not regular polygons",
+          "Some ellipses are convex polygons",
+          "Some ellipses are regular polygons",
+          "Some regular polygons are ellipses",
+          "Some regular polygons are not convex polygons",
+          "Some convex polygons are ellipses",
+          "No convex polygons are regular polygons",
+          "No regular polygons are not convex polygons",
+          "No regular polygons are convex polygons"
+        ]
+      },
+      {
+        "major premise": "No odd numbers are even numbers",
+        "minor premise": "Some prime numbers are odd numbers",
+        "conclusion": "Some prime numbers are not even numbers",
+        "incorrect conclusions": [
+          "All odd numbers are prime numbers",
+          "All odd numbers are even numbers",
+          "All prime numbers are even numbers",
+          "All even numbers are odd numbers",
+          "All even numbers are prime numbers",
+          "Some odd numbers are not prime numbers",
+          "Some even numbers are prime numbers",
+          "Some even numbers are not prime numbers",
+          "Some even numbers are odd numbers",
+          "Some even numbers are prime numbers",
+          "Some prime numbers are even numbers",
+          "Some prime numbers are not odd numbers",
+          "Some odd numbers are even numbers",
+          "No odd numbers are prime numbers",
+          "No prime numbers are not odd numbers",
+          "No prime numbers are odd numbers"
+        ]
+      },
+      {
+        "major premise": "No rhombus are triangles",
+        "minor premise": "Some parallelograms are rhombus",
+        "conclusion": "Some parallelograms are not triangles",
+        "incorrect conclusions": [
+          "All rhombus are parallelograms",
+          "All rhombus are triangles",
+          "All parallelograms are triangles",
+          "All triangles are rhombus",
+          "All triangles are parallelograms",
+          "Some rhombus are not parallelograms",
+          "Some triangles are parallelograms",
+          "Some triangles are not parallelograms",
+          "Some triangles are rhombus",
+          "Some triangles are parallelograms",
+          "Some parallelograms are triangles",
+          "Some parallelograms are not rhombus",
+          "Some rhombus are triangles",
+          "No rhombus are parallelograms",
+          "No parallelograms are not rhombus",
+          "No parallelograms are rhombus"
+        ]
+      }
+    ]
+  }
+}

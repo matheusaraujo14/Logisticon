@@ -1,0 +1,78 @@
+{
+  "Computer Science": {
+    "Darii": [
+      {
+        "major premise": "All algorithms are computational problems",
+        "minor premise": "Some sorting algorithms are algorithms",
+        "conclusion": "Some sorting algorithms are computational problems",
+        "incorrect conclusions": [
+          "All sorting algorithms are algorithms",
+          "All sorting algorithms are computational problems",
+          "All computational problems are algorithms",
+          "All computational problems are sorting algorithms",
+          "All algorithms are sorting algorithms",
+          "Some sorting algorithms are not computational problems",
+          "Some sorting algorithms are not algorithms",
+          "Some computational problems are not algorithms",
+          "Some computational problems are not sorting algorithms",
+          "Some algorithms are not computational problems",
+          "Some algorithms are not sorting algorithms",
+          "No sorting algorithm is a computational problem",
+          "No sorting algorithm is an algorithm",
+          "No algorithm is a computational problem",
+          "No algorithm is a sorting algorithm",
+          "No computational problem is an algorithm",
+          "No computational problem is a sorting algorithm"
+        ]
+      },
+      {
+        "major premise": "All data structures are computer science concepts",
+        "minor premise": "Some trees are data structures",
+        "conclusion": "Some trees are computer science concepts",
+        "incorrect conclusions": [
+          "All trees are data structures",
+          "All trees are computer science concepts",
+          "All computer science concepts are data structures",
+          "All computer science concepts are trees",
+          "All data structures are trees",
+          "Some trees are not computer science concepts",
+          "Some trees are not data structures",
+          "Some computer science concepts are not data structures",
+          "Some computer science concepts are not trees",
+          "Some data structures are not computer science concepts",
+          "Some data structures are not trees",
+          "No tree is a computer science concept",
+          "No tree is a data structure",
+          "No data structure is a computer science concept",
+          "No data structure is a tree",
+          "No computer science concept is a data structure",
+          "No computer science concept is a tree"
+        ]
+      },
+      {
+        "major premise": "All programming languages are tools",
+        "minor premise": "Some functional programming languages are programming languages",
+        "conclusion": "Some functional programming languages are tools",
+        "incorrect conclusions": [
+          "All functional programming languages are programming languages",
+          "All functional programming languages are tools",
+          "All tools are programming languages",
+          "All tools are functional programming languages",
+          "All programming languages are functional programming languages",
+          "Some functional programming languages are not tools",
+          "Some functional programming languages are not programming languages",
+          "Some tools are not programming languages",
+          "Some tools are not functional programming languages",
+          "Some programming languages are not tools",
+          "Some programming languages are not functional programming languages",
+          "No functional programming language is a tool",
+          "No functional programming language is a programming language",
+          "No programming language is a tool",
+          "No programming language is a functional programming language",
+          "No tool is a programming language",
+          "No tool is a functional programming language"
+        ]
+      }
+    ]
+  }
+}

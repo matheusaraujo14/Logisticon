@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has a viral infection, then the patient has a fever.",
+          "If a patient has a viral infection, then the patient experiences fatigue.",
+          "The patient does not have a fever or the patient does not experience fatigue."
+        ],
+        "conclusions": [
+          "The patient does not have a viral infection.",
+          "The patient does not have a fever and the patient does not experience fatigue.",
+          "If a patient has a viral infection, then the patient has a fever and the patient experiences fatigue."
+        ],
+        "incorrect conclusions": [
+          "If a patient has a viral infection, then the patient has a fever and does not experience fatigue.",
+          "If the patient has a fever and experiences fatigue, then the patient has a viral infection.",
+          "If the patient has a fever, then the patient has a viral infection.",
+          "The patient has a fever or experiences fatigue but not both.",
+          "If a patient does not have a viral infection, then the patient does not have a fever or does not experience fatigue."
+        ]
+      },
+      {
+        "premises": [
+          "If a patient takes antibiotics, then the patient reduces the bacterial count.",
+          "If a patient takes antibiotics, then the patient's symptoms improve.",
+          "The patient does not reduce the bacterial count or the patient's symptoms do not improve."
+        ],
+        "conclusions": [
+          "The patient does not take antibiotics.",
+          "The patient does not reduce the bacterial count and the patient's symptoms do not improve.",
+          "If a patient takes antibiotics, then the patient reduces the bacterial count and the patient's symptoms improve."
+        ],
+        "incorrect conclusions": [
+          "If a patient takes antibiotics, then the patient reduces the bacterial count and the patient's symptoms do not improve.",
+          "If the patient's bacterial count is reduced and symptoms improve, then the patient takes antibiotics.",
+          "If the patient's bacterial count is reduced, then the patient takes antibiotics.",
+          "The patient's bacterial count is reduced or symptoms improve but not both.",
+          "If a patient does not take antibiotics, then the patient does not reduce the bacterial count or the patient's symptoms do not improve."
+        ]
+      },
+      {
+        "premises": [
+          "If a person receives a vaccine, then the person develops immunity.",
+          "If a person receives a vaccine, then the person has mild side effects.",
+          "The person does not develop immunity or the person does not have mild side effects."
+        ],
+        "conclusions": [
+          "The person does not receive a vaccine.",
+          "The person does not develop immunity and the person does not have mild side effects.",
+          "If a person receives a vaccine, then the person develops immunity and the person has mild side effects."
+        ],
+        "incorrect conclusions": [
+          "If a person receives a vaccine, then the person develops immunity and does not have mild side effects.",
+          "If a person develops immunity and has mild side effects, then the person receives a vaccine.",
+          "If a person develops immunity, then the person receives a vaccine.",
+          "A person develops immunity or has mild side effects but not both.",
+          "If a person does not receive a vaccine, then the person does not develop immunity or the person does not have mild side effects."
+        ]
+      }
+    ]
+  }
+}

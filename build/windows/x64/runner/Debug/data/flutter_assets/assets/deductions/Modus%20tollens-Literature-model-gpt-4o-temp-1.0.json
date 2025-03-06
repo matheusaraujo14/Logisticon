@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Literature": [
+      {
+        "premises": [
+          "If the protagonist dies, then the story ends tragically",
+          "The story does not end tragically"
+        ],
+        "conclusions": [
+          "The protagonist does not die"
+        ],
+        "incorrect conclusions": [
+          "The protagonist dies",
+          "The protagonist dies and the story ends tragically",
+          "The story ending tragically implies the protagonist dies",
+          "The story not ending tragically implies the protagonist dies",
+          "The protagonist not dying implies the story does not end tragically"
+        ]
+      },
+      {
+        "premises": [
+          "If the hero finds the artifact, then the kingdom is saved",
+          "The kingdom is not saved"
+        ],
+        "conclusions": [
+          "The hero does not find the artifact"
+        ],
+        "incorrect conclusions": [
+          "The hero finds the artifact",
+          "The hero finds the artifact and the kingdom is saved",
+          "The kingdom being saved implies the hero finds the artifact",
+          "The kingdom not being saved implies the hero finds the artifact",
+          "The hero not finding the artifact implies the kingdom is not saved"
+        ]
+      },
+      {
+        "premises": [
+          "If the poet writes, then the words flow",
+          "The words do not flow"
+        ],
+        "conclusions": [
+          "The poet does not write"
+        ],
+        "incorrect conclusions": [
+          "The poet writes",
+          "The poet writes and the words flow",
+          "The words flowing implies the poet writes",
+          "The words not flowing implies the poet writes",
+          "The poet not writing implies the words do not flow"
+        ]
+      }
+    ]
+  }
+}

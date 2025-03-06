@@ -1,0 +1,54 @@
+{
+  "Geology": {
+    "Celarent": [
+      {
+        "major premise": "No igneous rocks are sedimentary rocks",
+        "minor premise": "All basalt rocks are igneous rocks",
+        "conclusion": "No basalt rocks are sedimentary rocks",
+        "incorrect conclusions": [
+          "All basalt rocks are sedimentary rocks",
+          "All igneous rocks are sedimentary rocks",
+          "Some basalt rocks are igneous rocks",
+          "Some basalt rocks are sedimentary rocks",
+          "Some igneous rocks are basalt rocks",
+          "Some igneous rocks are sedimentary rocks",
+          "Some igneous rocks are not basalt rocks",
+          "Some sedimentary rocks are basalt rocks",
+          "Some sedimentary rocks are igneous rocks"
+        ]
+      },
+      {
+        "major premise": "No silica minerals are carbonate minerals",
+        "minor premise": "All quartz minerals are silica minerals",
+        "conclusion": "No quartz minerals are carbonate minerals",
+        "incorrect conclusions": [
+          "All quartz minerals are carbonate minerals",
+          "All silica minerals are carbonate minerals",
+          "Some quartz minerals are silica minerals",
+          "Some quartz minerals are carbonate minerals",
+          "Some silica minerals are quartz minerals",
+          "Some silica minerals are carbonate minerals",
+          "Some silica minerals are not quartz minerals",
+          "Some carbonate minerals are quartz minerals",
+          "Some carbonate minerals are silica minerals"
+        ]
+      },
+      {
+        "major premise": "No sedimentary rocks are metamorphic rocks",
+        "minor premise": "All limestone rocks are sedimentary rocks",
+        "conclusion": "No limestone rocks are metamorphic rocks",
+        "incorrect conclusions": [
+          "All limestone rocks are metamorphic rocks",
+          "All sedimentary rocks are metamorphic rocks",
+          "Some limestone rocks are sedimentary rocks",
+          "Some limestone rocks are metamorphic rocks",
+          "Some sedimentary rocks are limestone rocks",
+          "Some sedimentary rocks are metamorphic rocks",
+          "Some sedimentary rocks are not limestone rocks",
+          "Some metamorphic rocks are limestone rocks",
+          "Some metamorphic rocks are sedimentary rocks"
+        ]
+      }
+    ]
+  }
+}

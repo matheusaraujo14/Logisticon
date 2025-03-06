@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Philosophy": [
+      {
+        "premises": [
+          "If a person seeks wisdom, then they read extensively",
+          "If a person seeks wisdom, then they meditate regularly"
+        ],
+        "conclusions": [
+          "If a person seeks wisdom, then they read extensively and meditate regularly",
+          "If a person seeks wisdom, then they read extensively or meditate regularly",
+          "If a person does not read extensively, then they do not seek wisdom",
+          "If a person does not meditate regularly, then they do not seek wisdom",
+          "If a person does not read extensively or does not meditate regularly, then they do not seek wisdom"
+        ],
+		"incorrect conclusions": [
+          "If a person does not read extensively, then they do not meditate regularly",
+          "If a person does not meditate regularly, then they do not read extensively",
+          "If a person reads extensively, then they meditate regularly",
+          "If a person meditates regularly, then they read extensively",
+          "If a person reads extensively and meditates regularly, then they seek wisdom",
+          "If a person reads extensively or meditates regularly, then they seek wisdom",
+          "If a person does not read extensively or does not seek wisdom, then they seek wisdom"
+        ]
+      },
+	  {
+        "premises": [
+          "If a society values freedom, then it ensures justice for all",
+          "If a society values freedom, then it promotes equality"
+        ],
+        "conclusions": [
+          "If a society values freedom, then it ensures justice for all and promotes equality",
+          "If a society values freedom, then it ensures justice for all or promotes equality",
+          "If a society does not ensure justice for all, then it does not value freedom",
+          "If a society does not promote equality, then it does not value freedom",
+          "If a society does not ensure justice for all or does not promote equality, then it does not value freedom"
+        ],
+		"incorrect conclusions": [
+		  "If a society does not ensure justice for all, then it does not promote equality",
+		  "If a society does not promote equality, then it does not ensure justice for all",
+		  "If a society ensures justice for all, then it promotes equality",
+		  "If a society promotes equality, then it ensures justice for all",
+		  "If a society ensures justice for all and promotes equality, then it values freedom",
+		  "If a society ensures justice for all or promotes equality, then it values freedom",
+		  "If a society does not ensure justice for all or does not value freedom, then it values freedom"
+		]
+      },
+	  {
+        "premises": [
+          "If a philosopher questions existence, then they study metaphysics",
+          "If a philosopher questions existence, then they explore ontology"
+        ],
+        "conclusions": [
+          "If a philosopher questions existence, then they study metaphysics and explore ontology",
+          "If a philosopher questions existence, then they study metaphysics or explore ontology",
+          "If a philosopher does not study metaphysics, then they do not question existence",
+          "If a philosopher does not explore ontology, then they do not question existence",
+          "If a philosopher does not study metaphysics or does not explore ontology, then they do not question existence"
+        ],
+		"incorrect conclusions": [
+		  "If a philosopher does not study metaphysics, then they do not explore ontology",
+		  "If a philosopher does not explore ontology, then they do not study metaphysics",
+		  "If a philosopher studies metaphysics, then they explore ontology",
+		  "If a philosopher explores ontology, then they study metaphysics",
+		  "If a philosopher studies metaphysics and explores ontology, then they question existence",
+		  "If a philosopher studies metaphysics or explores ontology, then they question existence",
+		  "If a philosopher does not study metaphysics or does not question existence, then they question existence"
+		]
+      }
+    ]
+  }
+}

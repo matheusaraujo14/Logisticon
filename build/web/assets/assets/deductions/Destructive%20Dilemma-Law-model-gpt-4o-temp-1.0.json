@@ -1,0 +1,63 @@
+{
+  "Destructive Dilemma": {
+    "Law": [
+      {
+        "premises": [
+          "If a person commits theft, then they are guilty of a crime",
+          "If a person commits theft, then they can be prosecuted",
+          "A person is not guilty of a crime or a person cannot be prosecuted"
+        ],
+        "conclusions": [
+          "A person does not commit theft",
+          "A person being guilty of a crime and being able to be prosecuted are both false",
+          "If a person commits theft, then they are guilty of a crime and they can be prosecuted"
+        ],
+        "incorrect conclusions": [
+          "If a person commits theft, then they are guilty of a crime and cannot be prosecuted",
+          "A person being guilty of a crime and being able to be prosecuted implies they commit theft",
+          "If a person is guilty of a crime, then they commit theft",
+          "A person is guilty of a crime or they can be prosecuted, but not both",
+          "If a person does not commit theft, then they are not guilty of a crime or they cannot be prosecuted"
+        ]
+      },
+      {
+        "premises": [
+          "If a contract is breached, then there is a penalty",
+          "If a contract is breached, then there is a lawsuit",
+          "There is no penalty or there is no lawsuit"
+        ],
+        "conclusions": [
+          "A contract is not breached",
+          "A penalty and a lawsuit are both false",
+          "If a contract is breached, then there is a penalty and there is a lawsuit"
+        ],
+        "incorrect conclusions": [
+          "If a contract is breached, then there is a penalty and no lawsuit",
+          "A penalty and a lawsuit imply the contract is breached",
+          "If there is a penalty, then the contract is breached",
+          "There is a penalty or there is a lawsuit, but not both",
+          "If a contract is not breached, then there is no penalty or there is no lawsuit"
+        ]
+      },
+      {
+        "premises": [
+          "If a witness testifies, then the evidence is solid",
+          "If a witness testifies, then the case is strong",
+          "The evidence is not solid or the case is not strong"
+        ],
+        "conclusions": [
+          "A witness does not testify",
+          "The evidence being solid and the case being strong are both false",
+          "If a witness testifies, then the evidence is solid and the case is strong"
+        ],
+        "incorrect conclusions": [
+          "If a witness testifies, then the evidence is solid and the case is not strong",
+          "The evidence being solid and the case being strong imply a witness testifies",
+          "If the evidence is solid, then a witness testifies",
+          "The evidence is solid or the case is strong, but not both",
+          "If a witness does not testify, then the evidence is not solid or the case is not strong"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Psychology": {
+    "Bamalip": [
+      {
+        "major premise": "All therapists are professionals",
+        "minor premise": "All professionals are humans and some therapists exist",
+        "conclusion": "Some humans are therapists",
+        "incorrect conclusions": [
+          "All humans are professionals",
+          "All professionals are therapists",
+          "Some humans are not professionals",
+          "Some humans are not therapists",
+          "Some professionals are not therapists",
+          "Some professionals are not humans",
+          "Some therapists are not professionals",
+          "Some therapists are not humans",
+          "No humans is professional",
+          "No humans is therapists",
+          "No professionals is humans",
+          "No professionals is therapists",
+          "No therapists is professionals",
+          "No therapists is humans"
+        ]
+      },
+      {
+        "major premise": "All psychologists are scientists",
+        "minor premise": "All scientists are thinkers and some psychologists exist",
+        "conclusion": "Some thinkers are psychologists",
+        "incorrect conclusions": [
+          "All thinkers are scientists",
+          "All scientists are psychologists",
+          "Some thinkers are not scientists",
+          "Some thinkers are not psychologists",
+          "Some scientists are not psychologists",
+          "Some scientists are not thinkers",
+          "Some psychologists are not scientists",
+          "Some psychologists are not thinkers",
+          "No thinkers is scientist",
+          "No thinkers is psychologists",
+          "No scientists is thinkers",
+          "No scientists is psychologists",
+          "No psychologists is scientists",
+          "No psychologists is thinkers"
+        ]
+      },
+      {
+        "major premise": "All counselors are educators",
+        "minor premise": "All educators are scholars and some counselors exist",
+        "conclusion": "Some scholars are counselors",
+        "incorrect conclusions": [
+          "All scholars are educators",
+          "All educators are counselors",
+          "Some scholars are not educators",
+          "Some scholars are not counselors",
+          "Some educators are not counselors",
+          "Some educators are not scholars",
+          "Some counselors are not educators",
+          "Some counselors are not scholars",
+          "No scholars is educator",
+          "No scholars is counselors",
+          "No educators is scholars",
+          "No educators is counselors",
+          "No counselors is educators",
+          "No counselors is scholars"
+        ]
+      }
+    ]
+  }
+}

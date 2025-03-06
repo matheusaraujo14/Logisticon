@@ -1,0 +1,75 @@
+{
+  "Geography": {
+    "Dimatis": [
+      {
+        "major premise": "Some rocks are minerals",
+        "minor premise": "All minerals are substances",
+        "conclusion": "Some substances are rocks",
+        "incorrect conclusions": [
+          "All substances are rocks",
+          "All substances are minerals",
+          "All rocks are substances",
+          "All rocks are minerals",
+          "All minerals are rocks",
+          "Some substances are not minerals",
+          "Some rocks are not substances",
+          "Some rocks are not minerals",
+          "Some minerals are not substances",
+          "Some minerals are not rocks",
+          "No rocks is a substance",
+          "No rocks is a mineral",
+          "No minerals is a substance",
+          "No minerals is a rocks",
+          "No substances is a minerals",
+          "No substances is a rocks"
+        ]
+      },
+      {
+        "major premise": "Some rivers are waterbodies",
+        "minor premise": "All waterbodies are geographical_features",
+        "conclusion": "Some geographical_features are rivers",
+        "incorrect conclusions": [
+          "All geographical_features are rivers",
+          "All geographical_features are waterbodies",
+          "All rivers are geographical_features",
+          "All rivers are waterbodies",
+          "All waterbodies are rivers",
+          "Some geographical_features are not waterbodies",
+          "Some rivers are not geographical_features",
+          "Some rivers are not waterbodies",
+          "Some waterbodies are not geographical_features",
+          "Some waterbodies are not rivers",
+          "No rivers is a geographical_features",
+          "No rivers is a waterbodies",
+          "No waterbodies is a geographical_features",
+          "No waterbodies is a rivers",
+          "No geographical_features is a waterbodies",
+          "No geographical_features is a rivers"
+        ]
+      },
+      {
+        "major premise": "Some mountains are landforms",
+        "minor premise": "All landforms are geological_features",
+        "conclusion": "Some geological_features are mountains",
+        "incorrect conclusions": [
+          "All geological_features are mountains",
+          "All geological_features are landforms",
+          "All mountains are geological_features",
+          "All mountains are landforms",
+          "All landforms are mountains",
+          "Some geological_features are not landforms",
+          "Some mountains are not geological_features",
+          "Some mountains are not landforms",
+          "Some landforms are not geological_features",
+          "Some landforms are not mountains",
+          "No mountains is a geological_features",
+          "No mountains is a landforms",
+          "No landforms is a geological_features",
+          "No landforms is a mountains",
+          "No geological_features is a landforms",
+          "No geological_features is a mountains"
+        ]
+      }
+    ]
+  }
+}

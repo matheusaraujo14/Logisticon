@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Law": [
+      {
+        "premises": [
+          "If a person commits theft, then they will be prosecuted",
+          "If a person is prosecuted, then they will attend a court hearing"
+        ],
+        "conclusions": [
+          "If a person commits theft, then they will attend a court hearing",
+          "If a person will not attend a court hearing, then they did not commit theft",
+          "If a person commits theft or they are prosecuted, then they will attend a court hearing and if a person commits theft, they will attend a court hearing",
+          "If a person commits theft, then they will attend a court hearing and if a person commits theft, they will attend a court hearing",
+          "If a person does not commit theft and they are prosecuted, then they will attend a court hearing and if a person commits theft, they will attend a court hearing",
+          "If a person commits theft or they are prosecuted, then they will attend a court hearing"
+        ],
+        "incorrect conclusions": [
+          "A person commits theft",
+          "If a person will attend a court hearing, then they committed theft",
+          "If a person will attend a court hearing, then they did not commit theft",
+          "A person will attend a court hearing",
+          "A person will not attend a court hearing",
+          "If a person will not attend a court hearing, then they committed theft",
+          "If a person is not prosecuted, then they will attend a court hearing",
+          "If a person commits theft or they are not prosecuted, then they will attend a court hearing"
+        ]
+      },
+      {
+        "premises": [
+          "If a company violates environmental regulations, then it will be fined",
+          "If a company is fined, then it will have to pay a penalty"
+        ],
+        "conclusions": [
+          "If a company violates environmental regulations, then it will have to pay a penalty",
+          "If a company will not have to pay a penalty, then it did not violate environmental regulations",
+          "If a company violates environmental regulations or it is fined, then it will have to pay a penalty and if a company violates environmental regulations, it will have to pay a penalty",
+          "If a company violates environmental regulations, then it will have to pay a penalty and if a company violates environmental regulations, it will have to pay a penalty",
+          "If a company does not violate environmental regulations and it is fined, then it will have to pay a penalty and if a company violates environmental regulations, it will have to pay a penalty",
+          "If a company violates environmental regulations or it is fined, then it will have to pay a penalty"
+        ],
+        "incorrect conclusions": [
+          "A company violates environmental regulations",
+          "If a company will have to pay a penalty, then it violated environmental regulations",
+          "If a company will have to pay a penalty, then it did not violate environmental regulations",
+          "A company will have to pay a penalty",
+          "A company will not have to pay a penalty",
+          "If a company will not have to pay a penalty, then it violated environmental regulations",
+          "If a company is not fined, then it will have to pay a penalty",
+          "If a company violates environmental regulations or it is not fined, then it will have to pay a penalty"
+        ]
+      },
+      {
+        "premises": [
+          "If a person is arrested for a crime, then they will be detained",
+          "If a person is detained, then they will be questioned"
+        ],
+        "conclusions": [
+          "If a person is arrested for a crime, then they will be questioned",
+          "If a person will not be questioned, then they were not arrested for a crime",
+          "If a person is arrested for a crime or they are detained, then they will be questioned and if a person is arrested for a crime, they will be questioned",
+          "If a person is arrested for a crime, then they will be questioned and if a person is arrested for a crime, they will be questioned",
+          "If a person is not arrested for a crime and they are detained, then they will be questioned and if a person is arrested for a crime, they will be questioned",
+          "If a person is arrested for a crime or they are detained, then they will be questioned"
+        ],
+        "incorrect conclusions": [
+          "A person is arrested for a crime",
+          "If a person will be questioned, then they were arrested for a crime",
+          "If a person will be questioned, then they were not arrested for a crime",
+          "A person will be questioned",
+          "A person will not be questioned",
+          "If a person will not be questioned, then they were arrested for a crime",
+          "If a person is not detained, then they will be questioned",
+          "If a person is arrested for a crime or they are not detained, then they will be questioned"
+        ]
+      }
+    ]
+  }
+}

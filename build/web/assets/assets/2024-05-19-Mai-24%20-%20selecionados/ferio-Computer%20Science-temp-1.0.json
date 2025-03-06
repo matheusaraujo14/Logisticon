@@ -1,0 +1,75 @@
+{
+  "Computer Science": {
+    "Ferio": [
+      {
+        "major premise": "No programmers are managers",
+        "minor premise": "Some software engineers are programmers",
+        "conclusion": "Some software engineers are not managers",
+        "incorrect conclusions": [
+          "All programmers are software engineers",
+          "All programmers are managers",
+          "All software engineers are managers",
+          "All managers are programmers",
+          "All managers are software engineers",
+          "Some programmers are not software engineers",
+          "Some managers are software engineers",
+          "Some managers are not software engineers",
+          "Some managers are programmers",
+          "Some managers are software engineers",
+          "Some software engineers are managers",
+          "Some software engineers are not programmers",
+          "Some programmers are managers",
+          "No programmers is software engineer",
+          "No software engineers is not programmer",
+          "No software engineers is programmer"
+        ]
+      },
+      {
+        "major premise": "No data scientists are project managers",
+        "minor premise": "Some database administrators are data scientists",
+        "conclusion": "Some database administrators are not project managers",
+        "incorrect conclusions": [
+          "All data scientists are database administrators",
+          "All data scientists are project managers",
+          "All database administrators are project managers",
+          "All project managers are data scientists",
+          "All project managers are database administrators",
+          "Some data scientists are not database administrators",
+          "Some project managers are database administrators",
+          "Some project managers are not database administrators",
+          "Some project managers are data scientists",
+          "Some project managers are database administrators",
+          "Some database administrators are project managers",
+          "Some database administrators are not data scientists",
+          "Some data scientists are project managers",
+          "No data scientists is database administrator",
+          "No database administrators is not data scientist",
+          "No database administrators is data scientist"
+        ]
+      },
+      {
+        "major premise": "No frontend developers are system architects",
+        "minor premise": "Some UX designers are frontend developers",
+        "conclusion": "Some UX designers are not system architects",
+        "incorrect conclusions": [
+          "All frontend developers are UX designers",
+          "All frontend developers are system architects",
+          "All UX designers are system architects",
+          "All system architects are frontend developers",
+          "All system architects are UX designers",
+          "Some frontend developers are not UX designers",
+          "Some system architects are UX designers",
+          "Some system architects are not UX designers",
+          "Some system architects are frontend developers",
+          "Some system architects are UX designers",
+          "Some UX designers are system architects",
+          "Some UX designers are not frontend developers",
+          "Some frontend developers are system architects",
+          "No frontend developers is UX designer",
+          "No UX designers is not frontend developer",
+          "No UX designers is frontend developer"
+        ]
+      }
+    ]
+  }
+}

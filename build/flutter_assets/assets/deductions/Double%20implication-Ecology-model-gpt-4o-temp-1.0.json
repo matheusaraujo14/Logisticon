@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Ecology": [
+      {
+        "premises": [
+          "If rainfall increases, then vegetation grows more densely",
+          "If vegetation grows more densely, then herbivores have more food"
+        ],
+        "conclusions": [
+          "If rainfall increases, then herbivores have more food",
+          "If herbivores do not have more food, then rainfall does not increase",
+          "If rainfall increases or vegetation grows more densely, then herbivores have more food and rainfall increases implies herbivores have more food",
+          "If rainfall increases, then herbivores have more food and rainfall increases implies herbivores have more food",
+          "If rainfall does not increase and vegetation grows more densely, then herbivores have more food and rainfall increases implies herbivores have more food",
+          "If rainfall increases or vegetation grows more densely, then herbivores have more food"
+        ],
+        "incorrect conclusions": [
+          "Rainfall increases",
+          "If herbivores have more food, then rainfall increases",
+          "If herbivores have more food, then rainfall does not increase",
+          "Herbivores have more food",
+          "Herbivores do not have more food",
+          "If herbivores do not have more food, then rainfall increases",
+          "If vegetation does not grow more densely, then herbivores have more food",
+          "If rainfall increases or vegetation does not grow more densely, then herbivores have more food"
+        ]
+      },
+      {
+        "premises": [
+          "If carbon dioxide levels rise, then temperatures increase",
+          "If temperatures increase, then ice caps melt"
+        ],
+        "conclusions": [
+          "If carbon dioxide levels rise, then ice caps melt",
+          "If ice caps do not melt, then carbon dioxide levels do not rise",
+          "If carbon dioxide levels rise or temperatures increase, then ice caps melt and carbon dioxide levels rise implies ice caps melt",
+          "If carbon dioxide levels rise, then ice caps melt and carbon dioxide levels rise implies ice caps melt",
+          "If carbon dioxide levels do not rise and temperatures increase, then ice caps melt and carbon dioxide levels rise implies ice caps melt",
+          "If carbon dioxide levels rise or temperatures increase, then ice caps melt"
+        ],
+        "incorrect conclusions": [
+          "Carbon dioxide levels rise",
+          "If ice caps melt, then carbon dioxide levels rise",
+          "If ice caps melt, then carbon dioxide levels do not rise",
+          "Ice caps melt",
+          "Ice caps do not melt",
+          "If ice caps do not melt, then carbon dioxide levels rise",
+          "If temperatures do not increase, then ice caps melt",
+          "If carbon dioxide levels rise or temperatures do not increase, then ice caps melt"
+        ]
+      },
+      {
+        "premises": [
+          "If predator populations increase, then prey populations decrease",
+          "If prey populations decrease, then plant biomass increases"
+        ],
+        "conclusions": [
+          "If predator populations increase, then plant biomass increases",
+          "If plant biomass does not increase, then predator populations do not increase",
+          "If predator populations increase or prey populations decrease, then plant biomass increases and predator populations increase implies plant biomass increases",
+          "If predator populations increase, then plant biomass increases and predator populations increase implies plant biomass increases",
+          "If predator populations do not increase and prey populations decrease, then plant biomass increases and predator populations increase implies plant biomass increases",
+          "If predator populations increase or prey populations decrease, then plant biomass increases"
+        ],
+        "incorrect conclusions": [
+          "Predator populations increase",
+          "If plant biomass increases, then predator populations increase",
+          "If plant biomass increases, then predator populations do not increase",
+          "Plant biomass increases",
+          "Plant biomass does not increase",
+          "If plant biomass does not increase, then predator populations increase",
+          "If prey populations do not decrease, then plant biomass increases",
+          "If predator populations increase or prey populations do not decrease, then plant biomass increases"
+        ]
+      }
+    ]
+  }
+}

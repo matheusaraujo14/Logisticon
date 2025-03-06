@@ -1,0 +1,69 @@
+{
+  "Chemistry": {
+    "Bocardo": [
+      {
+        "major premise": "Some molecules are not acids",
+        "minor premise": "All molecules are compounds",
+        "conclusion": "Some compounds are not acids",
+        "incorrect conclusions": [
+          "All molecules are acids",
+          "All compounds are molecules",
+          "All compounds are acids",
+          "All acids are not molecules",
+          "Some compounds are not molecules",
+          "Some compounds are acids",
+          "Some molecules are not compounds",
+          "Some molecules are acids",
+          "Some acids are molecules",
+          "Some acids are compounds",
+          "Some acids are not compounds",
+          "Some acids are not molecules",
+          "No molecules are compounds",
+          "No compounds are molecules"
+        ]
+      },
+      {
+        "major premise": "Some atoms are not metals",
+        "minor premise": "All atoms are elements",
+        "conclusion": "Some elements are not metals",
+        "incorrect conclusions": [
+          "All atoms are metals",
+          "All elements are atoms",
+          "All elements are metals",
+          "All metals are not atoms",
+          "Some elements are not atoms",
+          "Some elements are metals",
+          "Some atoms are not elements",
+          "Some atoms are metals",
+          "Some metals are atoms",
+          "Some metals are elements",
+          "Some metals are not elements",
+          "Some metals are not atoms",
+          "No atoms are elements",
+          "No elements are atoms"
+        ]
+      },
+      {
+        "major premise": "Some compounds are not gases",
+        "minor premise": "All compounds are substances",
+        "conclusion": "Some substances are not gases",
+        "incorrect conclusions": [
+          "All compounds are gases",
+          "All substances are compounds",
+          "All substances are gases",
+          "All gases are not compounds",
+          "Some substances are not compounds",
+          "Some substances are gases",
+          "Some compounds are not substances",
+          "Some compounds are gases",
+          "Some gases are compounds",
+          "Some gases are substances",
+          "Some gases are not substances",
+          "Some gases are not compounds",
+          "No compounds are substances",
+          "No substances are compounds"
+        ]
+      }
+    ]
+  }
+}

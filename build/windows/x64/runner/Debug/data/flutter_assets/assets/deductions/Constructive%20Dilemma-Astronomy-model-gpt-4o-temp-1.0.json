@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If a star is at the end of its life cycle, it will explode as a supernova",
+          "If a star is very massive, it will explode as a supernova",
+          "A star is at the end of its life cycle or a star is very massive"
+        ],
+        "conclusions": [
+          "The star will explode as a supernova",
+          "A star is at the end of its life cycle or a star is very massive implies a star will explode as a supernova",
+          "A star will not explode as a supernova implies a star is not at the end of its life cycle and a star is not very massive",
+          "A star is at the end of its life cycle and a star is very massive implies a star will explode as a supernova",
+          "A star will explode as a supernova implies a star is at the end of its life cycle or a star is very massive"
+        ],
+        "incorrect conclusions": [
+          "A star is at the end of its life cycle implies a star is very massive or a star will explode as a supernova",
+          "A star will explode as a supernova implies a star is at the end of its life cycle and a star is very massive",
+          "A star will explode as a supernova or a star is at the end of its life cycle implies a star is very massive",
+          "A star is not at the end of its life cycle implies a star will explode as a supernova",
+          "A star will not explode as a supernova implies a star is at the end of its life cycle and a star is very massive"
+        ]
+      },
+      {
+        "premises": [
+          "If a planet is in the habitable zone, it can support liquid water",
+          "If a planet has an atmosphere, it can support liquid water",
+          "A planet is in the habitable zone or a planet has an atmosphere"
+        ],
+        "conclusions": [
+          "The planet can support liquid water",
+          "A planet is in the habitable zone or a planet has an atmosphere implies a planet can support liquid water",
+          "A planet cannot support liquid water implies a planet is not in the habitable zone and a planet does not have an atmosphere",
+          "A planet is in the habitable zone and a planet has an atmosphere implies a planet can support liquid water",
+          "A planet can support liquid water implies a planet is in the habitable zone or a planet has an atmosphere"
+        ],
+        "incorrect conclusions": [
+          "A planet is in the habitable zone implies a planet has an atmosphere or a planet can support liquid water",
+          "A planet can support liquid water implies a planet is in the habitable zone and a planet has an atmosphere",
+          "A planet can support liquid water or a planet is in the habitable zone implies a planet has an atmosphere",
+          "A planet is not in the habitable zone implies a planet can support liquid water",
+          "A planet cannot support liquid water implies a planet is in the habitable zone and a planet has an atmosphere"
+        ]
+      },
+      {
+        "premises": [
+          "If a galaxy has active star formation, it is a blue galaxy",
+          "If a galaxy has a lot of young stars, it is a blue galaxy",
+          "A galaxy has active star formation or a galaxy has a lot of young stars"
+        ],
+        "conclusions": [
+          "The galaxy is a blue galaxy",
+          "A galaxy has active star formation or a galaxy has a lot of young stars implies a galaxy is a blue galaxy",
+          "A galaxy is not a blue galaxy implies a galaxy does not have active star formation and a galaxy does not have a lot of young stars",
+          "A galaxy has active star formation and a galaxy has a lot of young stars implies a galaxy is a blue galaxy",
+          "A galaxy is a blue galaxy implies a galaxy has active star formation or a galaxy has a lot of young stars"
+        ],
+        "incorrect conclusions": [
+          "A galaxy has active star formation implies a galaxy has a lot of young stars or a galaxy is a blue galaxy",
+          "A galaxy is a blue galaxy implies a galaxy has active star formation and a galaxy has a lot of young stars",
+          "A galaxy is a blue galaxy or a galaxy has active star formation implies a galaxy has a lot of young stars",
+          "A galaxy does not have active star formation implies a galaxy is a blue galaxy",
+          "A galaxy is not a blue galaxy implies a galaxy has active star formation and a galaxy has a lot of young stars"
+        ]
+      }
+    ]
+  }
+}

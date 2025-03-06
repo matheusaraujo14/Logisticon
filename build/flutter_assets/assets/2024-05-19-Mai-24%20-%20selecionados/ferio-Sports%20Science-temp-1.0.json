@@ -1,0 +1,75 @@
+{
+  "Sports Science": {
+    "Ferio": [
+      {
+        "major premise": "No sprinters are marathoners",
+        "minor premise": "Some athletes are sprinters",
+        "conclusion": "Some athletes are not marathoners",
+        "incorrect conclusions": [
+          "All sprinters are athletes",
+          "All sprinters are marathoners",
+          "All athletes are marathoners",
+          "All marathoners are sprinters",
+          "All marathoners are athletes",
+          "Some sprinters are not athletes",
+          "Some marathoners are athletes",
+          "Some marathoners are not athletes",
+          "Some marathoners are sprinters",
+          "Some marathoners are athletes",
+          "Some athletes are marathoners",
+          "Some athletes are not sprinters",
+          "Some sprinters are marathoners",
+          "No sprinters are athletes",
+          "No athletes are not sprinters",
+          "No athletes are sprinters"
+        ]
+      },
+      {
+        "major premise": "No weightlifters are long-distance runners",
+        "minor premise": "Some competitors are weightlifters",
+        "conclusion": "Some competitors are not long-distance runners",
+        "incorrect conclusions": [
+          "All weightlifters are competitors",
+          "All weightlifters are long-distance runners",
+          "All competitors are long-distance runners",
+          "All long-distance runners are weightlifters",
+          "All long-distance runners are competitors",
+          "Some weightlifters are not competitors",
+          "Some long-distance runners are competitors",
+          "Some long-distance runners are not competitors",
+          "Some long-distance runners are weightlifters",
+          "Some long-distance runners are competitors",
+          "Some competitors are long-distance runners",
+          "Some competitors are not weightlifters",
+          "Some weightlifters are long-distance runners",
+          "No weightlifters are competitors",
+          "No competitors are not weightlifters",
+          "No competitors are weightlifters"
+        ]
+      },
+      {
+        "major premise": "No soccer players are swimmers",
+        "minor premise": "Some students are soccer players",
+        "conclusion": "Some students are not swimmers",
+        "incorrect conclusions": [
+          "All soccer players are students",
+          "All soccer players are swimmers",
+          "All students are swimmers",
+          "All swimmers are soccer players",
+          "All swimmers are students",
+          "Some soccer players are not students",
+          "Some swimmers are students",
+          "Some swimmers are not students",
+          "Some swimmers are soccer players",
+          "Some swimmers are students",
+          "Some students are swimmers",
+          "Some students are not soccer players",
+          "Some soccer players are swimmers",
+          "No soccer players are students",
+          "No students are not soccer players",
+          "No students are soccer players"
+        ]
+      }
+    ]
+  }
+}

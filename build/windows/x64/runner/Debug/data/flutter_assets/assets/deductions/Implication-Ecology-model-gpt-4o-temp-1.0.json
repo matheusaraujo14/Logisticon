@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Ecology": [
+      {
+        "premises": [
+          "If deforestation increases, then biodiversity decreases"
+        ],
+        "conclusions": [
+          "If biodiversity does not decrease, then deforestation does not increase"
+        ],
+        "incorrect conclusions": [
+          "Deforestation increases",
+          "Deforestation does not increase",
+          "Biodiversity decreases",
+          "Biodiversity does not decrease",
+          "If biodiversity decreases, then deforestation increases",
+          "If biodiversity does not decrease, then deforestation increases",
+          "If deforestation does not increase, then biodiversity does not decrease"
+        ]
+      },
+      {
+        "premises": [
+          "If pollution rises, then water quality falls"
+        ],
+        "conclusions": [
+          "If water quality does not fall, then pollution does not rise"
+        ],
+        "incorrect conclusions": [
+          "Pollution rises",
+          "Pollution does not rise",
+          "Water quality falls",
+          "Water quality does not fall",
+          "If water quality falls, then pollution rises",
+          "If water quality does not fall, then pollution rises",
+          "If pollution does not rise, then water quality does not fall"
+        ]
+      },
+      {
+        "premises": [
+          "If climate change progresses, then global temperatures rise"
+        ],
+        "conclusions": [
+          "If global temperatures do not rise, then climate change does not progress"
+        ],
+        "incorrect conclusions": [
+          "Climate change progresses",
+          "Climate change does not progress",
+          "Global temperatures rise",
+          "Global temperatures do not rise",
+          "If global temperatures rise, then climate change progresses",
+          "If global temperatures do not rise, then climate change progresses",
+          "If climate change does not progress, then global temperatures do not rise"
+        ]
+      }
+    ]
+  }
+}

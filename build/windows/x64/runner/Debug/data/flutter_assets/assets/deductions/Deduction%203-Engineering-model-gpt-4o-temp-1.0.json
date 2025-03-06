@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Engineering": [
+      {
+        "premises": [
+          "If the circuit is not powered, then the device does not operate",
+          "If the circuit is powered, then the device generates heat"
+        ],
+        "conclusions": [
+          "If the device operates, then the circuit is powered",
+          "If the device does not generate heat, then the circuit is not powered",
+          "If the device does not generate heat, then the device does not operate",
+          "The device does not operate or the device generates heat",
+          "If the circuit is powered and the device does not operate, then the device generates heat"
+        ],
+        "incorrect conclusions": [
+          "If the device does not operate, then the circuit is powered",
+          "If the device does not operate, then the circuit is not powered",
+          "If the device operates, then the circuit is not powered",
+          "The device operates and the device generates heat",
+          "If the device generates heat, then the circuit is powered",
+          "If the device does not generate heat and the device operates, then the circuit is powered"
+        ]
+      },
+      {
+        "premises": [
+          "If the bridge is not structurally sound, then it cannot support heavy loads",
+          "If the bridge is structurally sound, then it requires regular maintenance"
+        ],
+        "conclusions": [
+          "If the bridge can support heavy loads, then it is structurally sound",
+          "If the bridge does not require regular maintenance, then it is not structurally sound",
+          "If the bridge does not require regular maintenance, then it cannot support heavy loads",
+          "The bridge cannot support heavy loads or it requires regular maintenance",
+          "If the bridge is structurally sound and it cannot support heavy loads, then it requires regular maintenance"
+        ],
+        "incorrect conclusions": [
+          "If the bridge cannot support heavy loads, then it is structurally sound",
+          "If the bridge cannot support heavy loads, then it is not structurally sound",
+          "If the bridge can support heavy loads, then it is not structurally sound",
+          "The bridge can support heavy loads and it requires regular maintenance",
+          "If the bridge requires regular maintenance, then it is structurally sound",
+          "If the bridge does not require regular maintenance and it can support heavy loads, then it is structurally sound"
+        ]
+      },
+      {
+        "premises": [
+          "If the software is not tested, then the system is unreliable",
+          "If the software is tested, then the system is secure"
+        ],
+        "conclusions": [
+          "If the system is reliable, then the software is tested",
+          "If the system is not secure, then the software is not tested",
+          "If the system is not secure, then the system is unreliable",
+          "The system is unreliable or the system is secure",
+          "If the software is tested and the system is unreliable, then the system is secure"
+        ],
+        "incorrect conclusions": [
+          "If the system is unreliable, then the software is tested",
+          "If the system is unreliable, then the software is not tested",
+          "If the system is reliable, then the software is not tested",
+          "The system is reliable and the system is secure",
+          "If the system is secure, then the software is tested",
+          "If the system is not secure and the system is reliable, then the software is tested"
+        ]
+      }
+    ]
+  }
+}

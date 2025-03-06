@@ -1,0 +1,57 @@
+{
+  "Psychology": {
+    "Baroco" : [
+      {
+        "major premise": "All psychologists are scientists",
+        "minor premise": "Some therapists are not scientists",
+        "conclusion": "Some therapists are not psychologists",
+        "incorrect conclusions": [
+          "All therapists are not scientists",
+          "All therapists are psychologists",
+          "All therapists are scientists",
+          "Some scientists are therapists",
+          "Some scientists are not therapists",
+          "Some scientists are not psychologists",
+          "Some therapists are scientists",
+          "Some therapists are psychologists",
+          "Some scientists are not psychologists",
+          "Some scientists are therapists"
+        ]
+      },
+      {
+        "major premise": "All cognitive scientists are researchers",
+        "minor premise": "Some clinicians are not researchers",
+        "conclusion": "Some clinicians are not cognitive scientists",
+        "incorrect conclusions": [
+          "All clinicians are not researchers",
+          "All clinicians are cognitive scientists",
+          "All clinicians are researchers",
+          "Some researchers are clinicians",
+          "Some researchers are not clinicians",
+          "Some researchers are not cognitive scientists",
+          "Some clinicians are researchers",
+          "Some clinicians are cognitive scientists",
+          "Some researchers are not cognitive scientists",
+          "Some researchers are clinicians"
+        ]
+      },
+      {
+        "major premise": "All neuropsychologists are medical professionals",
+        "minor premise": "Some social workers are not medical professionals",
+        "conclusion": "Some social workers are not neuropsychologists",
+        "incorrect conclusions": [
+          "All social workers are not medical professionals",
+          "All social workers are neuropsychologists",
+          "All social workers are medical professionals",
+          "Some medical professionals are social workers",
+          "Some medical professionals are not social workers",
+          "Some medical professionals are not neuropsychologists",
+          "Some social workers are medical professionals",
+          "Some social workers are neuropsychologists",
+          "Some medical professionals are not neuropsychologists",
+          "Some medical professionals are social workers"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Chemistry": {
+    "Datisi": [
+      {
+        "major premise": "All water molecules are H2O molecules",
+        "minor premise": "Some H2O molecules are components of acids",
+        "conclusion": "Some components of acids are H2O molecules",
+        "incorrect conclusions": [
+          "All components of acids are H2O molecules",
+          "All components of acids are water molecules",
+          "All H2O molecules are water molecules",
+          "All H2O molecules are components of acids",
+          "All water molecules are components of acids",
+          "Some components of acids are not H2O molecules",
+          "Some components of acids are not water molecules",
+          "Some H2O molecules are not water molecules",
+          "Some H2O molecules are not components of acids",
+          "Some water molecules are not H2O molecules",
+          "Some water molecules are not components of acids",
+          "No components of acids is H2O molecule",
+          "No components of acids is water molecule",
+          "No H2O molecule is water molecule",
+          "No H2O molecule is component of acids",
+          "No water molecule is component of acids",
+          "No water molecule is H2O molecule"
+        ]
+      },
+      {
+        "major premise": "All salts are ionic compounds",
+        "minor premise": "Some ionic compounds are electrolytes",
+        "conclusion": "Some electrolytes are ionic compounds",
+        "incorrect conclusions": [
+          "All electrolytes are ionic compounds",
+          "All electrolytes are salts",
+          "All ionic compounds are salts",
+          "All ionic compounds are electrolytes",
+          "All salts are electrolytes",
+          "Some electrolytes are not ionic compounds",
+          "Some electrolytes are not salts",
+          "Some ionic compounds are not salts",
+          "Some ionic compounds are not electrolytes",
+          "Some salts are not ionic compounds",
+          "Some salts are not electrolytes",
+          "No electrolytes is ionic compound",
+          "No electrolytes is salt",
+          "No ionic compound is salt",
+          "No ionic compound is electrolyte",
+          "No salt is electrolyte",
+          "No salt is ionic compound"
+        ]
+      },
+      {
+        "major premise": "All metal atoms are elements",
+        "minor premise": "Some elements are conductors",
+        "conclusion": "Some conductors are elements",
+        "incorrect conclusions": [
+          "All conductors are elements",
+          "All conductors are metal atoms",
+          "All elements are metal atoms",
+          "All elements are conductors",
+          "All metal atoms are conductors",
+          "Some conductors are not elements",
+          "Some conductors are not metal atoms",
+          "Some elements are not metal atoms",
+          "Some elements are not conductors",
+          "Some metal atoms are not elements",
+          "Some metal atoms are not conductors",
+          "No conductor is element",
+          "No conductor is metal atom",
+          "No element is metal atom",
+          "No element is conductor",
+          "No metal atom is conductor",
+          "No metal atom is element"
+        ]
+      }
+    ]
+  }
+}

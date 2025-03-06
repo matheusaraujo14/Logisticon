@@ -1,0 +1,52 @@
+{
+  "Architecture": {
+    "Darapti": [
+      {
+        "major premise": "All blueprints are architectural_designs",
+        "minor premise": "All blueprints are construction_documents and some blueprints exist",
+        "conclusion": "Some construction_documents are architectural_designs",
+        "incorrect conclusions": [
+          "All construction_documents are architectural_designs",
+          "All architectural_designs are construction_documents",
+          "All blueprints are not construction_documents",
+          "All blueprints are not architectural_designs",
+          "Some construction_documents are not architectural_designs",
+          "Some construction_documents are not blueprints",
+          "Some architectural_designs are not blueprints",
+          "Some architectural_designs are not construction_documents",
+          "Some blueprints are not construction_documents",
+          "Some blueprints are not architectural_designs",
+          "No blueprints are construction_documents",
+          "No blueprints are architectural_designs",
+          "No architectural_designs are blueprints",
+          "No architectural_designs are construction_documents",
+          "No construction_documents are blueprints",
+          "No construction_documents are architectural_designs"
+        ]
+      },
+      {
+        "major premise": "All floorplans are architectural_diagrams",
+        "minor premise": "All floorplans are design_drawings and some floorplans exist",
+        "conclusion": "Some design_drawings are architectural_diagrams",
+        "incorrect conclusions": [
+          "All design_drawings are architectural_diagrams",
+          "All architectural_diagrams are design_drawings",
+          "All floorplans are not design_drawings",
+          "All floorplans are not architectural_diagrams",
+          "Some design_drawings are not architectural_diagrams",
+          "Some design_drawings are not floorplans",
+          "Some architectural_diagrams are not floorplans",
+          "Some architectural_diagrams are not design_drawings",
+          "Some floorplans are not design_drawings",
+          "Some floorplans are not architectural_diagrams",
+          "No floorplans are design_drawings",
+          "No floorplans are architectural_diagrams",
+          "No architectural_diagrams are floorplans",
+          "No architectural_diagrams are design_drawings",
+          "No design_drawings are floorplans",
+          "No design_drawings are architectural_diagrams"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Physics": {
+     "Ferio" : [
+        {
+          "major premise": "No planets are stars",
+          "minor premise": "Some celestial_bodies are planets",
+          "conclusion": "Some celestial_bodies are not stars",
+          "incorrect conclusions": [
+            "All planets are celestial_bodies",
+            "All planets are stars",
+            "All celestial_bodies are stars",
+            "All stars are planets",
+            "All stars are celestial_bodies",
+            "Some planets are not celestial_bodies",
+            "Some stars are celestial_bodies",
+            "Some stars are not celestial_bodies",
+            "Some stars are planets",
+            "Some stars are celestial_bodies",
+            "Some celestial_bodies are stars",
+            "Some celestial_bodies are not planets",
+            "Some planets are stars",
+            "No planets are celestial_bodies",
+            "No celestial_bodies are not planets",
+            "No celestial_bodies are planets"
+          ]
+        },
+        {
+          "major premise": "No ferromagnetic_materials are superconductors",
+          "minor premise": "Some materials are ferromagnetic_materials",
+          "conclusion": "Some materials are not superconductors",
+          "incorrect conclusions": [
+            "All ferromagnetic_materials are materials",
+            "All ferromagnetic_materials are superconductors",
+            "All materials are superconductors",
+            "All superconductors are ferromagnetic_materials",
+            "All superconductors are materials",
+            "Some ferromagnetic_materials are not materials",
+            "Some superconductors are materials",
+            "Some superconductors are not materials",
+            "Some superconductors are ferromagnetic_materials",
+            "Some superconductors are materials",
+            "Some materials are superconductors",
+            "Some materials are not ferromagnetic_materials",
+            "Some ferromagnetic_materials are superconductors",
+            "No ferromagnetic_materials are materials",
+            "No materials are not ferromagnetic_materials",
+            "No materials are ferromagnetic_materials"
+          ]
+        }
+     ]
+  }
+}

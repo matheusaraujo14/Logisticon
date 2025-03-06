@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Architecture": [
+      {
+        "premises": [
+          "If a building has a steel frame, then it can support heavy loads",
+          "If a building has a steel frame, then it is resistant to earthquakes"
+        ],
+        "conclusions": [
+          "If a building has a steel frame, then it can support heavy loads and it is resistant to earthquakes",
+          "If a building has a steel frame, then it can support heavy loads or it is resistant to earthquakes",
+          "If a building cannot support heavy loads, then it does not have a steel frame",
+          "If a building is not resistant to earthquakes, then it does not have a steel frame",
+          "If a building cannot support heavy loads or it is not resistant to earthquakes, then it does not have a steel frame"
+        ],
+        "incorrect conclusions": [
+          "If a building cannot support heavy loads, then it is not resistant to earthquakes",
+          "If a building is not resistant to earthquakes, then it cannot support heavy loads",
+          "If a building can support heavy loads, then it is resistant to earthquakes",
+          "If a building is resistant to earthquakes, then it can support heavy loads",
+          "If a building can support heavy loads and it is resistant to earthquakes, then it has a steel frame",
+          "If a building can support heavy loads or it is resistant to earthquakes, then it has a steel frame",
+          "If a building cannot support heavy loads or it does not have a steel frame, then it has a steel frame"
+        ]
+      },
+      {
+        "premises": [
+          "If a room has large windows, then it allows natural light in",
+          "If a room has large windows, then it provides a good view outside"
+        ],
+        "conclusions": [
+          "If a room has large windows, then it allows natural light in and it provides a good view outside",
+          "If a room has large windows, then it allows natural light in or it provides a good view outside",
+          "If a room does not allow natural light in, then it does not have large windows",
+          "If a room does not provide a good view outside, then it does not have large windows",
+          "If a room does not allow natural light in or it does not provide a good view outside, then it does not have large windows"
+        ],
+        "incorrect conclusions": [
+          "If a room does not allow natural light in, then it does not provide a good view outside",
+          "If a room does not provide a good view outside, then it does not allow natural light in",
+          "If a room allows natural light in, then it provides a good view outside",
+          "If a room provides a good view outside, then it allows natural light in",
+          "If a room allows natural light in and it provides a good view outside, then it has large windows",
+          "If a room allows natural light in or it provides a good view outside, then it has large windows",
+          "If a room does not allow natural light in or it does not have large windows, then it has large windows"
+        ]
+      },
+      {
+        "premises": [
+          "If a house has solar panels, then it generates renewable energy",
+          "If a house has solar panels, then it reduces electricity bills"
+        ],
+        "conclusions": [
+          "If a house has solar panels, then it generates renewable energy and it reduces electricity bills",
+          "If a house has solar panels, then it generates renewable energy or it reduces electricity bills",
+          "If a house does not generate renewable energy, then it does not have solar panels",
+          "If a house does not reduce electricity bills, then it does not have solar panels",
+          "If a house does not generate renewable energy or it does not reduce electricity bills, then it does not have solar panels"
+        ],
+        "incorrect conclusions": [
+          "If a house does not generate renewable energy, then it does not reduce electricity bills",
+          "If a house does not reduce electricity bills, then it does not generate renewable energy",
+          "If a house generates renewable energy, then it reduces electricity bills",
+          "If a house reduces electricity bills, then it generates renewable energy",
+          "If a house generates renewable energy and it reduces electricity bills, then it has solar panels",
+          "If a house generates renewable energy or it reduces electricity bills, then it has solar panels",
+          "If a house does not generate renewable energy or it does not have solar panels, then it has solar panels"
+        ]
+      }
+    ]
+  }
+}

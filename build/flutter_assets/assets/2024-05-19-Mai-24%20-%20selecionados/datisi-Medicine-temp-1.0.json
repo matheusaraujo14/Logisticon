@@ -1,0 +1,54 @@
+{
+  "Medicine": {
+    "Datisi": [
+      {
+        "major premise": "All nurses are versatile caregivers",
+        "minor premise": "Some nurses are pediatric nurses",
+        "conclusion": "Some pediatric nurses are versatile caregivers",
+        "incorrect conclusions": [
+          "All pediatric nurses are nurses",
+          "All pediatric nurses are versatile caregivers",
+          "All versatile caregivers are nurses",
+          "All versatile caregivers are pediatric nurses",
+          "All nurses are pediatric nurses",
+          "Some pediatric nurses are not versatile caregivers",
+          "Some pediatric nurses are not nurses",
+          "Some versatile caregivers are not nurses",
+          "Some versatile caregivers are not pediatric nurses",
+          "Some nurses are not versatile caregivers",
+          "Some nurses are not pediatric nurses",
+          "No pediatric nurse is a healthcare worker",
+          "No pediatric nurse is a nurse",
+          "No nurse is a healthcare worker",
+          "No nurse is a pediatric nurse",
+          "No healthcare worker is a nurse",
+          "No healthcare worker is a pediatric nurse"
+        ]
+      },
+      {
+        "major premise": "All pharmacists are medication experts",
+        "minor premise": "Some pharmacists are clinical pharmacists",
+        "conclusion": "Some clinical pharmacists are medication experts",
+        "incorrect conclusions": [
+          "All clinical pharmacists are pharmacists",
+          "All clinical pharmacists are medication experts",
+          "All medication experts are pharmacists",
+          "All medication experts are clinical pharmacists",
+          "All pharmacists are clinical pharmacists",
+          "Some clinical pharmacists are not medication experts",
+          "Some clinical pharmacists are not pharmacists",
+          "Some medication experts are not pharmacists",
+          "Some medication experts are not clinical pharmacists",
+          "Some pharmacists are not medication experts",
+          "Some pharmacists are not clinical pharmacists",
+          "No clinical pharmacist is a healthcare professional",
+          "No clinical pharmacist is a pharmacist",
+          "No pharmacist is a healthcare professional",
+          "No pharmacist is a clinical pharmacist",
+          "No healthcare professional is a pharmacist",
+          "No healthcare professional is a clinical pharmacist"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Ecology": [
+		{
+          "premises": [
+            "If a forest is dense, then the sunlight does not reach the ground",
+            "If a forest is dense, then many animal species live there"
+          ],
+          "conclusions": [
+			"If a forest is dense, then sunlight does not reach the ground and many animal species live there",
+			"If a forest is dense, then sunlight does not reach the ground or many animal species live there",
+			"If the sunlight reaches the ground, then the forest is not dense",
+			"If many animal species do not live there, then the forest is not dense",
+			"If the sunlight reaches the ground or many animal species do not live there, then the forest is not dense"
+          ],
+		  "incorrect conclusions": [
+			"If the sunlight reaches the ground, then many animal species do not live there",
+			"If many animal species do not live there, then the sunlight reaches the ground",
+			"If the sunlight does not reach the ground, then many animal species live there",
+			"If many animal species live there, then the sunlight does not reach the ground",
+			"If the sunlight does not reach the ground and many animal species live there, then the forest is dense",
+			"If the sunlight does not reach the ground or many animal species live there, then the forest is dense",
+			"If the sunlight reaches the ground or the forest is not dense, then the forest is dense"
+		  ]
+		},
+		{
+          "premises": [
+            "If a lake has high nutrient levels, then the water is not clear",
+            "If a lake has high nutrient levels, then algae blooms occur"
+          ],
+          "conclusions": [
+			"If a lake has high nutrient levels, then the water is not clear and algae blooms occur",
+			"If a lake has high nutrient levels, then the water is not clear or algae blooms occur",
+			"If the water is clear, then the lake does not have high nutrient levels",
+			"If algae blooms do not occur, then the lake does not have high nutrient levels",
+			"If the water is clear or algae blooms do not occur, then the lake does not have high nutrient levels"
+          ],
+		  "incorrect conclusions": [
+			"If the water is clear, then algae blooms do not occur",
+			"If algae blooms do not occur, then the water is clear",
+			"If the water is not clear, then algae blooms occur",
+			"If algae blooms occur, then the water is not clear",
+			"If the water is not clear and algae blooms occur, then the lake has high nutrient levels",
+			"If the water is not clear or algae blooms occur, then the lake has high nutrient levels",
+			"If the water is clear or the lake does not have high nutrient levels, then the lake has high nutrient levels"
+		  ]
+		},
+		{
+          "premises": [
+            "If a habitat is fragmented, then animal populations cannot migrate easily",
+            "If a habitat is fragmented, then biodiversity decreases"
+          ],
+          "conclusions": [
+			"If a habitat is fragmented, then animal populations cannot migrate easily and biodiversity decreases",
+			"If a habitat is fragmented, then animal populations cannot migrate easily or biodiversity decreases",
+			"If animal populations can migrate easily, then the habitat is not fragmented",
+			"If biodiversity does not decrease, then the habitat is not fragmented",
+			"If animal populations can migrate easily or biodiversity does not decrease, then the habitat is not fragmented"
+          ],
+		  "incorrect conclusions": [
+			"If animal populations can migrate easily, then biodiversity does not decrease",
+			"If biodiversity does not decrease, then animal populations can migrate easily",
+			"If animal populations cannot migrate easily, then biodiversity decreases",
+			"If biodiversity decreases, then animal populations cannot migrate easily",
+			"If animal populations cannot migrate easily and biodiversity decreases, then the habitat is fragmented",
+			"If animal populations cannot migrate easily or biodiversity decreases, then the habitat is fragmented",
+			"If animal populations can migrate easily or the habitat is not fragmented, then the habitat is fragmented"
+		  ]
+		}
+	 ]
+  }
+}

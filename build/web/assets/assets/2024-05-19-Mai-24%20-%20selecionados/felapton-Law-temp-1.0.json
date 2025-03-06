@@ -1,0 +1,63 @@
+{
+  "Law": {
+    "Felapton": [
+      {
+        "major premise": "No clients are prosecutors",
+        "minor premise": "All clients are case parties and some clients exist",
+        "conclusion": "Some case parties are not prosecutors",
+        "incorrect conclusions": [
+          "All case parties are prosecutors",
+          "All case parties are clients",
+          "All prosecutors are case parties",
+          "All prosecutors are clients",
+          "Some case parties are prosecutors",
+          "Some prosecutors are case parties",
+          "Some prosecutors are clients",
+          "Some prosecutors are not case parties",
+          "Some clients are prosecutors",
+          "Some clients are not case parties",
+          "No clients are case parties",
+          "No case parties are clients"
+        ]
+      },
+      {
+        "major premise": "No judges are defendants",
+        "minor premise": "All judges are court officials and some judges exist",
+        "conclusion": "Some court officials are not defendants",
+        "incorrect conclusions": [
+          "All court officials are defendants",
+          "All court officials are judges",
+          "All defendants are court officials",
+          "All defendants are judges",
+          "Some court officials are defendants",
+          "Some defendants are court officials",
+          "Some defendants are judges",
+          "Some defendants are not court officials",
+          "Some judges are defendants",
+          "Some judges are not court officials",
+          "No judges are court officials",
+          "No court officials are judges"
+        ]
+      },
+      {
+        "major premise": "No attorneys are witnesses",
+        "minor premise": "All attorneys are legal professionals and some attorneys exist",
+        "conclusion": "Some legal professionals are not witnesses",
+        "incorrect conclusions": [
+          "All legal professionals are witnesses",
+          "All legal professionals are attorneys",
+          "All witnesses are legal professionals",
+          "All witnesses are attorneys",
+          "Some legal professionals are witnesses",
+          "Some witnesses are legal professionals",
+          "Some witnesses are attorneys",
+          "Some witnesses are not legal professionals",
+          "Some attorneys are witnesses",
+          "Some attorneys are not legal professionals",
+          "No attorneys are legal professionals",
+          "No legal professionals are attorneys"
+        ]
+      }
+    ]
+  }
+}

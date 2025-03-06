@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Ecology": [
+		{
+          "premises": [
+            "If the forest is healthy, then biodiversity is high",
+            "The forest is healthy"
+          ],
+          "conclusions": [
+            "Biodiversity is high"
+          ],
+          "incorrect conclusions": [
+            "Biodiversity is not high",
+            "Biodiversity implies that the forest is healthy",
+            "Not biodiversity implies that the forest is healthy",
+            "Not the forest is healthy implies that not biodiversity is high"
+          ]
+		},
+		{
+          "premises": [
+            "If the lake is polluted, then fish population decreases",
+            "The lake is polluted"
+          ],
+          "conclusions": [
+            "Fish population decreases"
+          ],
+          "incorrect conclusions": [
+            "Fish population does not decrease",
+            "Fish population decrease implies that the lake is polluted",
+            "Not fish population decrease implies that the lake is polluted",
+            "Not the lake is polluted implies that not fish population decreases"
+          ]
+		},
+		{
+          "premises": [
+            "If the climate changes, then animal migration patterns alter",
+            "The climate changes"
+          ],
+          "conclusions": [
+            "Animal migration patterns alter"
+          ],
+          "incorrect conclusions": [
+            "Animal migration patterns do not alter",
+            "Animal migration patterns alter implies that the climate changes",
+            "Not animal migration patterns alter implies that the climate changes",
+            "Not the climate changes implies that not animal migration patterns alter"
+          ]
+		}
+	 ]
+  }
+}

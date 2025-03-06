@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Literature": [
+      {
+        "premises": [
+          "If a character is honorable, then he does not lie",
+          "If a character is honorable, then he is respected"
+        ],
+        "conclusions": [
+          "If a character is honorable, then he does not lie and he is respected",
+          "If a character is honorable, then he does not lie or he is respected",
+          "If a character lies, then he is not honorable",
+          "If a character is not respected, then he is not honorable",
+          "If a character lies or is not respected, then he is not honorable"
+        ],
+        "incorrect conclusions": [
+          "If a character lies, a character is not respected",
+          "If a character is not respected, a character lies",
+          "If a character does not lie, then he is respected",
+          "If a character is respected, then he does not lie",
+          "If a character does not lie and is respected, then he is honorable",
+          "If a character does not lie or is respected, then he is honorable",
+          "If a character lies or is not honorable, then he is honorable"
+        ]
+      },
+      {
+        "premises": [
+          "If the author writes in a simplistic style, then the story lacks depth",
+          "If the author writes in a simplistic style, then the book is easy to read"
+        ],
+        "conclusions": [
+          "If the author writes in a simplistic style, then the story lacks depth and the book is easy to read",
+          "If the author writes in a simplistic style, then the story lacks depth or the book is easy to read",
+          "If the story has depth, then the author does not write in a simplistic style",
+          "If the book is not easy to read, then the author does not write in a simplistic style",
+          "If the story has depth or the book is not easy to read, then the author does not write in a simplistic style"
+        ],
+        "incorrect conclusions": [
+          "If the story has depth, the book is not easy to read",
+          "If the book is not easy to read, the story has depth",
+          "If the story does not lack depth, then the book is easy to read",
+          "If the book is easy to read, then the story lacks depth",
+          "If the story does not lack depth and the book is easy to read, then the author writes in a simplistic style",
+          "If the story does not lack depth or the book is easy to read, then the author writes in a simplistic style",
+          "If the story has depth or the author does not write in a simplistic style, then the author writes in a simplistic style"
+        ]
+      },
+      {
+        "premises": [
+          "If the protagonist is brave, then he does not flee",
+          "If the protagonist is brave, then he saves the day"
+        ],
+        "conclusions": [
+          "If the protagonist is brave, then he does not flee and he saves the day",
+          "If the protagonist is brave, then he does not flee or he saves the day",
+          "If the protagonist flees, then he is not brave",
+          "If the protagonist does not save the day, then he is not brave",
+          "If the protagonist flees or does not save the day, then he is not brave"
+        ],
+        "incorrect conclusions": [
+          "If the protagonist flees, he does not save the day",
+          "If the protagonist does not save the day, he flees",
+          "If the protagonist does not flee, then he saves the day",
+          "If the protagonist saves the day, then he does not flee",
+          "If the protagonist does not flee and saves the day, then he is brave",
+          "If the protagonist does not flee or saves the day, then he is brave",
+          "If the protagonist flees or is not brave, then he is brave"
+        ]
+      }
+    ]
+  }
+}

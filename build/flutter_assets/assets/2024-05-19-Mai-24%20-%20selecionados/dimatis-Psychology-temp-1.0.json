@@ -1,0 +1,75 @@
+{
+  "Psychology": {
+    "Dimatis": [
+      {
+        "major premise": "Some adolescents are individuals undergoing a cognitive transition",
+        "minor premise": "All individuals undergoing a cognitive transition are subjects of study in developmental psychology",
+        "conclusion": "Some subjects of study in developmental psychology are adolescents",
+        "incorrect conclusions": [
+          "All subjects of study in developmental psychology are adolescents",
+          "All subjects of study in developmental psychology are individuals undergoing a cognitive transition",
+          "All adolescents are subjects of study in developmental psychology",
+          "All adolescents are individuals undergoing a cognitive transition",
+          "All individuals undergoing a cognitive transition are adolescents",
+          "Some subjects of study in developmental psychology are not individuals undergoing a cognitive transition",
+          "Some adolescents are not subjects of study in developmental psychology",
+          "Some adolescents are not individuals undergoing a cognitive transition",
+          "Some individuals undergoing a cognitive transition are not subjects of study in developmental psychology",
+          "Some individuals undergoing a cognitive transition are not adolescents",
+          "No adolescents is a subject of study in developmental psychology",
+          "No adolescents is an individual undergoing a cognitive transition",
+          "No individuals undergoing a cognitive transition is a subject of study in developmental psychology",
+          "No individuals undergoing a cognitive transition is an adolescent",
+          "No subjects of study in developmental psychology is an individual undergoing a cognitive transition",
+          "No subjects of study in developmental psychology is an adolescent"
+        ]
+      },
+      {
+        "major premise": "Some emotional disorders are psychological conditions",
+        "minor premise": "All psychological conditions are subjects of study in clinical psychology",
+        "conclusion": "Some subjects of study in clinical psychology are emotional disorders",
+        "incorrect conclusions": [
+          "All subjects of study in clinical psychology are emotional disorders",
+          "All subjects of study in clinical psychology are psychological conditions",
+          "All emotional disorders are subjects of study in clinical psychology",
+          "All emotional disorders are psychological conditions",
+          "All psychological conditions are emotional disorders",
+          "Some subjects of study in clinical psychology are not psychological conditions",
+          "Some emotional disorders are not subjects of study in clinical psychology",
+          "Some emotional disorders are not psychological conditions",
+          "Some psychological conditions are not subjects of study in clinical psychology",
+          "Some psychological conditions are not emotional disorders",
+          "No emotional disorder is a subject of study in clinical psychology",
+          "No emotional disorder is a psychological condition",
+          "No psychological condition is a subject of study in clinical psychology",
+          "No psychological condition is an emotional disorder",
+          "No subjects of study in clinical psychology is a psychological condition",
+          "No subjects of study in clinical psychology is an emotional disorder"
+        ]
+      },
+      {
+        "major premise": "Some childhood anxieties are mental health issues",
+        "minor premise": "All mental health issues are interests of child psychologists",
+        "conclusion": "Some interests of child psychologists are childhood anxieties",
+        "incorrect conclusions": [
+          "All interests of child psychologists are childhood anxieties",
+          "All interests of child psychologists are mental health issues",
+          "All childhood anxieties are interests of child psychologists",
+          "All childhood anxieties are mental health issues",
+          "All mental health issues are childhood anxieties",
+          "Some interests of child psychologists are not mental health issues",
+          "Some childhood anxieties are not interests of child psychologists",
+          "Some childhood anxieties are not mental health issues",
+          "Some mental health issues are not interests of child psychologists",
+          "Some mental health issues are not childhood anxieties",
+          "No childhood anxiety is an interest of child psychologists",
+          "No childhood anxiety is a mental health issue",
+          "No mental health issue is an interest of child psychologists",
+          "No mental health issue is a childhood anxiety",
+          "No interests of child psychologists is a mental health issue",
+          "No interests of child psychologists is a childhood anxiety"
+        ]
+      }
+    ]
+  }
+}

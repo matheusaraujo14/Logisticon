@@ -1,0 +1,52 @@
+{
+  "Sports Science": {
+    "Festino": [
+      {
+        "major premise": "No soccer players are marathon runners",
+        "minor premise": "Some athletes are marathon runners",
+        "conclusion": "Some athletes are not soccer players",
+        "incorrect conclusions": [
+          "All marathon runners are athletes",
+          "All marathon runners are soccer players",
+          "All athletes are soccer players",
+          "All soccer players are marathon runners",
+          "All soccer players are athletes",
+          "Some marathon runners are not athletes",
+          "Some soccer players are athletes",
+          "Some soccer players are not athletes",
+          "Some soccer players are marathon runners",
+          "Some soccer players are athletes",
+          "Some athletes are soccer players",
+          "Some athletes are not marathon runners",
+          "Some marathon runners are soccer players",
+          "No marathon runners are athletes",
+          "No athletes are not marathon runners",
+          "No athletes are marathon runners"
+        ]
+      },
+      {
+        "major premise": "No cyclists are powerlifters",
+        "minor premise": "Some competitors are powerlifters",
+        "conclusion": "Some competitors are not cyclists",
+        "incorrect conclusions": [
+          "All powerlifters are competitors",
+          "All powerlifters are cyclists",
+          "All competitors are cyclists",
+          "All cyclists are powerlifters",
+          "All cyclists are competitors",
+          "Some powerlifters are not competitors",
+          "Some cyclists are competitors",
+          "Some cyclists are not competitors",
+          "Some cyclists are powerlifters",
+          "Some cyclists are competitors",
+          "Some competitors are cyclists",
+          "Some competitors are not powerlifters",
+          "Some powerlifters are cyclists",
+          "No powerlifters are competitors",
+          "No competitors are not powerlifters",
+          "No competitors are powerlifters"
+        ]
+      }
+    ]
+  }
+}

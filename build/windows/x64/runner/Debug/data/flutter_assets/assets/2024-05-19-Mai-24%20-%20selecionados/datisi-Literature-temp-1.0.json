@@ -1,0 +1,54 @@
+{
+  "Literature": {
+     "Datisi" : [
+        {
+          "major premise": "All novels are literature",
+          "minor premise": "Some novels are historical novels",
+          "conclusion": "Some historical novels are literature",
+          "incorrect conclusions": [
+            "All historical novels are novels",
+            "All historical novels are literature",
+            "All literature are novels",
+            "All literature are historical novels",
+            "All novels are historical novels",
+            "Some historical novels are not literature",
+            "Some historical novels are not novels",
+            "Some literature are not novels",
+            "Some literature are not historical novels",
+            "Some novels are not literature",
+            "Some novels are not historical novels",
+            "No historical novel is literature",
+            "No historical novel is novel",
+            "No novel is literature",
+            "No novel is historical novel",
+            "No literature is novel",
+            "No literature is historical novel"
+          ]
+        },
+        {
+          "major premise": "All poems are literary works",
+          "minor premise": "Some poems are sonnets",
+          "conclusion": "Some sonnets are literary works",
+          "incorrect conclusions": [
+            "All sonnets are poems",
+            "All sonnets are literary works",
+            "All literary works are poems",
+            "All literary works are sonnets",
+            "All poems are sonnets",
+            "Some sonnets are not literary works",
+            "Some sonnets are not poems",
+            "Some literary works are not poems",
+            "Some literary works are not sonnets",
+            "Some poems are not literary works",
+            "Some poems are not sonnets",
+            "No sonnet is literary work",
+            "No sonnet is poem",
+            "No poem is literary work",
+            "No poem is sonnet",
+            "No literary work is poem",
+            "No literary work is sonnet"
+          ]
+        }
+    ]
+  }
+}

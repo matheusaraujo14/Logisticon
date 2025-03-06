@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Astronomy": [
+		{
+          "premises": [ 
+            "The star is a supernova or the star is a red giant but not both at the same time",
+            "The star is not a supernova"
+          ],
+          "conclusions": [
+			"The star is a red giant",
+			"The star is not a red giant implies the star is a supernova"
+		  ],
+		  "incorrect conclusions": [
+			"The star is not a red giant",
+			"The star is a supernova implies the star is a red giant",
+			"The star is a red giant implies the star is a supernova",
+			"The star is a supernova"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The planet has an atmosphere or the planet has liquid water but not both at the same time",
+            "The planet does not have an atmosphere"
+          ],
+          "conclusions": [
+			"The planet has liquid water",
+			"The planet does not have liquid water implies the planet has an atmosphere"
+		  ],
+		  "incorrect conclusions": [
+			"The planet does not have liquid water",
+			"The planet has an atmosphere implies the planet has liquid water",
+			"The planet has liquid water implies the planet has an atmosphere",
+			"The planet has an atmosphere"
+		  ]
+		},
+		{
+          "premises": [ 
+            "The galaxy is spiral or the galaxy is elliptical but not both at the same time",
+            "The galaxy is not spiral"
+          ],
+          "conclusions": [
+			"The galaxy is elliptical",
+			"The galaxy is not elliptical implies the galaxy is spiral"
+		  ],
+		  "incorrect conclusions": [
+			"The galaxy is not elliptical",
+			"The galaxy is spiral implies the galaxy is elliptical",
+			"The galaxy is elliptical implies the galaxy is spiral",
+			"The galaxy is spiral"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Sports Science": {
+     "Felapton" : [
+		{
+          "major premise": "No soccer balls are baseballs",
+          "minor premise": "All soccer balls are sports gear and some soccer balls exist",
+          "conclusion": "Some sports gear are not baseballs",
+		  "incorrect conclusions": [
+            "All sports gear are baseballs",
+            "All sports gear are soccer balls",
+            "All baseballs are sports gear",
+            "All baseballs are soccer balls",
+            "Some sports gear are baseballs",
+            "Some baseballs are sports gear",
+            "Some baseballs are soccer balls",
+            "Some baseballs are not sports gear",
+            "Some soccer balls are baseballs",
+            "Some soccer balls are not sports gear",
+            "No soccer balls is sports gear",
+            "No sports gear is soccer balls"
+		  ]
+		}
+		
+	 ]
+  }
+}

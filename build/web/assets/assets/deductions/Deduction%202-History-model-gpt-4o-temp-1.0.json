@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "History": [
+      {
+        "premises": [
+          "If a country industrializes rapidly, then it does not remain agrarian",
+          "If a country industrializes rapidly, then it becomes a global power"
+        ],
+        "conclusions": [
+          "If a country industrializes rapidly, then it does not remain agrarian and it becomes a global power",
+          "If a country industrializes rapidly, then it does not remain agrarian or it becomes a global power",
+          "If a country remains agrarian, then it does not industrialize rapidly",
+          "If a country does not become a global power, then it does not industrialize rapidly",
+          "If a country remains agrarian or it does not become a global power, then it does not industrialize rapidly"
+        ],
+        "incorrect conclusions": [
+          "If a country remains agrarian, it does not become a global power",
+          "If a country does not become a global power, it remains agrarian",
+          "If a country does not remain agrarian, then it becomes a global power",
+          "If a country becomes a global power, then it does not remain agrarian",
+          "If a country does not remain agrarian and it becomes a global power, then it industrializes rapidly",
+          "If a country does not remain agrarian or it becomes a global power, then it industrializes rapidly",
+          "If a country remains agrarian or it does not industrialize rapidly, then it industrializes rapidly"
+        ]
+      },
+      {
+        "premises": [
+          "If a leader consolidates power, then dissent is suppressed",
+          "If a leader consolidates power, then policies are implemented swiftly"
+        ],
+        "conclusions": [
+          "If a leader consolidates power, then dissent is suppressed and policies are implemented swiftly",
+          "If a leader consolidates power, then dissent is suppressed or policies are implemented swiftly",
+          "If dissent is not suppressed, then a leader does not consolidate power",
+          "If policies are not implemented swiftly, then a leader does not consolidate power",
+          "If dissent is not suppressed or policies are not implemented swiftly, then a leader does not consolidate power"
+        ],
+        "incorrect conclusions": [
+          "If dissent is not suppressed, policies are not implemented swiftly",
+          "If policies are not implemented swiftly, dissent is suppressed",
+          "If dissent is suppressed, then policies are implemented swiftly",
+          "If policies are implemented swiftly, then dissent is suppressed",
+          "If dissent is not suppressed and policies are implemented swiftly, then a leader consolidates power",
+          "If dissent is not suppressed or policies are implemented swiftly, then a leader consolidates power",
+          "If dissent is suppressed or a leader does not consolidate power, then a leader consolidates power"
+        ]
+      },
+      {
+        "premises": [
+          "If a society experiences a revolution, then the existing government is overthrown",
+          "If a society experiences a revolution, then there is widespread instability"
+        ],
+        "conclusions": [
+          "If a society experiences a revolution, then the existing government is overthrown and there is widespread instability",
+          "If a society experiences a revolution, then the existing government is overthrown or there is widespread instability",
+          "If the existing government is not overthrown, then a society does not experience a revolution",
+          "If there is no widespread instability, then a society does not experience a revolution",
+          "If the existing government is not overthrown or there is no widespread instability, then a society does not experience a revolution"
+        ],
+        "incorrect conclusions": [
+          "If the existing government is not overthrown, there is no widespread instability",
+          "If there is no widespread instability, the existing government is overthrown",
+          "If the existing government is overthrown, then there is widespread instability",
+          "If there is widespread instability, then the existing government is overthrown",
+          "If the existing government is not overthrown and there is widespread instability, then a society experiences a revolution",
+          "If the existing government is not overthrown or there is widespread instability, then a society experiences a revolution",
+          "If the existing government is overthrown or a society does not experience a revolution, then a society experiences a revolution"
+        ]
+      }
+    ]
+  }
+}

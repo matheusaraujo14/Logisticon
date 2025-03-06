@@ -1,0 +1,63 @@
+{
+  "Philosophy": {
+     "Fesapo": [
+        {
+          "major premise": "No existentialist philosophers are empiricist philosophers",
+          "minor premise": "All empiricist philosophers are philosophers and some empiricist philosophers exist",
+          "conclusion": "Some philosophers are not existentialist philosophers",
+          "incorrect conclusions": [
+            "All philosophers are existentialist philosophers",
+            "All philosophers are empiricist philosophers",
+            "All existentialist philosophers are philosophers",
+            "All existentialist philosophers are empiricist philosophers",
+            "Some philosophers are existentialist philosophers",
+            "Some existentialist philosophers are philosophers",
+            "Some existentialist philosophers are empiricist philosophers",
+            "Some existentialist philosophers are not philosophers",
+            "Some empiricist philosophers are existentialist philosophers",
+            "Some empiricist philosophers are not philosophers",
+            "No empiricist philosopher is a philosopher",
+            "No philosopher is an empiricist philosopher"
+          ]
+        },
+        {
+          "major premise": "No metaphysicians are linguists",
+          "minor premise": "All linguists are academics and some linguists exist",
+          "conclusion": "Some academics are not metaphysicians",
+          "incorrect conclusions": [
+            "All academics are metaphysicians",
+            "All academics are linguists",
+            "All metaphysicians are academics",
+            "All metaphysicians are linguists",
+            "Some academics are metaphysicians",
+            "Some metaphysicians are academics",
+            "Some metaphysicians are linguists",
+            "Some metaphysicians are not academics",
+            "Some linguists are metaphysicians",
+            "Some linguists are not academics",
+            "No linguist is an academic",
+            "No academic is a linguist"
+          ]
+        },
+        {
+          "major premise": "No dualists are materialists",
+          "minor premise": "All materialists are philosophers and some materialists exist",
+          "conclusion": "Some philosophers are not dualists",
+          "incorrect conclusions": [
+            "All philosophers are dualists",
+            "All philosophers are materialists",
+            "All dualists are philosophers",
+            "All dualists are materialists",
+            "Some philosophers are dualists",
+            "Some dualists are philosophers",
+            "Some dualists are materialists",
+            "Some dualists are not philosophers",
+            "Some materialists are dualists",
+            "Some materialists are not philosophers",
+            "No materialist is a philosopher",
+            "No philosopher is a materialist"
+          ]
+        }
+     ]
+  }
+}

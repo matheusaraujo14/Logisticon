@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Physics": [
+		{
+          "premises": [ 
+            "If an object is in motion, it has kinetic energy",
+            "The object does not have kinetic energy"
+          ],
+          "conclusions": [
+            "The object is not in motion"
+          ],
+		  "incorrect conclusions": [
+			"The object is in motion",
+			"The object is in motion and it has kinetic energy",
+			"If the object has kinetic energy, then it is in motion",
+			"If the object does not have kinetic energy, then it is in motion",
+			"If the object is not in motion, then it does not have kinetic energy"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If a metal rod is heated, it expands",
+            "The metal rod does not expand"
+          ],
+          "conclusions": [
+            "The metal rod is not heated"
+          ],
+		  "incorrect conclusions": [
+			"The metal rod is heated",
+			"The metal rod is heated and it expands",
+			"If the metal rod expands, then it is heated",
+			"If the metal rod does not expand, then it is heated",
+			"If the metal rod is not heated, then it does not expand"
+		  ]
+		},
+		{
+          "premises": [ 
+            "If a substance is an acid, it turns blue litmus paper red",
+            "The substance does not turn blue litmus paper red"
+          ],
+          "conclusions": [
+            "The substance is not an acid"
+          ],
+		  "incorrect conclusions": [
+			"The substance is an acid",
+			"The substance is an acid and it turns blue litmus paper red",
+			"If the substance turns blue litmus paper red, then it is an acid",
+			"If the substance does not turn blue litmus paper red, then it is an acid",
+			"If the substance is not an acid, then it does not turn blue litmus paper red"
+		  ]
+		}
+	 ]
+  }
+}

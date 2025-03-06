@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Nutrition": [
+      {
+        "premises": [
+          "Eating leafy greens or taking a vitamin supplement improves overall health, but not both at the same time",
+          "Not eating leafy greens"
+        ],
+        "conclusions": [
+          "Taking a vitamin supplement improves overall health",
+          "Not taking a vitamin supplement implies eating leafy greens"
+        ],
+        "incorrect conclusions": [
+          "Taking a vitamin supplement does not improve overall health",
+          "Eating leafy greens implies taking a vitamin supplement",
+          "Taking a vitamin supplement implies eating leafy greens",
+          "Eating leafy greens improves overall health"
+        ]
+      },
+      {
+        "premises": [
+          "Having a high-sugar diet or exercising regularly affects body weight, but not both at the same time",
+          "Not having a high-sugar diet"
+        ],
+        "conclusions": [
+          "Exercising regularly affects body weight",
+          "Not exercising regularly implies having a high-sugar diet"
+        ],
+        "incorrect conclusions": [
+          "Exercising regularly does not affect body weight",
+          "Having a high-sugar diet implies exercising regularly",
+          "Exercising regularly implies having a high-sugar diet",
+          "Having a high-sugar diet affects body weight"
+        ]
+      },
+      {
+        "premises": [
+          "Drinking enough water or consuming fiber helps digestion, but not both at the same time",
+          "Not drinking enough water"
+        ],
+        "conclusions": [
+          "Consuming fiber helps digestion",
+          "Not consuming fiber implies drinking enough water"
+        ],
+        "incorrect conclusions": [
+          "Consuming fiber does not help digestion",
+          "Drinking enough water implies consuming fiber",
+          "Consuming fiber implies drinking enough water",
+          "Drinking enough water helps digestion"
+        ]
+      }
+    ]
+  }
+}

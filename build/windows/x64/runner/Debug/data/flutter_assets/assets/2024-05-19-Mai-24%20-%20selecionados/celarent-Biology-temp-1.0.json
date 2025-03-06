@@ -1,0 +1,54 @@
+{
+  "Biology": {
+    "Celarent": [
+      {
+        "major premise": "No fishes are mammals",
+        "minor premise": "All sharks are fishes",
+        "conclusion": "No sharks are mammals",
+        "incorrect conclusions": [
+          "All sharks are mammals",
+          "All fishes are mammals",
+          "Some sharks are fishes",
+          "Some sharks are mammals",
+          "Some fishes are sharks",
+          "Some fishes are mammals",
+          "Some fishes are not sharks",
+          "Some mammals are sharks",
+          "Some mammals are fishes"
+        ]
+      },
+      {
+        "major premise": "No reptiles are birds",
+        "minor premise": "All snakes are reptiles",
+        "conclusion": "No snakes are birds",
+        "incorrect conclusions": [
+          "All snakes are birds",
+          "All reptiles are birds",
+          "Some snakes are reptiles",
+          "Some snakes are birds",
+          "Some reptiles are snakes",
+          "Some reptiles are birds",
+          "Some reptiles are not snakes",
+          "Some birds are snakes",
+          "Some birds are reptiles"
+        ]
+      },
+      {
+        "major premise": "No amphibians are mammals",
+        "minor premise": "All frogs are amphibians",
+        "conclusion": "No frogs are mammals",
+        "incorrect conclusions": [
+          "All frogs are mammals",
+          "All amphibians are mammals",
+          "Some frogs are amphibians",
+          "Some frogs are mammals",
+          "Some amphibians are frogs",
+          "Some amphibians are mammals",
+          "Some amphibians are not frogs",
+          "Some mammals are frogs",
+          "Some mammals are amphibians"
+        ]
+      }
+    ]
+  }
+}

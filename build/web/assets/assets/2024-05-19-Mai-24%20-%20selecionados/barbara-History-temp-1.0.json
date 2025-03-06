@@ -1,0 +1,38 @@
+{
+  "History": {
+    "Barbara": [
+      {
+        "major premise": "All historians are researchers",
+        "minor premise": "All researchers are academics",
+        "conclusion": "All researchers are academics",
+        "incorrect conclusions": [
+          "All researchers are historians",
+          "All researchers are historians",
+          "Some academics are historians",
+          "Some researchers are academics",
+          "Some researchers are not academics",
+          "Some researchers are not historians",
+          "Some researchers are not historians",
+          "Some academics are researchers",
+          "Some researchers are historians"
+        ]
+      },
+      {
+        "major premise": "All archaeological artifacts are historical documents",
+        "minor premise": "All historical documents are pieces of evidence",
+        "conclusion": "All historical documents are pieces of evidence",
+        "incorrect conclusions": [
+          "All archaeological artifacts are historical documents",
+          "All historical documents are archaeological artifacts",
+          "Some pieces of evidence are archaeological artifacts",
+          "Some historical documents are pieces of evidence",
+          "Some historical documents are not pieces of evidence",
+          "Some pieces of evidence are not historical documents",
+          "Some historical documents are archaeological artifacts",
+          "Some historical documents are archaeological artifacts",
+          "Some archaeological artifacts are historical documents"
+        ]
+      }
+    ]
+  }
+}

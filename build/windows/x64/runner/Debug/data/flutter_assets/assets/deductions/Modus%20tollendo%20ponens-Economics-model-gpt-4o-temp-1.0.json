@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Economics": [
+      {
+        "premises": [
+          "The interest rate rises or the stock market falls but not both at the same time",
+          "The interest rate does not rise"
+        ],
+        "conclusions": [
+          "The stock market falls",
+          "If the stock market does not fall, then the interest rate rises"
+        ],
+        "incorrect conclusions": [
+          "The stock market does not fall",
+          "If the interest rate rises, then the stock market falls",
+          "If the stock market falls, then the interest rate rises",
+          "The interest rate rises"
+        ]
+      },
+      {
+        "premises": [
+          "There is increased consumer spending or there is a recession but not both at the same time",
+          "There is no increased consumer spending"
+        ],
+        "conclusions": [
+          "There is a recession",
+          "If there is not a recession, then there is increased consumer spending"
+        ],
+        "incorrect conclusions": [
+          "There is not a recession",
+          "If there is increased consumer spending, then there is a recession",
+          "If there is a recession, then there is increased consumer spending",
+          "There is increased consumer spending"
+        ]
+      },
+      {
+        "premises": [
+          "The unemployment rate decreases or inflation increases but not both at the same time",
+          "The unemployment rate does not decrease"
+        ],
+        "conclusions": [
+          "Inflation increases",
+          "If inflation does not increase, then the unemployment rate decreases"
+        ],
+        "incorrect conclusions": [
+          "Inflation does not increase",
+          "If the unemployment rate decreases, then inflation increases",
+          "If inflation increases, then the unemployment rate decreases",
+          "The unemployment rate decreases"
+        ]
+      }
+    ]
+  }
+}

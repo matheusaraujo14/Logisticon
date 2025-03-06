@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Philosophy": [
+      {
+        "premises": [
+          "Either the mind is separate from the body or the mind and body are the same, but not both",
+          "The mind is separate from the body"
+        ],
+        "conclusions": [
+          "The mind and body are not the same"
+        ],
+        "incorrect conclusions": [
+          "The mind and body are the same",
+          "The mind is not separate from the body"
+        ]
+      },
+      {
+        "premises": [
+          "Either moral actions are determined by society or they are determined by individual reasoning, but not both",
+          "Moral actions are determined by society"
+        ],
+        "conclusions": [
+          "Moral actions are not determined by individual reasoning"
+        ],
+        "incorrect conclusions": [
+          "Moral actions are determined by individual reasoning",
+          "Moral actions are not determined by society"
+        ]
+      },
+      {
+        "premises": [
+          "Either knowledge comes from experience or knowledge is innate, but not both",
+          "Knowledge comes from experience"
+        ],
+        "conclusions": [
+          "Knowledge is not innate"
+        ],
+        "incorrect conclusions": [
+          "Knowledge is innate",
+          "Knowledge does not come from experience"
+        ]
+      }
+    ]
+  }
+}

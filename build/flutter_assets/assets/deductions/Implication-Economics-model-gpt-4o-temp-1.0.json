@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Economics": [
+      {
+        "premises": [
+          "If the demand for a product increases, then its price will likely rise"
+        ],
+        "conclusions": [
+          "If the price of a product does not rise, then the demand for it has not increased"
+        ],
+        "incorrect conclusions": [
+          "The demand for the product increases",
+          "The demand for the product does not increase",
+          "The price of the product will likely rise",
+          "The price of the product will not likely rise",
+          "If the price of the product rises, then the demand for it increases",
+          "If the price of the product does not rise, then the demand for it increases",
+          "If the demand for the product does not increase, then the price of it will not likely rise"
+        ]
+      },
+      {
+        "premises": [
+          "If a country lowers its interest rates, then its currency will depreciate"
+        ],
+        "conclusions": [
+          "If the currency of a country does not depreciate, then it has not lowered its interest rates"
+        ],
+        "incorrect conclusions": [
+          "The country lowers its interest rates",
+          "The country does not lower its interest rates",
+          "The currency of the country will depreciate",
+          "The currency of the country will not depreciate",
+          "If the currency depreciates, then the country has lowered its interest rates",
+          "If the currency does not depreciate, then the country has lowered its interest rates",
+          "If the country does not lower its interest rates, then its currency will not depreciate"
+        ]
+      },
+      {
+        "premises": [
+          "If a government increases its spending, then the economy will grow"
+        ],
+        "conclusions": [
+          "If the economy does not grow, then the government has not increased its spending"
+        ],
+        "incorrect conclusions": [
+          "The government increases its spending",
+          "The government does not increase its spending",
+          "The economy will grow",
+          "The economy will not grow",
+          "If the economy grows, then the government has increased its spending",
+          "If the economy does not grow, then the government has increased its spending",
+          "If the government does not increase its spending, then the economy will not grow"
+        ]
+      }
+    ]
+  }
+}

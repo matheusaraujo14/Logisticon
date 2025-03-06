@@ -1,0 +1,75 @@
+{
+  "Engineering": {
+    "Ferio": [
+      {
+        "major premise": "No engineers are doctors",
+        "minor premise": "Some students are engineers",
+        "conclusion": "Some students are not doctors",
+        "incorrect conclusions": [
+          "All engineers are students",
+          "All engineers are doctors",
+          "All students are doctors",
+          "All doctors are engineers",
+          "All doctors are students",
+          "Some engineers are not students",
+          "Some doctors are students",
+          "Some doctors are not students",
+          "Some doctors are engineers",
+          "Some doctors are students",
+          "Some students are doctors",
+          "Some students are not engineers",
+          "Some engineers are doctors",
+          "No engineers are students",
+          "No students are not engineers",
+          "No students are engineers"
+        ]
+      },
+      {
+        "major premise": "No civil engineers are biologists",
+        "minor premise": "Some engineers are civil engineers",
+        "conclusion": "Some engineers are not biologists",
+        "incorrect conclusions": [
+          "All civil engineers are engineers",
+          "All civil engineers are biologists",
+          "All engineers are biologists",
+          "All biologists are civil engineers",
+          "All biologists are engineers",
+          "Some civil engineers are not engineers",
+          "Some biologists are engineers",
+          "Some biologists are not engineers",
+          "Some biologists are civil engineers",
+          "Some biologists are engineers",
+          "Some engineers are biologists",
+          "Some engineers are not civil engineers",
+          "Some civil engineers are biologists",
+          "No civil engineers are engineers",
+          "No engineers are not civil engineers",
+          "No engineers are civil engineers"
+        ]
+      },
+      {
+        "major premise": "No mechanical engineers are chemists",
+        "minor premise": "Some researchers are mechanical engineers",
+        "conclusion": "Some researchers are not chemists",
+        "incorrect conclusions": [
+          "All mechanical engineers are researchers",
+          "All mechanical engineers are chemists",
+          "All researchers are chemists",
+          "All chemists are mechanical engineers",
+          "All chemists are researchers",
+          "Some mechanical engineers are not researchers",
+          "Some chemists are researchers",
+          "Some chemists are not researchers",
+          "Some chemists are mechanical engineers",
+          "Some chemists are researchers",
+          "Some researchers are chemists",
+          "Some researchers are not mechanical engineers",
+          "Some mechanical engineers are chemists",
+          "No mechanical engineers are researchers",
+          "No researchers are not mechanical engineers",
+          "No researchers are mechanical engineers"
+        ]
+      }
+    ]
+  }
+}

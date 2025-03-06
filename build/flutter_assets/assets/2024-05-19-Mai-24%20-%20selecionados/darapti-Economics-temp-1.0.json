@@ -1,0 +1,29 @@
+{
+  "Economics": {
+    "Darapti": [
+      {
+        "major premise": "All economic agents are participants",
+        "minor premise": "All economic agents are decision-makers and some economic agents exist",
+        "conclusion": "Some decision-makers are participants",
+        "incorrect conclusions": [
+          "All decision-makers are participants",
+          "All participants are decision-makers",
+          "All economic agents are not decision-makers",
+          "All economic agents are not participants",
+          "Some decision-makers are not participants",
+          "Some decision-makers are not economic agents",
+          "Some participants are not economic agents",
+          "Some participants are not decision-makers",
+          "Some economic agents are not decision-makers",
+          "Some economic agents are not participants",
+          "No economic agents are decision-makers",
+          "No economic agents are participants",
+          "No participants are economic agents",
+          "No participants are decision-makers",
+          "No decision-makers are economic agents",
+          "No decision-makers are participants"
+        ]
+      }
+    ]
+  }
+}

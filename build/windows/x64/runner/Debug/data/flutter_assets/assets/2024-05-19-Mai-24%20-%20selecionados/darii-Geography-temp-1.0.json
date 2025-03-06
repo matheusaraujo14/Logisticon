@@ -1,0 +1,78 @@
+{
+  "Geography": {
+     "Darii" : [
+		{
+          "major premise": "All lakes are bodies of water",
+          "minor premise": "Some freshwater sources are lakes",
+          "conclusion": "Some freshwater sources are bodies of water",
+		  "incorrect conclusions": [
+			 "All freshwater sources are lakes",
+             "All freshwater sources are bodies of water",
+             "All bodies of water are lakes",
+             "All bodies of water are freshwater sources",
+             "All lakes are freshwater sources",
+             "Some freshwater sources are not bodies of water",
+             "Some freshwater sources are not lakes",
+             "Some bodies of water are not lakes",
+             "Some bodies of water are not freshwater sources",
+             "Some lakes are not bodies of water",
+             "Some lakes are not freshwater sources",
+             "No freshwater source is a body of water",
+             "No freshwater source is a lake",
+             "No lake is a body of water",
+             "No lake is a freshwater source",
+             "No body of water is a lake",
+             "No body of water is a freshwater source"
+		  ]
+		},
+		{
+          "major premise": "All continents are landmasses",
+          "minor premise": "Some islands are continents",
+          "conclusion": "Some islands are landmasses",
+		  "incorrect conclusions": [
+			 "All islands are continents",
+             "All islands are landmasses",
+             "All landmasses are continents",
+             "All landmasses are islands",
+             "All continents are islands",
+             "Some islands are not landmasses",
+             "Some islands are not continents",
+             "Some landmasses are not continents",
+             "Some landmasses are not islands",
+             "Some continents are not landmasses",
+             "Some continents are not islands",
+             "No island is a landmass",
+             "No island is a continent",
+             "No continent is a landmass",
+             "No continent is an island",
+             "No landmass is a continent",
+             "No landmass is an island"
+		  ]
+		},
+		{
+          "major premise": "All deserts are ecosystems",
+          "minor premise": "Some arid regions are deserts",
+          "conclusion": "Some arid regions are ecosystems",
+		  "incorrect conclusions": [
+			 "All arid regions are deserts",
+             "All arid regions are ecosystems",
+             "All ecosystems are deserts",
+             "All ecosystems are arid regions",
+             "All deserts are arid regions",
+             "Some arid regions are not ecosystems",
+             "Some arid regions are not deserts",
+             "Some ecosystems are not deserts",
+             "Some ecosystems are not arid regions",
+             "Some deserts are not ecosystems",
+             "Some deserts are not arid regions",
+             "No arid region is an ecosystem",
+             "No arid region is a desert",
+             "No desert is an ecosystem",
+             "No desert is an arid region",
+             "No ecosystem is a desert",
+             "No ecosystem is an arid region"
+		  ]
+		}
+	 ]
+  }
+}

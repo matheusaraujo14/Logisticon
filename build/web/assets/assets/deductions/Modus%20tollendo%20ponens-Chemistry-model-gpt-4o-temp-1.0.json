@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Chemistry": [
+      {
+        "premises": [
+          "An element is a metal or it is an insulator but not both at the same time",
+          "An element is not a metal"
+        ],
+        "conclusions": [
+          "An element is an insulator",
+          "If an element is not an insulator, then it is a metal"
+        ],
+        "incorrect conclusions": [
+          "An element is not an insulator",
+          "If an element is a metal, then it is an insulator",
+          "If an element is an insulator, then it is a metal",
+          "An element is a metal"
+        ]
+      },
+      {
+        "premises": [
+          "A reaction increases temperature rapidly or it absorbs heat but not both at the same time",
+          "A reaction does not increase temperature rapidly"
+        ],
+        "conclusions": [
+          "A reaction absorbs heat",
+          "If a reaction does not absorb heat, then it increases temperature rapidly"
+        ],
+        "incorrect conclusions": [
+          "A reaction does not absorb heat",
+          "If a reaction increases temperature rapidly, then it absorbs heat",
+          "If a reaction absorbs heat, then it increases temperature rapidly",
+          "A reaction increases temperature rapidly"
+        ]
+      },
+      {
+        "premises": [
+          "A substance is acidic or it is basic but not both at the same time",
+          "A substance is not acidic"
+        ],
+        "conclusions": [
+          "A substance is basic",
+          "If a substance is not basic, then it is acidic"
+        ],
+        "incorrect conclusions": [
+          "A substance is not basic",
+          "If a substance is acidic, then it is basic",
+          "If a substance is basic, then it is acidic",
+          "A substance is acidic"
+        ]
+      }
+    ]
+  }
+}

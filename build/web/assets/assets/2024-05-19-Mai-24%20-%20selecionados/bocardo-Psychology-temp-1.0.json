@@ -1,0 +1,69 @@
+{
+  "Psychology": {
+    "Bocardo": [
+      {
+        "major premise": "Some adolescents are not highly self-disciplined",
+        "minor premise": "All adolescents are young individuals",
+        "conclusion": "Some young individuals are not highly self-disciplined",
+        "incorrect conclusions": [
+          "All adolescents are highly self-disciplined",
+          "All young individuals are adolescents",
+          "All young individuals are highly self-disciplined",
+          "All highly self-disciplined are not adolescents",
+          "Some young individuals are not adolescents",
+          "Some young individuals are highly self-disciplined",
+          "Some adolescents are not young individuals",
+          "Some adolescents are highly self-disciplined",
+          "Some highly self-disciplined are adolescents",
+          "Some highly self-disciplined are young individuals",
+          "Some highly self-disciplined are not young individuals",
+          "Some highly self-disciplined are not adolescents",
+          "No adolescents are young individuals",
+          "No young individuals are adolescents"
+        ]
+      },
+      {
+        "major premise": "Some young adults are not clinical psychologists",
+        "minor premise": "All young adults are humans",
+        "conclusion": "Some humans are not clinical psychologists",
+        "incorrect conclusions": [
+          "All young adults are clinical psychologists",
+          "All humans are young adults",
+          "All humans are clinical psychologists",
+          "All clinical psychologists are not young adults",
+          "Some humans are not young adults",
+          "Some humans are clinical psychologists",
+          "Some young adults are not humans",
+          "Some young adults are clinical psychologists",
+          "Some clinical psychologists are young adults",
+          "Some clinical psychologists are humans",
+          "Some clinical psychologists are not humans",
+          "Some clinical psychologists are not young adults",
+          "No young adults are humans",
+          "No humans are young adults"
+        ]
+      },
+      {
+        "major premise": "Some therapists are not cognitive-behavioral therapists",
+        "minor premise": "All therapists are mental health professionals",
+        "conclusion": "Some mental health professionals are not cognitive-behavioral therapists",
+        "incorrect conclusions": [
+          "All therapists are cognitive-behavioral therapists",
+          "All mental health professionals are therapists",
+          "All mental health professionals are cognitive-behavioral therapists",
+          "All cognitive-behavioral therapists are not therapists",
+          "Some mental health professionals are not therapists",
+          "Some mental health professionals are cognitive-behavioral therapists",
+          "Some therapists are not mental health professionals",
+          "Some therapists are cognitive-behavioral therapists",
+          "Some cognitive-behavioral therapists are therapists",
+          "Some cognitive-behavioral therapists are mental health professionals",
+          "Some cognitive-behavioral therapists are not mental health professionals",
+          "Some cognitive-behavioral therapists are not therapists",
+          "No therapists are mental health professionals",
+          "No mental health professionals are therapists"
+        ]
+      }
+    ]
+  }
+}

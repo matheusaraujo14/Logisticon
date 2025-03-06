@@ -1,0 +1,63 @@
+{
+  "Ecology": {
+    "Felapton": [
+      {
+        "major premise": "No birds are mammals",
+        "minor premise": "All birds are animals and some birds exist",
+        "conclusion": "Some animals are not mammals",
+        "incorrect conclusions": [
+          "All animals are mammals",
+          "All animals are birds",
+          "All mammals are animals",
+          "All mammals are birds",
+          "Some animals are mammals",
+          "Some mammals are animals",
+          "Some mammals are birds",
+          "Some mammals are not animals",
+          "Some birds are mammals",
+          "Some birds are not animals",
+          "No birds are animals",
+          "No animals are birds"
+        ]
+      },
+      {
+        "major premise": "No rocks are plants",
+        "minor premise": "All rocks are minerals and some rocks exist",
+        "conclusion": "Some minerals are not plants",
+        "incorrect conclusions": [
+          "All minerals are plants",
+          "All minerals are rocks",
+          "All plants are minerals",
+          "All plants are rocks",
+          "Some minerals are plants",
+          "Some plants are minerals",
+          "Some plants are rocks",
+          "Some plants are not minerals",
+          "Some rocks are plants",
+          "Some rocks are not minerals",
+          "No rocks are minerals",
+          "No minerals are rocks"
+        ]
+      },
+      {
+        "major premise": "No fish are insects",
+        "minor premise": "All fish are vertebrates and some fish exist",
+        "conclusion": "Some vertebrates are not insects",
+        "incorrect conclusions": [
+          "All vertebrates are insects",
+          "All vertebrates are fish",
+          "All insects are vertebrates",
+          "All insects are fish",
+          "Some vertebrates are insects",
+          "Some insects are vertebrates",
+          "Some insects are fish",
+          "Some insects are not vertebrates",
+          "Some fish are insects",
+          "Some fish are not vertebrates",
+          "No fish are vertebrates",
+          "No vertebrates are fish"
+        ]
+      }
+    ]
+  }
+}

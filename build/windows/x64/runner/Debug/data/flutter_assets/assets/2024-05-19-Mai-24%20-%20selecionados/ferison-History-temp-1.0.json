@@ -1,0 +1,75 @@
+{
+  "History": {
+     "Ferison": [
+		{
+		  "major premise": "No ancient artifacts are modern inventions",
+		  "minor premise": "Some ancient artifacts are archaeological finds",
+		  "conclusion": "Some archaeological finds are not modern inventions",
+		  "incorrect conclusions": [
+		    "All modern inventions are archaeological finds",
+		    "All modern inventions are ancient artifacts",
+		    "All archaeological finds are modern inventions",
+		    "All ancient artifacts are modern inventions",
+		    "All ancient artifacts are archaeological finds",
+		    "Some modern inventions are not archaeological finds",
+		    "Some ancient artifacts are archaeological finds",
+		    "Some ancient artifacts are not archaeological finds",
+		    "Some ancient artifacts are modern inventions",
+		    "Some ancient artifacts are archaeological finds",
+		    "Some archaeological finds are modern inventions",
+		    "Some archaeological finds are not ancient artifacts",
+		    "Some ancient artifacts are modern inventions",
+		    "No ancient artifacts are archaeological finds",
+		    "No archaeological finds are not ancient artifacts",
+		    "No archaeological finds are ancient artifacts"
+		  ]
+		},
+		{
+		  "major premise": "No ancient civilizations are modern nations",
+		  "minor premise": "Some ancient civilizations are archaeological sites",
+		  "conclusion": "Some archaeological sites are not modern nations",
+		  "incorrect conclusions": [
+		    "All modern nations are archaeological sites",
+		    "All modern nations are ancient civilizations",
+		    "All archaeological sites are modern nations",
+		    "All ancient civilizations are modern nations",
+		    "All ancient civilizations are archaeological sites",
+		    "Some modern nations are not archaeological sites",
+		    "Some ancient civilizations are archaeological sites",
+		    "Some ancient civilizations are not archaeological sites",
+		    "Some ancient civilizations are modern nations",
+		    "Some ancient civilizations are archaeological sites",
+		    "Some archaeological sites are modern nations",
+		    "Some archaeological sites are not ancient civilizations",
+		    "Some ancient civilizations are modern nations",
+		    "No ancient civilizations are archaeological sites",
+		    "No archaeological sites are not ancient civilizations",
+		    "No archaeological sites are ancient civilizations"
+		  ]
+		},
+		{
+		  "major premise": "No medieval knights are modern soldiers",
+		  "minor premise": "Some medieval knights are depicted in historical manuscripts",
+		  "conclusion": "Some historical manuscripts depict knights who are not modern soldiers",
+		  "incorrect conclusions": [
+		    "All modern soldiers are historical manuscripts",
+		    "All modern soldiers are medieval knights",
+		    "All historical manuscripts are modern soldiers",
+		    "All medieval knights are modern soldiers",
+		    "All medieval knights are historical manuscripts",
+		    "Some modern soldiers are not historical manuscripts",
+		    "Some medieval knights are historical manuscripts",
+		    "Some medieval knights are not historical manuscripts",
+		    "Some medieval knights are modern soldiers",
+		    "Some medieval knights are historical manuscripts",
+		    "Some historical manuscripts depict modern soldiers",
+		    "Some historical manuscripts depict knights who are modern soldiers",
+		    "Some medieval knights are modern soldiers",
+		    "No medieval knights are historical manuscripts",
+		    "No historical manuscripts are not medieval knights",
+		    "No historical manuscripts are medieval knights"
+		  ]
+		}
+	 ]
+  }
+}

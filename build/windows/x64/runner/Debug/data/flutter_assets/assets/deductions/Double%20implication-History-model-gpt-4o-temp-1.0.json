@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "History": [
+      {
+        "premises": [
+          "If the Roman Empire falls, then Europe enters the Dark Ages",
+          "If Europe enters the Dark Ages, then scientific progress slows down"
+        ],
+        "conclusions": [
+          "If the Roman Empire falls, then scientific progress slows down",
+          "If scientific progress does not slow down, the Roman Empire does not fall",
+          "If the Roman Empire falls or Europe enters the Dark Ages, scientific progress slows down and the Roman Empire falling implies scientific progress slowing down",
+          "If the Roman Empire falls, scientific progress slows down and the Roman Empire falling implies scientific progress slowing down",
+          "If the Roman Empire does not fall and Europe enters the Dark Ages, scientific progress slows down and the Roman Empire falling implies scientific progress slowing down",
+          "If the Roman Empire falls or Europe enters the Dark Ages, scientific progress slows down"
+        ],
+        "incorrect conclusions": [
+          "The Roman Empire falls",
+          "If scientific progress slows down, the Roman Empire falls",
+          "If scientific progress slows down, the Roman Empire does not fall",
+          "Scientific progress slows down",
+          "Scientific progress does not slow down",
+          "If scientific progress does not slow down, the Roman Empire falls",
+          "If Europe does not enter the Dark Ages, scientific progress slows down",
+          "If the Roman Empire falls or Europe does not enter the Dark Ages, then scientific progress slows down"
+        ]
+      },
+      {
+        "premises": [
+          "If the Industrial Revolution occurs, then urbanization increases",
+          "If urbanization increases, then living conditions change"
+        ],
+        "conclusions": [
+          "If the Industrial Revolution occurs, then living conditions change",
+          "If living conditions do not change, the Industrial Revolution does not occur",
+          "If the Industrial Revolution occurs or urbanization increases, living conditions change and the Industrial Revolution occurring implies living conditions changing",
+          "If the Industrial Revolution occurs, living conditions change and the Industrial Revolution occurring implies living conditions changing",
+          "If the Industrial Revolution does not occur and urbanization increases, living conditions change and the Industrial Revolution occurring implies living conditions changing",
+          "If the Industrial Revolution occurs or urbanization increases, living conditions change"
+        ],
+        "incorrect conclusions": [
+          "The Industrial Revolution occurs",
+          "If living conditions change, the Industrial Revolution occurs",
+          "If living conditions change, the Industrial Revolution does not occur",
+          "Living conditions change",
+          "Living conditions do not change",
+          "If living conditions do not change, the Industrial Revolution occurs",
+          "If urbanization does not increase, living conditions change",
+          "If the Industrial Revolution occurs or urbanization does not increase, then living conditions change"
+        ]
+      },
+      {
+        "premises": [
+          "If the printing press is invented, then literacy rates increase",
+          "If literacy rates increase, then information spreads faster"
+        ],
+        "conclusions": [
+          "If the printing press is invented, then information spreads faster",
+          "If information does not spread faster, the printing press is not invented",
+          "If the printing press is invented or literacy rates increase, information spreads faster and the printing press being invented implies information spreading faster",
+          "If the printing press is invented, information spreads faster and the printing press being invented implies information spreading faster",
+          "If the printing press is not invented and literacy rates increase, information spreads faster and the printing press being invented implies information spreading faster",
+          "If the printing press is invented or literacy rates increase, information spreads faster"
+        ],
+        "incorrect conclusions": [
+          "The printing press is invented",
+          "If information spreads faster, the printing press is invented",
+          "If information spreads faster, the printing press is not invented",
+          "Information spreads faster",
+          "Information does not spread faster",
+          "If information does not spread faster, the printing press is invented",
+          "If literacy rates do not increase, information spreads faster",
+          "If the printing press is invented or literacy rates do not increase, then information spreads faster"
+        ]
+      }
+    ]
+  }
+}

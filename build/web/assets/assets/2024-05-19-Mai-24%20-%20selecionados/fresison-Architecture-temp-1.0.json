@@ -1,0 +1,52 @@
+{
+  "Architecture": {
+     "Fresison" : [
+		{
+          "major premise": "No art_deco_structures are steel_buildings",
+          "minor premise": "Some steel_buildings are residential_buildings",
+          "conclusion": "Some residential_buildings are not art_deco_structures",
+		  "incorrect conclusions": [
+			"All steel_buildings are residential_buildings",
+			"All steel_buildings are art_deco_structures",
+			"All residential_buildings are art_deco_structures",
+			"All art_deco_structures are steel_buildings",
+			"All art_deco_structures are residential_buildings",
+			"Some steel_buildings are not residential_buildings",
+			"Some art_deco_structures are residential_buildings",
+			"Some art_deco_structures are not residential_buildings",
+			"Some art_deco_structures are steel_buildings",
+			"Some art_deco_structures are residential_buildings",
+			"Some residential_buildings are art_deco_structures",
+			"Some residential_buildings are not steel_buildings",
+			"Some steel_buildings are art_deco_structures",
+			"No steel_buildings is residential_buildings",
+			"No residential_buildings is not steel_buildings",
+			"No residential_buildings is steel_buildings"
+		  ]
+		},
+		{
+          "major premise": "No classical_cathedrals are glass_structures",
+          "minor premise": "Some glass_structures are museums",
+          "conclusion": "Some museums are not classical_cathedrals",
+		  "incorrect conclusions": [
+			"All glass_structures are museums",
+			"All glass_structures are classical_cathedrals",
+			"All museums are classical_cathedrals",
+			"All classical_cathedrals are glass_structures",
+			"All classical_cathedrals are museums",
+			"Some glass_structures are not museums",
+			"Some classical_cathedrals are museums",
+			"Some classical_cathedrals are not museums",
+			"Some classical_cathedrals are glass_structures",
+			"Some classical_cathedrals are museums",
+			"Some museums are classical_cathedrals",
+			"Some museums are not glass_structures",
+			"Some glass_structures are classical_cathedrals",
+			"No glass_structures is museums",
+			"No museums is not glass_structures",
+			"No museums is glass_structures"
+		  ]
+		}
+	 ]
+  }
+}

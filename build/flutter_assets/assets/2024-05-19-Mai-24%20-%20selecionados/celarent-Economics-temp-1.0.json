@@ -1,0 +1,38 @@
+{
+  "Economics": {
+    "Celarent": [
+      {
+        "major premise": "No oligopolies are perfectly competitive markets",
+        "minor premise": "All tech companies are oligopolies",
+        "conclusion": "No tech companies are perfectly competitive markets",
+        "incorrect conclusions": [
+          "All tech companies are perfectly competitive markets",
+          "All oligopolies are perfectly competitive markets",
+          "Some tech companies are oligopolies",
+          "Some tech companies are perfectly competitive markets",
+          "Some oligopolies are tech companies",
+          "Some oligopolies are perfectly competitive markets",
+          "Some oligopolies are not tech companies",
+          "Some perfectly competitive markets are tech companies",
+          "Some perfectly competitive markets are oligopolies"
+        ]
+      },
+      {
+        "major premise": "No black markets are regulated markets",
+        "minor premise": "All drug trades are black markets",
+        "conclusion": "No drug trades are regulated markets",
+        "incorrect conclusions": [
+          "All drug trades are regulated markets",
+          "All black markets are regulated markets",
+          "Some drug trades are black markets",
+          "Some drug trades are regulated markets",
+          "Some black markets are drug trades",
+          "Some black markets are regulated markets",
+          "Some black markets are not drug trades",
+          "Some regulated markets are drug trades",
+          "Some regulated markets are black markets"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Physics": [
+      {
+        "premises": [ 
+          "If a conductor carries a current, then it generates a magnetic field",
+          "If a conductor carries a current, then it experiences a force in a magnetic field"
+        ],
+        "conclusions": [
+          "If a conductor carries a current, it generates a magnetic field and experiences a force in a magnetic field",
+          "If a conductor carries a current, it generates a magnetic field or experiences a force in a magnetic field",
+          "If a conductor generates a magnetic field, then it does not carry a current",
+          "If a conductor does not experience a force in a magnetic field, then it does not carry a current",
+          "If a conductor generates a magnetic field or does not experience a force in a magnetic field, then it does not carry a current"
+        ],
+        "incorrect conclusions": [
+          "If a conductor generates a magnetic field, it does not experience a force in a magnetic field",
+          "If a conductor does not experience a force in a magnetic field, then it generates a magnetic field",
+          "If a conductor does not generate a magnetic field, then it experiences a force in a magnetic field",
+          "If a conductor experiences a force in a magnetic field, then it does not generate a magnetic field",
+          "If a conductor does not generate a magnetic field and experiences a force in a magnetic field, it carries a current",
+          "If a conductor does not generate a magnetic field or experiences a force in a magnetic field, it carries a current",
+          "If a conductor generates a magnetic field or does not carry a current, it carries a current"
+        ]
+      },
+      {
+        "premises": [ 
+          "If an object is accelerating, then it is subject to a net force",
+          "If an object is accelerating, then its velocity is changing"
+        ],
+        "conclusions": [
+          "If an object is accelerating, it is subject to a net force and its velocity is changing",
+          "If an object is accelerating, it is subject to a net force or its velocity is changing",
+          "If an object is subject to a net force, then it is not accelerating",
+          "If an objectâs velocity is not changing, then it is not accelerating",
+          "If an object is subject to a net force or its velocity is not changing, then it is not accelerating"
+        ],
+        "incorrect conclusions": [
+          "If an object is subject to a net force, its velocity is not changing",
+          "If an objectâs velocity is not changing, then it is subject to a net force",
+          "If an object is not subject to a net force, then its velocity is changing",
+          "If an objectâs velocity is changing, then it is not subject to a net force",
+          "If an object is not subject to a net force and its velocity is changing, it is accelerating",
+          "If an object is not subject to a net force or its velocity is changing, it is accelerating",
+          "If an object is subject to a net force or not accelerating, it is accelerating"
+        ]
+      },
+      {
+        "premises": [ 
+          "If a gas is compressed, then its volume decreases",
+          "If a gas is compressed, then its pressure increases"
+        ],
+        "conclusions": [
+          "If a gas is compressed, its volume decreases and its pressure increases",
+          "If a gas is compressed, its volume decreases or its pressure increases",
+          "If a gas's volume decreases, then it is not compressed",
+          "If a gas's pressure does not increase, then it is not compressed",
+          "If a gas's volume decreases or its pressure does not increase, it is not compressed"
+        ],
+        "incorrect conclusions": [
+          "If a gas's volume decreases, its pressure does not increase",
+          "If a gas's pressure does not increase, then its volume decreases",
+          "If a gas's volume does not decrease, then its pressure increases",
+          "If a gas's pressure increases, then its volume does not decrease",
+          "If a gas's volume does not decrease and its pressure increases, it is compressed",
+          "If a gas's volume does not decrease or its pressure increases, it is compressed",
+          "If a gas's volume decreases or it is not compressed, it is compressed"
+        ]
+      }
+    ]
+  }
+}

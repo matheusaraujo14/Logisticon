@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Chemistry": [
+      {
+        "premises": [
+          "If a solution is acidic, then it turns blue litmus paper red"
+        ],
+        "conclusions": [
+          "If a solution does not turn blue litmus paper red, then it is not acidic"
+        ],
+        "incorrect conclusions": [
+          "The solution is acidic",
+          "The solution is not acidic",
+          "The solution turns blue litmus paper red",
+          "The solution does not turn blue litmus paper red",
+          "If a solution turns blue litmus paper red, then it is acidic",
+          "If a solution does not turn blue litmus paper red, then it is acidic",
+          "If a solution is not acidic, then it does not turn blue litmus paper red"
+        ]
+      },
+      {
+        "premises": [
+          "If sodium reacts with water, then the reaction produces hydrogen gas"
+        ],
+        "conclusions": [
+          "If the reaction does not produce hydrogen gas, then sodium did not react with water"
+        ],
+        "incorrect conclusions": [
+          "Sodium reacts with water",
+          "Sodium does not react with water",
+          "The reaction produces hydrogen gas",
+          "The reaction does not produce hydrogen gas",
+          "If the reaction produces hydrogen gas, then sodium reacts with water",
+          "If the reaction does not produce hydrogen gas, then sodium reacts with water",
+          "If sodium does not react with water, then the reaction does not produce hydrogen gas"
+        ]
+      },
+      {
+        "premises": [
+          "If a metal is reactive with acid, then it produces bubbles of hydrogen gas"
+        ],
+        "conclusions": [
+          "If a metal does not produce bubbles of hydrogen gas, then it is not reactive with acid"
+        ],
+        "incorrect conclusions": [
+          "The metal is reactive with acid",
+          "The metal is not reactive with acid",
+          "The metal produces bubbles of hydrogen gas",
+          "The metal does not produce bubbles of hydrogen gas",
+          "If a metal produces bubbles of hydrogen gas, then it is reactive with acid",
+          "If a metal does not produce bubbles of hydrogen gas, then it is reactive with acid",
+          "If a metal is not reactive with acid, then it does not produce bubbles of hydrogen gas"
+        ]
+      }
+    ]
+  }
+}

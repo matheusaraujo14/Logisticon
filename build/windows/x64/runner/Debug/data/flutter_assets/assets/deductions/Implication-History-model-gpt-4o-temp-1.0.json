@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "History": [
+      {
+        "premises": [
+          "If the Roman Empire expands, then new territories are conquered"
+        ],
+        "conclusions": [
+          "If new territories are not conquered, then the Roman Empire does not expand"
+        ],
+        "incorrect conclusions": [
+          "The Roman Empire expands",
+          "The Roman Empire does not expand",
+          "New territories are conquered",
+          "New territories are not conquered",
+          "If new territories are conquered, then the Roman Empire expands",
+          "If new territories are not conquered, then the Roman Empire expands",
+          "If the Roman Empire does not expand, then new territories are not conquered"
+        ]
+      },
+      {
+        "premises": [
+          "If the Industrial Revolution occurs, then machinery improves production efficiency"
+        ],
+        "conclusions": [
+          "If machinery does not improve production efficiency, then the Industrial Revolution does not occur"
+        ],
+        "incorrect conclusions": [
+          "The Industrial Revolution occurs",
+          "The Industrial Revolution does not occur",
+          "Machinery improves production efficiency",
+          "Machinery does not improve production efficiency",
+          "If machinery improves production efficiency, then the Industrial Revolution occurs",
+          "If machinery does not improve production efficiency, then the Industrial Revolution occurs",
+          "If the Industrial Revolution does not occur, then machinery does not improve production efficiency"
+        ]
+      },
+      {
+        "premises": [
+          "If the French Revolution starts, then the monarchy is challenged"
+        ],
+        "conclusions": [
+          "If the monarchy is not challenged, then the French Revolution does not start"
+        ],
+        "incorrect conclusions": [
+          "The French Revolution starts",
+          "The French Revolution does not start",
+          "The monarchy is challenged",
+          "The monarchy is not challenged",
+          "If the monarchy is challenged, then the French Revolution starts",
+          "If the monarchy is not challenged, then the French Revolution starts",
+          "If the French Revolution does not start, then the monarchy is not challenged"
+        ]
+      }
+    ]
+  }
+}

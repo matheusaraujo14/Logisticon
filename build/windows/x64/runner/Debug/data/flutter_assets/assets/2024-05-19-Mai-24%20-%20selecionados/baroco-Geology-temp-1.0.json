@@ -1,0 +1,40 @@
+{
+  "Geology": {
+    "Baroco": [
+      {
+        "major premise": "All igneous rocks are minerals",
+        "minor premise": "Some sedimentary rocks are not minerals",
+        "conclusion": "Some sedimentary rocks are not igneous rocks",
+        "incorrect conclusions": [
+          "All sedimentary rocks are not minerals",
+          "All sedimentary rocks are igneous rocks",
+          "All sedimentary rocks are minerals",
+          "Some igneous rocks are sedimentary rocks",
+          "Some igneous rocks are not sedimentary rocks",
+          "Some igneous rocks are not minerals",
+          "Some sedimentary rocks are minerals",
+          "Some sedimentary rocks are igneous rocks",
+          "Some minerals are not igneous rocks",
+          "Some minerals are sedimentary rocks"
+        ]
+      },
+      {
+        "major premise": "All gemstones are minerals",
+        "minor premise": "Some fossils are not minerals",
+        "conclusion": "Some fossils are not gemstones",
+        "incorrect conclusions": [
+          "All fossils are not minerals",
+          "All fossils are gemstones",
+          "All fossils are minerals",
+          "Some gemstones are fossils",
+          "Some gemstones are not fossils",
+          "Some gemstones are not minerals",
+          "Some fossils are minerals",
+          "Some fossils are gemstones",
+          "Some minerals are not gemstones",
+          "Some minerals are fossils"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Mathematics": [
+      {
+        "premises": [
+          "A number is even or it is odd but not both at the same time",
+          "A number is not even"
+        ],
+        "conclusions": [
+          "A number is odd",
+          "If a number is not odd, then it is even"
+        ],
+        "incorrect conclusions": [
+          "A number is not odd",
+          "If a number is even, then it is odd",
+          "If a number is odd, then it is even",
+          "A number is even"
+        ]
+      },
+      {
+        "premises": [
+          "A function is continuous or it is not differentiable but not both at the same time",
+          "A function is not continuous"
+        ],
+        "conclusions": [
+          "A function is not differentiable",
+          "If a function is differentiable, then it is continuous"
+        ],
+        "incorrect conclusions": [
+          "A function is continuous",
+          "If a function is continuous, then it is not differentiable",
+          "If a function is not differentiable, then it is continuous",
+          "A function is continuous"
+        ]
+      },
+      {
+        "premises": [
+          "A matrix is invertible or it has no inverse but not both at the same time",
+          "A matrix is not invertible"
+        ],
+        "conclusions": [
+          "A matrix has no inverse",
+          "If a matrix has an inverse, then it is invertible"
+        ],
+        "incorrect conclusions": [
+          "A matrix is invertible",
+          "If a matrix is invertible, then it has an inverse",
+          "If a matrix has no inverse, then it is invertible",
+          "A matrix is invertible"
+        ]
+      }
+    ]
+  }
+}

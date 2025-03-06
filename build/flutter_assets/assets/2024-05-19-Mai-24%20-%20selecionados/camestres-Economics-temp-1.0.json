@@ -1,0 +1,38 @@
+{
+  "Economics": {
+    "Camestres": [
+      {
+        "major premise": "All economists are social scientists",
+        "minor premise": "No accountants are social scientists",
+        "conclusion": "No accountants are economists",
+        "incorrect conclusions": [
+          "All economists are accountants",
+          "All social scientists are accountants",
+          "Some economists are social scientists",
+          "Some economists are accountants",
+          "Some social scientists are accountants",
+          "Some social scientists are economists",
+          "Some accountants are social scientists",
+          "Some accountants are economists",
+          "Some social scientists are not economists"
+        ]
+      },
+      {
+        "major premise": "All capital goods are assets",
+        "minor premise": "No liabilities are assets",
+        "conclusion": "No liabilities are capital goods",
+        "incorrect conclusions": [
+          "All capital goods are liabilities",
+          "All assets are liabilities",
+          "Some capital goods are assets",
+          "Some capital goods are liabilities",
+          "Some assets are liabilities",
+          "Some assets are capital goods",
+          "Some liabilities are assets",
+          "Some liabilities are capital goods",
+          "Some assets are not capital goods"
+        ]
+      }
+    ]
+  }
+}

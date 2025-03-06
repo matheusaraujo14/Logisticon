@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Geography": [
+      {
+        "premises": [
+          "If an island is volcanic, then it has fertile soil",
+          "The island is volcanic"
+        ],
+        "conclusions": [
+          "The island has fertile soil"
+        ],
+        "incorrect conclusions": [
+          "The island does not have fertile soil",
+          "If the island has fertile soil, then it is volcanic",
+          "If the island does not have fertile soil, then it is volcanic",
+          "If the island is not volcanic, then it does not have fertile soil"
+        ]
+      },
+      {
+        "premises": [
+          "If a region is coastal, then it has a maritime climate",
+          "The region is coastal"
+        ],
+        "conclusions": [
+          "The region has a maritime climate"
+        ],
+        "incorrect conclusions": [
+          "The region does not have a maritime climate",
+          "If the region has a maritime climate, then it is coastal",
+          "If the region does not have a maritime climate, then it is coastal",
+          "If the region is not coastal, then it does not have a maritime climate"
+        ]
+      },
+      {
+        "premises": [
+          "If a river flows into the ocean, then it creates a delta",
+          "The river flows into the ocean"
+        ],
+        "conclusions": [
+          "The river creates a delta"
+        ],
+        "incorrect conclusions": [
+          "The river does not create a delta",
+          "If the river creates a delta, then it flows into the ocean",
+          "If the river does not create a delta, then it flows into the ocean",
+          "If the river does not flow into the ocean, then it does not create a delta"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If the moon is full, the sky is not cloudy",
+          "If the moon is full, the stars are visible"
+        ],
+        "conclusions": [
+          "If the moon is full, the sky is not cloudy and the stars are visible",
+          "If the moon is full, the sky is not cloudy or the stars are visible",
+          "If the sky is cloudy, the moon is not full",
+          "If the stars are not visible, the moon is not full",
+          "If the sky is cloudy or the stars are not visible, the moon is not full"
+        ],
+        "incorrect conclusions": [
+          "If the sky is cloudy, the stars are not visible",
+          "If the stars are not visible, the sky is cloudy",
+          "If the sky is not cloudy, the stars are visible",
+          "If the stars are visible, the sky is not cloudy",
+          "If the sky is not cloudy and the stars are visible, the moon is full",
+          "If the sky is not cloudy or the stars are visible, the moon is full",
+          "If the sky is cloudy or the moon is not full, the moon is full"
+        ]
+      },
+      {
+        "premises": [
+          "If a star is red, it is not young",
+          "If a star is red, it is expanding"
+        ],
+        "conclusions": [
+          "If a star is red, it is not young and it is expanding",
+          "If a star is red, it is not young or it is expanding",
+          "If a star is young, it is not red",
+          "If a star is not expanding, it is not red",
+          "If a star is young or not expanding, it is not red"
+        ],
+        "incorrect conclusions": [
+          "If a star is young, it is not expanding",
+          "If a star is not expanding, it is young",
+          "If a star is not young, it is expanding",
+          "If a star is expanding, it is not young",
+          "If a star is not young and expanding, it is red",
+          "If a star is not young or expanding, it is red",
+          "If a star is young or not red, it is red"
+        ]
+      },
+      {
+        "premises": [
+          "If a comet approaches the sun, it develops a tail",
+          "If a comet approaches the sun, it heats up"
+        ],
+        "conclusions": [
+          "If a comet approaches the sun, it develops a tail and heats up",
+          "If a comet approaches the sun, it develops a tail or heats up",
+          "If a comet does not develop a tail, it does not approach the sun",
+          "If a comet does not heat up, it does not approach the sun",
+          "If a comet does not develop a tail or does not heat up, it does not approach the sun"
+        ],
+        "incorrect conclusions": [
+          "If a comet does not develop a tail, it does not heat up",
+          "If a comet does not heat up, it develops a tail",
+          "If a comet develops a tail, it heats up",
+          "If a comet heats up, it develops a tail",
+          "If a comet does not develop a tail and heats up, it approaches the sun",
+          "If a comet does not develop a tail or heats up, it approaches the sun",
+          "If a comet develops a tail or does not approach the sun, it approaches the sun"
+        ]
+      }
+    ]
+  }
+}

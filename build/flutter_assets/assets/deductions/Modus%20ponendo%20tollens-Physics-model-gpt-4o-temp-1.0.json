@@ -1,0 +1,45 @@
+{
+  "Modus ponendo tollens": {
+    "Physics": [
+      {
+          "premises": [ 
+            "The atom is in an excited state or the electron remains in the ground state but not both are true",
+            "The atom is in an excited state"
+          ],
+          "conclusions": [
+            "The electron remains in the ground state is not the case"
+          ],
+          "incorrect conclusions": [
+            "The electron remains in the ground state",
+            "The atom is not in an excited state"
+          ]
+      },
+      {
+          "premises": [ 
+            "The material is superconducting or it has high resistance but not both are true",
+            "The material is superconducting"
+          ],
+          "conclusions": [
+            "The material does not have high resistance"
+          ],
+          "incorrect conclusions": [
+            "The material has high resistance",
+            "The material is not superconducting"
+          ]
+      },
+      {
+          "premises": [ 
+            "The car's velocity increases or the frictional force is high but not both are true",
+            "The car's velocity increases"
+          ],
+          "conclusions": [
+            "The frictional force is not high"
+          ],
+          "incorrect conclusions": [
+            "The frictional force is high",
+            "The car's velocity does not increase"
+          ]
+      }
+    ]
+  }
+}

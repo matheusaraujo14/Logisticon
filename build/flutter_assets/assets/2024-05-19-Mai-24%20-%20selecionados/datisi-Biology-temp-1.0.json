@@ -1,0 +1,78 @@
+{
+  "Biology": {
+    "Datisi": [
+      {
+        "major premise": "All mammals are vertebrates",
+        "minor premise": "Some mammals are carnivores",
+        "conclusion": "Some carnivores are vertebrates",
+        "incorrect conclusions": [
+          "All carnivores are mammals",
+          "All carnivores are vertebrates",
+          "All vertebrates are mammals",
+          "All vertebrates are carnivores",
+          "All mammals are carnivores",
+          "Some carnivores are not vertebrates",
+          "Some carnivores are not mammals",
+          "Some vertebrates are not mammals",
+          "Some vertebrates are not carnivores",
+          "Some mammals are not vertebrates",
+          "Some mammals are not carnivores",
+          "No carnivores is vertebrates",
+          "No carnivores is mammals",
+          "No mammals is vertebrates",
+          "No mammals is carnivores",
+          "No vertebrates is mammals",
+          "No vertebrates is carnivores"
+        ]
+      },
+      {
+        "major premise": "All birds are animals",
+        "minor premise": "Some birds are parrots",
+        "conclusion": "Some parrots are animals",
+        "incorrect conclusions": [
+          "All parrots are birds",
+          "All parrots are animals",
+          "All animals are birds",
+          "All animals are parrots",
+          "All birds are parrots",
+          "Some parrots are not animals",
+          "Some parrots are not birds",
+          "Some animals are not birds",
+          "Some animals are not parrots",
+          "Some birds are not animals",
+          "Some birds are not parrots",
+          "No parrots is animals",
+          "No parrots is birds",
+          "No birds is animals",
+          "No birds is parrots",
+          "No animals is birds",
+          "No animals is parrots"
+        ]
+      },
+      {
+        "major premise": "All reptiles are cold-blooded",
+        "minor premise": "Some reptiles are iguanas",
+        "conclusion": "Some iguanas are cold-blooded",
+        "incorrect conclusions": [
+          "All iguanas are reptiles",
+          "All iguanas are cold-blooded",
+          "All cold-blooded are reptiles",
+          "All cold-blooded are iguanas",
+          "All reptiles are iguanas",
+          "Some iguanas are not cold-blooded",
+          "Some iguanas are not reptiles",
+          "Some cold-blooded are not reptiles",
+          "Some cold-blooded are not iguanas",
+          "Some reptiles are not cold-blooded",
+          "Some reptiles are not iguanas",
+          "No iguanas is cold-blooded",
+          "No iguanas is reptiles",
+          "No reptiles is cold-blooded",
+          "No reptiles is iguanas",
+          "No cold-blooded is reptiles",
+          "No cold-blooded is iguanas"
+        ]
+      }
+    ]
+  }
+}

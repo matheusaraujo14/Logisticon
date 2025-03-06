@@ -1,0 +1,78 @@
+{
+  "Double implication": {
+    "Philosophy": [
+		{
+          "premises": [
+            "If a person seeks happiness, then they must have a goal",
+            "If a person has a goal, then they will experience motivation"
+          ],
+          "conclusions": [
+            "If a person seeks happiness, then they will experience motivation",
+            "If a person does not experience motivation, then they do not seek happiness",
+            "If a person seeks happiness or has a goal, then they will experience motivation and if a person seeks happiness, then they will experience motivation",
+            "If a person seeks happiness, then they will experience motivation and if a person seeks happiness, then they will experience motivation",
+            "If a person does not seek happiness and has a goal, then they will experience motivation and if a person seeks happiness, then they will experience motivation",
+            "If a person seeks happiness or has a goal, then they will experience motivation"
+          ],
+          "incorrect conclusions": [
+            "A person seeks happiness",
+            "If a person will experience motivation, then they seek happiness",
+            "If a person will experience motivation, then they do not seek happiness",
+            "A person will experience motivation",
+            "A person will not experience motivation",
+            "If a person does not experience motivation, then they seek happiness",
+            "If a person does not have a goal, then they will experience motivation",
+            "If a person seeks happiness or does not have a goal, then they will experience motivation"
+          ]
+		},
+		{
+          "premises": [
+            "If someone practices virtue, then they develop moral character",
+            "If someone develops moral character, then they become a role model"
+          ],
+          "conclusions": [
+            "If someone practices virtue, then they become a role model",
+            "If someone does not become a role model, then they do not practice virtue",
+            "If someone practices virtue or develops moral character, then they become a role model and if someone practices virtue, then they become a role model",
+            "If someone practices virtue, then they become a role model and if someone practices virtue, then they become a role model",
+            "If someone does not practice virtue and develops moral character, then they become a role model and if someone practices virtue, then they become a role model",
+            "If someone practices virtue or develops moral character, then they become a role model"
+          ],
+          "incorrect conclusions": [
+            "Someone practices virtue",
+            "If someone becomes a role model, then they practice virtue",
+            "If someone becomes a role model, then they do not practice virtue",
+            "Someone becomes a role model",
+            "Someone does not become a role model",
+            "If someone does not become a role model, then they practice virtue",
+            "If someone does not develop moral character, then they become a role model",
+            "If someone practices virtue or does not develop moral character, then they become a role model"
+          ]
+		},
+		{
+          "premises": [
+            "If a philosopher questions existence, then they gain insight",
+            "If a philosopher gains insight, then they write profound texts"
+          ],
+          "conclusions": [
+            "If a philosopher questions existence, then they write profound texts",
+            "If a philosopher does not write profound texts, then they do not question existence",
+            "If a philosopher questions existence or gains insight, then they write profound texts and if a philosopher questions existence, then they write profound texts",
+            "If a philosopher questions existence, then they write profound texts and if a philosopher questions existence, then they write profound texts",
+            "If a philosopher does not question existence and gains insight, then they write profound texts and if a philosopher questions existence, then they write profound texts",
+            "If a philosopher questions existence or gains insight, then they write profound texts"
+          ],
+          "incorrect conclusions": [
+            "A philosopher questions existence",
+            "If a philosopher writes profound texts, then they question existence",
+            "If a philosopher writes profound texts, then they do not question existence",
+            "A philosopher writes profound texts",
+            "A philosopher does not write profound texts",
+            "If a philosopher does not write profound texts, then they question existence",
+            "If a philosopher does not gain insight, then they write profound texts",
+            "If a philosopher questions existence or does not gain insight, then they write profound texts"
+          ]
+		}
+	]
+  }
+}

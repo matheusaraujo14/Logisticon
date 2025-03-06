@@ -1,0 +1,75 @@
+{
+  "Literature": {
+    "Darapti": [
+      {
+        "major premise": "All novels are literary works",
+        "minor premise": "All novels are prose and some novels exist",
+        "conclusion": "Some prose are literary works",
+        "incorrect conclusions": [
+          "All prose are literary works",
+          "All literary works are prose",
+          "All novels are not prose",
+          "All novels are not literary works",
+          "Some prose are not literary works",
+          "Some prose are not novels",
+          "Some literary works are not novels",
+          "Some literary works are not prose",
+          "Some novels are not prose",
+          "Some novels are not literary works",
+          "No novels are prose",
+          "No novels are literary works",
+          "No literary works are novels",
+          "No literary works are prose",
+          "No prose are novels",
+          "No prose are literary works"
+        ]
+      },
+      {
+        "major premise": "All plays are literary works",
+        "minor premise": "All plays are dramas and some plays exist",
+        "conclusion": "Some dramas are literary works",
+        "incorrect conclusions": [
+          "All dramas are literary works",
+          "All literary works are dramas",
+          "All plays are not dramas",
+          "All plays are not literary works",
+          "Some dramas are not literary works",
+          "Some dramas are not plays",
+          "Some literary works are not plays",
+          "Some literary works are not dramas",
+          "Some plays are not dramas",
+          "Some plays are not literary works",
+          "No plays are dramas",
+          "No plays are literary works",
+          "No literary works are plays",
+          "No literary works are dramas",
+          "No dramas are plays",
+          "No dramas are literary works"
+        ]
+      },
+      {
+        "major premise": "All poetry are literary works",
+        "minor premise": "All poetry are verse and some poetry exist",
+        "conclusion": "Some verse are literary works",
+        "incorrect conclusions": [
+          "All verse are literary works",
+          "All literary works are verse",
+          "All poetry are not verse",
+          "All poetry are not literary works",
+          "Some verse are not literary works",
+          "Some verse are not poetry",
+          "Some literary works are not poetry",
+          "Some literary works are not verse",
+          "Some poetry are not verse",
+          "Some poetry are not literary works",
+          "No poetry are verse",
+          "No poetry are literary works",
+          "No literary works are poetry",
+          "No literary works are verse",
+          "No verse are poetry",
+          "No verse are literary works"
+        ]
+      }
+    ]
+  }
+}

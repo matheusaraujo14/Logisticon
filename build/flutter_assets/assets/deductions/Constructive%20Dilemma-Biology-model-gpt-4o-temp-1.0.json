@@ -1,0 +1,69 @@
+{
+  "Constructive Dilemma": {
+    "Biology": [
+		{
+          "premises": [
+            "If a cell undergoes mitosis, then it divides to form two daughter cells.",
+            "If a cell undergoes meiosis, then it divides to form four gametes.",
+            "A cell undergoes mitosis or meiosis."
+          ],
+          "conclusions": [
+            "The cell divides.",
+            "If a cell undergoes mitosis or meiosis, then it divides.",
+            "If the cell does not divide, then it does not undergo mitosis and does not undergo meiosis.",
+            "If a cell undergoes mitosis and meiosis, then it divides.",
+            "If the cell divides, then it undergoes mitosis or meiosis."
+          ],
+		  "incorrect conclusions": [
+            "If a cell undergoes mitosis, then it undergoes meiosis or divides.",
+            "If the cell divides, then it undergoes mitosis and undergoes meiosis.",
+            "If the cell divides or undergoes mitosis, then it undergoes meiosis.",
+            "If a cell does not undergo mitosis, then it divides.",
+            "If the cell does not divide, then it undergoes mitosis and undergoes meiosis."
+          ]
+		},
+		{
+          "premises": [
+            "If a plant receives sunlight, then it performs photosynthesis.",
+            "If a plant receives water, then it performs photosynthesis.",
+            "A plant receives sunlight or water."
+          ],
+          "conclusions": [
+            "The plant performs photosynthesis.",
+            "If a plant receives sunlight or water, then it performs photosynthesis.",
+            "If the plant does not perform photosynthesis, then it does not receive sunlight and does not receive water.",
+            "If a plant receives sunlight and water, then it performs photosynthesis.",
+            "If the plant performs photosynthesis, then it receives sunlight or water."
+          ],
+		  "incorrect conclusions": [
+            "If a plant receives sunlight, then it receives water or performs photosynthesis.",
+            "If the plant performs photosynthesis, then it receives sunlight and receives water.",
+            "If the plant performs photosynthesis or receives sunlight, then it receives water.",
+            "If a plant does not receive sunlight, then it performs photosynthesis.",
+            "If the plant does not perform photosynthesis, then it receives sunlight and receives water."
+          ]
+		},
+		{
+          "premises": [
+            "If an organism has chlorophyll, then it can photosynthesize.",
+            "If an organism has mitochondria, then it can photosynthesize.",
+            "An organism has chlorophyll or mitochondria."
+          ],
+          "conclusions": [
+            "The organism can photosynthesize.",
+            "If an organism has chlorophyll or mitochondria, then it can photosynthesize.",
+            "If the organism cannot photosynthesize, then it does not have chlorophyll and does not have mitochondria.",
+            "If an organism has chlorophyll and mitochondria, then it can photosynthesize.",
+            "If the organism can photosynthesize, then it has chlorophyll or mitochondria."
+          ],
+		  "incorrect conclusions": [
+            "If an organism has chlorophyll, then it has mitochondria or can photosynthesize.",
+            "If the organism can photosynthesize, then it has chlorophyll and has mitochondria.",
+            "If the organism can photosynthesize or has chlorophyll, then it has mitochondria.",
+            "If an organism does not have chlorophyll, then it can photosynthesize.",
+            "If the organism cannot photosynthesize, then it has chlorophyll and has mitochondria."
+          ]
+		}
+	 ]
+  }
+}

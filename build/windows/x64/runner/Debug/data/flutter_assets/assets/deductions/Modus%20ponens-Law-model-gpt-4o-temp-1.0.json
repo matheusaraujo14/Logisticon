@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Law": [
+      {
+        "premises": [
+          "If a contract is signed by both parties, it is legally binding",
+          "A contract is signed by both parties"
+        ],
+        "conclusions": [
+          "The contract is legally binding"
+        ],
+        "incorrect conclusions": [
+          "The contract is not legally binding",
+          "The contract being legally binding implies that a contract is signed by both parties",
+          "The contract not being legally binding implies that a contract is signed by both parties",
+          "The contract not being signed by both parties implies that the contract is not legally binding"
+        ]
+      },
+      {
+        "premises": [
+          "If evidence is presented in court, the case will proceed",
+          "Evidence is presented in court"
+        ],
+        "conclusions": [
+          "The case will proceed"
+        ],
+        "incorrect conclusions": [
+          "The case will not proceed",
+          "The case proceeding implies that evidence is presented in court",
+          "The case not proceeding implies that evidence is presented in court",
+          "Evidence not being presented in court implies that the case will not proceed"
+        ]
+      },
+      {
+        "premises": [
+          "If a law is passed, it must be enforced",
+          "A law is passed"
+        ],
+        "conclusions": [
+          "The law must be enforced"
+        ],
+        "incorrect conclusions": [
+          "The law must not be enforced",
+          "The law being enforced implies that a law is passed",
+          "The law not being enforced implies that a law is passed",
+          "The law not being passed implies that the law must not be enforced"
+        ]
+      }
+    ]
+  }
+}

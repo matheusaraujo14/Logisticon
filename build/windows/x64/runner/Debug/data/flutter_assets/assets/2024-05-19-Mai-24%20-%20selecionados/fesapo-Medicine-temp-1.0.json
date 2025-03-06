@@ -1,0 +1,63 @@
+{
+  "Medicine": {
+     "Fesapo" : [
+		{
+          "major premise": "No viruses are bacteria",
+          "minor premise": "All bacteria are microorganisms and some bacteria exist",
+          "conclusion": "Some microorganisms are not viruses",
+		  "incorrect conclusions": [
+			"All microorganisms are viruses",
+			"All microorganisms are bacteria",
+			"All viruses are microorganisms",
+			"All viruses are bacteria",
+			"Some microorganisms are viruses",
+			"Some viruses are microorganisms",
+			"Some viruses are bacteria",
+			"Some viruses are not microorganisms",
+			"Some bacteria are viruses",
+			"Some bacteria are not microorganisms",
+			"No bacteria is microorganism",
+			"No microorganisms is bacteria"
+		  ]
+		},
+		{
+          "major premise": "No antibiotics are vaccines",
+          "minor premise": "All vaccines are pharmaceuticals and some vaccines exist",
+          "conclusion": "Some pharmaceuticals are not antibiotics",
+		  "incorrect conclusions": [
+			"All pharmaceuticals are antibiotics",
+			"All pharmaceuticals are vaccines",
+			"All antibiotics are pharmaceuticals",
+			"All antibiotics are vaccines",
+			"Some pharmaceuticals are antibiotics",
+			"Some antibiotics are pharmaceuticals",
+			"Some antibiotics are vaccines",
+			"Some antibiotics are not pharmaceuticals",
+			"Some vaccines are antibiotics",
+			"Some vaccines are not pharmaceuticals",
+			"No vaccines is pharmaceutical",
+			"No pharmaceuticals is vaccines"
+		  ]
+		},
+		{
+          "major premise": "No bacteria are fungi",
+          "minor premise": "All fungi are organisms and some fungi exist",
+          "conclusion": "Some organisms are not bacteria",
+		  "incorrect conclusions": [
+			"All organisms are bacteria",
+			"All organisms are fungi",
+			"All bacteria are organisms",
+			"All bacteria are fungi",
+			"Some organisms are bacteria",
+			"Some bacteria are organisms",
+			"Some bacteria are fungi",
+			"Some bacteria are not organisms",
+			"Some fungi are bacteria",
+			"Some fungi are not organisms",
+			"No fungi is organism",
+			"No organisms is fungi"
+		  ]
+		}
+	 ]
+  }
+}

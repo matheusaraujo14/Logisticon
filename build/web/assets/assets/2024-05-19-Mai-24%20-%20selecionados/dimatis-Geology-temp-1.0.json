@@ -1,0 +1,75 @@
+{
+  "Geology": {
+     "Dimatis": [
+        {
+          "major premise": "Some igneous rocks are granite",
+          "minor premise": "All granite are rocks",
+          "conclusion": "Some rocks are igneous rocks",
+          "incorrect conclusions": [
+            "All rocks are igneous rocks",
+            "All rocks are granite",
+            "All igneous rocks are rocks",
+            "All igneous rocks are granite",
+            "All granite are igneous rocks",
+            "Some rocks are not granite",
+            "Some igneous rocks are not rocks",
+            "Some igneous rocks are not granite",
+            "Some granite are not rocks",
+            "Some granite are not igneous rocks",
+            "No igneous rocks are rocks",
+            "No igneous rocks are granite",
+            "No granite are rocks",
+            "No granite are igneous rocks",
+            "No rocks are granite",
+            "No rocks are igneous rocks"
+          ]
+        },
+        {
+          "major premise": "Some minerals are quartz",
+          "minor premise": "All quartz are silicates",
+          "conclusion": "Some silicates are minerals",
+          "incorrect conclusions": [
+            "All silicates are minerals",
+            "All silicates are quartz",
+            "All minerals are silicates",
+            "All minerals are quartz",
+            "All quartz are minerals",
+            "Some silicates are not quartz",
+            "Some minerals are not silicates",
+            "Some minerals are not quartz",
+            "Some quartz are not silicates",
+            "Some quartz are not minerals",
+            "No minerals are silicates",
+            "No minerals are quartz",
+            "No quartz are silicates",
+            "No quartz are minerals",
+            "No silicates are quartz",
+            "No silicates are minerals"
+          ]
+        },
+        {
+          "major premise": "Some fossils are shells",
+          "minor premise": "All shells are sediments",
+          "conclusion": "Some sediments are fossils",
+          "incorrect conclusions": [
+            "All sediments are fossils",
+            "All sediments are shells",
+            "All fossils are sediments",
+            "All fossils are shells",
+            "All shells are fossils",
+            "Some sediments are not shells",
+            "Some fossils are not sediments",
+            "Some fossils are not shells",
+            "Some shells are not sediments",
+            "Some shells are not fossils",
+            "No fossils are sediments",
+            "No fossils are shells",
+            "No shells are sediments",
+            "No shells are fossils",
+            "No sediments are shells",
+            "No sediments are fossils"
+          ]
+        }
+     ]
+  }
+}

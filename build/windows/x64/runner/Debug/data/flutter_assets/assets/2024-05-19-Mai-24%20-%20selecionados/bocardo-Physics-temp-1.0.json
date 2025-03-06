@@ -1,0 +1,48 @@
+{
+  "Physics": {
+    "Bocardo": [
+      {
+        "major premise": "Some planets are not stars",
+        "minor premise": "All planets are celestial bodies",
+        "conclusion": "Some celestial bodies are not stars",
+        "incorrect conclusions": [
+          "All planets are stars",
+          "All celestial bodies are planets",
+          "All celestial bodies are stars",
+          "All stars are not planets",
+          "Some celestial bodies are not planets",
+          "Some celestial bodies are stars",
+          "Some planets are not celestial bodies",
+          "Some planets are stars",
+          "Some stars are planets",
+          "Some stars are celestial bodies",
+          "Some stars are not celestial bodies",
+          "Some stars are not planets",
+          "No planets is a celestial body",
+          "No celestial body is a planet"
+        ]
+      },
+      {
+        "major premise": "Some rocks are not minerals",
+        "minor premise": "All rocks are geological formations",
+        "conclusion": "Some geological formations are not minerals",
+        "incorrect conclusions": [
+          "All rocks are minerals",
+          "All geological formations are rocks",
+          "All geological formations are minerals",
+          "All minerals are not rocks",
+          "Some geological formations are not rocks",
+          "Some geological formations are minerals",
+          "Some rocks are not geological formations",
+          "Some rocks are minerals",
+          "Some minerals are rocks",
+          "Some minerals are geological formations",
+          "Some minerals are not geological formations",
+          "Some minerals are not rocks",
+          "No rocks is a geological formation",
+          "No geological formation is a rock"
+        ]
+      }
+    ]
+  }
+}

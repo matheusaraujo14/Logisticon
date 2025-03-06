@@ -1,0 +1,54 @@
+{
+  "Law": {
+     "Camestres" : [
+		{
+		  "major premise": "All lawyers are legal professionals",
+		  "minor premise": "No criminals are legal professionals",
+		  "conclusion": "No criminals are lawyers",
+		  "incorrect conclusions": [
+			"All lawyers are criminals",
+			"All legal professionals are criminals",
+			"Some lawyers are legal professionals",
+			"Some lawyers are criminals",
+			"Some legal professionals are criminals",
+			"Some legal professionals are lawyers",
+			"Some criminals are legal professionals",
+			"Some criminals are lawyers",
+			"Some legal professionals are not lawyers"
+		  ]
+		},
+		{
+		  "major premise": "All judges are legal professionals",
+		  "minor premise": "No thieves are legal professionals",
+		  "conclusion": "No thieves are judges",
+		  "incorrect conclusions": [
+			"All judges are thieves",
+			"All legal professionals are thieves",
+			"Some judges are legal professionals",
+			"Some judges are thieves",
+			"Some legal professionals are thieves",
+			"Some legal professionals are judges",
+			"Some thieves are legal professionals",
+			"Some thieves are judges",
+			"Some legal professionals are not judges"
+		  ]
+		},
+		{
+		  "major premise": "All prosecutors are attorneys",
+		  "minor premise": "No fraudsters are attorneys",
+		  "conclusion": "No fraudsters are prosecutors",
+		  "incorrect conclusions": [
+			"All prosecutors are fraudsters",
+			"All attorneys are fraudsters",
+			"Some prosecutors are attorneys",
+			"Some prosecutors are fraudsters",
+			"Some attorneys are fraudsters",
+			"Some attorneys are prosecutors",
+			"Some fraudsters are attorneys",
+			"Some fraudsters are prosecutors",
+			"Some attorneys are not prosecutors"
+		  ]
+		}
+	 ]
+  }
+}

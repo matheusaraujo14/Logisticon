@@ -1,0 +1,51 @@
+{
+  "Modus ponens": {
+    "Sports Science": [
+		{
+          "premises": [ 
+            "If an athlete trains consistently, then their performance improves",
+            "An athlete trains consistently"
+          ],
+          "conclusions": [
+            "Their performance improves"
+          ],
+          "incorrect conclusions": [
+            "Their performance does not improve",
+            "Their performance improving implies that an athlete trains consistently",
+            "Their performance not improving implies that an athlete trains consistently",
+            "An athlete not training consistently implies that their performance does not improve"
+          ]
+		},
+		{
+          "premises": [ 
+            "If a player eats a balanced diet, then their energy levels are high",
+            "A player eats a balanced diet"
+          ],
+          "conclusions": [
+            "Their energy levels are high"
+          ],
+          "incorrect conclusions": [
+            "Their energy levels are not high",
+            "Their energy levels being high implies that a player eats a balanced diet",
+            "Their energy levels not being high implies that a player eats a balanced diet",
+            "A player not eating a balanced diet implies that their energy levels are not high"
+          ]
+		},
+		{
+          "premises": [ 
+            "If a team practices regularly, then their coordination improves",
+            "A team practices regularly"
+          ],
+          "conclusions": [
+            "Their coordination improves"
+          ],
+          "incorrect conclusions": [
+            "Their coordination does not improve",
+            "Their coordination improving implies that a team practices regularly",
+            "Their coordination not improving implies that a team practices regularly",
+            "A team not practicing regularly implies that their coordination does not improve"
+          ]
+		}
+	 ]
+  }
+}

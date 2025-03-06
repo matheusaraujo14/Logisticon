@@ -1,0 +1,63 @@
+{
+  "Geology": {
+    "Fesapo": [
+      {
+        "major premise": "No igneous_rocks are sedimentary_rocks",
+        "minor premise": "All sedimentary_rocks are rocks and some sedimentary_rocks exist",
+        "conclusion": "Some rocks are not igneous_rocks",
+        "incorrect conclusions": [
+          "All rocks are igneous_rocks",
+          "All rocks are sedimentary_rocks",
+          "All igneous_rocks are rocks",
+          "All igneous_rocks are sedimentary_rocks",
+          "Some rocks are igneous_rocks",
+          "Some igneous_rocks are rocks",
+          "Some igneous_rocks are sedimentary_rocks",
+          "Some igneous_rocks are not rocks",
+          "Some sedimentary_rocks are igneous_rocks",
+          "Some sedimentary_rocks are not rocks",
+          "No sedimentary_rocks is rocks",
+          "No rocks is sedimentary_rocks"
+        ]
+      },
+      {
+        "major premise": "No metamorphic_rocks are sedimentary_rocks",
+        "minor premise": "All sedimentary_rocks are rocks and some sedimentary_rocks exist",
+        "conclusion": "Some rocks are not metamorphic_rocks",
+        "incorrect conclusions": [
+          "All rocks are metamorphic_rocks",
+          "All rocks are sedimentary_rocks",
+          "All metamorphic_rocks are rocks",
+          "All metamorphic_rocks are sedimentary_rocks",
+          "Some rocks are metamorphic_rocks",
+          "Some metamorphic_rocks are rocks",
+          "Some metamorphic_rocks are sedimentary_rocks",
+          "Some metamorphic_rocks are not rocks",
+          "Some sedimentary_rocks are metamorphic_rocks",
+          "Some sedimentary_rocks are not rocks",
+          "No sedimentary_rocks is rocks",
+          "No rocks is sedimentary_rocks"
+        ]
+      },
+      {
+        "major premise": "No minerals are fossils",
+        "minor premise": "All fossils are natural_objects and some fossils exist",
+        "conclusion": "Some natural_objects are not minerals",
+        "incorrect conclusions": [
+          "All natural_objects are minerals",
+          "All natural_objects are fossils",
+          "All minerals are natural_objects",
+          "All minerals are fossils",
+          "Some natural_objects are minerals",
+          "Some minerals are natural_objects",
+          "Some minerals are fossils",
+          "Some minerals are not natural_objects",
+          "Some fossils are minerals",
+          "Some fossils are not natural_objects",
+          "No fossils is natural_objects",
+          "No natural_objects is fossils"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+	"Deduction 1": {
+		"Ecology": [
+			{
+				"premises": [
+					"If it rains, then the soil moisture increases",
+					"If it rains, then plants grow faster"
+				],
+				"conclusions": [
+					"If it rains, then the soil moisture increases and plants grow faster",
+					"If it rains, then the soil moisture increases or plants grow faster",
+					"If the soil moisture does not increase, then it does not rain",
+					"If plants do not grow faster, then it does not rain",
+					"If the soil moisture does not increase or plants do not grow faster, then it does not rain"
+				],
+				"incorrect conclusions": [
+					"If the soil moisture does not increase, then plants do not grow faster",
+					"If plants do not grow faster, then the soil moisture does not increase",
+					"If the soil moisture increases, then plants grow faster",
+					"If plants grow faster, then the soil moisture increases",
+					"If the soil moisture increases and plants grow faster, then it rains",
+					"If the soil moisture increases or plants grow faster, then it rains",
+					"If the soil moisture does not increase or it does not rain, then it rains"
+				]
+			},
+			{
+				"premises": [
+					"If a predator is present, then prey behavior changes",
+					"If a predator is present, then prey population decreases"
+				],
+				"conclusions": [
+					"If a predator is present, then prey behavior changes and prey population decreases",
+					"If a predator is present, then prey behavior changes or prey population decreases",
+					"If prey behavior does not change, then a predator is not present",
+					"If prey population does not decrease, then a predator is not present",
+					"If prey behavior does not change or prey population does not decrease, then a predator is not present"
+				],
+				"incorrect conclusions": [
+					"If prey behavior does not change, then prey population does not decrease",
+					"If prey population does not decrease, then prey behavior does not change",
+					"If prey behavior changes, then prey population decreases",
+					"If prey population decreases, then prey behavior changes",
+					"If prey behavior changes and prey population decreases, then a predator is present",
+					"If prey behavior changes or prey population decreases, then a predator is present",
+					"If prey behavior does not change or a predator is not present, then a predator is present"
+				]
+			},
+			{
+				"premises": [
+					"If the temperature drops, then animals hibernate",
+					"If the temperature drops, then plant metabolism slows"
+				],
+				"conclusions": [
+					"If the temperature drops, then animals hibernate and plant metabolism slows",
+					"If the temperature drops, then animals hibernate or plant metabolism slows",
+					"If animals do not hibernate, then the temperature does not drop",
+					"If plant metabolism does not slow, then the temperature does not drop",
+					"If animals do not hibernate or plant metabolism does not slow, then the temperature does not drop"
+				],
+				"incorrect conclusions": [
+					"If animals do not hibernate, then plant metabolism does not slow",
+					"If plant metabolism does not slow, then animals do not hibernate",
+					"If animals hibernate, then plant metabolism slows",
+					"If plant metabolism slows, then animals hibernate",
+					"If animals hibernate and plant metabolism slows, then the temperature drops",
+					"If animals hibernate or plant metabolism slows, then the temperature drops",
+					"If animals do not hibernate or the temperature does not drop, then the temperature drops"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "Architecture": {
+    "Datisi": [
+      {
+        "major premise": "All bridges are infrastructures",
+        "minor premise": "Some bridges are tourist_attractions",
+        "conclusion": "Some tourist_attractions are infrastructures",
+        "incorrect conclusions": [
+          "All tourist_attractions are bridges",
+          "All tourist_attractions are infrastructures",
+          "All infrastructures are bridges",
+          "All infrastructures are tourist_attractions",
+          "All bridges are tourist_attractions",
+          "Some tourist_attractions are not infrastructures",
+          "Some tourist_attractions are not bridges",
+          "Some infrastructures are not bridges",
+          "Some infrastructures are not tourist_attractions",
+          "Some bridges are not infrastructures",
+          "Some bridges are not tourist_attractions",
+          "No tourist_attractions is infrastructures",
+          "No tourist_attractions is bridges",
+          "No bridges are infrastructures",
+          "No bridges are tourist_attractions",
+          "No infrastructures are bridges",
+          "No infrastructures are tourist_attractions"
+        ]
+      }
+    ]
+  }
+}

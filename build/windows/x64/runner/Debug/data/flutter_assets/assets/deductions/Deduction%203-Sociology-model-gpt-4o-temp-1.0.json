@@ -1,0 +1,69 @@
+{
+  "Deduction 3": {
+    "Sociology": [
+      {
+        "premises": [
+          "If unemployment rates rise, then crime rates increase",
+          "If unemployment rates fall, then social well-being improves"
+        ],
+        "conclusions": [
+          "If crime rates do not increase, then unemployment rates did not rise",
+          "If social well-being does not improve, then unemployment rates did not fall",
+          "If social well-being does not improve, then crime rates increase",
+          "Crime rates increase or social well-being improves",
+          "If unemployment rates rise and crime rates increase, then social well-being improves"
+        ],
+        "incorrect conclusions": [
+          "If crime rates increase, then unemployment rates rise",
+          "If crime rates increase, then unemployment rates did not rise",
+          "If crime rates do not increase, then unemployment rates did not fall",
+          "Crime rates increase and social well-being improves",
+          "If social well-being improves, then unemployment rates rise",
+          "If crime rates increase and social well-being improves, then unemployment rates rise"
+        ]
+      },
+      {
+        "premises": [
+          "If public policies are inclusive, then social equity rises",
+          "If public policies are exclusionary, then social unrest increases"
+        ],
+        "conclusions": [
+          "If social equity does not rise, then public policies are not inclusive",
+          "If social unrest does not increase, then public policies are not exclusionary",
+          "If social unrest does not increase, then social equity rises",
+          "Social equity rises or social unrest increases",
+          "If public policies are inclusive and social equity rises, then social unrest increases"
+        ],
+        "incorrect conclusions": [
+          "If social equity rises, then public policies are inclusive",
+          "If social equity rises, then public policies are not inclusive",
+          "If social equity does not rise, then public policies are not exclusionary",
+          "Social equity rises and social unrest increases",
+          "If social unrest increases, then public policies are inclusive",
+          "If social equity rises and social unrest increases, then public policies are inclusive"
+        ]
+      },
+      {
+        "premises": [
+          "If government transparency improves, then public trust increases",
+          "If government transparency declines, then corruption levels rise"
+        ],
+        "conclusions": [
+          "If public trust does not increase, then government transparency did not improve",
+          "If corruption levels do not rise, then government transparency did not decline",
+          "If corruption levels do not rise, then public trust increases",
+          "Public trust increases or corruption levels rise",
+          "If government transparency improves and public trust increases, then corruption levels rise"
+        ],
+        "incorrect conclusions": [
+          "If public trust increases, then government transparency improves",
+          "If public trust increases, then government transparency did not improve",
+          "If public trust does not increase, then government transparency did not decline",
+          "Public trust increases and corruption levels rise",
+          "If corruption levels rise, then government transparency improves",
+          "If public trust increases and corruption levels rise, then government transparency improves"
+        ]
+      }
+    ]
+  }
+}

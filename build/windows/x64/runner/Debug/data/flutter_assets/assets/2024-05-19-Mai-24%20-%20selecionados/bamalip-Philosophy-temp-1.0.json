@@ -1,0 +1,69 @@
+{
+  "Philosophy": {
+     "Bamalip" : [
+		{
+          "major premise": "All philosophical constructs are abstract ideas",
+          "minor premise": "All abstract ideas are intellectual entities and some philosophical constructs exist",
+          "conclusion": "Some intellectual entities are philosophical constructs",
+		  "incorrect conclusions": [
+			"All intellectual entities are abstract ideas",
+			"All abstract ideas are philosophical constructs",
+			"Some intellectual entities are not abstract ideas",
+			"Some intellectual entities are not philosophical constructs",
+			"Some abstract ideas are not philosophical constructs",
+			"Some abstract ideas are not intellectual entities",
+			"Some philosophical constructs are not abstract ideas",
+			"Some philosophical constructs are not intellectual entities",
+			"No intellectual entities is abstract ideas",
+			"No intellectual entities is philosophical constructs",
+			"No abstract ideas is intellectual entities",
+			"No abstract ideas is philosophical constructs",
+			"No philosophical constructs is abstract ideas",
+			"No philosophical constructs is intellectual entities"
+		  ]
+		},
+		{
+          "major premise": "All properties are characteristics",
+          "minor premise": "All characteristics are attributes and some properties exist",
+          "conclusion": "Some attributes are properties",
+		  "incorrect conclusions": [
+			"All attributes are characteristics",
+			"All characteristics are properties",
+			"Some attributes are not characteristics",
+			"Some attributes are not properties",
+			"Some characteristics are not properties",
+			"Some characteristics are not attributes",
+			"Some properties are not characteristics",
+			"Some properties are not attributes",
+			"No attributes is characteristics",
+			"No attributes is properties",
+			"No characteristics is attributes",
+			"No characteristics is properties",
+			"No properties is characteristics",
+			"No properties is attributes"
+		  ]
+		},
+		{
+          "major premise": "All ethical principles are moral guidelines",
+          "minor premise": "All moral guidelines are societal norms and some ethical principles exist",
+          "conclusion": "Some societal norms are ethical principles",
+		  "incorrect conclusions": [
+			"All societal norms are moral guidelines",
+			"All moral guidelines are ethical principles",
+			"Some societal norms are not moral guidelines",
+			"Some societal norms are not ethical principles",
+			"Some moral guidelines are not ethical principles",
+			"Some moral guidelines are not societal norms",
+			"Some ethical principles are not moral guidelines",
+			"Some ethical principles are not societal norms",
+			"No societal norms is moral guidelines",
+			"No societal norms is ethical principles",
+			"No moral guidelines is societal norms",
+			"No moral guidelines is ethical principles",
+			"No ethical principles is moral guidelines",
+			"No ethical principles is societal norms"
+		  ]
+		}
+	 ]
+  }
+}

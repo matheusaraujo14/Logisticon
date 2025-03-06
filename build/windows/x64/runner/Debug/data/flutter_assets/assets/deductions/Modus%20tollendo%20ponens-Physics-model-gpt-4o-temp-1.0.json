@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Physics": [
+      {
+        "premises": [
+          "A photon is absorbed or it is reflected but not both at the same time",
+          "A photon is not absorbed"
+        ],
+        "conclusions": [
+          "A photon is reflected",
+          "If a photon is not reflected, then it is absorbed"
+        ],
+        "incorrect conclusions": [
+          "A photon is not reflected",
+          "If a photon is absorbed, then it is reflected",
+          "If a photon is reflected, then it is absorbed",
+          "A photon is absorbed"
+        ]
+      },
+      {
+        "premises": [
+          "The system is in a state of equilibrium or it is experiencing acceleration but not both at the same time",
+          "The system is not in a state of equilibrium"
+        ],
+        "conclusions": [
+          "The system is experiencing acceleration",
+          "If the system is not experiencing acceleration, then it is in a state of equilibrium"
+        ],
+        "incorrect conclusions": [
+          "The system is not experiencing acceleration",
+          "If the system is in a state of equilibrium, then it is experiencing acceleration",
+          "If the system is experiencing acceleration, then it is in a state of equilibrium",
+          "The system is in a state of equilibrium"
+        ]
+      },
+      {
+        "premises": [
+          "The electron's spin is up or its spin is down but not both at the same time",
+          "The electron's spin is not up"
+        ],
+        "conclusions": [
+          "The electron's spin is down",
+          "If the electron's spin is not down, then it is up"
+        ],
+        "incorrect conclusions": [
+          "The electron's spin is not down",
+          "If the electron's spin is up, then it is down",
+          "If the electron's spin is down, then it is up",
+          "The electron's spin is up"
+        ]
+      }
+    ]
+  }
+}

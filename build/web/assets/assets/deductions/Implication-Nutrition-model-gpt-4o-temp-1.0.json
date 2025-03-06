@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Nutrition": [
+      {
+        "premises": [
+          "If you eat vegetables daily, then you increase your fiber intake."
+        ],
+        "conclusions": [
+          "If you do not increase your fiber intake, then you do not eat vegetables daily."
+        ],
+        "incorrect conclusions": [
+          "You eat vegetables daily.",
+          "You do not eat vegetables daily.",
+          "You increase your fiber intake.",
+          "You do not increase your fiber intake.",
+          "If you increase your fiber intake, then you eat vegetables daily.",
+          "If you do not increase your fiber intake, then you eat vegetables daily.",
+          "If you do not eat vegetables daily, then you do not increase your fiber intake."
+        ]
+      },
+      {
+        "premises": [
+          "If water is consumed in sufficient quantities, then it regulates body temperature."
+        ],
+        "conclusions": [
+          "If body temperature is not regulated, then water is not consumed in sufficient quantities."
+        ],
+        "incorrect conclusions": [
+          "Water is consumed in sufficient quantities.",
+          "Water is not consumed in sufficient quantities.",
+          "Body temperature is regulated.",
+          "Body temperature is not regulated.",
+          "If body temperature is regulated, then water is consumed in sufficient quantities.",
+          "If body temperature is not regulated, then water is consumed in sufficient quantities.",
+          "If water is not consumed in sufficient quantities, then body temperature is not regulated."
+        ]
+      },
+      {
+        "premises": [
+          "If you consume vitamin C, then your immune system is strengthened."
+        ],
+        "conclusions": [
+          "If your immune system is not strengthened, then you do not consume vitamin C."
+        ],
+        "incorrect conclusions": [
+          "You consume vitamin C.",
+          "You do not consume vitamin C.",
+          "Your immune system is strengthened.",
+          "Your immune system is not strengthened.",
+          "If your immune system is strengthened, then you consume vitamin C.",
+          "If your immune system is not strengthened, then you consume vitamin C.",
+          "If you do not consume vitamin C, then your immune system is not strengthened."
+        ]
+      }
+    ]
+  }
+}

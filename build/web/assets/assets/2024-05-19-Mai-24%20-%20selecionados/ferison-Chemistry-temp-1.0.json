@@ -1,0 +1,75 @@
+{
+  "Chemistry": {
+    "Ferison": [
+      {
+        "major premise": "No covalent bonds are ionic bonds",
+        "minor premise": "Some covalent bonds are sigma bonds",
+        "conclusion": "Some sigma bonds are not ionic bonds",
+        "incorrect conclusions": [
+          "All covalent bonds are sigma bonds",
+          "All covalent bonds are ionic bonds",
+          "All sigma bonds are ionic bonds",
+          "All ionic bonds are covalent bonds",
+          "All ionic bonds are sigma bonds",
+          "Some covalent bonds are not sigma bonds",
+          "Some ionic bonds are sigma bonds",
+          "Some ionic bonds are not sigma bonds",
+          "Some ionic bonds are covalent bonds",
+          "Some ionic bonds are sigma bonds",
+          "Some sigma bonds are ionic bonds",
+          "Some sigma bonds are not covalent bonds",
+          "Some covalent bonds are ionic bonds",
+          "No covalent bond is a sigma bond",
+          "No sigma bond is not a covalent bond",
+          "No sigma bond is a covalent bond"
+        ]
+      },
+      {
+        "major premise": "No inorganic compounds are organic compounds",
+        "minor premise": "Some inorganic compounds are salts",
+        "conclusion": "Some salts are not organic compounds",
+        "incorrect conclusions": [
+          "All inorganic compounds are salts",
+          "All inorganic compounds are organic compounds",
+          "All salts are organic compounds",
+          "All organic compounds are inorganic compounds",
+          "All organic compounds are salts",
+          "Some inorganic compounds are not salts",
+          "Some organic compounds are salts",
+          "Some organic compounds are not salts",
+          "Some organic compounds are inorganic compounds",
+          "Some organic compounds are salts",
+          "Some salts are organic compounds",
+          "Some salts are not inorganic compounds",
+          "Some inorganic compounds are organic compounds",
+          "No inorganic compound is a salt",
+          "No salt is not an inorganic compound",
+          "No salt is an inorganic compound"
+        ]
+      },
+      {
+        "major premise": "No noble gases are reactive elements",
+        "minor premise": "Some noble gases are argon",
+        "conclusion": "Some argon are not reactive elements",
+        "incorrect conclusions": [
+          "All noble gases are argon",
+          "All noble gases are reactive elements",
+          "All argon are reactive elements",
+          "All reactive elements are noble gases",
+          "All reactive elements are argon",
+          "Some noble gases are not argon",
+          "Some reactive elements are argon",
+          "Some reactive elements are not argon",
+          "Some reactive elements are noble gases",
+          "Some reactive elements are argon",
+          "Some argon are reactive elements",
+          "Some argon are not noble gases",
+          "Some noble gases are reactive elements",
+          "No noble gas is argon",
+          "No argon is not a noble gas",
+          "No argon is a noble gas"
+        ]
+      }
+    ]
+  }
+}

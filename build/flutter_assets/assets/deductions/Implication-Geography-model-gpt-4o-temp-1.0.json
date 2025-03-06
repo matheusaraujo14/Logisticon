@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Geography": [
+      {
+        "premises": [
+          "If a region is coastal, then it has a maritime climate"
+        ],
+        "conclusions": [
+          "If a region does not have a maritime climate, then it is not coastal"
+        ],
+        "incorrect conclusions": [
+          "A region is coastal",
+          "A region is not coastal",
+          "A region has a maritime climate",
+          "A region does not have a maritime climate",
+          "If a region has a maritime climate, then it is coastal",
+          "If a region does not have a maritime climate, then it is coastal",
+          "If a region is not coastal, then it does not have a maritime climate"
+        ]
+      },
+      {
+        "premises": [
+          "If an area is elevated, then it has a cooler temperature"
+        ],
+        "conclusions": [
+          "If an area does not have a cooler temperature, then it is not elevated"
+        ],
+        "incorrect conclusions": [
+          "An area is elevated",
+          "An area is not elevated",
+          "An area has a cooler temperature",
+          "An area does not have a cooler temperature",
+          "If an area has a cooler temperature, then it is elevated",
+          "If an area does not have a cooler temperature, then it is elevated",
+          "If an area is not elevated, then it does not have a cooler temperature"
+        ]
+      },
+      {
+        "premises": [
+          "If a place is near the equator, then it has a tropical climate"
+        ],
+        "conclusions": [
+          "If a place does not have a tropical climate, then it is not near the equator"
+        ],
+        "incorrect conclusions": [
+          "A place is near the equator",
+          "A place is not near the equator",
+          "A place has a tropical climate",
+          "A place does not have a tropical climate",
+          "If a place has a tropical climate, then it is near the equator",
+          "If a place does not have a tropical climate, then it is near the equator",
+          "If a place is not near the equator, then it does not have a tropical climate"
+        ]
+      }
+    ]
+  }
+}

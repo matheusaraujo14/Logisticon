@@ -1,0 +1,57 @@
+{
+  "Implication": {
+    "Astronomy": [
+      {
+        "premises": [
+          "If the star is burning hydrogen, it is in the main sequence"
+        ],
+        "conclusions": [
+          "If the star is not in the main sequence, it is not burning hydrogen"
+        ],
+        "incorrect conclusions": [
+          "The star is burning hydrogen",
+          "The star is not burning hydrogen",
+          "The star is in the main sequence",
+          "The star is not in the main sequence",
+          "If the star is in the main sequence, it is burning hydrogen",
+          "If the star is not in the main sequence, it is burning hydrogen",
+          "If the star is not burning hydrogen, it is not in the main sequence"
+        ]
+      },
+      {
+        "premises": [
+          "If the planet has liquid water, it is in the habitable zone"
+        ],
+        "conclusions": [
+          "If the planet is not in the habitable zone, it does not have liquid water"
+        ],
+        "incorrect conclusions": [
+          "The planet has liquid water",
+          "The planet does not have liquid water",
+          "The planet is in the habitable zone",
+          "The planet is not in the habitable zone",
+          "If the planet is in the habitable zone, it has liquid water",
+          "If the planet is not in the habitable zone, it has liquid water",
+          "If the planet does not have liquid water, it is not in the habitable zone"
+        ]
+      },
+      {
+        "premises": [
+          "If the galaxy has a high redshift, it is moving away from us"
+        ],
+        "conclusions": [
+          "If the galaxy is not moving away from us, it does not have a high redshift"
+        ],
+        "incorrect conclusions": [
+          "The galaxy has a high redshift",
+          "The galaxy does not have a high redshift",
+          "The galaxy is moving away from us",
+          "The galaxy is not moving away from us",
+          "If the galaxy is moving away from us, it has a high redshift",
+          "If the galaxy is not moving away from us, it has a high redshift",
+          "If the galaxy does not have a high redshift, it is not moving away from us"
+        ]
+      }
+    ]
+  }
+}

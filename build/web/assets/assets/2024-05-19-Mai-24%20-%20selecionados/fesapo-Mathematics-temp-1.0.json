@@ -1,0 +1,44 @@
+{
+  "Mathematics": {
+    "Fesapo": [
+      {
+        "major premise": "No rational numbers are irrational numbers",
+        "minor premise": "All irrational numbers are real numbers and some irrational numbers exist",
+        "conclusion": "Some real numbers are not rational numbers",
+        "incorrect conclusions": [
+          "All real numbers are rational numbers",
+          "All real numbers are irrational numbers",
+          "All rational numbers are real numbers",
+          "All rational numbers are irrational numbers",
+          "Some real numbers are rational numbers",
+          "Some rational numbers are real numbers",
+          "Some rational numbers are irrational numbers",
+          "Some rational numbers are not real numbers",
+          "Some irrational numbers are rational numbers",
+          "Some irrational numbers are not real numbers",
+          "No irrational numbers are real numbers",
+          "No real numbers are irrational numbers"
+        ]
+      },
+      {
+        "major premise": "No natural numbers are complex numbers",
+        "minor premise": "All complex numbers are numbers and some complex numbers exist",
+        "conclusion": "Some numbers are not natural numbers",
+        "incorrect conclusions": [
+          "All numbers are natural numbers",
+          "All numbers are complex numbers",
+          "All natural numbers are numbers",
+          "All natural numbers are complex numbers",
+          "Some numbers are natural numbers",
+          "Some natural numbers are numbers",
+          "Some natural numbers are complex numbers",
+          "Some natural numbers are not numbers",
+          "Some complex numbers are natural numbers",
+          "Some complex numbers are not numbers",
+          "No complex numbers are numbers",
+          "No numbers are complex numbers"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Sports Science": {
+    "Baroco": [
+      {
+        "major premise": "All professional athletes are humans",
+        "minor premise": "Some tennis players are not humans",
+        "conclusion": "Some tennis players are not professional athletes",
+        "incorrect conclusions": [
+          "All tennis players are not humans",
+          "All tennis players are professional athletes",
+          "All tennis players are humans",
+          "Some professional athletes are tennis players",
+          "Some professional athletes are not tennis players",
+          "Some professional athletes are not humans",
+          "Some tennis players are humans",
+          "Some tennis players are professional athletes",
+          "Some humans are not professional athletes",
+          "Some humans are tennis players"
+        ]
+      },
+      {
+        "major premise": "All swimmers are competitors",
+        "minor premise": "Some divers are not competitors",
+        "conclusion": "Some divers are not swimmers",
+        "incorrect conclusions": [
+          "All divers are not competitors",
+          "All divers are swimmers",
+          "All divers are competitors",
+          "Some swimmers are divers",
+          "Some swimmers are not divers",
+          "Some swimmers are not competitors",
+          "Some divers are competitors",
+          "Some divers are swimmers",
+          "Some competitors are not swimmers",
+          "Some competitors are divers"
+        ]
+      }
+    ]
+  }
+}

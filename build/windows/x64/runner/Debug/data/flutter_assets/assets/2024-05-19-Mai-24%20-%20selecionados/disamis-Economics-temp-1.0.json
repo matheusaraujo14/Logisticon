@@ -1,0 +1,75 @@
+{
+  "Economics": {
+    "Disamis": [
+      {
+        "major premise": "Some financial institutions are banks",
+        "minor premise": "All banks are financial entities",
+        "conclusion": "Some financial entities are banks",
+        "incorrect conclusions": [
+          "All financial entities are banks",
+          "All financial entities are financial institutions",
+          "All banks are financial entities",
+          "All banks are financial institutions",
+          "All financial institutions are banks",
+          "Some financial entities are not financial institutions",
+          "Some banks are not financial entities",
+          "Some banks are not financial institutions",
+          "Some financial institutions are not financial entities",
+          "Some financial institutions are not banks",
+          "No banks is a financial entity",
+          "No banks is a financial institution",
+          "No financial institutions is a financial entity",
+          "No financial institutions is a bank",
+          "No financial entities is a financial institution",
+          "No financial entities is a bank"
+        ]
+      },
+      {
+        "major premise": "Some corporations are multinationals",
+        "minor premise": "All multinationals are businesses",
+        "conclusion": "Some businesses are multinationals",
+        "incorrect conclusions": [
+          "All businesses are multinationals",
+          "All businesses are corporations",
+          "All multinationals are businesses",
+          "All multinationals are corporations",
+          "All corporations are multinationals",
+          "Some businesses are not corporations",
+          "Some multinationals are not businesses",
+          "Some multinationals are not corporations",
+          "Some corporations are not businesses",
+          "Some corporations are not multinationals",
+          "No multinationals is a business",
+          "No multinationals is a corporation",
+          "No corporations is a business",
+          "No corporations is a multinational",
+          "No businesses is a corporation",
+          "No businesses is a multinational"
+        ]
+      },
+      {
+        "major premise": "Some economists are professors",
+        "minor premise": "All professors are scholars",
+        "conclusion": "Some scholars are professors",
+        "incorrect conclusions": [
+          "All scholars are professors",
+          "All scholars are economists",
+          "All professors are scholars",
+          "All professors are economists",
+          "All economists are professors",
+          "Some scholars are not economists",
+          "Some professors are not scholars",
+          "Some professors are not economists",
+          "Some economists are not scholars",
+          "Some economists are not professors",
+          "No professors is a scholar",
+          "No professors is an economist",
+          "No economists is a scholar",
+          "No economists is a professor",
+          "No scholars is an economist",
+          "No scholars is a professor"
+        ]
+      }
+    ]
+  }
+}

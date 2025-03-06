@@ -1,0 +1,54 @@
+{
+  "Medicine": {
+    "Darii": [
+      {
+        "major premise": "All medical researchers are scientists",
+        "minor premise": "Some immunologists are medical researchers",
+        "conclusion": "Some immunologists are scientists",
+        "incorrect conclusions": [
+          "All immunologists are medical researchers",
+          "All immunologists are scientists",
+          "All scientists are medical researchers",
+          "All scientists are immunologists",
+          "All medical researchers are immunologists",
+          "Some immunologists are not scientists",
+          "Some immunologists are not medical researchers",
+          "Some scientists are not medical researchers",
+          "Some scientists are not immunologists",
+          "Some medical researchers are not scientists",
+          "Some medical researchers are not immunologists",
+          "No immunologists is scientists",
+          "No immunologists is medical researchers",
+          "No medical researchers is scientists",
+          "No medical researchers is immunologists",
+          "No scientists is medical researchers",
+          "No scientists is immunologists"
+        ]
+      },
+      {
+        "major premise": "All patients are humans",
+        "minor premise": "Some diabetics are patients",
+        "conclusion": "Some diabetics are humans",
+        "incorrect conclusions": [
+          "All diabetics are patients",
+          "All diabetics are humans",
+          "All humans are patients",
+          "All humans are diabetics",
+          "All patients are diabetics",
+          "Some diabetics are not humans",
+          "Some diabetics are not patients",
+          "Some humans are not patients",
+          "Some humans are not diabetics",
+          "Some patients are not humans",
+          "Some patients are not diabetics",
+          "No diabetics is humans",
+          "No diabetics is patients",
+          "No patients is humans",
+          "No patients is diabetics",
+          "No humans is patients",
+          "No humans is diabetics"
+        ]
+      }
+    ]
+  }
+}

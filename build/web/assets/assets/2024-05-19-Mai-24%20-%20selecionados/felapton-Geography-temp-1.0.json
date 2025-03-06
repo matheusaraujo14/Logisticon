@@ -1,0 +1,25 @@
+{
+  "Geography": {
+    "Felapton": [
+      {
+        "major premise": "No mountains are oceans",
+        "minor premise": "All mountains are landforms and some mountains exist",
+        "conclusion": "Some landforms are not oceans",
+        "incorrect conclusions": [
+          "All landforms are oceans",
+          "All landforms are mountains",
+          "All oceans are landforms",
+          "All oceans are mountains",
+          "Some landforms are oceans",
+          "Some oceans are landforms",
+          "Some oceans are mountains",
+          "Some oceans are not landforms",
+          "Some mountains are oceans",
+          "Some mountains are not landforms",
+          "No mountains are landforms",
+          "No landforms are mountains"
+        ]
+      }
+    ]
+  }
+}

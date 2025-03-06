@@ -1,0 +1,29 @@
+{
+  "Geology": {
+    "Festino": [
+      {
+        "major premise": "No rocks are minerals",
+        "minor premise": "Some granite are minerals",
+        "conclusion": "Some granite are not rocks",
+        "incorrect conclusions": [
+          "All minerals are granite",
+          "All minerals are rocks",
+          "All granite are rocks",
+          "All rocks are minerals",
+          "All rocks are granite",
+          "Some minerals are not granite",
+          "Some rocks are granite",
+          "Some rocks are not granite",
+          "Some rocks are minerals",
+          "Some rocks are granite",
+          "Some granite are rocks",
+          "Some granite are not minerals",
+          "Some minerals are rocks",
+          "No minerals are granite",
+          "No granite is not minerals",
+          "No granite is minerals"
+        ]
+      }
+    ]
+  }
+}

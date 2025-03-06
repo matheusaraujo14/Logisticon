@@ -1,0 +1,54 @@
+{
+  "Medicine": {
+     "Celarent": [
+		{
+          "major premise": "No viruses are vaccines",
+          "minor premise": "All flu viruses are viruses",
+          "conclusion": "No flu viruses are vaccines",
+		  "incorrect conclusions": [
+			"All flu viruses are vaccines",
+			"All viruses are vaccines",
+			"Some flu viruses are viruses",
+			"Some flu viruses are vaccines",
+			"Some viruses are flu viruses",
+			"Some viruses are vaccines",
+			"Some viruses are not flu viruses",
+			"Some vaccines are flu viruses",
+			"Some vaccines are viruses"
+		  ]
+		},
+		{
+          "major premise": "No bacteria are viruses",
+          "minor premise": "All Streptococcus are bacteria",
+          "conclusion": "No Streptococcus are viruses",
+		  "incorrect conclusions": [
+			"All Streptococcus are viruses",
+			"All bacteria are viruses",
+			"Some Streptococcus are bacteria",
+			"Some Streptococcus are viruses",
+			"Some bacteria are Streptococcus",
+			"Some bacteria are viruses",
+			"Some bacteria are not Streptococcus",
+			"Some viruses are Streptococcus",
+			"Some viruses are bacteria"
+		  ]
+		},
+		{
+          "major premise": "No fungi are bacteria",
+          "minor premise": "All Penicillium are fungi",
+          "conclusion": "No Penicillium are bacteria",
+		  "incorrect conclusions": [
+			"All Penicillium are bacteria",
+			"All fungi are bacteria",
+			"Some Penicillium are fungi",
+			"Some Penicillium are bacteria",
+			"Some fungi are Penicillium",
+			"Some fungi are bacteria",
+			"Some fungi are not Penicillium",
+			"Some bacteria are Penicillium",
+			"Some bacteria are fungi"
+		  ]
+		}
+	 ]
+  }
+}

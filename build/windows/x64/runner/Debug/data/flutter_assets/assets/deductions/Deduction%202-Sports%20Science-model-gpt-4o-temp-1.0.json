@@ -1,0 +1,72 @@
+{
+  "Deduction 2": {
+    "Sports Science": [
+      {
+        "premises": [
+          "If an athlete trains consistently, then the athlete does not get injured",
+          "If an athlete trains consistently, the athlete improves their performance"
+        ],
+        "conclusions": [
+          "If an athlete trains consistently, then the athlete does not get injured and the athlete improves their performance",
+          "If an athlete trains consistently, the athlete does not get injured or the athlete improves their performance",
+          "If the athlete does not get injured, then the athlete does not train consistently",
+          "If the athlete does not improve their performance, then the athlete does not train consistently",
+          "If the athlete does not get injured or the athlete does not improve their performance, then the athlete does not train consistently"
+        ],
+        "incorrect conclusions": [
+          "If the athlete does not get injured, the athlete does not improve their performance",
+          "If the athlete does not improve their performance, the athlete does not get injured",
+          "If the athlete does not get injured, the athlete improves their performance",
+          "If the athlete improves their performance, the athlete does not get injured",
+          "If the athlete does not get injured and the athlete improves their performance, the athlete trains consistently",
+          "If the athlete does not get injured or the athlete improves their performance, the athlete trains consistently",
+          "If the athlete does not get injured or the athlete does not improve their performance, the athlete trains consistently"
+        ]
+      },
+      {
+        "premises": [
+          "If a player practices free throws, then the player does not miss easy shots",
+          "If a player practices free throws, the player scores more points"
+        ],
+        "conclusions": [
+          "If a player practices free throws, then the player does not miss easy shots and the player scores more points",
+          "If a player practices free throws, the player does not miss easy shots or the player scores more points",
+          "If the player does not miss easy shots, then the player does not practice free throws",
+          "If the player does not score more points, then the player does not practice free throws",
+          "If the player does not miss easy shots or the player does not score more points, then the player does not practice free throws"
+        ],
+        "incorrect conclusions": [
+          "If the player does not miss easy shots, the player does not score more points",
+          "If the player does not score more points, the player does not miss easy shots",
+          "If the player does not miss easy shots, the player scores more points",
+          "If the player scores more points, the player does not miss easy shots",
+          "If the player does not miss easy shots and the player scores more points, the player practices free throws",
+          "If the player does not miss easy shots or the player scores more points, the player practices free throws",
+          "If the player does not miss easy shots or the player does not score more points, the player practices free throws"
+        ]
+      },
+      {
+        "premises": [
+          "If a team has high morale, then the team does not lose often",
+          "If a team has high morale, the team communicates well"
+        ],
+        "conclusions": [
+          "If a team has high morale, then the team does not lose often and the team communicates well",
+          "If a team has high morale, the team does not lose often or the team communicates well",
+          "If the team does not lose often, then the team does not have high morale",
+          "If the team does not communicate well, then the team does not have high morale",
+          "If the team does not lose often or the team does not communicate well, then the team does not have high morale"
+        ],
+        "incorrect conclusions": [
+          "If the team does not lose often, the team does not communicate well",
+          "If the team does not communicate well, the team does not lose often",
+          "If the team does not lose often, the team communicates well",
+          "If the team communicates well, the team does not lose often",
+          "If the team does not lose often and the team communicates well, the team has high morale",
+          "If the team does not lose often or the team communicates well, the team has high morale",
+          "If the team does not lose often or the team does not communicate well, the team has high morale"
+        ]
+      }
+    ]
+  }
+}

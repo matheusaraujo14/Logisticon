@@ -1,0 +1,72 @@
+{
+  "Deduction 1": {
+    "Medicine": [
+      {
+        "premises": [
+          "If a patient has the flu, then they have a fever",
+          "If a patient has the flu, then they have a sore throat"
+        ],
+        "conclusions": [
+          "If a patient has the flu, then they have a fever and a sore throat",
+          "If a patient has the flu, then they have a fever or a sore throat",
+          "If a patient does not have a fever, then they do not have the flu",
+          "If a patient does not have a sore throat, then they do not have the flu",
+          "If a patient does not have a fever or does not have a sore throat, then they do not have the flu"
+        ],
+        "incorrect conclusions": [
+          "If a patient does not have a fever, then they do not have a sore throat",
+          "If a patient does not have a sore throat, then they do not have a fever",
+          "If a patient has a fever, then they have a sore throat",
+          "If a patient has a sore throat, then they have a fever",
+          "If a patient has a fever and a sore throat, then they have the flu",
+          "If a patient has a fever or a sore throat, then they have the flu",
+          "If a patient does not have a fever or does not have the flu, then they have the flu"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has diabetes, then they have high blood sugar",
+          "If a patient has diabetes, then they have frequent urination"
+        ],
+        "conclusions": [
+          "If a patient has diabetes, then they have high blood sugar and frequent urination",
+          "If a patient has diabetes, then they have high blood sugar or frequent urination",
+          "If a patient does not have high blood sugar, then they do not have diabetes",
+          "If a patient does not have frequent urination, then they do not have diabetes",
+          "If a patient does not have high blood sugar or does not have frequent urination, then they do not have diabetes"
+        ],
+        "incorrect conclusions": [
+          "If a patient does not have high blood sugar, then they do not have frequent urination",
+          "If a patient does not have frequent urination, then they do not have high blood sugar",
+          "If a patient has high blood sugar, then they have frequent urination",
+          "If a patient has frequent urination, then they have high blood sugar",
+          "If a patient has high blood sugar and frequent urination, then they have diabetes",
+          "If a patient has high blood sugar or frequent urination, then they have diabetes",
+          "If a patient does not have high blood sugar or does not have diabetes, then they have diabetes"
+        ]
+      },
+      {
+        "premises": [
+          "If a patient has hypertension, then they have high blood pressure",
+          "If a patient has hypertension, then they have headaches"
+        ],
+        "conclusions": [
+          "If a patient has hypertension, then they have high blood pressure and headaches",
+          "If a patient has hypertension, then they have high blood pressure or headaches",
+          "If a patient does not have high blood pressure, then they do not have hypertension",
+          "If a patient does not have headaches, then they do not have hypertension",
+          "If a patient does not have high blood pressure or does not have headaches, then they do not have hypertension"
+        ],
+        "incorrect conclusions": [
+          "If a patient does not have high blood pressure, then they do not have headaches",
+          "If a patient does not have headaches, then they do not have high blood pressure",
+          "If a patient has high blood pressure, then they have headaches",
+          "If a patient has headaches, then they have high blood pressure",
+          "If a patient has high blood pressure and headaches, then they have hypertension",
+          "If a patient has high blood pressure or headaches, then they have hypertension",
+          "If a patient does not have high blood pressure or does not have hypertension, then they have hypertension"
+        ]
+      }
+    ]
+  }
+}

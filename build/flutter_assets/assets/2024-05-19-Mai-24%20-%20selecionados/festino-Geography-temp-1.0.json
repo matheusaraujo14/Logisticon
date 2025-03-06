@@ -1,0 +1,29 @@
+{
+  "Geography": {
+     "Festino": [
+        {
+          "major premise": "No stars are rocks",
+          "minor premise": "Some planets are rocks",
+          "conclusion": "Some planets are not stars",
+          "incorrect conclusions": [
+            "All rocks are planets",
+            "All rocks are stars",
+            "All planets are stars",
+            "All stars are rocks",
+            "All stars are planets",
+            "Some rocks are not planets",
+            "Some stars are planets",
+            "Some stars are not planets",
+            "Some stars are rocks",
+            "Some stars are planets",
+            "Some planets are stars",
+            "Some planets are not rocks",
+            "Some rocks are stars",
+            "No rocks are planets",
+            "No planets are not rocks",
+            "No planets are rocks"
+          ]
+        }
+     ]
+  }
+}

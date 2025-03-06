@@ -1,0 +1,52 @@
+{
+  "Economics": {
+     "Ferison": [
+		{
+          "major premise": "No commodities are financial derivatives",
+          "minor premise": "Some commodities are agricultural products",
+          "conclusion": "Some agricultural products are not financial derivatives",
+		  "incorrect conclusions": [
+			 "All commodities are agricultural products",
+			 "All commodities are financial derivatives",
+			 "All agricultural products are financial derivatives",
+			 "All financial derivatives are commodities",
+			 "All financial derivatives are agricultural products",
+			 "Some commodities are not agricultural products",
+			 "Some financial derivatives are agricultural products",
+			 "Some financial derivatives are not agricultural products",
+			 "Some financial derivatives are commodities",
+			 "Some financial derivatives are agricultural products",
+			 "Some agricultural products are financial derivatives",
+			 "Some agricultural products are not commodities",
+			 "Some commodities are financial derivatives",
+			 "No commodities are agricultural products",
+			 "No agricultural products are not commodities",
+			 "No agricultural products are commodities"
+		  ]
+		},
+		{
+          "major premise": "No savings accounts are cryptocurrencies",
+          "minor premise": "Some savings accounts are liquid assets",
+          "conclusion": "Some liquid assets are not cryptocurrencies",
+		  "incorrect conclusions": [
+			 "All savings accounts are liquid assets",
+			 "All savings accounts are cryptocurrencies",
+			 "All liquid assets are cryptocurrencies",
+			 "All cryptocurrencies are savings accounts",
+			 "All cryptocurrencies are liquid assets",
+			 "Some savings accounts are not liquid assets",
+			 "Some cryptocurrencies are liquid assets",
+			 "Some cryptocurrencies are not liquid assets",
+			 "Some cryptocurrencies are savings accounts",
+			 "Some cryptocurrencies are liquid assets",
+			 "Some liquid assets are cryptocurrencies",
+			 "Some liquid assets are not savings accounts",
+			 "Some savings accounts are cryptocurrencies",
+			 "No savings accounts are liquid assets",
+			 "No liquid assets are not savings accounts",
+			 "No liquid assets are savings accounts"
+		  ]
+		}
+	 ]
+  }
+}

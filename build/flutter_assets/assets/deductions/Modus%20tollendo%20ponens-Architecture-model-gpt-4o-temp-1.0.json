@@ -1,0 +1,54 @@
+{
+  "Modus tollendo ponens": {
+    "Architecture": [
+      {
+        "premises": [
+          "The building has either a flat roof or a pitched roof, but not both at the same time",
+          "The building does not have a flat roof"
+        ],
+        "conclusions": [
+          "The building has a pitched roof",
+          "If the building does not have a pitched roof, then it has a flat roof"
+        ],
+        "incorrect conclusions": [
+          "The building does not have a pitched roof",
+          "If the building has a flat roof, then it has a pitched roof",
+          "If the building has a pitched roof, then it has a flat roof",
+          "The building has a flat roof"
+        ]
+      },
+      {
+        "premises": [
+          "The structure is made of either concrete or steel, but not both at the same time",
+          "The structure is not made of concrete"
+        ],
+        "conclusions": [
+          "The structure is made of steel",
+          "If the structure is not made of steel, then it is made of concrete"
+        ],
+        "incorrect conclusions": [
+          "The structure is not made of steel",
+          "If the structure is made of concrete, then it is made of steel",
+          "If the structure is made of steel, then it is made of concrete",
+          "The structure is made of concrete"
+        ]
+      },
+      {
+        "premises": [
+          "The room has either natural lighting or artificial lighting, but not both at the same time",
+          "The room does not have natural lighting"
+        ],
+        "conclusions": [
+          "The room has artificial lighting",
+          "If the room does not have artificial lighting, then it has natural lighting"
+        ],
+        "incorrect conclusions": [
+          "The room does not have artificial lighting",
+          "If the room has natural lighting, then it has artificial lighting",
+          "If the room has artificial lighting, then it has natural lighting",
+          "The room has natural lighting"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Biology": {
+    "Bocardo": [
+      {
+        "major premise": "Some fish are not amphibians",
+        "minor premise": "All fish are vertebrates",
+        "conclusion": "Some vertebrates are not amphibians",
+        "incorrect conclusions": [
+          "All fish are amphibians",
+          "All vertebrates are fish",
+          "All vertebrates are amphibians",
+          "All amphibians are not fish",
+          "Some vertebrates are not fish",
+          "Some vertebrates are amphibians",
+          "Some fish are not vertebrates",
+          "Some fish are amphibians",
+          "Some amphibians are fish",
+          "Some amphibians are vertebrates",
+          "Some amphibians are not vertebrates",
+          "Some amphibians are not fish",
+          "No fish are vertebrates",
+          "No vertebrates are fish"
+        ]
+      },
+      {
+        "major premise": "Some bacteria are not plants",
+        "minor premise": "All bacteria are microorganisms",
+        "conclusion": "Some microorganisms are not plants",
+        "incorrect conclusions": [
+          "All bacteria are plants",
+          "All microorganisms are bacteria",
+          "All microorganisms are plants",
+          "All plants are not bacteria",
+          "Some microorganisms are not bacteria",
+          "Some microorganisms are plants",
+          "Some bacteria are not microorganisms",
+          "Some bacteria are plants",
+          "Some plants are bacteria",
+          "Some plants are microorganisms",
+          "Some plants are not microorganisms",
+          "Some plants are not bacteria",
+          "No bacteria are microorganisms",
+          "No microorganisms are bacteria"
+        ]
+      }
+    ]
+  }
+}

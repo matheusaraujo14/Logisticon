@@ -1,0 +1,54 @@
+{
+  "Physics": {
+     "Barbara": [
+        {
+          "major premise": "All planets are celestial bodies",
+          "minor premise": "All Earth-like planets are planets",
+          "conclusion": "All Earth-like planets are celestial bodies",
+          "incorrect conclusions": [
+            "All celestial bodies are planets",
+            "All celestial bodies are Earth-like planets",
+            "Some Earth-like planets are planets",
+            "Some Earth-like planets are celestial bodies",
+            "Some Earth-like planets are not celestial bodies",
+            "Some Earth-like planets are not planets",
+            "Some celestial bodies are Earth-like planets",
+            "Some celestial bodies are planets",
+            "Some planets are Earth-like planets"
+          ]
+        },
+        {
+          "major premise": "All molecules are chemical substances",
+          "minor premise": "All proteins are molecules",
+          "conclusion": "All proteins are chemical substances",
+          "incorrect conclusions": [
+            "All chemical substances are molecules",
+            "All chemical substances are proteins",
+            "Some proteins are molecules",
+            "Some proteins are chemical substances",
+            "Some proteins are not chemical substances",
+            "Some proteins are not molecules",
+            "Some chemical substances are proteins",
+            "Some chemical substances are molecules",
+            "Some molecules are proteins"
+          ]
+        },
+        {
+          "major premise": "All stars are luminous celestial objects",
+          "minor premise": "All white dwarfs are stars",
+          "conclusion": "All white dwarfs are luminous celestial objects",
+          "incorrect conclusions": [
+            "All luminous celestial objects are stars",
+            "All luminous celestial objects are white dwarfs",
+            "Some white dwarfs are stars",
+            "Some white dwarfs are luminous celestial objects",
+            "Some white dwarfs are not luminous celestial objects",
+            "Some white dwarfs are not stars",
+            "Some luminous celestial objects are white dwarfs",
+            "Some luminous celestial objects are stars",
+            "Some stars are white dwarfs"
+          ]
+        }
+     ]
+  }
+}

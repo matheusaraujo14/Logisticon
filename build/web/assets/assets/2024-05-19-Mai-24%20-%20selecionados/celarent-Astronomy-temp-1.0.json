@@ -1,0 +1,22 @@
+{
+  "Astronomy": {
+    "Celarent": [
+      {
+        "major premise": "No asteroids are stars",
+        "minor premise": "All meteoroids are asteroids",
+        "conclusion": "No meteoroids are stars",
+        "incorrect conclusions": [
+          "All meteoroids are stars",
+          "All asteroids are stars",
+          "Some meteoroids are asteroids",
+          "Some meteoroids are stars",
+          "Some asteroids are meteoroids",
+          "Some asteroids are stars",
+          "Some asteroids are not meteoroids",
+          "Some stars are meteoroids",
+          "Some stars are asteroids"
+        ]
+      }
+    ]
+  }
+}

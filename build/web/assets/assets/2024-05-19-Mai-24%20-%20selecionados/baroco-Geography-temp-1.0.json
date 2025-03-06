@@ -1,0 +1,23 @@
+{
+  "Geography": {
+    "Baroco": [
+      {
+        "major premise": "All molecules are atoms",
+        "minor premise": "Some minerals are not atoms",
+        "conclusion": "Some minerals are not molecules",
+        "incorrect conclusions": [
+          "All minerals are not atoms",
+          "All minerals are molecules",
+          "All minerals are atoms",
+          "Some molecules are minerals",
+          "Some molecules are not minerals",
+          "Some molecules are not atoms",
+          "Some minerals are atoms",
+          "Some minerals are molecules",
+          "Some atoms are not molecules",
+          "Some atoms are minerals"
+        ]
+      }
+    ]
+  }
+}

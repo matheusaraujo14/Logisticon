@@ -1,0 +1,69 @@
+{
+  "Geography": {
+     "Calemes" : [
+		{
+          "major premise": "All mountains are landforms",
+          "minor premise": "No landforms are oceans",
+          "conclusion": "No oceans are mountains",
+		  "incorrect conclusions": [
+			"All landforms are oceans",
+			"All landforms are mountains",
+			"All oceans are landforms",
+			"All oceans are mountains",
+			"All mountains are oceans",
+			"Some landforms are mountains",
+			"Some landforms are not mountains",
+			"Some landforms are oceans",
+			"Some mountains are oceans",
+			"Some mountains are not landforms",
+			"Some mountains are landforms",
+			"Some oceans are landforms",
+			"Some oceans are mountains",
+			"No mountains are landforms"
+		  ]
+		},
+		{
+          "major premise": "All deserts are dry regions",
+          "minor premise": "No dry regions are rainforests",
+          "conclusion": "No rainforests are deserts",
+		  "incorrect conclusions": [
+			"All dry regions are rainforests",
+			"All dry regions are deserts",
+			"All rainforests are dry regions",
+			"All rainforests are deserts",
+			"All deserts are rainforests",
+			"Some dry regions are deserts",
+			"Some dry regions are not deserts",
+			"Some dry regions are rainforests",
+			"Some deserts are rainforests",
+			"Some deserts are not dry regions",
+			"Some deserts are dry regions",
+			"Some rainforests are dry regions",
+			"Some rainforests are deserts",
+			"No deserts are dry regions"
+		  ]
+		},
+		{
+          "major premise": "All caves are geological formations",
+          "minor premise": "No geological formations are forests",
+          "conclusion": "No forests are caves",
+		  "incorrect conclusions": [
+			"All geological formations are forests",
+			"All geological formations are caves",
+			"All forests are geological formations",
+			"All forests are caves",
+			"All caves are forests",
+			"Some geological formations are caves",
+			"Some geological formations are not caves",
+			"Some geological formations are forests",
+			"Some caves are forests",
+			"Some caves are not geological formations",
+			"Some caves are geological formations",
+			"Some forests are geological formations",
+			"Some forests are caves",
+			"No caves are geological formations"
+		  ]
+		}
+	 ]
+  }
+}

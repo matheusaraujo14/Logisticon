@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Psychology": [
+      {
+        "premises": [
+          "If someone has high self-esteem, then they feel confident",
+          "Someone does not feel confident"
+        ],
+        "conclusions": [
+          "Someone does not have high self-esteem"
+        ],
+        "incorrect conclusions": [
+          "Someone has high self-esteem",
+          "Someone has high self-esteem and feels confident",
+          "If someone feels confident, then they have high self-esteem",
+          "If someone does not feel confident, then they have high self-esteem",
+          "If someone does not have high self-esteem, then they do not feel confident"
+        ]
+      },
+      {
+        "premises": [
+          "If a person is experiencing depression, then they have a loss of interest in activities",
+          "A person does not have a loss of interest in activities"
+        ],
+        "conclusions": [
+          "A person is not experiencing depression"
+        ],
+        "incorrect conclusions": [
+          "A person is experiencing depression",
+          "A person is experiencing depression and has a loss of interest in activities",
+          "If a person has a loss of interest in activities, then they are experiencing depression",
+          "If a person does not have a loss of interest in activities, then they are experiencing depression",
+          "If a person is not experiencing depression, then they do not have a loss of interest in activities"
+        ]
+      },
+      {
+        "premises": [
+          "If someone is stressed, then they have difficulty sleeping",
+          "Someone does not have difficulty sleeping"
+        ],
+        "conclusions": [
+          "Someone is not stressed"
+        ],
+        "incorrect conclusions": [
+          "Someone is stressed",
+          "Someone is stressed and has difficulty sleeping",
+          "If someone has difficulty sleeping, then they are stressed",
+          "If someone does not have difficulty sleeping, then they are stressed",
+          "If someone is not stressed, then they do not have difficulty sleeping"
+        ]
+      }
+    ]
+  }
+}

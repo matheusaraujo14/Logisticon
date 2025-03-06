@@ -1,0 +1,54 @@
+{
+  "Modus tollens": {
+    "Law": [
+      {
+        "premises": [
+          "If a suspect has an alibi, then they are not guilty",
+          "They are guilty"
+        ],
+        "conclusions": [
+          "The suspect does not have an alibi"
+        ],
+        "incorrect conclusions": [
+          "The suspect has an alibi",
+          "The suspect has an alibi and they are not guilty",
+          "If the suspect is not guilty, then they have an alibi",
+          "If they are guilty, then they have an alibi",
+          "If the suspect does not have an alibi, then they are guilty"
+        ]
+      },
+      {
+        "premises": [
+          "If a law is unconstitutional, then it will be struck down",
+          "The law is not struck down"
+        ],
+        "conclusions": [
+          "The law is not unconstitutional"
+        ],
+        "incorrect conclusions": [
+          "The law is unconstitutional",
+          "The law is unconstitutional and it will be struck down",
+          "If the law is struck down, then it is unconstitutional",
+          "If it is not struck down, then it is unconstitutional",
+          "If the law is not unconstitutional, then it will not be struck down"
+        ]
+      },
+      {
+        "premises": [
+          "If a contract is signed under duress, then it is void",
+          "The contract is not void"
+        ],
+        "conclusions": [
+          "The contract was not signed under duress"
+        ],
+        "incorrect conclusions": [
+          "The contract was signed under duress",
+          "The contract was signed under duress and it is void",
+          "If the contract is void, then it was signed under duress",
+          "If the contract is not void, then it was signed under duress",
+          "If the contract was not signed under duress, then it is not void"
+        ]
+      }
+    ]
+  }
+}

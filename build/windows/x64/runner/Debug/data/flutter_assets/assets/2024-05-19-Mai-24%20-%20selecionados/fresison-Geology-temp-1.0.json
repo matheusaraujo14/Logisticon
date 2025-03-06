@@ -1,0 +1,75 @@
+{
+  "Geology": {
+    "Fresison": [
+      {
+        "major premise": "No quartz are feldspar",
+        "minor premise": "Some feldspar are silicates",
+        "conclusion": "Some silicates are not quartz",
+        "incorrect conclusions": [
+          "All feldspar are silicates",
+          "All feldspar are quartz",
+          "All silicates are quartz",
+          "All quartz are feldspar",
+          "All quartz are silicates",
+          "Some feldspar are not silicates",
+          "Some quartz are silicates",
+          "Some quartz are not silicates",
+          "Some quartz are feldspar",
+          "Some quartz are silicates",
+          "Some silicates are quartz",
+          "Some silicates are not feldspar",
+          "Some feldspar are quartz",
+          "No feldspar are silicates",
+          "No silicates are not feldspar",
+          "No silicates are feldspar"
+        ]
+      },
+      {
+        "major premise": "No sandstones are basalts",
+        "minor premise": "Some basalts are igneous rocks",
+        "conclusion": "Some igneous rocks are not sandstones",
+        "incorrect conclusions": [
+          "All basalts are igneous rocks",
+          "All basalts are sandstones",
+          "All igneous rocks are sandstones",
+          "All sandstones are basalts",
+          "All sandstones are igneous rocks",
+          "Some basalts are not igneous rocks",
+          "Some sandstones are igneous rocks",
+          "Some sandstones are not igneous rocks",
+          "Some sandstones are basalts",
+          "Some sandstones are igneous rocks",
+          "Some igneous rocks are sandstones",
+          "Some igneous rocks are not basalts",
+          "Some basalts are sandstones",
+          "No basalts are igneous rocks",
+          "No igneous rocks are not basalts",
+          "No igneous rocks are basalts"
+        ]
+      },
+      {
+        "major premise": "No granites are marbles",
+        "minor premise": "Some marbles are metamorphic rocks",
+        "conclusion": "Some metamorphic rocks are not granites",
+        "incorrect conclusions": [
+          "All marbles are metamorphic rocks",
+          "All marbles are granites",
+          "All metamorphic rocks are granites",
+          "All granites are marbles",
+          "All granites are metamorphic rocks",
+          "Some marbles are not metamorphic rocks",
+          "Some granites are metamorphic rocks",
+          "Some granites are not metamorphic rocks",
+          "Some granites are marbles",
+          "Some granites are metamorphic rocks",
+          "Some metamorphic rocks are granites",
+          "Some metamorphic rocks are not marbles",
+          "Some marbles are granites",
+          "No marbles are metamorphic rocks",
+          "No metamorphic rocks are not marbles",
+          "No metamorphic rocks are marbles"
+        ]
+      }
+    ]
+  }
+}

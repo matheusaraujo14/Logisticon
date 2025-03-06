@@ -1,0 +1,23 @@
+{
+  "Physics": {
+     "Baroco" : [
+		{
+          "major premise": "All photons are bosons",
+          "minor premise": "Some electrons are not bosons",
+          "conclusion": "Some electrons are not photons",
+		  "incorrect conclusions": [
+			"All electrons are not bosons",
+			"All electrons are photons",
+			"All electrons are bosons",
+			"Some bosons are electrons",
+			"Some bosons are not electrons",
+			"Some bosons are not bosons",
+			"Some electrons are bosons",
+			"Some electrons are photons",
+			"Some bosons are not photons",
+			"Some bosons are electrons"
+		  ]
+		}
+	 ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "Astronomy": {
+    "Calemes": [
+      {
+        "major premise": "All stars are celestial objects",
+        "minor premise": "No celestial objects are black holes",
+        "conclusion": "No black hole is a star",
+        "incorrect conclusions": [
+          "All celestial objects are stars",
+          "All celestial objects are black holes",
+          "All black holes are celestial objects",
+          "All black holes are stars",
+          "All stars are black holes",
+          "Some celestial objects are stars",
+          "Some celestial objects are not stars",
+          "Some celestial objects are black holes",
+          "Some stars are black holes",
+          "Some stars are not celestial objects",
+          "Some stars are celestial objects",
+          "Some black holes are celestial objects",
+          "Some black holes are stars",
+          "No stars are celestial objects"
+        ]
+      },
+      {
+        "major premise": "All planets are celestial objects",
+        "minor premise": "No celestial objects are asteroids",
+        "conclusion": "No asteroid is a planet",
+        "incorrect conclusions": [
+          "All celestial objects are planets",
+          "All celestial objects are asteroids",
+          "All asteroids are celestial objects",
+          "All asteroids are planets",
+          "All planets are asteroids",
+          "Some celestial objects are planets",
+          "Some celestial objects are not planets",
+          "Some celestial objects are asteroids",
+          "Some planets are asteroids",
+          "Some planets are not celestial objects",
+          "Some planets are celestial objects",
+          "Some asteroids are celestial objects",
+          "Some asteroids are planets",
+          "No planets are celestial objects"
+        ]
+      },
+      {
+        "major premise": "All moons are natural satellites",
+        "minor premise": "No natural satellites are comets",
+        "conclusion": "No comet is a moon",
+        "incorrect conclusions": [
+          "All natural satellites are moons",
+          "All natural satellites are comets",
+          "All comets are natural satellites",
+          "All comets are moons",
+          "All moons are comets",
+          "Some natural satellites are moons",
+          "Some natural satellites are not moons",
+          "Some natural satellites are comets",
+          "Some moons are comets",
+          "Some moons are not natural satellites",
+          "Some moons are natural satellites",
+          "Some comets are natural satellites",
+          "Some comets are moons",
+          "No moons are natural satellites"
+        ]
+      }
+    ]
+  }
+}

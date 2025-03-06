@@ -1,0 +1,52 @@
+{
+  "Ecology": {
+     "Disamis": [
+        {
+          "major premise": "Some mammals are carnivores",
+          "minor premise": "All mammals are animals",
+          "conclusion": "Some animals are carnivores",
+          "incorrect conclusions": [
+            "All animals are carnivores",
+            "All animals are mammals",
+            "All carnivores are animals",
+            "All carnivores are mammals",
+            "All mammals are carnivores",
+            "Some animals are not mammals",
+            "Some carnivores are not animals",
+            "Some carnivores are not mammals",
+            "Some mammals are not animals",
+            "Some mammals are not carnivores",
+            "No carnivore is an animal",
+            "No carnivore is a mammal",
+            "No mammal is an animal",
+            "No mammal is a carnivore",
+            "No animal is a mammal",
+            "No animal is a carnivore"
+          ]
+        },
+        {
+          "major premise": "Some birds are predators",
+          "minor premise": "All birds are animals",
+          "conclusion": "Some animals are predators",
+          "incorrect conclusions": [
+            "All animals are predators",
+            "All animals are birds",
+            "All predators are animals",
+            "All predators are birds",
+            "All birds are predators",
+            "Some animals are not birds",
+            "Some predators are not animals",
+            "Some predators are not birds",
+            "Some birds are not animals",
+            "Some birds are not predators",
+            "No predator is an animal",
+            "No predator is a bird",
+            "No bird is an animal",
+            "No bird is a predator",
+            "No animal is a bird",
+            "No animal is a predator"
+          ]
+        }
+     ]
+  }
+}

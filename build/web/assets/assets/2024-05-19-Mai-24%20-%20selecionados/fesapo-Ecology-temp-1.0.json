@@ -1,0 +1,63 @@
+{
+  "Ecology": {
+     "Fesapo" : [
+        {
+          "major premise": "No tigers are whales",
+          "minor premise": "All whales are mammals and some whales exist",
+          "conclusion": "Some mammals are not tigers",
+          "incorrect conclusions": [
+            "All mammals are tigers",
+            "All mammals are whales",
+            "All tigers are mammals",
+            "All tigers are whales",
+            "Some mammals are tigers",
+            "Some tigers are mammals",
+            "Some tigers are whales",
+            "Some tigers are not mammals",
+            "Some whales are tigers",
+            "Some whales are not mammals",
+            "No whales are mammals",
+            "No mammals are whales"
+          ]
+        },
+        {
+          "major premise": "No eagles are lions",
+          "minor premise": "All lions are animals and some lions exist",
+          "conclusion": "Some animals are not eagles",
+          "incorrect conclusions": [
+            "All animals are eagles",
+            "All animals are lions",
+            "All eagles are animals",
+            "All eagles are lions",
+            "Some animals are eagles",
+            "Some eagles are animals",
+            "Some eagles are lions",
+            "Some eagles are not animals",
+            "Some lions are eagles",
+            "Some lions are not animals",
+            "No lions are animals",
+            "No animals are lions"
+          ]
+        },
+        {
+          "major premise": "No dolphins are owls",
+          "minor premise": "All owls are birds and some owls exist",
+          "conclusion": "Some birds are not dolphins",
+          "incorrect conclusions": [
+            "All birds are dolphins",
+            "All birds are owls",
+            "All dolphins are birds",
+            "All dolphins are owls",
+            "Some birds are dolphins",
+            "Some dolphins are birds",
+            "Some dolphins are owls",
+            "Some dolphins are not birds",
+            "Some owls are dolphins",
+            "Some owls are not birds",
+            "No owls are birds",
+            "No birds are owls"
+          ]
+        }
+     ]
+  }
+}

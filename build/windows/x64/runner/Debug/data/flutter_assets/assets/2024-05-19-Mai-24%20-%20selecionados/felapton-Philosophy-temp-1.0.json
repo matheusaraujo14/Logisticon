@@ -1,0 +1,63 @@
+{
+  "Philosophy": {
+    "Felapton": [
+      {
+        "major premise": "No metaphysical thoughts are empirical observations",
+        "minor premise": "All metaphysical thoughts are philosophical ideas and some metaphysical thoughts exist",
+        "conclusion": "Some philosophical ideas are not empirical observations",
+        "incorrect conclusions": [
+          "All philosophical ideas are empirical observations",
+          "All philosophical ideas are metaphysical thoughts",
+          "All empirical observations are philosophical ideas",
+          "All empirical observations are metaphysical thoughts",
+          "Some philosophical ideas are empirical observations",
+          "Some empirical observations are philosophical ideas",
+          "Some empirical observations are metaphysical thoughts",
+          "Some empirical observations are not philosophical ideas",
+          "Some metaphysical thoughts are empirical observations",
+          "Some metaphysical thoughts are not philosophical ideas",
+          "No metaphysical thoughts are philosophical ideas",
+          "No philosophical ideas are metaphysical thoughts"
+        ]
+      },
+      {
+        "major premise": "No logic theorems are empirical facts",
+        "minor premise": "All logic theorems are argumentative processes and some logic theorems exist",
+        "conclusion": "Some argumentative processes are not empirical facts",
+        "incorrect conclusions": [
+          "All argumentative processes are empirical facts",
+          "All argumentative processes are logic theorems",
+          "All empirical facts are argumentative processes",
+          "All empirical facts are logic theorems",
+          "Some argumentative processes are empirical facts",
+          "Some empirical facts are argumentative processes",
+          "Some empirical facts are logic theorems",
+          "Some empirical facts are not argumentative processes",
+          "Some logic theorems are empirical facts",
+          "Some logic theorems are not argumentative processes",
+          "No logic theorems are argumentative processes",
+          "No argumentative processes are logic theorems"
+        ]
+      },
+      {
+        "major premise": "No ethical principles are scientific experiments",
+        "minor premise": "All ethical principles are moral guidelines and some ethical principles exist",
+        "conclusion": "Some moral guidelines are not scientific experiments",
+        "incorrect conclusions": [
+          "All moral guidelines are scientific experiments",
+          "All moral guidelines are ethical principles",
+          "All scientific experiments are moral guidelines",
+          "All scientific experiments are ethical principles",
+          "Some moral guidelines are scientific experiments",
+          "Some scientific experiments are moral guidelines",
+          "Some scientific experiments are ethical principles",
+          "Some scientific experiments are not moral guidelines",
+          "Some ethical principles are scientific experiments",
+          "Some ethical principles are not moral guidelines",
+          "No ethical principles are moral guidelines",
+          "No moral guidelines are ethical principles"
+        ]
+      }
+    ]
+  }
+}

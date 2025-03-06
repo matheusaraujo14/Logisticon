@@ -1,0 +1,54 @@
+{
+  "Biology": {
+    "Camestres": [
+      {
+        "major premise": "All primates are mammals",
+        "minor premise": "No birds are mammals",
+        "conclusion": "No birds are primates",
+        "incorrect conclusions": [
+          "All primates are birds",
+          "All mammals are birds",
+          "Some primates are mammals",
+          "Some primates are birds",
+          "Some mammals are birds",
+          "Some mammals are primates",
+          "Some birds are mammals",
+          "Some birds are primates",
+          "Some mammals are not primates"
+        ]
+      },
+      {
+        "major premise": "All frogs are amphibians",
+        "minor premise": "No reptiles are amphibians",
+        "conclusion": "No reptiles are frogs",
+        "incorrect conclusions": [
+          "All frogs are reptiles",
+          "All amphibians are reptiles",
+          "Some frogs are amphibians",
+          "Some frogs are reptiles",
+          "Some amphibians are reptiles",
+          "Some amphibians are frogs",
+          "Some reptiles are amphibians",
+          "Some reptiles are frogs",
+          "Some amphibians are not frogs"
+        ]
+      },
+      {
+        "major premise": "All whales are mammals",
+        "minor premise": "No fish are mammals",
+        "conclusion": "No fish are whales",
+        "incorrect conclusions": [
+          "All whales are fish",
+          "All mammals are fish",
+          "Some whales are mammals",
+          "Some whales are fish",
+          "Some mammals are fish",
+          "Some mammals are whales",
+          "Some fish are mammals",
+          "Some fish are whales",
+          "Some mammals are not whales"
+        ]
+      }
+    ]
+  }
+}
